@@ -1,3 +1,4 @@
+import NotFound from "@/app/not-found";
 import CategoriesPage from "@/pages/our-approach/CategoriesPage";
 
 async function getData(category:any) {
@@ -23,7 +24,7 @@ export async function generateMetadata({ params }: any) {
   const data = await getData(category);
 
   if (!data) {
-    return "not found"; // or import a not found compoent
+    return <NotFound />;
   }
   const { pageTitle, pageDescription } = data;
 
@@ -37,6 +38,9 @@ const page = async ({ params }: any) => {
 
   const category = params.category;
   const data = await getData(category);
+  if (!data) {
+    return <NotFound />;
+  }
 
   return (
     <>
