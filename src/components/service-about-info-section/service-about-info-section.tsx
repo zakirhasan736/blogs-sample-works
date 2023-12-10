@@ -1,0 +1,62 @@
+import Button from '../elements/button/button';
+import {Image} from '@packages/packages';
+
+const ServiceAboutInfoSection = () => {
+  return (
+		<section className="services-about-info-section pt-[100px] pb-[140px] sm:pb-[52px] sm:pt-[55px]">
+			<div className="custom-container">
+				<div className="service-about-info-wrapper">
+					<div className="service-section-title-box mb-20 sm:mb-[30px]">
+						<h2 className="service-sec-title text-[65px] text-left text-primary font-bold font-primary leading-none capitalize sm:text-[34px] sm:tracking-[1.02px]">
+							Particular Approach to SEO
+						</h2>
+					</div>
+					<div className="service-about-info-content-text-box grid grid-cols-16  relative laptop-x:gap-14 sm:gap-0">
+						<div className="col-span-8 sm:col-span-full">
+							<div className="service-info-section-modal-image hidden laptop-x:block sm:hidden h-[731px] laptop-x:relative laptop-x:h-auto absolute top-0 left-0 sm:w-full sm:h-[328px] sm:max-w-[450px] sm:mx-auto sm:relative sm:mt-[50px]">
+								<Image
+									className="w-full h-full"
+									src="/images/service-about-info-sec-img.png"
+									width={847}
+									height={731}
+									alt="services info section modal image"
+								/>
+							</div>
+						</div>
+						<div className="col-span-8 sm:col-span-full">
+							<div className="services-about-inf-text-cont pt-[58px] laptop-x:pt-0 h-[731px] laptop-x:h-auto sm:h-auto sm:pt-0 relative z-50">
+								<p className="services-about-info-desc mb-[15px] text-[32px] laptop-x:text-[26px] text-left text-primary font-primary font-semibold leading-normal sm:text-[13px]">
+									Optimisation in your search engine efforts comes from
+									understanding - what to assess, where to place your efforts
+									and how to make an impact. Impact looks like increased,
+									qualified search traffic.
+								</p>
+								<p className="services-about-info-desc text-[32px] laptop-x:text-[26px] text-left text-primary font-primary font-normal leading-normal sm:text-[13px]">
+									As of 2022, there are more than 99,000 Google searches per
+									second. Think of each search as a little piece of metal. Good
+									SEO is like strengthening your magnet and then making it more
+									favourable to the metals you love most to have.
+								</p>
+								<Button
+									btnText="Get in touch"
+									btnVariant="primary-button services-about-button mt-[130px] sm:hidden sm:mt-16"
+								/>
+							</div>
+							<div className="service-info-section-modal-image h-[731px] laptop-x:hidden absolute top-0 left-0 sm:w-full sm:h-[328px] sm:max-w-[450px] sm:mx-auto sm:block sm:relative sm:mt-[50px]">
+								<Image
+									className="w-full h-full"
+									src="/images/service-about-info-sec-img.png"
+									width={847}
+									height={731}
+									alt="services info section modal image"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	);
+}
+
+export default ServiceAboutInfoSection

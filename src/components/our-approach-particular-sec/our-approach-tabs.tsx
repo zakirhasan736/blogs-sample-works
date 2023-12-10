@@ -1,0 +1,155 @@
+"use client";
+import React, { useEffect, useRef, useState } from 'react';
+import Button from '@/components/elements/button/button';
+
+interface TabData {
+  id: string;
+  title: string;
+  content: {
+    beforeList: string[];
+    lists: string[];
+    afterList: string[];
+  };
+}
+
+const OurApproachTabs: React.FC<{ data: TabData[] }> = ({ data }) => {
+  const [activeTab, setActiveTab] = useState<string | null>(null);
+
+  const allLinksRef = useRef<NodeListOf<HTMLAnchorElement> | null>(null);
+  const allTabsRef = useRef<NodeListOf<HTMLElement> | null>(null);
+  const activeTabRef = useRef<HTMLElement | null>(null);
+
+  useEffect(() => {
+    const allLinks: NodeListOf<HTMLAnchorElement> = document.querySelectorAll('.tabs a');
+    const allTabs: NodeListOf<HTMLElement> = document.querySelectorAll('.tab-content');
+
+    allLinksRef.current = allLinks;
+    allTabsRef.current = allTabs;
+
+    const shiftTabs = (linkId: string) => {
+      allTabs.forEach((tab, i) => {
+        const isActiveTab = tab.id.includes(linkId);
+        let translateYValue = 0;
+
+        if (isActiveTab) {
+          translateYValue = 0; // Current tab
+        } else if (i < allTabs.length - 1 && allTabs[i + 1].id.includes(linkId)) {
+          translateYValue = 100; // Next tab
+        } else {
+          translateYValue = -100; // Previous tab
+        }
+
+        tab.style.transform = `translateY(${translateYValue}%)`;
+      });
+    };
+
+    const handleTabClick = (elem: HTMLAnchorElement) => {
+      const linkId = elem.id;
+
+      allLinks.forEach((link) => {
+        const isCurrentTab = link === elem;
+        link.classList.toggle('active', isCurrentTab);
+
+        const container = link.closest('.our-approad-tabs-items');
+        if (container) {
+          container.classList.toggle('active', isCurrentTab);
+        }
+      });
+
+      if (activeTabRef.current) {
+        activeTabRef.current.classList.remove('active-tab-content');
+      }
+
+      shiftTabs(linkId);
+
+      const newActiveTab = document.getElementById(`${linkId}-content`);
+      if (newActiveTab) {
+        newActiveTab.classList.add('active-tab-content');
+        activeTabRef.current = newActiveTab;
+        setActiveTab(linkId);
+      }
+    };
+
+    const defaultTab = allLinks[0];
+    if (defaultTab) {
+      defaultTab.classList.add('active');
+      shiftTabs(defaultTab.id);
+      activeTabRef.current = document.getElementById(`${defaultTab.id}-content`);
+      if (activeTabRef.current) {
+        activeTabRef.current.classList.add('active-tab-content');
+        setActiveTab(defaultTab.id);
+      }
+    }
+
+    // Add transition property to tab-content elements for smooth transitions
+    allTabs.forEach((tab) => {
+      tab.style.transition = 'transform 0.3s ease-in-out'; // Adjust the duration and timing function as needed
+    });
+
+    allLinks.forEach((elem) => {
+      elem.addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent the default behavior of anchor links
+        handleTabClick(elem);
+      });
+    });
+  }, []);
+
+  return (
+    <div className="our-approach-tabs-sceens-page bg-[#D9D9D9] pt-8 pr-[57px] pb-[51px] pl-5 rounded-[12px] flex items-start gap-0 overflow-hidden tabs-container">
+      <div className="our-approach-tabs-screen-left-cont pr-8 flex flex-col gap-3 w-full max-w-[360px] tabs">
+        {data.map((tab) => (
+          <a
+            key={tab.id}
+            id={tab.id}
+            title={tab.title}
+            className={`our-approad-tabs-items text-text-medium-4 text-left text-[#191919] font-primary font-semibold leading-none px-5 py-[43px] bg-tranparent ${
+              tab.id === activeTab ? 'active' : ''
+            } rounded-[16px] max-w-[336px] h-[117px] w-full`}
+          >
+            {tab.title}
+          </a>
+        ))}
+      </div>
+      <div className="our-approach-tabs-screen-right-cont pl-5 border-l border-l-neu-black w-full">
+        {data.map((tab) => (
+          <div
+            key={tab.id}
+            className={`our-approach-tabs-deails-info-box tab-content ${
+              tab.id === activeTab ? 'active-tab-content' : ''
+            }`}
+            id={`${tab.id}-content`}
+          >
+            <div className="our-approach-tabs-info-text-cont  pt-8 ">
+              <h5 className="tabs-details-info-title mb-[18px] font-primary font-semibold leading-none text-left text-neu-black text-text-accend-3">
+                {tab.title}
+              </h5>
+              {tab.content.beforeList.map((paragraph, index) => (
+                <p key={index} className="text-text-medium-4 text-left text-neu-black font-primary font-medium leading-normal mb-4">
+                  {paragraph}
+                </p>
+              ))}
+              <ul className="tabs-details-info-item ml-5">
+                {tab.content.lists.map((listItem, index) => (
+                  <li key={index} className="tabs-details-info-list list-disc text-text-medium-4 text-left text-neu-black font-primary font-medium leading-normal">
+                    {listItem}
+                  </li>
+                ))}
+              </ul>
+              {tab.content.afterList.map((paragraph, index) => (
+                <p key={index} className="text-text-medium-4 text-left text-neu-black font-primary font-medium leading-normal mb-4">
+                  {paragraph}
+                </p>
+              ))}
+              <Button
+                btnText="Learn More"
+                btnVariant="primary-button max-w-[172px] text-[24px] shadow-box-shadow-primary whitespace-nowrap mt-[30px] ml-auto"
+              />
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default OurApproachTabs;
