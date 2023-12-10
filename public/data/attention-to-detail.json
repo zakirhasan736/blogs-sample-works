@@ -1,0 +1,22 @@
+{
+  "pageTitle": "ddddd",
+  "pageDescription": "eee",
+  "bannerData": {
+    "subHeading": "Attention to detail",
+    "title": " in quality to deliver for a purpose.",
+    "description": "Our gift is observation. It just so happens that we’re a marketing agency.",
+    "isColorText": true,
+    "colorText": "Lead with detail"
+  },
+  "titleData": {
+    "title": "Our Approach at ",
+    "colorText": "Particular",
+    "isColorText": true,
+    "subtitle": [
+      "We encourage Scrutiny and questioning.",
+      "Then redesign and polishing. And then more questioning. And more polishing."
+    ],
+    "description": "This meticulous approach is in both why and how we innovate on the services offered at Particular. We turn the data we get from our better-delivery approach in data-based marketing solutions. London and beyond.",
+    "classNames": "mb-[136px]"
+  }
+}
