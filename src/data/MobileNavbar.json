@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Home",
+        "path": "/"
+    },
+    {
+        "name": "Case Studies",
+        "path": "/case-studies",
+        "dropdownItems": [
+            {
+                "name": "Approach",
+                "path": "/case-studies/approach"
+            },
+            {
+                "name": "Example 1",
+                "path": "/case-studies/example-1"
+            },
+            {
+                "name": "Example 2",
+                "path": "/case-studies/example-2"
+            }
+        ]
+    },
+    {
+        "name": "Services",
+        "path": "/services",
+        "dropdownItems": [
+            {
+                "name": "Service 1",
+                "path": "/services/service-1"
+            },
+            {
+                "name": "Service 2",
+                "path": "/services/service-2"
+            }
+        ]
+    },
+    {
+        "name": "Our Approach",
+        "path": "/our-approach",
+        "dropdownItems": [
+            {
+                "name": "Service 1",
+                "path": "/services/service-1"
+            },
+            {
+                "name": "Service 2",
+                "path": "/services/service-2"
+            }
+        ]
+    },
+    {
+        "name": "Features",
+        "path": "/features",
+        "dropdownItems": [
+            {
+                "name": "Feature 1",
+                "path": "/features/feature-1"
+            },
+            {
+                "name": "Feature 2",
+                "path": "/features/feature-2"
+            }
+        ]
+    }
+]

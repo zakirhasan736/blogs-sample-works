@@ -1,0 +1,107 @@
+{
+    "ServiceMenuItems": [
+        {
+            "title": "SEO",
+            "path": "/seo",
+            "subItems": [
+                {
+                    "title": "Local SEO",
+                    "path": "/zanbase/web-design"
+                },
+                {
+                    "title": "SEO Audit",
+                    "path": "/zanbase/branding"
+                },
+                {
+                    "title": "Copywrite",
+                    "path": "/zanbase/branding"
+                }
+            ]
+        },
+        {
+            "title": "Social Media",
+            "path": "/ai-humanity",
+            "subItems": [
+                {
+                    "title": "Branding",
+                    "path": "/ai-humanity/branding"
+                },
+                {
+                    "title": "Visual Media",
+                    "path": "/ai-humanity/visual-media"
+                }
+            ]
+        },
+        {
+            "title": "PPC",
+            "path": "/hult-ib-school",
+            "subItems": [
+                {
+                    "title": "Display Advertising",
+                    "path": "/hult-ib-school/web-design"
+                },
+                {
+                    "title": "PPC",
+                    "path": "/hult-ib-school/ppc"
+                }
+            ]
+        },
+        {
+            "title": "Branding",
+            "path": "/village-of-genal",
+            "subItems": [
+                {
+                    "title": "Branding",
+                    "path": "/village-of-genal/branding"
+                },
+                {
+                    "title": "Visual Media",
+                    "path": "/village-of-genal/visual-media"
+                }
+            ]
+        },
+        {
+            "title": "Web Design & Development",
+            "path": "/knights-academy",
+            "subItems": [
+                {
+                    "title": "Web Design",
+                    "path": "/knights-academy/web-design"
+                },
+                {
+                    "title": "Web Development",
+                    "path": "/knights-academy/web-development"
+                }
+            ]
+        },
+        {
+            "title": "Visual Media",
+            "path": "/naeo",
+            "subItems": [
+                {
+                    "title": "Web Design",
+                    "path": "/naeo/web-design"
+                },
+                {
+                    "title": "Visual Media",
+                    "path": "/naeo/visual-media"
+                }
+            ]
+        }
+    ],
+    "ServiceFooterItems": [
+        {
+            "title": "Book a Call",
+            "path": "/book-a-call"
+        },
+        {
+            "title": "Send an Email",
+            "path": "/send-email"
+        },
+        {
+            "title": "FAQ’s",
+            "path": "/faqs"
+        }
+    ],
+    "ServiceMegaMenuClass": "services-mega-menu"
+}

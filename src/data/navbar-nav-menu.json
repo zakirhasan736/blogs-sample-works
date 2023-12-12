@@ -1,0 +1,82 @@
+[
+    {
+        "title": "Home",
+        "link": "/"
+    },
+    {
+        "title": "Case Studies",
+        "link": "/case-studies",
+        "submenu": [
+            {
+                "title": "Case Study 1",
+                "link": "/case-studies/1",
+                "submenu": [
+                    {
+                        "title": "Section 1",
+                        "link": "/case-studies/1/section-1"
+                    },
+                    {
+                        "title": "Section 2",
+                        "link": "/case-studies/1/section-2"
+                    }
+                ]
+            },
+            {
+                "title": "Case Study 2",
+                "link": "/case-studies/2",
+                "submenu": [
+                    {
+                        "title": "Section 1",
+                        "link": "/case-studies/2/section-1"
+                    },
+                    {
+                        "title": "Section 2",
+                        "link": "/case-studies/2/section-2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Services",
+        "link": "/services",
+        "submenu": [
+            {
+                "title": "Service 1",
+                "link": "/services/1"
+            },
+            {
+                "title": "Service 2",
+                "link": "/services/2"
+            }
+        ]
+    },
+    {
+        "title": "Our Approach",
+        "link": "/our-approach",
+        "submenu": [
+            {
+                "title": "Approach 1",
+                "link": "/our-approach/1"
+            },
+            {
+                "title": "Approach 2",
+                "link": "/our-approach/2"
+            }
+        ]
+    },
+    {
+        "title": "Features",
+        "link": "/features",
+        "submenu": [
+            {
+                "title": "Feature 1",
+                "link": "/features/1"
+            },
+            {
+                "title": "Feature 2",
+                "link": "/features/2"
+            }
+        ]
+    }
+]

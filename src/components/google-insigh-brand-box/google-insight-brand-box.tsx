@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const GoogleInsightBrandBox = () => {
   return (
-		<div className="google-insight-brand-box-section py-[115px] sm:py-10">
+		<div className="google-insight-brand-box-section py-[115px] sm:py-10 bg-[#232323]">
 			<div className="custom-container">
 				<div className="google-insight-brand-box-wrapper text-center flex items-center justify-center flex-col">
 					<Image
@@ -12,7 +12,7 @@ const GoogleInsightBrandBox = () => {
 						width={160}
 						height={160}
 					/>
-					<h2 className="google-insight-brand-box-title text-fourth-heading text-center text-primary font-primary font-medium leading-none capitalize sm:text-[26px] mt-[50px] sm:mt-4">
+					<h2 className="google-insight-brand-box-title text-[58px] text-center text-primary font-primary font-medium leading-none capitalize sm:text-[26px] mt-[50px] sm:mt-4">
 						<span className="anim-typing-text text-secondary-2">
 							Particular
 						</span>{" "}

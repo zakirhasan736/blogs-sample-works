@@ -3,26 +3,36 @@ import {Image} from "@packages/packages"
 
 const AboutSection = () => {
   return (
-    <section className="about-section pb-[120px] pt-[75px]">
-        <div className="custom-container">
-            <div className="about-wrapper-main grid grid-cols-16 gap-5 px-[37px]">
-                <div className="about-wrapper-left-cont col-span-10">
-                    <div className="about-modal-text">
-                        <p className="about-anim-text animate-text text-primary-heading-6 text-left text-neu-gray-black font-primary font-semibold leading-none shadow-text-shadow-primary uppercase max-w-[895px]">
-                        PARTICULAR: THE LONDON DIGITAL AGENCY FOR PEOPLE-FIRST MARKETING.
-                        </p>
-                    </div>
-                    <Button btnText="Our Services" btnVariant="primary-button banner-button mt-[109px]" />
-                </div>
-                <div className="about-wrapper-right-cont col-span-6">
-                    <div className="about-our-service-modal">
-                        <Image src="/images/home-services-sec-modal-img.png" width={553} height={645} alt="service modal image" className="about-our-modal-img" />
-                    </div>
-                </div>
-            </div>
-        </div>
-      </section>
-  )
+		<section className="about-section pb-[120px] pt-[75px]  overflow-hidden">
+			<div className="custom-container">
+				<div className="about-wrapper-main grid grid-cols-16 gap-5 px-[37px] sm:flex sm:flex-col">
+					<div className="about-wrapper-left-cont col-span-10">
+						<div className="about-modal-text">
+							<p className="about-anim-text animate-text text-[78px] text-left text-neu-gray-black font-primary font-semibold leading-none shadow-text-shadow-primary uppercase max-w-[895px] sm:text-[30px]">
+								PARTICULAR: THE LONDON DIGITAL AGENCY FOR PEOPLE-FIRST
+								MARKETING.
+							</p>
+						</div>
+						<Button
+							btnText="Our Services"
+							btnVariant="primary-button banner-button mt-[109px]"
+						/>
+					</div>
+					<div className="about-wrapper-right-cont col-span-6">
+						<div className="about-our-service-modal">
+							<Image
+								src="/images/home-services-sec-modal-img.png"
+								width={553}
+								height={645}
+								alt="service modal image"
+								className="about-our-modal-img"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	);
 }
 
 export default AboutSection

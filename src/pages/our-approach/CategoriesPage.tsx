@@ -1,17 +1,40 @@
 import BannerVarientTwo from "@/components/common/banner/banner-varient-2";
 import SectionTitleBoxTwo from "@/components/common/sec-common-title-box/section-title-box-two";
+import SlugList from "@/components/common/slug-names/slugs-name";
 import OurStatics from "@/components/our-statics/our-statics";
+import ThoughtDivisionInfoList from "@/components/thought-division-details/ThoughtDivisionInfoList";
+interface CategoryPageProps {
+  data: {
+    bannerData: any; // Define the type for bannerData
+    titleData: any; // Define the type for titleData
+    slugs: string[]; // Define the type for slugs
+    ThoughtDivisionData: { // Define the type for items
+      detailsinfo_title: string;
+      detailsinfo_description: string;
+      infoList?: string[];
+    }[];
+    DivisionData: {
+      modalScrollText?: string;
+      thoughtDivisionTitle?: string;
+      thoughtDivisionSubtitle?: string;
+    };
+    staticsItems: {
+    title?: string;
+  description?: string;
+}
+  };
+}
+const CategoriesPage: React.FC<CategoryPageProps> = ({ data }) => {
+  const { bannerData, titleData, slugs, ThoughtDivisionData, DivisionData, staticsItems} = data;
 
-const CategoriesPage = ({ data }: any) => {
-  const { bannerData, titleData } = data;
   return (
     <div className="our-thought-division-main-wrapper">
       {/* thought division banner */}
       <BannerVarientTwo data={bannerData} />
       {/* thought division banner */}
-      <div className="our-thought-division-main-wrapper-cont pt-[184px]">
+      <div className="our-thought-division-main-wrapper-cont pt-[120px]">
         <div className="custom-container">
-          <div className="our-thought-division-section-box">
+          <div className="our-thought-division-section-box mb-[120px]">
             <SectionTitleBoxTwo {...titleData} />
           </div>
         </div>
@@ -19,78 +42,18 @@ const CategoriesPage = ({ data }: any) => {
         <section className="thought-division-details-section bg-neu-gray-black-2 pb-[169px] pt-[126px] overflow-hidden">
           <div className="custom-container">
             <div className="thought-division-details-wrap relative grid grid-cols-16 gap-5 z-50">
-              <ul className="thought-division-slug flex flex-col-reverse items-start left-0 top-20  absolute gap-10">
-                <li className="slugs-item whitespace-nowrap text-neu-white text-left uppercase text-text-xxs-small font-normal font-primary tracking-[.56px]">
-                  digital marketing
-                </li>
-                <li className="slugs-item whitespace-nowrap text-neu-white text-left uppercase text-text-xxs-small font-normal font-primary tracking-[.56px]">
-                  designing
-                </li>
-                <li className="slugs-item whitespace-nowrap text-neu-white text-left uppercase text-text-xxs-small font-normal font-primary tracking-[.56px]">
-                  development
-                </li>
-              </ul>
-
-              <div className="thought-division-details-cont-box col-span-14 col-start-3 w-full relative">
-                <div className="modal-text-box absolute z-[-10]">
-                  <div className="modal-scroll-text scrolling-text text-transparent whitespace-nowrap text-modal-heading font-primary font-normal leading-[170%]">
-                    Attention to details
-                  </div>
-                </div>
-                <div className="thought-division-title-box relative z-10">
-                  <h2 className="thought-division-title whitespace-nowrap  text-left text-text--large font-primary font-normal tracking-[.8px] uppercase leading-normal">
-                    ATTENTION TO DETAIL
-                  </h2>
-                  <span className="divider-shape h-[1px] w-[61px] bg-neu-white block"></span>
-                </div>
-
-                <div className="thought-division-info-text-box max-w-[940px] w-full ml-auto mt-[17px]  relative z-10">
-                  <h4 className="thought-division-subtitle mb-5 thought-division-title text-neu-white text-left text-text--large font-primary font-bold tracking-[.8px] leading-[190%]">
-                    Areas of thinking we explore with you in our digital and
-                    creative solutions:
-                  </h4>
-                  <div className="thought-division-details-box ">
-                    <div className="thought-division-details-info-item mb-5">
-                      <p className="details-info-text text-text-medium-4 text-left text-neu-white font-primary font-medium leading-normal mb-3">
-                        User Experience
-                      </p>
-                      <p className="info-desc text-text-medium-4 text-left text-neu-white font-primary font-medium leading-normal">
-                        Intuitive, aesthetically pleasing user-journey designs
-                        combined with innovative, sensible functionality in your
-                        online and offline business components.
-                      </p>
-                    </div>
-                    <div className="thought-division-details-info-item mb-5">
-                      <p className="details-info-text text-text-medium-4 text-left text-neu-white font-primary font-medium leading-normal mb-3">
-                        Brand Intention
-                      </p>
-                      <p className="inf-desc text-text-medium-4 text-left text-neu-white font-primary font-medium leading-normal">
-                        Happier online users and clients come from bold, unique
-                        intentions. Exploring creativity helps deliver them to
-                        satisfaction.
-                      </p>
-                    </div>
-                    <div className="thought-division-details-info-item mb-5">
-                      <p className="details-info-text text-text-medium-4 text-left text-neu-white font-primary font-medium leading-normal mb-3">
-                        Science
-                      </p>
-                      <p className="info-desc text-text-medium-4 text-left text-neu-white font-primary font-medium leading-normal">
-                        Make intelligent, people-centric business decisions that
-                        benefit your brand’s eco-system. The data that humanity
-                        has uncovered in Psychology, Economics and Business ties
-                        it all together.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          {/* approach slug list content */}
+              <SlugList slugs={slugs} />
+              {/* thought division details content box */}
+               <ThoughtDivisionInfoList division={DivisionData} items={ThoughtDivisionData} />
+              {/* === */}
             </div>
           </div>
         </section>
         {/* thought division dedtails info end */}
 
         {/* our statics section */}
-        <OurStatics />
+        <OurStatics staticsItems={staticsItems} />
         {/* our statics section end*/}
       </div>
     </div>

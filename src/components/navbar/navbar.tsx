@@ -1,43 +1,16 @@
 "use client";
 import { ArrowDownIcons } from "@/icons";
 import { Image, Link } from "@packages/packages";
-import { motion } from "framer-motion";
+import MobileMenuData from "@data/MobileNavbar.json";
 import { usePathname } from "next/navigation";
 import Button from "../elements/button/button";
-
-interface NavItem {
-	path: string;
-	name: string;
-	hasSubmenu: boolean; // Add a property to indicate if an item has a submenu
-}
-
-const navItems: NavItem[] = [
-	{
-		path: "/",
-		name: "Home",
-		hasSubmenu: false, // No submenu for Home
-	},
-	{
-		path: "/case-studies",
-		name: "Case Studies",
-		hasSubmenu: true, // Example: Case Studies has a submenu
-	},
-	{
-		path: "/services",
-		name: "Services",
-		hasSubmenu: true, // Example: Services has a submenu
-	},
-	{
-		path: "/our-approach",
-		name: "Our Approach",
-		hasSubmenu: true, // Example: Our Approach has a submenu
-	},
-	{
-		path: "/features",
-		name: "Features",
-		hasSubmenu: true, // Example: Features has a submenu
-	},
-];
+import MobileMenu from "./mobileNabar";
+import { useState } from "react";
+import MegaMenu from "./MegaMenu";
+import StudyMegaMenuData from "@data/megaMenu/StudyMegamenudata.json";
+import ServiceMegaMenuData from "@data/megaMenu/ServicesMegamenudata.json";
+import ApproachMegaMenuData from "@data/megaMenu/Approach.json";
+import FeaturedMegaMenuData from "@data/megaMenu/FeatureMegamenudata.json";
 
 const Navbar = () => {
 	const pathname = usePathname() || "/";
@@ -63,10 +36,22 @@ const Navbar = () => {
 			return "bg-transparent relative";
 		}
 	};
+	 const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
+
+		const handleMobileMenuToggle = () => {
+			setIsMobileMenuOpen(!isMobileMenuOpen);
+		};
+		const { StudyMenuItems, StudyFooterItems, StudyMegaMenuClass } =
+			StudyMegaMenuData;
+		const { ServiceMenuItems, ServiceFooterItems, ServiceMegaMenuClass } =
+			ServiceMegaMenuData;
+		const { ApproachMenuItems, ApproachFooterItems, ApproachMegaMenuClass } =
+			ApproachMegaMenuData;
+		const { FeatureMenuItems, FeatureFooterItems, FeatureMegaMenuClass } =
+			FeaturedMegaMenuData;
 	return (
-		<header
-			className={`header-section pt-4  pb-[19px]  ${getHeaderBgColor()}`}>
-			<div className="custom-container">
+		<header className={`header-section pt-4  pb-[19px]  ${getHeaderBgColor()}`}>
+			<div className="custom-container md:px-6 sm:px-4">
 				<div className="header-wrapper relative flex items-center justify-between sm:block">
 					<div className="header-brand-box flex items-center justify-between sm:w-full">
 						<Image
@@ -76,7 +61,9 @@ const Navbar = () => {
 							alt="brand logo image"
 							className="w-[102px] h-[65px]"
 						/>
-						<button className="mobo-trigger-menu-btn hidden sm:block">
+						<button
+							className="mobo-trigger-menu-btn hidden sm:block"
+							onClick={handleMobileMenuToggle}>
 							<Image
 								src="/images/icons/trigger-menu.svg"
 								width="28"
@@ -85,31 +72,103 @@ const Navbar = () => {
 							/>
 						</button>
 					</div>
-					<nav className="navigation-navbar ">
+					<nav className="navigation-navbar">
 						<ul className="navbar-nav flex items-center relative sm:hidden">
-							{navItems.map((item, index) => {
-								const isActive = item.path === pathname;
-								return (
-									<li key={item.path} className="navbar-nav-items relative">
-										<Link
-											href={item.path}
-											className={`relative text-primary flex items-center gap-2 text-center text-body-text-3 font-primary font-normal leading-none mb-0 capitalize px-5 py-2 ${
-												isActive ? "active-asign" : ""
-											}`}>
-											<span>{item.name}</span>
-											{item.hasSubmenu && <ArrowDownIcons />}
-										</Link>
-									</li>
-								);
-							})}
+							<li className="navbar-nav-items relative">
+								<div className="navbar-inner-link-box flex items-center gap-2">
+									<Link
+										href="/"
+										className="relative text-primary flex items-center gap-2 text-center text-body-text-3 font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
+										<span>Home</span>
+									</Link>
+								</div>
+							</li>
+							<li className="navbar-nav-items relative">
+								<div className="navbar-inner-link-box flex items-center gap-2">
+									<Link
+										href="/case-studies"
+										className="relative text-primary flex items-center gap-2 text-center text-body-text-3 font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
+										<span>Case Studies</span>
+									</Link>
+									<span>
+										<ArrowDownIcons />
+									</span>
+								</div>
+								{/* =======megamenu */}
+								<MegaMenu
+									MegaMenuClass={StudyMegaMenuClass}
+									items={StudyMenuItems}
+									footerItems={StudyFooterItems}
+								/>
+							</li>
+							<li className="navbar-nav-items relative">
+								<div className="navbar-inner-link-box flex items-center gap-2">
+									<Link
+										href="/services"
+										className="relative text-primary flex items-center gap-2 text-center text-body-text-3 font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
+										<span>Services</span>
+									</Link>
+									<span>
+										<ArrowDownIcons />
+									</span>
+								</div>
+								{/* =======megamenu */}
+								<MegaMenu
+									MegaMenuClass={ServiceMegaMenuClass}
+									items={ServiceMenuItems}
+									footerItems={ServiceFooterItems}
+								/>
+							</li>
+							<li className="navbar-nav-items relative">
+								<div className="navbar-inner-link-box flex items-center gap-2">
+									<Link
+										href="/our-approach"
+										className="relative text-primary flex items-center gap-2 text-center text-body-text-3 font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
+										<span>Our Approach</span>
+									</Link>
+									<span>
+										<ArrowDownIcons />
+									</span>
+								</div>
+								{/* =======megamenu */}
+								<MegaMenu
+									MegaMenuClass={ApproachMegaMenuClass}
+									items={ApproachMenuItems}
+									footerItems={ApproachFooterItems}
+								/>
+							</li>
+							<li className="navbar-nav-items relative">
+								<div className="navbar-inner-link-box flex items-center gap-2">
+									<Link
+										href="/features"
+										className="relative text-primary flex items-center gap-2 text-center text-body-text-3 font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
+										<span>Features</span>
+									</Link>
+									<span>
+										<ArrowDownIcons />
+									</span>
+								</div>
+								{/* =======megamenu */}
+								<MegaMenu
+									MegaMenuClass={FeatureMegaMenuClass}
+									items={FeatureMenuItems}
+									footerItems={FeatureFooterItems}
+								/>
+							</li>
 						</ul>
 					</nav>
 
 					<Button
 						btnText="0208 068 2102"
-						btnVariant="pca-secondary-button sm:hidden border-4 border-secondary"
+						btnVariant="pca-secondary-button md:hidden border-4 border-secondary"
 					/>
 				</div>
+				{/* mobile menu here to start */}
+				<MobileMenu
+					items={MobileMenuData}
+					isOpen={isMobileMenuOpen}
+					onMenuClose={() => setIsMobileMenuOpen(false)}
+				/>
 			</div>
 		</header>
 	);

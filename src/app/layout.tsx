@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 import { Urbanist, Inter } from 'next/font/google';
 import { Footer, Navbar } from '@/components';
+import StickyNavbar from '@/components/navbar/sticky-navbar';
+
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
@@ -24,14 +26,14 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${urbanist.variable}`}>
-      <body className="pca-marketing-page-body md:border-0">
-        <Navbar />
-        <main className="pca-marketing-main-wraper">
-        {children}
-        </main>
-        <Footer />
-        </body>
-    </html>
-  )
+		<html lang="en" className={`${inter.variable} ${urbanist.variable}`}>
+			<body className="pca-marketing-page-body md:border-0">
+				<Navbar />
+				<StickyNavbar />
+				<main className="pca-marketing-main-wraper">{children}</main>
+				<Footer />
+	
+			</body>
+		</html>
+	);
 }

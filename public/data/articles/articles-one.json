@@ -1,0 +1,61 @@
+{
+    "pageTitle": "Articles 1",
+    "pageDescription": "eee",
+    "titleData": {
+        "title": "Article name",
+        "subtitle": [
+            "We encourage Scrutiny and questioning.",
+            "Then redesign and polishing. And then more questioning. And more polishing."
+        ],
+        "description": "This meticulous approach is in both why and how we innovate on the services offered at Particular. We turn the data we get from our better-delivery approach in data-based marketing solutions. London and beyond.",
+        "classNames": "mb-[118px]"
+    },
+    "bannerData": {
+        "subHeading": "Pioneering",
+        "title": "Article 1",
+        "description": "Lorem Ipsum. This is generated text for reference purposes",
+        "isColorText": false
+    },
+    "articleModalImageOne": "/images/article-proof-1.jpg",
+    "articleDetailsData": [
+        {
+            "title": "We encourage Scrutiny and questioning.\n\nThen redesign and polishing. And then more questioning. And more polishing.",
+            "description": "This meticulous approach is in both why and how we innovate on the services offered at Particular. We turn the data we get from our better-delivery approach in data-based marketing solutions. London and beyond."
+        },
+        {
+            "title": "We encourage Scrutiny and questioning.\n\nThen redesign and polishing. And then more questioning. And more polishing.",
+            "description": "This meticulous approach is in both why and how we innovate on the services offered at Particular. We turn the data we get from our better-delivery approach in data-based marketing solutions. London and beyond."
+        },
+        {
+            "title": "We encourage Scrutiny and questioning.\n\nThen redesign and polishing. And then more questioning. And more polishing.",
+            "description": "This meticulous approach is in both why and how we innovate on the services offered at Particular. We turn the data we get from our better-delivery approach in data-based marketing solutions. London and beyond."
+        },
+        {
+            "title": "We encourage Scrutiny and questioning.\n\nThen redesign and polishing. And then more questioning. And more polishing.",
+            "description": "This meticulous approach is in both why and how we innovate on the services offered at Particular. We turn the data we get from our better-delivery approach in data-based marketing solutions. London and beyond."
+        },
+        {
+            "title": "We encourage Scrutiny and questioning.\n\nThen redesign and polishing. And then more questioning. And more polishing.",
+            "description": "This meticulous approach is in both why and how we innovate on the services offered at Particular. We turn the data we get from our better-delivery approach in data-based marketing solutions. London and beyond."
+        },
+        {
+            "title": "We encourage Scrutiny and questioning.\n\nThen redesign and polishing. And then more questioning. And more polishing.",
+            "description": "This meticulous approach is in both why and how we innovate on the services offered at Particular. We turn the data we get from our better-delivery approach in data-based marketing solutions. London and beyond."
+        }
+    ],
+    "articleModalImageTwo": "/images/article-proof-2.jpg",
+"descInfoArticle": {
+    "paragraphs": [
+        {
+            "text": "Designed to define and elevate your brand's essence. We delve deep into your unique story, values, and aspirations to create a compelling brand identity that sets you apart. Particular help craft strategic brand positioning that resonates with your target audience, ensuring your brand stands out in a crowded marketplace. Designed to define and elevate your brand's essence. We delve deep into your unique story, values,"
+        },
+        {
+            "text": "And aspirations to create a compelling brand identity that sets you apart. Particular help craft strategic brand positioning that resonates with your target audience, ensuring your brand stands out in a crowded marketplace.Designed to define and elevate your brand's essence. We delve deep into your unique story, values, and aspirations to create a compelling brand identity that sets you apart. Particular help craft strategic brand positioning that resonates with your target audience,"
+        },
+        {
+            "text": "ensuring your brand stands out in a crowded marketplace.Designed to define and elevate your brand's essence. We delve deep into your unique story, values, and aspirations to create a compelling brand identity that sets you apart. Particular help craft strategic brand positioning that resonates with your target audience, ensuring your brand stands out in a crowded marketplace."
+        }
+    ],
+    "shortDescription": "This meticulous approach is in both why and how we innovate on the services offered at Particular. We turn the data we get from our better-delivery approach in data-based marketing solutions. London and beyond."
+}
+}

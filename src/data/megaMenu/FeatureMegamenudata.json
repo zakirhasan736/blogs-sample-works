@@ -1,0 +1,14 @@
+{
+    "FeatureMenuItems": [
+        {
+            "title": "GAMES ROOM",
+            "path": "/zanbase"
+        },
+        {
+            "title": "COLOUR CRAFT",
+            "path": "/ai-humanity"
+        }
+    ],
+
+    "FeatureMegaMenuClass": "featured-mega-menu"
+}

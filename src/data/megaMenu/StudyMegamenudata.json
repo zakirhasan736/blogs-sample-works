@@ -1,0 +1,103 @@
+{
+    "StudyMenuItems": [
+        {
+            "title": "Zenbase",
+            "path": "/zanbase",
+            "subItems": [
+                {
+                    "title": "Web Design",
+                    "path": "/zanbase/web-design"
+                },
+                {
+                    "title": "Branding",
+                    "path": "/zanbase/branding"
+                }
+            ]
+        },
+        {
+            "title": "AI & Humanity",
+            "path": "/ai-humanity",
+            "subItems": [
+                {
+                    "title": "Branding",
+                    "path": "/ai-humanity/branding"
+                },
+                {
+                    "title": "Visual Media",
+                    "path": "/ai-humanity/visual-media"
+                }
+            ]
+        },
+        {
+            "title": "Hult IB School",
+            "path": "/hult-ib-school",
+            "subItems": [
+                {
+                    "title": "Web Design & Development",
+                    "path": "/hult-ib-school/web-design"
+                },
+                {
+                    "title": "PPC",
+                    "path": "/hult-ib-school/ppc"
+                }
+            ]
+        },
+        {
+            "title": "Village of Genal",
+            "path": "/village-of-genal",
+            "subItems": [
+                {
+                    "title": "Branding",
+                    "path": "/village-of-genal/branding"
+                },
+                {
+                    "title": "Visual Media",
+                    "path": "/village-of-genal/visual-media"
+                }
+            ]
+        },
+        {
+            "title": "Knights Academy",
+            "path": "/knights-academy",
+            "subItems": [
+                {
+                    "title": "Web Design",
+                    "path": "/knights-academy/web-design"
+                },
+                {
+                    "title": "Web Development",
+                    "path": "/knights-academy/web-development"
+                }
+            ]
+        },
+        {
+            "title": "NAEO",
+            "path": "/naeo",
+            "subItems": [
+                {
+                    "title": "Web Design",
+                    "path": "/naeo/web-design"
+                },
+                {
+                    "title": "Visual Media",
+                    "path": "/naeo/visual-media"
+                }
+            ]
+        }
+    ],
+    "StudyFooterItems": [
+        {
+            "title": "Book a Call",
+            "path": "/book-a-call"
+        },
+        {
+            "title": "Send an Email",
+            "path": "/send-email"
+        },
+        {
+            "title": "FAQ’s",
+            "path": "/faqs"
+        }
+    ],
+    "StudyMegaMenuClass": "case-study-mega-menu"
+}

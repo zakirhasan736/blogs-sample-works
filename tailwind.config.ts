@@ -140,6 +140,7 @@ const config: Config = {
         'sky': '#012A5E',
         'box-shadow-primary':  '0px 4px 25px 0px rgba(45, 44, 44, 0.25)',
         'text-shadow-primary':  '0px 4px 4px rgba(0, 0, 0, 0.25)',
+        'opcity-color-1': 'rgba(255, 255, 255, 0.28)',
       },
       backgroundImage: {
         'inner-cta':
