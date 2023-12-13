@@ -2,11 +2,11 @@
     "FeatureMenuItems": [
         {
             "title": "GAMES ROOM",
-            "path": "/zanbase"
+            "path": "/games-room"
         },
         {
             "title": "COLOUR CRAFT",
-            "path": "/ai-humanity"
+            "path": "/colour-craft"
         }
     ],
 

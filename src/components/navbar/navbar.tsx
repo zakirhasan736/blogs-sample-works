@@ -52,7 +52,7 @@ const Navbar = () => {
 	return (
 		<header className={`header-section pt-4  pb-[19px]  ${getHeaderBgColor()}`}>
 			<div className="custom-container md:px-6 sm:px-4">
-				<div className="header-wrapper relative flex items-center justify-between sm:block">
+				<div className="header-wrapper flex items-center justify-between sm:block">
 					<div className="header-brand-box flex items-center justify-between sm:w-full">
 						<Image
 							width={102}
@@ -73,8 +73,8 @@ const Navbar = () => {
 						</button>
 					</div>
 					<nav className="navigation-navbar">
-						<ul className="navbar-nav flex items-center relative sm:hidden">
-							<li className="navbar-nav-items relative">
+						<ul className="navbar-nav flex items-center  sm:hidden">
+							<li className="navbar-nav-items">
 								<div className="navbar-inner-link-box flex items-center gap-2">
 									<Link
 										href="/"
@@ -83,7 +83,7 @@ const Navbar = () => {
 									</Link>
 								</div>
 							</li>
-							<li className="navbar-nav-items relative">
+							<li className="navbar-nav-items">
 								<div className="navbar-inner-link-box flex items-center gap-2">
 									<Link
 										href="/case-studies"
@@ -101,7 +101,7 @@ const Navbar = () => {
 									footerItems={StudyFooterItems}
 								/>
 							</li>
-							<li className="navbar-nav-items relative">
+							<li className="navbar-nav-items">
 								<div className="navbar-inner-link-box flex items-center gap-2">
 									<Link
 										href="/services"
@@ -119,7 +119,7 @@ const Navbar = () => {
 									footerItems={ServiceFooterItems}
 								/>
 							</li>
-							<li className="navbar-nav-items relative">
+							<li className="navbar-nav-items">
 								<div className="navbar-inner-link-box flex items-center gap-2">
 									<Link
 										href="/our-approach"
@@ -137,7 +137,7 @@ const Navbar = () => {
 									footerItems={ApproachFooterItems}
 								/>
 							</li>
-							<li className="navbar-nav-items relative">
+							<li className="navbar-nav-items">
 								<div className="navbar-inner-link-box flex items-center gap-2">
 									<Link
 										href="/features"

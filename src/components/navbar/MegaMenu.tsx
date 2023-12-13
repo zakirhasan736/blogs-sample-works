@@ -27,9 +27,9 @@ const MegaMenu: React.FC<MegaMenuProps> = ({
 	MegaMenuClass,
 }) => {
 	return (
-		<div className="megamenu-wrapper-content z-[999999] fixed w-full max-w-[1687px] top-[100px] left-0 right-0 mx-auto pt-14 bg-[#0A0A0A] border-t border-opcity-color-1">
+		<div className="megamenu-wrapper-content z-[999999] absolute w-full top-[100px] left-0 right-0 mx-auto pt-14 bg-[#0A0A0A] border-t border-opcity-color-1">
 			<div
-				className={`mega-menu-main text-right px-8 flex items-start justify-end gap-20 pb-12 laptop-m:gap-10 lg:gap-7 ${MegaMenuClass}`}>
+				className={`mega-menu-main text-right px-8 w-full max-w-[1687px] left-0 right-0 mx-auto flex items-start justify-end gap-20 pb-12 laptop-m:gap-10 lg:gap-7 ${MegaMenuClass}`}>
 				{items?.map((menuItem, index) => (
 					<ul className="mega-menu-item-box text-left" key={index}>
 						<li className="mega-menu-item-list mb-3">
