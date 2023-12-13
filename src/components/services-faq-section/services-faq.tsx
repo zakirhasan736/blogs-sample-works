@@ -1,4 +1,5 @@
 import FaqAccordion from "@/components/common/faq-accordion/faq-accordion";
+import React from "react";
 interface ServicesFaqProps {
 	FaqPageAccodionData: any;
 	servicesFaqSecTitle: string;

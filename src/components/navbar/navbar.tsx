@@ -20,7 +20,7 @@ const Navbar = () => {
 		if (pathname === "/faq") {
 			return "bg-[#D9D9D917]";
 		} else if (pathname === "/services") {
-			return "filter-drop-bg bg-[#D9D9D917]";
+			return "bg-[#D9D9D917]";
 		} else if (pathname === "/our-approach" || pathname === "/articles") {
 			return "bg-[#424245]";
 		} else if (
@@ -50,17 +50,19 @@ const Navbar = () => {
 		const { FeatureMenuItems, FeatureFooterItems, FeatureMegaMenuClass } =
 			FeaturedMegaMenuData;
 	return (
-		<header className={`header-section pt-4  pb-[19px]  ${getHeaderBgColor()}`}>
+		<header className={`header-section pt-4 relative pb-[19px]  ${getHeaderBgColor()}`}>
 			<div className="custom-container md:px-6 sm:px-4">
-				<div className="header-wrapper relative flex items-center justify-between sm:block">
+				<div className="header-wrapper flex items-center justify-between sm:block">
 					<div className="header-brand-box flex items-center justify-between sm:w-full">
-						<Image
-							width={102}
-							height={65}
-							src="/images/white-brand-logo.svg"
-							alt="brand logo image"
-							className="w-[102px] h-[65px]"
-						/>
+						<Link href="/">
+							<Image
+								width={102}
+								height={65}
+								src="/images/white-brand-logo.svg"
+								alt="brand logo image"
+								className="w-[102px] h-[65px]"
+							/>
+						</Link>
 						<button
 							className="mobo-trigger-menu-btn hidden sm:block"
 							onClick={handleMobileMenuToggle}>
@@ -73,20 +75,20 @@ const Navbar = () => {
 						</button>
 					</div>
 					<nav className="navigation-navbar">
-						<ul className="navbar-nav flex items-center relative sm:hidden">
-							<li className="navbar-nav-items relative">
-								<div className="navbar-inner-link-box flex items-center gap-2">
+						<ul className="navbar-nav flex items-center sm:hidden">
+							<li className="navbar-nav-items">
+								<div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
 									<Link
 										href="/"
-										className="relative text-primary flex items-center gap-2 text-center text-body-text-3 font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
+										className="relative text-primary flex items-center gap-2 text-center text-body-text-3 laptop-m:text-[18px] font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3 lg:px-3">
 										<span>Home</span>
 									</Link>
 								</div>
 							</li>
-							<li className="navbar-nav-items relative">
+							<li className="navbar-nav-items">
 								<div className="navbar-inner-link-box flex items-center gap-2">
 									<Link
-										href="/case-studies"
+										href="/case-study"
 										className="relative text-primary flex items-center gap-2 text-center text-body-text-3 font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
 										<span>Case Studies</span>
 									</Link>
@@ -101,11 +103,11 @@ const Navbar = () => {
 									footerItems={StudyFooterItems}
 								/>
 							</li>
-							<li className="navbar-nav-items relative">
-								<div className="navbar-inner-link-box flex items-center gap-2">
+							<li className="navbar-nav-items">
+								<div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
 									<Link
 										href="/services"
-										className="relative text-primary flex items-center gap-2 text-center text-body-text-3 font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
+										className="relative lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-body-text-3 font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
 										<span>Services</span>
 									</Link>
 									<span>
@@ -119,11 +121,11 @@ const Navbar = () => {
 									footerItems={ServiceFooterItems}
 								/>
 							</li>
-							<li className="navbar-nav-items relative">
-								<div className="navbar-inner-link-box flex items-center gap-2">
+							<li className="navbar-nav-items">
+								<div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
 									<Link
 										href="/our-approach"
-										className="relative text-primary flex items-center gap-2 text-center text-body-text-3 font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
+										className="relative lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-body-text-3 font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
 										<span>Our Approach</span>
 									</Link>
 									<span>
@@ -137,13 +139,12 @@ const Navbar = () => {
 									footerItems={ApproachFooterItems}
 								/>
 							</li>
-							<li className="navbar-nav-items relative">
-								<div className="navbar-inner-link-box flex items-center gap-2">
-									<Link
-										href="/features"
-										className="relative text-primary flex items-center gap-2 text-center text-body-text-3 font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
+							<li className="navbar-nav-items">
+								<div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
+									<div
+										className="relative cursor-pointer lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-body-text-3 font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
 										<span>Features</span>
-									</Link>
+									</div>
 									<span>
 										<ArrowDownIcons />
 									</span>
@@ -160,7 +161,7 @@ const Navbar = () => {
 
 					<Button
 						btnText="0208 068 2102"
-						btnVariant="pca-secondary-button md:hidden border-4 border-secondary"
+						btnVariant="pca-secondary-button laptop-m:text-[16px] md:hidden border-4 border-secondary"
 					/>
 				</div>
 				{/* mobile menu here to start */}

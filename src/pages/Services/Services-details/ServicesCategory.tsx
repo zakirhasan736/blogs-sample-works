@@ -5,7 +5,7 @@ import ServiceProcessStep from "@/components/service-process-step/service-proces
 import ServiceTypeOption from "@/components/service-types-option/service-type-option";
 import ServicesCaseStudy from "@/components/services-case-study/services-case-study";
 import ServicesFaq from "@/components/services-faq-section/services-faq";
-
+import React from "react";
 interface ServicesCategoryPageProps {
 	data: {
 		ServicesBannerData: any;
@@ -20,6 +20,9 @@ interface ServicesCategoryPageProps {
 const ServicesCategoriesPage: React.FC<ServicesCategoryPageProps> = ({
 	data,
 }) => {
+		if (!data) {
+			return <div>No article content available</div>;
+		}
 	const {
 		ServicesBannerData,
 		ServiceAboutInfoData,

@@ -1,0 +1,116 @@
+{
+    "pageTitle": "Branding - Services",
+    "pageDescription": "eee",
+    "ServicesBannerData": {
+        "bannerTitle": "Branding",
+        "bannerBtnText": "Get in touch",
+        "bannerDescription": "Particular Branding is where stories find their visual voice and sense of feeling.\n\n We listen, we create, and we define your brand's essence. Crafting distinctive \n identities that resonate and endure."
+    },
+    "ServiceAboutInfoData": {
+        "ServiceSecModalImage": "/images/service-about-info-sec-img.png",
+        "ServiceSecTitle": "Particular Approach to Branding",
+        "ServiceSecDesc1": "At Particular, we believe that every brand is as unique as a fingerprint, and your branding deserves nothing less than a tailored approach. Branding is not just about aesthetics; it's about conveying your brand's story, values, and purpose.",
+        "ServiceSecDesc2": "Change is constant in the business world. Your brand should reflect your growth, evolution, and shifting market dynamics. At Particular, our branding strategies are dynamic and flexible. We're here to adjust and refine your brand identity to keep it in sync with your journey.",
+        "ServiceSecBtnText": "Get in touch"
+    },
+    "FaqPageAccodionData": [
+        {
+            "id": 1,
+            "question": "What is Lorem Ipsum ?",
+            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+            "id": 2,
+            "question": "Why do we use it?",
+            "answer": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        },
+        {
+            "id": 3,
+            "question": "Where does it come from?",
+            "answer": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+        },
+        {
+            "id": 4,
+            "question": "Is it safe to use Lorem Ipsum?",
+            "answer": "Yes, it is safe to use Lorem Ipsum. It has been the industry's standard dummy text ever since the 1500s."
+        },
+        {
+            "id": 5,
+            "question": "What is the purpose of Lorem Ipsum?",
+            "answer": "The purpose of Lorem Ipsum is to create a natural-looking block of text that doesn't distract from the layout."
+        }
+    ],
+    "servicesFaqSecTitle": "FAQS",
+    "ServicesTypoSecData": {
+        "ServicesTypeSecTitle": "Our Branding Services",
+        "ServicesTypeSecBtnText": "Get in touch",
+        "ServicesTypeSecModalGIF": "/images/gif/Section01-1.gif",
+        "services": [
+            {
+                "title": "Brand Identity and Positioning",
+                "description": "Designed to define and elevate your brand's essence. We delve deep into your unique story, values, and aspirations to create a compelling brand identity that sets you apart. Particular help craft strategic brand positioning that resonates with your target audience, ensuring your brand stands out in a crowded marketplace."
+            },
+            {
+                "title": "Logo Design and Asset Creation",
+                "description": "Your logo is a visual cornerstone of your brand. Working closely with you we design a logo that encapsulates your brand's personality and values. Beyond the logo, we create a suite of brand assets, including imagery, email templates,  icons, and graphics, ensuring a cohesive and impactful brand presence across all touchpoints."
+            },
+            {
+                "title": "Brand Guidelines",
+                "description": "Consistency is key to building a strong brand. We document your brand's visual elements, typography, color palettes, and usage guidelines. These guidelines serve as a reference for your team and partners, ensuring that every brand interaction adheres to your unique identity and resonates with your audience."
+            }
+        ]
+    },
+    "ServicescaseStudyFeaturedData": {
+        "CaseStudyServices": [
+            {
+                "image": "/images/featured-case-study-image.png",
+                "title": "Case Study 1",
+                "description": "Engineering high-speed sites for every popular CMS...",
+                "btnText": "Discover More"
+            },
+            {
+                "image": "/images/featured-case-study-image.png",
+                "title": "Case Study 2",
+                "description": "Engineering high-speed sites for every popular CMS...",
+                "btnText": "Discover More"
+            },
+            {
+                "image": "/images/featured-case-study-image.png",
+                "title": "Case Study 3",
+                "description": "Engineering high-speed sites for every popular CMS...",
+                "btnText": "Discover More"
+            }
+        ],
+        "ServicesCaseStudyTitle": "Branding Case Studies"
+     
+    },
+    "ServicesProcessData": {
+        "ProcessStepSecTitle": "The Process",
+        "ProcessStepFeaturedImage": "/images/service-process-image.png",
+        "ProcessStepFeatureTitle": "Step",
+        "ProcessStepFeatureNumber": "1",
+        "ProcessStepFeatureSubTitle": "YOUR DISCOVERY CALL.",
+        "ProcessStepFeaturedDesc": "Outline your objectives in as much detail as possible - unrealistic desires and long-term goals included - so that we gain a complete idea of the field you’ll be competing in.",
+        "ServicesProcesse": [
+            {
+                "ProcessStepNumber": 2,
+                "ProcessStepTitle": "Step",
+                "ProcessStepSubTitle": "YOUR BRIEF AND PROPOSAL.",
+                "ServicesStepsDescription": "Where we confirm what your project needs and how we’ll collaborate with you. We’ll uncover and confirm how we can help you implement each detailed aspect of your Website plans. \n\nIt’s important that you understand exactly why we follow the steps we do and how they’re likely to lead to you succeeding in line with or beyond your KPIs."
+            },
+            {
+                "ProcessStepNumber": 3,
+                "ProcessStepTitle": "Step",
+                "ProcessStepSubTitle": "WHERE WE OFFER A PLAN FOR YOUR SUCCESS",
+                "ServicesStepsDescription": "Based on your confirmed brief, our Product Team will offer you our proposed scope of works. This will include timelines and investment amounts. \n\nIt’s important that you understand exactly why we follow the steps we do and how they’re likely to lead to you succeeding in line with or beyond your KPIs."
+            },
+            {
+                "ProcessStepNumber": 4,
+                "ProcessStepTitle": "Step",
+                "ProcessStepSubTitle": "WHERE WE OFFER A PLAN FOR YOUR SUCCESS",
+                "ServicesStepsDescription": "Based on your confirmed brief, our Product Team will offer you our proposed scope of works. This will include timelines and investment amounts. \n\nIt’s important that you understand exactly why we follow the steps we do and how they’re likely to lead to you succeeding in line with or beyond your KPIs."
+            }
+        ]
+    }
+
+}

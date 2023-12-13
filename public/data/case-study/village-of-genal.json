@@ -1,0 +1,75 @@
+{
+    "pageTitle": "Case Study Village of Genal",
+    "pageDescription": "eee",
+    "CaseStudyBannerData": {
+        "StudyBannerModalImg": "/images/case-study-banner-modal-image.jpg",
+        "BannerTitle": "Village of Genal",
+        "BannerDesc": "The Village of Genalguacil's transformation serves as a testament to the power of strategic branding and visual identity. Crossing International borders while operating thoroughly in the language of intention and attention to detail."
+    },
+    "ProjectOverviewData":{
+            "projectOverviewSubtitle": "Project Overview Subtitle",
+            "projectOverviewTitle": "Revitalizing Pueblo Museo’s display of the Village of Genalguacil’s image: Building Unique Branding and Visual Identity to Attract Tourism and Investment",
+            "quoteDescText": "We embarked on this journey by immersing ourselves in Genal's culture and history. Extensive research and interviews with locals allowed us to unearth the village's hidden gems and distinctive qualities.",
+            "overviewPortfolioTitle": "Visual Identity",
+            "overviewPortfolioImage": "/images/project-overview-image.jpg"
+    },
+    "ProjectChallengeData": {
+        "projectChallengeModalTitle": "The Challenge",
+        "projectChallengeTitle": "The Challenge",
+        "projectChallengeQuoteText": "The Village of Genal, nestled in a picturesque valley, has long possessed immense natural beauty and cultural heritage while remaining relatively unknown to tourists and investors, both locally and also internationally.",
+        "projectChallengeQuoteDesc": "The challenge was to reposition the village as a desirable destination for both tourists seeking an authentic experience and investors looking for opportunities.",
+        "projectChallengeAssetsTitle1": "Brand Identity",
+        "projectChallengeAssetsImage1": "/images/project-change-image-1.jpg",
+        "projectChallengeAssetsTitle2": "Logo Design",
+        "projectChallengeAssetsImage2": "/images/project-change-image-2.jpg"
+    },
+    "ProjectMethodeData":{
+        "sectionModelTitle": "THE METHOD",
+        "sectionTitle": "The Particular Method",
+        "methodDescriptions": [
+            "Armed with knowledge of Genalguacil’s history and cultural importance, we developed a brand strategy that captured the essence of the town — a harmonious blend of natural beauty, cultural richness, and untapped potential.",
+            "To breathe life into the brand, we crafted a new visual identity, starting with a fresh logo that incorporated elements inspired by Genal's lush landscapes and traditional motifs. The logo symbolized growth and vibrancy.",
+            "A carefully chosen colour palette, featuring earthy tones and vibrant accents, conveyed Genalguacil's natural beauty and vitality.Typography selections were made to evoke a sense of history and authenticity while maintaining modern readability.",
+            "We ensured that the new visual identity was seamlessly integrated into all touch-points, from signage and brochures to the village's official website and social media profiles. A comprehensive brand guideline was developed to maintain brand consistency across all communication channels and future initiatives."
+        ],
+        "buttonText": "Services",
+        "callImage": "/images/schedule-call-image.svg"
+    },
+    "ProjectResultData": {
+        "sectionModelTitle": "The result",
+        "sectionTitle": "The result",
+        "resultImage": "/images/project-result-modal-image.jpg",
+        "results": [
+            {
+                "percent": "40%",
+                "description": "increase in average session duration,demonstrating improved  engagement"
+            },
+            {
+                "percent": "32%",
+                "description": "higher organic traffic within 6 months"
+            },
+            {
+                "percent": "20%",
+                "description": "reduction in Hult’s cost per acquisition "
+            }
+        ],
+        "resultSecBgClass": "gray-background-color"
+    },
+    "featuredPostData":{
+        "featuredSecTitle": "Featured Case Studies",
+        "posts": [
+            {
+                "image": "/images/featured-case-study-img-1.png",
+                "link": "/articles/articles-one"
+            },
+            {
+                "image": "/images/featured-case-study-img-2.png",
+                "link": "/articles/articles-one"
+            },
+            {
+                "image": "/images/featured-case-study-img-3.png",
+                "link": "/articles/articles-one"
+            }
+        ]
+    }
+}

@@ -1,4 +1,5 @@
 import {Image} from '@packages/packages'
+import React from "react";
 interface ResultInfo {
 	percent: string;
 	description: string;
@@ -20,13 +21,13 @@ const ProjectResult: React.FC<ProjectResultProps> = ({ data }) => {
 			<div className="custom-container">
 				<div className="study-project-result-wrapper">
 					<div className="section-modal-title-reals">
-						<div className="section-model-title sm:text-[64px] whitespace-nowrap empty:hidden scrolling-text uppercase text-[200px] font-primary font-medium leading-[.8] ">
+						<div className="section-model-title laptop-x:text-[150px]  lg:text-[94px] md:text-[84px] sm:text-[64px] whitespace-nowrap empty:hidden scrolling-text uppercase text-[200px] font-primary font-medium leading-[.8] ">
 							{data.sectionModelTitle}
 						</div>
 					</div>
 					<div className="project-result-cont-wrap grid grid-cols-16 gap-8 relative z-50 sm:flex sm:flex-col sm:gap-16">
 						<div
-							className={`result-cont-bg-modal-img absolute top-0 left-0 h-full w-full -z-10 max-h-[800px] h-full ${data.resultSecBgClass}`}></div>
+							className={`result-cont-bg-modal-img absolute top-0 left-0 h-full w-full -z-10 max-h-[800px] sm:h-[560px] ${data.resultSecBgClass}`}></div>
 						{/* ==== */}
 						<div className="project-result-cont-wrap-left col-span-10">
 							<div className="section-title-box">

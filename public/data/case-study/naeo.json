@@ -1,0 +1,75 @@
+{
+    "pageTitle": "Case Study Naeo",
+    "pageDescription": "eee",
+    "CaseStudyBannerData": {
+        "StudyBannerModalImg": "/images/case-study-banner-modal-image.jpg",
+        "BannerTitle": "Naeo",
+        "BannerDesc": "Naeo’s evolution: A triumph of purposeful Branding and web design excellence, Bridging borders with precision and care."
+    },
+    "ProjectOverviewData":{
+            "projectOverviewSubtitle": "Project Overview Subtitle",
+            "projectOverviewTitle": "Project Overview",
+            "projectOverviewDesc": "Transforming NAEO’s Digital Presence: Crafting Distinctive Web design and Visual Identity for Enhanced Engagement and Sustainability.",
+            "quoteDescText": "Our exploration commenced by delving deep into Naeo’s ethos and origin story. Extensive research and insightful conversations unveiled the core essence and unique qualities driving this brand forward.",
+            "overviewPortfolioTitle": "Web Design",
+            "overviewPortfolioImage": "/images/project-overview-image.jpg"
+    },
+    "ProjectChallengeData": {
+        "projectChallengeModalTitle": "The Challenge",
+        "projectChallengeTitle": "The Challenge",
+        "projectChallengeQuoteText": "Founded in 2022 by CEO Nele, Naeo has just completed its first round of investment and was gearing up for the next. The primary goal was to enhance user experience and credibilty on the web platform, particularly by streamlining the checkout process.",
+        "projectChallengeQuoteDesc": "They sought to improve the average basket value, increase time spent on the website, and enhance the overall sales process.",
+        "projectChallengeAssetsTitle1": "Brand Identity",
+        "projectChallengeAssetsImage1": "/images/project-change-image-1.jpg",
+        "projectChallengeAssetsTitle2": "Logo Design",
+        "projectChallengeAssetsImage2": "/images/project-change-image-2.jpg"
+    },
+    "ProjectMethodeData":{
+        "sectionModelTitle": "THE METHOD",
+        "sectionTitle": "The Particular Method",
+        "methodDescriptions": [
+            "Working closely with Naeo, we introduced an innovative approach. which positioned Naeo to disrupt the plastic-heavy gummy supplement industry.",
+            "In terms of front -end improvements, we introduced sticky headers and buttons to ensure smooth navigation. Additionally we streamlined the review process by offering tempting discounts, making it effortless for users to share feedback.  The redesign focused on aligning Naeo’s vision of sustainability and holistic health. Aesthetically, we opted for a clean, modernised interface, complemented by a soothing colour palette that resonates with the brands commitment to natural wellness. This revitalise look not only enhances user engagement but also reinforces Naeo’s position as a forward thinking, environmentally-conscious supplement brand in the European market.",
+            "On the back end, we integrated a personalised health quiz, enhancing users interaction with the platform. We also incorporated dynamic multimedia elements such as videos, reels, and motions designs, creating an engaging and interactive user experience. The addition of animations further amplified the site’s dynamism, providing a captivating and immersive journey for visitors."
+        ],
+        "buttonText": "Services",
+        "callImage": "/images/schedule-call-image.svg"
+    },
+    "ProjectResultData": {
+        "sectionModelTitle": "The result",
+        "sectionTitle": "The result",
+        "resultImage": "/images/project-result-modal-image.jpg",
+        "results": [
+            {
+                "percent": "40%",
+                "description": "Increase in average session duration, demonstrating improved engagement"
+            },
+            {
+                "percent": "32%",
+                "description": "Higher organic traffic within 6 months"
+            },
+            {
+                "percent": "20%",
+                "description": "Reduction in Naeo’s cost per acquisition"
+            }
+        ],
+        "resultSecBgClass": "gray-background-color"
+    },
+    "featuredPostData":{
+        "featuredSecTitle": "Featured Case Studies",
+        "posts": [
+            {
+                "image": "/images/featured-case-study-img-1.png",
+                "link": "/articles/articles-one"
+            },
+            {
+                "image": "/images/featured-case-study-img-2.png",
+                "link": "/articles/articles-one"
+            },
+            {
+                "image": "/images/featured-case-study-img-3.png",
+                "link": "/articles/articles-one"
+            }
+        ]
+    }
+}

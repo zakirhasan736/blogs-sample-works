@@ -3,12 +3,15 @@ import ProjectChallenge from "@/components/casestudy-project-challenge/project-c
 import ProjectMethode from "@/components/casestudy-project-methode/project-methode";
 import ProjectResult from "@/components/casestudy-project-result/project-result";
 import CaseStudyBanner from "@/components/common/banner/case-study-banner";
-import FeaturedCaseStudise from "@/components/featured-case-study/featured-case-studise";
 import FeaturedCaseStudies from "./FeaturedCaseStudies";
-
+import React from "react";
 interface CaseStudyCategoryProps {
 	data: {
-		CaseStudyBannerData: any;
+		CaseStudyBannerData: {
+			StudyBannerModalImg?: string;
+			BannerTitle?: string;
+			BannerDesc?: string;
+		};
 		ProjectOverviewData: any;
 		ProjectChallengeData: any;
 		ProjectMethodeData: any;
@@ -19,6 +22,9 @@ interface CaseStudyCategoryProps {
 const CasestudyCategoriesPage: React.FC<CaseStudyCategoryProps> = ({
 	data,
 }) => {
+		if (!data) {
+			return <div>No article content available</div>;
+		}
 	const {
 		CaseStudyBannerData,
 		ProjectOverviewData,

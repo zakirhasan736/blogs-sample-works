@@ -1,4 +1,6 @@
+"use client";
 import Image from "next/image"
+import TypingAnimation from "../wordtypinganimation";
 
 const GoogleInsightBrandBox = () => {
   return (
@@ -12,10 +14,8 @@ const GoogleInsightBrandBox = () => {
 						width={160}
 						height={160}
 					/>
-					<h2 className="google-insight-brand-box-title text-[58px] text-center text-primary font-primary font-medium leading-none capitalize sm:text-[26px] mt-[50px] sm:mt-4">
-						<span className="anim-typing-text text-secondary-2">
-							Particular
-						</span>{" "}
+					<h2 className="google-insight-brand-box-title flex items-center gap-2 text-[58px] text-center text-primary font-primary font-medium leading-none capitalize sm:text-[26px] mt-[50px] sm:mt-4">
+					<TypingAnimation />	{" "}
 						for Google
 					</h2>
 				</div>

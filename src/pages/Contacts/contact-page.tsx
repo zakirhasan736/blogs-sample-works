@@ -1,6 +1,6 @@
 import ContactBanner from '@/components/common/banner/contact-banner'
 import {Link} from '@packages/packages'
-import { ArrowDownIcons, InstagrameIcons, TwitterIcons, YoutubeIcons } from "@/icons";
+import {  InstagrameIcons, TwitterIcons, YoutubeIcons } from "@/icons";
 import Button from '@/components/elements/button/button';
  
 const ContactPage = () => {

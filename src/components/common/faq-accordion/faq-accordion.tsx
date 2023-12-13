@@ -1,6 +1,6 @@
 // components/FaqAccordion.tsx
 "use client";
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { PlusIcons } from "@/icons"; // Assuming you have a MinusIcons component
 
 interface FaqItem {
@@ -25,7 +25,7 @@ const FaqAccordion: React.FC<FaqAccordionProps> = ({ faqs }) => {
 			{faqs.map((faq, index) => (
 				<div
 					key={faq.id}
-					className={`faq-accordion-card-item pt-[31px] pr-[36px] pb-[32px] ${
+					className={`faq-accordion-card-item pt-[31px] pr-[36px] sm:pr-5 sm:pl-4 pb-[32px] sm:pt-5 sm:pb-5 ${
 						openIndex === index ? "pb-20 mb-4" : "mb-4"
 					} pl-[43px] rounded-[11px] bg-neu-white`}>
 					<div
@@ -33,7 +33,7 @@ const FaqAccordion: React.FC<FaqAccordionProps> = ({ faqs }) => {
 							openIndex === index ? "mb-[18px]" : ""
 						}`}>
 						<h4
-							className="acordion-title text-neu-black text-left text-[21px] font-primary font-normal leading-[18px] tracking-[3.045px] uppercase"
+							className="acordion-title text-neu-black text-left sm:text-[18px] text-[21px] font-primary font-normal leading-[18px] tracking-[3.045px] uppercase"
 							onClick={() => toggleAccordion(index)}>
 							{faq.question}
 						</h4>

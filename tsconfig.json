@@ -29,6 +29,6 @@
       "@utils/*": ["./src/utils/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/service-about-info-section"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/service-about-info-section", "src/pages/Services/service-group-slider.jsx"],
   "exclude": ["node_modules"]
 }

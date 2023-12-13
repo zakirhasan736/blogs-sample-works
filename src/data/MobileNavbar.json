@@ -5,19 +5,31 @@
     },
     {
         "name": "Case Studies",
-        "path": "/case-studies",
+        "path": "/case-study",
         "dropdownItems": [
             {
                 "name": "Approach",
-                "path": "/case-studies/approach"
+                "path": "/case-study/zanbase"
             },
             {
-                "name": "Example 1",
-                "path": "/case-studies/example-1"
+                "name": "Ai & Humanity",
+                "path": "/case-study/ai-and-humanity"
             },
             {
-                "name": "Example 2",
-                "path": "/case-studies/example-2"
+                "name": "Hult Id School",
+                "path": "/case-study/hult-ib-school"
+            },
+            {
+                "name": "knights Academy",
+                "path": "/case-study/knights-academy"
+            },
+            {
+                "name": "NAEO",
+                "path": "/case-study/naeo"
+            },
+            {
+                "name": "Village Of Genal",
+                "path": "/case-study/village-of-genal"
             }
         ]
     },
@@ -25,14 +37,30 @@
         "name": "Services",
         "path": "/services",
         "dropdownItems": [
-            {
-                "name": "Service 1",
-                "path": "/services/service-1"
-            },
-            {
-                "name": "Service 2",
-                "path": "/services/service-2"
-            }
+           {
+            "name": "Branding",
+            "path": "/services/branding"
+        },
+        {
+            "name": "PPC",
+            "path": "/services/ppc"
+        },
+        {
+            "name": "SEO",
+            "path": "/services/seo"
+        },
+        {
+            "name": "Social Media",
+            "path": "/services/social-media"
+        },
+        {
+            "name": "Visual Media",
+            "path": "/services/visual-media"
+        },
+        {
+            "name": "Web Design Development",
+            "path": "/services/web-design-development"
+        }
         ]
     },
     {
@@ -40,12 +68,16 @@
         "path": "/our-approach",
         "dropdownItems": [
             {
-                "name": "Service 1",
-                "path": "/services/service-1"
+                "name": "Free Thought",
+                "path": "/our-approach/free-thought"
             },
             {
-                "name": "Service 2",
-                "path": "/services/service-2"
+                "name": "Attention To Details",
+                "path": "/our-approach/attention-to-detail"
+            },
+            {
+                "name": "Pioneering",
+                "path": "/our-approach/pioneering"
             }
         ]
     },
@@ -54,12 +86,12 @@
         "path": "/features",
         "dropdownItems": [
             {
-                "name": "Feature 1",
-                "path": "/features/feature-1"
+                "name": "Color Craft",
+                "path": "/features/colour-craft"
             },
             {
-                "name": "Feature 2",
-                "path": "/features/feature-2"
+                "name": "Games Room",
+                "path": "/features/games-room"
             }
         ]
     }

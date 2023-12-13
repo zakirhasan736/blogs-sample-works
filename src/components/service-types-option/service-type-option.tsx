@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Button from "@elements/button/button";
-
+import React from "react";
 interface ServiceType {
 	title: string;
 	description: string;

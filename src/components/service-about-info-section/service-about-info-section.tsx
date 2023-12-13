@@ -1,6 +1,6 @@
 import Button from '../elements/button/button';
 import {Image} from '@packages/packages';
-
+import React from "react";
 interface ServiceAboutInfoProps {
 	data: {
 		ServiceSecTitle?: string;
