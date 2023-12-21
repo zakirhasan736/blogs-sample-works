@@ -2,7 +2,7 @@
     "ServiceMenuItems": [
         {
             "title": "SEO",
-            "path": "/seo",
+            "path": "/services/seo",
             "subItems": [
                 {
                     "title": "Local SEO",
@@ -20,21 +20,21 @@
         },
         {
             "title": "Social Media",
-            "path": "/ai-humanity",
+            "path": "/services/ai-humanity",
             "subItems": [
                 {
                     "title": "Branding",
-                    "path": "/ai-humanity/branding"
+                    "path": "/services/branding"
                 },
                 {
                     "title": "Visual Media",
-                    "path": "/ai-humanity/visual-media"
+                    "path": "/services/visual-media"
                 }
             ]
         },
         {
             "title": "PPC",
-            "path": "/hult-ib-school",
+            "path": "/services/hult-ib-school",
             "subItems": [
                 {
                     "title": "Display Advertising",
@@ -48,7 +48,7 @@
         },
         {
             "title": "Branding",
-            "path": "/village-of-genal",
+            "path": "/services/village-of-genal",
             "subItems": [
                 {
                     "title": "Branding",
@@ -62,7 +62,7 @@
         },
         {
             "title": "Web Design & Development",
-            "path": "/knights-academy",
+            "path": "/services/knights-academy",
             "subItems": [
                 {
                     "title": "Web Design",
@@ -76,7 +76,7 @@
         },
         {
             "title": "Visual Media",
-            "path": "/naeo",
+            "path": "/services/naeo",
             "subItems": [
                 {
                     "title": "Web Design",
