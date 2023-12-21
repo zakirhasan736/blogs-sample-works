@@ -95,22 +95,22 @@ const OurApproachTabs: React.FC<{ data: TabData[] }> = ({ data }) => {
   }, []);
 
   return (
-    <div className="our-approach-tabs-sceens-page bg-[#D9D9D9] pt-8 pr-[57px] pb-[51px] pl-5 rounded-[12px] flex items-start gap-0 overflow-hidden tabs-container">
-      <div className="our-approach-tabs-screen-left-cont pr-8 flex flex-col gap-3 w-full max-w-[360px] tabs">
+    <div className="our-approach-tabs-sceens-page bg-[#D9D9D9] pt-8 pr-[57px] pb-[51px] sm:px-8 pl-5 rounded-[12px] flex items-start gap-0 overflow-hidden tabs-container sm:flex-col">
+      <div className="our-approach-tabs-screen-left-cont pr-8 sm:pr-0 flex flex-col gap-3 w-full max-w-[360px] tabs sm:mb-5">
         {data.map((tab) => (
           <a
             key={tab.id}
             id={tab.id}
             title={tab.title}
-            className={`our-approad-tabs-items text-text-medium-4 text-left text-[#191919] font-primary font-semibold leading-none px-5 py-[43px] bg-tranparent ${
+            className={`our-approad-tabs-items text-text-medium-4 text-left text-[#191919] font-primary font-semibold leading-none px-5 py-[43px] bg-tranparent sm:px-2 sm:py-6 ${
               tab.id === activeTab ? 'active' : ''
-            } rounded-[16px] max-w-[336px] h-[117px] w-full`}
+            } rounded-[16px] max-w-[336px] h-[117px] w-full sm:h-auto sm:text-[23px] sm:max-w-[450px]`}
           >
             {tab.title}
           </a>
         ))}
       </div>
-      <div className="our-approach-tabs-screen-right-cont pl-5 border-l border-l-neu-black w-full">
+      <div className="our-approach-tabs-screen-right-cont pl-5 border-l border-l-neu-black w-full sm:border-none sm:pl-0">
         {data.map((tab) => (
           <div
             key={tab.id}

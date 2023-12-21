@@ -1,4 +1,5 @@
 import {Image} from "@packages/packages"
+import React from "react";
 interface ProjectChallengeProps {
 	data: {
 	projectChallengeModalTitle: string;
@@ -19,15 +20,15 @@ const ProjectChallenge: React.FC<ProjectChallengeProps> = ({ data }) => {
 				<div className="case-study-challenge-wrapper-box">
 					<div className="section-title-box">
 						<div className="section-titles">
-							<div className="section-model-title sm:text-[64px] whitespace-nowrap empty:hidden scrolling-text uppercase text-[200px] font-primary font-medium leading-[.8] ">
+							<div className="section-model-title laptop-x:text-[150px] lg:text-[94px] md:text-[84px] sm:text-[64px] whitespace-nowrap empty:hidden scrolling-text uppercase text-[200px] font-primary font-medium leading-[.8] ">
 								{data.projectChallengeModalTitle}
 							</div>
 							<h2 className="section-title empty:hidden text-[44px] text-left text-neu-white font-primary font-medium uppercase tracking-[4px] sm:text-[20px]">
 								{data.projectChallengeTitle}
 							</h2>
 						</div>
-						<div className="quote-box pl-[100px] sm:pl-0">
-							<p className="quote-desc-text mt-12 sm:mt-6 relative max-w-[1048px] w-full pl-[200px] sm:pl-5 empty:hiddem text-[27px] text-left text-neu-white font-primary font-semibold leading-normal sm:text-[13px]">
+						<div className="quote-box pl-[100px] laptop-x:pl-[90px] laptop-m:pl-[80px] lg:pl-[60px] md:pl-0">
+							<p className="quote-desc-text mt-12 sm:mt-6 relative max-w-[1048px] w-full pl-[200px] laptop-x:pl-[160px] laptop-m:pl-[100px] lg:pl-[80px] md:pl-[55px] sm:pl-5 empty:hiddem text-[27px] text-left text-neu-white font-primary font-semibold leading-normal sm:text-[13px]">
 								{data.projectChallengeQuoteText}
 							</p>
 							<p className="quote-desc-text pl-[200px] sm:pl-5 mt-7 max-w-[1048px] w-full sm:mt-4 empty:hiddem text-[20px] text-left text-neu-white font-primary font-medium leading-normal sm:text-[12px]">

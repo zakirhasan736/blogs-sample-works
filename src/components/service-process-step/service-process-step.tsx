@@ -1,5 +1,6 @@
-import React from 'react';
-import {Image} from '@packages/packages'
+"use client";
+import React from "react";
+import { Image } from "@packages/packages";
 interface ServicesProcessStepsType {
 	ProcessStepTitle: string;
 	ProcessStepNumber: string;
@@ -18,7 +19,10 @@ interface ServicesProcessStepsProps {
 	};
 }
 
-const ServicesProcessStepsSection: React.FC<ServicesProcessStepsProps> = ({ data }) => {
+const ServicesProcessStepsSection: React.FC<ServicesProcessStepsProps> = ({
+	data,
+}) => {
+
 	return (
 		<div className="services-process-steps-section pt-[120px] sm:pt-[70px]">
 			<div className="services-process-steps-wrapper">
@@ -37,8 +41,8 @@ const ServicesProcessStepsSection: React.FC<ServicesProcessStepsProps> = ({ data
 					</div>
 				</div>
 				<div className="custom-container-fluid pl-0 md:pl-8 sm:pl-4">
-					<div className="services-process-steps-wrap-box grid grid-cols-16 gap-10">
-						<div className="col-span-9 sm:col-span-full">
+					<div className="services-process-steps-wrap-box grid grid-cols-16 gap-10 sm:flex sm:flex-col">
+						<div className="col-span-9 sm:col-span-full  sticky top-20 h-[722px]">
 							<div className="services-process-left-cont">
 								{/* ======== */}
 								<div className="services-proces-steps-card pl-[112px] md:pl-0">
@@ -65,11 +69,13 @@ const ServicesProcessStepsSection: React.FC<ServicesProcessStepsProps> = ({ data
 								/>
 							</div>
 						</div>
-						<div className="col-span-7 sm:col-span-full">
+						<div className="col-span-7 sm:col-span-full h-[1209px]">
 							<div className="services-process-right-cont">
 								{/* ======== */}
 								{data.ServicesProcesse?.map((ServicesProcess, index) => (
-									<div className="services-proces-steps-card mb-[50px] sm:mb-[30px]">
+									<div
+										className="services-proces-steps-card mb-[50px] sm:mb-[30px]"
+										key={index}>
 										<h3 className="service-process-step-title text-[53px] sm:text-[32px] text-left text-primary font-primary font-semibold leading-none mb-[40px] sm:mb-[22px]">
 											{ServicesProcess.ProcessStepTitle}{" "}
 											<span className="color-text text-secondary">
@@ -93,6 +99,7 @@ const ServicesProcessStepsSection: React.FC<ServicesProcessStepsProps> = ({ data
 									</div>
 								))}
 								{/* ====== */}
+
 							</div>
 						</div>
 					</div>

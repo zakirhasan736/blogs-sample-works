@@ -1,0 +1,116 @@
+{
+    "pageTitle": "Social Media - Services",
+    "pageDescription": "eee",
+    "ServicesBannerData": {
+        "bannerTitle": "Social Media",
+        "bannerBtnText": "Get in touch",
+        "bannerDescription": "Social Networking. Reimagining your ideas around the concept of Social Media to engage your community of like-minded thinkers and fans."
+    },
+    "ServiceAboutInfoData": {
+        "ServiceSecModalImage": "/images/service-about-info-sec-img.png",
+        "ServiceSecTitle": "Particular Approach to Social Media",
+        "ServiceSecDesc1": "At Particular, we understand that social media isn't just about posts and likes; it's about crafting a unique digital narrative. Our commitment is to help you navigate the social landscape with precision and connect with your audience authentically.",
+        "ServiceSecDesc2": "Social media is the modern canvas for storytelling. We tailor your social strategy to tell your brand's story in a way that captivates your audience. Our approach is to craft narratives that resonate, provoke conversations, and foster meaningful connections.",
+        "ServiceSecBtnText": "Get in touch"
+    },
+    "FaqPageAccodionData": [
+        {
+            "id": 1,
+            "question": "What is Lorem Ipsum ?",
+            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+            "id": 2,
+            "question": "Why do we use it?",
+            "answer": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        },
+        {
+            "id": 3,
+            "question": "Where does it come from?",
+            "answer": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+        },
+        {
+            "id": 4,
+            "question": "Is it safe to use Lorem Ipsum?",
+            "answer": "Yes, it is safe to use Lorem Ipsum. It has been the industry's standard dummy text ever since the 1500s."
+        },
+        {
+            "id": 5,
+            "question": "What is the purpose of Lorem Ipsum?",
+            "answer": "The purpose of Lorem Ipsum is to create a natural-looking block of text that doesn't distract from the layout."
+        }
+    ],
+    "servicesFaqSecTitle": "FAQS",
+    "ServicesTypoSecData": {
+        "ServicesTypeSecTitle": "Our Social Media Services",
+        "ServicesTypeSecBtnText": "Get in touch",
+        "ServicesTypeSecModalGIF": "/images/gif/Section01-1.gif",
+        "services": [
+            {
+                "title": "Social Strategy",
+                "description": "Effective strategy is the cornerstone of a successful social media presence. We craft a tailored strategy that aligns with your goals and target audience. This involves in-depth market research, competitor analysis, and goal setting. We identify the most effective social platforms, content themes, and posting schedules to maximize your brand's impact in the digital landscape."
+            },
+            {
+                "title": "Photo and Videographic Production",
+                "description": "Visual storytelling brings your brand to life, and is one of the most powerful tools in the digital age. Our talented team handles everything from pre-production planning through shooting and post-production editing."
+            },
+            {
+                "title": "Graphic Design",
+                "description": "Graphic Design is an art of visual communication, and it's at the core of our Visual Media service. We craft visually compelling graphics that enhance your brand's identity and engage your audience. From eye-catching social media graphics to impactful print materials, our designers ensure every piece reflects your brand's personality."
+            }
+        ]
+    },
+    "ServicescaseStudyFeaturedData": {
+        "CaseStudyServices": [
+            {
+                "image": "/images/featured-case-study-image.png",
+                "title": "Case Study 1",
+                "description": "Engineering high-speed sites for every popular CMS...",
+                "btnText": "Discover More"
+            },
+            {
+                "image": "/images/featured-case-study-image.png",
+                "title": "Case Study 2",
+                "description": "Engineering high-speed sites for every popular CMS...",
+                "btnText": "Discover More"
+            },
+            {
+                "image": "/images/featured-case-study-image.png",
+                "title": "Case Study 3",
+                "description": "Engineering high-speed sites for every popular CMS...",
+                "btnText": "Discover More"
+            }
+        ],
+        "ServicesCaseStudyTitle": "Social Media Case Studies"
+     
+    },
+    "ServicesProcessData": {
+        "ProcessStepSecTitle": "The Process",
+        "ProcessStepFeaturedImage": "/images/service-process-image.png",
+        "ProcessStepFeatureTitle": "Step",
+        "ProcessStepFeatureNumber": "1",
+        "ProcessStepFeatureSubTitle": "YOUR DISCOVERY CALL.",
+        "ProcessStepFeaturedDesc": "Outline your objectives in as much detail as possible - unrealistic desires and long-term goals included - so that we gain a complete idea of the field you’ll be competing in.",
+        "ServicesProcesse": [
+            {
+                "ProcessStepNumber": 2,
+                "ProcessStepTitle": "Step",
+                "ProcessStepSubTitle": "YOUR BRIEF AND PROPOSAL.",
+                "ServicesStepsDescription": "Where we confirm what your project needs and how we’ll collaborate with you. We’ll uncover and confirm how we can help you implement each detailed aspect of your Website plans. \n\nIt’s important that you understand exactly why we follow the steps we do and how they’re likely to lead to you succeeding in line with or beyond your KPIs."
+            },
+            {
+                "ProcessStepNumber": 3,
+                "ProcessStepTitle": "Step",
+                "ProcessStepSubTitle": "WHERE WE OFFER A PLAN FOR YOUR SUCCESS",
+                "ServicesStepsDescription": "Based on your confirmed brief, our Product Team will offer you our proposed scope of works. This will include timelines and investment amounts. \n\nIt’s important that you understand exactly why we follow the steps we do and how they’re likely to lead to you succeeding in line with or beyond your KPIs."
+            },
+            {
+                "ProcessStepNumber": 4,
+                "ProcessStepTitle": "Step",
+                "ProcessStepSubTitle": "WHERE WE OFFER A PLAN FOR YOUR SUCCESS",
+                "ServicesStepsDescription": "Based on your confirmed brief, our Product Team will offer you our proposed scope of works. This will include timelines and investment amounts. \n\nIt’s important that you understand exactly why we follow the steps we do and how they’re likely to lead to you succeeding in line with or beyond your KPIs."
+            }
+        ]
+    }
+
+}

@@ -2,13 +2,18 @@
     "FeatureMenuItems": [
         {
             "title": "GAMES ROOM",
-            "path": "/games-room"
+            "path": "/features/games-room"
         },
         {
             "title": "COLOUR CRAFT",
-            "path": "/colour-craft"
+            "path": "/features/colour-craft"
         }
     ],
-
+"FeatureFooterItems": [
+    {
+        "title": "",
+        "path": ""
+    }
+],
     "FeatureMegaMenuClass": "featured-mega-menu"
 }

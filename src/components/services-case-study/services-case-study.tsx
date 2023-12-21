@@ -1,5 +1,6 @@
 import {Image} from '@packages/packages';
 import Button from '../elements/button/button';
+import React from "react";
 interface ServiceCaseStudyType {
 	image: string;
 	title: string;
@@ -27,7 +28,7 @@ const ServicesCaseStudy: React.FC<ServicesCaseStudyProps> = ({ data }) => {
 					</div>
 					<div className="services-case-study-wrapper-cont-box">
 						{data.CaseStudyServices?.map((CaseStudyservice, index) => (
-							<div className="services-featured-case-study-card relative mb-[50px] sm:mb-0">
+							<div className="services-featured-case-study-card relative mb-[50px] sm:mb-6" key={index}>
 								<div className="featured-case-study-text-box relative">
 									<Image
 										src={CaseStudyservice.image}
@@ -36,7 +37,7 @@ const ServicesCaseStudy: React.FC<ServicesCaseStudyProps> = ({ data }) => {
 										width={1538}
 										height={304}
 									/>
-									<h3 className="featured-case-study-title absolute left-10 bottom-7 text-[60px] text-left text-primary font-primary font-bold leading-none">
+									<h3 className="featured-case-study-title absolute left-10 md:pl-6 bottom-7 text-[60px] md:text-[38px] sm:text-[32px] text-left text-primary font-primary font-bold leading-none">
 										{CaseStudyservice.title}
 									</h3>
 								</div>

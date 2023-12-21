@@ -1,5 +1,5 @@
 import { ArrowUpIcons } from '@/icons';
-
+import React from "react";
 interface BackToTopProps {}
 
 const BackToTop: React.FC<BackToTopProps> = () => {

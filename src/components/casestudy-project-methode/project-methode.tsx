@@ -1,6 +1,6 @@
 import { Image } from "@packages/packages";
 import Button from "../elements/button/button";
-
+import React from "react";
 
 interface ProjectMethodProps {
 	data: {
@@ -19,7 +19,7 @@ const ProjectMethode: React.FC<ProjectMethodProps> = ({ data }) => {
 				<div className="case-study-project-methode-wrap">
 					<div className="section-title-box">
 						<div className="section-titles">
-							<div className="section-model-title sm:text-[64px] whitespace-nowrap empty:hidden scrolling-text uppercase text-[200px] font-primary font-medium leading-[.8] ">
+							<div className="section-model-title laptop-x:text-[150px] lg:text-[94px] md:text-[84px] sm:text-[64px] whitespace-nowrap empty:hidden scrolling-text uppercase text-[200px] font-primary font-medium leading-[.8] ">
 								{data.sectionModelTitle}
 							</div>
 							<h2 className="section-title empty:hidden text-[44px] text-left text-neu-white font-primary font-medium uppercase tracking-[4px] sm:text-[20px]">

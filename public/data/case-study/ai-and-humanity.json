@@ -1,0 +1,66 @@
+{
+    "pageTitle": "Case Study AI and Humanity",
+    "pageDescription": "eee",
+    "CaseStudyBannerData": {
+        "StudyBannerModalImg": "/images/case-study-banner-modal-image.jpg",
+        "BannerTitle": "AI and Humanity",
+        "BannerDesc": "Design intention: to symbolise the harmonious coexistence of AI and humanity, ensuring the campaign's messaging would be easily digestible for a contemporary, fast-evolving audience."
+    },
+    "ProjectOverviewData":{
+            "projectOverviewSubtitle": "Project Overview Subtitle",
+            "projectOverviewTitle": "To Empower Spark Presents: AI & Humanity with a Captivating Visual Identity and Marketing Assets to Drive Thought Leadership",
+            "projectOverviewDesc": "Our collaboration with Spark Presents: AI & Humanity demonstrated the transformative power of a compelling visual identity and thoughtfully crafted marketing assets. By sparking curiosity and conversation, we successfully propelled the campaign into the forefront of discussions on A.I and its impact on humanity, fostering meaningful dialogue and exploration of the future.",
+            "quoteText": "Spark Presents: AI & Humanity aimed to host a groundbreaking event exploring the intersection of artificial intelligence and humanity's future. To engage and inspire a diverse audience of tech enthusiasts, scholars, and policymakers, they needed a visual identity that could spark curiosity and conversation.",
+            "quoteDescText": "Our challenge was clear: create a compelling visual identity for the campaign and produce marketing assets that would simultaneously cultivate imagination.",
+            "overviewPortfolioTitle": "Graphic Design",
+            "overviewPortfolioImage": "/images/project-overview-image.jpg"
+    },
+    "ProjectMethodeData":{
+        "sectionModelTitle": "THE METHOD",
+        "sectionTitle": "The Particular Method",
+        "methodDescriptions": [
+            "We commenced the project by understanding the core message of Spark Presents: AI & Humanity. We delved into the thematic elements of AI, ethics, and human society.",
+            "With these insights, we developed a visual identity that encapsulated the fusion of technology and humanity, intentionally manipulating typography and colour for delivery of this key message.",
+            "With the visual identity in place, we set out to create a suite of marketing assets. We produced engaging promotional materials, including event posters, social media graphics, and email newsletters, each leveraging the campaign's visual identity to convey the event's significance and allure."
+        ],
+        "buttonText": "Services",
+        "callImage": "/images/schedule-call-image.svg"
+    },
+    "ProjectResultData": {
+        "sectionModelTitle": "The result",
+        "sectionTitle": "The result",
+        "resultImage": "/images/project-result-modal-image.jpg",
+        "results": [
+            {
+                "percent": "54%",
+                "description": "rise in event registrations compared to previous campaigns"
+            },
+            {
+                "percent": "75%",
+                "description": "more online shares and comments on campaign-related posts"
+            },
+            {
+                "percent": "90%",
+                "description": "of attendees expressed interest in future events"
+            }
+        ],
+        "resultSecBgClass": "gray-background-color"
+    },
+    "featuredPostData":{
+        "featuredSecTitle": "Featured Case Studies",
+        "posts": [
+            {
+                "image": "/images/featured-case-study-img-1.png",
+                "link": "/articles/articles-one"
+            },
+            {
+                "image": "/images/featured-case-study-img-2.png",
+                "link": "/articles/articles-one"
+            },
+            {
+                "image": "/images/featured-case-study-img-3.png",
+                "link": "/articles/articles-one"
+            }
+        ]
+    }
+}

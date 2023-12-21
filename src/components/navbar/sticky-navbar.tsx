@@ -1,7 +1,7 @@
 "use client";
 import { Link } from "@packages/packages";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 interface NavItem {
 	path: string;
 	name: string;
@@ -13,7 +13,7 @@ const navItems: NavItem[] = [
 		name: "Home",
 	},
 	{
-		path: "/case-studies",
+		path: "/case-study",
 		name: "Case Studies",
 	},
 	{
@@ -35,7 +35,7 @@ const StickyNavbar = () => {
 
 	useEffect(() => {
 		const handleScroll = () => { 
-			if (window.scrollY > window.innerHeight) {
+			if (window.scrollY > 270) {
 				setShowStickyNavbar(true);
 			} else {
 				setShowStickyNavbar(false);
@@ -51,14 +51,14 @@ const StickyNavbar = () => {
 	return (
 		<div
 			className={`sticky-navbar-wrapper px-6 sm:px-4 ${showStickyNavbar ? "show" : "hide"}`}>
-			<ul className="sticky-nav-item fixed w-full bottom-10 left-0 right-0 z-[9999] bg-neu-white mx-auto px-2 py-[5px] rounded-full max-w-[550px] h-[51px] flex items-center justify-between">
-				{navItems.map((item, index) => {
+			<ul className="sticky-nav-item fixed w-full bottom-10 left-0 right-0 z-[9999] bg-neu-white mx-auto px-2  py-[5px] rounded-full max-w-[550px] h-[51px] flex items-center justify-between">
+				{navItems.map((item) => {
 					const isActive = item.path === pathname;
 					return (
-						<li key={item.path} className="sticky-navbar-nav-items relative">
+						<li key={item.path} className="sticky-navbar-nav-items relative" >
 							<Link
 								href={item.path}
-								className={`relative text-black hover:text-neu-white hover:bg-black py-[10px] px-[11px] whitespace-nowrap rounded-full text-[15px] text-center font-medium font-secondary capitalize leading-none  ${
+								className={`relative text-black hover:text-neu-white hover:bg-black py-[10px] px-[11px] sm:px-2 sm:text-[11px] whitespace-nowrap rounded-full text-[15px] text-center font-medium font-secondary capitalize leading-none  ${
 									isActive ? "active-asign" : ""
 								}`}>
 								<span>{item.name}</span>

@@ -1,5 +1,5 @@
 import { Image, Link } from "@packages/packages";
-
+import React from "react";
 interface CaseStudy {
 	image: string;
 	link: string;
@@ -7,7 +7,7 @@ interface CaseStudy {
 
 interface FeaturedCaseStudiesProps {
 	data: {
-		featuredSecTitle: string;
+		featuredSecTitle?: string;
 		posts: CaseStudy[];
 	};
 }
@@ -15,12 +15,15 @@ interface FeaturedCaseStudiesProps {
 const FeaturedCaseStudies: React.FC<FeaturedCaseStudiesProps> = ({
 	data
 }) => {
+		if (!data) {
+			return <div>No article content available</div>;
+		}
 	return (
 		<div className="featured-case-study-section pb-[200px] sm:pb-[143px] overflow-hidden">
 			<div className="custom-container">
 				<div className="featured-case-study-sec-title-box text-center">
 					<h2 className="section-title text-[56px] text-center mb-[70px] sm:mb-[45px] text-neu-white font-primary font-semibold tracking-[2px] leading-none capitalize sm:text-[36px]">
-						{data.featuredSecTitle}
+						{data.featuredSecTitle || ""}
 					</h2>
 				</div>
 				<div className="featured-case-study-wrap max-w-[1115px] w-full mx-auto grid grid-cols-12 gap-5 sm:flex sm:items-start sm:w-[700px] sm:left-[-170px] relative">
@@ -28,9 +31,9 @@ const FeaturedCaseStudies: React.FC<FeaturedCaseStudiesProps> = ({
 						<div
 							key={index}
 							className="featured-case-study-card-item col-span-4 sm:h-[369px] sm:w-[229px]">
-							<Link href={post.link}>
+							<Link href={post.link || ""}>
 								<Image
-									src={post.image}
+									src={post.image || ""}
 									alt={`featured case study modal image`}
 									width={356}
 									height={571}

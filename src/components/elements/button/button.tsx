@@ -1,4 +1,6 @@
+import React from "react";
 interface ButtonProps {
+
   btnText: string;
   btnVariant?: string;
   type?: "button" | "submit" | "reset"; 
