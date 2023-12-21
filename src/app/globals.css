@@ -360,6 +360,7 @@ li.navbar-nav-items .megamenu-wrapper-content:before {
 .services-slider-swiper .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     background: #D9D9D9;
 }
+
 .swiper-slide.swiper-slide-visible.swiper-slide-thumb-active .services-slide-card-items .slider-model-text,
 .swiper-slide-visible.swiper-slide-fully-visible.swiper-slide-thumb-active .services-slide-card-items .slider-model-text {
     font-family: Urbanist;
@@ -796,10 +797,15 @@ code, pre {
 @media screen and (max-width:767px) {
   .case-study-cont-text {
     padding:18px;
+  }
+}
+label.checkmark-services input:checked ~ .check-mark-input-mark {
+    background: #ffffff;
+
 }
 }
-}
- 
+
+
 @layer components {
   .our-approad-tabs-items.active {
     @apply bg-[#191919] text-neu-white text-center;

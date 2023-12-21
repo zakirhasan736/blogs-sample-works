@@ -75,9 +75,11 @@ const Navbar = () => {
 						</button>
 					</div>
 					<nav className="navigation-navbar">
+
 						<ul className="navbar-nav flex items-center sm:hidden">
 							<li className="navbar-nav-items">
 								<div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
+
 									<Link
 										href="/"
 										className="relative text-primary flex items-center gap-2 text-center text-body-text-3 laptop-m:text-[18px] font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3 lg:px-3">
@@ -104,7 +106,9 @@ const Navbar = () => {
 								/>
 							</li>
 							<li className="navbar-nav-items">
+
 								<div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
+
 									<Link
 										href="/services"
 										className="relative lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-body-text-3 font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
@@ -122,7 +126,9 @@ const Navbar = () => {
 								/>
 							</li>
 							<li className="navbar-nav-items">
+
 								<div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
+
 									<Link
 										href="/our-approach"
 										className="relative lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-body-text-3 font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
@@ -140,9 +146,11 @@ const Navbar = () => {
 								/>
 							</li>
 							<li className="navbar-nav-items">
+
 								<div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
 									<div
 										className="relative cursor-pointer lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-body-text-3 font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
+
 										<span>Features</span>
 									</div>
 									<span>
