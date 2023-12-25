@@ -276,6 +276,32 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
     .project-result-cont-wrap {
     padding: 100px 45px 0 45px;
   }
+  .custom-pagination .pagination-item.active {
+    color: var(--Blue, rgba(0, 175, 252, 0.78));
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.custom-pagination .pagination-item {
+    color: var(--Light-grey, #D9D9D9);
+    font-family: Urbanist;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+  .custom-pagination {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 20px;
+}
 }
   @media screen and (max-width:767px) {
     .quote-box p.quote-desc-text:before {
@@ -296,7 +322,7 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 10px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .effect-card-items {
     display: flex;

@@ -69,7 +69,7 @@ const EffectCardSlider = () => {
 					<SwiperSlide key={index}>
 						<div className="effect-card-items">
 							<Image
-                            className="w-[322px] h-[411px] sm:w-[205px] sm:h-[261px]"
+                            className="w-[322px] h-[411px] md:w-[205px] md:h-[261px]"
 								src={slide.image}
 								alt={slide.alt}
 								width={slide.width}

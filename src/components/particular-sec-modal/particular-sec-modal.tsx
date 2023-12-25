@@ -19,7 +19,7 @@ const ParticularSecModal = () => {
 						const wi = section.querySelector(".scroll-text-item");
 						const [x, xEnd] =
 							index % 2
-								? ["1%", (wi.scrollWidth - section.offsetWidth) * -1]
+								? ["10%", (wi.scrollWidth - section.offsetWidth) * -1]
 								: [wi.scrollWidth * -1, 0];
 						gsap.fromTo(
 							wi,
@@ -30,7 +30,8 @@ const ParticularSecModal = () => {
 								scrollTrigger: {
 									trigger: section,
 									scrub: 0.5,
-									start: "top +=850",
+									markers: true,
+									start: "top +=1250",
 									end: () => "+=" + (wi.scrollWidth - section.offsetWidth),
 								},
 								y: 0,

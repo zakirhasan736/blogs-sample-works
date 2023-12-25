@@ -1,5 +1,4 @@
 import Button from "@/components/elements/button/button"
-import {Image} from "@packages/packages"
 import EffectCardSlider from "../effect-card-slider/EffectCardSlider";
 
 const AboutSection = () => {
