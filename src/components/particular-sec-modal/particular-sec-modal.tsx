@@ -11,7 +11,7 @@ const ParticularSecModal = () => {
 			const howItWorkScroll2 = gsap.context(() => {
 				let viewPort = gsap.matchMedia();
 				viewPort.add("(min-width:768px)", () => {
-					document.body.style.overflow = "auto";
+					// document.body.style.overflow = "auto";
 					const howItWorkScrolled2 = gsap.utils.toArray(
 						".scrolling-main-content-wrap-box",
 					);
@@ -30,7 +30,7 @@ const ParticularSecModal = () => {
 								scrollTrigger: {
 									trigger: section,
 									scrub: 0.5,
-									markers: true,
+									// markers: true,
 									start: "top +=1250",
 									end: () => "+=" + (wi.scrollWidth - section.offsetWidth),
 								},

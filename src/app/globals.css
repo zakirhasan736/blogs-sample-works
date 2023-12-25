@@ -926,6 +926,10 @@ label.checkmark-services input:checked ~ .check-mark-input-mark {
     background: #ffffff;
 
 }
+.checkmark-privacy-box input:checked ~ .check-mark-input-mark {
+    background: #ffffff;
+
+}
 .swiper.client-brand-slider {
     padding-bottom: 60px;
 }
