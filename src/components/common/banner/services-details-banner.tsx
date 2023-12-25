@@ -21,14 +21,14 @@ const ServicesBanner: React.FC<ServicesBannerProps> = ({ data }) => {
 
 	return (
 		<>
-			<section className="services-banner-section pt-[113px] pb-[100px] sm:py-9 h-[817px] sm:h-[530px] bg-[#232323]">
+			<section className="services-banner-section pt-[113px] pb-[100px] sm:py-9 h-[666px] sm:h-[530px] bg-[#232323]">
 				<div className="custom-container h-full">
-					<div className="services-content-main-wrapper relative grid grid-cols-16 gap-5 w-full h-full">
-						<div className="services-content-text-box pb-12 col-span-full mt-auto">
-							<h1 className="services-banner-title primary-heading-6 font-semibold font-primary tracking-[4px] text-left text-primary text-primary-heading-6 mb-10 uppercase leading-none sm:text-sixth-heading-2 sm:mb-8">
+					<div className="services-content-main-wrapper relative grid grid-cols-16 gap-5 w-full h-full  max-w-[1430px] mx-auto">
+						<div className="services-content-text-box pb-12 col-span-full my-auto sm:mb-0">
+							<h1 className="services-banner-title primary-heading-6 font-semibold font-primary tracking-[4px] text-left text-primary text-[80px] mb-[15px] uppercase leading-none sm:text-sixth-heading-2 sm:mb-8">
 								{data.bannerTitle}
 							</h1>
-							<p className="banner-description text-primary text-text-accend-1 text-left max-w-[1249px] mr-auto font-primary font-semibold leading-none mb-0 sm:text-[13px]">
+							<p className="banner-description text-primary text-[24px] text-left max-w-[1249px] mr-auto font-primary font-semibold leading-normal mb-0 sm:text-[13px]">
 								{formattedDescription}
 							</p>
 							<Button

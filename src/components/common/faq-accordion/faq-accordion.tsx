@@ -33,7 +33,7 @@ const FaqAccordion: React.FC<FaqAccordionProps> = ({ faqs }) => {
 							openIndex === index ? "mb-[18px]" : ""
 						}`}>
 						<h4
-							className="acordion-title text-neu-black text-left sm:text-[18px] text-[21px] font-primary font-normal leading-[18px] tracking-[3.045px] uppercase"
+							className="acordion-title text-neu-black text-left sm:text-[18px] text-[26px] font-primary font-normal leading-[18px] tracking-[3.045px] capitalize"
 							onClick={() => toggleAccordion(index)}>
 							{faq.question}
 						</h4>
@@ -48,7 +48,7 @@ const FaqAccordion: React.FC<FaqAccordionProps> = ({ faqs }) => {
 							openIndex === index ? "block" : "hidden"
 						}`}>
 						<span className="shape-line h-[1px] w-[108px] block mb-[13px]  bg-neu-black"></span>
-						<p className="accordion-desc-text text-neu-black text-left text-text-medium-4 font-primary font-normal leading-normal">
+						<p className="accordion-desc-text text-neu-black text-left sm:text-[18px] text-text-medium-4 font-primary font-normal leading-normal">
 							{faq.answer}
 						</p>
 					</div>

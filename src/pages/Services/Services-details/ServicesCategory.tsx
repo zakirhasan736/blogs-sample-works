@@ -26,7 +26,6 @@ const ServicesCategoriesPage: React.FC<ServicesCategoryPageProps> = ({
 	const {
 		ServicesBannerData,
 		ServiceAboutInfoData,
-		ServicesFaqSecTitle,
 		FaqPageAccodionData,
 		ServicesTypoSecData,
 		ServicescaseStudyFeaturedData,
@@ -34,7 +33,7 @@ const ServicesCategoriesPage: React.FC<ServicesCategoryPageProps> = ({
 	} = data;
 
 	return (
-		<div className="services-details-page-main-wrapper">
+		<div className="services-details-page-main-wrapper sm:overflow-hidden">
 			{/* services details page banner start here */}
 			<ServicesBanner data={ServicesBannerData} />
 			{/* services about info section */}
@@ -49,7 +48,7 @@ const ServicesCategoriesPage: React.FC<ServicesCategoryPageProps> = ({
 			<ServiceProcessStep data={ServicesProcessData} />
 			{/* service our faq section */}
 			<ServicesFaq
-				servicesFaqSecTitle={ServicesFaqSecTitle}
+				servicesFaqSecTitle="FAQ'S"
 				FaqPageAccodionData={FaqPageAccodionData}
 			/>
 		</div>

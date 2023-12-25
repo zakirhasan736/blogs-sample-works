@@ -1,5 +1,8 @@
-import {Image} from '@packages/packages'
-import React from "react";
+"use client";
+import { Image } from "@packages/packages";
+import React, { useRef, useLayoutEffect } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 interface ResultInfo {
 	percent: string;
 	description: string;
@@ -15,13 +18,51 @@ interface ProjectResultProps {
 	};
 }
 
+gsap.registerPlugin(ScrollTrigger);
 const ProjectResult: React.FC<ProjectResultProps> = ({ data }) => {
+	const exploreThreeRef = useRef<HTMLDivElement | null>(null);
+
+	useLayoutEffect(() => {
+		if (exploreThreeRef.current) {
+			const slidePrl = exploreThreeRef.current.querySelectorAll(
+				".modal-text-itemThree",
+			);
+
+			if (slidePrl.length) {
+				gsap.set(slidePrl, { x: 500 });
+
+				ScrollTrigger.create({
+					trigger: ".main-visual-sectionThree",
+					start: "top 80%",
+					end: "bottom 20%",
+					onToggle: self => {
+						if (self.isActive) {
+							gsap.to(slidePrl, {
+								x: 0,
+								duration: 1,
+								ease: "power2.out",
+							});
+						} else {
+							gsap.to(slidePrl, {
+								x: 500,
+								duration: 1,
+								ease: "power2.in",
+							});
+						}
+					},
+				});
+			}
+		}
+	}, []);
+
 	return (
-		<div className="study-project-result-section pb-[115px] sm:pb-20 overflow-hidden">
+		<section
+			ref={exploreThreeRef}
+			className="study-project-result-section main-visual-sectionThree pb-[115px] sm:pb-20 overflow-hidden">
 			<div className="custom-container">
 				<div className="study-project-result-wrapper">
 					<div className="section-modal-title-reals">
-						<div className="section-model-title laptop-x:text-[150px]  lg:text-[94px] md:text-[84px] sm:text-[64px] whitespace-nowrap empty:hidden scrolling-text uppercase text-[200px] font-primary font-medium leading-[.8] ">
+						<div className="section-model-title modal-text-itemThree laptop-x:text-[150px]  lg:text-[94px] md:text-[84px] sm:text-[64px] whitespace-nowrap empty:hidden scrolling-text uppercase text-[200px] font-primary font-medium leading-[.8] ">
 							{data.sectionModelTitle}
 						</div>
 					</div>
@@ -32,7 +73,7 @@ const ProjectResult: React.FC<ProjectResultProps> = ({ data }) => {
 						<div className="project-result-cont-wrap-left col-span-10">
 							<div className="section-title-box">
 								<div className="section-titles">
-									<h2 className="section-title empty:hidden text-[55px] text-left text-neu-white font-primary font-medium leading-none uppercase tracking-[4px] sm:text-[20px] mb-12 sm:mb-9">
+									<h2 className="section-title empty:hidden text-[48px]  md:text-[36px] text-left text-neu-white font-primary font-medium leading-none uppercase tracking-[4px] sm:text-[20px] mb-12 sm:mb-9">
 										{data.sectionTitle}
 									</h2>
 								</div>
@@ -56,11 +97,11 @@ const ProjectResult: React.FC<ProjectResultProps> = ({ data }) => {
 								{data.results.map((result, index) => (
 									<div
 										key={index}
-										className="result-info-card-item text-center mb-20 sm:mb-16">
-										<h4 className="result-percent mb-4 text-[55px] text-center text-neu-white font-bold font-primary leading-none sm:text-[42px]">
+										className="result-info-card-item text-center mb-20 md:mb-12 sm:mb-16">
+										<h4 className="result-percent mb-4 text-[48px] md:text-[34px] text-center text-neu-white font-bold font-primary leading-none sm:text-[42px]">
 											{result.percent}
 										</h4>
-										<p className="result-desc max-w-[419px] sm:max-w-[240px] w-full mx-auto text-[25px] text-center text-neu-white font-primary font-medium leading-normal sm:text-[14px]">
+										<p className="result-desc max-w-[419px] md:text-[18px] sm:max-w-[240px] w-full mx-auto text-[23px] text-center text-neu-white font-primary font-medium leading-normal sm:text-[14px]">
 											{result.description}
 										</p>
 									</div>
@@ -70,8 +111,8 @@ const ProjectResult: React.FC<ProjectResultProps> = ({ data }) => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };
 
-export default ProjectResult
+export default ProjectResult;

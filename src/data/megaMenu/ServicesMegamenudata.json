@@ -6,85 +6,110 @@
             "subItems": [
                 {
                     "title": "Local SEO",
-                    "path": "/zanbase/web-design"
+                    "path": "/services/seo"
                 },
                 {
                     "title": "SEO Audit",
-                    "path": "/zanbase/branding"
+                    "path": "/services/seo"
                 },
                 {
                     "title": "Copywrite",
-                    "path": "/zanbase/branding"
+                    "path": "/services/seo"
                 }
             ]
         },
         {
             "title": "Social Media",
-            "path": "/services/ai-humanity",
+            "path": "/services/social-media",
             "subItems": [
                 {
-                    "title": "Branding",
-                    "path": "/services/branding"
+                    "title": "User Experience",
+                    "path": "/services/social-media"
                 },
                 {
-                    "title": "Visual Media",
-                    "path": "/services/visual-media"
+                    "title": "User Design",
+                    "path": "/services/social-media"
+                },
+                {
+                    "title": "Web Development",
+                    "path": "/services/social-media"
                 }
             ]
         },
         {
             "title": "PPC",
-            "path": "/services/hult-ib-school",
+            "path": "/services/ppc",
             "subItems": [
                 {
                     "title": "Display Advertising",
-                    "path": "/hult-ib-school/web-design"
+                    "path": "/services/ppc"
                 },
                 {
-                    "title": "PPC",
-                    "path": "/hult-ib-school/ppc"
+                    "title": "Re-Marketing",
+                    "path": "/services/ppc"
+                }
+                ,
+                {
+                    "title": "Paid Social",
+                    "path": "/services/ppc"
                 }
             ]
         },
         {
             "title": "Branding",
-            "path": "/services/village-of-genal",
+            "path": "/services/branding",
             "subItems": [
                 {
-                    "title": "Branding",
-                    "path": "/village-of-genal/branding"
+                    "title": "Brand Identity",
+                    "path": "/services/branding"
                 },
                 {
-                    "title": "Visual Media",
-                    "path": "/village-of-genal/visual-media"
+                    "title": "Logo Designs",
+                    "path": "/services/branding"
+                },
+                {
+                    "title": "Asset Creation",
+                    "path": "/services/branding"
                 }
             ]
         },
         {
             "title": "Web Design & Development",
-            "path": "/services/knights-academy",
+            "path": "/services/web-design-development",
             "subItems": [
                 {
-                    "title": "Web Design",
-                    "path": "/knights-academy/web-design"
+                    "title": "User Experience",
+                    "path": "/services/web-design-development"
+                },
+                {
+                    "title": "User Design",
+                    "path": "/services/web-design-development"
                 },
                 {
                     "title": "Web Development",
-                    "path": "/knights-academy/web-development"
+                    "path": "/services/web-design-development"
                 }
             ]
         },
         {
             "title": "Visual Media",
-            "path": "/services/naeo",
+            "path": "/services/visual-media",
             "subItems": [
                 {
-                    "title": "Web Design",
-                    "path": "/naeo/web-design"
+                    "title": "Creative Direction",
+                    "path": "/services/visual-media"
                 },
                 {
-                    "title": "Visual Media",
-                    "path": "/naeo/visual-media"
+                    "title": "Photography",
+                    "path": "/services/visual-media"
+                },
+                {
+                    "title": "Videography",
+                    "path": "/services/visual-media"
+                },
+                {
+                    "title": "Graphic Design",
+                    "path": "/services/visual-media"
                 }
             ]
         }
@@ -92,7 +117,7 @@
     "ServiceFooterItems": [
         {
             "title": "Book a Call",
-            "path": "/book-a-call"
+            "path": "/contacts"
         },
         {
             "title": "Send an Email",
@@ -100,7 +125,7 @@
         },
         {
             "title": "FAQ’s",
-            "path": "/faqs"
+            "path": "/faq"
         }
     ],
     "ServiceMegaMenuClass": "services-mega-menu"

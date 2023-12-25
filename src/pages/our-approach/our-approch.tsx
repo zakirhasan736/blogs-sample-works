@@ -4,6 +4,11 @@ import OurApproachParticulasSection from '@/components/our-approach-particular-s
 import OurStatics from '@/components/our-statics/our-statics';
 import React from "react";
 const OurApproach: React.FC = () => {
+	 const ourStaticsTitleData = [
+			{
+				ourStaticsTitle: "Growth, revenue, results",
+			},
+		]
   const staticsItemsData = [
 		{
 			title: "50+",
@@ -38,7 +43,10 @@ const OurApproach: React.FC = () => {
 			{/* our approach particular wrapper main box end*/}
 
 			{/* our statics section */}
-			<OurStatics staticsItems={staticsItemsData} />
+			<OurStatics
+				staticsItems={staticsItemsData}
+				ourStaticsTitle="Growth, revenue, results"
+			/>
 			{/* our statics section end*/}
 		</div>
 	);

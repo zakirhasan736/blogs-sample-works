@@ -4,7 +4,7 @@ import ProjectMethode from "@/components/casestudy-project-methode/project-metho
 import ProjectResult from "@/components/casestudy-project-result/project-result";
 import CaseStudyBanner from "@/components/common/banner/case-study-banner";
 import FeaturedCaseStudies from "./FeaturedCaseStudies";
-import React from "react";
+
 interface CaseStudyCategoryProps {
 	data: {
 		CaseStudyBannerData: {
@@ -17,7 +17,7 @@ interface CaseStudyCategoryProps {
 		ProjectMethodeData: any;
 		ProjectResultData: any;
 		featuredPostData: any;
-	};
+	}; 
 }
 const CasestudyCategoriesPage: React.FC<CaseStudyCategoryProps> = ({
 	data,
@@ -33,7 +33,7 @@ const CasestudyCategoriesPage: React.FC<CaseStudyCategoryProps> = ({
 		ProjectResultData,
 		featuredPostData,
 	} = data;
-
+ 
 	return (
 		<div className="zanbase-page-content-main-wrapper">
 			{/* case study banner section */}

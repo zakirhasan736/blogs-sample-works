@@ -48,10 +48,10 @@ const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({
 	return (
 		<section className="testimonials-section px-[71px] pt-[51px] pb-[60px] sm:pt-[50px] sm:pr-5 sm:pb-5 sm:pl-6 bg-neu-gray-black-2 md:px-8">
 			<div className="custom-container-fluid md:px-0">
-				<div className="testimonials-sec-wrapper">
+				<div className="testimonials-sec-wrapper max-w-[1330px] mx-auto">
 					<div className="testimonials-section-title-box mb-[59px] sm:mb-6">
 						<div className="section-title-box flex items-center justify-between sm:flex-col sm:items-start sm:gap-4">
-							<h2 className="section-title font-primary font-bold leading-none text-left text-gray-light-2 text-fiveth-heading-4 md:text-[42px] sm:text-[36px]">
+							<h2 className="section-title font-primary font-bold leading-none text-left text-gray-light-2 text-[48px] md:text-[42px] sm:text-[36px]">
 								Testimonials
 							</h2>
 							<p className="testimonials-usersname text-gray-light-2 md:text-[23px] sm:text-[22px] text-text-medium-4 text-right font-semibold font-primary leading-none">
@@ -79,7 +79,7 @@ const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({
 							{slides.map((slide, index) => (
 								<SwiperSlide key={index}>
 									<div className="testimonials-slider-item">
-										<p className="section-desc mt-[65px] md:text-[22px] sm:mt-[17px] sm:text-[18px] text-neu-white text-left text-text-accend-5 font-primary font-normal leading-none max-w-[1301px]">
+										<p className="section-desc mt-[65px] md:text-[18px] sm:mt-[17px] sm:text-[18px] text-neu-white text-left text-text-medium-4 font-primary font-normal leading-normal max-w-[1301px]">
 											{slide.description}
 										</p>
 									</div>
@@ -89,16 +89,20 @@ const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({
 					</div>
 					<div className="widgets-pagination flex items-center justify-between">
 						<button
-							className="pagination-prev-widgete md:text-[20px] sm:text-[18px] font-primary font-medium text-gray-light-2 text-left text-text-medium-4 leading-none"
+							className="pagination-prev-widgete md:text-[20px] sm:text-[18px] font-primary font-medium text-gray-light-2 text-left text-[23px] leading-none"
 							onClick={handlePrev}>
 							Back
-							<span className="topic-text block sm:hidden md:text-[18px]">{prevSlideTitle}</span>
+							<span className="topic-text block sm:hidden md:text-[18px]">
+								{prevSlideTitle}
+							</span>
 						</button>
 						<button
-							className="pagination-next-widgete md:text-[20px] sm:text-[18px] font-primary font-medium text-gray-light-2 text-left text-text-medium-4 leading-none"
+							className="pagination-next-widgete md:text-[20px] sm:text-[18px] font-primary font-medium text-gray-light-2 text-left text-[23px] leading-none"
 							onClick={handleNext}>
 							Next
-							<span className="topic-text block sm:hidden md:text-[18px]">{nextSlideTitle}</span>
+							<span className="topic-text block sm:hidden md:text-[18px]">
+								{nextSlideTitle}
+							</span>
 						</button>
 					</div>
 				</div>

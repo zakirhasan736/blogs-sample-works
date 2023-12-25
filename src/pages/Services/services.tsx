@@ -51,66 +51,70 @@ const Services = () => {
 			btnText: "Discover more",
 		},
 		{
-			title: "SEO",
-			modalTitle: "SEO",
+			title: "WEB Design & development",
+			modalTitle: "WEB DEV",
 			description:
-				"Particular SEO: a foreign language made easy. Making Search Engine Optimisation friendly, so it works for you too.",
+				"Feels like a web design agency, helps like a doctor.  We listen first, and then serve. Particular Websites combine SEO, Strategy and UX to build high-speed, accessible sites that convert even the most stern audiences.",
 			btnText: "Discover more",
 		},
 		{
-			title: "SEO",
-			modalTitle: "SEO",
+			title: "PPC",
+			modalTitle: "pPC",
 			description:
-				"Particular SEO: a foreign language made easy. Making Search Engine Optimisation friendly, so it works for you too.",
+				"Social Networking. Reimagining your ideas around the concept of Social Media to engage your community of like-minded thinkers and fans.",
 			btnText: "Discover more",
 		},
 		{
-			title: "SEO",
-			modalTitle: "SEO",
+			title: "Branding",
+			modalTitle: "Branding",
 			description:
-				"Particular SEO: a foreign language made easy. Making Search Engine Optimisation friendly, so it works for you too.",
+				"Particular Branding is where stories find their visual voice and sense of feeling. We listen, we create, and we define your brand's essence. Crafting distinctive identities that resonate and endure.",
 			btnText: "Discover more",
 		},
 		{
-			title: "SEO",
-			modalTitle: "SEO",
+			title: "Visual Media.",
+			modalTitle: "Visual Media.",
 			description:
-				"Particular SEO: a foreign language made easy. Making Search Engine Optimisation friendly, so it works for you too.",
+				"Particular SEO: Humankind has spent millennia captivated by important stories told well. Create a pioneering story from your free-thought around your vision. We’ll handle the attention to detail.",
 			btnText: "Discover more",
 		},
 		{
-			title: "SEO",
-			modalTitle: "SEO",
+			title: "Social Media",
+			modalTitle: "Social Media",
 			description:
 				"Particular SEO: a foreign language made easy. Making Search Engine Optimisation friendly, so it works for you too.",
 			btnText: "Discover more",
 		},
 	];
 	const GalleryPrevSlidesData = [
-	
 		{
 			ModalTitle: "SEO",
 			Title: "SEO",
 			ModalImage: "/images/gif/Section03.gif",
 		},
 		{
-			ModalTitle: "SEO",
-			Title: "SEO",
+			ModalTitle: "WEB Design & development",
+			Title: "WEB Design & development",
 			ModalImage: "/images/gif/Section03.gif",
 		},
 		{
-			ModalTitle: "SEO",
-			Title: "SEO",
+			ModalTitle: "PPC",
+			Title: "PPC",
 			ModalImage: "/images/gif/Section03.gif",
 		},
 		{
-			ModalTitle: "SEO",
-			Title: "SEO",
+			ModalTitle: "Branding",
+			Title: "Branding",
 			ModalImage: "/images/gif/Section03.gif",
 		},
 		{
-			ModalTitle: "SEO",
-			Title: "SEO",
+			ModalTitle: "Visual Media.",
+			Title: "Visual Media.",
+			ModalImage: "/images/gif/Section03.gif",
+		},
+		{
+			ModalTitle: "Social Media",
+			Title: "Social Media",
 			ModalImage: "/images/gif/Section03.gif",
 		},
 	];
@@ -124,7 +128,7 @@ const Services = () => {
 			<section className="services-item-card-wrapper pb-[160px] pt-[133px] sm:pt-[80px] sm:pb-[120px]">
 				<div className="custom-container">
 					<div className="services-main-title-box pl-[50px] md:pl-0">
-						<h2 className="services-main-title text-text--large text-left text-neu-white font-primary font-normal uppercase leading-[190%] tracking-[.8px]">
+						<h2 className="services-main-title text-[48px] text-left text-neu-white font-primary font-normal uppercase leading-[190%] tracking-[.8px]">
 							services
 						</h2>
 						<span className="divider-spacer w-[61px] h-[1px] block bg-neu-white"></span>

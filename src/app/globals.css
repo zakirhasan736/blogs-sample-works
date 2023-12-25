@@ -41,7 +41,7 @@
     background-color: #161617;
     font-family: 'Urbanist', sans-serif;
     box-sizing: border-box;
-    border: 24px solid #F2EFEF;
+    /* border: 24px solid #F2EFEF; */
     overflow: hidden;
     overflow-y: scroll;
   }
@@ -83,7 +83,11 @@
     color: #fff;
     transition: all 650ms ease-in 0s;
   }
-
+ li.sticky-navbar-nav-items a div{
+   background-color: #000;
+   width: 100%;
+   height: 100%;
+ }
   .sticky-navbar-wrapper.hide ul.sticky-nav-item {
     bottom: -200px;
     opacity: 0;
@@ -197,7 +201,7 @@
     opacity: 1;
     visibility: visible;
     pointer-events: painted;
-    position: relative;
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
     transition: all 650ms ease;
   }
 
@@ -214,17 +218,63 @@
   .project-result-cont-wrap {
     padding: 100px 68px 0 112px;
   }
-
+.result-info-card-item:last-child {
+    margin-bottom: 0;
+}
 
   .project-result-modal-image-box {
     max-width: 828px;
   }
+  .custom-pagination {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 60px;
+}
+
+.custom-pagination .pagination-item.active {
+    color: var(--Blue, rgba(0, 175, 252, 0.78));
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.custom-pagination .pagination-item {
+    color: var(--Light-grey, #D9D9D9);
+    font-family: Urbanist;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+  .project-methodes-right-cont img{
+    animation: rotateModal 15s infinite linear;
+    -webkit-animation: rotateModal 15s infinite linear;
+}
+
+@keyframes rotateModal {
+  100%{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+}
 @media screen and (max-width:991px){
    .thought-division-slug li.slugs-item:first-child,
   .thought-division-slug li.slugs-item:nth-child(2) ,
   .thought-division-slug li.slugs-item:nth-child(3) {
     height: auto;
     rotate: 0deg;
+  }
+    .project-result-cont-wrap {
+    padding: 100px 45px 0 45px;
   }
 }
   @media screen and (max-width:767px) {
@@ -239,6 +289,36 @@
     .filter-drop-bg {
     -webkit-backdrop-filter: none !important;
     backdrop-filter: none !important;
+}
+  .custom-pagination {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 40px;
+}
+.effect-card-items {
+    display: flex;
+    justify-content: center;
+}
+.custom-pagination .pagination-item.active {
+    color: var(--Blue, rgba(0, 175, 252, 0.78));
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.custom-pagination .pagination-item {
+    color: var(--Light-grey, #D9D9D9);
+    font-family: Urbanist;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
   }
   li.navbar-nav-items.active-menu .navbar-inner-link-box span {
@@ -372,6 +452,7 @@ li.navbar-nav-items .megamenu-wrapper-content:before {
     position: absolute;
     top: -138px;
     left: -112px;
+    opacity: 1;
     color: transparent;
     -webkit-text-fill-color: none;
     -webkit-text-stroke-width: 2px;
@@ -661,7 +742,7 @@ li.navbar-nav-items .megamenu-wrapper-content:before {
 .featured-banner-text-cont h1.featured-banner-title {
     text-align: center;
     font-family: Urbanist;
-    font-size: 131px;
+    font-size: 80px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -674,7 +755,7 @@ li.navbar-nav-items .megamenu-wrapper-content:before {
 .featured-banner-text-cont  button.featured-banner-btn {
     text-align: center;
     font-family: Urbanist;
-    font-size: 70px;
+    font-size: 45px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -685,10 +766,10 @@ li.navbar-nav-items .megamenu-wrapper-content:before {
 }
 @media screen and (max-width:1440px) {
   .featured-banner-text-cont h1.featured-banner-title {
-    font-size: 90px;
+    font-size: 70px;
 }
 .featured-banner-text-cont  button.featured-banner-btn {
-    font-size: 55px;
+    font-size: 42px;
 }
 }
 @media screen and (max-width:991px) {
@@ -794,14 +875,52 @@ code, pre {
     visibility: visible;
   
 }
+.cta-input-fild::placeholder{
+  color: rgba(0, 0, 0, 0.5);
+}
+.article-title-box{opacity: 0;}
+.article-card-items:hover .article-title-box{ border-radius: 2px; opacity: 1; transition: all 250ms ease-in 0s; background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%),  transparent 50% / cover no-repeat; -webkit-transition: all 250ms ease-in 0s; -moz-transition: all 250ms ease-in 0s; -ms-transition: all 250ms ease-in 0s; -o-transition: all 250ms ease-in 0s;
+}
+.swiper.client-brand-slider .swiper-wrapper {
+    align-items: center;
+}
+.our-statics-card-items:last-child{
+  margin-bottom: 0;
+} 
 @media screen and (max-width:767px) {
   .case-study-cont-text {
     padding:18px;
   }
+  .services-process-left-cont{
+
+  position: relative;
+}
 }
 label.checkmark-services input:checked ~ .check-mark-input-mark {
     background: #ffffff;
 
+}
+.swiper.client-brand-slider {
+    padding-bottom: 60px;
+}
+
+.swiper.client-brand-slider .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal span.swiper-pagination-bullet {
+    border: 2px solid rgba(0,0,0,0.4);
+    background: transparent;
+    width: 20px;
+    height: 20px;
+    border-radius: 0;
+}
+
+.swiper.client-brand-slider .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: rgba(0, 0, 0, 0.78);
+    border-color: rgba(0, 0, 0, 0.78);
+}
+ul.services-type-list-box li.services-types-option-list-items:last-child {
+    margin-bottom: 0;
+}
+.services-featured-case-study-card:last-child {
+    margin-bottom: 0;
 }
 }
 

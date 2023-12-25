@@ -23,9 +23,9 @@ interface ServicePageBannerProps {
 const ServicePageBanner: React.FC<ServicePageBannerProps> = ({ slides }) => {
 
 	return (
-		<section className="service-page-banner pt-[110px] pb-[210px] bg-neu-gray-black-2 h-[826px] sm:h-[512px] sm:pt-16 sm:pb-8">
+		<section className="service-page-banner pt-[110px] pb-[190px] bg-neu-gray-black-2 h-[666px] sm:h-[512px] sm:pt-16 sm:pb-8">
 			<div className="service-page-banner-custom-container h-full">
-				<div className="services-banner-wrraper-main flex flex-col justify-end h-full pr-[57px] pl-20 sm:px-5">
+				<div className="services-banner-wrraper-main flex flex-col justify-end h-full sm:px-5 max-w-[1430px] mx-auto">
 					<div className="services-banner-content-box">
 						<Swiper
 							speed={1500}
@@ -42,7 +42,7 @@ const ServicePageBanner: React.FC<ServicePageBannerProps> = ({ slides }) => {
 										<div className="banner-services-slide-item">
 											<h1
 												data-swiper-parallax="-500"
-												className="service-banner-title text-secondary-heading laptop-x:text-[67px] laptop-m:text-[60px] md:text-[65px] sm:text-[55px] xxs:text-[42px] text-left text-neu-white font-primary font-bold leading-none tracking-[3.8px]">
+												className="service-banner-title text-[80px] laptop-x:text-[67px] laptop-m:text-[60px] md:text-[65px] sm:text-[55px] xxs:text-[42px] text-left text-neu-white font-primary font-bold leading-none tracking-[3.8px]">
 												{slide.title}
 											</h1>
 											<h5

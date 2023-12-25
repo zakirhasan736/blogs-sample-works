@@ -43,16 +43,16 @@ const CategoriesPage: React.FC<CategoryPageProps> = ({ data }) => {
 			{/* thought division banner */}
 			<BannerVarientTwo data={bannerData || ""} />
 			{/* thought division banner */}
-			<div className="our-thought-division-main-wrapper-cont pt-[120px] md:pt-20 sm:pt-[67px]">
+			<div className="our-thought-division-main-wrapper-cont pt-[184px]  md:pt-20 sm:pt-[67px]">
 				<div className="custom-container">
-					<div className="our-thought-division-section-box mb-[120px] md:mb-[56px]">
+					<div className="our-thought-division-section-box mb-[136px] md:mb-[56px] max-w-[1430px] mx-auto">
 						<SectionTitleBoxTwo {...(titleData || "")} />
 					</div>
 				</div>
 				{/* thought division dedtails info */}
-				<section className="thought-division-details-section bg-neu-gray-black-2 pb-[169px] pt-[126px] overflow-hidden md:pt-[90px] sm:pt-[67px] sm:pb-[80px] md:pb-[90px]">
+				<section className="thought-division-details-section bg-neu-gray-black-2 pb-[100px]  pt-[100px] overflow-hidden md:pt-[90px] sm:pt-[67px] sm:pb-[80px] md:pb-[90px]">
 					<div className="custom-container">
-						<div className="thought-division-details-wrap relative grid grid-cols-16 gap-5 z-50 sm:flex sm:flex-col">
+						<div className="thought-division-details-wrap relative grid grid-cols-16 gap-5 z-50 sm:flex sm:flex-col mx-auto max-w-[1430px]">
 							{/* approach slug list content */}
 							<SlugList slugs={slugs || ""} />
 							{/* thought division details content box */}

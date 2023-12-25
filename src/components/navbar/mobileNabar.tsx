@@ -95,7 +95,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onMenuClose, items }) =
 			<div className="mobile-menu-footer mt-auto">
 				<h2 className="mobile-menu-title font-primary font-medium text-[28px] text-left text-neu-white leading-normal trancking-[2.28px]">
 					Anything in{" "}
-					<span className="color-text text-secondary-2 text-left text-[52px] font-primary font-bold capitalize">
+					<span className="color-text text-secondary-2 text-left text-[48px] font-primary font-bold capitalize">
 						Particular?
 					</span>
 				</h2>

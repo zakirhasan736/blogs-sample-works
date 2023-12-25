@@ -20,7 +20,7 @@ const ServiceGroupSlider = ({ slides, GalleryPrevSlides }) => {
 	return (
 		<section className="slider-gallery-section">
 			{/* <div className="container"> */}
-			<div className="services-card-item-first-part">
+			<div className="services-card-item-first-part  max-w-[1430px] mx-auto">
 				{/* Thumbnail */}
 				<Swiper
 					onSwiper={setThumbsSwiper}
@@ -45,14 +45,14 @@ const ServiceGroupSlider = ({ slides, GalleryPrevSlides }) => {
 						},
 					}}
 					className="thumbs w-full rounded-lg">
-					{slides.map((slide, index) => (
+					{slides?.map((slide, index) => (
 						<SwiperSlide key={index}>
 							<div className="services-slide-card-items">
 								<div className="title-box relative">
-									<div className="slider-model-text md:text-[120px] sm:text-[90px]">
+									<div className="slider-model-text whitespace-nowrap uppercase absolute opacity-0 md:text-[120px] sm:text-[90px]">
 										{slide.modalTitle}
 									</div>
-									<h2 className="service-slide-title text-[32px]  text-left text-neu-white font-primary font-normal tracking-[.64px] leading-none ">
+									<h2 className="service-slide-title text-[32px]  text-left text-neu-white font-primary font-normal tracking-[.64px] mb-2 leading-none ">
 										{slide.title}
 									</h2>
 								</div>
@@ -68,7 +68,7 @@ const ServiceGroupSlider = ({ slides, GalleryPrevSlides }) => {
 					))}
 				</Swiper>
 			</div>
-			<div className="services-card-item-second-part mt-[100px] md:mt-[60px] sm:mt-0">
+			<div className="services-card-item-second-part mt-[100px] md:mt-[60px] sm:mt-0  max-w-[1430px] mx-auto">
 				<Swiper
 					loop={true}
 					spaceBetween={10}
@@ -83,7 +83,7 @@ const ServiceGroupSlider = ({ slides, GalleryPrevSlides }) => {
 						<SwiperSlide key={index}>
 							<div className="gellary-slider-preview-item  flex justify-between items-center ">
 								<div className="gellary-slider-cont-text relative">
-									<div className="gallery-slider-model-text absolute top-8 sm:top-0 scrolling-text text-[120px] text-left font-primary font-normal leading-none">
+									<div className="gallery-slider-model-text whitespace-nowrap uppercase absolute top-8 sm:top-0 scrolling-text text-[120px] text-left font-primary font-normal leading-none">
 										{GallerySlide.ModalTitle}
 									</div>
 									<h2 className="gallery-slider-title sm:hidden text-[65px] text-left text-neu-white font-primary font-normal leading-none">

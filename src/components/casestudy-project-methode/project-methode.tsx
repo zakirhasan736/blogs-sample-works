@@ -1,28 +1,69 @@
+"use client";
 import { Image } from "@packages/packages";
+import React, { useRef, useLayoutEffect } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import Button from "../elements/button/button";
-import React from "react";
 
+gsap.registerPlugin(ScrollTrigger);
 interface ProjectMethodProps {
 	data: {
 		sectionModelTitle: string;
 		sectionTitle: string;
 		methodDescriptions: string[];
-		buttonText: string;  
+		buttonText: string;
 		callImage: string;
 	};
 }
 
 const ProjectMethode: React.FC<ProjectMethodProps> = ({ data }) => {
+	 const exploreTwoRef = useRef<HTMLDivElement | null>(null);
+
+		useLayoutEffect(() => {
+			if (exploreTwoRef.current) {
+				const slidePrl =
+					exploreTwoRef.current.querySelectorAll(".modal-text-itemTwo");
+
+				if (slidePrl.length) {
+					gsap.set(slidePrl, { x: 500 });
+
+					ScrollTrigger.create({
+						trigger: ".main-visual-sectionTwo",
+						start: "top 80%",
+						end: "bottom 20%",
+						
+						onToggle: self => {
+							if (self.isActive) {
+								gsap.to(slidePrl, {
+									x: 0,
+									duration: 1,
+									ease: "power2.out",
+								});
+							} else {
+								gsap.to(slidePrl, {
+									x: 500,
+									duration: 1,
+									ease: "power2.in",
+								});
+							}
+						},
+					});
+				}
+			}
+		}, []);
+
 	return (
-		<div className="case-study-project-methode-section pb-[200px] sm:pb-[70px] overflow-hidden">
+		<div
+			ref={exploreTwoRef}
+			className="case-study-project-methode-section main-visual-sectionTwo pb-[200px] sm:pb-[70px] overflow-hidden">
 			<div className="custom-container">
 				<div className="case-study-project-methode-wrap">
 					<div className="section-title-box">
 						<div className="section-titles">
-							<div className="section-model-title laptop-x:text-[150px] lg:text-[94px] md:text-[84px] sm:text-[64px] whitespace-nowrap empty:hidden scrolling-text uppercase text-[200px] font-primary font-medium leading-[.8] ">
+							<div className="section-model-title modal-text-itemTwo laptop-x:text-[150px] lg:text-[94px] md:text-[84px] sm:text-[64px] whitespace-nowrap empty:hidden scrolling-text uppercase text-[200px] font-primary font-medium leading-[.8] ">
 								{data.sectionModelTitle}
 							</div>
-							<h2 className="section-title empty:hidden text-[44px] text-left text-neu-white font-primary font-medium uppercase tracking-[4px] sm:text-[20px]">
+							<h2 className="section-title empty:hidden text-[48px]  md:text-[36px] text-left text-neu-white font-primary font-medium uppercase tracking-[4px] sm:text-[20px]">
 								{data.sectionTitle}
 							</h2>
 						</div>
@@ -32,7 +73,7 @@ const ProjectMethode: React.FC<ProjectMethodProps> = ({ data }) => {
 							{data.methodDescriptions.map((desc, index) => (
 								<p
 									key={index}
-									className="project-methodes-desc text-[32px] sm:text-[13px] text-left text-neu-white font-primary font-semibold leading-normal mb-6">
+									className="project-methodes-desc text-[26px]  md:text-[20px] sm:text-[13px] text-left text-neu-white font-primary font-semibold leading-normal mb-6">
 									{desc}
 								</p>
 							))}

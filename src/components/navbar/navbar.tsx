@@ -50,17 +50,17 @@ const Navbar = () => {
 		const { FeatureMenuItems, FeatureFooterItems, FeatureMegaMenuClass } =
 			FeaturedMegaMenuData;
 	return (
-		<header className={`header-section pt-4 relative pb-[19px]  ${getHeaderBgColor()}`}>
+		<header className={`header-section pt-4  pb-[19px]  ${getHeaderBgColor()}`}>
 			<div className="custom-container md:px-6 sm:px-4">
 				<div className="header-wrapper flex items-center justify-between sm:block">
 					<div className="header-brand-box flex items-center justify-between sm:w-full">
 						<Link href="/">
 							<Image
-								width={102}
+								width={149}
 								height={65}
 								src="/images/white-brand-logo.svg"
 								alt="brand logo image"
-								className="w-[102px] h-[65px]"
+								className="w-[149px] h-[65px] lg:w-[102px]"
 							/>
 						</Link>
 						<button

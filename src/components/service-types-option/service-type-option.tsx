@@ -17,11 +17,11 @@ interface ServiceTypeOptionProps {
 
 const ServiceTypeOption: React.FC<ServiceTypeOptionProps> = ({ data }) => {
 	return (
-		<div className="service-type-option-section pb-[130px] sm:pb-[65px]">
+		<div className="service-type-option-section pb-[100px] sm:pb-[65px]">
 			<div className="custom-container">
-				<div className="services-type-option-wrapper">
+				<div className="services-type-option-wrapper  max-w-[1430px] mx-auto">
 					<div className="service-section-title-box mb-20 sm:mb-[30px]">
-						<h2 className="service-sec-title text-[65px] text-left text-primary font-bold font-primary leading-none capitalize sm:text-[34px] sm:tracking-[1.02px]">
+						<h2 className="service-sec-title text-[48px] md:text-[36px] text-left text-primary font-bold font-primary leading-none capitalize sm:text-[34px] sm:tracking-[1.02px]">
 							{data.ServicesTypeSecTitle}
 						</h2>
 					</div>
@@ -31,11 +31,11 @@ const ServiceTypeOption: React.FC<ServiceTypeOptionProps> = ({ data }) => {
 								{data.services?.map((service, index) => (
 									<li
 										key={index}
-										className="services-types-option-list-items mb-[45px] sm:mb-6">
-										<h3 className="services-type-item-title text-[42px] text-left text-primary font-primary font-semibold leading-none mb-9 sm:mb-5 sm:text-[20px]">
+										className="services-types-option-list-items mb-[70px] md:mb-[45px] sm:mb-6">
+										<h3 className="services-type-item-title text-[34px]  md:text-[26px] text-left text-primary font-primary font-semibold leading-none mb-4 sm:mb-5 sm:text-[20px]">
 											{service.title}
 										</h3>
-										<p className="services-type-item-desc mb-9 sm:mb-5 text-[26px] text-left text-primary font-primary font-medium leading-normal sm:text-[13px] max-w-[824px] w-full">
+										<p className="services-type-item-desc mb-9 sm:mb-5 text-[26px] md:text-[20px] text-left text-primary font-primary font-medium leading-normal sm:text-[13px] max-w-[824px] w-full">
 											{service.description}
 										</p>
 									</li>
@@ -43,7 +43,7 @@ const ServiceTypeOption: React.FC<ServiceTypeOptionProps> = ({ data }) => {
 							</ul>
 							<Button
 								btnText={data.ServicesTypeSecBtnText}
-								btnVariant="primary-button services-type-options-button mt-[70px] sm:hidden sm:mt-16"
+								btnVariant="primary-button services-type-options-button mt-5 sm:hidden sm:mt-16"
 							/>
 						</div>
 						<div className="col-span-7">
