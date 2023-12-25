@@ -3,6 +3,7 @@ import './globals.css'
 import { Urbanist, Inter } from 'next/font/google';
 import { Footer, Navbar } from '@/components';
 import StickyNavbar from '@/components/navbar/sticky-navbar';
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import React from "react";
 const inter = Inter({
   subsets: ['latin'],
@@ -27,12 +28,12 @@ export default function RootLayout({
 }) {
   return (
 		<html lang="en" className={`${inter.variable} ${urbanist.variable}`}>
-
 			<body className="pca-marketing-page-body md:border-0">
 				<Navbar />
 				<StickyNavbar />
 				<main className="pca-marketing-main-wraper">{children}</main>
 				<Footer />
+				<SpeedInsights />
 			</body>
 		</html>
 	);
