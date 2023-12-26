@@ -36,7 +36,7 @@ const CaseStudyBanner: React.FC<CaseStudyBannerProps> = ({
 			<div className="custom-container h-full">
 				<div className="case-study-content-main-wrapper relative grid grid-cols-16 gap-5 w-full h-full max-w-[1430px] mx-auto">
 					<div className="case-study-content-text-box col-span-full my-auto sm:mb-0">
-						<h1 className="case-study-banner-title scroll-text-item mb-6 sm:mb-[15px] text-[80px] laptop-x:text-[70px] lg:text-[64px] md:text-[54px] uppercase text-left text-neu-white font-primary font-black tracking-[4.5px] leading-[1.1] sm:text-text--large">
+						<h1 className="case-study-banner-title scroll-text-item mb-6 sm:mb-[15px] text-[70px] laptop-x:text-[70px] lg:text-[64px] md:text-[54px] uppercase text-left text-neu-white font-primary font-black tracking-[4.5px] leading-[1.1] sm:text-text--large">
 							{BannerTitle || ""}
 						</h1>
 						<p className="banner-description max-w-[737px] sm:max-w-[318px] w-full text-[26px] text-left sm:text-[13px] text-neu-white font-primary font-bold leading-normal tracking-[1px]">

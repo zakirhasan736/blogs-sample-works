@@ -24,7 +24,7 @@ const ServiceGroupSlider = ({ slides, GalleryPrevSlides }) => {
 				{/* Thumbnail */}
 				<Swiper
 					onSwiper={setThumbsSwiper}
-					loop={true}
+					loop={false}
 					spaceBetween={12}
 					slidesPerView={1}
 					freeMode={true}
@@ -68,11 +68,11 @@ const ServiceGroupSlider = ({ slides, GalleryPrevSlides }) => {
 					))}
 				</Swiper>
 			</div>
-			<div className="services-card-item-second-part mt-[100px] md:mt-[60px] sm:mt-0  max-w-[1430px] mx-auto">
+			<div className="services-card-item-second-part mt-[100px] md:mt-[60px] sm:mt-0 max-w-[1480px] mx-auto">
 				<Swiper
-					loop={true}
+					loop={false}
 					spaceBetween={10}
-					navigation={false}
+					navigation={true}
 					thumbs={{
 						swiper:
 							thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,

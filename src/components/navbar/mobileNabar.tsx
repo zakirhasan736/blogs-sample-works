@@ -69,7 +69,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onMenuClose, items }) =
 							<div className="navbar-inner-link-box flex items-center gap-6">
 								<Link
 									href={item.path}
-									className={`relative font-primary font-medium text-[28px] text-left text-neu-white leading-none trancking-[2.28px] mb-5`}>
+									className={`relative font-primary font-medium text-[23px] text-left text-neu-white leading-none trancking-[2.28px] mb-5`}>
 									<span>{item.name}</span>
 								</Link>
 								<span onClick={() => handleMenuClick(index)}>
@@ -93,9 +93,9 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onMenuClose, items }) =
 				</ul>
 			</div>
 			<div className="mobile-menu-footer mt-auto">
-				<h2 className="mobile-menu-title font-primary font-medium text-[28px] text-left text-neu-white leading-normal trancking-[2.28px]">
+				<h2 className="mobile-menu-title font-primary font-medium text-[26px] text-left text-neu-white leading-normal trancking-[2.28px]">
 					Anything in{" "}
-					<span className="color-text text-secondary-2 text-left text-[48px] font-primary font-bold capitalize">
+					<span className="color-text text-secondary-2 text-left text-[42px] font-primary font-bold capitalize">
 						Particular?
 					</span>
 				</h2>

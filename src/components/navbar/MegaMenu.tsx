@@ -36,7 +36,7 @@ const MegaMenu: React.FC<MegaMenuProps> = ({
 					<ul className="mega-menu-item-box text-left" key={index}>
 						<li className="mega-menu-item-list mb-3">
 							<Link href={menuItem?.path}>
-								<span className="text-[18px] text-left text-neu-white font-primary font-bold">
+								<span className="text-[16px] text-left text-neu-white font-primary font-bold">
 									{menuItem?.title}
 								</span>
 							</Link>
@@ -44,7 +44,7 @@ const MegaMenu: React.FC<MegaMenuProps> = ({
 								{menuItem?.subItems?.map((subMenuItem, subIndex) => (
 									<li className="mega-menu-sub-item-list mb-3" key={subIndex}>
 										<Link href={subMenuItem?.path}>
-											<span className="text-[18px] text-left text-neu-white font-primary font-normal">
+											<span className="text-[16px] text-left text-neu-white font-primary font-normal">
 												{subMenuItem?.title}
 											</span>
 										</Link>
@@ -61,7 +61,7 @@ const MegaMenu: React.FC<MegaMenuProps> = ({
 						{footerItems &&
 							footerItems?.map((footerItem, index) => (
 								<li
-									className="megamenu-foot-item-list w-full max-w-[150px] border-r border-r-[#fff] text-[18px] text-center text-neu-white font-primary font-normal leading-none"
+									className="megamenu-foot-item-list w-full max-w-[150px] border-r border-r-[#fff] text-[16px] text-center text-neu-white font-primary font-normal leading-none"
 									key={index}>
 									<Link href={footerItem?.path}>
 										<span>{footerItem?.title}</span>

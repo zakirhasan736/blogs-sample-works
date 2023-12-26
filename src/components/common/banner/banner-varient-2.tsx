@@ -19,7 +19,7 @@ const BannerVarientTwo: React.FC<BannerVarientTwoProps> = ({ data }) => {
 						<h4 className="banner-varient-sub-title uppercase text-neu-white sm:text-[17px] sm:mb-[14px] text-left text-text-medium-4 font-primary font-semibold leading-none tracking-[7.62px]">
 							{data.subHeading || ""}
 						</h4>
-						<h1 className="banner-varient-title capitalize mt-5 max-w-[1000px] xxs:text-[47px] sm:text-[55px] text-[80px] laptop-x:text-[74px] laptop-x:max-w-[1160px]  text-left text-neu-white font-primary font-bold leading-none tracking-[2.7px]">
+						<h1 className="banner-varient-title capitalize mt-5 max-w-[1000px] xxs:text-[47px] sm:text-[55px] text-[70px] laptop-x:text-[74px] laptop-x:max-w-[1160px]  text-left text-neu-white font-primary font-bold leading-none tracking-[2.7px]">
 							{data.isColorText &&
 								data.colorText && ( // Check for isColorText and colorText existence
 									<span className="color-text">{data.colorText}</span>

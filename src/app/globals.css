@@ -38,7 +38,7 @@
 
   body {
     color: #ffffff;
-    background-color: #161617;
+    background-color: #000;
     font-family: 'Urbanist', sans-serif;
     box-sizing: border-box;
     /* border: 24px solid #F2EFEF; */
@@ -96,7 +96,7 @@
    .shadow{
       position: absolute;
       opacity: 20%;
-      color: #424242 !important;
+      color: #fff !important;
     }
 button.pagination-prev-widgete.swiper-button-disabled ,
 button.pagination-next-widgete.swiper-button-disabled {
@@ -982,6 +982,18 @@ ul.services-type-list-box li.services-types-option-list-items:last-child {
 }
 .services-featured-case-study-card:last-child {
     margin-bottom: 0;
+}
+.services-card-item-second-part .swiper.swiper-initialized.swiper-horizontal {
+    padding-left: 50px;
+    padding-right: 0;
+}
+
+.services-card-item-second-part .swiper.swiper-initialized.swiper-horizontal .swiper-button-prev {
+    color: #fff;
+}
+
+.services-card-item-second-part .swiper.swiper-initialized.swiper-horizontal .swiper-button-next {
+    color: #fff;
 }
 }
 

@@ -18,18 +18,18 @@ const Navbar = () => {
 		// Define your conditions for different path-based background colors
 		// pathname === '/faq' || pathname === '/our-approach
 		if (pathname === "/faq") {
-			return "bg-[#D9D9D917]";
+			return "bg-[#000]";
 		} else if (pathname === "/services") {
-			return "bg-[#D9D9D917]";
+			return "bg-[#000]";
 		} else if (pathname === "/our-approach" || pathname === "/articles") {
-			return "bg-[#424245]";
+			return "bg-[#000]";
 		} else if (
 			pathname.includes("/our-approach/") ||
 			pathname.includes("/articles/")
 		) {
-			return "bg-[#424245]";
+			return "bg-[#000]";
 		} else if (pathname.includes("/services/")) {
-			return "bg-[#232323]";
+			return "bg-[#000]";
 		} else if (pathname.includes("/case-study/")) {
 			return "absolute w-full left-0 right-0 top-6 sm:top-0 bg-transparent z-[9999]";
 		} else {
@@ -82,7 +82,7 @@ const Navbar = () => {
 
 									<Link
 										href="/"
-										className="relative text-primary flex items-center gap-2 text-center text-body-text-3 laptop-m:text-[18px] font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3 lg:px-3">
+										className="relative text-primary flex items-center gap-2 text-center text-[16px] laptop-m:text-[18px] font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3 lg:px-3">
 										<span>Home</span>
 									</Link>
 								</div>
@@ -91,7 +91,7 @@ const Navbar = () => {
 								<div className="navbar-inner-link-box flex items-center gap-2">
 									<Link
 										href="/case-study"
-										className="relative text-primary flex items-center gap-2 text-center text-body-text-3 font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
+										className="relative text-primary flex items-center gap-2 text-center text-[16px] font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
 										<span>Case Studies</span>
 									</Link>
 									<span>
@@ -111,7 +111,7 @@ const Navbar = () => {
 
 									<Link
 										href="/services"
-										className="relative lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-body-text-3 font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
+										className="relative lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-[16px] font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
 										<span>Services</span>
 									</Link>
 									<span>
@@ -131,7 +131,7 @@ const Navbar = () => {
 
 									<Link
 										href="/our-approach"
-										className="relative lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-body-text-3 font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
+										className="relative lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-[16px] font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
 										<span>Our Approach</span>
 									</Link>
 									<span>
@@ -149,7 +149,7 @@ const Navbar = () => {
 
 								<div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
 									<div
-										className="relative cursor-pointer lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-body-text-3 font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
+										className="relative cursor-pointer lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-[16px] font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
 
 										<span>Features</span>
 									</div>
@@ -170,7 +170,7 @@ const Navbar = () => {
 					<Button
 					    
 						btnText="0208 068 2102"
-						btnVariant="pca-secondary-button laptop-m:text-[16px] md:hidden border-4 border-secondary"
+						btnVariant="pca-secondary-button text-[16px] laptop-m:text-[16px] md:hidden border-4 border-secondary"
 					/>
 				</div>
 				{/* mobile menu here to start */}

@@ -2,6 +2,7 @@
 import  Button  from "@/components/elements/button/button";
 import EffectCardSlider from "../effect-card-slider/EffectCardSlider";
 import Character from "@/components/about-section/Character"
+import TextCarecter from "./text-carcter";
 
 const AboutSection = () => {
 	const paragraph =
@@ -15,7 +16,7 @@ const AboutSection = () => {
 						<div className="about-modal-cont-box my-auto">
 							<div className="about-modal-text">
 								<Character paragraph={paragraph} />
-							</div>
+				            </div>
 							<Button
 								btnText="Our Services"
 								btnVariant="primary-button banner-button p-2 max-w-[140px] mt-[36px] sm:mt-8"

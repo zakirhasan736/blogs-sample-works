@@ -75,14 +75,14 @@ const Services = () => {
 			title: "Visual Media.",
 			modalTitle: "Visual Media.",
 			description:
-				"Particular SEO: Humankind has spent millennia captivated by important stories told well. Create a pioneering story from your free-thought around your vision. We’ll handle the attention to detail.",
+				"Humankind has spent millennia captivated by important stories told well. Create a pioneering story from your free-thought around your vision. We’ll handle the attention to detail.",
 			btnText: "Discover more",
 		},
 		{
 			title: "Social Media",
 			modalTitle: "Social Media",
 			description:
-				"Particular SEO: a foreign language made easy. Making Search Engine Optimisation friendly, so it works for you too.",
+				"Social Networking. Reimagining your ideas around the concept of Social Media to engage your community of like-minded thinkers and fans.",
 			btnText: "Discover more",
 		},
 	];
