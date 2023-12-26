@@ -87,6 +87,11 @@
     color: #000;
   }
 }
+
+button.pagination-prev-widgete.swiper-button-disabled ,
+button.pagination-next-widgete.swiper-button-disabled {
+  color: rgba(255, 255, 255, 0.5);
+}
   .color-text {
     color: rgba(0, 175, 252, 0.78);
   }

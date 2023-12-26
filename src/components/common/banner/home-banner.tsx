@@ -34,13 +34,20 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
 										btnVariant="primary-button banner-button sm:hidden mt-10 cursor-scale grow-small"
 									/>
 								</div>
-								<div className="banner-modal-video-box absolute top-0 right-[60px]  sm:right-0 z-20 sm:h-full sm:object-cover">
+								<div className="banner-modal-video-box absolute top-0 right-[60px] sm:left-0  sm:right-0 z-20 sm:h-full sm:object-cover">
 									<Image
 										src="/images/banner-video-poster.jpg"
 										width={735}
 										height={655}
 										alt="banner modal video image"
-										className="banner-video-modal-poster-img sm:h-[434px] w-full h-[655px] lg:h-[456px]"
+										className="banner-video-modal-poster-img sm:hidden sm:h-[434px] w-full h-[655px] lg:h-[456px]"
+									/>
+									<Image
+										src="/images/banner-video-image-mobo.png"
+										width={735}
+										height={655}
+										alt="banner modal video image"
+										className="banner-video-modal-poster-img hidden sm:block sm:mx-auto sm:h-[434px] w-full h-[655px] lg:h-[456px]"
 									/>
 								</div>
 							</div>
