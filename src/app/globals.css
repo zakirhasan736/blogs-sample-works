@@ -70,10 +70,23 @@
     right: 0;
   }
 
-  .result-cont-bg-modal-img.gray-background-color {
+  .result-cont-bg-modal-img.bg-varient-color-1 {
     background: conic-gradient(from 180deg at 50% 50%, #E8DBCC 0deg, #E07540 120.00000357627869deg, #E19A6B 240.00000715255737deg, #E6B595 360deg);
   }
-
+  .result-cont-bg-modal-img.bg-varient-color-2 {
+   background: conic-gradient(from 180deg at 50% 50%, #FFF7EE 0deg, #888 120.00000357627869deg, #FFF 240.00000715255737deg, #E4E4E4 360deg);
+  }
+    .result-cont-bg-modal-img.bg-varient-color-3 {
+    background: conic-gradient(from 180deg at 50% 50%, #FFF7EE 0deg, #EA4357 120.00000357627869deg, #FFF 240.00000715255737deg, #E4E4E4 360deg);
+  }
+  @media screen and (min-width:768px) {
+  .bg-varient-color-3 ~ .project-result-cont-wrap-right .result-info-card-item p ,
+  .bg-varient-color-2 ~ .project-result-cont-wrap-right .result-info-card-item p,
+  .bg-varient-color-3 ~ .project-result-cont-wrap-right .result-info-card-item h4.result-percent ,
+  .bg-varient-color-2 ~ .project-result-cont-wrap-right .result-info-card-item h4.result-percent {
+    color: #000;
+  }
+}
   .color-text {
     color: rgba(0, 175, 252, 0.78);
   }

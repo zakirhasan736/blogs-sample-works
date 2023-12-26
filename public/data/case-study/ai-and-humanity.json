@@ -16,10 +16,10 @@
             "overviewPortfolioImage": "/images/case-study-modal-image-2.jpg"
     },
         "ProjectChallengeData": {
-            "projectChallengeModalTitle": "The Challenge",
-            "projectChallengeTitle": "The Challenge",
-            "projectChallengeQuoteText": "Zenbase, a financial health solution for renters, aspired to provide users with an empowering and user-friendly platform to support their financial well-being. ",
-            "projectChallengeQuoteDesc": "The challenge lay in creating a digital space that effortlessly guided users, usually renters and property managers, towards financial wellness, while establishing a brand presence that resonated with that very target audience.",
+            "projectChallengeModalTitle": "",
+            "projectChallengeTitle": "",
+            "projectChallengeQuoteText": "",
+            "projectChallengeQuoteDesc": "",
             "projectChallengeAssetsTitle1": "Brand Assets",
             "projectChallengeAssetsImage1": "/images/case-study-2-brand-assets-1.jpg",
             "projectChallengeAssetsTitle2": "Brand Assets",
@@ -54,7 +54,7 @@
                 "description": "of attendees expressed interest in future events"
             }
         ],
-        "resultSecBgClass": "gray-background-color"
+        "resultSecBgClass": "bg-varient-color-1"
     },
     "featuredPostData":{
         "featuredSecTitle": "Featured Case Studies",

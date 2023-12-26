@@ -2,7 +2,7 @@ import React from "react";
 interface BannerVarientTwo{}
 interface BannerVarientTwoProps {
 	data: {
-		subHeading?: string;
+		subHeading?: string; 
 		title?: string;
 		description?: string;
 		colorText?: string;
@@ -20,9 +20,10 @@ const BannerVarientTwo: React.FC<BannerVarientTwoProps> = ({ data }) => {
 							{data.subHeading || ""}
 						</h4>
 						<h1 className="banner-varient-title capitalize mt-5 max-w-[1000px] xxs:text-[47px] sm:text-[55px] text-[80px] laptop-x:text-[74px] laptop-x:max-w-[1160px]  text-left text-neu-white font-primary font-bold leading-none tracking-[2.7px]">
-							{data.isColorText || "" && (
-								<span className="color-text">{data.colorText || ""}</span>
-							)}
+							{data.isColorText &&
+								data.colorText && ( // Check for isColorText and colorText existence
+									<span className="color-text">{data.colorText}</span>
+								)}
 							{data.title || ""}
 						</h1>
 						<p className="banner-varient-desc mt-[18px] sm:text-[14px] text-neu-white text-left text-[26px] font-primary font-semibold leading-[1.1]">

@@ -60,7 +60,7 @@ const ProjectResult: React.FC<ProjectResultProps> = ({ data }) => {
 			ref={exploreThreeRef}
 			className="study-project-result-section main-visual-sectionThree pb-[115px] sm:pb-20 overflow-hidden">
 			<div className="custom-container">
-				<div className="study-project-result-wrapper">
+				<div className="study-project-result-wrapper  max-w-[1430px] mx-auto">
 					<div className="section-modal-title-reals">
 						<div className="section-model-title modal-text-itemThree laptop-x:text-[150px]  lg:text-[94px] md:text-[84px] sm:text-[64px] whitespace-nowrap empty:hidden scrolling-text uppercase text-[200px] font-primary font-medium leading-[.8] ">
 							{data.sectionModelTitle}

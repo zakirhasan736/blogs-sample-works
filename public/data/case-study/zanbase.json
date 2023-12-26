@@ -54,7 +54,7 @@
                 "description": "of attendees expressed interest in future events"
             }
         ],
-        "resultSecBgClass": "gray-background-color"
+        "resultSecBgClass": "bg-varient-color-1"
     },
     "featuredPostData":{
         "featuredSecTitle": "Featured Case Studies",

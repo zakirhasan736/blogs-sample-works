@@ -53,7 +53,7 @@
                 "description": "reduction in Hult’s cost per acquisition "
             }
         ],
-        "resultSecBgClass": "gray-background-color"
+        "resultSecBgClass": "bg-varient-color-3"
     },
     "featuredPostData":{
         "featuredSecTitle": "Featured Case Studies",

@@ -59,7 +59,7 @@ const Services = () => {
 		},
 		{
 			title: "PPC",
-			modalTitle: "pPC",
+			modalTitle: "PPC",
 			description:
 				"Social Networking. Reimagining your ideas around the concept of Social Media to engage your community of like-minded thinkers and fans.",
 			btnText: "Discover more",
@@ -93,7 +93,7 @@ const Services = () => {
 			ModalImage: "/images/gif/Section01-1.gif",
 		},
 		{
-			ModalTitle: "WEB Design & development",
+			ModalTitle: "WEB Dev",
 			Title: "WEB Design & development",
 			ModalImage: "/images/gif/Section03.gif",
 		},

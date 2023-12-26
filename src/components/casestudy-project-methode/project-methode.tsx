@@ -57,7 +57,7 @@ const ProjectMethode: React.FC<ProjectMethodProps> = ({ data }) => {
 			ref={exploreTwoRef}
 			className="case-study-project-methode-section main-visual-sectionTwo pb-[200px] sm:pb-[70px] overflow-hidden">
 			<div className="custom-container">
-				<div className="case-study-project-methode-wrap">
+				<div className="case-study-project-methode-wrap max-w-[1430px] mx-auto">
 					<div className="section-title-box">
 						<div className="section-titles">
 							<div className="section-model-title modal-text-itemTwo laptop-x:text-[150px] lg:text-[94px] md:text-[84px] sm:text-[64px] whitespace-nowrap empty:hidden scrolling-text uppercase text-[200px] font-primary font-medium leading-[.8] ">
