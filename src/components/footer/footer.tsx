@@ -12,10 +12,10 @@ const Footer: React.FC<FooterProps> = () => {
 				<div className="footer-wrapper grid grid-cols-16 gap-5 pt-[57px] pb-[54px] sm:pt-[45px] sm:pb-[45px] sm:block max-w-[1330px] mx-auto">
 					<div className="footer-left-widgets col-span-5 md:col-span-7 sm:mb-[40px] text-left">
 						<Image
-							width={300}
+							width={336}
 							height={95}
 							src="/images/footer-brand-logo.svg"
-							className="footer-brand-logo mb-1 sm:object-cover flex justify-start items-start w-[300px] md:w-[215px] sm:h-[48px] sm:mb-4"
+							className="footer-brand-logo mb-1 sm:object-cover flex justify-start items-start w-[336px] md:w-[215px] sm:h-[48px] sm:mb-4"
 							alt="footer brand logo image"
 						/>
 						<p className="footer-decription-text max-w-[393px] text-neu-black-2 text-left text-body-text-4 font-primary font-medium leading-normal mb-0">
@@ -105,7 +105,7 @@ const Footer: React.FC<FooterProps> = () => {
 					</div>
 					<div className="footer-right-widgets col-span-6 md:col-span-12 pt-[17px] sm:pt-0">
 						<div className="footer-right-widgets-top-text mb-[23px] flex items-center justify-between gap-5">
-							<h4 className="footer-right-widgets-title sm:hidden text-neu-black text-left font-semibold font-primary leading-none text-[32px] md:text-[44px]">
+							<h4 className="footer-right-widgets-title sm:hidden text-neu-black text-left font-semibold font-primary leading-none text-[32px] md:text-[32px]">
 								Lets Talk!
 							</h4>
 							<ul className="socials-widgets flex items-center gap-3">

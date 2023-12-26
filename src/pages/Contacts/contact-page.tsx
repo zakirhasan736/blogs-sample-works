@@ -197,17 +197,17 @@ const ContactPage = () => {
       <ContactBanner />
       <div className="contact-page-main-cont-wrapper pt-[100px] pb-[146px] sm:pt-[45px] sm:pb-[45px]">
         <div className="custom-container">
-          <div className="contact-page-main-content grid grid-cols-16 gap-5 sm:gap-[45px] sm:flex sm:flex-col-reverse">
+          <div className="contact-page-main-content grid grid-cols-16 gap-5 sm:gap-[45px] sm:flex sm:flex-col-reverse max-w-[1430px] mx-auto">
             <div className="contact-page-main-left-cont col-span-7   pl-4 laptop-m:pl-0 max-w-[546px] sm:max-w-full w-full">
-              <p className="contact-page-nfo-desc mb-16 sm:mb-[35px]  text-left text-light-gray font-primary font-normal leading-normal sm:max-w-[332px] text-text-accend-2 sm:text-[18px]">
+              <p className="contact-page-nfo-desc mb-16 sm:mb-[35px]  text-left text-light-gray font-primary font-normal leading-normal sm:max-w-[332px] text-[26px] sm:text-[18px]">
                 Lorem ipsum dolor sit amet consectetur. Senectus habitant
                 scelerisque mauris magna vitae et.
               </p>
               <div className="contact-address-info-box mb-16 sm:mb-[35px]">
-                <h6 className="info-title text-left text-primary font-primary font-normal leading-normal mb-5 sm:mb-2 sm:max-w-[311px] text-text-accend-2 sm:text-[18px]">
+                <h6 className="info-title text-left text-primary font-primary font-normal leading-normal mb-5 sm:mb-2 sm:max-w-[311px] text-[26px] sm:text-[18px]">
                   Prefer to talk?
                 </h6>
-                <p className="contact-addres-info-desc text-left text-primary font-primary font-normal leading-normal sm:max-w-[311px] mb-5 text-body-text-3 sm:text-[7px]">
+                <p className="contact-addres-info-desc text-left text-primary font-primary font-normal leading-normal sm:max-w-[311px] mb-5 text-[20px] sm:text-[7px]">
                   Call us on +44 (0) 208 068 2102 on Monday to Friday between
                   9am - 6pm and our Relationships team will discuss how we may
                   best help you.

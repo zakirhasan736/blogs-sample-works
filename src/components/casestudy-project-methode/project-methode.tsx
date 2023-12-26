@@ -1,5 +1,5 @@
 "use client";
-import { Image } from "@packages/packages";
+import { Image, Link } from "@packages/packages";
 import React, { useRef, useLayoutEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
@@ -83,13 +83,15 @@ const ProjectMethode: React.FC<ProjectMethodProps> = ({ data }) => {
 							/>
 						</div>
 						<div className="sm:col-span-full col-span-4 project-methodes-right-cont text-left sm:text-right">
-							<Image
-								src={data.callImage}
-								alt="schedule call icon image"
-								width={278}
-								height={278}
-								className="schedule-call-modal-icon-img w-[250px] sm:w-[105px] sm:ml-auto block"
-							/>
+							<Link href="/contacts">
+								<Image
+									src={data.callImage}
+									alt="schedule call icon image"
+									width={278}
+									height={278}
+									className="schedule-call-modal-icon-img w-[250px] sm:w-[105px] sm:ml-auto block"
+								/>
+							</Link>
 						</div>
 					</div>
 				</div>
