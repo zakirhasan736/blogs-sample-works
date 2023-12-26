@@ -17,7 +17,7 @@ const Paragraph = ({ paragraph }: { paragraph: string }) => {
   return (
 		<p
 			ref={container}
-			className="paragraph about-anim-text animate-text text-[54px] flex flex-wrap text-left text-secondary font-primary font-semibold leading-[1.1] shadow-text-shadow-primary uppercase max-w-[495px] md:text-[42px] sm:text-[30px]">
+			className="paragraph about-anim-text animate-text text-[54px] flex flex-wrap text-left text-secondary font-primary font-semibold leading-[1.1] shadow-text-shadow-primary uppercase max-w-[495px] md:text-[42px] sm:text-[29px] xs:text-[28px] xxs:text-[27px]">
 			{splitText.map((word, i) => {
 				const start = i / wordCount;
 				const end = (i + 1) / wordCount;

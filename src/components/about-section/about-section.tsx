@@ -18,7 +18,7 @@ const AboutSection = () => {
 							</div>
 							<Button
 								btnText="Our Services"
-								btnVariant="primary-button banner-button mt-[36px] sm:mt-8"
+								btnVariant="primary-button banner-button p-2 max-w-[140px] mt-[36px] sm:mt-8"
 							/>
 						</div>
 					</div>
