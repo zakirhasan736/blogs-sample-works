@@ -121,7 +121,7 @@
         },
         {
             "title": "Send an Email",
-            "path": "/send-email"
+            "path": "/contacts"
         },
         {
             "title": "FAQ’s",
