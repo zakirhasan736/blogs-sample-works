@@ -11,6 +11,7 @@ interface ServiceTypeOptionProps {
 		ServicesTypeSecTitle: string;
 		ServicesTypeSecBtnText: string;
 		ServicesTypeSecModalGIF: string;
+		ServicesTypeSecModalvideo?: string;
 		services: ServiceType[];
 	};
 }
@@ -55,6 +56,18 @@ const ServiceTypeOption: React.FC<ServiceTypeOptionProps> = ({ data }) => {
 									width={600}
 									height={500}
 								/>
+								<video
+									className="video-modal-control"
+									playsInline
+									loop
+									muted
+									autoPlay>
+									<source
+										src={data.ServicesTypeSecModalvideo}
+										type="video/mp4"
+									/>
+									Your browser does not support the video tag.
+								</video>
 							</div>
 						</div>
 					</div>

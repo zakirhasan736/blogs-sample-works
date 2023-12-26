@@ -44,7 +44,7 @@
     "ServicesTypoSecData": {
         "ServicesTypeSecTitle": "Our Branding Services",
         "ServicesTypeSecBtnText": "Get in touch",
-        "ServicesTypeSecModalGIF": "/images/gif/Section01-1.gif",
+        "ServicesTypeSecModalGIF": "/images/gif/Section02-1.gif",
         "services": [
             {
                 "title": "Brand Identity and Positioning",

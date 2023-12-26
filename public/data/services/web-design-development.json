@@ -44,7 +44,7 @@
     "ServicesTypoSecData": {
         "ServicesTypeSecTitle": "Our Web Design and Visual Identity Services",
         "ServicesTypeSecBtnText": "Get in touch",
-        "ServicesTypeSecModalGIF": "/images/gif/Section01-1.gif",
+        "ServicesTypeSecModalGIF": "/images/gif/Section03.gif",
         "services": [
             {
                 "title": "User Experience (UX) Design Optimisation",

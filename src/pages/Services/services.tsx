@@ -90,7 +90,7 @@ const Services = () => {
 		{
 			ModalTitle: "SEO",
 			Title: "SEO",
-			ModalImage: "/images/gif/Section03.gif",
+			ModalImage: "/images/gif/Section01-1.gif",
 		},
 		{
 			ModalTitle: "WEB Design & development",
@@ -100,22 +100,22 @@ const Services = () => {
 		{
 			ModalTitle: "PPC",
 			Title: "PPC",
-			ModalImage: "/images/gif/Section03.gif",
+			ModalImage: "/images/gif/section 3.gif",
 		},
 		{
 			ModalTitle: "Branding",
 			Title: "Branding",
-			ModalImage: "/images/gif/Section03.gif",
+			ModalImage: "/images/gif/Section02-1.gif",
 		},
 		{
 			ModalTitle: "Visual Media.",
 			Title: "Visual Media.",
-			ModalImage: "/images/gif/Section03.gif",
+			ModalImage: "/images/gif/section 3.gif",
 		},
 		{
 			ModalTitle: "Social Media",
 			Title: "Social Media",
-			ModalImage: "/images/gif/Section03.gif",
+			ModalImage: "/images/gif/section 3.gif",
 		},
 	];
 	return (
@@ -127,7 +127,7 @@ const Services = () => {
 			{/* services details istems info card slide */}
 			<section className="services-item-card-wrapper pb-[160px] pt-[133px] sm:pt-[80px] sm:pb-[120px]">
 				<div className="custom-container">
-					<div className="services-main-title-box pl-[50px] md:pl-0">
+					<div className="services-main-title-box pl-[50px] md:pl-0 max-w-[1430px] mx-auto">
 						<h2 className="services-main-title text-[48px] text-left text-neu-white font-primary font-normal uppercase leading-[190%] tracking-[.8px]">
 							services
 						</h2>
