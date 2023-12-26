@@ -86,6 +86,16 @@
   .bg-varient-color-2 ~ .project-result-cont-wrap-right .result-info-card-item h4.result-percent {
     color: #000;
   }
+    .word{
+    position: relative;
+    margin-right: 12px;
+    margin-top: 12px;
+  }
+   .shadow{
+      position: absolute;
+      opacity: 20%;
+      color: #424242 !important;
+    }
 }
 
 button.pagination-prev-widgete.swiper-button-disabled ,
