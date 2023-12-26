@@ -2,7 +2,7 @@
     "pageTitle": "Case Study Village of Genal",
     "pageDescription": "eee",
     "CaseStudyBannerData": {
-        "StudyBannerModalImg": "/images/case-study-banner-modal-image.jpg",
+        "StudyBannerModalImg": "/images/case-study-banner-modal-image-4.jpg",
         "BannerTitle": "Village of Genal",
         "BannerDesc": "The Village of Genalguacil's transformation serves as a testament to the power of strategic branding and visual identity. Crossing International borders while operating thoroughly in the language of intention and attention to detail."
     },
@@ -11,7 +11,7 @@
             "projectOverviewTitle": "Revitalizing Pueblo Museo’s display of the Village of Genalguacil’s image: Building Unique Branding and Visual Identity to Attract Tourism and Investment",
             "quoteDescText": "We embarked on this journey by immersing ourselves in Genal's culture and history. Extensive research and interviews with locals allowed us to unearth the village's hidden gems and distinctive qualities.",
             "overviewPortfolioTitle": "Visual Identity",
-            "overviewPortfolioImage": "/images/project-overview-image.jpg"
+            "overviewPortfolioImage": "/images/case-study-modal-image-4.jpg"
     },
     "ProjectChallengeData": {
         "projectChallengeModalTitle": "The Challenge",
@@ -19,9 +19,9 @@
         "projectChallengeQuoteText": "The Village of Genal, nestled in a picturesque valley, has long possessed immense natural beauty and cultural heritage while remaining relatively unknown to tourists and investors, both locally and also internationally.",
         "projectChallengeQuoteDesc": "The challenge was to reposition the village as a desirable destination for both tourists seeking an authentic experience and investors looking for opportunities.",
         "projectChallengeAssetsTitle1": "Brand Identity",
-        "projectChallengeAssetsImage1": "/images/project-change-image-1.jpg",
+        "projectChallengeAssetsImage1": "/images/case-study-4-brand-assets-1.jpg",
         "projectChallengeAssetsTitle2": "Logo Design",
-        "projectChallengeAssetsImage2": "/images/project-change-image-2.jpg"
+        "projectChallengeAssetsImage2": "/images/case-study-4-brand-assets-2.jpg"
     },
     "ProjectMethodeData":{
         "sectionModelTitle": "THE METHOD",
@@ -38,7 +38,7 @@
     "ProjectResultData": {
         "sectionModelTitle": "The result",
         "sectionTitle": "The result",
-        "resultImage": "/images/project-result-modal-image.jpg",
+        "resultImage": "/images/case-study-result-img-4.jpg",
         "results": [
             {
                 "percent": "40%",

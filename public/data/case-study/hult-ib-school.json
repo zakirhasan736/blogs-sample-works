@@ -2,7 +2,7 @@
     "pageTitle": "Case Study Hult IB School",
     "pageDescription": "eee",
     "CaseStudyBannerData": {
-        "StudyBannerModalImg": "/images/case-study-banner-modal-image.jpg",
+        "StudyBannerModalImg": "/images/case-study-banner-modal-image-3.jpg",
         "BannerTitle": "Hult IB School",
         "BannerDesc": "Crafting a web design and Paid Ads solution to help deliver on Hult Business School’s ongoing desire for increased student enrolment."
     },
@@ -13,7 +13,7 @@
             "quoteText": "Collaborating closely with Hult's marketing team, we devised a fresh visual identity, complete with a modern logo, an updated color palette, and typography choices that reflected the institution's global outlook.",
             "quoteDescText": "Our challenge was clear: create a compelling visual identity for the campaign and produce marketing assets that would simultaneously cultivate imagination.",
             "overviewPortfolioTitle": "Web Design",
-            "overviewPortfolioImage": "/images/project-overview-image.jpg"
+            "overviewPortfolioImage": "/images/case-study-modal-image-3.jpg"
     },
     "ProjectChallengeData": {
         "projectChallengeModalTitle": "The Challenge",
@@ -21,9 +21,9 @@
         "projectChallengeQuoteText": "At the time of our intervention, Hult International Business School had been facing challenges with its existing website and online marketing strategies.",
         "projectChallengeQuoteDesc": "Specifically, the website lacked a user-friendly interface, failed to effectively communicate their institution's value, and was failing perform to its own high standards in attracting the best prospective students. Additionally, their Google Ads campaign was not delivering the desired results in terms of click-through rates and conversions. Our challenge was clear: revamp the website to provide an engaging user experience while simultaneously optimizing the Google Ads campaign to boost student enrollment.",
         "projectChallengeAssetsTitle1": "Google Ads",
-        "projectChallengeAssetsImage1": "/images/project-change-image-1.jpg",
+        "projectChallengeAssetsImage1": "/images/case-study-3-brand-assets-1.jpg",
         "projectChallengeAssetsTitle2": "Paid Socials",
-        "projectChallengeAssetsImage2": "/images/project-change-image-2.jpg"
+        "projectChallengeAssetsImage2": "/images/case-study-3-brand-assets-2.jpg"
     },
     "ProjectMethodeData":{
         "sectionModelTitle": "THE METHOD",
@@ -39,7 +39,7 @@
     "ProjectResultData": {
         "sectionModelTitle": "The result",
         "sectionTitle": "The result",
-        "resultImage": "/images/project-result-modal-image.jpg",
+        "resultImage": "/images/case-study-result-img-3.jpg",
         "results": [
             {
                 "percent": "40%",

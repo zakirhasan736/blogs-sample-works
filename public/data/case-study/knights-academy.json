@@ -2,7 +2,7 @@
     "pageTitle": "Case Study Knight's Academy",
     "pageDescription": "eee",
     "CaseStudyBannerData": {
-        "StudyBannerModalImg": "/images/case-study-banner-modal-image.jpg",
+        "StudyBannerModalImg": "/images/case-study-banner-modal-image-6.jpg",
         "BannerTitle": "Knight's Academy",
         "BannerDesc": "Knights Academy’s Transformation: A feat of strategic web design and digital marketing prowess, connecting talents with opportunities from across continents, crafted with meticulous, precision and care."
     },
@@ -12,7 +12,7 @@
             "projectOverviewDesc": "Revolutionising the Way Young Athletes Connect with Scouts and Coaches: Knight’s Academy Cutting Edge Web Platform Redefines Opportunities in American Football and Beyond.",
             "quoteDescText": "Our journey with Knight’s Academy started with a deep dive into its mission and history. Through extensive research and meaningful conversations, we unearthed the unique qualities that drive this platform’s commitment to connecting talent with professional opportunities in American Football.",
             "overviewPortfolioTitle": "Web Design",
-            "overviewPortfolioImage": "/images/project-overview-image.jpg"
+            "overviewPortfolioImage": "/images/case-study-modal-image-6.jpg"
     },
     "ProjectChallengeData": {
         "projectChallengeModalTitle": "The Challenge",
@@ -20,9 +20,9 @@
         "projectChallengeQuoteText": "The Challenge Lay in creating a functionally seamless platform for young athletes to showcase their talents while bridging them to professional opportunities in American Football through scouts and coaches, and potentially in other sports across Europe.",
         "projectChallengeQuoteDesc": "The Primary objectives were to boost athlete engagement, refine user interactions, and optimise the scouting process for seamless athlete-scout connections.",
         "projectChallengeAssetsTitle1": "Brand Identity",
-        "projectChallengeAssetsImage1": "/images/project-change-image-1.jpg",
+        "projectChallengeAssetsImage1": "/images/case-study-6-brand-assets-1.jpg",
         "projectChallengeAssetsTitle2": "Logo Design",
-        "projectChallengeAssetsImage2": "/images/project-change-image-2.jpg"
+        "projectChallengeAssetsImage2": "/images/case-study-6-brand-assets-2.jpg"
     },
     "ProjectMethodeData":{
         "sectionModelTitle": "THE METHOD",
@@ -38,7 +38,7 @@
     "ProjectResultData": {
         "sectionModelTitle": "The result",
         "sectionTitle": "The result",
-        "resultImage": "/images/project-result-modal-image.jpg",
+        "resultImage": "/images/case-study-result-img-6.jpg",
         "results": [
             {
                 "percent": "40%",

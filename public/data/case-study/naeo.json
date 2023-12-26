@@ -2,7 +2,7 @@
     "pageTitle": "Case Study Naeo",
     "pageDescription": "eee",
     "CaseStudyBannerData": {
-        "StudyBannerModalImg": "/images/case-study-banner-modal-image.jpg",
+        "StudyBannerModalImg": "/images/case-study-banner-modal-image-5.jpg",
         "BannerTitle": "Naeo",
         "BannerDesc": "Naeo’s evolution: A triumph of purposeful Branding and web design excellence, Bridging borders with precision and care."
     },
@@ -12,7 +12,7 @@
             "projectOverviewDesc": "Transforming NAEO’s Digital Presence: Crafting Distinctive Web design and Visual Identity for Enhanced Engagement and Sustainability.",
             "quoteDescText": "Our exploration commenced by delving deep into Naeo’s ethos and origin story. Extensive research and insightful conversations unveiled the core essence and unique qualities driving this brand forward.",
             "overviewPortfolioTitle": "Web Design",
-            "overviewPortfolioImage": "/images/project-overview-image.jpg"
+            "overviewPortfolioImage": "/images/case-study-modal-image-5.jpg"
     },
     "ProjectChallengeData": {
         "projectChallengeModalTitle": "The Challenge",
@@ -20,9 +20,9 @@
         "projectChallengeQuoteText": "Founded in 2022 by CEO Nele, Naeo has just completed its first round of investment and was gearing up for the next. The primary goal was to enhance user experience and credibilty on the web platform, particularly by streamlining the checkout process.",
         "projectChallengeQuoteDesc": "They sought to improve the average basket value, increase time spent on the website, and enhance the overall sales process.",
         "projectChallengeAssetsTitle1": "Brand Identity",
-        "projectChallengeAssetsImage1": "/images/project-change-image-1.jpg",
+        "projectChallengeAssetsImage1": "/images/case-study-5-brand-assets-1.png",
         "projectChallengeAssetsTitle2": "Logo Design",
-        "projectChallengeAssetsImage2": "/images/project-change-image-2.jpg"
+        "projectChallengeAssetsImage2": "/images/case-study-5-brand-assets-2.jpg"
     },
     "ProjectMethodeData":{
         "sectionModelTitle": "THE METHOD",
@@ -38,7 +38,7 @@
     "ProjectResultData": {
         "sectionModelTitle": "The result",
         "sectionTitle": "The result",
-        "resultImage": "/images/project-result-modal-image.jpg",
+        "resultImage": "/images/case-study-result-img-5.jpg",
         "results": [
             {
                 "percent": "40%",
