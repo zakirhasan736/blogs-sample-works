@@ -7,7 +7,7 @@
         "bannerDescription": "Feels like a web design agency, helps like a doctor. We listen first, and then serve. Particular Websites combine SEO, Strategy and UX to build high-speed, accessible sites that convert even the most stern audiences."
     },
     "ServiceAboutInfoData": {
-        "ServiceSecModalImage": "/images/services-about-modal-img-2.png",
+        "ServiceSecModalImage": "/images/services-about-modal-img-2.jpg",
         "ServiceSecTitle": "Particular Approach to Web Design & Visual Identity.",
         "ServiceSecDesc1": "We think of your website like a virtual home for your business. Build a customer journey that’s comfortable, visually appealing and sensible for your intended outcomes for your visitors.",
         "ServiceSecDesc2": "Building your web identity to extend your brand. Providing customers with a visually captivating picture of your brand and its offering.",
@@ -86,7 +86,7 @@
     },
     "ServicesProcessData": {
         "ProcessStepSecTitle": "The Process",
-        "ProcessStepFeaturedImage": "/images/services-process-modal-img-2.png",
+        "ProcessStepFeaturedImage": "/images/services-process-modal-img-2.jpg",
         "ProcessStepFeatureTitle": "Step",
         "ProcessStepFeatureNumber": "1",
         "ProcessStepFeatureSubTitle": "YOUR DISCOVERY CALL.",

@@ -7,7 +7,7 @@
         "bannerDescription": "Humankind has spent millennia captivated by important stories told well. Create a pioneering story from your free-thought around your vision. We’ll handle the attention to detail."
     },
     "ServiceAboutInfoData": {
-        "ServiceSecModalImage": "/images/services-about-modal-img-5.png",
+        "ServiceSecModalImage": "/images/services-about-modal-img-5.jpg",
         "ServiceSecTitle": "Particular Approach to Visual Media",
         "ServiceSecDesc1": "Turn your day-to-day moments into stories that inspire: imagination and potential experiences with your brand",
         "ServiceSecDesc2": "Particular Visual Media is all about capturing your brand's essence. We understand that visuals can be powerful storytellers. From photography to videography, we craft moments that resonate and leave a lasting impact. At Particular Visual Media, we focus on creating visuals that speak volumes, turning ordinary moments into unforgettable memories.",
@@ -86,7 +86,7 @@
     },
     "ServicesProcessData": {
         "ProcessStepSecTitle": "The Process",
-        "ProcessStepFeaturedImage": "/images/services-process-modal-img-5.png",
+        "ProcessStepFeaturedImage": "/images/services-process-modal-img-5.jpg",
         "ProcessStepFeatureTitle": "Step",
         "ProcessStepFeatureNumber": "1",
         "ProcessStepFeatureSubTitle": "YOUR DISCOVERY CALL.",

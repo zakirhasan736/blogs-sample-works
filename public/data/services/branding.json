@@ -7,7 +7,7 @@
         "bannerDescription": "Particular Branding is where stories find their visual voice and sense of feeling.\n\n We listen, we create, and we define your brand's essence. Crafting distinctive \n identities that resonate and endure."
     },
     "ServiceAboutInfoData": {
-        "ServiceSecModalImage": "/images/services-about-modal-img-4.png",
+        "ServiceSecModalImage": "/images/services-about-modal-img-4.jpg",
         "ServiceSecTitle": "Particular Approach to Branding",
         "ServiceSecDesc1": "At Particular, we believe that every brand is as unique as a fingerprint, and your branding deserves nothing less than a tailored approach. Branding is not just about aesthetics; it's about conveying your brand's story, values, and purpose.",
         "ServiceSecDesc2": "Change is constant in the business world. Your brand should reflect your growth, evolution, and shifting market dynamics. At Particular, our branding strategies are dynamic and flexible. We're here to adjust and refine your brand identity to keep it in sync with your journey.",
@@ -86,7 +86,7 @@
     },
     "ServicesProcessData": {
         "ProcessStepSecTitle": "The Process",
-        "ProcessStepFeaturedImage": "/images/services-process-modal-img-4.png",
+        "ProcessStepFeaturedImage": "/images/services-process-modal-img-4.jpg",
         "ProcessStepFeatureTitle": "Step",
         "ProcessStepFeatureNumber": "1",
         "ProcessStepFeatureSubTitle": "YOUR DISCOVERY CALL.",
