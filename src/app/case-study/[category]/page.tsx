@@ -3,7 +3,7 @@ import CaseStudyCategory from "@/pages/CaseStudy/CaseStudyDetails/CaseStudyCateg
 async function getData(category: any) {
 	try {
 		const res = await fetch(
-			`http://localhost:3000/data/case-study/${category}.json`,
+			`https://blogs-sample-works.vercel.app/data/case-study/${category}.json`,
 			{
 				cache: "no-store",
 			},
