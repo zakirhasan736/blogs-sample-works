@@ -81,7 +81,7 @@ const ParticularSecModal = () => {
 					<div className="section-titlebox scrolling-main-content-wrap-box lg:mb-15 sm:mb-2 relative top-4 sm:top-[0]">
 						<div className="scrolable-text-box how-it-work-title">
 							<div className="scroll-text-item">
-								<h2 className="section-scrrolltext-title scrolling-text text-center text-modal-heading-4 laptop-x:text-[150px] lg:text-[120px] md:text-[94px] sm:text-[76px] whitespace-nowrap font-primary font-bold leading-[1.2] sm:leading-[1] tracking-[3.6px] uppercase">
+								<h2 className="section-scrrolltext-title scrolling-text text-center text-modal-heading-4 laptop-x:text-[150px] lg:text-[120px] md:text-[94px] sm:text-[76px] whitespace-nowrap font-primary font-bold leading-[1] sm:leading-[1] tracking-[3.6px] uppercase">
 									• we are particular • we are particular • we are particular •
 									we are particular
 								</h2>
@@ -91,7 +91,7 @@ const ParticularSecModal = () => {
 					<div className="section-titlebox scrolling-main-content-wrap-box lg:mb-15 sm:mb-2 relative top-4 sm:top-[0]">
 						<div className="scrolable-text-box how-it-work-title">
 							<div className="scroll-text-item">
-								<h2 className="section-scrrolltext-title scrolling-text text-center text-modal-heading-4 laptop-x:text-[150px] lg:text-[120px] md:text-[94px] sm:text-[76px] whitespace-nowrap font-primary font-bold leading-[1.2]  sm:leading-[1] sm:mb-1 tracking-[3.6px] uppercase">
+								<h2 className="section-scrrolltext-title scrolling-text text-center text-modal-heading-4 laptop-x:text-[150px] lg:text-[120px] md:text-[94px] sm:text-[76px] whitespace-nowrap font-primary font-bold leading-[1]  sm:leading-[1] sm:mb-1 tracking-[3.6px] uppercase">
 									• we are particular • we are particular • we are particular •
 									we are particular
 								</h2>
@@ -101,7 +101,7 @@ const ParticularSecModal = () => {
 					<div className="section-titlebox scrolling-main-content-wrap-box lg:mb-15 sm:mb-2 relative top-4 sm:top-[0]">
 						<div className="scrolable-text-box how-it-work-title">
 							<div className="scroll-text-item">
-								<h2 className="section-scrrolltext-title scrolling-text text-center text-modal-heading-4 laptop-x:text-[150px] lg:text-[120px] md:text-[94px] sm:text-[76px] whitespace-nowrap font-primary font-bold leading-[1.2]  sm:leading-[1] sm:mb-1 tracking-[3.6px] uppercase">
+								<h2 className="section-scrrolltext-title scrolling-text text-center text-modal-heading-4 laptop-x:text-[150px] lg:text-[120px] md:text-[94px] sm:text-[76px] whitespace-nowrap font-primary font-bold leading-[1]  sm:leading-[1] sm:mb-1 tracking-[3.6px] uppercase">
 									• we are particular • we are particular • we are particular •
 									we are particular
 								</h2>
