@@ -4,11 +4,7 @@ import OurApproachParticulasSection from '@/components/our-approach-particular-s
 import OurStatics from '@/components/our-statics/our-statics';
 import React from "react";
 const OurApproach: React.FC = () => {
-	 const ourStaticsTitleData = [
-			{
-				ourStaticsTitle: "Growth, revenue, results",
-			},
-		]
+
   const staticsItemsData = [
 		{
 			title: "50+",
@@ -24,7 +20,7 @@ const OurApproach: React.FC = () => {
 			description:
 				"Over 1 in 3 clients come back to us within the first 3 months for additional marketing and branding support",
 		},
-		// Add more statistics items as needed
+		
 	];
 
   const bannerData = {

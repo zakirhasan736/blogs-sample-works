@@ -7,36 +7,12 @@ import HomeBanner from "@/components/common/banner/home-banner";
 import GuidedSection from "@/components/guided-section/guided-section";
 import ParticularSecModal from "@/components/particular-sec-modal/particular-sec-modal";
 import TestimonialsSection from "@/components/testimonials-section/testimonials-section";
-import clientsData from "@data/clients.json";
+import clientsData from "@data/home-page-data/clients.json";
+import SliderItemsData from "@data/home-page-data/home-case-study-slider.json";
 
 
 const Home = () => {
-	const SliderItemsData = [
-		{
-			sliderModalImage: "/images/case-study-slider-item-img-1.jpg",
-			sliderSubTitle: "Client Case Studies",
-			sliderTitle: "Village of Genal",
-			sliderTagsCategory: "Website Design",
-		},
-		{
-			sliderModalImage: "/images/case-study-slider-item-img-2.jpg",
-			sliderSubTitle: "Client Case Studies",
-			sliderTitle: "Zenbase ",
-			sliderTagsCategory: "Website Design",
-		},
-		{
-			sliderModalImage: "/images/case-study-slider-item-img-3.jpg",
-			sliderSubTitle: "Client Case Studies",
-			sliderTitle: "AI & Humanity",
-			sliderTagsCategory: "Website Design",
-		},
-		{
-			sliderModalImage: "/images/case-study-slider-item-img-4.png",
-			sliderSubTitle: "Client Case Studies",
-			sliderTitle: "Hult IB School",
-			sliderTagsCategory: "Website Design",
-		},
-	];
+
 
 	const testimonialsSliderData = [
 		{

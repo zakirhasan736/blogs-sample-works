@@ -4,7 +4,7 @@ import ServicesCategoriesPage from "@/pages/Services/Services-details/ServicesCa
 async function getData(category: any) {
 	try {
 		const res = await fetch(
-			`https://blogs-sample-works.vercel.app/data/services/${category}.json`,
+			`http://localhost:3000/data/services/${category}.json`,
 			{
 				cache: "no-store",
 			},

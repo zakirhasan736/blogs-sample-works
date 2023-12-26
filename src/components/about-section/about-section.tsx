@@ -2,7 +2,6 @@
 import  Button  from "@/components/elements/button/button";
 import EffectCardSlider from "../effect-card-slider/EffectCardSlider";
 import Character from "@/components/about-section/Character"
-import TextCarecter from "./text-carcter";
 
 const AboutSection = () => {
 	const paragraph =
