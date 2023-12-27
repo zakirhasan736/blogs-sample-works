@@ -95,61 +95,65 @@ const OurApproachTabs: React.FC<{ data: TabData[] }> = ({ data }) => {
   }, []);
 
   return (
-    <div className="our-approach-tabs-sceens-page bg-[#D9D9D9] pt-8 pr-[57px] pb-[51px] sm:px-8 pl-5 rounded-[12px] flex items-start gap-0 overflow-hidden tabs-container sm:flex-col">
-      <div className="our-approach-tabs-screen-left-cont pr-8 sm:pr-0 flex flex-col gap-3 w-full max-w-[360px] tabs sm:mb-5">
-        {data.map((tab) => (
-          <a
-            key={tab.id}
-            id={tab.id}
-            title={tab.title}
-            className={`our-approad-tabs-items text-text-medium-4 text-left text-[#191919] font-primary font-semibold leading-none px-5 py-[43px] bg-tranparent sm:px-2 sm:py-6 ${
-              tab.id === activeTab ? 'active' : ''
-            } rounded-[16px] max-w-[336px] h-[117px] w-full sm:h-auto sm:text-[23px] sm:max-w-[450px]`}
-          >
-            {tab.title}
-          </a>
-        ))}
-      </div>
-      <div className="our-approach-tabs-screen-right-cont overflow-hidden pl-5 border-l border-l-neu-black w-full sm:border-none sm:pl-0">
-        {data.map((tab) => (
-          <div
-            key={tab.id}
-            className={`our-approach-tabs-deails-info-box tab-content ${
-              tab.id === activeTab ? 'active-tab-content' : ''
-            }`}
-            id={`${tab.id}-content`}
-          >
-            <div className="our-approach-tabs-info-text-cont  pt-8 ">
-              <h5 className="tabs-details-info-title mb-[18px] font-primary font-semibold leading-none text-left text-neu-black text-text-accend-3">
-                {tab.title}
-              </h5>
-              {tab.content.beforeList.map((paragraph, index) => (
-                <p key={index} className="text-text-medium-4 text-left text-neu-black font-primary font-normal leading-normal mb-4">
-                  {paragraph}
-                </p>
-              ))}
-              <ul className="tabs-details-info-item ml-5">
-                {tab.content.lists.map((listItem, index) => (
-                  <li key={index} className="tabs-details-info-list list-disc text-text-medium-4 text-left text-neu-black font-primary font-normal leading-normal">
-                    {listItem}
-                  </li>
-                ))}
-              </ul>
-              {tab.content.afterList.map((paragraph, index) => (
-                <p key={index} className="text-text-medium-4 text-left text-neu-black font-primary font-normal leading-normal mb-4">
-                  {paragraph}
-                </p>
-              ))}
-              <Button
-                btnText="Learn More"
-                btnVariant="primary-button max-w-[172px] text-[24px] shadow-box-shadow-primary whitespace-nowrap mt-[30px] ml-auto"
-              />
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
+		<div className="our-approach-tabs-sceens-page bg-[#D9D9D9] pt-8 pr-[57px] pb-[51px] sm:px-4 pl-5 rounded-[12px] flex items-start gap-0 overflow-hidden tabs-container sm:flex-col">
+			<div className="our-approach-tabs-screen-left-cont pr-8 sm:pr-0 flex flex-col gap-3 w-full max-w-[360px] tabs pb-5 sm:mb-5 sm:border-b sm:border-b-black">
+				{data.map(tab => (
+					<a
+						key={tab.id}
+						id={tab.id}
+						title={tab.title}
+						className={`our-approad-tabs-items text-text-medium-4 sm:text-[22px]  text-left text-[#191919] font-primary font-semibold leading-none px-5 py-[43px] bg-tranparent sm:px-2 sm:py-6 ${
+							tab.id === activeTab ? "active" : ""
+						} rounded-[16px] max-w-[336px] h-[117px] w-full sm:h-auto sm:text-[23px] sm:max-w-[450px]`}>
+						{tab.title}
+					</a>
+				))}
+			</div>
+			<div className="our-approach-tabs-screen-right-cont overflow-hidden pl-5 border-l border-l-neu-black w-full sm:border-none sm:pl-0">
+				{data.map(tab => (
+					<div
+						key={tab.id}
+						className={`our-approach-tabs-deails-info-box tab-content ${
+							tab.id === activeTab ? "active-tab-content" : ""
+						}`}
+						id={`${tab.id}-content`}>
+						<div className="our-approach-tabs-info-text-cont  pt-8 ">
+							<h5 className="tabs-details-info-title mb-[18px] font-primary font-semibold leading-none text-left text-neu-black text-text-accend-3 sm:text-[26px]">
+								{tab.title}
+							</h5>
+							{tab.content.beforeList.map((paragraph, index) => (
+								<p
+									key={index}
+									className="text-text-medium-4 sm:text-[16px] text-left text-neu-black font-primary font-normal leading-normal mb-4">
+									{paragraph}
+								</p>
+							))}
+							<ul className="tabs-details-info-item ml-5">
+								{tab.content.lists.map((listItem, index) => (
+									<li
+										key={index}
+										className="tabs-details-info-list sm:text-[16px] list-disc text-text-medium-4 text-left text-neu-black font-primary font-normal leading-normal">
+										{listItem}
+									</li>
+								))}
+							</ul>
+							{tab.content.afterList.map((paragraph, index) => (
+								<p
+									key={index}
+									className="text-text-medium-4 text-left sm:text-[16px] text-neu-black font-primary font-normal leading-normal mb-4">
+									{paragraph}
+								</p>
+							))}
+							<Button
+								btnText="Learn More"
+								btnVariant="primary-button max-w-[172px] text-[24px] shadow-box-shadow-primary whitespace-nowrap mt-[30px] ml-auto sm:text-[18px] sm:ml-0"
+							/>
+						</div>
+					</div>
+				))}
+			</div>
+		</div>
+	);
 };
 
 export default OurApproachTabs;

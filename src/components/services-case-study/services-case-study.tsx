@@ -40,9 +40,9 @@ const ServicesCaseStudy: React.FC<ServicesCaseStudyProps> = ({ data }) => {
 										height={304}
 									/>
 
-									<div className="featured-case-study-cta-box w-full h-full  top-0 left-0 absolute bg-transparent px-10 py-8 flex items-end justify-between gap-5 sm:text-[24px]">
+									<div className="featured-case-study-cta-box w-full h-full  top-0 left-0 absolute bg-transparent px-10 py-8 sm:px-6 sm:flex-col sm:justify-end sm:items-start sm:pb-5 flex items-end justify-between gap-5 sm:text-[24px]">
 										<div className="text-cont-box">
-											<h3 className="featured-case-study-title text-[42px] md:text-[38px] sm:text-[32px] text-left text-primary font-primary font-bold leading-none">
+											<h3 className="featured-case-study-title text-[42px] md:text-[38px] sm:text-[27px] sm:mb-4 text-left text-primary font-primary font-bold leading-none">
 												{CaseStudyservice.title}
 											</h3>
 											<p className="case-study-desc max-w-[929px] text-[26px] text-left text-primary font-primary font-normal leading-normal sm:text-[13px]">
@@ -51,7 +51,7 @@ const ServicesCaseStudy: React.FC<ServicesCaseStudyProps> = ({ data }) => {
 										</div>
 										<Button
 											btnText={CaseStudyservice.btnText}
-											btnVariant="primary-button services-case-study-button"
+											btnVariant="primary-button services-case-study-button sm:max-w-[120px] sm:h-[38px] sm:py-3"
 										/>
 									</div>
 								</div>

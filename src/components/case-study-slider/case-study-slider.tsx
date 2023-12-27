@@ -38,7 +38,7 @@ const CaseStudySlider: React.FC<CaseStudySliderProps> = ({ slides }) => {
 						className="services-slider-swiper case-study-slider">
 						{slides.map((slide, index) => (
 							<SwiperSlide key={index}>
-								<div className="case-study-slide-item sm:flex sm:flex-col sm:h-[486px] pt-[193px] pb-[163px] md:pt-14 md:pb-10 sm:pt-[14px] sm:pb-[41px] relative z-50 pl-20 sm:pl-4">
+								<div className="case-study-slide-item sm:flex sm:flex-col sm:h-[486px] pt-[193px] pb-[163px] md:pt-14 md:pb-10 sm:pt-[30px] sm:pb-[41px] relative z-50 pl-20 sm:pl-4">
 									<Image
 										src={slide.sliderModalImage}
 										width={1676}

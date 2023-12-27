@@ -557,7 +557,7 @@ li.sticky-navbar-nav-items a:hover {
 }
 @media screen and (max-width:991px) {
 .swiper-slide-visible.swiper-slide-fully-visible.swiper-slide-thumb-active .services-slide-card-items .slider-model-text {
-    font-size: 190px;
+    font-size: 120px;
       top: -90px;
     left: 0px;
 }
@@ -1029,7 +1029,7 @@ ul.services-type-list-box li.services-types-option-list-items:last-child {
   }
 
   .custom-container {
-    @apply container laptop-x:container laptop-m:container lg:container md:container sm:container xs:container xxs:container laptop-x:px-20 laptop-m:px-[60px] lg:px-[45px] sm:px-8 xxs:px-4;
+    @apply container laptop-x:container laptop-m:container lg:container md:container sm:container xs:container xxs:container laptop-x:px-20 laptop-m:px-[60px] lg:px-[45px] sm:px-4 xxs:px-4;
   }
 
   .pca-secondary-button {

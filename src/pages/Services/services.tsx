@@ -128,7 +128,7 @@ const Services = () => {
 			<section className="services-item-card-wrapper pb-[160px] pt-[133px] sm:pt-[80px] sm:pb-[120px]">
 				<div className="custom-container">
 					<div className="services-main-title-box pl-[50px] md:pl-0 max-w-[1430px] mx-auto">
-						<h2 className="services-main-title text-[48px] text-left text-neu-white font-primary font-normal uppercase leading-[190%] tracking-[.8px]">
+						<h2 className="services-main-title text-[48px] sm:text-[32px] text-left text-neu-white font-primary font-normal uppercase leading-[190%] tracking-[.8px]">
 							services
 						</h2>
 						<span className="divider-spacer w-[61px] h-[1px] block bg-neu-white"></span>

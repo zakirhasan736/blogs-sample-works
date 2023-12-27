@@ -10,7 +10,7 @@ interface Article {
 
 const ArticlesSection = () => {
   return (
-		<section className="article-section pt-[120px] pb-[140px] sm:pb-20 sm:pt-[70px]">
+		<section className="article-section pt-[120px] pb-[140px] sm:pb-14 sm:pt-[70px]">
 			<div className="custom-container">
 				<div className="article-sec-wrapper  mx-auto max-w-[1356px]">
 					<div className="article-section-title-box mb-[41px] sm:mb-[45px]">

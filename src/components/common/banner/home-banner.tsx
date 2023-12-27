@@ -39,7 +39,6 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
 								start: "top +=10px",
 								end: "bottom top-=200px",
 								scrub: 0.9,
-								markers: true,
 							},
 						},
 					);
@@ -59,7 +58,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
 					<div className="custom-container sm:h-full">
 						<div className="banner-content-main-wrapper main-visual-section max-w-[1230px] mx-auto  relative grid grid-cols-16 gap-5 w-full sm:flex sm:flex-col sm:justify-end sm:h-full">
 							<div className="banner-content-text-box pb-12 col-span-full pt-[23px] md:pt-0">
-								<h1 className="banner-title banner_title_animation font-primary font-medium relative z-50 text-[140px] laptop-x:text-[70px] laptop-m:text-[70px] md:text-[57px] flex flex-col text-left text-primary leading-[.9] laptop-m:leading-[1]  uppercase tracking-[-2.38px] sm:text-[53px] sm:font-normal sm:leading-none sm:tracking-[-.38px]">
+								<h1 className="banner-title banner_title_animation font-primary font-medium relative z-50 text-[140px] laptop-x:text-[120px] laptop-m:text-[100px] md:text-[80px] flex flex-col text-left text-primary leading-[.9] laptop-m:leading-[1]  uppercase tracking-[-2.38px] sm:text-[53px] sm:font-normal sm:leading-none sm:tracking-[-.38px]">
 									<span className="overflow-hidden w-full h-full block">
 										<span className="block color-text relative left-0 sm:left-[5px]">
 											Particular
@@ -76,7 +75,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
 										</span>
 									</span>
 								</h1>
-								<div className="banner-text-bottom-cont relative left-0 mt-20  sm:left-[11px] z-50">
+								<div className="banner-text-bottom-cont relative left-0 mt-20 sm:hidden  sm:left-[11px] z-50">
 									<h3 className="banner-subtitle sm:hidden mt-[46px] text-[24px] text-left text-primary font-normal font-primary leading-none">
 										welcome to <span className="color-text">particular</span>
 									</h3>

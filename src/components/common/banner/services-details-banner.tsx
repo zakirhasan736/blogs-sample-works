@@ -25,7 +25,7 @@ const ServicesBanner: React.FC<ServicesBannerProps> = ({ data }) => {
 				<div className="custom-container h-full">
 					<div className="services-content-main-wrapper relative grid grid-cols-16 gap-5 w-full h-full  max-w-[1430px] mx-auto">
 						<div className="services-content-text-box pb-12 col-span-full mt-auto sm:mb-0">
-							<h1 className="services-banner-title primary-heading-6  font-medium font-primary tracking-[4px] text-left text-primary text-[70px] mb-[15px] uppercase leading-none sm:text-sixth-heading-2 sm:mb-8">
+							<h1 className="services-banner-title primary-heading-6  font-medium font-primary tracking-[4px] text-left text-primary text-[70px] mb-[15px] uppercase leading-none sm:text-[40px] sm:mb-8">
 								{data.bannerTitle}
 							</h1>
 							<p className="banner-description text-primary text-[24px] text-left max-w-[824px] mr-auto font-primary  font-medium leading-normal mb-0 sm:text-[13px]">

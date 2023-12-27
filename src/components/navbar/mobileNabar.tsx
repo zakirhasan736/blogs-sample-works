@@ -93,7 +93,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onMenuClose, items }) =
 				</ul>
 			</div>
 			<div className="mobile-menu-footer mt-auto">
-				<h2 className="mobile-menu-title font-primary font-medium text-[26px] text-left text-neu-white leading-normal trancking-[2.28px]">
+				<h2 className="mobile-menu-title font-primary font-medium text-[26px] text-left text-neu-white leading-normal trancking-[2.28px] max-w-[320px]">
 					Anything in{" "}
 					<span className="color-text text-secondary-2 text-left text-[42px] font-primary font-bold capitalize">
 						Particular?

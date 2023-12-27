@@ -30,7 +30,7 @@ const CaseStudyBanner: React.FC<CaseStudyBannerProps> = ({
 					alt="case study banner image"
 					width={1722}
 					height={773}
-					className="case-study-banner-modal-image w-full h-full"
+					className="case-study-banner-modal-image w-full h-full sm:object-cover"
 				/>
 			</div>
 			<div className="custom-container h-full">
