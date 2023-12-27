@@ -29,17 +29,17 @@ const OurApproachTabs: React.FC<{ data: TabData[] }> = ({ data }) => {
     const shiftTabs = (linkId: string) => {
       allTabs.forEach((tab, i) => {
         const isActiveTab = tab.id.includes(linkId);
-        let translateYValue = 0;
+        let translateXValue = 0;
 
         if (isActiveTab) {
-          translateYValue = 0; // Current tab
+          translateXValue = 0; // Current tab
         } else if (i < allTabs.length - 1 && allTabs[i + 1].id.includes(linkId)) {
-          translateYValue = 100; // Next tab
+          translateXValue = -100; // Next tab
         } else {
-          translateYValue = -100; // Previous tab
+          translateXValue = 100; // Previous tab
         }
 
-        tab.style.transform = `translateY(${translateYValue}%)`;
+        tab.style.transform = `translateX(${translateXValue}%)`;
       });
     };
 
@@ -110,7 +110,7 @@ const OurApproachTabs: React.FC<{ data: TabData[] }> = ({ data }) => {
           </a>
         ))}
       </div>
-      <div className="our-approach-tabs-screen-right-cont pl-5 border-l border-l-neu-black w-full sm:border-none sm:pl-0">
+      <div className="our-approach-tabs-screen-right-cont overflow-hidden pl-5 border-l border-l-neu-black w-full sm:border-none sm:pl-0">
         {data.map((tab) => (
           <div
             key={tab.id}
@@ -124,19 +124,19 @@ const OurApproachTabs: React.FC<{ data: TabData[] }> = ({ data }) => {
                 {tab.title}
               </h5>
               {tab.content.beforeList.map((paragraph, index) => (
-                <p key={index} className="text-text-medium-4 text-left text-neu-black font-primary font-medium leading-normal mb-4">
+                <p key={index} className="text-text-medium-4 text-left text-neu-black font-primary font-normal leading-normal mb-4">
                   {paragraph}
                 </p>
               ))}
               <ul className="tabs-details-info-item ml-5">
                 {tab.content.lists.map((listItem, index) => (
-                  <li key={index} className="tabs-details-info-list list-disc text-text-medium-4 text-left text-neu-black font-primary font-medium leading-normal">
+                  <li key={index} className="tabs-details-info-list list-disc text-text-medium-4 text-left text-neu-black font-primary font-normal leading-normal">
                     {listItem}
                   </li>
                 ))}
               </ul>
               {tab.content.afterList.map((paragraph, index) => (
-                <p key={index} className="text-text-medium-4 text-left text-neu-black font-primary font-medium leading-normal mb-4">
+                <p key={index} className="text-text-medium-4 text-left text-neu-black font-primary font-normal leading-normal mb-4">
                   {paragraph}
                 </p>
               ))}

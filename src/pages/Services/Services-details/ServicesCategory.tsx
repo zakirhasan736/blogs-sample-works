@@ -48,7 +48,7 @@ const ServicesCategoriesPage: React.FC<ServicesCategoryPageProps> = ({
 			<ServiceProcessStep data={ServicesProcessData} />
 			{/* service our faq section */}
 			<ServicesFaq
-				servicesFaqSecTitle="FAQ'S"
+				servicesFaqSecTitle="FAQ(Frequently Asked Questions)"
 				FaqPageAccodionData={FaqPageAccodionData}
 			/>
 		</div>

@@ -76,10 +76,10 @@ const ProjectChallenge: React.FC<ProjectChallengeProps> = ({ data }) => {
 							</h2>
 						</div>
 						<div className="quote-box">
-							<p className="quote-desc-text  mt-14  sm:mt-6 empty:hidden relative max-w-[1048px] w-full pl-[124px] laptop-x:pl-[120px] laptop-m:pl-[100px] lg:pl-[80px] md:pl-[55px] sm:pl-5 empty:hiddem text-[27px] text-left text-neu-white font-primary font-semibold leading-normal sm:text-[13px]">
+							<p className="quote-desc-text  mt-14  sm:mt-6 empty:hidden relative max-w-[1048px] w-full pl-[124px] laptop-x:pl-[120px] laptop-m:pl-[100px] lg:pl-[80px] md:pl-[55px] sm:pl-5 empty:hiddem text-[27px] text-left text-neu-white font-primary font-normal leading-normal sm:text-[13px]">
 								{data.projectChallengeQuoteText}
 							</p>
-							<p className="quote-desc-text pl-[124px] empty:hidden laptop-x:pl-[120px] laptop-m:pl-[100px] lg:pl-[80px] md:pl-[55px] sm:pl-5 mt-7 max-w-[1048px] w-full sm:mt-4 empty:hiddem text-[20px] text-left text-neu-white font-primary font-medium leading-normal sm:text-[12px]">
+							<p className="quote-desc-text pl-[124px] empty:hidden laptop-x:pl-[120px] laptop-m:pl-[100px] lg:pl-[80px] md:pl-[55px] sm:pl-5 mt-7 max-w-[1048px] w-full sm:mt-4 empty:hiddem text-[20px] text-left text-neu-white font-primary font-normal leading-normal sm:text-[12px]">
 								{data.projectChallengeQuoteDesc}
 							</p>
 						</div>

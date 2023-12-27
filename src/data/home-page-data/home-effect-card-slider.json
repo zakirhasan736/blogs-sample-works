@@ -11,7 +11,7 @@
 		"alt": "Effect card slider 2",
 		"width": 322,
 		"height": 411,
-		"topic": "Web Design & Visual Identity"
+		"topic": "Web Design & Development"
     },
     {
 		"image": "/images/effect-card-slider-3.png",
@@ -33,5 +33,12 @@
 		"width": 322,
 		"height": 411,
 		"topic": "Social media"
-    }
+    },
+	{
+		"image": "/images/effect-card-slider-3.png",
+		"alt": "Effect card slider 6",
+		"width": 322,
+		"height": 411,
+		"topic": "Visual Media"
+	}
 ]

@@ -72,7 +72,7 @@ const ThoughtDivisionInfoList: React.FC<ThoughtDivisionInfoListProps> = ({
 				<span className="divider-shape h-[1px] w-[61px] bg-neu-white block"></span>
 			</div>
 			<div className="thought-division-info-text-box max-w-[940px] w-full ml-auto mt-[17px] relative z-10">
-				<h4 className="thought-division-subtitle mb-5 thought-division-title text-neu-white text-left text-[34px] sm:text-[23px] sm:leading-none font-primary font-bold tracking-[.8px] leading-[190%]">
+				<h4 className="thought-division-subtitle mb-5 thought-division-title text-neu-white text-left text-[34px] sm:text-[23px] sm:leading-none font-primary font-medium tracking-[.8px] leading-[190%]">
 					{division.thoughtDivisionSubtitle ||
 						"Free-thought at Particular involves pursuing new and often non-conventional ideas"}
 				</h4>
@@ -81,10 +81,10 @@ const ThoughtDivisionInfoList: React.FC<ThoughtDivisionInfoListProps> = ({
 						<div
 							key={index}
 							className="thought-division-details-info-item mb-5">
-							<p className="details-info-text text-text-medium-4 sm:text-[18px] text-left text-neu-white font-primary font-medium leading-normal mb-3">
+							<p className="details-info-text text-text-medium-4 sm:text-[18px] text-left text-neu-white font-primary font-normal leading-normal mb-3">
 								{item.detailsinfo_title || ""}
 							</p>
-							<p className="info-desc text-text-medium-4 sm:text-[17px] text-left text-neu-white font-primary font-medium leading-normal">
+							<p className="info-desc text-text-medium-4 sm:text-[17px] text-left text-neu-white font-primary font-normal leading-normal">
 								{item.detailsinfo_description || ""}
 							</p>
 							{item.infoList && (
@@ -92,7 +92,7 @@ const ThoughtDivisionInfoList: React.FC<ThoughtDivisionInfoListProps> = ({
 									{item.infoList.map((info, idx) => (
 										<li
 											key={idx}
-											className="thought-division-info-text sm:text-[16px] text-text-medium-4 text-left text-neu-white font-primary font-medium leading-normal mb-3 list-disc">
+											className="thought-division-info-text sm:text-[16px] text-text-medium-4 text-left text-neu-white font-primary font-normal leading-normal mb-3 list-disc">
 											{info || ""}
 										</li>
 									))}

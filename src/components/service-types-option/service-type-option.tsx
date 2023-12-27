@@ -36,7 +36,7 @@ const ServiceTypeOption: React.FC<ServiceTypeOptionProps> = ({ data }) => {
 										<h3 className="services-type-item-title text-[34px]  md:text-[26px] text-left text-primary font-primary font-semibold leading-none mb-4 sm:mb-5 sm:text-[20px]">
 											{service.title}
 										</h3>
-										<p className="services-type-item-desc mb-9 sm:mb-5 text-[26px] md:text-[20px] text-left text-primary font-primary font-medium leading-normal sm:text-[13px] max-w-[824px] w-full">
+										<p className="services-type-item-desc mb-9 sm:mb-5 text-[26px] md:text-[20px] text-left text-primary font-primary font-normal leading-normal sm:text-[13px] max-w-[824px] w-full">
 											{service.description}
 										</p>
 									</li>

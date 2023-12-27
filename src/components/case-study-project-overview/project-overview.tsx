@@ -23,14 +23,14 @@ const ProjectOverview: React.FC<ProjectOverviewProps> = ({ data }) => {
 					<h2 className="overview-title empty:hidden text-[60px] laptop-x:text-[54px] md:text-[34px] sm:mb-[23px] sm:text-[23px] text-left text-neu-white font-primary font-semibold leading-[1.1]">
 						{data.projectOverviewTitle || ""}
 					</h2>
-					<p className="overview-desc empty:hidden mt-16 text-[26px] max-w-[1048px] w-full sm:text-[18px] text-left text-neu-white font-primary font-semibold leading-normal">
+					<p className="overview-desc empty:hidden mt-16 text-[26px] max-w-[1048px] w-full sm:text-[18px] text-left text-neu-white font-primary font-medium leading-normal">
 						{data.projectOverviewDesc || ""}
 					</p>
 					<div className="quote-box  mt-16  md:pl-0">
-						<p className="quote-desc-text sm:mt-6 relative max-w-[1048px] w-full pl-[200px] laptop-x:pl-[160px] laptop-m:pl-[100px] lg:pl-[80px] md:pl-[55px] sm:pl-5 empty:hiddem text-[26px] text-left text-neu-white font-primary font-semibold leading-normal sm:text-[13px]">
+						<p className="quote-desc-text sm:mt-6 relative max-w-[1048px] w-full pl-[200px] laptop-x:pl-[160px] laptop-m:pl-[100px] lg:pl-[80px] md:pl-[55px] sm:pl-5 empty:hiddem text-[26px] text-left text-neu-white font-primary font-normal leading-normal sm:text-[13px]">
 							{data.quoteText || ""}
 						</p>
-						<p className="quote-desc-text pl-[200px] sm:pl-5 mt-7 max-w-[1048px] w-full sm:mt-4 empty:hiddem text-[20px] text-left text-neu-white font-primary font-medium leading-normal sm:text-[12px]">
+						<p className="quote-desc-text pl-[200px] sm:pl-5 mt-7 max-w-[1048px] w-full sm:mt-4 empty:hiddem text-[20px] text-left text-neu-white font-primary font-normal leading-normal sm:text-[12px]">
 							{data.quoteDescText || ""}
 						</p>
 					</div>

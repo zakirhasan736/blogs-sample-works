@@ -4,7 +4,7 @@ import TypingAnimation from "../wordtypinganimation";
 
 const GoogleInsightBrandBox = () => {
   return (
-		<div className="google-insight-brand-box-section pt-[98px] pb-[100px] sm:py-10 bg-[#232323]">
+		<div className="google-insight-brand-box-section pt-[60px] pb-[60px] sm:py-10 bg-black">
 			<div className="custom-container">
 				<div className="google-insight-brand-box-wrapper text-center flex items-center justify-center flex-col">
 					<Image

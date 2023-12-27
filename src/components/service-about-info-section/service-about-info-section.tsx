@@ -35,7 +35,7 @@ const ServiceAboutInfoSection: React.FC<ServiceAboutInfoProps> = ({data}) => {
 						</div>
 						<div className="col-span-8 md:col-span-9 sm:col-span-full">
 							<div className="services-about-inf-text-cont pt-[58px] laptop-x:pt-0 h-[731px] laptop-x:h-auto sm:h-auto sm:pt-0 relative z-50">
-								<p className="services-about-info-desc mb-[15px] text-[26px] laptop-x:text-[26px] md:text-[20px] text-left text-primary font-primary font-semibold leading-normal sm:text-[13px]">
+								<p className="services-about-info-desc mb-[15px] text-[26px] laptop-x:text-[26px] md:text-[20px] text-left text-primary font-primary font-normal leading-normal sm:text-[13px]">
 									{data.ServiceSecDesc1}
 								</p>
 								<p className="services-about-info-desc text-[26px] laptop-x:text-[26px] md:text-[18px] text-left text-primary font-primary font-normal leading-normal sm:text-[13px]">

@@ -45,7 +45,7 @@ const ServicesCaseStudy: React.FC<ServicesCaseStudyProps> = ({ data }) => {
 											<h3 className="featured-case-study-title text-[42px] md:text-[38px] sm:text-[32px] text-left text-primary font-primary font-bold leading-none">
 												{CaseStudyservice.title}
 											</h3>
-											<p className="case-study-desc max-w-[929px] text-[26px] text-left text-primary font-primary font-medium leading-normal sm:text-[13px]">
+											<p className="case-study-desc max-w-[929px] text-[26px] text-left text-primary font-primary font-normal leading-normal sm:text-[13px]">
 												{CaseStudyservice.description}
 											</p>
 										</div>

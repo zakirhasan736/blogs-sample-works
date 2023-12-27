@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/effect-cards";
-import { EffectCards, Pagination } from "swiper/modules";
+import { Autoplay, EffectCards, Pagination } from "swiper/modules";
 import { Image } from "@packages/packages";
 import slidesData from "@/data/home-page-data/home-effect-card-slider.json"
 
@@ -21,8 +21,11 @@ const EffectCardSlider = () => {
 				effect={"cards"}
 				grabCursor={true}
 				pagination={false}
-			
-				modules={[EffectCards, Pagination]}
+				autoplay={{
+					delay: 2500,
+					disableOnInteraction: false,
+				}}
+				modules={[Autoplay, EffectCards, Pagination]}
 				className="EffectsCardSlider-mySwiper"
 				onSwiper={swiper => {
 					swiper.on("slideChange", () => {

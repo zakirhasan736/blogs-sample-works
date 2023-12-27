@@ -27,8 +27,8 @@ const navItems: NavItem[] = [
 		name: "Our Approach",
 	},
 	{
-		path: "/features",
-		name: "Features",
+		path: "/contacts",
+		name: "Work With Us",
 	},
 ];
 

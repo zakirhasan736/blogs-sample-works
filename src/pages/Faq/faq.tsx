@@ -83,17 +83,7 @@ const Faq = () => {
 				<div className="section-titlebox faq-main-content-wrap-box lg:mb-15 sm:mb-5 relative top-4 sm:top-[0]">
 					<div className="scrolable-text-box how-it-work-title">
 						<div className="scroll-text-item">
-							<h2 className="section-scrrolltext-title scrolling-text text-center text-modal-heading-4 laptop-x:text-[150px] lg:text-[120px] md:text-[94px] sm:text-[76px] whitespace-nowrap font-primary font-bold leading-[175%] tracking-[3.6px] uppercase">
-								• we are particular • we are particular • we are particular • we
-								are particular
-							</h2>
-						</div>
-					</div>
-				</div>
-				<div className="section-titlebox faq-main-content-wrap-box lg:mb-15 sm:mb-5 relative top-4 sm:top-[0]">
-					<div className="scrolable-text-box how-it-work-title">
-						<div className="scroll-text-item">
-							<h2 className="section-scrrolltext-title scrolling-text text-center text-modal-heading-4 laptop-x:text-[150px] lg:text-[120px] md:text-[94px] sm:text-[76px] whitespace-nowrap font-primary font-bold leading-[175%] tracking-[3.6px] uppercase">
+							<h2 className="section-scrrolltext-title scrolling-text text-center text-modal-heading-4 laptop-x:text-[150px] lg:text-[120px] md:text-[94px] sm:text-[76px] whitespace-nowrap font-primary font-bold leading-[1.2] tracking-[3.6px] uppercase">
 								• we are particular • we are particular • we are particular • we
 								are particular
 							</h2>

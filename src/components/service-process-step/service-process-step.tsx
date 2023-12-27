@@ -52,10 +52,10 @@ const ServicesProcessStepsSection: React.FC<ServicesProcessStepsProps> = ({
 											{data.ProcessStepFeatureNumber}
 										</span>
 									</h3>
-									<h5 className="service-process-subtitle uppercase text-[20px] sm:text-[13px] text-left text-primary font-primary font-medium leading-normal mb-5">
+									<h5 className="service-process-subtitle uppercase text-[20px] sm:text-[13px] text-left text-primary font-primary font-normal leading-normal mb-5">
 										{data.ProcessStepFeatureSubTitle}
 									</h5>
-									<p className="service-process-desc max-w-[600px] w-full text-[20px] sm:text-[13px] text-left text-primary font-primary font-medium leading-normal">
+									<p className="service-process-desc max-w-[600px] w-full text-[20px] sm:text-[13px] text-left text-primary font-primary font-normal leading-normal">
 										{data.ProcessStepFeaturedDesc}
 									</p>
 								</div>
@@ -82,10 +82,10 @@ const ServicesProcessStepsSection: React.FC<ServicesProcessStepsProps> = ({
 												{ServicesProcess.ProcessStepNumber}
 											</span>
 										</h3>
-										<h5 className="service-process-subtitle uppercase text-[20px] sm:text-[13px] text-left text-primary font-primary font-medium leading-normal mb-5">
+										<h5 className="service-process-subtitle uppercase text-[20px] sm:text-[13px] text-left text-primary font-primary font-normal leading-normal mb-5">
 											{ServicesProcess.ProcessStepSubTitle}
 										</h5>
-										<p className="service-process-desc max-w-[600px] w-full text-[20px] sm:text-[13px] text-left text-primary font-primary font-medium leading-normal">
+										<p className="service-process-desc max-w-[600px] w-full text-[20px] sm:text-[13px] text-left text-primary font-primary font-normal leading-normal">
 											{ServicesProcess.ServicesStepsDescription &&
 												ServicesProcess.ServicesStepsDescription.split(
 													"\n",

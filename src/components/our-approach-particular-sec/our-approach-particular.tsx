@@ -11,7 +11,7 @@ const OurApproachParticulasSection: React.FC = () => {
 		<section className="our-approach-particulas-section pt-[193px] md:pt-[65px] sm:pt-10">
 			<div className="custom-container max-w-[1430px]">
 				<SectionTitleBoxTwo {...titleData} />
-				<div className="our-approach-content-main-wrapper-box md:px-0">
+				<div className="our-approach-content-main-wrapper-box md:px-0 pt-[160px]">
 					<OurApproachTabs data={tabsData} />
 				</div>
 			</div>

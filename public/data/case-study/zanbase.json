@@ -6,14 +6,14 @@
         "BannerTitle": "Zanbase",
         "BannerDesc": "Building an intentionally inclusive UX/UI solution to bolster Zenbase’s delivery of a financial health solutions to renters and property managers."
     },
-    "ProjectOverviewData":{
-            "projectOverviewSubtitle": "Project Overview",
-            "projectOverviewTitle": "Elevating Zenbase with Intuitive UX/UI Design and Compelling Brand Assets",
-            "projectOverviewDesc": "Our collaboration with Spark Presents: AI & Humanity demonstrated the transformative power of a compelling visual identity and thoughtfully crafted marketing assets. By sparking curiosity and conversation, we successfully propelled the campaign into the forefront of discussions on A.I and its impact on humanity, fostering meaningful dialogue and exploration of the future.",
-            "quoteText": "The UI design embraced a minimalist approach, featuring soft colour palettes, clean typography, and unobtrusive icons. The navigation was streamlined to provide an effortless journey through the app's automated financial health fixes.",
-            "quoteDescText": "Our challenge was clear: create a compelling visual identity for the campaign and produce marketing assets that would simultaneously cultivate imagination.",
-            "overviewPortfolioTitle": "Web Design",
-            "overviewPortfolioImage": "/images/project-overview-image.jpg"
+    "ProjectOverviewData": {
+        "projectOverviewSubtitle": "Project Overview",
+        "projectOverviewTitle": "Elevating Zenbase with Intuitive UX/UI Design and Compelling Brand Assets",
+        "projectOverviewDesc": "Our collaboration with Spark Presents: AI & Humanity demonstrated the transformative power of a compelling visual identity and thoughtfully crafted marketing assets. By sparking curiosity and conversation, we successfully propelled the campaign into the forefront of discussions on A.I and its impact on humanity, fostering meaningful dialogue and exploration of the future.",
+        "quoteText": "The UI design embraced a minimalist approach, featuring soft colour palettes, clean typography, and unobtrusive icons. The navigation was streamlined to provide an effortless journey through the app's automated financial health fixes.",
+        "quoteDescText": "Our challenge was clear: create a compelling visual identity for the campaign and produce marketing assets that would simultaneously cultivate imagination.",
+        "overviewPortfolioTitle": "Web Design",
+        "overviewPortfolioImage": "/images/project-overview-image.jpg"
     },
     "ProjectChallengeData": {
         "projectChallengeModalTitle": "The Challenge",
@@ -25,7 +25,7 @@
         "projectChallengeAssetsTitle2": "Brand Assets",
         "projectChallengeAssetsImage2": "/images/project-change-image-2.jpg"
     },
-    "ProjectMethodeData":{
+    "ProjectMethodeData": {
         "sectionModelTitle": "THE METHOD",
         "sectionTitle": "The Particular Method",
         "methodDescriptions": [
@@ -56,20 +56,26 @@
         ],
         "resultSecBgClass": "bg-varient-color-1"
     },
-    "featuredPostData":{
+    "featuredPostData": {
         "featuredSecTitle": "Featured Case Studies",
         "posts": [
             {
                 "image": "/images/featured-case-study-img-1.png",
-                "link": "/articles/articles-one"
+                "title": "Hult Ib School",
+                "subtitle": "web design and Brand Assets",
+                "link": "/case-study/hult-ib-school"
             },
             {
                 "image": "/images/featured-case-study-img-2.png",
-                "link": "/articles/articles-one"
+                "title": "ZENBASE",
+                "subtitle": "web design and Brand Assets",
+                "link": "/case-study/zanbase"
             },
             {
                 "image": "/images/featured-case-study-img-3.png",
-                "link": "/articles/articles-one"
+                "title": "KNIGHT’S ACADEMY",
+                "subtitle": "web design and Brand Assets",
+                "link": "/case-study/knights-academy"
             }
         ]
     }

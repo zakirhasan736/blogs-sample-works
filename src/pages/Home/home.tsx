@@ -13,7 +13,6 @@ import SliderItemsData from "@data/home-page-data/home-case-study-slider.json";
 
 const Home = () => {
 
-
 	const testimonialsSliderData = [
 		{
 			title: "Anantara",

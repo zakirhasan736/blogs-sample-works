@@ -73,7 +73,7 @@ const ProjectMethode: React.FC<ProjectMethodProps> = ({ data }) => {
 							{data.methodDescriptions.map((desc, index) => (
 								<p
 									key={index}
-									className="project-methodes-desc text-[26px]  md:text-[20px] sm:text-[13px] text-left text-neu-white font-primary font-semibold leading-normal mb-6">
+									className="project-methodes-desc text-[26px]  md:text-[20px] sm:text-[13px] text-left text-neu-white font-primary font-medium leading-normal mb-6">
 									{desc}
 								</p>
 							))}

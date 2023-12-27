@@ -42,7 +42,7 @@ const ServicePageBanner: React.FC<ServicePageBannerProps> = ({ slides }) => {
 										<div className="banner-services-slide-item">
 											<h1
 												data-swiper-parallax="-500"
-												className="service-banner-title text-[70px] laptop-x:text-[67px] laptop-m:text-[60px] md:text-[65px] sm:text-[55px] xxs:text-[42px] text-left text-neu-white font-primary font-bold leading-none tracking-[3.8px]">
+												className="service-banner-title text-[70px] laptop-x:text-[67px] laptop-m:text-[60px] md:text-[65px] sm:text-[55px] xxs:text-[42px] text-left text-neu-white font-primary font-medium leading-none tracking-[3.8px]">
 												{slide.title}
 											</h1>
 											<h5

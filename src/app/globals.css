@@ -497,7 +497,7 @@ li.navbar-nav-items .megamenu-wrapper-content:before {
 .services-slider-swiper .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     background: #D9D9D9;
 }
-
+.gallery-slider-model-text,
 .swiper-slide.swiper-slide-visible.swiper-slide-thumb-active .services-slide-card-items .slider-model-text,
 .swiper-slide-visible.swiper-slide-fully-visible.swiper-slide-thumb-active .services-slide-card-items .slider-model-text {
     font-family: Urbanist;
@@ -513,10 +513,29 @@ li.navbar-nav-items .megamenu-wrapper-content:before {
     color: transparent;
     -webkit-text-fill-color: none;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgba(123, 123, 123, 0.13);
+    -webkit-text-stroke-color: #363636;
     transition: all 450ms ease 0s;
+    z-index: -1;
 }
-
+section.particular-modal-section .scroll-text-item h2.section-scrrolltext-title {
+    -webkit-text-fill-color: none;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #7B7B7B21;
+}
+li.sticky-navbar-nav-items a{
+  transition: all 250ms ease 0s;
+  -webkit-transition: all 250ms ease 0s;
+  -moz-transition: all 250ms ease 0s;
+  -ms-transition: all 250ms ease 0s;
+  -o-transition: all 250ms ease 0s;
+}
+li.sticky-navbar-nav-items a:hover {
+  transition: all 250ms ease 0s;
+  -webkit-transition: all 250ms ease 0s;
+  -moz-transition: all 250ms ease 0s;
+  -ms-transition: all 250ms ease 0s;
+  -o-transition: all 250ms ease 0s;
+}
 .swiper-slide.swiper-slide-thumb-active.swiper-slide-visible .services-slide-card-items {
     padding-left: 100px;
     transition: all 450ms ease 0s;
@@ -921,10 +940,12 @@ code, pre {
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
 }
+.featured-case-study-card-item .case-study-cont-text,
   .case-study-card-item .case-study-cont-text{
     opacity: 0;
     visibility: hidden;
   }
+  .featured-case-study-card-item:hover .case-study-cont-text,
   .case-study-card-item:hover .case-study-cont-text{
     transition: all 450ms ease 0s;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
