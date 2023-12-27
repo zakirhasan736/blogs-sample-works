@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css'
+
 import { Urbanist, Inter } from 'next/font/google';
 import { Footer, Navbar } from '@/components';
 import StickyNavbar from '@/components/navbar/sticky-navbar';
@@ -28,6 +29,7 @@ export default function RootLayout({
 }) {
   return (
 		<html lang="en" className={`${inter.variable} ${urbanist.variable}`}>
+
 			<body className="pca-marketing-page-body md:border-0">
 				<Navbar />
 				<StickyNavbar />

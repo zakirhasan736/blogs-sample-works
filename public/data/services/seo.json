@@ -16,27 +16,27 @@
     "FaqPageAccodionData": [
         {
             "id": 1,
-            "question": "What is Lorem Ipsum ?",
+            "question": "What’s the difference between Local, National and International SEO?",
             "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
         },
         {
             "id": 2,
-            "question": "Why do we use it?",
+            "question": "What is SEO? How can it help my website and business?",
             "answer": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
         },
         {
             "id": 3,
-            "question": "Where does it come from?",
+            "question": "Do I have to pay for SEO forever?",
             "answer": "Contrary to popular belief, Lorem Ipsum is not simply random text."
         },
         {
             "id": 4,
-            "question": "Is it safe to use Lorem Ipsum?",
+            "question": "SEO doesn’t give results straight away? How long does it take for SEO to work?",
             "answer": "Yes, it is safe to use Lorem Ipsum. It has been the industry's standard dummy text ever since the 1500s."
         },
         {
             "id": 5,
-            "question": "What is the purpose of Lorem Ipsum?",
+            "question": "Are SEO Services included in the web design package?",
             "answer": "The purpose of Lorem Ipsum is to create a natural-looking block of text that doesn't distract from the layout."
         }
     ],

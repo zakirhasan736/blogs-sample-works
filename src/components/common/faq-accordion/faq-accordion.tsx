@@ -33,7 +33,7 @@ const FaqAccordion: React.FC<FaqAccordionProps> = ({ faqs }) => {
 							openIndex === index ? "mb-[18px]" : ""
 						}`}>
 						<h4
-							className="acordion-title text-neu-black text-left sm:text-[18px] text-[26px] font-primary font-normal leading-[18px] tracking-[3.045px] capitalize"
+							className="acordion-title text-neu-black text-left sm:text-[18px] text-[21px] font-primary font-normal leading-[1.1] tracking-[3.045px] capitalize"
 							onClick={() => toggleAccordion(index)}>
 							{faq.question}
 						</h4>

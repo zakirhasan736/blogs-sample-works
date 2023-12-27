@@ -25,7 +25,8 @@ const Navbar = () => {
 			return "bg-[#000]";
 		} else if (
 			pathname.includes("/our-approach/") ||
-			pathname.includes("/articles/")
+			pathname.includes("/articles/") ||
+			pathname.includes("/colour-craft") 
 		) {
 			return "bg-[#000]";
 		} else if (pathname.includes("/services/")) {
@@ -157,7 +158,7 @@ const Navbar = () => {
 							</li>
 						</ul>
 					</nav>
-					<Link className="w-full max-w-[159px]" href="/contacts">
+					<Link className="w-full max-w-[159px] md:hidden" href="/contacts">
 						<Button
 							btnText="0208 068 2102"
 							btnVariant="pca-secondary-button text-[16px] laptop-m:text-[16px] md:hidden border-4 border-secondary"

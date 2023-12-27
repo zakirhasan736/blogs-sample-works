@@ -6,7 +6,7 @@ interface FooterProps {}
 
 const Footer: React.FC<FooterProps> = () => {
   return (
-		<footer className="footer-section bg-[#D9D9D9]">
+		<footer className="footer-section bg-[#D9D9D9] w-full">
 			<div className="custom-container relative">
 				<BackToTop />
 				<div className="footer-wrapper grid grid-cols-16 gap-5 pt-[57px] pb-[54px] sm:pt-[45px] sm:pb-[45px] sm:block max-w-[1330px] mx-auto">

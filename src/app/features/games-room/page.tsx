@@ -1,6 +1,6 @@
 import React from 'react'
 
-const GamesRoompage = () => {
+const GamesRoomEnterpage = () => {
   return (
 		<div className="featured-banner-section h-[950px] laptop-x:h-[550px] lg:h-[550px]">
 			<div className="custom-container h-full">
@@ -17,4 +17,4 @@ const GamesRoompage = () => {
 	);
 }
 
-export default GamesRoompage
+export default GamesRoomEnterpage

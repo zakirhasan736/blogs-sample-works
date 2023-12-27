@@ -28,7 +28,7 @@ const navItems: NavItem[] = [
 	},
 	{
 		path: "/contacts",
-		name: "Work With Us",
+		name: "Contact Us",
 	},
 ];
 
@@ -64,6 +64,16 @@ const StickyNavbar: React.FC = () => {
 			setHoveredPath(null);
 		}, 150);
 	};
+
+	// Add the list of paths where you want to hide the sticky navbar
+	const pathsToHideStickyNavbar = ["/features/colour-craft", "/features/colour-craft/"];
+
+	// Check if the current pathname matches any of the paths where you want to hide the sticky navbar
+	const hideStickyNavbar = pathsToHideStickyNavbar.includes(pathname);
+
+	if (hideStickyNavbar) {
+		return null; // Don't render the sticky navbar for these paths
+	}
 
 	return (
 		<div

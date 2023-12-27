@@ -14,7 +14,7 @@ const ServicesFaq: React.FC<ServicesFaqProps> = ({
 			<div className="custom-container">
 				<div className="services-faq-section-wraper px-20 pt-[100px] pb-[100px] md:px-0 max-w-[1430px] mx-auto">
 					<div className="service-section-title-box mb-[60px] md:mb-[45px]  sm:mb-[30px] text-center">
-						<h2 className="service-sec-title text-[65px] md:text-[34px] text-center text-primary font-bold font-primary leading-none capitalize sm:text-[34px] sm:tracking-[1.02px]">
+						<h2 className="service-sec-title text-[65px] md:text-[34px] text-center text-primary font-bold font-primary leading-[1.1] capitalize sm:text-[34px] sm:tracking-[1.02px]">
 							{servicesFaqSecTitle}
 						</h2>
 					</div>
