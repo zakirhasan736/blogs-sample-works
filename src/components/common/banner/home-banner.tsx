@@ -1,31 +1,82 @@
+"use client";
+import React, {  useRef,  useLayoutEffect } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+
 import Button from "@/components/elements/button/button";
-import { ArrowDownModalIcons } from "@/icons"
-import {Image} from "@packages/packages"
-import React from "react";
+import { ArrowDownModalIcons } from "@/icons";
+import { Image } from "@packages/packages";
 import CustomCursor from "../CustomCursor";
 interface HomeBannerProps {}
 
 const HomeBanner: React.FC<HomeBannerProps> = () => {
-  return (
+	const bannerRef = useRef<HTMLDivElement | null>(null);
+	gsap.registerPlugin(ScrollTrigger);
+
+	useLayoutEffect(() => {
+		const homeBannerAnim = gsap.context(() => {
+			// banner scroll scale bg
+			const imgSclTest = gsap.utils.toArray(".main-test-modal-bg");
+			let viewPort = gsap.matchMedia();
+			if (imgSclTest.length) {
+					// animated title
+					const textAnim = gsap.utils.toArray(
+						".banner_title_animation > span > span",
+					);
+					gsap.fromTo(
+						textAnim,
+						{
+							translateY: "0%",
+							opacity: 1,
+						},
+						{
+							translateY: "200%",
+							ease: "power2",
+							force3D: true,
+							duration: 3,
+							scrollTrigger: {
+								trigger: ".main-visual-section",
+								start: "top +=10px",
+								end: "bottom top-=200px",
+								scrub: 0.9,
+								markers: true,
+							},
+						},
+					);
+			}
+		}, bannerRef);
+		return () => {
+			homeBannerAnim.revert();
+		};
+	}, []);
+	return (
 		<>
 			<div className="cursor-cover relative">
 				<CustomCursor />
-				<section className="home-banner-section pt-[49px] lg:pt-[80px] md:pt-[60px] pb-0 sm:pb-0 sm:pt-0 sm:h-[434px] sm:relative h-[787px] lg:h-[685px] md:h-[586px]">
+				<section
+					ref={bannerRef}
+					className="home-banner-section   pt-[60px] lg:pt-[80px] md:pt-[60px] pb-0 sm:pb-0 sm:pt-0 sm:h-[434px] sm:relative h-[787px] lg:h-[685px] md:h-[586px]">
 					<div className="custom-container sm:h-full">
-						<div className="banner-content-main-wrapper max-w-[1230px] mx-auto  relative grid grid-cols-16 gap-5 w-full sm:flex sm:flex-col sm:justify-end sm:h-full">
+						<div className="banner-content-main-wrapper main-visual-section max-w-[1230px] mx-auto  relative grid grid-cols-16 gap-5 w-full sm:flex sm:flex-col sm:justify-end sm:h-full">
 							<div className="banner-content-text-box pb-12 col-span-full pt-[23px] md:pt-0">
-								<h1 className="banner-title font-primary font-medium relative z-50 text-[80px] laptop-x:text-[70px] laptop-m:text-[70px] md:text-[57px] flex flex-col text-left text-primary leading-[1.1] laptop-m:leading-[1]  capitalize tracking-[-2.38px] sm:text-[53px] sm:font-normal sm:leading-none sm:tracking-[-.38px]">
-									<span className="color-text relative left-0 sm:left-[5px]">
-										Particular
+								<h1 className="banner-title banner_title_animation font-primary font-medium relative z-50 text-[140px] laptop-x:text-[70px] laptop-m:text-[70px] md:text-[57px] flex flex-col text-left text-primary leading-[.9] laptop-m:leading-[1]  uppercase tracking-[-2.38px] sm:text-[53px] sm:font-normal sm:leading-none sm:tracking-[-.38px]">
+									<span className="overflow-hidden w-full h-full block">
+										<span className="block color-text relative left-0 sm:left-[5px]">
+											Particular
+										</span>
 									</span>
-									<span className="block relative left-[150px] lg:left-[130px] sm:left-[43px]">
-										marketing
+									<span className="overflow-hidden w-full h-full block">
+										<span className="block relative left-[220px] lg:left-[130px] sm:left-[43px]">
+											marketing
+										</span>
 									</span>
-									<span className="block relative left-[110px] lg:left-[100px] md:left-[80px] sm:left-[11px]">
-										Agency
+									<span className="overflow-hidden w-full h-full block">
+										<span className="block relative left-[110px] lg:left-[100px] md:left-[80px] sm:left-[11px]">
+											Agency
+										</span>
 									</span>
 								</h1>
-								<div className="banner-text-bottom-cont relative left-0   sm:left-[11px] z-50">
+								<div className="banner-text-bottom-cont relative left-0 mt-20  sm:left-[11px] z-50">
 									<h3 className="banner-subtitle sm:hidden mt-[46px] text-[24px] text-left text-primary font-normal font-primary leading-none">
 										welcome to <span className="color-text">particular</span>
 									</h3>
@@ -34,7 +85,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
 										btnVariant="primary-button banner-button sm:hidden mt-10 cursor-scale grow-small"
 									/>
 								</div>
-								<div className="banner-modal-video-box absolute top-0 right-[60px] sm:left-0  sm:right-0 z-20 sm:h-full sm:object-cover">
+								<div className="banner-modal-video-box main-test-modal-bg absolute top-0 right-[60px] sm:left-0  sm:right-0 z-20 sm:h-full sm:object-cover">
 									<Image
 										src="/images/banner-video-poster.jpg"
 										width={735}
@@ -66,5 +117,5 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
 			</div>
 		</>
 	);
-}
+};
 export default HomeBanner;
