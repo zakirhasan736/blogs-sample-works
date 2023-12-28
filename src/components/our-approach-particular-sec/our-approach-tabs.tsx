@@ -34,9 +34,9 @@ const OurApproachTabs: React.FC<{ data: TabData[] }> = ({ data }) => {
         if (isActiveTab) {
           translateXValue = 0; // Current tab
         } else if (i < allTabs.length - 1 && allTabs[i + 1].id.includes(linkId)) {
-          translateXValue = -100; // Next tab
+          translateXValue = 100; // Next tab
         } else {
-          translateXValue = 100; // Previous tab
+          translateXValue = -100; // Previous tab
         }
 
         tab.style.transform = `translateX(${translateXValue}%)`;
