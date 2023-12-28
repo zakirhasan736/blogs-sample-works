@@ -1,8 +1,8 @@
 "use client";
+import React, { useEffect, useState } from "react";
 import { Link } from "@packages/packages";
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
-import React, { useEffect, useState } from "react";
 
 interface NavItem {
 	path: string;
@@ -65,15 +65,18 @@ const StickyNavbar: React.FC = () => {
 		}, 150);
 	};
 
-	// Add the list of paths where you want to hide the sticky navbar
-	const pathsToHideStickyNavbar = ["/features/colour-craft", "/features/colour-craft/"];
+	const isPathIncluded = (path: string, includedPath: string) =>
+		path.startsWith(includedPath);
 
-	// Check if the current pathname matches any of the paths where you want to hide the sticky navbar
-	const hideStickyNavbar = pathsToHideStickyNavbar.includes(pathname);
+	 const isActiveServices =
+			pathname === "/services" || isPathIncluded(pathname, "/services/");
 
-	if (hideStickyNavbar) {
-		return null; // Don't render the sticky navbar for these paths
-	}
+const isActiveApproach =
+	pathname === "/our-approach" || isPathIncluded(pathname, "/our-approach/");
+
+		const isActiveCaseStudies =
+			pathname === "/case-study" || isPathIncluded(pathname, "/case-study/");
+
 
 	return (
 		<div
@@ -82,7 +85,12 @@ const StickyNavbar: React.FC = () => {
 			}`}>
 			<ul className="sticky-nav-item fixed w-full bottom-10 left-0 right-0 z-[9999] bg-neu-white mx-auto px-2 py-[5px] rounded-full max-w-[550px] h-[51px] flex items-center justify-between">
 				{navItems.map(item => {
-					const isActive = item.path === pathname;
+					const isActive =
+						item.path === pathname ||
+						(item.path === "/case-study" && isActiveCaseStudies) ||
+						(item.path === "/our-approach" && isActiveApproach) ||
+						(item.path === "/services" && isActiveServices);
+
 					return (
 						<li key={item.path} className="sticky-navbar-nav-items relative">
 							<Link
