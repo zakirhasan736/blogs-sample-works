@@ -55,7 +55,7 @@ const ProjectMethode: React.FC<ProjectMethodProps> = ({ data }) => {
 	return (
 		<div
 			ref={exploreTwoRef}
-			className="case-study-project-methode-section main-visual-sectionTwo pb-[200px] sm:pb-[70px] overflow-hidden">
+			className="case-study-project-methode-section main-visual-sectionTwo pb-[120px] sm:pb-[70px] overflow-hidden">
 			<div className="custom-container">
 				<div className="case-study-project-methode-wrap max-w-[1430px] mx-auto">
 					<div className="section-title-box">

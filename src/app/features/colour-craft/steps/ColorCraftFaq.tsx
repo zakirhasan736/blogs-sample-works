@@ -27,12 +27,12 @@ const ColorCraftFaq = () => {
 							className="faq-icon">
 							<path
 								d="M11.5 0L11.5 23"
-								stroke="var(--accent)"
+								stroke="var(--secondary)"
 								stroke-width="6"
 							/>
 							<path
 								d="M23 11.5L-2.38419e-07 11.5"
-								stroke="var(--accent)"
+								stroke="var(--secondary)"
 								stroke-width="6"
 							/>
 						</svg>

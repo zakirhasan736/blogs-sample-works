@@ -60,15 +60,21 @@
         "posts": [
             {
                 "image": "/images/featured-case-study-img-1.png",
-                "link": "/articles/articles-one"
+                "title": "Hult Ib School",
+                "subtitle": "web design and Brand Assets",
+                "link": "/case-study/hult-ib-school"
             },
             {
                 "image": "/images/featured-case-study-img-2.png",
-                "link": "/articles/articles-one"
+                "title": "ZENBASE",
+                "subtitle": "web design and Brand Assets",
+                "link": "/case-study/zanbase"
             },
             {
                 "image": "/images/featured-case-study-img-3.png",
-                "link": "/articles/articles-one"
+                "title": "KNIGHT’S ACADEMY",
+                "subtitle": "web design and Brand Assets",
+                "link": "/case-study/knights-academy"
             }
         ]
     }
