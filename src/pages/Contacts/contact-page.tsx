@@ -151,13 +151,16 @@ const ContactPage = () => {
 
     if (Object.keys(errors).length === 0) {
       try {
-        const response = await fetch("http://localhost:3000/api/mail-send", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(data),
-        });
+        const response = await fetch(
+					"https://blogs-sample-works.vercel.app/api/mail-send",
+					{
+						method: "POST",
+						headers: {
+							"Content-Type": "application/json",
+						},
+						body: JSON.stringify(data),
+					},
+				);
 
         if (!response.ok) {
           throw new Error("Network response was not ok");
