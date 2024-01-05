@@ -3,7 +3,6 @@ import { Image, Link } from "@packages/packages";
 import React, { useRef, useLayoutEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import Button from "../elements/button/button";
 
 gsap.registerPlugin(ScrollTrigger);
 interface ProjectMethodProps {
@@ -11,7 +10,6 @@ interface ProjectMethodProps {
 		sectionModelTitle: string;
 		sectionTitle: string;
 		methodDescriptions: string[];
-		buttonText: string;
 		callImage: string;
 	};
 }
@@ -77,10 +75,7 @@ const ProjectMethode: React.FC<ProjectMethodProps> = ({ data }) => {
 									{desc}
 								</p>
 							))}
-							<Button
-								btnText={data.buttonText}
-								btnVariant="primary-button study-banner-button mt-[70px] sm:mt-8"
-							/>
+
 						</div>
 						<div className="sm:col-span-full col-span-4 project-methodes-right-cont text-left sm:text-right">
 							<Link href="/contacts">
