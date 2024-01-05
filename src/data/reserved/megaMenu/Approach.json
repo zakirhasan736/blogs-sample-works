@@ -1,0 +1,25 @@
+{
+    "ApproachMenuItems": [
+        {
+            "title": "Free Thought",
+            "path": "/our-approach/free-thought"
+        },
+        {
+            "title": "Attention To Detail",
+            "path": "/our-approach/attention-to-detail"
+        },
+        {
+            "title": "Pioneering",
+            "path": "/our-approach/pioneering"
+        }
+      
+    ],
+    "ApproachFooterItems": [
+        {
+            "title": "",
+            "path": ""
+        }
+    ],
+    "ApproachMegaMenuClass": "approach-mega-menu"
+
+}

@@ -16,23 +16,28 @@
     "FaqPageAccodionData": [
         {
             "id": 1,
-            "question": "Which social media platforms should my business be on?",
-            "answer": "The choice of platforms depends on your target audience and business goals. Common platforms include Facebook, Instagram, Twitter, LinkedIn, Pinterest, and TikTok. We can help you identify the most suitable platforms."
+            "question": "What is Lorem Ipsum ?",
+            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
         },
         {
             "id": 2,
-            "question": "Can you help with paid social media advertising campaigns?",
-            "answer": "Yes, we can manage and optimize paid advertising campaigns on social media platforms to reach a wider audience and achieve specific marketing objectives."
+            "question": "Why do we use it?",
+            "answer": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
         },
         {
             "id": 3,
-            "question": "How do you engage with our audience and respond to comments and messages?",
-            "answer": "We actively monitor your social media accounts, respond to comments, messages, and inquiries promptly, and engage with your audience to build a community and foster positive relationships."
+            "question": "Where does it come from?",
+            "answer": "Contrary to popular belief, Lorem Ipsum is not simply random text."
         },
         {
             "id": 4,
-            "question": "What are the costs associated with your Social Media Management service?",
-            "answer": "Pricing varies based on your specific needs, including the number of platforms managed, content creation, ad spend, and other factors. We can provide a customized quote based on your requirements."
+            "question": "Is it safe to use Lorem Ipsum?",
+            "answer": "Yes, it is safe to use Lorem Ipsum. It has been the industry's standard dummy text ever since the 1500s."
+        },
+        {
+            "id": 5,
+            "question": "What is the purpose of Lorem Ipsum?",
+            "answer": "The purpose of Lorem Ipsum is to create a natural-looking block of text that doesn't distract from the layout."
         }
     ],
     "servicesFaqSecTitle": "FAQS",

@@ -7,9 +7,11 @@
         "BannerDesc": "Crafting a web design and Paid Ads solution to help deliver on Hult Business School’s ongoing desire for increased student enrolment."
     },
     "ProjectOverviewData":{
-            "projectOverviewSubtitle": "Project Overview ",
+            "projectOverviewSubtitle": "Project Overview Subtitle",
             "projectOverviewTitle": "Elevating Hult International Business School's Online Presence and Student Enrolment through Web Design and Google Ads",
+            "projectOverviewDesc": "Description of the project overview goes here.",
             "quoteText": "Collaborating closely with Hult's marketing team, we devised a fresh visual identity, complete with a modern logo, an updated color palette, and typography choices that reflected the institution's global outlook.",
+            "quoteDescText": "Our challenge was clear: create a compelling visual identity for the campaign and produce marketing assets that would simultaneously cultivate imagination.",
             "overviewPortfolioTitle": "Web Design",
             "overviewPortfolioImage": "/images/case-study-modal-image-3.jpg"
     },
@@ -17,11 +19,10 @@
         "projectChallengeModalTitle": "The Challenge",
         "projectChallengeTitle": "The Challenge",
         "projectChallengeQuoteText": "At the time of our intervention, Hult International Business School had been facing challenges with its existing website and online marketing strategies.",
-        "projectChallengeQuoteDesc": "Specifically, the website lacked a user-friendly interface, failed to effectively communicate their institution's value, and was failing perform to its own high standards in attracting the best prospective students. Additionally, their Google Ads campaign was not delivering the desired results in terms of click-through rates and conversions. ",
-        "projectChallengeQuoteDesc2": "Our challenge was clear: create a compelling visual identity for the campaign and produce marketing assets that would simultaneously cultivate imagination.",
-        "projectChallengeAssetsTitle1": "Paid Socials",
+        "projectChallengeQuoteDesc": "Specifically, the website lacked a user-friendly interface, failed to effectively communicate their institution's value, and was failing perform to its own high standards in attracting the best prospective students. Additionally, their Google Ads campaign was not delivering the desired results in terms of click-through rates and conversions. Our challenge was clear: revamp the website to provide an engaging user experience while simultaneously optimizing the Google Ads campaign to boost student enrollment.",
+        "projectChallengeAssetsTitle1": "Google Ads",
         "projectChallengeAssetsImage1": "/images/case-study-3-brand-assets-1.jpg",
-        "projectChallengeAssetsTitle2": "Web Design",
+        "projectChallengeAssetsTitle2": "Paid Socials",
         "projectChallengeAssetsImage2": "/images/case-study-3-brand-assets-2.jpg"
     },
     "ProjectMethodeData":{
@@ -32,7 +33,7 @@
             "To improve the user experience, we crafted wireframes and mock-ups for the new website, ensuring that the design was mobile-responsive, intuitive, and aligned with Hult's brand values, with SEO as a top priority.",
             "Simultaneously, we reviewed and revamped Hult's Google Ads campaign. This involved refining ad copy, selecting relevant keywords, and optimizing landing pages to enhance the campaign's performance.  We implemented a data-driven approach, constantly monitoring campaign metrics to make data-backed adjustments and allocate budget effectively."
         ],
-        
+        "buttonText": "Services",
         "callImage": "/images/schedule-call-image.svg"
     },
     "ProjectResultData": {
@@ -56,7 +57,7 @@
         "resultSecBgClass": "bg-varient-color-2"
     },
     "featuredPostData":{
-        "featuredSecTitle": " Case Studies",
+        "featuredSecTitle": "Featured Case Studies",
         "posts": [
             {
                 "image": "/images/featured-case-study-img-1.png",

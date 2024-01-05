@@ -1,0 +1,38 @@
+[
+    {
+        "src": "/images/icons/naeo-client.svg",
+        "width": 138,
+        "height": 123,
+        "alt": "Naeo Client Logo"
+    },
+    {
+        "src": "/images/icons/logo-trade-connect 1.svg",
+        "width": 242,
+        "height": 144,
+        "alt": "Trade Connect Logo"
+    },
+    {
+        "src": "/images/icons/nokia-client.svg",
+        "width": 160,
+        "height": 60,
+        "alt": "Nokia Client Logo"
+    },
+    {
+        "src": "/images/icons/uniliver.svg",
+        "width": 132,
+        "height": 60,
+        "alt": "Uniliver Logo"
+    },
+    {
+        "src": "/images/icons/in-client.svg",
+        "width": 122,
+        "height": 122,
+        "alt": "IN Client Logo"
+    },
+    {
+        "src": "/images/icons/ibm-client.svg",
+        "width": 134,
+        "height": 153,
+        "alt": "IBM Client Logo"
+    }
+]

@@ -1,43 +1,62 @@
 {
-    "pageTitle": "PPC - Services",
+    "pageTitle": "Web Design and Development - Services",
     "pageDescription": "eee",
     "ServicesBannerData": {
-        "bannerTitle": "PPC",
+        "bannerTitle": "Web Design and Development",
         "bannerBtnText": "Get in touch",
-        "bannerDescription": "Paid Advertising makes more sense when you know what you get back for it. Having intention in your objectives and overseeing your numbers will take you that much closer to success in pay-per-click advertising.Making Search Engine Optimisation friendly, so it works for you too"
+        "bannerDescription": "Feels like a web design agency, helps like a doctor. We listen first, and then serve. Particular Websites combine SEO, Strategy and UX to build high-speed, accessible sites that convert even the most stern audiences."
     },
     "ServiceAboutInfoData": {
-        "ServiceSecModalImage": "/images/services-about-modal-img-3.jpg",
-        "ServiceSecTitle": "Particular Approach to PPC.",
-        "ServiceSecDesc1": "Be on target. Hit the mark. Particular Paid Search ads can be highly targeted, so you can communicate with even the most niche demographics and audiences, locations and even the time of day when your target audience is most active.",
-        "ServiceSecDesc2": "When things change within your business, your target audience or in your specific market, Our Paid Search advertising it’s about having the flexibility to adapt. We can adjust your ad campaigns quickly and easily to ensure you’re always up to speed.",
+        "ServiceSecModalImage": "/images/services-about-modal-img-2.jpg",
+        "ServiceSecTitle": "Particular Approach to Web Design & Visual Identity.",
+        "ServiceSecDesc1": "We think of your website like a virtual home for your business. Build a customer journey that’s comfortable, visually appealing and sensible for your intended outcomes for your visitors.",
+        "ServiceSecDesc2": "Building your web identity to extend your brand. Providing customers with a visually captivating picture of your brand and its offering.",
         "ServiceSecBtnText": "Get in touch"
     },
     "FaqPageAccodionData": [
         {
             "id": 1,
-            "question": "Who owns the website once it is complete? Who has the rights to it?",
-            "answer": "PPC advertising is an online advertising model where advertisers pay a fee each time their ad is clicked. It's a way to ‘buy’ visits to your website rather than earning them organically through Search Engine Optimisation (SEO)."
+            "question": "What is Lorem Ipsum ?",
+            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+            "id": 2,
+            "question": "Why do we use it?",
+            "answer": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        },
+        {
+            "id": 3,
+            "question": "Where does it come from?",
+            "answer": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+        },
+        {
+            "id": 4,
+            "question": "Is it safe to use Lorem Ipsum?",
+            "answer": "Yes, it is safe to use Lorem Ipsum. It has been the industry's standard dummy text ever since the 1500s."
+        },
+        {
+            "id": 5,
+            "question": "What is the purpose of Lorem Ipsum?",
+            "answer": "The purpose of Lorem Ipsum is to create a natural-looking block of text that doesn't distract from the layout."
         }
-        
     ],
     "servicesFaqSecTitle": "FAQS",
     "ServicesTypoSecData": {
-        "ServicesTypeSecTitle": "Our PPC Services",
+        "ServicesTypeSecTitle": "Our Web Design and Visual Identity Services",
         "ServicesTypeSecBtnText": "Get in touch",
-        "ServicesTypeSecModalGIF": "/images/gif/section 3.gif",
+        "ServicesTypeSecModalGIF": "/images/gif/Section03.gif",
         "services": [
             {
-                "title": "Display Advertising",
-                "description": "Our Display Advertising service leverages captivating visual elements to expand your brand's reach. We strategically place eye-catching banner ads across a network of websites, ensuring your message reaches a wider audience. With precision targeting we turn impressions into conversions."
+                "title": "User Experience (UX) Design Optimisation",
+                "description": "Learn where the friction exists on your website and customer-facing systems, look at how to reduce it and improve on your KPIs, all through providing a more seamless, more intuitive experience for your customers and website users."
             },
             {
-                "title": "Re-Marketing",
-                "description": "Re-marketing is the art of re-engaging potential customers who have previously visited your website. Through tailored ad campaigns, we gently remind them of your brand, products, or services as they navigate the web. Our strategic approach ensures that your brand remains top-of-mind."
+                "title": "User Interface (UI) Design",
+                "description": "Every detail – both visual and functional – can be designed to work in harmony as part of a system. That means colour schemes that capture attention, imagery that adds that layer of inspiration to your brand and functionality that delivers your message in the perfect tone of voice."
             },
             {
-                "title": "Paid Social",
-                "description": "Paid Social is your ticket to reaching your target audience where they spend a significant portion of their time – social media platforms. Our experts craft and execute social advertising campaigns that resonate with your audience's interests and behaviours. From Facebook and Instagram to LinkedIn and Twitter, we ensure your brand's presence is impactful, driving engagement and conversions."
+                "title": "Web Development",
+                "description": "Engineering high-speed sites for every popular CMS, including Wix, Squarespace, Shopify, Webflow, Jimdo, Weebly, Webnode and GoDaddy.   "
             }
         ]
     },
@@ -62,12 +81,12 @@
                 "btnText": "Discover More"
             }
         ],
-        "ServicesCaseStudyTitle": "PPC Case Studies "
+        "ServicesCaseStudyTitle": "Web Design & Development Case Studies "
      
     },
     "ServicesProcessData": {
         "ProcessStepSecTitle": "The Process",
-        "ProcessStepFeaturedImage": "/images/services-process-modal-img-3.jpg",
+        "ProcessStepFeaturedImage": "/images/services-process-modal-img-2.jpg",
         "ProcessStepFeatureTitle": "Step",
         "ProcessStepFeatureNumber": "1",
         "ProcessStepFeatureSubTitle": "YOUR DISCOVERY CALL.",

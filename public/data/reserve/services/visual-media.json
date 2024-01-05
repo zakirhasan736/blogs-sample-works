@@ -1,43 +1,62 @@
 {
-    "pageTitle": "PPC - Services",
+    "pageTitle": "Visual Media - Services",
     "pageDescription": "eee",
     "ServicesBannerData": {
-        "bannerTitle": "PPC",
+        "bannerTitle": "Visual Media",
         "bannerBtnText": "Get in touch",
-        "bannerDescription": "Paid Advertising makes more sense when you know what you get back for it. Having intention in your objectives and overseeing your numbers will take you that much closer to success in pay-per-click advertising.Making Search Engine Optimisation friendly, so it works for you too"
+        "bannerDescription": "Humankind has spent millennia captivated by important stories told well. Create a pioneering story from your free-thought around your vision. We’ll handle the attention to detail."
     },
     "ServiceAboutInfoData": {
-        "ServiceSecModalImage": "/images/services-about-modal-img-3.jpg",
-        "ServiceSecTitle": "Particular Approach to PPC.",
-        "ServiceSecDesc1": "Be on target. Hit the mark. Particular Paid Search ads can be highly targeted, so you can communicate with even the most niche demographics and audiences, locations and even the time of day when your target audience is most active.",
-        "ServiceSecDesc2": "When things change within your business, your target audience or in your specific market, Our Paid Search advertising it’s about having the flexibility to adapt. We can adjust your ad campaigns quickly and easily to ensure you’re always up to speed.",
+        "ServiceSecModalImage": "/images/services-about-modal-img-5.jpg",
+        "ServiceSecTitle": "Particular Approach to Visual Media",
+        "ServiceSecDesc1": "Turn your day-to-day moments into stories that inspire: imagination and potential experiences with your brand",
+        "ServiceSecDesc2": "Particular Visual Media is all about capturing your brand's essence. We understand that visuals can be powerful storytellers. From photography to videography, we craft moments that resonate and leave a lasting impact. At Particular Visual Media, we focus on creating visuals that speak volumes, turning ordinary moments into unforgettable memories.",
         "ServiceSecBtnText": "Get in touch"
     },
     "FaqPageAccodionData": [
         {
             "id": 1,
-            "question": "Who owns the website once it is complete? Who has the rights to it?",
-            "answer": "PPC advertising is an online advertising model where advertisers pay a fee each time their ad is clicked. It's a way to ‘buy’ visits to your website rather than earning them organically through Search Engine Optimisation (SEO)."
+            "question": "What is Lorem Ipsum ?",
+            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+            "id": 2,
+            "question": "Why do we use it?",
+            "answer": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        },
+        {
+            "id": 3,
+            "question": "Where does it come from?",
+            "answer": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+        },
+        {
+            "id": 4,
+            "question": "Is it safe to use Lorem Ipsum?",
+            "answer": "Yes, it is safe to use Lorem Ipsum. It has been the industry's standard dummy text ever since the 1500s."
+        },
+        {
+            "id": 5,
+            "question": "What is the purpose of Lorem Ipsum?",
+            "answer": "The purpose of Lorem Ipsum is to create a natural-looking block of text that doesn't distract from the layout."
         }
-        
     ],
     "servicesFaqSecTitle": "FAQS",
     "ServicesTypoSecData": {
-        "ServicesTypeSecTitle": "Our PPC Services",
+        "ServicesTypeSecTitle": "Our Visual Media Services",
         "ServicesTypeSecBtnText": "Get in touch",
         "ServicesTypeSecModalGIF": "/images/gif/section 3.gif",
         "services": [
             {
-                "title": "Display Advertising",
-                "description": "Our Display Advertising service leverages captivating visual elements to expand your brand's reach. We strategically place eye-catching banner ads across a network of websites, ensuring your message reaches a wider audience. With precision targeting we turn impressions into conversions."
+                "title": "Creative Direction",
+                "description": "Creative Direction is the compass that guides your visual media endeavours.  Strategic and artistic leadership ensures your visual content aligns with your brand's vision and objectives. We conceptualize the big picture, from themes and aesthetics to storytelling, ensuring that every visual element harmonizes with your brand's identity."
             },
             {
-                "title": "Re-Marketing",
-                "description": "Re-marketing is the art of re-engaging potential customers who have previously visited your website. Through tailored ad campaigns, we gently remind them of your brand, products, or services as they navigate the web. Our strategic approach ensures that your brand remains top-of-mind."
+                "title": "Photo and Videographic Production",
+                "description": "Visual storytelling brings your brand to life, and is one of the most powerful tools in the digital age. Our talented team handles everything from pre-production planning through shooting and post-production editing."
             },
             {
-                "title": "Paid Social",
-                "description": "Paid Social is your ticket to reaching your target audience where they spend a significant portion of their time – social media platforms. Our experts craft and execute social advertising campaigns that resonate with your audience's interests and behaviours. From Facebook and Instagram to LinkedIn and Twitter, we ensure your brand's presence is impactful, driving engagement and conversions."
+                "title": "Graphic Design",
+                "description": "Graphic Design is an art of visual communication, and it's at the core of our Visual Media service. We craft visually compelling graphics that enhance your brand's identity and engage your audience. From eye-catching social media graphics to impactful print materials, our designers ensure every piece reflects your brand's personality."
             }
         ]
     },
@@ -62,12 +81,12 @@
                 "btnText": "Discover More"
             }
         ],
-        "ServicesCaseStudyTitle": "PPC Case Studies "
+        "ServicesCaseStudyTitle": "Visual Media Case Studies"
      
     },
     "ServicesProcessData": {
         "ProcessStepSecTitle": "The Process",
-        "ProcessStepFeaturedImage": "/images/services-process-modal-img-3.jpg",
+        "ProcessStepFeaturedImage": "/images/services-process-modal-img-5.jpg",
         "ProcessStepFeatureTitle": "Step",
         "ProcessStepFeatureNumber": "1",
         "ProcessStepFeatureSubTitle": "YOUR DISCOVERY CALL.",

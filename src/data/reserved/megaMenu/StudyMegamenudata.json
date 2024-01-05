@@ -2,15 +2,15 @@
     "StudyMenuItems": [
         {
             "title": "Zenbase",
-            "path": "/case-study/zenbase",
+            "path": "/case-study/zanbase",
             "subItems": [
                 {
                     "title": "Web Design",
-                    "path": "/case-study/zenbase"
+                    "path": "/case-study/zanbase"
                 },
                 {
                     "title": "Branding",
-                    "path": "/case-study/zenbase"
+                    "path": "/case-study/zanbase"
                 }
             ]
         },

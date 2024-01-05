@@ -16,29 +16,25 @@
     "FaqPageAccodionData": [
         {
             "id": 1,
-            "question": "What is Lorem Ipsum ?",
-            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            "question": "What does Visual Media mean and include?",
+            "answer": "Particular Visual media refers to any form of content that relies on visual elements to convey information, tell a story, or communicate a message. It encompasses a wide range of media types that primarily engage the visual sense. It includes Photography, Videography, Animation, Graphic Design and Digital Art."
         },
         {
             "id": 2,
-            "question": "Why do we use it?",
-            "answer": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+            "question": "How exactly does Visual Media help my company?",
+            "answer": "Visual media can provide numerous benefits to your company, enhancing your brand, marketing efforts, and overall business success.Your company having an internal visual media library of originally produced content can help strengthen your brand identity, help maintain effective communication, improve engagement, strengthen your social media presence, improve your website’s user experience, improve product presentation, better your SEO efforts and more."
         },
         {
             "id": 3,
-            "question": "Where does it come from?",
-            "answer": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+            "question": "Do you offer assistance beyond Photography and Videography?",
+            "answer": "Yes. Particular Visual Media assistance includes creative direction, animation, graphic design and digital art production."
         },
         {
             "id": 4,
-            "question": "Is it safe to use Lorem Ipsum?",
-            "answer": "Yes, it is safe to use Lorem Ipsum. It has been the industry's standard dummy text ever since the 1500s."
-        },
-        {
-            "id": 5,
-            "question": "What is the purpose of Lorem Ipsum?",
-            "answer": "The purpose of Lorem Ipsum is to create a natural-looking block of text that doesn't distract from the layout."
+            "question": "How does payment work for this type of service? What if I want to create new media regularly?",
+            "answer": "Payment works in the same way as for other services, in that, once your brief is complete, our product team will include details for the scope of works in your proposal along with a formal quote."
         }
+        
     ],
     "servicesFaqSecTitle": "FAQS",
     "ServicesTypoSecData": {

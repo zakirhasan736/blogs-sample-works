@@ -1,0 +1,132 @@
+{
+    "ServiceMenuItems": [
+        {
+            "title": "SEO",
+            "path": "/services/seo",
+            "subItems": [
+                {
+                    "title": "Local SEO",
+                    "path": "/services/seo"
+                },
+                {
+                    "title": "SEO Audit",
+                    "path": "/services/seo"
+                },
+                {
+                    "title": "Copywrite",
+                    "path": "/services/seo"
+                }
+            ]
+        },
+        {
+            "title": "Social Media",
+            "path": "/services/social-media",
+            "subItems": [
+                {
+                    "title": "User Experience",
+                    "path": "/services/social-media"
+                },
+                {
+                    "title": "User Design",
+                    "path": "/services/social-media"
+                },
+                {
+                    "title": "Web Development",
+                    "path": "/services/social-media"
+                }
+            ]
+        },
+        {
+            "title": "PPC",
+            "path": "/services/ppc",
+            "subItems": [
+                {
+                    "title": "Display Advertising",
+                    "path": "/services/ppc"
+                },
+                {
+                    "title": "Re-Marketing",
+                    "path": "/services/ppc"
+                }
+                ,
+                {
+                    "title": "Paid Social",
+                    "path": "/services/ppc"
+                }
+            ]
+        },
+        {
+            "title": "Branding",
+            "path": "/services/branding",
+            "subItems": [
+                {
+                    "title": "Brand Identity",
+                    "path": "/services/branding"
+                },
+                {
+                    "title": "Logo Designs",
+                    "path": "/services/branding"
+                },
+                {
+                    "title": "Asset Creation",
+                    "path": "/services/branding"
+                }
+            ]
+        },
+        {
+            "title": "Web Design & Development",
+            "path": "/services/web-design-development",
+            "subItems": [
+                {
+                    "title": "User Experience",
+                    "path": "/services/web-design-development"
+                },
+                {
+                    "title": "User Design",
+                    "path": "/services/web-design-development"
+                },
+                {
+                    "title": "Web Development",
+                    "path": "/services/web-design-development"
+                }
+            ]
+        },
+        {
+            "title": "Visual Media",
+            "path": "/services/visual-media",
+            "subItems": [
+                {
+                    "title": "Creative Direction",
+                    "path": "/services/visual-media"
+                },
+                {
+                    "title": "Photography",
+                    "path": "/services/visual-media"
+                },
+                {
+                    "title": "Videography",
+                    "path": "/services/visual-media"
+                },
+                {
+                    "title": "Graphic Design",
+                    "path": "/services/visual-media"
+                }
+            ]
+        }
+    ],
+    "ServiceFooterItems": [
+        {
+            "title": "Book a Call",
+            "path": "/contacts"
+        },
+        {
+            "title": "Send an Email",
+            "path": "/contacts"
+        },
+        {
+            "title": "FAQ’s",
+            "path": "/faq"
+        }
+    ],
+    "ServiceMegaMenuClass": "services-mega-menu"
+}

@@ -1,148 +1,153 @@
 [
     {
       "id": 1,
-      "question": "What is Lorem Ipsum?",
-      "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      "question": "Who owns the website once it is complete? Who has the rights to it?",
+      "answer": "Once the website project is complete, with both the designs and the fully-functional website approved by you, it is fully-owned by you once all invoices have been paid in full*, as quoted in your project proposal. For projects with regularly payments scheduled for a period of 3 months or more, projects may be complete before payment is made in full. In such instances, the complete website may or will likely be launched so that you are able to proceed with your continued marketing efforts. However, the website will not be fully-owned by you until payment is complete in full. *Paid in full meaning the project quote, excluding any fees proposed for website hosting and maintenance by Particular Agency."
     },
     {
       "id": 2,
-      "question": "Why do we use it?",
-      "answer": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+      "question": "What is the process of website transfer once it’s ready?",
+      "answer": "Once the website is ready for deployment, we begin the transfer process by first backing up your current site (if applicable). We then upload the new site files to your hosting server, configure any necessary settings, and perform final tests to ensure everything is working as expected. Once everything is confirmed, the new site goes live. We provide you with all credentials and a guide to navigate through your new website."
     },
     {
       "id": 3,
-      "question": "Where does it come from?",
-      "answer": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+      "question": "Are SEO Services included in the web design package?",
+      "answer": "Search Engine Optimisation (SEO) services can be included in all website projects but are not included as standard. For Particular clients seeking SEO additions to the project, they should mention this to a member of the Products team during Discovery Calls or other communication with them. This can be over the phone or by email."
     },
     {
       "id": 4,
-      "question": "Is it safe to use Lorem Ipsum?",
-      "answer": "Yes, it is safe to use Lorem Ipsum. It has been the industry's standard dummy text ever since the 1500s."
+      "question": "How many revisions do I get when Particular are building and designing my website?",
+      "answer": "5 revisions are offered per website project as standard - with 3 during the design phase of the project and the remaining 2 during the development phase.The number of revisions, 5, has been selected through our analysis of our experience developing creative projects with clients. Data suggests that 5 is sufficient for our clients’ ideas to be effectively understood and then designed & built, before undergoing our clients’ final scrutiny that completes the project to the specified scope."
     },
     {
       "id": 5,
-      "question": "What is the purpose of Lorem Ipsum?",
-      "answer": "The purpose of Lorem Ipsum is to create a natural-looking block of text that doesn't distract from the layout."
+      "question": "How long will it take to complete my website project?",
+      "answer": "The duration of your website project will vary based on its scope. Project duration typically starts at 3 weeks for the smallest scale projects and can range up to several months for extensive, experience intensive web platforms and apps. We aim to complete most projects within a 4-8 weeks timeline."
     },
     {
       "id": 6,
-      "question": "Can I use Lorem Ipsum for my website?",
-      "answer": "Certainly! Lorem Ipsum is widely used in the design and printing industry as placeholder text."
+      "question": "What will the revision meetings be like during my project?",
+      "answer": "You will have three design revisions dedicated to the site's design creation. Prior to the meeting, we'll need your feedback on the Figma file. Please be concise, clear, and timely with your feedback. Once you've provided feedback directly onto the file, your account manager will schedule in your next meeting.This meeting is your opportunity to discuss and build upon any ideas you may have, get questions answered, or ensure your feedback has been properly communicated, especially if it was fairly vague on the Figma file. This process will be repeated in the subsequent two development meetings."
     },
     {
       "id": 7,
-      "question": "Who uses Lorem Ipsum?",
-      "answer": "Lorem Ipsum is used by graphic designers, web developers, and printers to fill space in a design or layout."
+      "question": "Who do I contact with at the company about my project once it has started?",
+      "answer": "Once the project has commenced, your designated Account Manager will be your primary point of contact at Particular Agency for most matters. As a part of your onboarding, you will be given their contact email and contact number. Queries with your Account Manager will typically take up to 24 hours for responses via email."
     },
     {
       "id": 8,
-      "question": "How long has Lorem Ipsum been used?",
-      "answer": "Lorem Ipsum has been used since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      "question": "Is there anyone else I can get a hold of if my main account manager is not available at the time I need some assistance?",
+      "answer": "Please give your designated Account Manager at least 24 hours to get back to you on all queries. If you haven't heard back, please follow up at info@byparticular.com. If, for some reason, you still haven't heard back, you should call our main number at 0208 068 2102."
     },
     {
       "id": 9,
-      "question": "Is Lorem Ipsum readable?",
-      "answer": "Yes, Lorem Ipsum is readable. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+      "question": "How does payment work? Do I have to pay all at once?",
+      "answer": "Payment is never expected in full upfront for any Particular Agency projects, though our clients can receive up to a 10% discount on their project fee by paying upfront. We have two broad sets of payment terms for our Digital & Creative projects: Simple Launch Projects - Under £4,000. Unless otherwise agreed or stipulated, our standard invoicing terms are 50% upfront as a non-refundable deposit invoice to be paid before work commences upon accepting instructions. The next 25% will be due upon mutual confirmation of the design process’ completion. The final 25% will be invoiced upon delivery of your developed website. Extended Launch Projects - Over £4,000. For projects at or above £4,000 in value, payment can be made over an extended period of 3-6 months depending on the project's scope. For such projects, the payment schedule will continue on a monthly recurring basis until the project is paid for in full, with payments scheduled for the same date in the month as the date of the initial deposit payment. For projects where deposits are paid on the 30th or the 31st with months in their project schedule that do not have the same corresponding date of the month in their schedule, the client is requested to make payment on the final date of the month."
     },
     {
       "id": 10,
-      "question": "What are the variations of Lorem Ipsum?",
-      "answer": "There are many variations of Lorem Ipsum available, but the majority have suffered alteration in some form."
+      "question": "What is your website quality assurance process?",
+      "answer": "Our quality assurance process involves multiple stages including design review, code review, functionality testing, cross-browser and device compatibility testing, and performance optimization checks. We ensure that every website we deliver is up to our standard of excellence."
     },
     {
       "id": 11,
-      "question": "Where can I get Lorem Ipsum?",
-      "answer": "You can find Lorem Ipsum generators on the internet that create random text suitable for your needs."
+      "question": "How often will I be updated about my project?",
+      "answer": "At the start, you'll set your communication preference. Our usual scheduled update is once a week. Of course, within this, you may be communicating with your account manager on an ongoing basis."
     },
     {
       "id": 12,
-      "question": "Is Lorem Ipsum always used as filler text?",
-      "answer": "While Lorem Ipsum is commonly used as filler text, it has also been adapted for various other purposes in recent years."
+      "question": "What environment do you use when you develop your websites (e.g. Github)?",
+      "answer": "We utilize a version control system like GitHub for tracking changes in the website's codebase. This ensures that multiple developers can work on the site simultaneously without conflicts, and it allows us to maintain a history of all changes. In addition, we use local development environments to build and test the site before pushing to staging or live servers. Please note this is for custom code"
     },
     {
       "id": 13,
-      "question": "What is the standard Lorem Ipsum passage?",
-      "answer": "The standard Lorem Ipsum passage is used since the 1500s, and it begins with 'Lorem ipsum dolor sit amet...'."
+      "question": "Will I be able to speak to my web designer directly?",
+      "answer": "We will usually schedule them in to attend your first and third revision meetings. This gives you a chance to express directly to the person developing your vision creatively."
     },
     {
       "id": 14,
-      "question": "Who discovered Lorem Ipsum?",
-      "answer": "The origins of Lorem Ipsum are unclear, but it is believed to have been popularized in the 1960s with the release of Letraset sheets."
+      "question": "Do you offer post-launch support?",
+      "answer": "Yes, we offer post-launch support packages to ensure your website continues to run smoothly. This includes periodic updates, security patches, and troubleshooting any issues that may arise."
     },
     {
-      "id": 15,
-      "question": "Are there alternatives to Lorem Ipsum?",
-      "answer": "Yes, there are alternative placeholder texts, but Lorem Ipsum remains one of the most widely used and recognized."
+      "id":15,
+      "question": "Will you host my website once it’s done?",
+      "answer": "We leave this choice open to our clients. For Particular Agency customers, where may likely have designed and built the website in full, it is a natural progression for us to host and manage the website once complete. You can learn the full details through our Maintenance & Hosting Guide. However, this is not a compulsory action. We prefer for our clients to have the choice so that hosting with us may be a willing action, rather than a term of engagement. The extra freedom of movement can help businesses, smaller ones especially, with their next moves - we respect this entirely."
     },
     {
       "id": 16,
-      "question": "Can I customize Lorem Ipsum?",
-      "answer": "Certainly! You can customize Lorem Ipsum by changing the words, length, or using generators that allow more control over the text."
+      "question": "If I ‘break’ my website post-launch, is it within my rights to have it resolved by you without charge?",
+      "answer": "We always strive to ensure our clients are satisfied. If there's an issue resulting from our work, we'll fix it at no additional cost. However, if changes were made post-launch without our guidance and caused the issue, there might be a fee involved for the resolution."
     },
     {
       "id": 17,
-      "question": "Why is Lorem Ipsum popular?",
-      "answer": "Lorem Ipsum is popular because it provides a natural-looking distribution of letters and words, making it suitable for design mockups."
+      "question": "Does Web Maintenance include cookie compliance updates?",
+      "answer": "Yes, our maintenance package includes updates for cookie compliance to ensure your website adheres to the latest regulations and best practices."
     },
     {
       "id": 18,
-      "question": "Is Lorem Ipsum copyrighted?",
-      "answer": "No, Lorem Ipsum is not copyrighted. It is free to use and has been in the public domain for many years."
+      "question": "Does my website project include web copy?",
+      "answer": "Website projects will not include web copy as standard, and Particular Agency’s Product team will ask if assistance with this will be useful for you. If so, this will be included in your proposal offer. Some clients know from start to finish what they would like to say on their website, down to the last letter. Others aren’t so fussed, or would like assistance saying the right things. Both scenarios are fine for the Particular Agency Design team to work with."
     },
     {
       "id": 19,
-      "question": "Can I use Lorem Ipsum commercially?",
-      "answer": "Yes, you can use Lorem Ipsum commercially. Since it is in the public domain, there are no restrictions on its use."
+      "question": "What will my website’s site speed be like?",
+      "answer": "We optimise all our websites for speed by implementing best practices such as image optimisation, minification of scripts, and leveraging browser caching. While the exact site speed can vary based on hosting, content, and user location, we aim for your site to be as fast as possible and score well on speed test tools."
     },
     {
       "id": 20,
-      "question": "Who should use Lorem Ipsum?",
-      "answer": "Lorem Ipsum is useful for anyone involved in the design or publishing industry who needs placeholder text for layouts and designs."
+      "question": "Are there ways that you can ensure my website’s speed is optimal? Do you offer website speed optimisation as a service?",
+      "answer": "Speed optimisation involves strategic work in the development of your website. Moving towards a website that’s responsive and fast can look like any of the following:Compress Images, Enabling Browser Caching, Minimising HTTP Requests, Using Content Delivery Networks (CDNs), Optimising Code, Reducing Server Response Time, Eliminating Render-Blocking JavaScript, Content Delivery Optimisation, Monitoring Performance, Regularly Updating Software and Implementing SSL Encryption.The above can all be offered as a part of our Web Design & Development service."
     },
     {
       "id": 21,
-      "question": "Is Lorem Ipsum suitable for web development?",
-      "answer": "Yes, Lorem Ipsum is commonly used in web development for creating placeholder text in website templates and layouts."
+      "question": "I have another website, but it has bugs or is broken. Can you help fix it?",
+      "answer": "I have another website, but it has bugs or is broken. Can you help fix it?"
     },
     {
       "id": 22,
-      "question": "What are the drawbacks of Lorem Ipsum?",
-      "answer": "One drawback of Lorem Ipsum is that it may not accurately represent the final content, and clients might focus on the text's appearance rather than its meaning."
+      "question": "I don’t really want to be too involved in the creative process. Can I leave Particular Agency to get on with the work and then show it to me?",
+      "answer": "This isn't a problem at all. Please ensure you communicate this preference to your account manager. We're more than happy to handle the creative process and present the work to you once it's ready."
     },
     {
       "id": 23,
-      "question": "Is there a Lorem Ipsum generator?",
-      "answer": "Yes, there are online Lorem Ipsum generators that allow you to specify the number of paragraphs, words, and other options."
+      "question": "How can I pay my invoice?",
+      "answer": "Invoices can be paid via Bank Transfer or via Credit or Debit Card through Stripe.Simple Launch Projects - Under £4,000:Unless otherwise agreed or stipulated, our standard invoicing terms are 50% upfront as a non-refundable deposit invoice to be paid before work commences upon accepting instructions. The next 25% will be due upon mutual confirmation of the design process’ completion. The final 25% will be invoiced upon delivery of your developed website.Extended Launch Projects - Over £4,000: For projects at or above £4,000 in value, payment can be made over an extended period of 3-6 months depending on the project's scope. For such projects, the payment schedule will continue on a monthly recurring basis until the project is paid for in full, with payments scheduled for the same date in the month as the date of the initial deposit payment. For projects where deposits are paid on the 30th or the 31st with months in their project schedule that do not have the same corresponding date of the month in their schedule, the client is requested to make payment on the final date of the month."
     },
     {
       "id": 24,
-      "question": "Can I generate Lorem Ipsum in different languages?",
-      "answer": "Certainly! There are Lorem Ipsum generators that allow you to generate text in various languages to suit your design needs."
+      "question": "Do I have to complete my website brief in order to get a quote?",
+      "answer": "The short answer is, yes. We use your completed website brief, which is designed to gauge the full scope of your project, to then prepare your proposal. Your proposal is the written document confirming Particular Agency’s acceptance of the brief and openness to work on the project. You will need this to complete onboarding.Our full onboarding process is outlined in our Web Development Guide, which is free for you to download here."
     },
     {
       "id": 25,
-      "question": "How can I remove Lorem Ipsum from my design?",
-      "answer": "To remove Lorem Ipsum from your design, simply replace it with the actual content you want to display."
-    },
-    {
-      "id": 26,
-      "question": "What is the history of Lorem Ipsum?",
-      "answer": "Lorem Ipsum has roots in classical Latin literature and became more widely known in the publishing and typesetting industry in the 20th century."
+      "question": "How long does it take to see the results of SEO?",
+      "answer": "Search Engine Optimization (SEO) is a long-term digital marketing strategy, and it typically takes time to see meaningful results. The exact timeline can vary depending on numerous factors, including the competitiveness of your industry, the current state of your website, the quality of your content, and your SEO efforts. Our SEO Guide is free for you and help explain in more detail."
     },
     {
       "id": 27,
-      "question": "Can I add images to Lorem Ipsum?",
-      "answer": "While Lorem Ipsum itself is text-based, you can certainly incorporate images alongside or in place of the text in your designs."
+      "question": "How long does it take to see the results of PPC?",
+      "answer": "The time it takes to see results from a Pay-Per-Click (PPC) advertising campaign can vary widely depending on several factors, including your industry, competition, budget, and the specific goals of your campaign. Factors include Campaign Setup, Ad Approval, Budget and Bidding, Competition, Quality Score, Testing and Optimization, Ad Rank and Click-Through Rate (CTR) and Conversion Tracking. Our PPC Guide is free for you and help explain in more detail."
     },
     {
       "id": 28,
-      "question": "Are there Lorem Ipsum alternatives for different industries?",
-      "answer": "Yes, there are industry-specific Lorem Ipsum alternatives that use jargon and terminology relevant to specific fields."
+      "question": "Do you offer customised or bespoke marketing plans?",
+      "answer": "Yes, all Particular marketing plans are bespoke, customised for each client and their needs. Marketing plans may include all one or any combination of the full list of services available on the Particular Agency services page.The proposed scope of works may vary with your customisations in line with what’s best for your project."
     },
     {
       "id": 29,
-      "question": "What are some famous uses of Lorem Ipsum?",
-      "answer": "Lorem Ipsum has been used in various famous publications, websites, and design projects over the years."
+      "question": "How can I track the data on my website?",
+      "answer": "We typically integrate Google Analytics or similar tracking tools into the websites we develop. This allows you to monitor website traffic, user behavior, conversion rates, and more. We provide a tutorial on how to navigate and interpret this data, ensuring you're well-equipped to understand your site's performance."
+    },
+    {
+      "id": 30,
+      "question": "Will my website automatically be optimised for mobile, and include mobile designs?",
+      "answer": "Bespoke mobile designs can be included in all website projects and you will typically discuss this service in any project proposal you receive from the Particular Product team.Mobile usage accounts for over 55% of all web traffic and is usually most sensible in developing a professional-looking, user-friendly online presence."
+    },
+    {
+      "id": 31,
+      "question": "What is Figma?",
+      "answer": "Figma is a collaborative design tool that allows for real-time sharing, editing, and commenting on design files. It's a platform that facilitates seamless communication and collaboration between designers and clients."
     }
   ]
   

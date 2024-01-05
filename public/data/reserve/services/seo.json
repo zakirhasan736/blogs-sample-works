@@ -1,43 +1,62 @@
 {
-    "pageTitle": "PPC - Services",
+    "pageTitle": "SEO - Services",
     "pageDescription": "eee",
     "ServicesBannerData": {
-        "bannerTitle": "PPC",
+        "bannerTitle": "SEO",
         "bannerBtnText": "Get in touch",
-        "bannerDescription": "Paid Advertising makes more sense when you know what you get back for it. Having intention in your objectives and overseeing your numbers will take you that much closer to success in pay-per-click advertising.Making Search Engine Optimisation friendly, so it works for you too"
+        "bannerDescription": "Particular SEO: a foreign language made easy. \nMaking Search Engine Optimisation friendly, so it works for you too."
     },
     "ServiceAboutInfoData": {
-        "ServiceSecModalImage": "/images/services-about-modal-img-3.jpg",
-        "ServiceSecTitle": "Particular Approach to PPC.",
-        "ServiceSecDesc1": "Be on target. Hit the mark. Particular Paid Search ads can be highly targeted, so you can communicate with even the most niche demographics and audiences, locations and even the time of day when your target audience is most active.",
-        "ServiceSecDesc2": "When things change within your business, your target audience or in your specific market, Our Paid Search advertising it’s about having the flexibility to adapt. We can adjust your ad campaigns quickly and easily to ensure you’re always up to speed.",
+        "ServiceSecModalImage": "/images/service-about-info-sec-img.png",
+        "ServiceSecTitle": "Particular Approach to SEO 1",
+        "ServiceSecDesc1": "Optimisation in your search engine efforts comes from understanding - what to assess, where to place your efforts and how to make an impact. Impact looks like increased, qualified search traffic.",
+        "ServiceSecDesc2": "As of 2022, there are more than 99,000 Google searches per second. Think of each search as a little piece of metal. Good SEO is like strengthening your magnet and then making it more favourable to the metals you love most to have.",
         "ServiceSecBtnText": "Get in touch"
     },
     "FaqPageAccodionData": [
         {
             "id": 1,
-            "question": "Who owns the website once it is complete? Who has the rights to it?",
-            "answer": "PPC advertising is an online advertising model where advertisers pay a fee each time their ad is clicked. It's a way to ‘buy’ visits to your website rather than earning them organically through Search Engine Optimisation (SEO)."
+            "question": "What’s the difference between Local, National and International SEO?",
+            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+            "id": 2,
+            "question": "What is SEO? How can it help my website and business?",
+            "answer": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        },
+        {
+            "id": 3,
+            "question": "Do I have to pay for SEO forever?",
+            "answer": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+        },
+        {
+            "id": 4,
+            "question": "SEO doesn’t give results straight away? How long does it take for SEO to work?",
+            "answer": "Yes, it is safe to use Lorem Ipsum. It has been the industry's standard dummy text ever since the 1500s."
+        },
+        {
+            "id": 5,
+            "question": "Are SEO Services included in the web design package?",
+            "answer": "The purpose of Lorem Ipsum is to create a natural-looking block of text that doesn't distract from the layout."
         }
-        
     ],
     "servicesFaqSecTitle": "FAQS",
     "ServicesTypoSecData": {
-        "ServicesTypeSecTitle": "Our PPC Services",
+        "ServicesTypeSecTitle": "Our SEO Services",
         "ServicesTypeSecBtnText": "Get in touch",
-        "ServicesTypeSecModalGIF": "/images/gif/section 3.gif",
+        "ServicesTypeSecModalGIF": "/images/gif/Section01-1.gif",
         "services": [
             {
-                "title": "Display Advertising",
-                "description": "Our Display Advertising service leverages captivating visual elements to expand your brand's reach. We strategically place eye-catching banner ads across a network of websites, ensuring your message reaches a wider audience. With precision targeting we turn impressions into conversions."
+                "title": "SEO Audit",
+                "description": "Start by learning where you are and why. Our audit looks at your overall search engine performance. We assess the contributing elements and provide a guide to improving your efforts. Ongoing and one-off."
             },
             {
-                "title": "Re-Marketing",
-                "description": "Re-marketing is the art of re-engaging potential customers who have previously visited your website. Through tailored ad campaigns, we gently remind them of your brand, products, or services as they navigate the web. Our strategic approach ensures that your brand remains top-of-mind."
+                "title": "Copywriting",
+                "description": "The right messaging helps create the right ideas. Then satisfy the right audience. Having more qualified potential customers works by inspiring the right people to get in touch with your brand. For the right reasons."
             },
             {
-                "title": "Paid Social",
-                "description": "Paid Social is your ticket to reaching your target audience where they spend a significant portion of their time – social media platforms. Our experts craft and execute social advertising campaigns that resonate with your audience's interests and behaviours. From Facebook and Instagram to LinkedIn and Twitter, we ensure your brand's presence is impactful, driving engagement and conversions."
+                "title": "Local SEO",
+                "description": "Get better rankings and search results in your local area. Finding customers near you through your local reputation makes business that much easier. Build a position locally that you can leverage."
             }
         ]
     },
@@ -62,12 +81,12 @@
                 "btnText": "Discover More"
             }
         ],
-        "ServicesCaseStudyTitle": "PPC Case Studies "
+        "ServicesCaseStudyTitle": "SEO Case Studies"
      
     },
     "ServicesProcessData": {
         "ProcessStepSecTitle": "The Process",
-        "ProcessStepFeaturedImage": "/images/services-process-modal-img-3.jpg",
+        "ProcessStepFeaturedImage": "/images/service-process-image.png",
         "ProcessStepFeatureTitle": "Step",
         "ProcessStepFeatureNumber": "1",
         "ProcessStepFeatureSubTitle": "YOUR DISCOVERY CALL.",

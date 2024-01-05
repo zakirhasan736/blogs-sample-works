@@ -1,0 +1,82 @@
+{
+    "pageTitle": "Case Study Zenbase",
+    "pageDescription": "eee",
+    "CaseStudyBannerData": {
+        "StudyBannerModalImg": "/images/case-study-banner-modal-image.jpg",
+        "BannerTitle": "Zenbase",
+        "BannerDesc": "Building an intentionally inclusive UX/UI solution to bolster Zenbase’s delivery of a financial health solutions to renters and property managers."
+    },
+    "ProjectOverviewData":{
+            "projectOverviewSubtitle": "Project Overview Subtitle",
+            "projectOverviewTitle": "Project Overview Title",
+            "projectOverviewDesc": "Description of the project overview goes here.",
+            "quoteText": "The UI design embraced a minimalist approach, featuring soft colour palettes, clean typography, and unobtrusive icons. The navigation was streamlined to provide an effortless journey through the app's automated financial health fixes.",
+            "quoteDescText": "Our challenge was clear: create a compelling visual identity for the campaign and produce marketing assets that would simultaneously cultivate imagination.",
+            "overviewPortfolioTitle": "Web Design",
+            "overviewPortfolioImage": "/images/project-overview-image.jpg"
+    },
+    "ProjectChallengeData": {
+        "projectChallengeModalTitle": "The Challenge",
+        "projectChallengeTitle": "The Challenge",
+        "projectChallengeQuoteText": "Zenbase, a financial health solution for renters, aspired to provide users with an empowering and user-friendly platform to support their financial well-being. ",
+        "projectChallengeQuoteDesc": "The challenge lay in creating a digital space that effortlessly guided users, usually renters and property managers, towards financial wellness, while establishing a brand presence that resonated with that very target audience.",
+        "projectChallengeAssetsTitle1": "Brand Assets",
+        "projectChallengeAssetsImage1": "/images/project-change-image-1.jpg",
+        "projectChallengeAssetsTitle2": "Brand Assets",
+        "projectChallengeAssetsImage2": "/images/project-change-image-2.jpg"
+    },
+    "ProjectMethodeData": {
+        "sectionModelTitle": "THE METHOD",
+        "sectionTitle": "The Particular Method",
+        "methodDescriptions": [
+            "We embarked on the project with extensive user research to understand the needs and preferences of Zenbase's audience. Through surveys and usability testing, we gained insights into user behaviours and expectations.",
+            "Using the research data, we embarked on the design process, crafting a user experience that prioritised simplicity, clarity, and the efficiency that comes with good organisation. We developed user personas for both sets of primary users to guide our decision-making, ensuring that every element of the app resonated with them according to their needs.",
+            "Parallel to UX/UI design, we embarked on crafting brand assets that would reflect Zenbase's mission: becoming a trusted partner in managing household finances while eliminating late fees and predatory financing."
+        ],
+        "buttonText": "Services",
+        "callImage": "/images/schedule-call-image.svg"
+    },
+    "ProjectResultData": {
+        "sectionModelTitle": "The result",
+        "sectionTitle": "The result",
+        "resultImage": "/images/project-result-modal-image.jpg",
+        "results": [
+            {
+                "percent": "54%",
+                "description": "rise in event registrations compared to previous campaigns"
+            },
+            {
+                "percent": "75%",
+                "description": "more online shares and comments on campaign-related posts"
+            },
+            {
+                "percent": "90%",
+                "description": "of attendees expressed interest in future events"
+            }
+        ],
+        "resultSecBgClass": "bg-varient-color-1"
+    },
+    "featuredPostData": {
+        "featuredSecTitle": "Featured Case Studies",
+        "posts": [
+            {
+                "image": "/images/featured-case-study-img-1.png",
+                "title": "Hult Ib School",
+                "subtitle": "web design and Brand Assets",
+                "link": "/case-study/hult-ib-school"
+            },
+            {
+                "image": "/images/featured-case-study-img-2.png",
+                "title": "ZENBASE",
+                "subtitle": "web design and Brand Assets",
+                "link": "/case-study/zenbase"
+            },
+            {
+                "image": "/images/featured-case-study-img-3.png",
+                "title": "KNIGHT’S ACADEMY",
+                "subtitle": "web design and Brand Assets",
+                "link": "/case-study/knights-academy"
+            }
+        ]
+    }
+}

@@ -7,7 +7,7 @@
         "BannerDesc": "Design intention: to symbolise the harmonious coexistence of AI and humanity, ensuring the campaign's messaging would be easily digestible for a contemporary, fast-evolving audience."
     },
     "ProjectOverviewData":{
-            "projectOverviewSubtitle": "Project Overview ",
+            "projectOverviewSubtitle": "Project Overview Subtitle",
             "projectOverviewTitle": "To Empower Spark Presents: AI & Humanity with a Captivating Visual Identity and Marketing Assets to Drive Thought Leadership",
             "projectOverviewDesc": "Our collaboration with Spark Presents: AI & Humanity demonstrated the transformative power of a compelling visual identity and thoughtfully crafted marketing assets. By sparking curiosity and conversation, we successfully propelled the campaign into the forefront of discussions on A.I and its impact on humanity, fostering meaningful dialogue and exploration of the future.",
             "quoteText": "Spark Presents: AI & Humanity aimed to host a groundbreaking event exploring the intersection of artificial intelligence and humanity's future. To engage and inspire a diverse audience of tech enthusiasts, scholars, and policymakers, they needed a visual identity that could spark curiosity and conversation.",
@@ -20,7 +20,7 @@
             "projectChallengeTitle": "",
             "projectChallengeQuoteText": "",
             "projectChallengeQuoteDesc": "",
-            "projectChallengeAssetsTitle1": "Banner Design",
+            "projectChallengeAssetsTitle1": "Brand Assets",
             "projectChallengeAssetsImage1": "/images/case-study-2-brand-assets-1.jpg",
             "projectChallengeAssetsTitle2": "Brand Assets",
             "projectChallengeAssetsImage2": "/images/case-study-2-brand-assets-2.jpg"
@@ -33,7 +33,7 @@
             "With these insights, we developed a visual identity that encapsulated the fusion of technology and humanity, intentionally manipulating typography and colour for delivery of this key message.",
             "With the visual identity in place, we set out to create a suite of marketing assets. We produced engaging promotional materials, including event posters, social media graphics, and email newsletters, each leveraging the campaign's visual identity to convey the event's significance and allure."
         ],
-        
+        "buttonText": "Services",
         "callImage": "/images/schedule-call-image.svg"
     },
     "ProjectResultData": {
@@ -57,7 +57,7 @@
         "resultSecBgClass": "bg-varient-color-1"
     },
     "featuredPostData":{
-        "featuredSecTitle": " Case Studies",
+        "featuredSecTitle": "Featured Case Studies",
         "posts": [
             {
                 "image": "/images/featured-case-study-img-1.png",

@@ -36,6 +36,7 @@ const config: Config = {
         'xs': '15px',
       },
     },
+
     fontFamily: {
       primary: ['Urbanist', 'sans-serif'],
       secondary: ['Inter', 'sans-serif'],

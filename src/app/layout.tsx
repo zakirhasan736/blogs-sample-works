@@ -12,7 +12,7 @@ const inter = Inter({
   display: 'swap',
 })
  
-const urbanist = Urbanist({
+const urbanist = Urbanist({ 
   subsets: ['latin'],
   variable: '--font-urbanist',
   display: 'swap',
@@ -29,7 +29,6 @@ export default function RootLayout({
 }) {
   return (
 		<html lang="en" className={`${inter.variable} ${urbanist.variable}`}>
-
 			<body className="pca-marketing-page-body md:border-0">
 				<Navbar />
 				<StickyNavbar />
