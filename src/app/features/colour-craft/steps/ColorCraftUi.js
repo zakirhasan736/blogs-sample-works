@@ -7,7 +7,6 @@ import ColorCraftFaq from "./ColorCraftFaq";
 const ColorCraft = () => {
 
 	useEffect(() => {
-			// Inputs
 
 			const primaryColor = document.getElementById("prim");
 			const secondaryColor = document.getElementById("sec");
@@ -1186,7 +1185,14 @@ Thanks for using Color Craft By particular!`;
 		}
 	}, []);
 
+	useEffect(() => {
+		document.body.classList.add("color-craft-page");
 
+		// Remove the specific body class when the component unmounts
+		return () => {
+			document.body.classList.remove("color-craft-page");
+		};
+	}, []);
 
 
 	return (

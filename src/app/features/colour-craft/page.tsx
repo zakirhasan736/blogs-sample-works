@@ -12,6 +12,7 @@ const ColorCraftpage = () => {
 		};
 	return (
 		<>
+
 			{!isEntered ? (
 				<ColorCraftEnterModal onEnter={handleEnter} />
 			) : (

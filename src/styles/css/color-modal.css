@@ -10,6 +10,9 @@
     --accent: #ffb084;
 }
 
+body.pca-marketing-page-body.color-craft-page {
+    background-color: var(--secondary);
+}
 
 @supports (font-variation-settings: normal) {
     :root {

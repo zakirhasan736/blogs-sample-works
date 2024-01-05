@@ -965,6 +965,9 @@ code, pre {
 .our-statics-card-items:last-child{
   margin-bottom: 0;
 } 
+body.pca-marketing-page-body {
+    background: #000000;
+}
 @media screen and (max-width:767px) {
   .case-study-cont-text {
     padding:18px;

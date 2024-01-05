@@ -38,7 +38,7 @@ const StickyNavbar: React.FC = () => {
 
 	useEffect(() => {
 		const handleScroll = () => {
-			if (window.scrollY > 270) {
+			if (window.scrollY > 270 && pathname !== "/features/colour-craft") {
 				setShowStickyNavbar(true);
 			} else {
 				setShowStickyNavbar(false);
@@ -49,7 +49,7 @@ const StickyNavbar: React.FC = () => {
 		return () => {
 			window.removeEventListener("scroll", handleScroll);
 		};
-	}, []);
+	}, [pathname]);
 
 	const [hoveredPath, setHoveredPath] = useState<string | null>(null);
 	let animationTimeout: NodeJS.Timeout;
