@@ -1016,6 +1016,10 @@ ul.services-type-list-box li.services-types-option-list-items:last-child {
 .services-card-item-second-part .swiper.swiper-initialized.swiper-horizontal .swiper-button-next {
     color: #fff;
 }
+.methods-sec-pragraph p:first-child {
+    font-weight: 600;
+    font-size: 26px;
+}
 }
 
 

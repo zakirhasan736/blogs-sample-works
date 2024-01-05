@@ -10,7 +10,7 @@ const Footer: React.FC<FooterProps> = () => {
 			<div className="custom-container relative">
 				<BackToTop />
 				<div className="footer-wrapper grid grid-cols-16 gap-5 pt-[57px] pb-[54px] sm:pt-[45px] sm:pb-[45px] sm:block max-w-[1330px] mx-auto">
-					<div className="footer-left-widgets col-span-5 md:col-span-7 sm:mb-[40px] text-left">
+					<div className="footer-left-widgets col-span-5 laptop-m:col-span-4 md:col-span-7 sm:mb-[40px] text-left">
 						<Image
 							width={336}
 							height={95}
@@ -23,7 +23,7 @@ const Footer: React.FC<FooterProps> = () => {
 							spaces where results, delivery and creativity truly matter.
 						</p>
 					</div>
-					<div className="footer-second-widgets col-span-2 md:col-span-4 pt-[17px] mb-12  sm:pt-0">
+					<div className="footer-second-widgets col-span-2 laptop-m:col-span-5 md:col-span-4 pt-[17px] mb-12  sm:pt-0">
 						<h6 className="widgets-title mb-[17px] text-body-text text-left text-neu-black font-bold font-primary leading-none">
 							Menu
 						</h6>

@@ -67,11 +67,11 @@ const ProjectMethode: React.FC<ProjectMethodProps> = ({ data }) => {
 						</div>
 					</div>
 					<div className="case-study-project-methodes-cont-wrap grid grid-cols-16 gap-9 mt-16 sm:mt-6 sm:flex sm:flex-col sm:gap-0">
-						<div className="sm:col-span-full col-span-12 project-methodes-left-cont max-w-[814px]">
+						<div className="methods-sec-pragraph sm:col-span-full col-span-12 project-methodes-left-cont max-w-[814px]">
 							{data.methodDescriptions.map((desc, index) => (
 								<p
 									key={index}
-									className="project-methodes-desc text-[26px]  md:text-[20px] sm:text-[13px] text-left text-neu-white font-primary font-medium leading-normal mb-6">
+									className="project-methodes-desc text-[25px]  md:text-[20px] sm:text-[13px] text-left text-neu-white font-primary font-medium leading-normal mb-6">
 									{desc}
 								</p>
 							))}
