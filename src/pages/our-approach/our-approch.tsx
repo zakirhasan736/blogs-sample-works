@@ -11,7 +11,7 @@ const OurApproach: React.FC = () => {
 			description: "Completed marketing projects",
 		},
 		{
-			title: "£1-15k",
+			title: "£10-100k",
 			description:
 				"Our current infrastructure allows us to easily cater for projects in this budget range",
 		},
@@ -20,7 +20,6 @@ const OurApproach: React.FC = () => {
 			description:
 				"Over 1 in 3 clients come back to us within the first 3 months for additional marketing and branding support",
 		},
-		
 	];
 
   const bannerData = {

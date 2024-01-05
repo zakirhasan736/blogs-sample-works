@@ -29,6 +29,6 @@
       "@utils/*": ["./src/utils/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/service-about-info-section", "src/pages/Services/service-group-slider.jsx", "src/components/effect-card-slider/EffectCardSlider.js", "src/components/wordtypinganimation.js", "src/app/features/colour-craft/steps/ColorCraftUi.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/service-about-info-section", "src/pages/Services/service-group-slider.jsx", "src/components/effect-card-slider/EffectCardSlider.jsx", "src/components/wordtypinganimation.js", "src/app/features/colour-craft/steps/ColorCraftUi.js"],
   "exclude": ["node_modules"]
 }
