@@ -2,24 +2,28 @@
     {
 			"sliderModalImage": "/images/case-study-slider-item-img-1.jpg",
 			"sliderSubTitle": "Client Case Studies",
+			"sliderItemLink": "/case-study/village-of-genal",
 			"sliderTitle": "Village of Genal",
 			"sliderTagsCategory": "Website Design"
     },
     {
 			"sliderModalImage": "/images/case-study-slider-item-img-2.jpg",
 			"sliderSubTitle": "Client Case Studies",
+			"sliderItemLink": "/case-study/zenbase",
 			"sliderTitle": "Zenbase ",
 			"sliderTagsCategory": "Website Design"
     },
     {
 			"sliderModalImage": "/images/case-study-slider-item-img-3.jpg",
 			"sliderSubTitle": "Client Case Studies",
+			"sliderItemLink": "/case-study/ai-and-humanity",
 			"sliderTitle": "AI & Humanity",
 			"sliderTagsCategory": "Website Design"
     },
     {
 			"sliderModalImage": "/images/case-study-slider-item-img-4.png",
 			"sliderSubTitle": "Client Case Studies",
+			"sliderItemLink": "/case-study/hult-ib-school",
 			"sliderTitle": "Hult IB School",
 			"sliderTagsCategory": "Website Design"
     }

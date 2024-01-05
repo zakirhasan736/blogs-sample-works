@@ -973,6 +973,13 @@ code, pre {
 
   position: relative;
 }
+.gellary-slider-cont-text {
+    z-index: 2;
+}
+.gallery-slider-model-text {
+    left: 0;
+    padding-left: 0;
+}
 }
 label.checkmark-services input:checked ~ .check-mark-input-mark {
     background: #ffffff;

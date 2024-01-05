@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Image } from "@packages/packages";
+import { Image, Link } from "@packages/packages";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -16,6 +16,7 @@ interface Slide {
 	sliderSubTitle: string;
 	sliderTitle: string;
 	sliderTagsCategory: string;
+	sliderItemLink: string;
 }
 
 interface CaseStudySliderProps {
@@ -56,7 +57,7 @@ const CaseStudySlider: React.FC<CaseStudySliderProps> = ({ slides }) => {
 										<h2
 											data-swiper-parallax="-300"
 											className="slides-title max-w-[642px] text-primary md:text-[45px] sm:text-[32px] text-left text-[60px] font-primary font-bold leading-none tracking-[3.8px]">
-											{slide.sliderTitle}
+											<Link href={slide.sliderItemLink}>{slide.sliderTitle}</Link>
 										</h2>
 										<p
 											data-swiper-parallax="-200"

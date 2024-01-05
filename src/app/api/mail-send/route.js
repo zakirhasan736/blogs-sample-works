@@ -3,7 +3,10 @@ import { NextResponse } from "next/server";
 const nodemailer = require("nodemailer");
 
 const transporter = nodemailer.createTransport({
-    service: "gmail",
+    pool: true,
+    host: process.env.HOST_NAME,
+    port: 465,
+    secure: true,
     auth: {
         user: process.env.MAIL_NAME,
         pass: process.env.MAIL_PASS,

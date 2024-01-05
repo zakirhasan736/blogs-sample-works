@@ -83,7 +83,7 @@ const ServiceGroupSlider = ({ slides, GalleryPrevSlides }) => {
 						<SwiperSlide key={index}>
 							<div className="gellary-slider-preview-item  flex justify-between items-center ">
 								<div className="gellary-slider-cont-text relative">
-									<div className="gallery-slider-model-text pl-[60px] whitespace-nowrap uppercase absolute top-8 sm:top-0 scrolling-text text-[120px] sm:text-[65px] text-left font-primary font-normal leading-none">
+									<div className="gallery-slider-model-text pl-[60px] sm:left-0 sm:right-0 sm:pl-5 whitespace-nowrap uppercase absolute top-8 sm:top-0 scrolling-text text-[120px] sm:text-[42px] text-left font-primary font-normal leading-none">
 										{GallerySlide.ModalTitle}
 									</div>
 									<h2 className="gallery-slider-title sm:hidden text-[65px] sm:text-[34px] text-left text-neu-white font-primary font-normal leading-none">

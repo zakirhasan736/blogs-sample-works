@@ -28,7 +28,7 @@ const ArticlesSection = () => {
 							<div
 								className="article-card-items sm:w-full col-span-4"
 								key={article.id}>
-								<div className="article-card-head md:h-[300px] h-[459px] sm:h-[280px]  w-full relative z-10 flex items-end justify-start">
+								<div className="article-card-head md:h-[300px] h-[459px] laptop-m:h-[320px] lg:h-[300px] sm:h-[280px]  w-full relative z-10 flex items-end justify-start">
 									<Image
 										src={article.imageSrc}
 										alt="article images"

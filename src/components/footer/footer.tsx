@@ -23,7 +23,7 @@ const Footer: React.FC<FooterProps> = () => {
 							spaces where results, delivery and creativity truly matter.
 						</p>
 					</div>
-					<div className="footer-second-widgets col-span-2 laptop-m:col-span-5 md:col-span-4 pt-[17px] mb-12  sm:pt-0">
+					<div className="footer-second-widgets col-span-2 laptop-m:col-span-3 md:col-span-4 pt-[17px] mb-12  sm:pt-0">
 						<h6 className="widgets-title mb-[17px] text-body-text text-left text-neu-black font-bold font-primary leading-none">
 							Menu
 						</h6>
@@ -68,7 +68,7 @@ const Footer: React.FC<FooterProps> = () => {
 							</li>
 						</ul>
 					</div>
-					<div className="footer-third-widgets col-span-3 md:col-span-5 pt-[17px] sm:mb-[87px]  sm:pt-0">
+					<div className="footer-third-widgets col-span-3 laptop-m:col-span-4 md:col-span-5 pt-[17px] sm:mb-[87px]  sm:pt-0">
 						<h6 className="widgets-title mb-[17px] text-body-text text-left text-neu-black font-bold font-primary leading-none">
 							Legals
 						</h6>
@@ -103,7 +103,7 @@ const Footer: React.FC<FooterProps> = () => {
 							</li>
 						</ul>
 					</div>
-					<div className="footer-right-widgets col-span-6 md:col-span-12 pt-[17px] sm:pt-0">
+					<div className="footer-right-widgets col-span-6 laptop-m:col-span-5 md:col-span-12 pt-[17px] sm:pt-0">
 						<div className="footer-right-widgets-top-text mb-[23px] flex items-center justify-between gap-5">
 							<h4 className="footer-right-widgets-title sm:hidden text-neu-black text-left font-semibold font-primary leading-none text-[32px] md:text-[32px]">
 								Lets Talk!
@@ -128,14 +128,14 @@ const Footer: React.FC<FooterProps> = () => {
 						</div>
 						<div className="cta-subs-widgets relative sm:hidden">
 							<input
-								className="cta-input-fild w-full text-left focus:border-none focus:outline-0 text-neu-black capitalize text-18px font-medium font-primary leading-none h-16 px-11 py-[7px]"
+								className="cta-input-fild w-full text-left focus:border-none focus:outline-0 text-neu-black capitalize text-18px font-medium font-primary leading-none h-16 px-11 py-[7px] laptop-m:pl-[22px]"
 								type="email"
 								name="email"
 								placeholder="Enter your email"
 							/>
 							<button
 								type="button"
-								className="absolute top-0 right-0 z-50 subs-btn py-[39px] pr-[9px] pb-[7px] pl-[9px] bg-neu-blue h-16 flex justify-start items-end w-[133px] text-left text-neu-white text-text-xs-small font-medium font-primary leading-none">
+								className="absolute top-0 right-0 z-50 subs-btn py-[39px] pr-[9px] pb-[7px] pl-[9px] bg-neu-blue h-16 flex justify-start items-end w-[133px] laptop-m:w-[110px]  text-left text-neu-white text-text-xs-small font-medium font-primary leading-none">
 								Suscribe
 							</button>
 						</div>
