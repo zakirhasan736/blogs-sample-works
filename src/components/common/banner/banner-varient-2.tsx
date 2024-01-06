@@ -12,7 +12,7 @@ interface BannerVarientTwoProps {
 
 const BannerVarientTwo: React.FC<BannerVarientTwoProps> = ({ data }) => {
 	return (
-		<section className="banner-varient-two-section bg-[#424245] px-[71px] py-[120px] h-[666px] laptop-x:h-[720px] sm:h-[680px] laptop-x:px-0 laptop-x:pb-[119px] md:pb-[80px] sm;pb-[65px]">
+		<section className="banner-varient-two-section bg-neu-black px-[71px] py-[120px] h-[666px] laptop-x:h-[720px] sm:h-[680px] laptop-x:px-0 laptop-x:pb-[119px] md:pb-[80px] sm;pb-[65px]">
 			<div className="custom-container h-full">
 				<div className="banner-varient-two-content flex items-end h-full justify-start max-w-[1430px] mx-auto">
 					<div className="banner-varient-two-text-box mt-auto sm:mb-0">

@@ -1,17 +1,5 @@
 import { NextResponse } from "next/server";
-
-const nodemailer = require("nodemailer");
-
-const transporter = nodemailer.createTransport({
-    pool: true,
-    host: process.env.HOST_NAME,
-    port: 465,
-    secure: true,
-    auth: {
-        user: process.env.MAIL_NAME,
-        pass: "#8=BvLI1FzsJ)JII", 
-    },
-});
+import emailjs from 'emailjs-com';
 
 export async function POST(req) {
     try {
@@ -30,33 +18,20 @@ export async function POST(req) {
             PivacyCheckmark,
         } = info;
 
-        const mailOptions = {
-            from: info.email,
-            to: process.env.MAIL_NAME,
-            subject: `New message from ${firstName + " " + lastName}`,
-            html: `<div>
-      <h4> ${firstName + " " + lastName}</h4>
-  
-      <p>ServiceType: ${serviceType}</p>
-  
-      <p>Industry: ${industry}</p>
-  
-      <p>Investment range: ${investmentRabge}</p>
-  
-      <h6>Bussiness size: ${bussinesSize}</h6>
-  
-      <p>Project idea: ${projectIdea}</p>
-  
-      <p>Description: ${desc}</p>
-  
-      <p>I accepted the , ${PivacyCheckmark}</p>
-      <ul>
-          <li>${call}</li>
-          <li>${email}</li>
-      </ul>
-  </div>`,
-        };
-
+        emailjs
+            .send(process.env.YOUR_SERVICE_ID, process.env.YOUR_TEMPLATE_ID, {
+                firstName,
+                lastName,
+                serviceType,
+                industry,
+                investmentRabge,
+                bussinesSize,
+                projectIdea,
+                desc,
+                PivacyCheckmark,
+                call,
+                email,
+            })
         try {
             const info = await transporter.sendMail(mailOptions);
             const responseParts = info.response.split(" ");

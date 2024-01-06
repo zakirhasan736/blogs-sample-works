@@ -298,7 +298,7 @@ const ContactPage = () => {
 									<h6 className="title-checkbox-services mb-5 text-[18px] font-normal font-primary text-left text-neu-white leading-none">
 										Which Service(s) are you looking for?
 									</h6>
-									<div className="contacts-forms-service-lists-box flex items-start gap-5 sm:flex-col sm:items-center sm:justify-center">
+									<div className="contacts-forms-service-lists-box flex md:flex-wrap md:justify-center justify-between items-start gap-3 sm:flex-col sm:items-center sm:justify-center">
 										<Checkbox
 											label="Web Design and Development"
 											id="services1"

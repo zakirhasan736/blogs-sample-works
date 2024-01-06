@@ -50,7 +50,7 @@ const CategoriesPage: React.FC<CategoryPageProps> = ({ data }) => {
 					</div>
 				</div>
 				{/* thought division dedtails info */}
-				<section className="thought-division-details-section bg-neu-gray-black-2 pb-[100px]  pt-[100px] overflow-hidden md:pt-[90px] sm:pt-[67px] sm:pb-[80px] md:pb-[90px]">
+				<section className="thought-division-details-section bg-neu-black pb-[100px]  pt-[100px] overflow-hidden md:pt-[90px] sm:pt-[67px] sm:pb-[80px] md:pb-[90px]">
 					<div className="custom-container">
 						<div className="thought-division-details-wrap relative grid grid-cols-16 gap-5 z-50 sm:flex sm:flex-col mx-auto max-w-[1430px]">
 							{/* approach slug list content */}
