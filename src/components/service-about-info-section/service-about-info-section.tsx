@@ -1,5 +1,5 @@
 import Button from '../elements/button/button';
-import {Image} from '@packages/packages';
+import {Image, Link} from '@packages/packages';
 import React from "react";
 interface ServiceAboutInfoProps {
 	data: {
@@ -41,10 +41,12 @@ const ServiceAboutInfoSection: React.FC<ServiceAboutInfoProps> = ({data}) => {
 								<p className="services-about-info-desc text-[26px] laptop-x:text-[26px] md:text-[18px] text-left text-primary font-primary font-normal leading-normal sm:text-[13px]">
 									{data.ServiceSecDesc2}
 								</p>
-								<Button
-									btnText={data.ServiceSecBtnText}
-									btnVariant="primary-button services-about-button mt-4 sm:hidden sm:mt-16"
-								/>
+								<Link href="/contacts">
+									<Button
+										btnText={data.ServiceSecBtnText}
+										btnVariant="primary-button services-about-button mt-4 sm:hidden sm:mt-16"
+									/>
+								</Link>
 							</div>
 							<div className="service-info-section-modal-image h-[731px] laptop-x:hidden absolute top-0 left-0 sm:w-full sm:h-[328px] sm:max-w-[450px] sm:mx-auto sm:block sm:relative sm:mt-[50px]">
 								<Image

@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "@/components/elements/button/button";
+import Link from "next/link";
 
 interface ServicesBannerProps {
 	data: {
@@ -31,10 +32,12 @@ const ServicesBanner: React.FC<ServicesBannerProps> = ({ data }) => {
 							<p className="banner-description text-primary text-[24px] text-left max-w-[824px] mr-auto font-primary  font-medium leading-normal mb-0 sm:text-[13px]">
 								{formattedDescription}
 							</p>
-							<Button
-								btnText={data.bannerBtnText}
-								btnVariant="primary-button services-banner-button mt-12 sm:mt-8"
-							/>
+							<Link href="/contacts">
+								<Button
+									btnText={data.bannerBtnText}
+									btnVariant="primary-button services-banner-button mt-12 sm:mt-8"
+								/>
+							</Link>
 						</div>
 					</div>
 				</div>

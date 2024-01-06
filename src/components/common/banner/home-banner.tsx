@@ -5,7 +5,7 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 import Button from "@/components/elements/button/button";
 import { ArrowDownModalIcons } from "@/icons";
-import { Image } from "@packages/packages";
+import { Image, Link } from "@packages/packages";
 import CustomCursor from "../CustomCursor";
 interface HomeBannerProps {}
 
@@ -79,10 +79,12 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
 									<h3 className="banner-subtitle sm:hidden mt-[46px] text-[24px] text-left text-primary font-normal font-primary leading-none">
 										welcome to <span className="color-text">particular</span>
 									</h3>
-									<Button
-										btnText="Our Services"
-										btnVariant="primary-button banner-button sm:hidden mt-10 cursor-scale grow-small"
-									/>
+									<Link href="/services">
+										<Button
+											btnText="Our Services"
+											btnVariant="primary-button banner-button sm:hidden mt-10 cursor-scale grow-small"
+										/>
+									</Link>
 								</div>
 								<div className="banner-modal-video-box main-test-modal-bg absolute top-0 right-[60px] sm:left-0  sm:right-0 z-20 sm:h-full sm:object-cover">
 									<Image

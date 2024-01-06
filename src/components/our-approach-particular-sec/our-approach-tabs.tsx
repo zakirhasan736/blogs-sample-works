@@ -1,15 +1,17 @@
 "use client";
 import React, { useEffect, useRef, useState } from 'react';
 import Button from '@/components/elements/button/button';
+import Link from 'next/link';
 
 interface TabData {
-  id: string;
-  title: string;
-  content: {
-    beforeList: string[];
-    lists: string[];
-    afterList: string[];
-  };
+	id: string;
+	title: string;
+	content: {
+		beforeList: string[];
+		lists: string[];
+		afterList: string[];
+	};
+	ItemsLinks:string;
 }
 
 const OurApproachTabs: React.FC<{ data: TabData[] }> = ({ data }) => {
@@ -144,10 +146,12 @@ const OurApproachTabs: React.FC<{ data: TabData[] }> = ({ data }) => {
 									{paragraph}
 								</p>
 							))}
-							<Button
-								btnText="Learn More"
-								btnVariant="primary-button max-w-[172px] text-[24px] shadow-box-shadow-primary whitespace-nowrap mt-[30px] ml-auto sm:text-[18px] sm:ml-0"
-							/>
+							<Link href={tab.ItemsLinks}>
+								<Button
+									btnText="Learn More"
+									btnVariant="primary-button max-w-[172px] text-[24px] shadow-box-shadow-primary whitespace-nowrap mt-[30px] ml-auto sm:text-[18px] sm:ml-0"
+								/>
+							</Link>
 						</div>
 					</div>
 				))}

@@ -36,28 +36,30 @@ const Footer: React.FC<FooterProps> = () => {
 								</Link>
 							</li>
 							<li className="footer-link-widgets-items">
-								<Link href="/" className="flex items-center gap-1">
+								<Link href="/case-study" className="flex items-center gap-1">
 									<span className="link-text  text-[20px] text-left text-neu-black font-medium font-primary leading-none md:text-[20px]">
 										Case Studies
 									</span>
 								</Link>
 							</li>
 							<li className="footer-link-widgets-items">
-								<Link href="/" className="flex items-center gap-1">
+								<Link href="/services" className="flex items-center gap-1">
 									<span className="link-text  text-[20px] text-left text-neu-black font-medium font-primary leading-none md:text-[20px]">
 										Services
 									</span>
 								</Link>
 							</li>
 							<li className="footer-link-widgets-items">
-								<Link href="/" className="flex items-center gap-1">
+								<Link href="/our-approach" className="flex items-center gap-1">
 									<span className="link-text  text-[20px] text-left text-neu-black font-medium font-primary leading-none md:text-[20px]">
 										Our Approach
 									</span>
 								</Link>
 							</li>
 							<li className="footer-link-widgets-items">
-								<Link href="/" className="flex items-center gap-1">
+								<Link
+									href="/features/colour-craft"
+									className="flex items-center gap-1">
 									<span className="link-text  text-[20px] text-left text-neu-black font-medium font-primary leading-none md:text-[20px]">
 										Features
 									</span>
@@ -88,14 +90,14 @@ const Footer: React.FC<FooterProps> = () => {
 								</Link>
 							</li>
 							<li className="footer-link-widgets-items">
-								<Link href="/" className="flex items-center gap-1">
+								<Link href="/faq" className="flex items-center gap-1">
 									<span className="link-text  text-[20px] text-left text-neu-black font-medium font-primary leading-none md:text-[20px]">
 										FAQ’s
 									</span>
 								</Link>
 							</li>
 							<li className="footer-link-widgets-items">
-								<Link href="/" className="flex items-center gap-1">
+								<Link href="/articles" className="flex items-center gap-1">
 									<span className="link-text  text-[20px] text-left text-neu-black font-medium font-primary leading-none md:text-[20px]">
 										Articles
 									</span>

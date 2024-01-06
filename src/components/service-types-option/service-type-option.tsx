@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Button from "@elements/button/button";
 import React from "react";
+import Link from "next/link";
 interface ServiceType {
 	title: string;
 	description: string;
@@ -42,10 +43,12 @@ const ServiceTypeOption: React.FC<ServiceTypeOptionProps> = ({ data }) => {
 									</li>
 								))}
 							</ul>
-							<Button
-								btnText={data.ServicesTypeSecBtnText}
-								btnVariant="primary-button services-type-options-button mt-5 sm:hidden sm:mt-16"
-							/>
+							<Link href="/contacts">
+								<Button
+									btnText={data.ServicesTypeSecBtnText}
+									btnVariant="primary-button services-type-options-button mt-5 sm:hidden sm:mt-16"
+								/>
+							</Link>
 						</div>
 						<div className="col-span-7">
 							<div className="services-type-sec-modal relative sm:absolute sm:right-0 sm:bottom-0 mt-4 sm:w-[168px] sm:h-[186px]">

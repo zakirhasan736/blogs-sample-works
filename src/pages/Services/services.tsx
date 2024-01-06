@@ -49,6 +49,7 @@ const Services = () => {
 			description:
 				"Particular SEO: a foreign language made easy. Making Search Engine Optimisation friendly, so it works for you too.",
 			btnText: "Discover more",
+			servieItemLinks: "/services/seo",
 		},
 		{
 			title: "WEB Design & development",
@@ -56,6 +57,7 @@ const Services = () => {
 			description:
 				"Feels like a web design agency, helps like a doctor.  We listen first, and then serve. Particular Websites combine SEO, Strategy and UX to build high-speed, accessible sites that convert even the most stern audiences.",
 			btnText: "Discover more",
+			servieItemLinks: "/services/web-design-development",
 		},
 		{
 			title: "PPC",
@@ -63,6 +65,7 @@ const Services = () => {
 			description:
 				"Social Networking. Reimagining your ideas around the concept of Social Media to engage your community of like-minded thinkers and fans.",
 			btnText: "Discover more",
+			servieItemLinks: "/services/ppc",
 		},
 		{
 			title: "Branding",
@@ -70,6 +73,7 @@ const Services = () => {
 			description:
 				"Particular Branding is where stories find their visual voice and sense of feeling. We listen, we create, and we define your brand's essence. Crafting distinctive identities that resonate and endure.",
 			btnText: "Discover more",
+			servieItemLinks: "/services/branding",
 		},
 		{
 			title: "Visual Media.",
@@ -77,6 +81,7 @@ const Services = () => {
 			description:
 				"Humankind has spent millennia captivated by important stories told well. Create a pioneering story from your free-thought around your vision. We’ll handle the attention to detail.",
 			btnText: "Discover more",
+			servieItemLinks: "/services/visual-media",
 		},
 		{
 			title: "Social Media",
@@ -84,6 +89,7 @@ const Services = () => {
 			description:
 				"Social Networking. Reimagining your ideas around the concept of Social Media to engage your community of like-minded thinkers and fans.",
 			btnText: "Discover more",
+			servieItemLinks: "/services/social-media",
 		},
 	];
 	const GalleryPrevSlidesData = [

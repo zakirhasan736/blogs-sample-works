@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import {Image} from "@packages/packages";
+import {Image, Link} from "@packages/packages";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Navigation, Thumbs } from "swiper/modules";
@@ -59,9 +59,11 @@ const ServiceGroupSlider = ({ slides, GalleryPrevSlides }) => {
 								<p className="service-slide-desc mb-8 text-[#CBCBCB] text-[16px] text-left font-primary font-normal tracking-[.32px] capitalize leading-normal">
 									{slide.description}
 								</p>
-								<h4 className="service-slide-btn text-[24px] text-neu-white text-left font-primary font-normal tracking-[.9px] leading-none mb-14">
-									{slide.btnText}
-								</h4>
+								<Link href={slide.servieItemLinks}>
+									<h4 className="service-slide-btn text-[24px] text-neu-white text-left font-primary font-normal tracking-[.9px] leading-none mb-14">
+										{slide.btnText}
+									</h4>
+								</Link>
 								<span className="w-8 h-8 sm:w-5 sm:h-5 border border-[#fff] cursor-pointer block"></span>
 							</div>
 						</SwiperSlide>
