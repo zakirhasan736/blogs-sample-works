@@ -1,10 +1,19 @@
 import NotFound from "@/app/not-found";
 import ServicesCategoriesPage from "@/pages/Services/Services-details/ServicesCategory";
-
+export function generateStaticParams() {
+	return [
+		{ category: "branding" },
+		{ category: "ppc" },
+		{ category: "seo" },
+		{ category: "social-media" },
+		{ category: "visual-media" },
+		{ category: "web-design-development" },
+	];
+}
 async function getData(category: any) {
 	try {
 		const res = await fetch(
-			`https://blogs-sample-works.vercel.app/data/services/${category}.json`,
+			`http://localhost:3000/data/services/${category}.json`,
 			{
 				cache: "no-store",
 			},

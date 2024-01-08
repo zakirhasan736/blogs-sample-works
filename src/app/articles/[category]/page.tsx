@@ -1,12 +1,12 @@
 import NotFound from "@/app/not-found";
 import ArticlesCategory from "@/pages/Articles-page/ArticleCategory";
+export function generateStaticParams() {
+	return [{ category: "articles-one" }];
+}
 async function getData(category: any) {
 	try {
 		const res = await fetch(
-			`https://blogs-sample-works.vercel.app/data/articles/${category}.json`,
-			{
-				cache: "no-store",
-			},
+			`http://localhost:3000/data/articles/${category}.json`,
 		);
 
 		if (!res.ok) {

@@ -1,10 +1,16 @@
 import NotFound from "@/app/not-found";
 import CategoriesPage from "@/pages/our-approach/CategoriesPage";
-
+export function generateStaticParams() {
+	return [
+		{ category: "attention-to-detail" },
+		{ category: "free-thought" },
+		{ category: "pioneering" },
+	];
+}
 async function getData(category: any) {
 	try {
 		const res = await fetch(
-			`https://blogs-sample-works.vercel.app/data/our-approach/${category}.json`,
+			`http://localhost:3000/data/our-approach/${category}.json`,
 			{
 				cache: "no-store",
 			},

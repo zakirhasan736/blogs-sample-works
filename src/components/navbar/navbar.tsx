@@ -31,7 +31,7 @@ const Navbar = () => {
 			return "bg-[#000]";
 		} else if (pathname.includes("/services/")) {
 			return "bg-[#000]";
-		} else if (pathname.includes("/case-study/")) {
+		} else if (pathname.includes("/case-studies/")) {
 			return "absolute w-full left-0 right-0 top-6 sm:top-0 bg-transparent z-[9999]";
 		} else {
 			return "bg-transparent relative";
@@ -89,7 +89,7 @@ const Navbar = () => {
 							<li className="navbar-nav-items">
 								<div className="navbar-inner-link-box flex items-center gap-2">
 									<Link
-										href="/case-study"
+										href="/case-studies"
 										className="relative text-primary flex items-center gap-2 text-center text-[16px] font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
 										<span>Case Studies</span>
 									</Link>
