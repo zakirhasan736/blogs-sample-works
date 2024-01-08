@@ -8,7 +8,11 @@
     },
     "ProjectOverviewData":{
             "projectOverviewSubtitle": "Project Overview ",
-            "projectOverviewTitle": "Elevating Hult International Business School's Online Presence and Student Enrolment through Web Design and Google Ads",
+            "projectOverviewTitle": "",
+           "projectOverviewBeforeColorTitle": "Elevating Hult International Business School's Online Presence and Student Enrolment through ",
+           "projectOverviewTitleColor": "Web Design and Google Ads",
+        "projectOverviewAfterColorTitle": "",
+            "projectOverviewDesc": "",
             "quoteText": "Collaborating closely with Hult's marketing team, we devised a fresh visual identity, complete with a modern logo, an updated color palette, and typography choices that reflected the institution's global outlook.",
             "overviewPortfolioTitle": "Web Design",
             "overviewPortfolioImage": "/images/case-study-modal-image-3.jpg"
@@ -62,19 +66,19 @@
                 "image": "/images/featured-case-study-img-1.png",
                 "title": "Hult Ib School",
                 "subtitle": "web design and Brand Assets",
-                "link": "/case-study/hult-ib-school"
+                "link": "/case-studies/hult-ib-school"
             },
             {
                 "image": "/images/featured-case-study-img-2.png",
                 "title": "ZENBASE",
                 "subtitle": "web design and Brand Assets",
-                "link": "/case-study/zanbase"
+                "link": "/case-studies/zenbase"
             },
             {
                 "image": "/images/featured-case-study-img-3.png",
                 "title": "KNIGHT’S ACADEMY",
                 "subtitle": "web design and Brand Assets",
-                "link": "/case-study/knights-academy"
+                "link": "/case-studies/knights-academy"
             }
         ]
     }

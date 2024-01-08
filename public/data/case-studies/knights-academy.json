@@ -7,9 +7,9 @@
         "BannerDesc": "Knights Academy’s Transformation: A feat of strategic web design and digital marketing prowess, connecting talents with opportunities from across continents, crafted with meticulous, precision and care."
     },
     "ProjectOverviewData":{
-            "projectOverviewSubtitle": "Project Overview Subtitle",
-            "projectOverviewTitle": "Project Overview",
-            "projectOverviewDesc": "Revolutionising the Way Young Athletes Connect with Scouts and Coaches: Knight’s Academy Cutting Edge Web Platform Redefines Opportunities in American Football and Beyond.",
+            "projectOverviewSubtitle": "Project Overview",
+            "projectOverviewBeforeColorTitle": "Revolutionising the Way Young Athletes Connect with Scouts and Coaches: Knight’s Academy Cutting Edge Web Platform Redefines Opportunities in American Football and Beyond",
+            "projectOverviewDesc": "",
             "quoteDescText": "Our journey with Knight’s Academy started with a deep dive into its mission and history. Through extensive research and meaningful conversations, we unearthed the unique qualities that drive this platform’s commitment to connecting talent with professional opportunities in American Football.",
             "overviewPortfolioTitle": "Web Design",
             "overviewPortfolioImage": "/images/case-study-modal-image-6.jpg"
@@ -62,19 +62,19 @@
                 "image": "/images/featured-case-study-img-1.png",
                 "title": "Hult Ib School",
                 "subtitle": "web design and Brand Assets",
-                "link": "/case-study/hult-ib-school"
+                "link": "/case-studies/hult-ib-school"
             },
             {
                 "image": "/images/featured-case-study-img-2.png",
                 "title": "ZENBASE",
                 "subtitle": "web design and Brand Assets",
-                "link": "/case-study/zanbase"
+                "link": "/case-studies/zenbase"
             },
             {
                 "image": "/images/featured-case-study-img-3.png",
                 "title": "KNIGHT’S ACADEMY",
                 "subtitle": "web design and Brand Assets",
-                "link": "/case-study/knights-academy"
+                "link": "/case-studies/knights-academy"
             }
         ]
     }

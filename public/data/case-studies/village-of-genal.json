@@ -7,8 +7,10 @@
         "BannerDesc": "The Village of Genalguacil's transformation serves as a testament to the power of strategic branding and visual identity. Crossing International borders while operating thoroughly in the language of intention and attention to detail."
     },
     "ProjectOverviewData":{
-            "projectOverviewSubtitle": "Project Overview Subtitle",
-            "projectOverviewTitle": "Revitalizing Pueblo Museo’s display of the Village of Genalguacil’s image: Building Unique Branding and Visual Identity to Attract Tourism and Investment",
+            "projectOverviewSubtitle": "Project Overview",
+           "projectOverviewBeforeColorTitle": "Revitalizing Pueblo Museo’s display of the Village of Genalguacil’s image: ",
+        "projectOverviewTitleColor": "Building Unique Branding and Visual Identity",
+        "projectOverviewAfterColorTitle": " to Attract Tourism and Investment",
             "quoteDescText": "We embarked on this journey by immersing ourselves in Genal's culture and history. Extensive research and interviews with locals allowed us to unearth the village's hidden gems and distinctive qualities.",
             "overviewPortfolioTitle": "Visual Identity",
             "overviewPortfolioImage": "/images/case-study-modal-image-4.jpg"
@@ -61,19 +63,19 @@
                 "image": "/images/featured-case-study-img-1.png",
                 "title": "Hult Ib School",
                 "subtitle": "web design and Brand Assets",
-                "link": "/case-study/hult-ib-school"
+                "link": "/case-studies/hult-ib-school"
             },
             {
                 "image": "/images/featured-case-study-img-2.png",
                 "title": "ZENBASE",
                 "subtitle": "web design and Brand Assets",
-                "link": "/case-study/zanbase"
+                "link": "/case-studies/zenbase"
             },
             {
                 "image": "/images/featured-case-study-img-3.png",
                 "title": "KNIGHT’S ACADEMY",
                 "subtitle": "web design and Brand Assets",
-                "link": "/case-study/knights-academy"
+                "link": "/case-studies/knights-academy"
             }
         ]
     }

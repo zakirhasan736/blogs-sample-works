@@ -7,9 +7,9 @@
         "BannerDesc": "Naeo’s evolution: A triumph of purposeful Branding and web design excellence, Bridging borders with precision and care."
     },
     "ProjectOverviewData":{
-            "projectOverviewSubtitle": "Project Overview Subtitle",
-            "projectOverviewTitle": "Project Overview",
-            "projectOverviewDesc": "Transforming NAEO’s Digital Presence: Crafting Distinctive Web design and Visual Identity for Enhanced Engagement and Sustainability.",
+            "projectOverviewSubtitle": "Project Overview",
+            "projectOverviewBeforeColorTitle": "Transforming NAEO’s Digital Presence: Crafting Distinctive Web design and Visual Identity for Enhanced Engagement and Sustainability.",
+            "projectOverviewDesc": "",
             "quoteDescText": "Our exploration commenced by delving deep into Naeo’s ethos and origin story. Extensive research and insightful conversations unveiled the core essence and unique qualities driving this brand forward.",
             "overviewPortfolioTitle": "Web Design",
             "overviewPortfolioImage": "/images/case-study-modal-image-5.jpg"
@@ -62,19 +62,19 @@
                 "image": "/images/featured-case-study-img-1.png",
                 "title": "Hult Ib School",
                 "subtitle": "web design and Brand Assets",
-                "link": "/case-study/hult-ib-school"
+                "link": "/case-studies/hult-ib-school"
             },
             {
                 "image": "/images/featured-case-study-img-2.png",
                 "title": "ZENBASE",
                 "subtitle": "web design and Brand Assets",
-                "link": "/case-study/zanbase"
+                "link": "/case-studies/zenbase"
             },
             {
                 "image": "/images/featured-case-study-img-3.png",
                 "title": "KNIGHT’S ACADEMY",
                 "subtitle": "web design and Brand Assets",
-                "link": "/case-study/knights-academy"
+                "link": "/case-studies/knights-academy"
             }
         ]
     }

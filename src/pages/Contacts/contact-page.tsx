@@ -221,7 +221,7 @@ const [loading, setLoading] = useState(false);
 									best help you.
 								</p>
 							</div>
-							<ul className="socials-widgets flex items-center gap-12">
+							{/* <ul className="socials-widgets flex items-center gap-12">
 								<li className="socials-widgets-list-item">
 									<Link href="/" className="block">
 										<TwitterIcons isWhiteVariant={true} />
@@ -237,7 +237,7 @@ const [loading, setLoading] = useState(false);
 										<YoutubeIcons isWhiteVariant={true} />
 									</Link>
 								</li>
-							</ul>
+							</ul> */}
 						</div>
 						<div className="contact-page-main-right-cont col-span-9  pl-16 laptop-m:pl-0 w-full">
 							<h6 className="contact-form-title mb-10 text-text--large text-left text-light-gray font-primary font-normal leading-none">

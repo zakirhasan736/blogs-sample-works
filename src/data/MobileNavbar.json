@@ -5,31 +5,31 @@
     },
     {
         "name": "Case Studies",
-        "path": "/case-study",
+        "path": "/case-studies",
         "dropdownItems": [
             {
                 "name": "Zenbase",
-                "path": "/case-study/zenbase"
+                "path": "/case-studies/zenbase"
             },
             {
                 "name": "Ai & Humanity",
-                "path": "/case-study/ai-and-humanity"
+                "path": "/case-studies/ai-and-humanity"
             },
             {
                 "name": "Hult Id School",
-                "path": "/case-study/hult-ib-school"
+                "path": "/case-studies/hult-ib-school"
             },
             {
                 "name": "knights Academy",
-                "path": "/case-study/knights-academy"
+                "path": "/case-studies/knights-academy"
             },
             {
                 "name": "NAEO",
-                "path": "/case-study/naeo"
+                "path": "/case-studies/naeo"
             },
             {
                 "name": "Village Of Genal",
-                "path": "/case-study/village-of-genal"
+                "path": "/case-studies/village-of-genal"
             }
         ]
     },

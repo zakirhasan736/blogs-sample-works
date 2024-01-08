@@ -15,7 +15,7 @@ const navItems: NavItem[] = [
 		name: "Home",
 	},
 	{
-		path: "/case-study",
+		path: "/case-studies",
 		name: "Case Studies",
 	},
 	{
@@ -75,7 +75,7 @@ const isActiveApproach =
 	pathname === "/our-approach" || isPathIncluded(pathname, "/our-approach/");
 
 		const isActiveCaseStudies =
-			pathname === "/case-study" || isPathIncluded(pathname, "/case-study/");
+			pathname === "/case-study" || isPathIncluded(pathname, "/case-studies/");
 
 
 	return (
@@ -87,7 +87,7 @@ const isActiveApproach =
 				{navItems.map(item => {
 					const isActive =
 						item.path === pathname ||
-						(item.path === "/case-study" && isActiveCaseStudies) ||
+						(item.path === "/case-studies" && isActiveCaseStudies) ||
 						(item.path === "/our-approach" && isActiveApproach) ||
 						(item.path === "/services" && isActiveServices);
 

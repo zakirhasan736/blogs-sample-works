@@ -2,85 +2,85 @@
     "StudyMenuItems": [
         {
             "title": "Zenbase",
-            "path": "/case-study/zenbase",
+            "path": "/case-studies/zenbase",
             "subItems": [
                 {
                     "title": "Web Design",
-                    "path": "/case-study/zenbase"
+                    "path": "/case-studies/zenbase"
                 },
                 {
                     "title": "Branding",
-                    "path": "/case-study/zenbase"
+                    "path": "/case-studies/zenbase"
                 }
             ]
         },
         {
             "title": "AI & Humanity",
-            "path": "/case-study/ai-and-humanity",
+            "path": "/case-studies/ai-and-humanity",
             "subItems": [
                 {
                     "title": "Branding",
-                    "path": "/case-study/ai-and-humanity"
+                    "path": "/case-studies/ai-and-humanity"
                 },
                 {
                     "title": "Visual Media",
-                    "path": "/case-study/ai-and-humanity"
+                    "path": "/case-studies/ai-and-humanity"
                 }
             ]
         },
         {
             "title": "Hult IB School",
-            "path": "/case-study/hult-ib-school",
+            "path": "/case-studies/hult-ib-school",
             "subItems": [
                 {
                     "title": "Web Design & Development",
-                    "path": "/case-study/hult-ib-school"
+                    "path": "/case-studies/hult-ib-school"
                 },
                 {
                     "title": "PPC",
-                    "path": "/case-study/hult-ib-school"
+                    "path": "/case-studies/hult-ib-school"
                 }
             ]
         },
         {
             "title": "Village of Genal",
-            "path": "/case-study/village-of-genal",
+            "path": "/case-studies/village-of-genal",
             "subItems": [
                 {
                     "title": "Branding",
-                    "path": "/case-study/village-of-genal"
+                    "path": "/case-studies/village-of-genal"
                 },
                 {
                     "title": "Visual Media",
-                    "path": "/case-study/village-of-genal"
+                    "path": "/case-studies/village-of-genal"
                 }
             ]
         },
         {
             "title": "Knights Academy",
-            "path": "/case-study/knights-academy",
+            "path": "/case-studies/knights-academy",
             "subItems": [
                 {
                     "title": "Web Design",
-                    "path": "/case-study/knights-academy"
+                    "path": "/case-studies/knights-academy"
                 },
                 {
                     "title": "Web Development",
-                    "path": "/case-study/knights-academy"
+                    "path": "/case-studies/knights-academy"
                 }
             ]
         },
         {
             "title": "NAEO",
-            "path": "/case-study/naeo",
+            "path": "/case-studies/naeo",
             "subItems": [
                 {
                     "title": "Web Design",
-                    "path": "/case-study/naeo"
+                    "path": "/case-studies/naeo"
                 },
                 {
                     "title": "Visual Media",
-                    "path": "/case-study/naeo"
+                    "path": "/case-studies/naeo"
                 }
             ]
         }

@@ -7,11 +7,13 @@
         "BannerDesc": "Building an intentionally inclusive UX/UI solution to bolster Zenbase’s delivery of a financial health solutions to renters and property managers."
     },
     "ProjectOverviewData":{
-            "projectOverviewSubtitle": "Project Overview Subtitle",
-            "projectOverviewTitle": "Project Overview Title",
-            "projectOverviewDesc": "Description of the project overview goes here.",
+            "projectOverviewSubtitle": "Project Overview",
+            "projectOverviewBeforeColorTitle": "Elevating Zenbase with Intuitive UX/UI Design and Compelling Brand Assets",
+            "projectOverviewTitleColor": "",
+            "projectOverviewAfterColorTitle": "",
+            "projectOverviewDesc": "",
             "quoteText": "The UI design embraced a minimalist approach, featuring soft colour palettes, clean typography, and unobtrusive icons. The navigation was streamlined to provide an effortless journey through the app's automated financial health fixes.",
-            "quoteDescText": "Our challenge was clear: create a compelling visual identity for the campaign and produce marketing assets that would simultaneously cultivate imagination.",
+            "quoteDescText": "",
             "overviewPortfolioTitle": "Web Design",
             "overviewPortfolioImage": "/images/project-overview-image.jpg"
     },
@@ -62,19 +64,19 @@
                 "image": "/images/featured-case-study-img-1.png",
                 "title": "Hult Ib School",
                 "subtitle": "web design and Brand Assets",
-                "link": "/case-study/hult-ib-school"
+                "link": "/case-studies/hult-ib-school"
             },
             {
                 "image": "/images/featured-case-study-img-2.png",
                 "title": "ZENBASE",
                 "subtitle": "web design and Brand Assets",
-                "link": "/case-study/zenbase"
+                "link": "/case-studies/zenbase"
             },
             {
                 "image": "/images/featured-case-study-img-3.png",
                 "title": "KNIGHT’S ACADEMY",
                 "subtitle": "web design and Brand Assets",
-                "link": "/case-study/knights-academy"
+                "link": "/case-studies/knights-academy"
             }
         ]
     }

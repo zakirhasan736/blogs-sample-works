@@ -3,7 +3,9 @@ import React from "react";
 interface ProjectOverviewProps {
 	data: {
 		projectOverviewSubtitle?: string;
-		projectOverviewTitle?: string;
+		projectOverviewBeforeColorTitle?: string;
+		projectOverviewTitleColor?: string;
+		projectOverviewAfterColorTitle?: string;
 		projectOverviewDesc?: string;
 		quoteText?: string;
 		quoteDescText?: string;
@@ -20,9 +22,13 @@ const ProjectOverview: React.FC<ProjectOverviewProps> = ({ data }) => {
 					<h4 className="overview-subtitle uppercase empty:hidden mb-14 sm:mb-8 text-left text-[22px] text-neu-white font-primary font-semibold tracking-[3.36px] leading-none sm:text-[14px]">
 						{data.projectOverviewSubtitle || ""}
 					</h4>
+
 					<h2 className="overview-title empty:hidden text-[60px] laptop-x:text-[54px] md:text-[34px] sm:mb-[23px] sm:text-[23px] text-left text-neu-white font-primary font-semibold leading-[1.1]">
-						{data.projectOverviewTitle || ""}
+						{data.projectOverviewBeforeColorTitle || ""}
+						<span className="text-secondary">{data.projectOverviewTitleColor || ""}</span>
+						{data.projectOverviewAfterColorTitle || ""}
 					</h2>
+
 					<p className="overview-desc empty:hidden mt-16 text-[26px] max-w-[1048px] w-full sm:text-[18px] text-left text-neu-white font-primary font-medium leading-normal">
 						{data.projectOverviewDesc || ""}
 					</p>

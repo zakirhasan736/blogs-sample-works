@@ -8,7 +8,9 @@
     },
     "ProjectOverviewData":{
             "projectOverviewSubtitle": "Project Overview ",
-            "projectOverviewTitle": "To Empower Spark Presents: AI & Humanity with a Captivating Visual Identity and Marketing Assets to Drive Thought Leadership",
+            "projectOverviewBeforeColorTitle": "To Empower ",
+            "projectOverviewTitleColor": "Spark Presents: AI & Humanity",
+            "projectOverviewAfterColorTitle": " with a Captivating Visual Identity and Marketing Assets to Drive Thought Leadership",
             "projectOverviewDesc": "Our collaboration with Spark Presents: AI & Humanity demonstrated the transformative power of a compelling visual identity and thoughtfully crafted marketing assets. By sparking curiosity and conversation, we successfully propelled the campaign into the forefront of discussions on A.I and its impact on humanity, fostering meaningful dialogue and exploration of the future.",
             "quoteText": "Spark Presents: AI & Humanity aimed to host a groundbreaking event exploring the intersection of artificial intelligence and humanity's future. To engage and inspire a diverse audience of tech enthusiasts, scholars, and policymakers, they needed a visual identity that could spark curiosity and conversation.",
             "quoteDescText": "Our challenge was clear: create a compelling visual identity for the campaign and produce marketing assets that would simultaneously cultivate imagination.",
@@ -63,19 +65,19 @@
                 "image": "/images/featured-case-study-img-1.png",
                 "title": "Hult Ib School",
                 "subtitle": "web design and Brand Assets",
-                "link": "/case-study/hult-ib-school"
+                "link": "/case-studies/hult-ib-school"
             },
             {
                 "image": "/images/featured-case-study-img-2.png",
                 "title": "ZENBASE",
                 "subtitle": "web design and Brand Assets",
-                "link": "/case-study/zanbase"
+                "link": "/case-studies/zenbase"
             },
             {
                 "image": "/images/featured-case-study-img-3.png",
                 "title": "KNIGHT’S ACADEMY",
                 "subtitle": "web design and Brand Assets",
-                "link": "/case-study/knights-academy"
+                "link": "/case-studies/knights-academy"
             }
         ]
     }

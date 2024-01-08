@@ -91,7 +91,7 @@ const Footer: React.FC<FooterProps> = () => {
 								</Link>
 							</li>
 							<li className="footer-link-widgets-items">
-								<Link href="/case-study" className="flex items-center gap-1">
+								<Link href="/case-studies" className="flex items-center gap-1">
 									<span className="link-text  text-[20px] text-left text-neu-black font-medium font-primary leading-none md:text-[20px]">
 										Case Studies
 									</span>
@@ -165,7 +165,7 @@ const Footer: React.FC<FooterProps> = () => {
 							<h4 className="footer-right-widgets-title sm:hidden text-neu-black text-left font-semibold font-primary leading-none text-[32px] md:text-[32px]">
 								Lets Talk!
 							</h4>
-							<ul className="socials-widgets flex items-center gap-3">
+							{/* <ul className="socials-widgets flex items-center gap-3">
 								<li className="socials-widgets-list-item w-[30px]">
 									<Link href="/">
 										<TwitterIcons />
@@ -181,7 +181,7 @@ const Footer: React.FC<FooterProps> = () => {
 										<YoutubeIcons />
 									</Link>
 								</li>
-							</ul>
+							</ul> */}
 						</div>
 						<form action="" className="cta-subs-widgets-form"></form>
 						<div className="cta-subs-widgets relative sm:hidden">
