@@ -25,7 +25,7 @@ const ProjectOverview: React.FC<ProjectOverviewProps> = ({ data }) => {
 
 					<h2 className="overview-title empty:hidden text-[60px] laptop-x:text-[54px] md:text-[34px] sm:mb-[23px] sm:text-[23px] text-left text-neu-white font-primary font-semibold leading-[1.1]">
 						{data.projectOverviewBeforeColorTitle || ""}
-						<span className="text-secondary">{data.projectOverviewTitleColor || ""}</span>
+						<span className="text-secondary empty:hidden">{data.projectOverviewTitleColor || ""}</span>
 						{data.projectOverviewAfterColorTitle || ""}
 					</h2>
 
