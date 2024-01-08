@@ -4,38 +4,38 @@ import ServiceGroupSlider from "./service-group-slider";
 const Services = () => {
 	const ServiceSwiperSlidesData = [
 		{
-			title: "Our Services",
-			subtitle: "SEO",
+			title: "SEO",
+			subtitle: "Our Services",
 			description:
 				"Optimisation in your search engine efforts comes from understanding - what to assess, where to place your efforts and how to make an impact",
 		},
 		{
-			title: "Our Services",
-			subtitle: "Web Design & Development",
+			title: "Web Design & Development",
+			subtitle: "Our Services",
 			description:
 				"Particular Websites combine UX, Strategy and Interactivity to build high-speed, accessible sites that convert.",
 		},
 		{
-			title: "Our Services",
-			subtitle: "PPC",
+			title: "PPC",
+			subtitle: "Our Services",
 			description:
 				"Our Paid Search advertising is about having the flexibility to adapt. We can adjust your ad campaigns quickly and easily to ensure you’re always up to speed.",
 		},
 		{
-			title: "Our Services",
-			subtitle: "BRANDing",
+			title: "Branding",
+			subtitle: "Our Services",
 			description:
 				"Every brand possesses a distinctiveness akin to the individuality of a fingerprint. Demanding a personalized strategy as exceptional as the brand's own signature.",
 		},
 		{
-			title: "Our Services",
-			subtitle: "vISUAL MEDIA",
+			title: "Visual Media",
+			subtitle: "Our Services",
 			description:
 				"Every brand possesses a distinctiveness akin to the individuality of a fingerprint. Demanding a personalized strategy as exceptional as the brand's own signature.",
 		},
 		{
-			title: "Our Services",
-			subtitle: "Social media",
+			title: "Social media",
+			subtitle: "Our Services",
 			description:
 				"At Particular, we understand that social media isn't just about posts and likes; it's about crafting a unique digital narrative.",
 		},
@@ -51,7 +51,7 @@ const Services = () => {
 			servieItemLinks: "/services/seo",
 		},
 		{
-			title: "WEB Design & Development",
+			title: "Web Design & Development",
 			modalTitle: "WEB DEV",
 			description:
 				"Feels like a web design agency, helps like a doctor.  We listen first, and then serve. Particular Websites combine SEO, Strategy and UX to build high-speed, accessible sites that convert even the most stern audiences.",
@@ -98,8 +98,8 @@ const Services = () => {
 			ModalImage: "/images/gif/Section01-1.gif",
 		},
 		{
-			ModalTitle: "WEB Dev",
-			Title: "WEB Design & Development",
+			ModalTitle: "Web Design & Development",
+			Title: "Web Design & Development",
 			ModalImage: "/images/gif/Section03.gif",
 		},
 		{

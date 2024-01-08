@@ -501,13 +501,13 @@ li.navbar-nav-items .megamenu-wrapper-content:before {
 .swiper-slide.swiper-slide-visible.swiper-slide-thumb-active .services-slide-card-items .slider-model-text,
 .swiper-slide-visible.swiper-slide-fully-visible.swiper-slide-thumb-active .services-slide-card-items .slider-model-text {
     font-family: Urbanist;
-    font-size: 290px;
+    font-size: 190px;
     font-style: normal;
     font-weight: 400;
     line-height: 1; /* 771.8px */
     text-transform: uppercase;
     position: absolute;
-    top: -138px;
+    top: -110px;
     left: -112px;
     opacity: 1;
     color: transparent;
