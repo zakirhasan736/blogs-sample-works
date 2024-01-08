@@ -15,7 +15,7 @@ export function generateStaticParams() {
 async function getData(category: any) {
 	try {
 		const res = await fetch(
-			`http://localhost:3000/data/case-studies/${category}.json`,
+			`https://blogs-sample-works.vercel.app/data/case-studies/${category}.json`,
 		);
 
 		if (!res.ok) {

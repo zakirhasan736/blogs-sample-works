@@ -10,7 +10,7 @@ export function generateStaticParams() {
 async function getData(category: any) {
 	try {
 		const res = await fetch(
-			`http://localhost:3000/data/our-approach/${category}.json`,
+			`https://blogs-sample-works.vercel.app/data/our-approach/${category}.json`,
 			{
 				cache: "no-store",
 			},
