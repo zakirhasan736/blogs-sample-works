@@ -130,7 +130,7 @@ const Services = () => {
 			{/* service page banner section end*/}
 
 			{/* services details istems info card slide */}
-			<section className="services-item-card-wrapper pb-[160px] pt-[133px] sm:pt-[80px] sm:pb-[120px]">
+			<section className="services-item-card-wrapper pb-[160px] pt-[133px] md:pt-20 sm:pt-20 sm:pb-[120px]">
 				<div className="custom-container">
 					<div className="services-main-title-box pl-[50px] md:pl-0 max-w-[1430px] mx-auto">
 						<h2 className="services-main-title text-[48px] sm:text-[32px] text-left text-neu-white font-primary font-normal uppercase leading-[190%] tracking-[.8px]">
