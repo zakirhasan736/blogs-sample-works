@@ -67,7 +67,10 @@ const CategoriesPage: React.FC<CategoryPageProps> = ({ data }) => {
 				{/* thought division dedtails info end */}
 
 				{/* our statics section */}
-				<OurStatics staticsItems={staticsItems} />
+				<OurStatics
+					ourStaticsTitle="Growth, revenue, results"
+					staticsItems={staticsItems}
+				/>
 				{/* our statics section end*/}
 			</div>
 		</div>

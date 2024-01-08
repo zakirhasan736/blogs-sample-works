@@ -1,11 +1,66 @@
-import { ArrowDownIcons, InstagrameIcons, TwitterIcons, YoutubeIcons } from "@/icons";
-import {Image, Link} from "@packages/packages";
+"use client";
+import {
+	ArrowDownIcons,
+	InstagrameIcons,
+	TwitterIcons,
+	YoutubeIcons,
+} from "@/icons";
+import { Image, Link, useState } from "@packages/packages";
 import BackToTop from "../elements/back-to-top-btn/back-to-top";
-import React from "react";
+
 interface FooterProps {}
 
 const Footer: React.FC<FooterProps> = () => {
-  return (
+	const [email, setEmail] = useState("");
+	const [error, setError] = useState("");
+	const [success, setSuccessMessage] = useState("");
+	const [loading, setLoading] = useState(false);
+
+	const handleSubmit = async () => {
+		setLoading(true);
+		const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+		const isEmty = (input: any) => (input === "" ? true : false);
+		if (isEmty(email)) {
+			setError("Email is required");
+			return;
+		} else if (!emailRegex.test(email)) {
+			setError("Email should be a valid email address");
+			return;
+		}
+		setError("");
+		try {
+			const response = await fetch("/api/subscription", {
+				method: "POST",
+				headers: {
+					"Content-Type": "application/json",
+				},
+				body: JSON.stringify({
+					email,
+				}),
+			});
+
+			if (!response.ok) {
+				throw new Error("Network response was not ok");
+			}
+
+			const responseData = await response.json();
+
+			if (responseData.status === 200) {
+				setEmail("");
+				setSuccessMessage("Subcription Successfully!");
+				setTimeout(() => {
+					setSuccessMessage("");
+				}, 3000);
+			} else {
+				console.error("EmailJS error:", responseData);
+			}
+		} catch (error) {
+			console.error("EmailJS error:", error);
+		} finally {
+			setLoading(false);
+		}
+	};
+	return (
 		<footer className="footer-section bg-[#D9D9D9] w-full">
 			<div className="custom-container relative">
 				<BackToTop />
@@ -128,17 +183,23 @@ const Footer: React.FC<FooterProps> = () => {
 								</li>
 							</ul>
 						</div>
+						<form action="" className="cta-subs-widgets-form"></form>
 						<div className="cta-subs-widgets relative sm:hidden">
 							<input
 								className="cta-input-fild w-full text-left focus:border-none focus:outline-0 text-neu-black capitalize text-18px font-medium font-primary leading-none h-16 px-11 py-[7px] laptop-m:pl-[22px]"
 								type="email"
 								name="email"
 								placeholder="Enter your email"
+								value={email}
+								onChange={e => setEmail(e.target.value)}
 							/>
+							{error && <p>{error}</p>}
+							{success && !loading && <p>{success}</p>}
 							<button
 								type="button"
+								onClick={handleSubmit}
 								className="absolute top-0 right-0 z-50 subs-btn py-[39px] pr-[9px] pb-[7px] pl-[9px] bg-neu-blue h-16 flex justify-start items-end w-[133px] laptop-m:w-[110px]  text-left text-neu-white text-text-xs-small font-medium font-primary leading-none">
-								Suscribe
+								{loading ? "Loading..." : "Suscribe"}
 							</button>
 						</div>
 					</div>

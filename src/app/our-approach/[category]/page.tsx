@@ -46,7 +46,7 @@ const page = async ({ params }: any) => {
 
 	return (
 		<>
-			<CategoriesPage data={data} />
+			<CategoriesPage  data={data} />
 		</>
 	);
 };

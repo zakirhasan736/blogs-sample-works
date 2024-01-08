@@ -151,30 +151,7 @@
             }
         ]
     },
-    "ServicescaseStudyFeaturedData": {
-        "CaseStudyServices": [
-            {
-                "image": "/images/featured-case-study-image.png",
-                "title": "Case Study 1",
-                "description": "Engineering high-speed sites for every popular CMS, including Wix, Squarespace, Shopify, Webflow, Jimdo, Weebly, Webnode and GoDaddy.",
-                "btnText": "Discover More"
-            },
-            {
-                "image": "/images/featured-case-study-image-2.png",
-                "title": "Case Study 2",
-                "description": "Engineering high-speed sites for every popular CMS, including Wix, Squarespace, Shopify, Webflow, Jimdo, Weebly, Webnode and GoDaddy.",
-                "btnText": "Discover More"
-            },
-            {
-                "image": "/images/featured-case-study-image-3.png",
-                "title": "Case Study 3",
-                "description": "Engineering high-speed sites for every popular CMS, including Wix, Squarespace, Shopify, Webflow, Jimdo, Weebly, Webnode and GoDaddy.",
-                "btnText": "Discover More"
-            }
-        ],
-        "ServicesCaseStudyTitle": "Web Design & Development Case Studies "
-     
-    },
+   
     "ServicesProcessData": {
         "ProcessStepSecTitle": "The Process",
         "ProcessStepFeaturedImage": "/images/services-process-modal-img-2.jpg",

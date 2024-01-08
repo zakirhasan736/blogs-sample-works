@@ -26,11 +26,11 @@
   ],
   "DivisionData": {
     "modalScrollText": "Pioneering",
-    "thoughtDivisionTitle": "Free Thought",
-    "thoughtDivisionSubtitle": "Free-thought at Particular involves pursuing new and often non-conventional ideas."
+    "thoughtDivisionTitle": "PIONEERING",
+    "thoughtDivisionSubtitle": "Areas of thinking we explore with you in our digital and creative solutions:"
   },
     "ThoughtDivisionData": [
-     
+
       {
         "detailsinfo_title": "User Experience",
         "detailsinfo_description": "Intuitive, aesthetically pleasing user-journey designs combined with innovative, sensible functionality in your online and offline business components.",
@@ -45,15 +45,6 @@
         "detailsinfo_title": "Science",
         "detailsinfo_description": "Make intelligent, people-centric business decisions that benefit your brand’s eco-system. The data that humanity has uncovered in Psychology, Economics and Business ties it all together.",
         "infoList": null
-      },
-      {
-        "detailsinfo_title": "This Particular philosophy is foundationally rooted in:",
-        "detailsinfo_description": null,
-        "infoList": [
-          "Open-minded Investigation",
-          "Humility",
-          "A Strong-willed mindset"
-        ]
       }
     ],
     "staticsItems": [

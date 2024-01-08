@@ -11,7 +11,7 @@ const Services = () => {
 		},
 		{
 			title: "Our Services",
-			subtitle: "WEB Design & development",
+			subtitle: "Web Design & Development",
 			description:
 				"Particular Websites combine UX, Strategy and Interactivity to build high-speed, accessible sites that convert.",
 		},
@@ -27,7 +27,6 @@ const Services = () => {
 			description:
 				"Every brand possesses a distinctiveness akin to the individuality of a fingerprint. Demanding a personalized strategy as exceptional as the brand's own signature.",
 		},
-
 		{
 			title: "Our Services",
 			subtitle: "vISUAL MEDIA",
@@ -52,7 +51,7 @@ const Services = () => {
 			servieItemLinks: "/services/seo",
 		},
 		{
-			title: "WEB Design & development",
+			title: "WEB Design & Development",
 			modalTitle: "WEB DEV",
 			description:
 				"Feels like a web design agency, helps like a doctor.  We listen first, and then serve. Particular Websites combine SEO, Strategy and UX to build high-speed, accessible sites that convert even the most stern audiences.",
@@ -100,7 +99,7 @@ const Services = () => {
 		},
 		{
 			ModalTitle: "WEB Dev",
-			Title: "WEB Design & development",
+			Title: "WEB Design & Development",
 			ModalImage: "/images/gif/Section03.gif",
 		},
 		{

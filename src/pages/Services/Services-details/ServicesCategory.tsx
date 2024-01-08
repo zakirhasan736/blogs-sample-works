@@ -3,7 +3,7 @@ import GoogleInsightBrandBox from "@/components/google-insigh-brand-box/google-i
 import ServiceAboutInfoSection from "@/components/service-about-info-section/service-about-info-section";
 import ServiceProcessStep from "@/components/service-process-step/service-process-step";
 import ServiceTypeOption from "@/components/service-types-option/service-type-option";
-import ServicesCaseStudy from "@/components/services-case-study/services-case-study";
+// import ServicesCaseStudy from "@/components/services-case-study/services-case-study";
 import ServicesFaq from "@/components/services-faq-section/services-faq";
 import React from "react";
 interface ServicesCategoryPageProps {
@@ -43,7 +43,7 @@ const ServicesCategoriesPage: React.FC<ServicesCategoryPageProps> = ({
 			{/* service insight google brand section */}
 			<GoogleInsightBrandBox />
 			{/* service case study section */}
-			<ServicesCaseStudy data={ServicescaseStudyFeaturedData} />
+			{/* <ServicesCaseStudy data={ServicescaseStudyFeaturedData} /> */}
 			{/* service our process section */}
 			<ServiceProcessStep data={ServicesProcessData} />
 			{/* service our faq section */}

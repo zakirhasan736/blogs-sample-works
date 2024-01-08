@@ -2,7 +2,6 @@
 "use client";
 import ContactBanner from "@/components/common/banner/contact-banner";
 import { Link, useState } from "@packages/packages";
-
 import {
   ArrowDownIcons,
   InstagrameIcons,
@@ -15,6 +14,7 @@ import Checkbox from "./Checkbox";
 import InputField from "./InputField";
 import TextArea from "./TextArea";
 import PivacyCheckmark from "./PivacyCheckmark";
+import SendStatesLoader from "./SendStatesLoader";
 
 interface ApiResponse<T> {
   message: string;
@@ -25,6 +25,7 @@ interface ApiResponse<T> {
 const ContactPage = () => {
   const [selectedValue, setSelectedValue] = useState("");
   const [success, setSuccessMessage] = useState("");
+const [loading, setLoading] = useState(false);
 
   const [data, setData] = useState({
     firstName: "",
@@ -91,109 +92,113 @@ const ContactPage = () => {
   };
 
   const handleSubmitMessage = async (e: { preventDefault: () => void }) => {
-    e.preventDefault();
+		e.preventDefault();
+        setLoading(true);
+		const errors: any = {};
+		const phoneRegex = /^\d{11}$/;
+		const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+		const isEmty = (input: any) => (input === "" ? true : false);
+		if (isEmty(data.firstName)) {
+			errors.firstName = "First name is required";
+		}
+		if (isEmty(data.lastName)) {
+			errors.lastName = "Last name is required";
+		}
+		if (isEmty(data.call)) {
+			errors.call = "Phone number is required";
+		} else if (!phoneRegex.test(data.call)) {
+			errors.call = "Phone number should be 11 digits only";
+		}
 
-    const errors: any = {};
-    const phoneRegex = /^\d{11}$/;
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    const isEmty = (input: any) => (input === "" ? true : false);
-    if (isEmty(data.firstName)) {
-      errors.firstName = "First name is required";
-    }
-    if (isEmty(data.lastName)) {
-      errors.lastName = "Last name is required";
-    }
-    if (isEmty(data.call)) {
-      errors.call = "Phone number is required";
-    } else if (!phoneRegex.test(data.call)) {
-      errors.call = "Phone number should be 11 digits only";
-    }
+		if (isEmty(data.email)) {
+			errors.email = "Email is required";
+		} else if (!emailRegex.test(data.email)) {
+			errors.email = "Email should be a valid email address";
+		}
 
-    if (isEmty(data.email)) {
-      errors.email = "Email is required";
-    } else if (!emailRegex.test(data.email)) {
-      errors.email = "Email should be a valid email address";
-    }
+		if (isEmty(data.serviceType)) {
+			errors.serviceType = "Service type is required";
+		} else {
+			delete errors.serviceType;
+		}
 
-    if (isEmty(data.serviceType)) {
-      errors.serviceType = "Service type is required";
-    } else {
-      delete errors.serviceType;
-    }
+		if (isEmty(data.industry)) {
+			errors.industry = "Industry is required";
+		}
 
-    if (isEmty(data.industry)) {
-      errors.industry = "Industry is required";
-    }
+		if (isEmty(data.investmentRabge)) {
+			errors.investmentRabge = "Investment range is required";
+		}
 
-    if (isEmty(data.investmentRabge)) {
-      errors.investmentRabge = "Investment range is required";
-    }
+		if (isEmty(data.bussinesSize)) {
+			errors.bussinesSize = "Business size is required";
+		}
 
-    if (isEmty(data.bussinesSize)) {
-      errors.bussinesSize = "Business size is required";
-    }
+		if (isEmty(data.projectIdea)) {
+			errors.projectIdea = "Project idea is required";
+		}
 
-    if (isEmty(data.projectIdea)) {
-      errors.projectIdea = "Project idea is required";
-    }
+		if (isEmty(data.desc)) {
+			errors.desc = "Description is required";
+		}
 
-    if (isEmty(data.desc)) {
-      errors.desc = "Description is required";
-    }
+		if (isEmty(data.PivacyCheckmark)) {
+			errors.PivacyCheckmark = "Privacy consent is required";
+		} else {
+			delete errors.PivacyCheckmark;
+		}
 
-    if (isEmty(data.PivacyCheckmark)) {
-      errors.PivacyCheckmark = "Privacy consent is required";
-    } else {
-      delete errors.PivacyCheckmark;
-    }
+		setDataErrors({ ...dataErrors, ...errors });
 
-    setDataErrors({ ...dataErrors, ...errors });
-
-    if (Object.keys(errors).length === 0) {
-      try {
-        const response = await fetch(
-					"https://blogs-sample-works.vercel.app/api/mail-send",
-					{
-						method: "POST",
-						headers: {
-							"Content-Type": "application/json",
-						},
-						body: JSON.stringify(data),
+		if (Object.keys(errors).length === 0) {
+			try {
+				const response = await fetch("/api/mail-send", {
+					method: "POST",
+					headers: {
+						"Content-Type": "application/json",
 					},
-				);
+					body: JSON.stringify(data),
+				});
 
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
+				if (!response.ok) {
+					throw new Error("Network response was not ok");
+				}
 
-        const responseData = (await response.json()) as ApiResponse<any>;
-        if (responseData) {
-          setData({
-            firstName: "",
-            lastName: "",
-            call: "",
-            email: "",
-            serviceType: "",
-            industry: "",
-            investmentRabge: "",
-            bussinesSize: "",
-            projectIdea: "",
-            desc: "",
-            PivacyCheckmark: "",
-          })
-          setSelectedValue("")
-          setSuccessMessage("Message sent successfully!");
-          setTimeout(() => {
-            setSuccessMessage("");
-          }, 3000);
-        }
-      } catch (error) {
-        console.log("Error:", error);
-      }
-    } else {
-      return;
-    }
-  };
+				const responseData = await response.json();
+
+				if (responseData.status === 200) {
+					setData({
+						firstName: "",
+						lastName: "",
+						call: "",
+						email: "",
+						serviceType: "",
+						industry: "",
+						investmentRabge: "",
+						bussinesSize: "",
+						projectIdea: "",
+						desc: "",
+						PivacyCheckmark: "",
+					});
+					setSelectedValue("");
+					setSuccessMessage("Message sent successfully!");
+					setTimeout(() => {
+						setSuccessMessage("");
+					}, 3000);
+				} else {
+					// Handle error
+					console.error("EmailJS error:", responseData);
+				}
+			} catch (error) {
+				console.error("EmailJS error:", error);
+			} finally {
+				setLoading(false); // Set loading state to false when done
+			}
+		} else {
+			setLoading(false);
+			return;
+		}
+	};
 
   return (
 		<div className="contact-page-main-wrapper">
@@ -391,7 +396,7 @@ const ContactPage = () => {
 										value={data.bussinesSize}
 										error={dataErrors.bussinesSize}
 										onChange={handlesendDataChange}
-										placeholder="How Would You describe your business size?"
+										placeholder="How is your business size?"
 									/>
 									{/* ========= */}
 									{/* ======= */}
@@ -403,7 +408,7 @@ const ContactPage = () => {
 										value={data.projectIdea}
 										error={dataErrors.projectIdea}
 										onChange={handlesendDataChange}
-										placeholder="How particular you have been about your idea?"
+										placeholder="Where you found Particula?"
 									/>
 									{/* ========= */}
 								</div>
@@ -418,13 +423,15 @@ const ContactPage = () => {
 										placeholder="Message"
 									/>
 								</div>
-								{success ?? <p>{success}</p>}
-								<div className="submite-btn-box my-[10px]">
+								{success && !loading && <p>{success}</p>}
+
+								<div className="submite-btn-box my-[10px] flex items-center gap-4">
 									<Button
 										type="submit"
-										btnText="Send"
+										btnText={loading ? "Loading..." : "Send"}
 										btnVariant="primary-submit-button form-btn max-w-[122px]"
 									/>
+									{loading ? <SendStatesLoader /> : ""}
 								</div>
 								<PivacyCheckmark
 									id="checkmark"
