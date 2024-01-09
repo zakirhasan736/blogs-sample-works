@@ -1,19 +1,10 @@
 import NotFound from "@/app/not-found";
-import CategoriesPage from "@/pages/our-approach/CategoriesPage";
-export function generateStaticParams() {
-	return [
-		{ category: "attention-to-detail" },
-		{ category: "free-thought" },
-		{ category: "pioneering" },
-	];
-}
+import CategoriesPage from "@/pageComponents/our-approach/CategoriesPage";
+
 async function getData(category: any) {
 	try {
 		const res = await fetch(
-			`https://blogs-sample-works.vercel.app/data/our-approach/${category}.json`,
-			{
-				cache: "no-store",
-			},
+			`${process.env.NEXT_PUBLIC_API_URL}/data/our-approach/${category}.json`,
 		);
 
 		if (!res.ok) {

@@ -1,4 +1,4 @@
-import OurApproach from "@/pages/our-approach/our-approch";
+import OurApproach from "@/pageComponents/our-approach/our-approch";
 
 export default function page() {
   return (

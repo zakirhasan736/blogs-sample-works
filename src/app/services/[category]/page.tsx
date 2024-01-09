@@ -1,22 +1,10 @@
 import NotFound from "@/app/not-found";
-import ServicesCategoriesPage from "@/pages/Services/Services-details/ServicesCategory";
-export function generateStaticParams() {
-	return [
-		{ category: "branding" },
-		{ category: "ppc" },
-		{ category: "seo" },
-		{ category: "social-media" },
-		{ category: "visual-media" },
-		{ category: "web-design-development" },
-	];
-}
+import ServicesCategoriesPage from "@/pageComponents/Services/Services-details/ServicesCategory";
+
 async function getData(category: any) {
 	try {
 		const res = await fetch(
-			`https://blogs-sample-works.vercel.app/data/services/${category}.json`,
-			{
-				cache: "no-store",
-			},
+			`${process.env.NEXT_PUBLIC_API_URL}/data/services/${category}.json`,
 		);
 
 		if (!res.ok) {

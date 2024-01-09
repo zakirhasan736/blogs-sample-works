@@ -152,7 +152,7 @@ const [loading, setLoading] = useState(false);
 
 		if (Object.keys(errors).length === 0) {
 			try {
-				const response = await fetch("/api/mail-send", {
+				const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/mail-send`, {
 					method: "POST",
 					headers: {
 						"Content-Type": "application/json",

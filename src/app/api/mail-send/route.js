@@ -35,6 +35,7 @@ export async function POST(req) {
             });
         }
     } catch (error) {
+        console.log(error)
         return NextResponse.json({
             status: 500,
             message: "Mail send failed",
@@ -42,4 +43,4 @@ export async function POST(req) {
     }
 }
 
-// export const dynamic = "force-dynamic";
+export const dynamic = "force-dynamic";

@@ -1,21 +1,11 @@
 import NotFound from "@/app/not-found";
-import CaseStudyCategory from "@/pages/CaseStudy/CaseStudyDetails/CaseStudyCategory";
+import CaseStudyCategory from "@/pageComponents/CaseStudy/CaseStudyDetails/CaseStudyCategory";
 
-export function generateStaticParams() {
-	return [
-		{ category: "zenbase" },
-		{ category: "ai-and-humanity" },
-		{ category: "hult-ib-school" },
-		{ category: "knights-academy" },
-		{ category: "village-of-genal" },
-		{ category: "naeo" },
-	];
-}
 
 async function getData(category: any) {
 	try {
 		const res = await fetch(
-			`https://blogs-sample-works.vercel.app/data/case-studies/${category}.json`,
+			`${process.env.NEXT_PUBLIC_API_URL}/data/case-studies/${category}.json`,
 		);
 
 		if (!res.ok) {
