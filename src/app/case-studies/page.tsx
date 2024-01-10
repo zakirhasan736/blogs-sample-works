@@ -17,13 +17,13 @@ const navItems: NavItem[] = [
 	},
 	{
 		path: "/images/case-study-card-2.png",
-		title: "AI & Environment",
+		title: "AI & Humanity",
 		subtitle: "web design and Brand Assets",
 		link: "/case-studies/ai-and-humanity",
 	},
 	{
 		path: "/images/case-study-card-3.png",
-		title: "AI & Health",
+		title: "AI & Humanity",
 		subtitle: "web design and Brand Assets",
 		link: "/case-studies/ai-and-humanity",
 	},
@@ -59,7 +59,7 @@ const navItems: NavItem[] = [
 	},
 	{
 		path: "/images/case-study-card-9.png",
-		title: "AI & Future",
+		title: "AI & Humanity",
 		subtitle: "web design and Brand Assets",
 		link: "/case-studies/ai-and-humanity",
 	},

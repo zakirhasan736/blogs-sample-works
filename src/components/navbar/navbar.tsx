@@ -160,8 +160,8 @@ const Navbar = () => {
 					</nav>
 					<Link className="w-full max-w-[159px] md:hidden" href="/contacts">
 						<Button
-							btnText="0208 068 2102"
-							btnVariant="pca-secondary-button text-[16px] laptop-m:text-[16px] md:hidden border-4 border-secondary"
+							btnText="Contact Us"
+							btnVariant="pca-secondary-button capitalize text-[16px] laptop-m:text-[16px] md:hidden border-4 border-secondary"
 						/>
 					</Link>
 				</div>

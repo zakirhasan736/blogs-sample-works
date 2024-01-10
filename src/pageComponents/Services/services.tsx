@@ -75,8 +75,8 @@ const Services = () => {
 			servieItemLinks: "/services/branding",
 		},
 		{
-			title: "Visual Media.",
-			modalTitle: "Visual Media.",
+			title: "Visual Media",
+			modalTitle: "Visual Media",
 			description:
 				"Humankind has spent millennia captivated by important stories told well. Create a pioneering story from your free-thought around your vision. We’ll handle the attention to detail.",
 			btnText: "Discover more",
@@ -113,8 +113,8 @@ const Services = () => {
 			ModalImage: "/images/gif/Section02-1.gif",
 		},
 		{
-			ModalTitle: "Visual Media.",
-			Title: "Visual Media.",
+			ModalTitle: "Visual Media",
+			Title: "Visual Media",
 			ModalImage: "/images/gif/section 3.gif",
 		},
 		{

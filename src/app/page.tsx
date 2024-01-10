@@ -13,34 +13,29 @@ import SliderItemsData from "@data/home-page-data/home-case-study-slider.json";
 const Home = () => {
 	const testimonialsSliderData = [
 		{
-			title: "Anantara",
-			description:
-				"Anantara, the agency for global luxury travel experiences, hired Particular to rebrand into a seamless travel-booking experience for their worldwide pool of users.",
-		},
-		{
-			title: "Knights Academy",
-			description:
-				"Knights Academy, the agency for global luxury travel experiences, hired Particular to rebrand into a seamless travel-booking experience for their worldwide pool of users.",
-		},
-		{
 			title: "Heat Centre",
 			description:
-				"Heat Centre, the agency for global luxury travel experiences, hired Particular to rebrand into a seamless travel-booking experience for their worldwide pool of users.",
+				"We collaborated with Particular for the redesign of our website. The team at Particular was fantastic, efficiently handling last-minute demands and employing a comprehensive design process. I strongly endorse Particular for anyone in need of website services.",
 		},
 		{
 			title: "Anantara",
 			description:
-				"Anantara, the agency for global luxury travel experiences, hired Particular to rebrand into a seamless travel-booking experience for their worldwide pool of users.",
+				"Since our collaboration began, we've experienced consistent improvement in our marketing outcomes, social media engagement, and brand visibility. I highly recommend Particular to any expanding business in search of a dependable marketing ally.",
 		},
 		{
-			title: "Knights Academy",
+			title: "Knight's Academy",
 			description:
-				"Knights Academy, the agency for global luxury travel experiences, hired Particular to rebrand into a seamless travel-booking experience for their worldwide pool of users.",
+				"Our partnership with Particular Agency for our web application development has been nothing short of remarkable. Their team's expertise in crafting intuitive and engaging web apps has significantly elevated our online presence. The team's attention to detail, innovative approach, and responsiveness to our needs have been exceptional.",
 		},
 		{
 			title: "Heat Centre",
 			description:
-				"Heat Centre, the agency for global luxury travel experiences, hired Particular to rebrand into a seamless travel-booking experience for their worldwide pool of users.",
+				"We collaborated with Particular for the redesign of our website. The team at Particular was fantastic, efficiently handling last-minute demands and employing a comprehensive design process. I strongly endorse Particular for anyone in need of website services.",
+		},
+		{
+			title: "Anantara",
+			description:
+				"Since our collaboration began, we've experienced consistent improvement in our marketing outcomes, social media engagement, and brand visibility. I highly recommend Particular to any expanding business in search of a dependable marketing ally.",
 		},
 	];
 	return (

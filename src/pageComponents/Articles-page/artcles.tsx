@@ -15,7 +15,7 @@ const Artcles = () => {
 
 	const bannerData = {
 		subHeading: "Pioneering",
-		title: "Article 1",
+		title: "Article ty1",
 		description: "Lorem Ipsum. This is generated texted for reference purposes",
 		isColorText: false, // Set to true for color text, false for normal text
 	};

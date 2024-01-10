@@ -20,11 +20,28 @@ interface ApiResponse<T> {
 	data: T;
 	status: number;
 }
+interface ServiceType {
+	id: string;
+	label: string;
+}
 
-const ContactPage = () => {
-	const [selectedValue, setSelectedValue] = useState("");
+const serviceTypes: ServiceType[] = [
+	{ id: "webDesign", label: "Web Design and Development" },
+	{ id: "visualMedia", label: "Visual Media" },
+	{ id: "branding", label: "Branding" },
+	{ id: "seo", label: "SEO" },
+	{ id: "ppc", label: "PPC" },
+	{ id: "socialMedia", label: "Social Media" },
+	// Add more service types here as needed
+];
+
+const ContactPage: React.FC = () => {
+	// const [selectedValue, setSelectedValue] = useState("");
 	const [success, setSuccessMessage] = useState("");
 	const [loading, setLoading] = useState(false);
+  const [selectedValues, setSelectedValues] = useState<string[]>([]);
+
+
 
 	const [data, setData] = useState({
 		firstName: "",
@@ -54,16 +71,12 @@ const ContactPage = () => {
 		PivacyCheckmark: "",
 	});
 
-	const handleCheckboxChange = (newValue: string) => {
-		setSelectedValue(newValue);
-		setDataErrors(prevErrors => ({
-			...prevErrors,
-			serviceType: "",
-		}));
 
+  const handleCheckboxChange = (newSelectedValues: string[]) => {
+		setSelectedValues(newSelectedValues);
 		setData(prevData => ({
 			...prevData,
-			serviceType: newValue,
+			serviceType: newSelectedValues.join(", "), // Update to join multiple values
 		}));
 	};
 
@@ -151,13 +164,16 @@ const ContactPage = () => {
 
 		if (Object.keys(errors).length === 0) {
 			try {
-				const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/mail-send`, {
-					method: "POST",
-					headers: {
-						"Content-Type": "application/json",
+				const response = await fetch(
+					`${process.env.NEXT_PUBLIC_API_URL}/api/mail-send`,
+					{
+						method: "POST",
+						headers: {
+							"Content-Type": "application/json",
+						},
+						body: JSON.stringify(data),
 					},
-					body: JSON.stringify(data),
-				});
+				);
 
 				if (!response.ok) {
 					throw new Error("Network response was not ok");
@@ -179,7 +195,7 @@ const ContactPage = () => {
 						desc: "",
 						PivacyCheckmark: "",
 					});
-					setSelectedValue("");
+					setSelectedValues([]);
 					setSuccessMessage("Message sent successfully!");
 					setTimeout(() => {
 						setSuccessMessage("");
@@ -206,10 +222,20 @@ const ContactPage = () => {
 				<div className="custom-container">
 					<div className="contact-page-main-content grid grid-cols-16 gap-5 sm:gap-[45px] sm:flex sm:flex-col-reverse max-w-[1430px] mx-auto">
 						<div className="contact-page-main-left-cont col-span-7   pl-4 laptop-m:pl-0 max-w-[546px] sm:max-w-full w-full">
-							<p className="contact-page-nfo-desc mb-16 sm:mb-[35px]  text-left text-light-gray font-primary font-normal leading-normal sm:max-w-[332px] text-[26px] sm:text-[18px]">
-								Lorem ipsum dolor sit amet consectetur. Senectus habitant
-								scelerisque mauris magna vitae et.
-							</p>
+							<div className="pragraph-text-box  mb-16 sm:mb-[35px]">
+								<p className="contact-page-nfo-desc mb-5 text-left text-light-gray font-primary font-normal leading-normal sm:max-w-[332px] text-[26px] sm:text-[18px]">
+									Hey there! Let’s chat
+								</p>
+								<p className="contact-page-nfo-desc mb-5 text-left text-light-gray font-primary font-normal leading-normal sm:max-w-[332px] text-[26px] sm:text-[18px]">
+									Interested in working with us?
+								</p>
+								<p className="contact-page-nfo-desc mb-5 text-left text-light-gray font-primary font-normal leading-normal sm:max-w-[332px] text-[26px] sm:text-[18px]">
+									Or you want to get in touch about a general enquiry?
+								</p>
+								<p className="contact-page-nfo-desc  text-left text-light-gray font-primary font-normal leading-normal sm:max-w-[332px] text-[26px] sm:text-[18px]">
+									Fill in the form today, and our team will be in touch shortly.
+								</p>
+							</div>
 							<div className="contact-address-info-box mb-16 sm:mb-[35px]">
 								<h6 className="info-title text-left text-primary font-primary font-normal leading-normal mb-5 sm:mb-2 sm:max-w-[311px] text-[26px] sm:text-[18px]">
 									Prefer to talk?
@@ -303,54 +329,17 @@ const ContactPage = () => {
 										Which Service(s) are you looking for?
 									</h6>
 									<div className="contacts-forms-service-lists-box flex md:flex-wrap md:justify-center justify-between items-start gap-3 sm:flex-col sm:items-center sm:justify-center">
-										<Checkbox
-											label="Web Design and Development"
-											id="services1"
-											htmlFor="services1"
-											value="Web Design and Development"
-											selectedValue={selectedValue}
-											onChange={handleCheckboxChange}
-										/>
-										<Checkbox
-											label="Visual Media"
-											id="services2"
-											htmlFor="services2"
-											value="Visual Media"
-											selectedValue={selectedValue}
-											onChange={handleCheckboxChange}
-										/>
-										<Checkbox
-											label="Branding"
-											id="services3"
-											htmlFor="services3"
-											value="Branding"
-											selectedValue={selectedValue}
-											onChange={handleCheckboxChange}
-										/>
-										<Checkbox
-											label="SEO"
-											id="services4"
-											htmlFor="services4"
-											value="SEO"
-											selectedValue={selectedValue}
-											onChange={handleCheckboxChange}
-										/>
-										<Checkbox
-											label="PPC"
-											id="services5"
-											htmlFor="services5"
-											value="PPC"
-											selectedValue={selectedValue}
-											onChange={handleCheckboxChange}
-										/>
-										<Checkbox
-											label="Social Media"
-											id="services6"
-											htmlFor="services6"
-											value="Social Media"
-											selectedValue={selectedValue}
-											onChange={handleCheckboxChange}
-										/>
+										{serviceTypes.map(service => (
+											<Checkbox
+												key={service.id}
+												label={service.label}
+												value={service.id}
+												id={`services-${service.id}`} // Change as needed for unique IDs
+												htmlFor={`services-${service.id}`} // Change as needed for unique HTML for attributes
+												selectedValues={selectedValues} // Pass the array of selected values
+												onChange={handleCheckboxChange}
+											/>
+										))}
 									</div>
 									{dataErrors.serviceType ?? (
 										<p className="text-red-700">{dataErrors.serviceType}</p>
@@ -395,7 +384,7 @@ const ContactPage = () => {
 										value={data.bussinesSize}
 										error={dataErrors.bussinesSize}
 										onChange={handlesendDataChange}
-										placeholder="How is your business size?"
+										placeholder="Business Size"
 									/>
 									{/* ========= */}
 									{/* ======= */}
@@ -407,7 +396,7 @@ const ContactPage = () => {
 										value={data.projectIdea}
 										error={dataErrors.projectIdea}
 										onChange={handlesendDataChange}
-										placeholder="Where you found Particula?"
+										placeholder="Company Name"
 									/>
 									{/* ========= */}
 								</div>
