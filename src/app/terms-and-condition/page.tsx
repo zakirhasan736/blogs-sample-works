@@ -586,8 +586,11 @@ const TermsCondition = () => {
 					{/* ============ */}
 				</div>
 				<div className="cta-wrapper-box text-center flex justify-center flex-col items-center">
-					<p className="desc-text">
-						What’s Next Starts Here. Get in touch at Info@Byparticular.com
+					<p className="desc-text text-[18px] text-center text-neu-white font-medium font-primary leading-normal">
+						What’s Next Starts Here. Get in touch at{" "}
+						<Link href="mailto:Info@Byparticular.com" className="underline">
+							Info@Byparticular.com
+						</Link>
 					</p>
 					<Link href="/contacts" className="w-full flex justify-center">
 						<Button

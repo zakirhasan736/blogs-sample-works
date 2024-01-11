@@ -1125,6 +1125,11 @@ font-style: normal;
 font-weight: 400;
 line-height: 32px;
 }
+@media screen and (max-width:767px){
+  .legal-content-text-main-cont .info-text{
+font-size: 18px;
+}
+}
 }
 
 
