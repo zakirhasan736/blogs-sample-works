@@ -1131,7 +1131,7 @@ font-size: 18px;
 }
 }
 .swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden.article-card-slider .swiper-button-prev:after, .swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden.article-card-slider .swiper-button-next:after {
-    color: #000;
+    color: #fff;
 }
 }
 
