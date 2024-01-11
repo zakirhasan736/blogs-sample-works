@@ -46,7 +46,7 @@ const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({
 	};
 
 	return (
-		<section className="testimonials-section px-[71px] pt-[100px] pb-[100px] sm:pt-[50px] sm:pr-5 sm:pb-9 sm:pl-6 bg-black md:px-8">
+		<section className="testimonials-section px-[71px] pt-[60px] pb-[100px] sm:pt-[50px] sm:pr-5 sm:pb-9 sm:pl-6 bg-black md:px-8">
 			<div className="custom-container laptop-m:px-0">
 				<div className="testimonials-sec-wrapper max-w-[1330px] mx-auto">
 					<div className="testimonials-section-title-box mb-[59px] sm:mb-6">

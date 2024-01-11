@@ -24,7 +24,7 @@ const SectionTitleBoxTwo: React.FC<SectionTitleBoxTwoProps> = ({
 	return (
 		<div className={containerClasses}>
 			<div className="section-common-title-box col-span-7">
-				<h2 className="section-common-title max-w-[517px] text-neu-white text-left text-[60px] md:text-[38px] sm:text-[32px] font-primary font-semibold leading-[1.17]">
+				<h2 className="section-common-title max-w-[517px] text-neu-white text-left text-[68px] md:text-[38px] sm:text-[32px] font-primary font-semibold leading-[1.17]">
 					{title || ""}
 					{isColorText && <span className="color-text">{colorText || ""}</span>}
 				</h2>

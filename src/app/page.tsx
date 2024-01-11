@@ -1,6 +1,6 @@
 "use client";
 import AboutSection from "@/components/about-section/about-section";
-// import ArticlesSection from "@/components/article-section/articles-section";
+import ArticlesSection from "@/components/article-section/articles-section";
 import CaseStudySlider from "@/components/case-study-slider/case-study-slider";
 import ClientSection from "@/components/client-section/ClientSection";
 import HomeBanner from "@/components/common/banner/home-banner";
@@ -62,7 +62,7 @@ const Home = () => {
 			{/* case study slider section end*/}
 
 			{/* home article section */}
-			{/* <ArticlesSection /> */}
+			<ArticlesSection />
 			{/* home article section end*/}
 
 			{/* home testimonials section */}

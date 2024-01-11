@@ -1,20 +1,39 @@
 [
     {
         "id": 1,
-        "title": "How to Make a Website Business Successful",
-        "description": "Engineering high-speed sites for every popular CMS, including WiGoDaddy.",
-        "imageSrc": "/images/article-card-img.png"
+        "title": "Digital Marking Strategy in 2024",
+        "description": "To be the world biggest catalyst to high quality experiences for everyone, everywhere.",
+        "itemLink": "/articles/digital-marking-strategy",
+        "imageSrc": "/images/article-cad-img-1.png"
+        
     },
     {
         "id": 2,
-        "title": "How to Make a Website Business Successful",
-        "description": "Engineering high-speed sites for every popular CMS, including WiGoDaddy.",
-        "imageSrc": "/images/article-card-img.png"
-    },
+        "title": "Applying Free-thought by Particular",
+        "description": "To be the world biggest catalyst to high quality experiences for everyone, everywhere.",
+        "itemLink": "/articles/applying-free-thought",
+        "imageSrc": "/images/article-cad-img-2.png"
+        
+    }, 
     {
         "id": 3,
-        "title": "How to Make a Website Business Successful",
-        "description": "Engineering high-speed sites for every popular CMS, including WiGoDaddy.",
-        "imageSrc": "/images/article-card-img.png"
+        "title": "Psychology In Marketing",
+        "description": "To be the world biggest catalyst to high quality experiences for everyone, everywhere.",
+        "itemLink": "/articles/psychology-in-marketing",
+        "imageSrc": "/images/article-cad-img-3.png"
+    },
+    {
+        "id": 4,
+        "title": "Using Data in your Marketing",
+        "description": "To be the world biggest catalyst to high quality experiences for everyone, everywhere.",
+        "itemLink": "/articles/digital-marking-strategy",
+        "imageSrc": "/images/article-two.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Use Your Voice",
+        "description": "To be the world biggest catalyst to high quality experiences for everyone, everywhere.",
+        "itemLink": "/articles/use-your-voice",
+        "imageSrc": "/images/article-five.jpg"
     }
 ]

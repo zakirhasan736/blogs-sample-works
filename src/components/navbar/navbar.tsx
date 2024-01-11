@@ -21,17 +21,20 @@ const Navbar = () => {
 			return "bg-[#000]";
 		} else if (pathname === "/services") {
 			return "bg-[#000]";
-		} else if (pathname === "/our-approach" || pathname === "/articles") {
+		} else if (pathname === "/our-approach") {
 			return "bg-[#000]";
 		} else if (
 			pathname.includes("/our-approach/") ||
-			pathname.includes("/articles/") ||
+			
 			pathname.includes("/colour-craft") 
 		) {
 			return "bg-[#000]";
 		} else if (pathname.includes("/services/")) {
 			return "bg-[#000]";
-		} else if (pathname.includes("/case-studies/")) {
+		} else if (
+			pathname.includes("/articles/") ||
+			pathname.includes("/case-studies/")
+		) {
 			return "absolute w-full left-0 right-0 top-6 sm:top-0 bg-transparent z-[9999]";
 		} else {
 			return "bg-transparent relative";
@@ -161,7 +164,9 @@ const Navbar = () => {
 					<Link className="w-full max-w-[159px] md:hidden" href="/contacts">
 						<Button
 							btnText="Contact Us"
-							btnVariant="pca-secondary-button capitalize text-[16px] laptop-m:text-[16px] md:hidden border-4 border-secondary"
+							btnVariant={`pca-secondary-button capitalize text-[16px] laptop-m:text-[16px] md:hidden border-4 border-secondary ${pathname.includes(
+								"/articles/",
+							) ? 'bg-secondary-2' : ''}`}
 						/>
 					</Link>
 				</div>
