@@ -1,20 +1,18 @@
 name: Deploy
 
-# Trigger the workflow on push and
-# pull request events on the master branch
 on:
   push:
     branches: ["master"]
   pull_request:
     branches: ["master"]
 
-# Authenticate to the the server via ssh
-# and run our deployment script
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v2
+
       - name: Deploy to Server
         uses: appleboy/ssh-action@master
         with:
@@ -22,4 +20,20 @@ jobs:
           username: ${{ secrets.USERNAME }}
           port: ${{ secrets.PORT }}
           key: ${{ secrets.SSHKEY }}
-          script: "./blogs-sample-works/.scripts/deploy.sh"
+          script: |
+            echo "Deployment started..."
+
+            # Pull the latest version of the app
+            git pull origin master
+            echo "New changes copied to server !"
+
+            echo "Installing Dependencies..."
+            npm install --yes
+
+            echo "Creating Production Build..."
+            npm run build
+
+            echo "PM2 Reload"
+            pm2 reload 0
+
+            echo "Deployment Finished!"
