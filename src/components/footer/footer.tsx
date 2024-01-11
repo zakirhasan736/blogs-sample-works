@@ -166,7 +166,7 @@ const Footer: React.FC<FooterProps> = () => {
 								</Link>
 							</li>
 							<li className="footer-link-widgets-items">
-								<Link href="/articles/" className="flex items-center gap-1">
+								<Link href="/" className="flex items-center gap-1">
 									<span className="link-text  text-[20px] text-left text-neu-black font-medium font-primary leading-none md:text-[20px]">
 										Articles
 									</span>
