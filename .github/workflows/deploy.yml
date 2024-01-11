@@ -1,39 +1,32 @@
 name: Deploy
 
+# Trigger the workflow on push and
+# pull request events on the master branch
 on:
   push:
-    branches: ["master"]
+    branches: ["main"]
   pull_request:
-    branches: ["master"]
+    branches: ["main"]
 
+# Authenticate to the the server via ssh
+# and run our deployment script
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
 
-      - name: Deploy to Server
-        uses: appleboy/ssh-action@master
+    strategy:
+      matrix:
+        node-version: [14.x, 16.x, 18.x]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
         with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           port: ${{ secrets.PORT }}
           key: ${{ secrets.SSHKEY }}
-          script: |
-            echo "Deployment started..."
-
-            # Pull the latest version of the app
-            git pull origin master
-            echo "New changes copied to server !"
-
-            echo "Installing Dependencies..."
-            npm install --yes
-
-            echo "Creating Production Build..."
-            npm run build
-
-            echo "PM2 Reload"
-            pm2 reload 0
-
-            echo "Deployment Finished!"
+          script: "cd /home/blogs-sample-works && ./.scripts/deploy.sh"
