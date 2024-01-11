@@ -17,6 +17,6 @@ npm run build
 echo "PM2 Reload"
 /root/.nvm/versions/node/v20.9.0/bin/pm2 reload 0
 
-echo "PM2 Setup done"
+echo "PM2 Setup done!"
 
 echo "Deployment Finished!"
