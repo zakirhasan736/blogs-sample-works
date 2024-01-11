@@ -19,7 +19,7 @@ jobs:
           node-version: '20.9.0'
 
       - name: Deploy to Server
-        uses: appleboy/ssh-action@main
+        uses: appleboy/ssh-action@v0.0.9
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
