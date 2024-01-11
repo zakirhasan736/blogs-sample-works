@@ -1117,7 +1117,14 @@ ul.services-type-list-box li.services-types-option-list-items:last-child {
     transform: rotate(360deg);
   }
 }
-
+.legal-content-text-main-cont .info-text{
+  color: #FFF;
+font-family: 'Urbanist', sans-serif;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
 }
 
 
