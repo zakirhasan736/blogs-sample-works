@@ -15,6 +15,6 @@ echo "Creating Production Build..."
 npm run build
 
 echo "PM2 Reload"
-pm2 reload 0
+/root/.nvm/versions/node/v20.9.0/bin/pm2 reload 0
 
 echo "Deployment Finished!"
