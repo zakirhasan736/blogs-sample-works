@@ -927,4 +927,5 @@ body {
 .rayhan{
     text-align: center;
     justify-content: baseline;
+    display: inline-flex;
 }
