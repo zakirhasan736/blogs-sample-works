@@ -82,7 +82,7 @@ const Navbar = () => {
 									<Link
 										href="/"
 										className="relative text-primary flex items-center gap-2 text-center text-[16px] laptop-m:text-[18px] font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3 lg:px-3">
-										<span>HomePPP</span>
+										<span>HomePP</span>
 									</Link>
 								</div>
 							</li>
