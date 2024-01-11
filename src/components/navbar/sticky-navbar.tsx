@@ -38,7 +38,12 @@ const StickyNavbar: React.FC = () => {
 
 	useEffect(() => {
 		const handleScroll = () => {
-			if (window.scrollY > 270 && pathname !== "/features/colour-craft") {
+			if (
+				window.scrollY > 270 &&
+				pathname !== "/features/colour-craft" &&
+				pathname !== "/privacy-policy" &&
+				pathname !== "/terms-and-condition"
+			) {
 				setShowStickyNavbar(true);
 			} else {
 				setShowStickyNavbar(false);
