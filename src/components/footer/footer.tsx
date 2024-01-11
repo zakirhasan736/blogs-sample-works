@@ -141,14 +141,18 @@ const Footer: React.FC<FooterProps> = () => {
 						</h6>
 						<ul className="footer-link-widgtes flex flex-col gap-[17px]">
 							<li className="footer-link-widgets-items">
-								<Link href="/" className="flex items-center gap-1">
+								<Link
+									href="/terms-and-condition"
+									className="flex items-center gap-1">
 									<span className="link-text  text-[20px] text-left text-neu-black font-medium font-primary leading-none md:text-[20px]">
 										Terms and Conditions
 									</span>
 								</Link>
 							</li>
 							<li className="footer-link-widgets-items">
-								<Link href="/" className="flex items-center gap-1">
+								<Link
+									href="/privacy-policy"
+									className="flex items-center gap-1">
 									<span className="link-text  text-[20px] text-left text-neu-black font-medium font-primary leading-none md:text-[20px]">
 										Privacy Policy
 									</span>
