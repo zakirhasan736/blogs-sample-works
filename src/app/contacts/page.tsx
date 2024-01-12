@@ -1,13 +1,14 @@
 "use client";
 import ContactBanner from "@/components/common/banner/contact-banner";
 import { Link, useState } from "@packages/packages";
-import type { Metadata } from "next";
+import type { NextPage } from "next";
 
-export const metadata: Metadata = {
-	title: "Contact Us",
-	description:
-		"Ready to elevate your digital presence? Contact us today! Our page provides easy ways to get in touch with our expert digital marketing team. Whether it's for SEO, PPC, Web Design, or a bespoke marketing strategy, we're here to help your business succeed. Reach out for a consultation or any queries you have",
-};
+interface Metadata {
+	title: string;
+	description: string;
+}
+
+
 import Button from "@/components/elements/button/button";
 import Checkbox from "./Checkbox";
 import InputField from "./InputField";
@@ -36,7 +37,12 @@ const serviceTypes: ServiceType[] = [
 ];
 
 const ContactPage: React.FC = () => {
-	// const [selectedValue, setSelectedValue] = useState("");
+	 const metadata: Metadata = {
+			title: "Contact Us",
+			description:
+				"Ready to elevate your digital presence? Contact us today! Our page provides easy ways to get in touch with our expert digital marketing team. Whether it's for SEO, PPC, Web Design, or a bespoke marketing strategy, we're here to help your business succeed. Reach out for a consultation or any queries you have",
+		};
+		
 	const [success, setSuccessMessage] = useState("");
 	const [loading, setLoading] = useState(false);
   const [selectedValues, setSelectedValues] = useState<string[]>([]);
