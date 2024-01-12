@@ -1,13 +1,9 @@
 import ServicePageBanner from "@/components/common/banner/service-page-banner";
 import ServiceGroupSlider from "./service-group-slider";
-import type { Metadata } from "next";
 
-	export const metadata: Metadata = {
-		title: "Services",
-		description:
-			"We innovate and create at the intersection of digital, advertising and design to provide the best possible impact for our clients & partners. Web Development, PPC, UX Design, Motion Design, SEO, Content Strategy, Social Media, Branding, App Development",
-	};
+
 const Services = () => {
+
 	const ServiceSwiperSlidesData = [
 		{
 			title: "SEO",

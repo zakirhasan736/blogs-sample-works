@@ -7,72 +7,74 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
+
+
 const Faq = () => {
-   const howWorkRef = useRef<HTMLDivElement | null>(null);
-    useLayoutEffect(() => {
-			const howItWorkScroll2 = gsap.context(() => {
-				let viewPort = gsap.matchMedia();
-				viewPort.add("(min-width:768px)", () => {
-					document.body.style.overflow = "auto";
-					const howItWorkScrolled2 = gsap.utils.toArray(
-						".faq-main-content-wrap-box",
-					);
-					howItWorkScrolled2.forEach((section: any, index) => {
-						const wi = section.querySelector(".scroll-text-item");
-						const [x, xEnd] =
-							index % 2
-								? ["1%", (wi.scrollWidth - section.offsetWidth) * -1]
-								: [wi.scrollWidth * -1, 0];
-						gsap.fromTo(
-							wi,
-							{ x, y: 0 },
-							{
-								x: xEnd,
-								duration: 10,
-								scrollTrigger: {
-									trigger: section,
-									scrub: .5,
-									start: "top +=850",
-									end: () => "+=" + (wi.scrollWidth - section.offsetWidth),
-								},
-								y: 0,
+	const howWorkRef = useRef<HTMLDivElement | null>(null);
+	useLayoutEffect(() => {
+		const howItWorkScroll2 = gsap.context(() => {
+			let viewPort = gsap.matchMedia();
+			viewPort.add("(min-width:768px)", () => {
+				document.body.style.overflow = "auto";
+				const howItWorkScrolled2 = gsap.utils.toArray(
+					".faq-main-content-wrap-box",
+				);
+				howItWorkScrolled2.forEach((section: any, index) => {
+					const wi = section.querySelector(".scroll-text-item");
+					const [x, xEnd] =
+						index % 2
+							? ["1%", (wi.scrollWidth - section.offsetWidth) * -1]
+							: [wi.scrollWidth * -1, 0];
+					gsap.fromTo(
+						wi,
+						{ x, y: 0 },
+						{
+							x: xEnd,
+							duration: 10,
+							scrollTrigger: {
+								trigger: section,
+								scrub: 0.5,
+								start: "top +=850",
+								end: () => "+=" + (wi.scrollWidth - section.offsetWidth),
 							},
-						);
-					});
-				});
-				viewPort.add("(max-width:767px)", () => {
-					document.body.style.overflow = "auto";
-					const howItWorkScrolled2 = gsap.utils.toArray(
-						".faq-main-content-wrap-box",
+							y: 0,
+						},
 					);
-					howItWorkScrolled2.forEach((section: any, index) => {
-						const wi = section.querySelector(".scroll-text-item");
-						const [x, xEnd] =
-							index % 2
-								? ["1%", (wi.scrollWidth - section.offsetWidth) * -1]
-								: [wi.scrollWidth * -1, 0];
-						gsap.fromTo(
-							wi,
-							{ x, y: 0 },
-							{
-								x: xEnd,
-								duration: 10,
-								scrollTrigger: {
-									trigger: section,
-									scrub: .5,
-									start: "top +=850",
-									end: () => "+=" + (wi.scrollWidth - section.offsetWidth),
-								},
-								y: 0,
-							},
-						);
-					});
 				});
-			}, howWorkRef);
-			return () => {
-				howItWorkScroll2.revert();
-			};
-		});
+			});
+			viewPort.add("(max-width:767px)", () => {
+				document.body.style.overflow = "auto";
+				const howItWorkScrolled2 = gsap.utils.toArray(
+					".faq-main-content-wrap-box",
+				);
+				howItWorkScrolled2.forEach((section: any, index) => {
+					const wi = section.querySelector(".scroll-text-item");
+					const [x, xEnd] =
+						index % 2
+							? ["1%", (wi.scrollWidth - section.offsetWidth) * -1]
+							: [wi.scrollWidth * -1, 0];
+					gsap.fromTo(
+						wi,
+						{ x, y: 0 },
+						{
+							x: xEnd,
+							duration: 10,
+							scrollTrigger: {
+								trigger: section,
+								scrub: 0.5,
+								start: "top +=850",
+								end: () => "+=" + (wi.scrollWidth - section.offsetWidth),
+							},
+							y: 0,
+						},
+					);
+				});
+			});
+		}, howWorkRef);
+		return () => {
+			howItWorkScroll2.revert();
+		};
+	});
 	return (
 		<section ref={howWorkRef} className="faq-page-main-wrapper overflow-hidden">
 			{/* faq banner section       */}
