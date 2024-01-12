@@ -1,13 +1,13 @@
 "use client";
 import ContactBanner from "@/components/common/banner/contact-banner";
 import { Link, useState } from "@packages/packages";
-import {
-	ArrowDownIcons,
-	InstagrameIcons,
-	TwitterIcons,
-	YoutubeIcons,
-} from "@/icons";
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+	title: "Contact Us",
+	description:
+		"Ready to elevate your digital presence? Contact us today! Our page provides easy ways to get in touch with our expert digital marketing team. Whether it's for SEO, PPC, Web Design, or a bespoke marketing strategy, we're here to help your business succeed. Reach out for a consultation or any queries you have",
+};
 import Button from "@/components/elements/button/button";
 import Checkbox from "./Checkbox";
 import InputField from "./InputField";

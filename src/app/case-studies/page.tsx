@@ -1,6 +1,6 @@
 import { Image, Link } from "@packages/packages";
 import React from "react";
-
+import type { Metadata } from "next";
 interface NavItem {
 	path: string;
 	title: string;
@@ -64,7 +64,11 @@ const navItems: NavItem[] = [
 		link: "/case-studies/ai-and-humanity",
 	},
 ];
-
+export const metadata: Metadata = {
+	title: "Case Study",
+	description:
+		"Explore our latest case study showcasing our digital marketing expertise. See how we've driven success for brands with innovative strategies in SEO, Website Design and Development, and PPC. Learn from real-life examples of our transformative digital solutions.",
+};
 const CaseStudypage: React.FC = () => {
 	return (
 		<div className="case-study-section">
