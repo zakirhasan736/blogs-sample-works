@@ -21,18 +21,7 @@ const navItems: NavItem[] = [
 		subtitle: "web design and Brand Assets",
 		link: "/case-studies/ai-and-humanity",
 	},
-	{
-		path: "/images/case-study-card-3.png",
-		title: "AI & Humanity",
-		subtitle: "web design and Brand Assets",
-		link: "/case-studies/ai-and-humanity",
-	},
-	{
-		path: "/images/case-study-card-4.png",
-		title: "AI & Humanity",
-		subtitle: "web design and Brand Assets",
-		link: "/case-studies/ai-and-humanity",
-	},
+	
 	{
 		path: "/images/case-study-card-5.png",
 		title: "ZENBASE",
@@ -56,13 +45,7 @@ const navItems: NavItem[] = [
 		title: "KNIGHT’S ACADEMY",
 		subtitle: "web design and Brand Assets",
 		link: "/case-studies/knights-academy",
-	},
-	{
-		path: "/images/case-study-card-9.png",
-		title: "AI & Humanity",
-		subtitle: "web design and Brand Assets",
-		link: "/case-studies/ai-and-humanity",
-	},
+	}
 ];
 export const metadata: Metadata = {
 	title: "Case Study",
