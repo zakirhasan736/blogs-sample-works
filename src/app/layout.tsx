@@ -18,9 +18,11 @@ const urbanist = Urbanist({
   display: 'swap',
 })
 export const metadata: Metadata = {
-  title: 'Home Page',
-  description: 'Particular is a digital agency focused on strategy, design and advertising. Our mission is to develop brands that are bold, powerful and unforgettable. Our specialities include Web Development & Design, SEO, PPC, Copywriting and Ad campaigns.',
-}
+	title: "Home Page",
+	description:
+		"Particular is a digital agency focused on strategy, design and advertising. Our mission is to develop brands that are bold, powerful and unforgettable. Our specialities include Web Development & Design, SEO, PPC, Copywriting and Ad campaigns.",
+	icons: { icon: "/images/favicon.png", apple: "/images/favicon.png" },
+};
 
 export default function RootLayout({
   children,
