@@ -1,586 +1,279 @@
-import Button from "@/components/elements/button/button";
-import Link from "next/link";
-import React from "react";
+import Button from '@/components/elements/button/button';
+import Link from 'next/link';
+import React from 'react'
 
-const TermsCondition = () => {
-	return (
+const PrivacyPolicy = () => {
+  return (
 		<div className="legal-info-content-wrapper pt-14 pb-[70px]">
 			<div className="custom-container max-w-[995px] px-0 md:px-8 sm:px-4 mx-auto">
 				<h1 className="legal-info-title text-neu-white text-[46px] sm:text-[25px] text-left font-primary font-bold leading-[1.2] capitalize mb-9">
-					Navigating Through the agency with Our Privacy Policy.
+					Your Guide to a Seamless Experience with Our Terms and Conditions.
 				</h1>
 				<div className="legal-content-text-main-cont mb-[97px]">
-					{/* ================ */}
-					<div className="legal-cont-text-item mb-6">
-						<h3 className="legal-cont-text-title info-text underline mb-4">
-							Introduction
-						</h3>
-						<p className="legal-cont-text-desc info-text mb-4">
-							This privacy notice explains the personal data we may collect
-							about you when you visit our website or interact with us. It also
-							sets out how we will store, handle and secure that data. We
-							understand that there is a lot to go through and we hope that the
-							information set out answers any questions you may have. It may be
-							necessary to update our Privacy Policy from time to time, so
-							please come back and check this whenever you wish
+					<div className="info-desc-box">
+						<p className="info-desc-text info-text mb-4">
+							Particular Holdings LTD trading as “Particular Agency” |
+							Registered in England & Wales | Company Number: 13011806 |
+							Registered Office: 8 Cody Road, London, E16 4SR
+						</p>
+						<p className="info-desc-text info-text mb-4">
+							Terms & Conditions Updated: 23/02/2023
+						</p>
+						<p className="info-desc-text info-text font-primary mb-5">
+							Terms & Conditions
 						</p>
 					</div>
 					{/* ================ */}
 					<div className="legal-cont-text-item mb-6">
 						<h3 className="legal-cont-text-title info-text underline mb-4">
-							Who we are and our role in your privacy
+							01. Contract
 						</h3>
 						<p className="legal-cont-text-desc info-text mb-4">
-							We are Particular Holdings Ltd registered in England under company
-							number 13011806, whose registered office is at 8 Cody Road, E16
-							4SR. For the purpose of data protection legislation, we act as the
-							'Data Controller' of personal data. This means we determine how
-							and why your data are processed. We are registered as a Data
-							Controller at the UK Information Commissioner's Office.
+							1.1 These Terms apply to all orders. For the purpose of definition
+							orders are signed Purchase Orders and confirmation in writing of a
+							quote being accepted. Receipt of order by you, constitutes your
+							acceptance that our conditions are the only conditions that apply
+							to the contract. In addition, payment of your first invoice by you
+							constitutes your acceptance of our terms and conditions.
+						</p>
+						<p className="legal-cont-text-desc info-text mb-4">
+							1.2 Your agreement and business relationship is with Particular
+							Holdings Limited trading as “Particular Agency” for the term of
+							your project and any hosting or ongoing work thereafter.
+							Registered address: 8 Cody Road, London, E16 4SR. Company number:
+							13011806
+						</p>
+						<p className="legal-cont-text-desc info-text mb-4">
+							1.3 Quotations must be signed off in writing and orders are
+							accepted subject to our right to adjust prices due to an increase
+							in wages, taxation, production costs or other reasonable
+							increases. Particular will carry out work specified within the
+							quotation document or otherwise confirmed via email in
+							communications between you and emails ending in the
+							byparticular.com or particularagency.co.uk domains. Quotations are
+							only valid for 30 days and all prices are subject to VAT.
+						</p>
+						<p className="legal-cont-text-desc info-text">
+							1.4 Any discounts are offered on the strict understanding that the
+							accounts are paid by the due date. We reserve the right to invoice
+							for any such discounts on accounts which become overdue.
 						</p>
 					</div>
 					{/* ================ */}
 					<div className="legal-cont-text-item mb-6">
 						<h3 className="legal-cont-text-title info-text underline mb-4">
-							About this
+							2. Invoicing and Payment Terms
 						</h3>
 						<p className="legal-cont-text-desc info-text mb-4">
-							policy If you are a Particular Agency customer or just visiting
-							our website, this policy applies to you.
+							2.1 Unless otherwise agreed or stipulated, our standard invoicing
+							terms are 50% upfront as a non-refundable deposit invoice to be
+							paid before work commences upon accepting instructions. The final
+							50% will be invoiced upon completion / delivery / sign off and
+							must be paid. If no requests for amendments are provided, or the
+							client fails to provide content and/or instruction within four
+							weeks, the final 50% will be invoiced and is payable. All website
+							invoices must be paid in full prior to go-live*. *Please note that
+							we do everything we can to keep a project on track, and that
+							content collation is often underestimated. If you are unable to
+							provide all your content by the time we have done your build, it
+							does not suggest that we have not worked within the reasonable
+							expectation to have completed our job.
 						</p>
 						<p className="legal-cont-text-desc info-text mb-4">
-							​ The protection of your privacy and personal information is very
-							important to us and so we make sure that not only do we have
-							appropriate security measures in place, but that any other
-							organisation we work with to provide a service also meets the same
-							standard as us.
+							​ 2.2 Any costs for print production must be paid in advance of a
+							job going to print and must be settled before print delivery date.
+							Print jobs will only be dispatched when payment is settled in
+							full. We cannot be held responsible for delays caused in waiting
+							for funds to clear. ​
 						</p>
 						<p className="legal-cont-text-desc info-text mb-4">
-							​ This Privacy Notice explains in detail the types of personal
-							data we may collect about you when you interact with us. It also
-							explains how we'll store and handle that data and keep it safe. ​
+							2.3 Particular do not offer credit terms. Invoices are payable
+							within 14 days of the dated invoice and any late payments will
+							incur a cost of 5% per month above the Bank of England base rate.
+							In the event of late or missed payments Particular Agency reserves
+							the right to take down any website without notice.
 						</p>
 						<p className="legal-cont-text-desc info-text mb-4">
-							'Personal information' is data that relates to you and that
-							identifies or can be used to identify you. This may be your name,
-							address, email or other digital identifiers such as cookies or IP
-							address.
+							​ 2.4 Payment is currently acceptable by Bank Transfer or Credit /
+							Debit Card online. If paying by Credit or Debit card a payment
+							link will be shared with you by a member of the Particular Agency
+							team. Please note that we do not accept cheques or cash.
+						</p>
+						<p className="legal-cont-text-desc info-text">
+							​ 2.5 Clients must raise objections to invoices within 48 hours of
+							the date of the invoice. Any failure to object within this period
+							is deemed as acceptance of the invoice.
 						</p>
 					</div>
 					{/* ================ */}
 					<div className="legal-cont-text-item mb-6">
 						<h3 className="legal-cont-text-title info-text underline mb-4">
-							Third party links
+							03. Project Work
 						</h3>
 						<p className="legal-cont-text-desc info-text mb-4">
-							Our website and other documents you receive from us may contain
-							links to third-party websites. Following these links may allow
-							third parties to collect or share data about you. We are not
-							responsible for these third-party websites and their privacy
-							policies
+							​ 3.1 Variances are defined as additional requests falling out of
+							scope of the project brief or agreed proposal, or if any out of a
+							sitemap, design or website has been signed off and change requests
+							are made after that point. Variances will be charged on top of the
+							quoted price at an hourly rate of £100 plus VAT and may impact on
+							your project timeline. (Or quoted separately as a new job if this
+							is expected to take more than 6 hours labour).
 						</p>
 						<p className="legal-cont-text-desc info-text mb-4">
-							​ If you are our customer, please also check the contracts between
-							us: they may contain further details on how we collect and process
-							your data.
+							​ 3.2 A project brief or scope will be agreed prior to work
+							commencing. Clients must, at their own expense, supply Particular
+							Agency with any necessary materials and information to provide the
+							services laid out in the order. We request all assets and content
+							for a project to be supplied up front at the start of a project on
+							the same day as payment or within 24 hours of deposit payment
+							being made. Particular Agency cannot be held responsible for
+							delays to a project caused by lack of necessary information,
+							content or sign off.
 						</p>
 						<p className="legal-cont-text-desc info-text mb-4">
-							​ If you provide us with personal information about other people,
-							or if others give us your information, we will only use that
-							information for the specific reason for which it was provided to
-							us. By submitting the information, you confirm that you have the
-							right to authorise us to process it on your behalf in accordance
-							with this Privacy Policy.
+							​ 3.3 We maintain the right to refuse any material which may be
+							deemed to be offensive, abusive, indecent, defamatory, obscene,
+							menacing or in any breach of confidence, copyright, privacy or any
+							other right or in any way thought to be unsuitable for
+							reproduction. We accept no responsibility for the content of a
+							client’s website or printed material.
 						</p>
 						<p className="legal-cont-text-desc info-text mb-4">
-							​ Explaining the legal bases we rely on to collect and process
-							your personal data
+							​ 3.4 A project’s official start date is the date your first
+							payment clears and funds are accessible in our bank account, which
+							will be confirmed with you by a member of the Particular Agency
+							team. Estimated delivery dates are not guaranteed. We try our best
+							to meet these deadlines, however we can not be held liable if the
+							project is delayed due to issues beyond our control such as; delay
+							in client passing on content to the project manager, technical
+							issues, employee sickness, 3rd party issues, changes to the brief,
+							force majeure. ​
 						</p>
 						<p className="legal-cont-text-desc info-text mb-4">
-							​ We may use a number of different reasons under the data
-							protection legislation for collecting and processing your personal
-							data including
+							​ 3.5 We will offer a reasonable amount of bug fixing and support
+							via email and telephone up to 14 days after delivery of your
+							website. Thereafter, change requests, fixes whether bug fixes or
+							due to misuse will be chargeable at our standard hourly rate of
+							£100 per hour.
 						</p>
 						<p className="legal-cont-text-desc info-text mb-4">
-							​ Contractual obligations In certain circumstances, we need your
-							personal data to comply with our contractual obligations.
+							​ 3.6 Your website footer will contain a discreet link back to our
+							website. If you wish for this to be removed it must be agreed
+							before commencement of your project and there will be a charge of
+							£250 for the request. You also agree to Particular to place work
+							samples on our own websites and for use in our own promotion. ​
 						</p>
 						<p className="legal-cont-text-desc info-text">
-							​ For example: if you make a purchase from us, we will collect
-							your payment card details to take payment. ​
+							3.7 Upon commencement of the project, an agreed timeline will be
+							set in place for milestone completions between both parties. If
+							timelines are missed as a result of lack of communication and/or
+							missed meetings, Particular Agency are liable to request payment
+							for remaining accruals against the referred milestones and hold
+							hold no responsibility for delays against the project.
 						</p>
 					</div>
 					{/* ================ */}
 					<div className="legal-cont-text-item mb-6">
 						<h3 className="legal-cont-text-title info-text underline mb-4">
-							Legitimate interest
+							04. Hosting ​
 						</h3>
 						<p className="legal-cont-text-desc info-text mb-4">
-							In specific situations, we require your data to pursue our
-							legitimate interests in a way which might reasonably be expected
-							as part of running our business and which does not materially
-							impact your rights, freedom or interests.
+							4.1 If a client requires Particular Agency to purchase a domain
+							name that can be transferred to the client at any time upon
+							request, Particular does not claim IP for any domain name
+							purchased for and on behalf of a client.
 						</p>
-						<p className="legal-cont-text-desc info-text">
-							​ For example: we will use your email address to contact you with
-							relevant products and services we think might be of interest to
-							you.
+						<p className="legal-cont-text-desc info-text mb-4">
+							​ 4.2 If the client has purchased the domain name you must be able
+							to manage the DNS settings and repoint the ‘A’ and ‘WWW’ records
+							to our web server IP address which will be provided to you. If you
+							require assistance to do this there will be an admin charge of
+							£25. We cannot accept responsibility for failure to repoint the
+							domain name or being unable to work with your chosen domain host.
+						</p>
+						<p className="legal-cont-text-desc info-text mb-4">
+							​ 4.3 In the instance of website hosting, it is assumed that a
+							website is hosted with Particular unless otherwise agreed in
+							advance. Unless stipulated by you prior to payment, our
+							maintenance package to keep your website updated and secure on our
+							server is mandatory along with a hosting package (prices will be
+							provided with your project proposal).
+						</p>
+						<p className="legal-cont-text-desc info-text mb-4">
+							​ 4.4 Website migration. Should you wish to terminate a hosting
+							agreement it must be provided in writing in accordance with these
+							Terms. Migration of a hosted website to an alternative host
+							provider will incur an admin fee for preparing files and backups
+							of the database which will be supplied on disc or USB. It must be
+							noted that we cannot be held responsible for installing a website
+							on a third party server and / or ensuring the website works on a
+							third party server. The associated admin fee for migration will
+							not exceed £380 and will be confirmed upon request if the occasion
+							arises. However, in reference to clause 3.4 and where any bespoke
+							coding has been created by Particular Agency, a figure will be
+							negotiated to sell the IP of that website or code to a client. ​
+						</p>
+						<p className="legal-cont-text-desc info-text mb-4">
+							4.5 Sites that we build are editable within the design and
+							character limits and some restrictions will be in place to avoid
+							the design ‘breaking’ when content changes. For all websites with
+							Content Management Systems hosted with Particular Agency, editor
+							access will be granted to the website. Requests for administrator
+							or FTP access will be denied in all circumstances. Clients will
+							not be given admin access, if this is a requirement then the
+							website must be on a dedicated server and a different pricing
+							structure will be applicable.
 						</p>
 					</div>
 					{/* ================ */}
 					<div className="legal-cont-text-item mb-6">
 						<h3 className="legal-cont-text-title info-text underline mb-4">
-							Consent
+							05. General Terms
 						</h3>
 						<p className="legal-cont-text-desc info-text mb-4">
-							In specific situations, we can collect and process your data with
-							your consent. For example: when you tick a box to receive email
-							newsletters
-						</p>
-					</div>
-					{/* ================ */}
-					<div className="legal-cont-text-item mb-6">
-						<h3 className="legal-cont-text-title info-text underline mb-4">
-							Legal obligation
-						</h3>
-						<p className="legal-cont-text-desc info-text mb-4">
-							If the law requires us to, we may need to collect and process your
-							data.
-						</p>
-						<p className="legal-cont-text-desc info-text">
-							​ For example: we can pass on details of people involved in fraud
-							or other criminal activity to law enforcement agencies You can
-							change your mind! If you have previously given consent to our
-							processing your data, you can freely withdraw such consent at any
-							time. You can do this by emailing us at info@byparticular.com
-						</p>
-					</div>
-					{/* ================ */}
-					<div className="legal-cont-text-item mb-6">
-						<h3 className="legal-cont-text-title info-text underline mb-4">
-							Information we collect from you
-						</h3>
-						<p className="legal-cont-text-desc info-text mb-4">
-							Personal data or information is any information about an
-							individual that can be used to identify that person. Types of data
-							wemay collect, use, store and transfer are:
-						</p>
-					</div>
-					{/* ================ */}
-					<div className="legal-cont-text-item mb-6">
-						<h3 className="legal-cont-text-title info-text underline mb-4">
-							Identity and contact data
-						</h3>
-						<p className="legal-cont-text-desc info-text mb-4">
-							Your name, company name, home and company address, telephone
-							number, email address, billing address.
-						</p>
-					</div>
-					{/* ================ */}
-					<div className="legal-cont-text-item mb-6">
-						<h3 className="legal-cont-text-title info-text underline mb-4">
-							Payment data
-						</h3>
-						<p className="legal-cont-text-desc info-text mb-4">
-							Payment card details and details of products and services you have
-							purchased from us.
-						</p>
-					</div>
-					{/* ================ */}
-					<div className="legal-cont-text-item mb-6">
-						<h3 className="legal-cont-text-title info-text underline mb-4">
-							Data that identifies you
-						</h3>
-						<p className="legal-cont-text-desc info-text mb-4">
-							Your IP address, login information, browser type and version, time
-							zone setting, browser plug-in types, geolocation information about
-							where you might be and operating system
-						</p>
-					</div>
-					{/* ================ */}
-					<div className="legal-cont-text-item mb-6">
-						<h3 className="legal-cont-text-title info-text underline mb-4">
-							Profile data
-						</h3>
-						<p className="legal-cont-text-desc info-text mb-4">
-							Your username and password, purchases or orders made by you
-						</p>
-					</div>
-					{/* ================ */}
-					<div className="legal-cont-text-item mb-6">
-						<h3 className="legal-cont-text-title info-text underline mb-4">
-							Usage data
-						</h3>
-						<p className="legal-cont-text-desc info-text mb-4">
-							Your URL clickstreams (the path you take through our site),
-							products/services viewed, page response times, download errors,
-							how long you stay on our pages, what you do on those pages, how
-							often, and other actions
-						</p>
-					</div>
-					{/* ================ */}
-					<div className="legal-cont-text-item mb-6">
-						<h3 className="legal-cont-text-title info-text underline mb-4">
-							Marketing and communications data
-						</h3>
-						<p className="legal-cont-text-desc info-text mb-4">
-							Your preferences in receiving marketing from us and your
-							communication preferences. We will never share your data with a
-							third-party without your explicit consent
-						</p>
-					</div>
-					{/* ================ */}
-					<div className="legal-cont-text-item mb-6">
-						<h3 className="legal-cont-text-title info-text underline mb-4">
-							What about really sensitive data?
-						</h3>
-						<p className="legal-cont-text-desc info-text mb-4">
-							We don't collect any "sensitive data" about you (like racial or
-							ethnic origin, political opinions, religious/philosophical
-							beliefs, trade union membership, genetic data, biometric data,
-							health data, data about your sexual life or orientation, and
-							offences or alleged offences) except when we have your specific
-							consent, or when we have to comply with the law.
-						</p>
-						<ul>
-							<li className="info-text">​ When we collect your information</li>
-							<li className="info-text">
-								​When you create an account with us or sign in
-							</li>
-							<li className="info-text">​ When you make an online purchase</li>
-							<li className="info-text">
-								When you engage with us on social media
-							</li>
-							<li className="info-text">
-								When you submit information via our website or other web form
-							</li>
-						</ul>
-					</div>
-					{/* ================ */}
-					<div className="legal-cont-text-item mb-6">
-						<h3 className="legal-cont-text-title info-text underline mb-4">
-							Request to be contacted
-						</h3>
-						<p className="legal-cont-text-desc info-text mb-4">
-							Contact us with a question or request
-						</p>
-					</div>
-					{/* ================ */}
-					<div className="legal-cont-text-item mb-6">
-						<h3 className="legal-cont-text-title info-text underline mb-4">
-							Use our Services
-						</h3>
-						<p className="legal-cont-text-desc info-text mb-4">
-							Provide a testimonial review or comment "Like", "Follow" or
-							otherwise connect with or post to one of our
-						</p>
-					</div>
-					{/* ================ */}
-					<div className="legal-cont-text-item mb-6">
-						<h3 className="legal-cont-text-title info-text underline mb-4">
-							Social Media Pages
-						</h3>
-						<p className="legal-cont-text-desc info-text mb-4">
-							Give us some feedback or evaluate our services Cookies please see
-							our cookie policy for more information When you choose to complete
-							any surveys, we send you.
-						</p>
-					</div>
-					{/* ================ */}
-					<div className="legal-cont-text-item mb-7">
-						<h3 className="legal-cont-text-title info-text underline mb-4">
-							How we use the information
-						</h3>
-						<p className="legal-cont-text-desc info-text mb-4">
-							we collect Data protection law means that we can only use your
-							data for certain reasons and where we have a legal basis to do so.
-							We use different legal bases depending upon the purpose for
-							collecting your data in the first instance.
-						</p>
-						<ul className="mb-6">
-							<li className="info-text">
-								​Here are the specific reasons for which we process your data:
-							</li>
-							<li className="info-text">Purpose or Activity</li>
-							<li className="info-text">Personal data that may be used</li>
-							<li className="info-text">Lawful basis of processing</li>
-							<li className="info-text">To deliver agreed services contract</li>
-							<li className="info-text">
-								{" "}
-								To manage our relationship with you
-							</li>
-							<li className="info-text">
-								To provide consultancy or advisory services to you
-							</li>
-							<li className="info-text">
-								To administer day-to-day operations Sending you emails, messages
-								about new features, updates, content, products and services
-							</li>
-						</ul>
-						<p className="legal-cont-text-desc info-text mb-4">
-							​ For all data collected to sign up for a product and service such
-							as a newsletter we process the data using Legitimate Interest,
-							i.e. you are able to access an extensive range of information in
-							exchange for supplying your information, and we have a
-							relationship where the balance of benefit is in your favour. You
-							always have a choice in the management of your data in this manner
-							and can opt out of processing under this basis at any time.
+							​ 5.1 This agreement may be terminated by either Particular Agency
+							or by providing written notice which is given to the other party
+							in a reasonable time frame, 30 days. Upon cancellation of any
+							project, Particular Agency reserves the right to invoice for all
+							work completed until such time. You will be liable for any third
+							party costs incurred prior to cancellation of the contract.
 						</p>
 						<p className="legal-cont-text-desc info-text mb-4">
-							​ Where you provide data in the course of a contractual agreement,
-							we process your data under Contract, i.e. your data is necessary
-							for the fulfilment of the service. Any additional contact, i.e.
-							telling you about another product or service closely related to
-							the product or service you have contracted is managed under
-							legitimate interest.
+							​ 5.2 Complaints must be made at the time of receiving printed
+							goods and any complaints thereafter 24 hours are void. For any
+							other work, complaints must be raised in a timely and constructive
+							manner to your project contact in writing. Particular Agency will
+							endeavour to respond to and rectify any reasonable issues arising
+							quickly and efficiently.
 						</p>
-						<ul className="mb-6">
-							<li className="info-text">
-								Any secondary processing of your data, i.e. transfer to third
-								countries, is managed under Consent
-							</li>
-							<li className="info-text">Name ​</li>
-							<li className="info-text">Email</li>
-							<li className="info-text">Contact</li>
-							<li className="info-text">Name</li>
-							<li className="info-text">Email</li>
-							<li className="info-text">Contact</li>
-							<li className="info-text">Name</li>
-							<li className="info-text">Email</li>
-							<li className="info-text">Telephone</li>
-							<li className="info-text">Contact</li>
-							<li className="info-text">Name</li>
-							<li className="info-text">Contact</li>
-							<li className="info-text">Profile</li>
-							<li className="info-text">Usage</li>
-							<li className="info-text">Name</li>
-							<li className="info-text">Email</li>
-							<li className="info-text">Contact</li>
-						</ul>
-						<ul className="mb-6">
-							<li className="info-text">Your privacy choices and rights</li>
-							<li className="info-text">
-								You can choose not to provide us with personal data
-							</li>
-							<li className="info-text">
-								If you choose to do this, you can continue to use the website
-								and browse its pages, but we will not be
-							</li>
-							<li className="info-text">
-								able to communicate with you without your personal data.​
-							</li>
-						</ul>
-						<ul className="mb-6">
-							<li className="info-text">
-								You can turn off cookies in your browser by changing its
-								settings
-							</li>
-							<li className="info-text">
-								You can block cookies by activating a setting on your browser
-								allowing you to refuse cookies. You can also delete cookies
-								through your browser settings. If you turn off cookies, you can
-								continue to use the website and browse its pages, but Particular
-								Agency may not work as effectively.
-							</li>
-						</ul>
-						<ul className="mb-6">
-							<li className="info-text">
-								You can ask us not to use your data for marketing
-							</li>
-							<li className="info-text">
-								We will inform you (before collecting your data) if we intend to
-								use your data for marketing and we will never pass on your
-								information to third parties without your consent.
-							</li>
-						</ul>
-						<ul className="mb-6">
-							<li className="info-text">Your rights</li>
-							<li className="info-text">
-								You can exercise your rights by sending us an email at
-								info@byparticular.com
-							</li>
-						</ul>
-						<p className="info-text mb-5">
-							You have the right to make us correct any inaccurate personal data
-							about you
+						<p className="legal-cont-text-desc info-text mb-4">
+							​ 5.3 Particular Agency does not implicitly offer exclusivity to
+							any client for their defined industry. If this is required an
+							acceptable fee and reasonable duration will be negotiated on a
+							case-by-case basis.
 						</p>
-						<p className="info-text mb-5">
-							You can object to us using your data for profiling
+						<p className="legal-cont-text-desc info-text mb-4">
+							5.4 Particular warrants and represents to the Client that it will
+							perform its obligations under these Terms with reasonable skill
+							and care. Our liability for loss or damage suffered by you in
+							respect of goods or work carried out shall be limited to the
+							contract value of the goods. In respect of websites being taken
+							down in the event of overdue accounts, we accept no responsibility
+							for damages (indirect or direct, loss of profits, revenue or
+							goodwill of the client) and any claim will be void. Nothing in
+							these terms and conditions shall affect the rights of the
+							consumer.
 						</p>
-						<p className="info-text mb-5">
-							​ We may use your data to determine whether we should let you know
-							information that might be relevant to you (for example, tailoring
-							emails to you based on your behaviour).
+						<p className="legal-cont-text-desc info-text mb-4">
+							5.5 We reserve the right to make changes to these Terms and any
+							adjustments will be provided in writing to you. 5.6 This contract
+							between ourselves the Company and the Client shall be governed by
+							and construed in accordance with English Law
 						</p>
-						<p className="info-text mb-5">
-							You have the right to port your data to another service
-						</p>
-						<p className="info-text mb-5">
-							We will give you a copy of your data so that you can provide it to
-							another service. If you ask us and where it is possible, we will
-							directly transfer the data to the other service for you.
-						</p>
-						<p className="info-text mb-5">
-							You have the right to be 'forgotten' by us
-						</p>
-						<p className="info-text mb-5">
-							You can do this by asking us to erase any personal data we hold
-							about you, if it is no longer necessary for us to hold thedata for
-							purposes of your use of Particular Agency.
-						</p>
-						<p className="info-text mb-5">
-							​ You have the right to lodge a complaint regarding our use of
-							your data
-						</p>
-						<p className="info-text mb-5">
-							​ Please tell us first, so we have a chance to address your
-							concerns. If we fail in this, you can address anycomplaint to the
-							UK Information Commissioner's Office, either by calling their
-							helpline or as directed on theirwebsite at www.ico.org.uk.
-						</p>
-					</div>
-					{/* ================ */}
-					<div className="legal-cont-text-item mb-6">
-						<p className="legal-cont-text-desc info-text">
-							The categories of data we're processing
-						</p>
-						<p className="legal-cont-text-desc info-text">
-							We have physical, electronic, and managerial procedures to
-							safeguard and secure the information we collect.
-						</p>
-						<p className="legal-cont-text-desc info-text">Please remember:</p>
-						<p className="legal-cont-text-desc info-text">
-							You provide personal data at your own risk: unfortunately, no data
-							transmission is guaranteed to be 100% secure
-						</p>
-						<p className="legal-cont-text-desc info-text">
-							You are responsible of your username and password: keep them
-							secret and safe!
-						</p>
-						<p className="legal-cont-text-desc info-text">
-							If you believe your privacy has been breached, please contact us
-							immediately at info@byparticular.com
-						</p>
-					</div>
-					{/* ================ */}
-					<div className="legal-cont-text-item mb-6">
-						<p className="legal-cont-text-desc info-text">
-							Where do we store your data?
-						</p>
-						<p className="legal-cont-text-desc info-text">
-							The personal data we collect is processed at our offices in London
-							and Riga and in any data processing facilities operated by the
-							third parties we use.
-						</p>
-						<p className="legal-cont-text-desc info-text">
-							By submitting your personal data, you agree to this transfer,
-							storing or processing by us. If we transfer or store your
-							information outside the EEA in this way, we will take steps to
-							ensure that your privacy rights continue to be protected as
-							outlined in this Privacy Policy.
-						</p>
-					</div>
-					{/* ================ */}
-					<div className="legal-cont-text-item mb-6">
-						<p className="legal-cont-text-desc info-text">
-							How long do we store your data?
-						</p>
-						<p className="legal-cont-text-desc info-text">
-							We will stop actively using and delete any personal identifiable
-							information about you within 12 months from the last time you were
-							in contact with Particular Agency. If agreed by a separate
-							contract, we will delete your personal data from our archives no
-							later than 6 years or as agreed with you in a separate contract.
-						</p>
-					</div>
-					{/* ================ */}
-					<div className="legal-cont-text-item mb-6">
-						<p className="legal-cont-text-desc info-text">
-							Third parties who process your data
-						</p>
-						<p className="legal-cont-text-desc info-text">
-							Particular Agency may from time to time share your personal data
-							with third parties in order to ensure the services required work
-							well. When we do this, we will ensure that your data is shared
-							only when necessary and, according to the safeguards and good
-							practices detailed in this Privacy Policy.
-						</p>
-					</div>
-					{/* ================ */}
-					<div className="legal-cont-text-item mb-6">
-						<p className="legal-cont-text-desc info-text">
-							The third parties can include external companies who act as our
-							partners, suppliers, insurers and agencies but only where they
-							meet our standards of data and security.
-						</p>
-					</div>
-					{/* ================ */}
-					<div className="legal-cont-text-item mb-6">
-						<p className="legal-cont-text-desc info-text">
-							​ We only share information which allows us to provide their
-							service to us or facilitate them providing our services to you.
-							These may include third parties who provide IT and system
-							administration, HR, marketing and financial services.
-						</p>
-					</div>
-					{/* ================ */}
-					<div className="legal-cont-text-item mb-6">
-						<p className="legal-cont-text-desc info-text">
-							​How we use cookies
-						</p>
-						<p className="legal-cont-text-desc info-text">
-							We use cookies. Unless you adjust your browser settings to refuse
-							cookies, we (and these third parties) will issue cookies when you
-							interact with Particular Agency. These may be 'session' cookies,
-							meaning they delete themselves when you leave Acumenology,
-						</p>
-						<p className="legal-cont-text-desc info-text">
-							or 'persistent' cookies which do not delete themselves and help us
-							recognise you when you return so we can provide a tailored
-							service.
-						</p>
-					</div>
-					{/* ================ */}
-					<div className="legal-cont-text-item mb-6">
-						<p className="legal-cont-text-desc info-text">
-							How can I block cookies?
-						</p>
-						<p className="legal-cont-text-desc info-text mb-5">
-							You can block cookies by activating a setting on your browser
-							allowing you to refuse the setting of cookies. You can also delete
-							cookies through your browser settings. If you use your browser
-							settings to disable, reject, or block cookies (including essential
-							cookies), certain parts of our website will not function fully. In
-							some cases, our website may not be accessible at all. Please note
-							that where third parties use cookies, we have no control over how
-							those third parties use those cookies.
-						</p>
-						<p className="legal-cont-text-desc info-text mb-5">
-							Further details can be found in our Cookie Policy
-						</p>
-						<p className="legal-cont-text-desc info-text">
-							Queries & complaints
-						</p>
-						<p className="legal-cont-text-desc info-text mb-5">
-							If after reviewing this Privacy Policy, you have any questions,
-							complaints or privacy concerns, or wouldliketo make any requests
-							in relation to your Personal Information, please send an email to
-							us at info@byparticular.com
-						</p>
-
-						<p className="legal-cont-text-desc info-text">Complaints</p>
-						<p className="legal-cont-text-desc info-text">
-							If you're not satisfied with our response to any complaint or
-							believe our processing of your information does not comply with
-							data protection law, you can make a complaint to the Information
-						</p>
-						<p className="legal-cont-text-desc info-text">
-							Commissioner's Office (ICO) using the following details:
-						</p>
-						<p className="legal-cont-text-desc info-text">
-							Address: Information Commissioner's Office, Wycliffe House, Water
-							Lane, Wilmslow, Cheshire SK9 5AF Telephone number: 0303 123 1113
-							Website: www.ico.org.uk
+						<p className="legal-cont-text-desc info-text mb-4">
+							5.6 This contract
+							between ourselves the Company and the Client shall be governed by
+							and construed in accordance with English Law
 						</p>
 					</div>
 					{/* ============ */}
@@ -602,6 +295,6 @@ const TermsCondition = () => {
 			</div>
 		</div>
 	);
-};
+}
 
-export default TermsCondition;
+export default PrivacyPolicy
