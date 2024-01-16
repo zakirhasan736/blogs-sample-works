@@ -29,6 +29,6 @@
       "@utils/*": ["./src/utils/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/service-about-info-section", "src/pages/Services/service-group-slider.jsx", "src/components/effect-card-slider/EffectCardSlider.jsx", "src/components/wordtypinganimation.js", "src/app/features/colour-craft/steps/ColorCraftUi.js", "src/app/api/mail-send/route.js", "src/components/elements/button/glow-button.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/service-about-info-section", "src/pages/Services/service-group-slider.jsx", "src/components/effect-card-slider/EffectCardSlider.jsx", "src/components/wordtypinganimation.js", "src/app/features/colour-craft/steps/ColorCraftUi.js", "src/app/api/mail-send/route.js", "src/components/elements/button/glow-button.js", "src/components/common/cliend-slider/clientSlider.jsx"],
   "exclude": ["node_modules"]
 }
