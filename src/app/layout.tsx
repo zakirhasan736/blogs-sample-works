@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css'
 
-import { Urbanist, Inter } from 'next/font/google';
+import { Urbanist, Inter} from "next/font/google";
 import { Footer, Navbar } from '@/components';
 import StickyNavbar from '@/components/navbar/sticky-navbar';
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -11,7 +11,8 @@ const inter = Inter({
   variable: '--font-inter',
   display: 'swap',
 })
- 
+
+
 const urbanist = Urbanist({ 
   subsets: ['latin'],
   variable: '--font-urbanist',
@@ -30,7 +31,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-		<html lang="en" className={`${inter.variable} ${urbanist.variable}`}>
+		<html
+			lang="en"
+			className={`${inter.variable} ${urbanist.variable}`}>
 			<body className="pca-marketing-page-body md:border-0">
 				<Navbar />
 				<StickyNavbar />
