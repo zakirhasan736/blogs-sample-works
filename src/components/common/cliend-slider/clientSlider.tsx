@@ -20,7 +20,7 @@ const ClientSlider = () => {
 				buttons: false,
 			};
   return (
-		<div className="banner-client-brand-box pb-[73px] max-w-[1004px] mx-auto overflow-hidden">
+		<div className="banner-client-brand-box pb-[73px] max-w-[1004px] mx-auto overflow-hidden h-[120px]">
 			<div className="client-brand-box opacity-20">
 				<Slider {...settings}>
 					<div className="client-brand-item">
