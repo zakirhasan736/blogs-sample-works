@@ -23,7 +23,9 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
 							</h1>
 							<p className="banner-desc mt-[25px] text-[16px] text-center text-neu-white font-tertery font-semibold italic leading-[24px]">
 								‘’To Be The Biggest Catalyst To{" "}
-								<span className="underline">Web</span> and{" "} <span className="underline">App </span> Experiences To Everyone, Everywhere.’’
+								<span className="underline">Web</span> and{" "}
+								<span className="underline">App</span>    Experiences To Everyone,
+								Everywhere.’’
 							</p>
 							<span className="bannar-spacher max-w-[576px] mx-auto h-[1px] w-full block mt-[30px] mb-[26px]"></span>
 							<Link href="/services">
