@@ -28,7 +28,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
 								Everywhere.’’
 							</p>
 							<span className="bannar-spacher max-w-[576px] mx-auto h-[1px] w-full block mt-[30px] mb-[26px]"></span>
-							<Link href="/services">
+							<Link href="/contacts">
 								<GlowButton />
 							</Link>
 							<p className="banner-desc  text-[16px] text-center text-neu-white font-tertery font-normal leading-[22px] mt-[18px]">
