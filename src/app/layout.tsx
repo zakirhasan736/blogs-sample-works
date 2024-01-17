@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css'
+import "@/styles/css/main.css";
 
 import { Urbanist, Inter} from "next/font/google";
 import { Footer, Navbar } from '@/components';

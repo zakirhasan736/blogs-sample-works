@@ -4,6 +4,7 @@ import ArticlesSection from "@/components/article-section/articles-section";
 import CaseStudySlider from "@/components/case-study-slider/case-study-slider";
 import ClientSection from "@/components/client-section/ClientSection";
 import HomeBanner from "@/components/common/banner/home-banner-2";
+import ServicesSection from "@/components/component-v2/services-section/services";
 import GuidedSection from "@/components/guided-section/guided-section";
 import ParticularSecModal from "@/components/particular-sec-modal/particular-sec-modal";
 import TestimonialsSection from "@/components/testimonials-section/testimonials-section";
@@ -43,12 +44,9 @@ const Home = () => {
 			{/* home banner section */}
 			<HomeBanner />
 			{/* home banner section end*/}
-			{/* client section  */}
-			{/* <ClientSection clients={clientsData} /> */}
-			{/* client section  end*/}
-			{/* home about section  */}
-			<AboutSection />
-			{/* home about section  end*/}
+			{/* home services section  */}
+			<ServicesSection />
+			{/* home services section  end*/}
 
 			{/* home guided section */}
 			<GuidedSection />
