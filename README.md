@@ -12,6 +12,7 @@ yarn dev
 pnpm dev
 # or
 bun dev
+NOTE: Node Version 20.5.0 is required
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
