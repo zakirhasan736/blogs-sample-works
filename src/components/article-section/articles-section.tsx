@@ -41,14 +41,12 @@ const ArticlesSection = () => {
 							slidesPerView={1}
 							spaceBetween={30}
 							loop={true}
-						
 							autoplay={{
 								delay: 3500,
 								disableOnInteraction: false,
 							}}
-						
 							navigation={true}
-							modules={[Autoplay,  Navigation]}
+							modules={[Autoplay, Navigation]}
 							breakpoints={{
 								640: {
 									slidesPerView: 1,
@@ -77,6 +75,7 @@ const ArticlesSection = () => {
 												height={459}
 												className="article-image h-full w-full z-[-2] object-cover"
 											/>
+											
 											<div className="article-title-box  p-7 md:p-5 sm:p-4 absolute h-full w-full left-0 top-0 flex items-end justify-start">
 												<h3 className="article-card-title capitalize max-w-[345px] md:text-[24px]   sm:text-[22px] text-gray-light-2 text-left text-[34px] font-primary font-bold leading-[1.2]">
 													{article.title}
