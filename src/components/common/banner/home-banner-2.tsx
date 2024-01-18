@@ -32,7 +32,7 @@ interface HomeBannerProps {}
 const HomeBanner: React.FC<HomeBannerProps> = () => {
 	return (
 		<motion.section
-			className="home-banner-section pt-[128px] md:pt-20"
+			className="home-banner-section pt-[128px] md:pt-20 pb-[73px]"
 			initial="hidden"
 			animate="visible"
 			variants={fadeInVariants}>
