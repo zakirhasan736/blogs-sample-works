@@ -104,9 +104,95 @@
         row-gap: 30px;
     }
 
-    .mid-services-inner-info:first-child{
+    .mid-services-inner-info:first-child {
         margin-bottom: 25px;
     }
+}
+
+/* testimonials section */
+.testimonials-section-v2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.testimonials-section-v2 .Testimonials-title-desc {
+    position: relative;
+    max-width: 530px;
+    width: 100%;
+
+
+
+}
+
+.testimonials-section-v2 .Testimonials-title-desc p span {
+    position: absolute;
+}
+
+.testimonials-section-v2 .before-comma {
+    top: -10px;
+    left: -15px;
+}
+
+.testimonials-section-v2 .Testimonials-title-desc p {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px;
+    text-transform: capitalize;
+
+}
+
+.testimonials-section-v2 .Testimonials-title-desc p span {
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.testimonials-section-v2 .before-coma {
+    position: relative;
+    font-size: 60px;
+    background-color: aqua;
+
+}
+
+section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next,
+section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-prev {
+    right: 0 !important;
+    left: auto;
+    bottom: 33px !important;
+    top: auto !important;
+    width: 50px;
+    height: 50px;
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next {
+    right: 51px !important;
+}
+
+section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-prev {
+    right: calc(51px + 51px + 10px) !important;
+   
+}
+
+section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-prev:after,
+section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next:after {
+    font-size: 20px;
+    color: #fff;
+}
+section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-prev:hover,
+section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next:hover{
+background-color: #000000;
+}
+.testimonials-section-v2 .after-comma {
+    position: relative;
+    font-size: 60px;
+    padding-top: 50px;
+
 }
 
 /* services section version two */
