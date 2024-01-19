@@ -30,7 +30,7 @@ const AboutUsSection = () => {
 				<div className="mid-services-section">
 					<div className="section.1-left-cont">
 						<div className="section-1-title-box">
-							<h4 className="section-1-info-title text-[22px] sm:text-[18px] text-neu-white text-left font-tertery font-normal leading-none">
+							<h4 className="section-1-info-title text-[22px] sm:text-[20px] text-neu-white text-left font-tertery font-normal leading-none">
 								The Proof Is In The Pudding{" "}
 							</h4>
 							<div className="mid-services-wrapper">
