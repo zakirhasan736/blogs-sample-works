@@ -98,7 +98,7 @@
     }
 
     .mid-services-wrapper {
-        display: flex;
+        flex-direction: column;
         justify-content: flex-start;
         margin-right: 0;
         row-gap: 30px;

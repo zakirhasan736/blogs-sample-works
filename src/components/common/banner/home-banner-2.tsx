@@ -62,7 +62,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
 						<motion.span
 							className="bannar-spacher max-w-[576px] mx-auto h-[1px] w-full block mt-[30px] mb-[26px]"
 							variants={expandWidthVariants}></motion.span>
-						<Link href="/contacts">
+						<Link href="/contacts" className="inline-block">
 							<motion.div variants={fadeInChildVariants}>
 								<GlowButton />
 							</motion.div>

@@ -86,7 +86,7 @@ const ArticlesSection = () => {
 											<p className="article-desc md:text-[18px] sm:text-[18px] text-neu-black font-primary font-medium text-left text-[20px] leading-none">
 												{article.description}
 											</p>
-											<Link href={article.itemLink}>
+											<Link href={article.itemLink} className="inline-block">
 												<Button
 													btnText="Discover More"
 													btnVariant="primary-button max-w-[179px] text-[20px] md:text-[18px] shadow-box-shadow-primary whitespace-nowrap mt-[29px] sm:text-[17px]"
