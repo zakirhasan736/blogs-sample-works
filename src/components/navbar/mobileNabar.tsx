@@ -1,5 +1,5 @@
 "use-client";
-import React, { useState } from "react";
+import { useEffect, useState } from "react";
 import { ArrowDownIcons } from "@/icons";
 import { Image, Link } from "@packages/packages";
 
@@ -18,12 +18,25 @@ interface MobileMenuProps {
 	onMenuClose: () => void;
 }
 
-
-const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onMenuClose, items }) => {
+// Define the MobileMenu component
+const MobileMenu: React.FC<MobileMenuProps> = ({
+	isOpen,
+	onMenuClose,
+	items,
+}) => {
 	const [activeMenu, setActiveMenu] = useState<number | null>(null);
 
-	const handleMenuClick = (index: number) => {
+	useEffect(() => {
+		// Close the menu when the isOpen state changes
+		if (!isOpen) {
+			setActiveMenu(null);
+		}
+	}, [isOpen]);
+
+	// Function to handle menu item click
+	const handleMenuClick = (index: number, path: string) => {
 		setActiveMenu(activeMenu === index ? null : index);
+		onMenuClose(); // Close the menu when a navigation item is clicked
 	};
 
 	return (
@@ -67,12 +80,15 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onMenuClose, items }) =
 							}`}
 							key={index}>
 							<div className="navbar-inner-link-box flex items-center gap-6">
+								{/* Use Next.js Link for navigation */}
 								<Link
 									href={item.path}
 									className={`relative font-primary font-medium text-[23px] text-left text-neu-white leading-none trancking-[2.28px] mb-5`}>
-									<span>{item.name}</span>
+									<span onClick={() => handleMenuClick(index, item.path)}>
+										{item.name}
+									</span>
 								</Link>
-								<span onClick={() => handleMenuClick(index)}>
+								<span onClick={() => setActiveMenu(index)}>
 									{item.dropdownItems && <ArrowDownIcons />}
 								</span>
 							</div>
@@ -83,7 +99,10 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onMenuClose, items }) =
 										<li
 											className="mobile-drop-menu-item text-[18px] mb-5 text-left text-[#8e8e8e] font-primary font-bold leading-none"
 											key={subIndex}>
-											<Link href={subItem.path}>{subItem.name}</Link>
+											{/* Use Next.js Link for navigation */}
+											<Link href={subItem.path}>
+												<span onClick={onMenuClose}>{subItem.name}</span>
+											</Link>
 										</li>
 									))}
 								</ul>
