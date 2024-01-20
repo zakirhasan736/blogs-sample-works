@@ -64,10 +64,11 @@ const Footer: React.FC<FooterProps> = () => {
       setLoading(false);
     }
   };
+
   return (
 		<footer className="footer-section pt-[68px] pb-[53px] bg-[#fff] w-full">
 			<div className="custom-container max-w-[1220px] relative">
-				<div className="footer-top-section text-center pb-[54px]">
+				<section className="footer-top-section text-center conclusion pb-[54px]">
 					<p className="mb-[13px] text-center text-[22px] font-normal capitalize font-tertery text-[#000]">
 						Anything In
 					</p>
@@ -76,9 +77,17 @@ const Footer: React.FC<FooterProps> = () => {
 							src="/images/logo-black.svg"
 							width={330}
 							height={77}
+							className="sm:hidden"
 							alt="footer brand logo"
 						/>
-						<span>?</span>
+						<Image
+							src="/images/mobile-view-footer-logo.svg"
+							width={215}
+							height={48}
+							className="hidden sm:block"
+							alt="footer brand logo"
+						/>
+						<span className="text-[60px] sm:text-[42px] font-bold text-black font-tertery leading-normal">?</span>
 					</div>
 					<p className="promo-info mb-[38px] b-3">
 						Interested in working with us? Fill in the form today, and our team
@@ -87,10 +96,10 @@ const Footer: React.FC<FooterProps> = () => {
 					<Link href="/contacts" className="inline-block">
 						<GlowButton glowBtnText="Start a Project" />
 					</Link>
-				</div>
+				</section>
 
 				<div className="sep max-w-[1000px] w-full mx-auto"></div>
-				<div className="footer pt-[54px] flex md:grid  md:grid-cols-12 md:gap-[30px]">
+				<section className="footer footer-container pt-[54px] flex md:grid  md:grid-cols-12 md:gap-[30px]">
 					<div className="f-section md:col-span-4 sm:col-span-12">
 						<div className="footer-title">
 							<h5>Location</h5>
@@ -216,7 +225,7 @@ const Footer: React.FC<FooterProps> = () => {
 									type="button"
 									onClick={handleSubmit}>
 									<span className="px-[19px] pt-[15px] pb-[17px] text-center text-[16px] font-tertery font-semibold capitalize">
-										{loading ? "Loading..." : "Suscribe"}
+										{loading ? "Loading..." : "Subscribe"}
 									</span>
 									<div className="gradient"></div>
 								</button>
@@ -239,7 +248,7 @@ const Footer: React.FC<FooterProps> = () => {
 									</Link>
 								</li>
 								<li className="socials-widgets-item">
-									<Link href="">
+									<Link href="https://www.linkedin.com/company/byparticularagency/">
 										<Image
 											src="/images/icon-insta.svg"
 											alt="socials-widgets icons"
@@ -271,7 +280,7 @@ const Footer: React.FC<FooterProps> = () => {
 							</ul>
 						</div>
 					</div>
-				</div>
+				</section>
 
 				<div className="footer-bottom-box pt-[59px] max-w-[1330px] mx-auto">
 					<p className="copyright">

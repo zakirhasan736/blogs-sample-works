@@ -37,19 +37,22 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
 			animate="visible"
 			variants={fadeInVariants}>
 			<div className="custom-container sm:h-full">
-				<div className="banner-content-main-wrapper main-visual-section max-w-[733px] mx-auto pb-[120px] md:pb-16">
+				<div className="banner-content-main-wrapper main-visual-section max-w-[1118px] mx-auto pb-[120px] md:pb-16">
 					<motion.div
 						className="banner-content-text-box text-center"
 						variants={fadeInVariants}>
 						<motion.h3
 							className="banner-subtitle capitalize text-neu-white text-center text-[20px] sm:text-[18px] font-tertery font-semibold leading-[24px] mb-4"
 							variants={fadeInChildVariants}>
-							We Drive Leads, Conversions, and success.
+							We Teach the Science of Quality. We know it Brings Leads,
+							Conversions and Success.
 						</motion.h3>
 						<motion.h1
 							className="banner-title text-[46px] sm:text-[32px]  capitalize text-center text-neu-white font-semibold font-primary leading-[55.2px]"
 							variants={fadeInChildVariants}>
-							Your brand’s digital growth partner.
+							Your Trusted{" "}
+							<span className="text-[#0396FF]">Marketing Agency,</span> bringing
+							High-quality to Your Buyer, because it brings results.
 						</motion.h1>
 						<motion.p
 							className="banner-desc mt-[25px] text-[16px] text-center text-neu-white font-tertery font-semibold italic leading-[24px]"

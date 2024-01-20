@@ -22,7 +22,7 @@ const OurApproachSection = () => {
 								src="/images/approach-free-thought.png"
 								alt="approach card image"
 							/>
-							<div className="approach-modal-cont absolute top-0 left-0 w-full h-full">
+							<div className="approach-modal-cont absolute flex justify-start items-center flex-col px-[30px] py-[30px] top-0 left-0 w-full h-full">
 								<Link
 									href="/our-approach/free-thought"
 									className="cts-btn right-[16px] bottom-[17px] absolute">
@@ -34,8 +34,12 @@ const OurApproachSection = () => {
 										className="cts-btn-overimg"
 									/>
 								</Link>
-								<p className="modal-anim-text1"></p>
-								<p className="modal-anim-text2"></p>
+								<p className="modal-anim-text1 w-full text-[18px] text-center font-tertery font-normal leading-normal py-[9px] px-[10px] text-[#fff] uppercase rounded-[6px] bg-[#D9D9D999]">
+									Free Thoughts
+								</p>
+								<p className="modal-anim-text2 text-[18px] text-center font-tertery font-normal leading-normal py-[9px] px-[10px] text-[#fff] capitalize rounded-[6px] bg-[#D9D9D999]">
+									Unravel the barriers in the mind to innovate.
+								</p>
 							</div>
 						</div>
 						<p className="description">
@@ -55,7 +59,7 @@ const OurApproachSection = () => {
 								src="/images/approach-atd.png"
 								alt="approach card image"
 							/>
-							<div className="approach-modal-cont absolute top-0 left-0 w-full h-full">
+							<div className="approach-modal-cont absolute flex justify-start items-center flex-col px-[30px] py-[30px] top-0 left-0 w-full h-full">
 								<Link
 									href="/our-approach/attention-to-detail"
 									className="cts-btn right-[16px] bottom-[17px] absolute">
@@ -67,8 +71,12 @@ const OurApproachSection = () => {
 										className="cts-btn-overimg"
 									/>
 								</Link>
-								<p className="modal-anim-text1"></p>
-								<p className="modal-anim-text2"></p>
+								<p className="modal-anim-text1 w-full text-[18px] text-center font-tertery font-normal leading-normal py-[9px] px-[10px] text-[#fff] uppercase rounded-[6px] bg-[#D9D9D999]">
+									Attention to detail
+								</p>
+								<p className="modal-anim-text2 text-[18px] text-center font-tertery font-normal leading-normal py-[9px] px-[10px] text-[#fff] capitalize rounded-[6px] bg-[#D9D9D999]">
+									Unravel the barriers in the mind to innovate.
+								</p>
 							</div>
 						</div>
 						<p className="description">
@@ -89,7 +97,7 @@ const OurApproachSection = () => {
 								src="/images/approach-pioneering.png"
 								alt="approach card image"
 							/>
-							<div className="approach-modal-cont absolute top-0 left-0 w-full h-full">
+							<div className="approach-modal-cont absolute flex justify-start items-center flex-col px-[30px] py-[30px] top-0 left-0 w-full h-full">
 								<Link
 									href="/our-approach/pioneering"
 									className="cts-btn right-[16px] bottom-[17px] absolute">
@@ -101,8 +109,12 @@ const OurApproachSection = () => {
 										className="cts-btn-overimg"
 									/>
 								</Link>
-								<p className="modal-anim-text1"></p>
-								<p className="modal-anim-text2"></p>
+								<p className="modal-anim-text1 w-full text-[18px] text-center font-tertery font-normal leading-normal py-[9px] px-[10px] text-[#fff] uppercase rounded-[6px] bg-[#D9D9D999]">
+									Pioneering
+								</p>
+								<p className="modal-anim-text2 text-[18px] text-center font-tertery font-normal leading-normal py-[9px] px-[10px] text-[#fff] capitalize rounded-[6px] bg-[#D9D9D999]">
+									Unravel the barriers in the mind to innovate.
+								</p>
 							</div>
 						</div>
 						<p className="description">

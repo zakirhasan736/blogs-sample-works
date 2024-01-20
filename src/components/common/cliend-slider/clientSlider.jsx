@@ -5,19 +5,15 @@ import "slick-carousel/slick/slick-theme.css";
 import Image from 'next/image';
 const ClientSlider = () => {
       const settings = {
-				speed: 3000,
 				autoplay: true,
 				autoplaySpeed: 0,
-				centerMode: true,
-				centerPadding: "60px",
-				cssEase: "linear",
-				slidesToShow: 1,
-				slidesToScroll: 1,
-				variableWidth: true,
-				infinite: true,
-				initialSlide: 1,
+				speed: 5000,
 				arrows: false,
-				buttons: false,
+				swipe: false,
+				slidesToShow: 4,
+				cssEase: "linear",
+				pauseOnFocus: false,
+				pauseOnHover: false,
 			};
   return (
 		<div className="banner-client-brand-box pb-[73px] max-w-[1004px] mx-auto overflow-hidden h-[120px]">
@@ -38,6 +34,7 @@ const ClientSlider = () => {
 					<div className="client-brand-item">
 						<Image src="/images/client-logo-5.svg" width={120} height={55} alt="client brand logo" />
 					</div>
+					
 				</Slider>
 			</div>
 		</div>

@@ -32,25 +32,27 @@ const Home = () => {
 		},
 	];
 	return (
-		<div className="home-page-main-wrapper overflow-hidden">
-			{/* home banner section */}
-			<HomeBanner />
-			{/* home banner section end*/}
-			<AboutUsSection />
-			{/* home testimonials section */}
-			<TestimonialsVersionTwo TestiSlides={testimonialsSliderData} />
-			{/* home testimonials section end*/}
-			{/* home services section  */}
-			<ServicesSection />
-			{/* home services section  end*/}
-			<ThemeSectionMode />
-			{/* home article section */}
-			<div className="article-and-cta-section">
-				<CTASectionVersionTwo />
-				<ArticleSectionVersionTwo />
+		<>
+			<div className="home-page-main-wrapper overflow-hidden">
+				{/* home banner section */}
+				<HomeBanner />
+				{/* home banner section end*/}
+				<AboutUsSection />
+				{/* home testimonials section */}
+				<TestimonialsVersionTwo TestiSlides={testimonialsSliderData} />
+				{/* home testimonials section end*/}
+				{/* home services section  */}
+				<ServicesSection />
+				{/* home services section  end*/}
+				<ThemeSectionMode />
+				{/* home article section */}
+				<div className="article-and-cta-section">
+					<CTASectionVersionTwo />
+					<ArticleSectionVersionTwo />
+				</div>
+				{/* home article section end*/}
 			</div>
-			{/* home article section end*/}
-		</div>
+		</>
 	);
 };
 

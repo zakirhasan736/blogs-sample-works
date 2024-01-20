@@ -20,33 +20,33 @@ const ThemeSectionMode = () => {
 				
 				onEnterBack: () => {
 					// Animation when user enters back into the section
-					// gsap.to(section, { backgroundColor: '#ffffff', });
-					section.classList.remove("light-mode");
-					section.classList.add("dark-mode");
+					gsap.to(section, { backgroundColor: "#f8f9f7", duration: 0.2 });
+					section.classList.add("light-mode");
+					section.classList.remove("dark-mode");
 				},
 				onEnter: () => {
 					// Animation when user enters the section
-					// gsap.to(section, { opacity: 1, duration: 0.5 });
-					section.classList.remove("light-mode");
-					section.classList.add("dark-mode");
+					gsap.to(section, { backgroundColor: "#f8f9f7", duration: 0.2 });
+				section.classList.add("light-mode");
+				section.classList.remove("dark-mode");
 				},
 				onLeave: () => {
 					// Animation when user leaves the section
 					// gsap.to(section, { backgroundColor: "#ffffff", duration: 0.2 });
-					section.classList.add("light-mode");
-					section.classList.remove("dark-mode");
+					section.classList.remove("light-mode");
+					section.classList.add("dark-mode");
 				},
 				onLeaveBack: () => {
 					// Animation when user leaves back from the section
 					// gsap.to(section, { backgroundColor: "#ffffff", duration: 0.2 });
-					section.classList.add("light-mode");
-					section.classList.remove("dark-mode");
+					section.classList.remove("light-mode");
+					section.classList.add("dark-mode");
 				},
 			},
 		});
 	}, []);
 	return (
-		<div className="transparent-color-bg-anim-section light-mode pt-[97px]">
+		<div className="transparent-color-bg-anim-section dark-mode pt-[97px]">
 			{/* home our work section */}
 			<OurWorkSec />
 			{/* home our work section end*/}

@@ -35,7 +35,7 @@ const OurWorkSec = () => {
 							effect={"fade"}
 							loop={true}
 							autoplay={{
-								delay: 3000,
+								delay: 6000,
 								disableOnInteraction: false,
 							}}
 							navigation={false}
@@ -112,7 +112,7 @@ const OurWorkSec = () => {
 							slidesPerView={3}
 							freeMode={true}
 							autoplay={{
-								delay: 3000,
+								delay: 6000,
 								disableOnInteraction: false,
 							}}
 							watchSlidesProgress={true}
@@ -142,7 +142,7 @@ const OurWorkSec = () => {
 											user-focused web design and holistic brand identity,
 											enhancing engagement, credibility, and sustainability
 										</p>
-										<Link href="#">Full Case Study</Link>
+										<Link href="/case-studies/naeo">Full Case Study</Link>
 										<div className="progress-loader"></div>
 									</div>
 								</div>
@@ -172,7 +172,7 @@ const OurWorkSec = () => {
 											design enhances user empowerment and brand resonance,
 											cultivating an inclusive digital experience.
 										</p>
-										<Link href="/case-studies/naeo">Full Case Study</Link>
+										<Link href="/case-studies/zenbase">Full Case Study</Link>
 										<div className="progress-loader"></div>
 									</div>
 								</div>
