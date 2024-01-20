@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import {  Link } from "@packages/packages";
+import { Link } from "@packages/packages";
 import GlowButton from "@/components/elements/button/glow-button";
 import ClientSlider from "../cliend-slider/clientSlider";
 
@@ -32,12 +32,12 @@ interface HomeBannerProps {}
 const HomeBanner: React.FC<HomeBannerProps> = () => {
 	return (
 		<motion.section
-			className="home-banner-section home-banner-section-v2 pt-[128px] md:pt-20 pb-[73px]"
+			className="home-banner-section home-banner-section-v2 pt-[123px] md:pt-14 pb-[73px] sm:pb-0"
 			initial="hidden"
 			animate="visible"
 			variants={fadeInVariants}>
 			<div className="custom-container sm:h-full">
-				<div className="banner-content-main-wrapper main-visual-section max-w-[1118px] mx-auto pb-[120px] md:pb-16">
+				<div className="banner-content-main-wrapper main-visual-section max-w-[1118px] mx-auto pb-[70px] md:pb-14">
 					<motion.div
 						className="banner-content-text-box text-center"
 						variants={fadeInVariants}>
@@ -48,11 +48,12 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
 							Conversions and Success.
 						</motion.h3>
 						<motion.h1
-							className="banner-title text-[46px] sm:text-[32px]  capitalize text-center text-neu-white font-semibold font-primary leading-[55.2px]"
+							className="banner-title text-[46px] max-w-[993px] mx-auto sm:text-[32px]  capitalize text-center text-neu-white font-semibold font-primary leading-[1.1]"
 							variants={fadeInChildVariants}>
-							Your Trusted{" "}
-							<span className="text-[#0396FF]">Marketing Agency,</span> bringing
-							High-quality to Your Buyer, because it brings results.
+							bringing High-quality to Your Buyer, because <br /> it Drives results.{" "}
+							<span className="text-[#0396FF]">
+								Your Trusted Marketing Agency.
+							</span>
 						</motion.h1>
 						<motion.p
 							className="banner-desc mt-[25px] text-[16px] text-center text-neu-white font-tertery font-semibold italic leading-[24px]"

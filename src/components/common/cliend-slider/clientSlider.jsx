@@ -10,10 +10,25 @@ const ClientSlider = () => {
 				speed: 5000,
 				arrows: false,
 				swipe: false,
+				variableWidth: true,
 				slidesToShow: 4,
 				cssEase: "linear",
 				pauseOnFocus: false,
 				pauseOnHover: false,
+				responsive: [
+					{
+						breakpoint: 991,
+						settings: {
+							slidesToShow: 3,
+						},
+					},
+					{
+						breakpoint: 767,
+						settings: {
+							slidesToShow: 3,
+						},
+					},
+				],
 			};
   return (
 		<div className="banner-client-brand-box pb-[73px] max-w-[1004px] mx-auto overflow-hidden h-[120px]">

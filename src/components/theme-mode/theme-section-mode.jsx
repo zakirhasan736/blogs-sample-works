@@ -7,44 +7,117 @@ import OurStorySection from "../component-v2/our-story-section/our-story-section
 
 gsap.registerPlugin(ScrollTrigger);
 const ThemeSectionMode = () => {
-	useEffect(() => {
-		const section = document.querySelector(
-			".transparent-color-bg-anim-section",
-		);
+useEffect(() => {
+	const section = document.querySelector(".transparent-color-bg-anim-section");
 
-		gsap.timeline({
-			scrollTrigger: {
-				trigger: section,
-				start: "top top",
-				end: "bottom top",
-				
-				onEnterBack: () => {
-					// Animation when user enters back into the section
-					gsap.to(section, { backgroundColor: "#f8f9f7", duration: 0.2 });
-					section.classList.add("light-mode");
-					section.classList.remove("dark-mode");
-				},
-				onEnter: () => {
-					// Animation when user enters the section
-					gsap.to(section, { backgroundColor: "#f8f9f7", duration: 0.2 });
-				section.classList.add("light-mode");
-				section.classList.remove("dark-mode");
-				},
-				onLeave: () => {
-					// Animation when user leaves the section
-					// gsap.to(section, { backgroundColor: "#ffffff", duration: 0.2 });
-					section.classList.remove("light-mode");
-					section.classList.add("dark-mode");
-				},
-				onLeaveBack: () => {
-					// Animation when user leaves back from the section
-					// gsap.to(section, { backgroundColor: "#ffffff", duration: 0.2 });
-					section.classList.remove("light-mode");
-					section.classList.add("dark-mode");
-				},
+	gsap.timeline({
+		scrollTrigger: {
+			trigger: section,
+			start: "top top+=50px",
+			end: "bottom top",
+			onEnterBack: () => {
+				gsap.fromTo(
+					section,
+					{
+						backgroundColor: "transparent",
+						duration: 0.1,
+						ease: "power2.inOut",
+					},
+					{
+						backgroundColor: "#f8f9f7",
+						duration: 0.1,
+						ease: "power2.inOut",
+						onComplete: () => {
+							section.classList.add("light-mode");
+							section.classList.remove("dark-mode");
+						},
+					},
+				);
 			},
-		});
-	}, []);
+			onEnter: () => {
+				gsap.fromTo(
+					section,
+					{
+						backgroundColor: "transparent",
+						duration: 0.1,
+						ease: "power2.inOut",
+					},
+					{
+						backgroundColor: "#f8f9f7",
+						duration: 0.1,
+						ease: "power2.inOut",
+						onComplete: () => {
+							section.classList.add("light-mode");
+							section.classList.remove("dark-mode");
+						},
+					},
+				);
+			},
+			onLeave: () => {
+				gsap.fromTo(
+					section,
+					{ backgroundColor: "#f8f9f7", duration: 0.1, ease: "power2.inOut" },
+					{
+						backgroundColor: "transparent",
+						duration: 0.1,
+						ease: "power2.inOut",
+						onComplete: () => {
+							gsap.fromTo(
+								section,
+								{
+									backgroundColor: "transparent",
+									duration: 0.1,
+									ease: "power2.inOut",
+								},
+								{
+									backgroundColor: "#000000", // Dark mode color
+									duration: 0.1,
+									ease: "power2.inOut",
+									onComplete: () => {
+										section.classList.remove("light-mode");
+										section.classList.add("dark-mode");
+									},
+								},
+							);
+						},
+					},
+				);
+			},
+			onLeaveBack: () => {
+				gsap.fromTo(
+					section,
+					{ backgroundColor: "#f8f9f7", duration: 0.1, ease: "power2.inOut" },
+					{
+						backgroundColor: "transparent",
+						duration: 0.1,
+						ease: "power2.inOut",
+						onComplete: () => {
+							gsap.fromTo(
+								section,
+								{
+									backgroundColor: "transparent",
+									duration: 0.1,
+									ease: "power2.inOut",
+								},
+								{
+									backgroundColor: "#000000", // Dark mode color
+									duration: 0.1,
+									ease: "power2.inOut",
+									onComplete: () => {
+										section.classList.remove("light-mode");
+										section.classList.add("dark-mode");
+									},
+								},
+							);
+						},
+					},
+				);
+			},
+		},
+	});
+}, []);
+
+
 	return (
 		<div className="transparent-color-bg-anim-section dark-mode pt-[97px]">
 			{/* home our work section */}

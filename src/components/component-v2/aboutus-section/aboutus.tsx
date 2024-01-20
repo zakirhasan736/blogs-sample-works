@@ -34,7 +34,7 @@ const AboutUsSection = () => {
 					<div className="section.1-left-cont">
 						<div className="section-1-title-box">
 							<h4 className="section-1-info-title text-[22px] sm:text-[20px] text-neu-white text-left font-tertery font-normal leading-none">
-								We focus on Customer Retention. The Proof Is In The Pudding{" "}
+								The Proof Is In The Pudding{" "}
 							</h4>
 							<div className="mid-services-wrapper flex justify-between gap-x-[58px] gap-y-1 md:gap-x-[30px]">
 								<div className="mid-services">

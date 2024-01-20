@@ -101,12 +101,24 @@
     color: #ffffff !important;
     border-radius: 6px;
     background: rgba(217, 217, 217, 0.60);
-    top: 80%;
+    top: 50%;
     position: relative;
     opacity: 0;
 
 }
 
+.approach-modal-cont:hover .cts-btn {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transition: all 400ms ease 0ms;
+    -webkit-transition: all 400ms ease 0ms;
+    -moz-transition: all 400ms ease 0ms;
+    -ms-transition: all 400ms ease 0ms;
+    -o-transition: all 400ms ease 0ms;
+}
 
 .approach-modal-cont:hover .modal-anim-text2,
 .approach-modal-cont:hover .modal-anim-text1 {

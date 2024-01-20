@@ -11,7 +11,7 @@ const OurApproachSection = () => {
 				<div className="approach grid grid-cols-12 gap-[43px] md:gap-5 sm:gap-[30px]">
 					<div className="approach-tile col-span-4 sm:col-span-full sm:w-full">
 						<h4 className="name border-b border-[#FFF] text-neu-white text-[20px] text-left font-tertery font-bold capitalize leading-normal mb-[15px] pb-[11px]">
-							Free Thoughts
+							Free-Thought
 						</h4>
 
 						<div className="approach-modal-box relative">
@@ -43,8 +43,8 @@ const OurApproachSection = () => {
 							</div>
 						</div>
 						<p className="description">
-							Click to Discover How Free Thought Drives Creative Excellence at
-							Particular.
+							Unlock your ideation. Analysing all possibilities is best for
+							choosing your winning formulas.
 						</p>
 					</div>
 					<div className="approach-tile col-span-4 sm:col-span-full sm:w-full">
@@ -75,13 +75,13 @@ const OurApproachSection = () => {
 									Attention to detail
 								</p>
 								<p className="modal-anim-text2 text-[18px] text-center font-tertery font-normal leading-normal py-[9px] px-[10px] text-[#fff] capitalize rounded-[6px] bg-[#D9D9D999]">
-									Unravel the barriers in the mind to innovate.
+									Lead With Detail In Quality To Deliver For A Purpose.
 								</p>
 							</div>
 						</div>
 						<p className="description">
-							Click to Experience the Quality That Our Attention To Detail
-							Delivers
+							Refine your interactions. every Customer touchpoint matters, so we
+							make yours count.
 						</p>
 					</div>
 					<div className="approach-tile col-span-4 sm:col-span-full sm:w-full">
@@ -113,12 +113,13 @@ const OurApproachSection = () => {
 									Pioneering
 								</p>
 								<p className="modal-anim-text2 text-[18px] text-center font-tertery font-normal leading-normal py-[9px] px-[10px] text-[#fff] capitalize rounded-[6px] bg-[#D9D9D999]">
-									Unravel the barriers in the mind to innovate.
+									Take action confidently in new territories of the mind.
 								</p>
 							</div>
 						</div>
 						<p className="description">
-							Click to Explore How Pioneering Sets Us Apart at Particular
+							Take action. Click to Explore How Pioneering Practice helps
+							separate you from your competition
 						</p>
 					</div>
 				</div>
