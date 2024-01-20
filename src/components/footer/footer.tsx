@@ -90,15 +90,15 @@ const Footer: React.FC<FooterProps> = () => {
 				</div>
 
 				<div className="sep max-w-[1000px] w-full mx-auto"></div>
-				<div className="footer pt-[54px]">
-					<div className="f-section">
+				<div className="footer pt-[54px] flex md:grid  md:grid-cols-12 md:gap-[30px]">
+					<div className="f-section md:col-span-4 sm:col-span-12">
 						<div className="footer-title">
 							<h5>Location</h5>
 							<span></span>
 						</div>
 						<p>8 Cody Road, London, England, E16 4SR</p>
 					</div>
-					<div className="f-section">
+					<div className="f-section md:col-span-4 sm:col-span-12">
 						<div className="footer-title">
 							<h5>Services</h5>
 							<span></span>
@@ -132,7 +132,7 @@ const Footer: React.FC<FooterProps> = () => {
 							</li>
 						</ul>
 					</div>
-					<div className="f-section">
+					<div className="f-section md:col-span-4 sm:col-span-12">
 						<div className="footer-title">
 							<h5>Technologies</h5>
 							<span></span>
@@ -158,7 +158,7 @@ const Footer: React.FC<FooterProps> = () => {
 							</li>
 						</ul>
 					</div>
-					<div className="f-section">
+					<div className="f-section md:col-span-4 sm:col-span-12">
 						<div className="footer-title">
 							<h5>Quick Links</h5>
 							<span></span>
@@ -193,79 +193,83 @@ const Footer: React.FC<FooterProps> = () => {
 							</li>
 						</ul>
 					</div>
-					<div className="f-section">
-						<div className="footer-title">
-							<h5>Get In Touch</h5>
-							<span></span>
-						</div>
-						<div className="cta-subs-widgets relative sm:hidden">
-							<input
-								className="cta-input-fild"
-								type="email"
-								name="email"
-								placeholder="johdoe@domain.com"
-								value={email}
-								onChange={e => setEmail(e.target.value)}
-							/>
-							{error && <p>{error}</p>}
-							{success && !loading && <p>{success}</p>}
+					<div className="f-section md:col-span-4 sm:col-span-12">
+						<div className="subs-widgets">
+							<div className="footer-title">
+								<h5>Get In Touch</h5>
+								<span></span>
+							</div>
+							<div className="cta-subs-widgets relative">
+								<input
+									className="cta-input-fild"
+									type="email"
+									name="email"
+									placeholder="johdoe@domain.com"
+									value={email}
+									onChange={e => setEmail(e.target.value)}
+								/>
+								{error && <p>{error}</p>}
+								{success && !loading && <p>{success}</p>}
 
-							<button
-								className="glow-button text-neu-white mt-3"
-								type="button"
-								onClick={handleSubmit}>
-								<span className="px-[19px] pt-[15px] pb-[17px] text-center text-[16px] font-tertery font-semibold capitalize">
-									{loading ? "Loading..." : "Suscribe"}
-								</span>
-								<div className="gradient"></div>
-							</button>
+								<button
+									className="glow-button text-neu-white mt-3"
+									type="button"
+									onClick={handleSubmit}>
+									<span className="px-[19px] pt-[15px] pb-[17px] text-center text-[16px] font-tertery font-semibold capitalize">
+										{loading ? "Loading..." : "Suscribe"}
+									</span>
+									<div className="gradient"></div>
+								</button>
+							</div>
 						</div>
-						<div className="footer-title mt-[52px]">
-							<h5>Social Links</h5>
-							<span></span>
+						<div className="socials-widgets-box">
+							<div className="footer-title mt-[52px]">
+								<h5>Social Links</h5>
+								<span></span>
+							</div>
+							<ul className="social flex gap-[17px] items-center">
+								<li className="socials-widgets-item">
+									<Link href="">
+										<Image
+											src="/images/icon-fb.svg"
+											alt="socials-widgets icons"
+											width={27}
+											height={35}
+										/>
+									</Link>
+								</li>
+								<li className="socials-widgets-item">
+									<Link href="">
+										<Image
+											src="/images/icon-insta.svg"
+											alt="socials-widgets icons"
+											width={27}
+											height={35}
+										/>
+									</Link>
+								</li>
+								<li className="socials-widgets-item">
+									<Link href="">
+										<Image
+											src="/images/icon-insta (1).svg"
+											alt="socials-widgets icons"
+											width={27}
+											height={30}
+										/>
+									</Link>
+								</li>
+								<li className="socials-widgets-item">
+									<Link href="">
+										<Image
+											src="/images/tweeter-icon.svg"
+											alt="socials-widgets icons"
+											width={24}
+											height={24}
+										/>
+									</Link>
+								</li>
+							</ul>
 						</div>
-						<ul className="social flex gap-[17px] items-center">
-							<li className="socials-widgets-item">
-								<Link href="">
-									<Image
-										src="/images/icon-fb.svg"
-										alt="socials-widgets icons"
-										width={27}
-										height={35}
-									/>
-								</Link>
-							</li>
-							<li className="socials-widgets-item">
-								<Link href="">
-									<Image
-										src="/images/icon-insta.svg"
-										alt="socials-widgets icons"
-										width={27}
-										height={35}
-									/>
-								</Link>
-							</li>
-							<li className="socials-widgets-item">
-								<Link href="">
-									<Image
-										src="/images/icon-insta (1).svg"
-										alt="socials-widgets icons"
-										width={27}
-										height={30}
-									/>
-								</Link>
-							</li>
-							<li className="socials-widgets-item">
-								<Link href="">
-									<Image
-										src="/images/tweeter-icon.svg"
-										alt="socials-widgets icons"
-										width={24}
-										height={24}
-									/>
-								</Link>
-							</li>
-						</ul>
 					</div>
 				</div>
 

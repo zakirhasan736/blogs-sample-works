@@ -15,7 +15,7 @@ const ThemeSectionMode = () => {
 		gsap.timeline({
 			scrollTrigger: {
 				trigger: section,
-				start: "top top+=0%",
+				start: "top top",
 				end: "bottom top",
 				
 				onEnterBack: () => {
@@ -32,13 +32,13 @@ const ThemeSectionMode = () => {
 				},
 				onLeave: () => {
 					// Animation when user leaves the section
-					gsap.to(section, { backgroundColor: "#ffffff", duration: 0.2 });
+					// gsap.to(section, { backgroundColor: "#ffffff", duration: 0.2 });
 					section.classList.add("light-mode");
 					section.classList.remove("dark-mode");
 				},
 				onLeaveBack: () => {
 					// Animation when user leaves back from the section
-					gsap.to(section, { backgroundColor: "#ffffff", duration: 0.2 });
+					// gsap.to(section, { backgroundColor: "#ffffff", duration: 0.2 });
 					section.classList.add("light-mode");
 					section.classList.remove("dark-mode");
 				},

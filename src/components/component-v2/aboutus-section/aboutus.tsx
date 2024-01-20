@@ -35,11 +35,11 @@ const AboutUsSection = () => {
 							</h4>
 							<div className="mid-services-wrapper">
 								<div className="mid-services">
-									<h1 className='text-[56px] sm:text-[36px] text-left text-neu-white font-tertery font-normal leading-[1.1]'>47%</h1>
+									<h1 className='text-[56px] md:text-[36px] text-left text-neu-white font-tertery font-normal leading-[1.1]'>47%</h1>
 									<p className='text-[15px] text-left text-neu-white font-tertery font-normal leading-normal'>Return rate within 3 months</p>
 								</div>
 								<div className="mid-services">
-									<h1 className='text-[56px] sm:text-[36px] text-left text-neu-white font-tertery font-normal leading-[1.1]'>50+ Start Ups</h1>
+									<h1 className='text-[56px] md:text-[36px] text-left text-neu-white font-tertery font-normal leading-[1.1]'>50+ Start Ups</h1>
 									<p className='text-[15px] text-left text-neu-white font-tertery font-normal leading-normal'>Have joined forces with us and experienced empowerment</p>
 								</div>
 								<div className="mid-services">

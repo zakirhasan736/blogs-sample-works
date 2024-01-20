@@ -11,8 +11,8 @@ const ArticleSectionVersionTwo = () => {
 						<h2>Our Work</h2>
 						<span></span>
 					</div>
-					<div className="articles-blogs-main-wrap grid grid-cols-12 gap-[13px]">
-						<div className="blog articles-blogs-item col-span-4">
+					<div className="articles-blogs-main-wrap grid grid-cols-12 gap-[13px] md:justify-center sm:gap-[30px]">
+						<div className="blog articles-blogs-item col-span-4 md:col-span-6 sm:col-span-full">
 							<Image
 								width={330}
 								height={237}
@@ -30,7 +30,7 @@ const ArticleSectionVersionTwo = () => {
 								</div>
 							</div>
 						</div>
-						<div className="blog  articles-blogs-item col-span-4">
+						<div className="blog  articles-blogs-item col-span-4 md:col-span-6 sm:col-span-full">
 							<Image
 								width={330}
 								height={237}
@@ -48,7 +48,7 @@ const ArticleSectionVersionTwo = () => {
 								</div>
 							</div>
 						</div>
-						<div className="blog  articles-blogs-item col-span-4">
+						<div className="blog  articles-blogs-item col-span-4 md:col-span-6 sm:col-span-full">
 							<Image
 								width={330}
 								height={237}
