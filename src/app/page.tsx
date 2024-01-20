@@ -1,13 +1,11 @@
 "use client";
-import ArticlesSection from "@/components/article-section/articles-section";
-import CaseStudySlider from "@/components/case-study-slider/case-study-slider";
+import ArticleSectionVersionTwo from "@/components/article-section/article-section-v2";
 import HomeBanner from "@/components/common/banner/home-banner-2";
 import AboutUsSection from "@/components/component-v2/aboutus-section/aboutus";
+import CTASectionVersionTwo from "@/components/component-v2/cta-section/cta-section-v2";
 import ServicesSection from "@/components/component-v2/services-section/services";
-import GuidedSection from "@/components/guided-section/guided-section";
-import ParticularSecModal from "@/components/particular-sec-modal/particular-sec-modal";
 import TestimonialsVersionTwo from "@/components/testimonials-section/testimonials-v2";
-import SliderItemsData from "@data/home-page-data/home-case-study-slider.json";
+import ThemeSectionMode from "@/components/theme-mode/theme-section-mode";
 
 const Home = () => {
 	const testimonialsSliderData = [
@@ -45,21 +43,13 @@ const Home = () => {
 			{/* home services section  */}
 			<ServicesSection />
 			{/* home services section  end*/}
-			{/* home guided section */}
-			<GuidedSection />
-			{/* home guided section end*/}
-			{/* home particular modal section */}
-			<ParticularSecModal />
-			{/* home particular modal section end*/}
-
-			{/* case study slider section */}
-			<CaseStudySlider slides={SliderItemsData} />
-			{/* case study slider section end*/}
-
+			<ThemeSectionMode />
 			{/* home article section */}
-			<ArticlesSection />
+			<div className="article-and-cta-section">
+				<CTASectionVersionTwo />
+				<ArticleSectionVersionTwo />
+			</div>
 			{/* home article section end*/}
-
 		</div>
 	);
 };

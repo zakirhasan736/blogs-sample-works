@@ -51,7 +51,7 @@ const TestimonialsVersionTwo: React.FC<CaseStudySliderProps> = ({
 									className="w-full absolute h-full object-cover rounded-[10px] top-0 max-w-[1440px] mx-auto right-0 -z-10 left-0"
 								/>
 							</div>
-							<div className="custom-container  max-w-[1160px]">
+							<div className="custom-container  max-w-[1220px]">
 								<div className="comon-title max-w-[547px] mb-20 sm:mb-10">
 									<h2 className="mb-[6px]">Our Testimonials</h2>
 									<span></span>

@@ -32,7 +32,7 @@ interface HomeBannerProps {}
 const HomeBanner: React.FC<HomeBannerProps> = () => {
 	return (
 		<motion.section
-			className="home-banner-section pt-[128px] md:pt-20 pb-[73px]"
+			className="home-banner-section home-banner-section-v2 pt-[128px] md:pt-20 pb-[73px]"
 			initial="hidden"
 			animate="visible"
 			variants={fadeInVariants}>
@@ -64,7 +64,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
 							variants={expandWidthVariants}></motion.span>
 						<Link href="/contacts" className="inline-block">
 							<motion.div variants={fadeInChildVariants}>
-								<GlowButton />
+								<GlowButton glowBtnText="Get your free brand strength assessment" />
 							</motion.div>
 						</Link>
 						<motion.p
