@@ -33,18 +33,6 @@ const navItems: NavItem[] = [
 		title: "village of general",
 		subtitle: "web design and Brand Assets",
 		link: "/case-studies/village-of-genal",
-	},
-	{
-		path: "/images/case-study-card-7.png",
-		title: "NAEO",
-		subtitle: "web design and Brand Assets",
-		link: "/case-studies/naeo",
-	},
-	{
-		path: "/images/case-study-card-8.png",
-		title: "KNIGHT’S ACADEMY",
-		subtitle: "web design and Brand Assets",
-		link: "/case-studies/knights-academy",
 	}
 ];
 export const metadata: Metadata = {

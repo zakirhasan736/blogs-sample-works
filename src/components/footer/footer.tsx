@@ -131,15 +131,15 @@ const Footer: React.FC<FooterProps> = () => {
 							<li>
 								<Link href="/services/seo">SEO</Link>
 							</li>
-							<li>
+							{/* <li>
 								<Link href="#">Content Strategy</Link>
-							</li>
+							</li> */}
 							<li>
 								<Link href="/services/branding">Branding</Link>
 							</li>
-							<li>
+							{/* <li>
 								<Link href="#">App Development</Link>
-							</li>
+							</li> */}
 						</ul>
 					</div>
 					<div className="f-section md:col-span-4 sm:col-span-12">

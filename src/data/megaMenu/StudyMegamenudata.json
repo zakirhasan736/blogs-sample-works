@@ -55,34 +55,6 @@
                     "path": "/case-studies/village-of-genal"
                 }
             ]
-        },
-        {
-            "title": "Knights Academy",
-            "path": "/case-studies/knights-academy",
-            "subItems": [
-                {
-                    "title": "Web Design",
-                    "path": "/case-studies/knights-academy"
-                },
-                {
-                    "title": "Web Development",
-                    "path": "/case-studies/knights-academy"
-                }
-            ]
-        },
-        {
-            "title": "NAEO",
-            "path": "/case-studies/naeo",
-            "subItems": [
-                {
-                    "title": "Web Design",
-                    "path": "/case-studies/naeo"
-                },
-                {
-                    "title": "Visual Media",
-                    "path": "/case-studies/naeo"
-                }
-            ]
         }
     ],
     "StudyFooterItems": [

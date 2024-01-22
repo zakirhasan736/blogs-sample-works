@@ -41,7 +41,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
 
 	return (
 		<div
-			className={`header-mobile-menu-wrapper hidden sm:flex flex-col pb-10 pt-[22px] fixed top-0 left-0 bg-[#161617] z-[99999999] px-6 h-full w-full ${
+			className={`header-mobile-menu-wrapper hidden sm:flex flex-col pb-10 pt-[22px] fixed top-0 left-0 bg-[#161617] z-[99999999] px-6 h-[100vh] w-full ${
 				isOpen ? "MobileMenuopen" : "MobileMenuclosed"
 			}`}>
 			<div className="mobile-menu-header">
