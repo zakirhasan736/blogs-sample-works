@@ -162,9 +162,9 @@ const Footer: React.FC<FooterProps> = () => {
 							<span></span>
 						</div>
 						<ul>
-							<li>
+							{/* <li>
 								<Link href="#">About Us</Link>
-							</li>
+							</li> */}
 
 							<li>
 								<Link href="/services">Our Services</Link>
@@ -175,9 +175,9 @@ const Footer: React.FC<FooterProps> = () => {
 							<li>
 								<Link href="/our-approach">Our Approach</Link>
 							</li>
-							<li>
+							{/* <li>
 								<Link href="/articles">Blogs</Link>
-							</li>
+							</li> */}
 
 							<li>
 								<Link href="/terms-and-condition">Terms and Conditions</Link>
