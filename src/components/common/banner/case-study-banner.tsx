@@ -23,7 +23,7 @@ const CaseStudyBanner: React.FC<CaseStudyBannerProps> = ({
 	return (
 		<section
 			
-			className="case-study-banner-section faq-main-content-wrap-box pt-[113px] pb-[100px] sm:pb-10 sm:pt-0 h-[920px] md:h-[650px] sm:h-[444px] relative">
+			className="case-study-banner-section faq-main-content-wrap-box pt-[213px] pb-[100px] sm:pb-10 sm:pt-0  h-[100vh] max-h-[950px] md:h-[720px] sm:h-[444px] relative">
 			<div className="case-study-banner-modal-image max-w-[1920px] mx-auto absolute top-0 left-0 right-0 w-full h-full">
 				<Image
 					src={StudyBannerModalImg || ""}

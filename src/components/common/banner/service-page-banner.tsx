@@ -23,7 +23,7 @@ interface ServicePageBannerProps {
 const ServicePageBanner: React.FC<ServicePageBannerProps> = ({ slides }) => {
 
 	return (
-		<section className="service-page-banner pt-[110px] pb-[110px] bg-neu-black h-[666px] sm:h-[512px] sm:pt-16 sm:pb-8">
+		<section className="service-page-banner pt-[210px] pb-[110px] bg-neu-black  h-[100vh] max-h-[950px] sm:h-[512px] sm:pt-[164px]  sm:pb-8">
 			<div className="service-page-banner-custom-container h-full">
 				<div className="services-banner-wrraper-main flex flex-col justify-end h-full sm:px-5 max-w-[1430px] mx-auto laptop-x:pr-9 md:pr-0">
 					<div className="services-banner-content-box">

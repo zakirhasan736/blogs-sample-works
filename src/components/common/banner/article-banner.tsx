@@ -14,7 +14,7 @@ interface ArticleBannerProps {
 
 const ArticleBanner: React.FC<ArticleBannerProps> = ({ data }) => {
 	return (
-		<section className="banner-varient-two-section relative z-30 bg-neu-black px-[71px] py-[120px] h-[850px] laptop-x:h-[720px] sm:h-[680px] laptop-x:px-0 laptop-x:pb-[119px] md:pb-[80px] sm;pb-[65px]">
+		<section className="banner-varient-two-section relative z-30 bg-neu-black px-[71px] py-[120px] h-[100vh] max-h-[950px] laptop-x:h-[720px] sm:h-[680px] laptop-x:px-0 laptop-x:pb-[119px] md:pb-[80px] sm:pb-[65px]">
 			<div className="case-study-banner-modal-image max-w-[1920px] mx-auto absolute top-0 left-0 right-0 w-full h-full -z-10">
 				<Image
 					src={data.ArticleBannerModalImg || ""}

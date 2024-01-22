@@ -22,7 +22,7 @@ const ServicesBanner: React.FC<ServicesBannerProps> = ({ data }) => {
 
 	return (
 		<>
-			<section className="services-banner-section pt-[113px] pb-[70px] sm:py-9 h-[666px] sm:h-[530px] bg-black">
+			<section className="services-banner-section pt-[213px] pb-[70px] sm:pt-[136px] sm:pb-9  h-[100vh] max-h-[950px] sm:h-[530px] bg-black">
 				<div className="custom-container h-full">
 					<div className="services-content-main-wrapper relative grid grid-cols-16 gap-5 w-full h-full  max-w-[1430px] mx-auto">
 						<div className="services-content-text-box pb-12 col-span-full mt-auto sm:mb-0">

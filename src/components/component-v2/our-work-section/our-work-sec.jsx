@@ -137,7 +137,7 @@ const OurWorkSec = () => {
 								<div className="client-naeo project-info paginetion-item relative pagination-active">
 									<p className="name mb-[6px]">Hult IB School</p>
 									<div className="active-slide-cont-box">
-										<p className="description mb-4 lowercase">
+										<p className="description mb-4">
 											Crafting a web design and Paid Ads solution to help
 											deliver on Hult Business School’s ongoing desire for
 											increased student enrolment.
@@ -151,14 +151,15 @@ const OurWorkSec = () => {
 							</SwiperSlide>
 							<SwiperSlide>
 								<div className="project-info paginetion-item relative">
-									<p className="name  mb-[6px]">Knights Academy</p>
+									<p className="name  mb-[6px]">AI & Humanity</p>
 									<div className="active-slide-cont-box">
-										<p className="description mb-4 lowercase">
-											Elevating opportunities in American Football and beyond,
-											Knight's Academy transforms talent connections with
-											precision web design and digital marketing prowess.
+										<p className="description mb-4">
+											Design intention: to symbolise the harmonious coexistence
+											of AI and humanity, ensuring the campaign's messaging
+											would be easily digestible for a contemporary,
+											fast-evolving audience.
 										</p>
-										<Link href="/case-studies/knights-academy">
+										<Link href="/case-studies/ai-and-humanity">
 											Full Case Study
 										</Link>
 										<div className="progress-loader"></div>
@@ -169,7 +170,7 @@ const OurWorkSec = () => {
 								<div className="project-info paginetion-item relative">
 									<p className="name  mb-[6px]">Zenbase</p>
 									<div className="active-slide-cont-box">
-										<p className="description mb-4 lowercase">
+										<p className="description mb-4">
 											Elevating Zenbase's financial health solutions, our UX/UI
 											design enhances user empowerment and brand resonance,
 											cultivating an inclusive digital experience.
