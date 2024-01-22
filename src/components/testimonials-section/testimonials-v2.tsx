@@ -63,10 +63,10 @@ const TestimonialsVersionTwo: React.FC<CaseStudySliderProps> = ({
 										<span className="after-comma">”</span>
 									</p>
 									<div className="auther-info-box mt-[13px]  sm:pl-4">
-										<h3 className="text-[20px] text-left text-neu-white font-normal font-tertery leading-[1.1]">
+										<h3 className="text-[20px] text-left text-neu-white capitalize font-normal font-tertery leading-[1.1]">
 											{slide.testimonialsAutherName}
 										</h3>
-										<h4 className="text-[18px] text-left text-neu-white font-tertery font-normal leading-normal mt-[5px]">
+										<h4 className="text-[18px] text-left text-neu-white capitalize font-tertery font-normal leading-normal mt-[5px]">
 											{slide.testimonialsAutherBio}
 										</h4>
 									</div>

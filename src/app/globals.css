@@ -57,6 +57,24 @@
   }
 
   /* navbar menu style start here */
+  header.header-section.show {
+    position: fixed;
+    transition: position 650ms ease 0s;
+    top: 0;
+    -webkit-transition: position 650ms ease 0s;
+    -moz-transition: position 650ms ease 0s;
+    -ms-transition: position 650ms ease 0s;
+    -o-transition: position 650ms ease 0s;
+}
+
+  header.header-section.hide{
+    transition: position 650ms ease 0s;
+    -webkit-transition: possition 650ms ease 0s;
+    -moz-transition: possition 650ms ease 0s;
+    -ms-transition: possition 650ms ease 0s;
+    -o-transition: possition 650ms ease 0s;
+}
+
   .navbar-nav-items:hover>a:before,
   .navbar-nav-items:not(:first-child)>a.active-asign:before {
     content: "";
@@ -465,7 +483,16 @@
     margin: auto;
   }
 
-  .megamenu-wrapper-content .mega-menu-main.featured-mega-menu,
+  .megamenu-wrapper-content .mega-menu-main.featured-mega-menu {
+    justify-content: center;
+    text-align: center;
+    min-height: 200px;
+    max-width: 820px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto
+  }
+
   .megamenu-wrapper-content .mega-menu-main.approach-mega-menu {
     text-align: center;
     justify-content: space-between;
@@ -478,7 +505,6 @@
 
   .megamenu-wrapper-content .mega-menu-main.featured-mega-menu {
     align-items: center;
-    justify-content: space-between;
     max-width: 832px;
     width: 100%;
     margin-left: auto;

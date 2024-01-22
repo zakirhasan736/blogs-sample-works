@@ -12,14 +12,18 @@ const ArticleSectionVersionTwo = () => {
 					</div>
 					<div className="articles-blogs-main-wrap grid grid-cols-12 gap-[13px] md:justify-center sm:gap-[30px]">
 						<div className="blog articles-blogs-item col-span-4 md:col-span-6 sm:col-span-full">
-							<Image
-								width={330}
-								height={237}
-								src="/images/article-cad-img-1.png"
-								alt="blog article image"
-								className="rounded-3 h-[237px] object-cover"
-							/>
-							<h4>Revolutionise Your Digital Marketing Strategy.</h4>
+							<Link href="/articles/digital-marking-strategy">
+								<Image
+									width={330}
+									height={237}
+									src="/images/article-cad-img-1.png"
+									alt="blog article image"
+									className="rounded-3 h-[237px] object-cover"
+								/>
+							</Link>
+							<Link href="/articles/digital-marking-strategy">
+								<h4>Revolutionise Your Digital Marketing Strategy.</h4>
+							</Link>
 							<div className="blog-info">
 								<div>
 									<p>- Particular Agency</p>
@@ -30,16 +34,20 @@ const ArticleSectionVersionTwo = () => {
 							</div>
 						</div>
 						<div className="blog  articles-blogs-item col-span-4 md:col-span-6 sm:col-span-full">
-							<Image
-								width={330}
-								height={237}
-								src="/images/article-cad-img-2.png"
-								alt="blog article image"
-								className="rounded-3 h-[237px] object-cover"
-							/>
-							<h4>
-								Unleashing the Power of Free Thinking in Digital Marketing
-							</h4>
+							<Link href="/articles/applying-free-thought">
+								<Image
+									width={330}
+									height={237}
+									src="/images/article-cad-img-2.png"
+									alt="blog article image"
+									className="rounded-3 h-[237px] object-cover"
+								/>
+							</Link>
+							<Link href="/articles/applying-free-thought">
+								<h4>
+									Unleashing the Power of Free Thinking in Digital Marketing
+								</h4>
+							</Link>
 							<div className="blog-info">
 								<div>
 									<p>- Particular Agency</p>
@@ -50,14 +58,18 @@ const ArticleSectionVersionTwo = () => {
 							</div>
 						</div>
 						<div className="blog  articles-blogs-item col-span-4 md:col-span-6 sm:col-span-full">
-							<Image
-								width={330}
-								height={237}
-								src="/images/article-cad-img-3.png"
-								alt="blog article image"
-								className="rounded-3 h-[237px] object-cover"
-							/>
-							<h4>How Consumer Behaviour Influences Digital Marketing</h4>
+							<Link href="/articles/psychology-in-marketing">
+								<Image
+									width={330}
+									height={237}
+									src="/images/article-cad-img-3.png"
+									alt="blog article image"
+									className="rounded-3 h-[237px] object-cover"
+								/>
+							</Link>
+							<Link href="/articles/psychology-in-marketing">
+								<h4>How Consumer Behaviour Influences Digital Marketing</h4>
+							</Link>
 							<div className="blog-info">
 								<div>
 									<p>- Particular Agency</p>

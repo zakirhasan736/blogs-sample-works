@@ -3,8 +3,9 @@ import './globals.css'
 import "@/styles/css/main.css";
 
 import { Urbanist, Inter} from "next/font/google";
-import { Footer, Navbar } from '@/components';
-import StickyNavbar from '@/components/navbar/sticky-navbar';
+import { Footer } from "@/components";
+import Navbar from '@/components/navbar/navbar';
+// import StickyNavbar from '@/components/navbar/sticky-navbar';
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import React from "react";
 const inter = Inter({
@@ -37,7 +38,7 @@ export default function RootLayout({
 			className={`${inter.variable} ${urbanist.variable}`}>
 			<body className="pca-marketing-page-body md:border-0">
 				<Navbar />
-				<StickyNavbar />
+				{/* <StickyNavbar /> */}
 				<main className="pca-marketing-main-wraper">{children}</main>
 				<Footer />
 				<SpeedInsights />

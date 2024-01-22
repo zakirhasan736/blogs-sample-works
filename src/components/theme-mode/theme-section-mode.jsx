@@ -3,7 +3,6 @@ import { gsap } from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import OurWorkSec from "../component-v2/our-work-section/our-work-sec";
 import OurApproachSection from "../our-approach-particular-sec/our-approach-section";
-import OurStorySection from "../component-v2/our-story-section/our-story-section";
 
 gsap.registerPlugin(ScrollTrigger);
 const ThemeSectionMode = () => {
@@ -128,9 +127,7 @@ useEffect(() => {
 			<OurApproachSection />
 			{/* home our approach section end*/}
 
-			{/* our story section */}
-			<OurStorySection />
-			{/* our story section end*/}
+			
 		</div>
 	);
 };

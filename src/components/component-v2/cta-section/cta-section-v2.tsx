@@ -7,17 +7,19 @@ const CTASectionVersionTwo = () => {
 			<div className="custom-container">
 				<div className="promotion">
 					<h2 className="mb-9 text-[#F2EFEF] text-center text-[38px] sm:text-[32px] font-medium font-primary capitalize leading-normal">
-						Find out Marketing Strength of your Business
+						Find out the marketing strength of your business
 					</h2>
-					<Link href="/contacts" className="inline-block">
-							<GlowButton glowBtnText="Get your free brand strength assessment" />
+					<Link
+						href="https://www.particularagency.co.uk/self-assess"
+						className="inline-block">
+						<GlowButton glowBtnText="Get your free brand strength assessment" />
 					</Link>
 					<p className="mt-9 max-w-[543px] mx-auto">
 						Unlock valuable insights into your brand's potential and performance
 						with our complimentary self-assessment survey.
 					</p>
 				</div>
-			</div> 
+			</div>
 		</section>
 	);
 };

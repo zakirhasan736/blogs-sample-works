@@ -88,10 +88,6 @@
             {
                 "name": "Color Craft",
                 "path": "/features/colour-craft"
-            },
-            {
-                "name": "Games Room",
-                "path": "/features/games-room"
             }
         ]
     }

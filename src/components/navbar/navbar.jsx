@@ -5,12 +5,14 @@ import MobileMenuData from "@data/MobileNavbar.json";
 import { usePathname } from "next/navigation";
 import Button from "../elements/button/button";
 import MobileMenu from "./mobileNabar";
-import { useState } from "react";
+import { useEffect, useState, useRef } from "react";
+import { TweenMax, Power2 } from "gsap";
 import MegaMenu from "./MegaMenu";
 import StudyMegaMenuData from "@data/megaMenu/StudyMegamenudata.json";
 import ServiceMegaMenuData from "@data/megaMenu/ServicesMegamenudata.json";
 import ApproachMegaMenuData from "@data/megaMenu/Approach.json";
 import FeaturedMegaMenuData from "@data/megaMenu/FeatureMegamenudata.json";
+
 
 const Navbar = () => {
 	const pathname = usePathname() || "/";
@@ -18,29 +20,30 @@ const Navbar = () => {
 		// Define your conditions for different path-based background colors
 		// pathname === '/faq' || pathname === '/our-approach
 		if (pathname === "/faq") {
-			return "bg-[#000]";
+			return "absolute w-full left-0 right-0 bg-[#000000] top-0 sm:top-0";
 		} else if (pathname === "/services") {
-			return "bg-[#000]";
+			return "absolute w-full left-0 right-0 bg-[#000000] top-0 sm:top-0";
 		} else if (pathname === "/our-approach") {
-			return "bg-[#000]";
+			return "absolute w-full left-0 right-0 bg-[#000000] top-0 sm:top-0";
 		} else if (
 			pathname.includes("/our-approach/") ||
 			
 			pathname.includes("/colour-craft") 
 		) {
-			return "bg-[#000]";
+			return "absolute w-full left-0 right-0 bg-[#000000] top-0 sm:top-0";
 		} else if (pathname.includes("/services/")) {
-			return "bg-[#000]";
+			return "absolute w-full left-0 right-0 bg-[#000000] top-0 sm:top-0";
 		} else if (
 			pathname.includes("/articles/") ||
 			pathname.includes("/case-studies/")
 		) {
-			return "absolute w-full left-0 right-0 top-6 sm:top-0 bg-transparent z-[9999]";
+			return "absolute w-full left-0 right-0 top-0 sm:top-0 bg-[#000000] z-[9999]";
 		} else {
-			return "bg-transparent relative";
+			return "absolute w-full left-0 right-0 bg-[#000000] top-0 sm:top-0";
 		}
 	};
-	 const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
+
+	 const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
 		const handleMobileMenuToggle = () => {
 			setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -53,8 +56,60 @@ const Navbar = () => {
 			ApproachMegaMenuData;
 		const { FeatureMenuItems, FeatureFooterItems, FeatureMegaMenuClass } =
 			FeaturedMegaMenuData;
+
+
+	const [showStickyNavbar, setShowStickyNavbar] = useState(true);
+	const headerRef = useRef(null);
+
+	useEffect(() => {
+		let prevScrollY = window.scrollY;
+
+		const handleScroll = () => {
+			const currentScrollY = window.scrollY;
+
+			if (currentScrollY > 150) {
+				setShowStickyNavbar(
+					currentScrollY < prevScrollY || currentScrollY < 200,
+				);
+			} else {
+				setShowStickyNavbar(false);
+			}
+
+			prevScrollY = currentScrollY;
+		};
+
+		window.addEventListener("scroll", handleScroll);
+
+		return () => {
+			window.removeEventListener("scroll", handleScroll);
+		};
+	}, []);
+
+	useEffect(() => {
+		const header = headerRef.current;
+
+		if (showStickyNavbar) {
+			// Use GSAP to animate the header to a fixed position
+			TweenMax.to(header, 0.3, { y: 0, ease: Power2.easeInOut });
+		} else {
+			// Only hide the header if the user is scrolling down
+			if (window.scrollY > 150) {
+				TweenMax.to(header, 0.3, {
+					y: -header.offsetHeight,
+					borderBottomWidth: "0px",
+					ease: Power2.easeInOut,
+				});
+			}
+		}
+	}, [showStickyNavbar]);
+
+
 	return (
-		<header className={`header-section pt-4  pb-[19px]  ${getHeaderBgColor()}`}>
+		<header
+			ref={headerRef}
+			className={`header-section pt-4  pb-[19px]  z-[9999999]  ${getHeaderBgColor()}  ${
+				showStickyNavbar ? "show" : "hide"
+			}`}>
 			<div className="custom-container md:px-6 sm:px-4">
 				<div className="header-wrapper flex items-center justify-between sm:block">
 					<div className="header-brand-box flex items-center justify-between sm:w-full">
@@ -164,9 +219,9 @@ const Navbar = () => {
 					<Link className="w-full max-w-[159px] md:hidden" href="/contacts">
 						<Button
 							btnText="Contact Us"
-							btnVariant={`pca-secondary-button capitalize text-[16px] laptop-m:text-[16px] md:hidden border-4 border-secondary ${pathname.includes(
-								"/articles/",
-							) ? 'bg-secondary-2' : ''}`}
+							btnVariant={`pca-secondary-button capitalize text-[16px] laptop-m:text-[16px] md:hidden border-4 border-secondary ${
+								pathname.includes("/articles/") ? "bg-secondary-2" : ""
+							}`}
 						/>
 					</Link>
 				</div>

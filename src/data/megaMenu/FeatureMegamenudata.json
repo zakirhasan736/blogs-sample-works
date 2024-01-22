@@ -1,10 +1,6 @@
 {
     "FeatureMenuItems": [
         {
-            "title": "GAMES ROOM",
-            "path": "/features/games-room"
-        },
-        {
             "title": "COLOUR CRAFT",
             "path": "/features/colour-craft"
         }

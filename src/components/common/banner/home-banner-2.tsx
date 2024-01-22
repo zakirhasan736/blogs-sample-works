@@ -32,7 +32,7 @@ interface HomeBannerProps {}
 const HomeBanner: React.FC<HomeBannerProps> = () => {
 	return (
 		<motion.section
-			className="home-banner-section home-banner-section-v2 pt-[123px] md:pt-14 pb-[73px] sm:pb-0"
+			className="home-banner-section home-banner-section-v2 pt-[223px] md:pt-[156px]  pb-[73px] sm:pb-0"
 			initial="hidden"
 			animate="visible"
 			variants={fadeInVariants}>
@@ -44,13 +44,13 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
 						<motion.h3
 							className="banner-subtitle capitalize text-neu-white text-center text-[20px] sm:text-[18px] font-tertery font-semibold leading-[24px] mb-4"
 							variants={fadeInChildVariants}>
-							We Teach the Science of Quality. We know it Brings Leads,
-							Conversions and Success.
+							Delivering Leads, Conversions and Success.
 						</motion.h3>
 						<motion.h1
 							className="banner-title text-[46px] max-w-[993px] mx-auto sm:text-[32px]  capitalize text-center text-neu-white font-semibold font-primary leading-[1.1]"
 							variants={fadeInChildVariants}>
-							bringing High-quality to Your Buyer, because <br /> it Drives results.{" "}
+							bringing High-quality to Your Buyer, because <br /> it Drives
+							results.{" "}
 							<span className="text-[#0396FF]">
 								Your Trusted Marketing Agency.
 							</span>
@@ -66,7 +66,9 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
 						<motion.span
 							className="bannar-spacher max-w-[576px] mx-auto h-[1px] w-full block mt-[30px] mb-[26px]"
 							variants={expandWidthVariants}></motion.span>
-						<Link href="/contacts" className="inline-block">
+						<Link
+							href="https://www.particularagency.co.uk/self-assess"
+							className="inline-block">
 							<motion.div variants={fadeInChildVariants}>
 								<GlowButton glowBtnText="Get your free brand strength assessment" />
 							</motion.div>

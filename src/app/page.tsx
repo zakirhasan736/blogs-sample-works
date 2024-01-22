@@ -3,6 +3,7 @@ import ArticleSectionVersionTwo from "@/components/article-section/article-secti
 import HomeBanner from "@/components/common/banner/home-banner-2";
 import AboutUsSection from "@/components/component-v2/aboutus-section/aboutus";
 import CTASectionVersionTwo from "@/components/component-v2/cta-section/cta-section-v2";
+import OurStorySection from "@/components/component-v2/our-story-section/our-story-section";
 import ServicesSection from "@/components/component-v2/services-section/services";
 import TestimonialsVersionTwo from "@/components/testimonials-section/testimonials-v2";
 import ThemeSectionMode from "@/components/theme-mode/theme-section-mode";
@@ -11,17 +12,17 @@ const Home = () => {
 	const testimonialsSliderData = [
 		{
 			testisliderModalImag: "/images/testimonials-slides-modal-img-1.png",
-			testimonialsAutherBio: "Founder (Tsagiris Clinic)",
+			testimonialsAutherBio: "Dr. John Tsagiris, Founder",
 			testimonialsAutherName: "- Dr. John Tsagiris",
 			testimonialsText:
 				"My partnership with Particular Agency for our web application development has been nothing short of remarkable.",
 		},
 		{
 			testisliderModalImag: "/images/testimonials-v2-img-2.jpg",
-			testimonialsAutherBio: "knights Rushmoore Academy, Marketing Manager",
-			testimonialsAutherName: "- Marcia Johnson",
+			testimonialsAutherBio: "Rushmoor Knights Academy, Founder",
+			testimonialsAutherName: "- Stephen Diaper",
 			testimonialsText:
-				"We collaborated with Particular for the redesign of our website. The team at Particular was fantastic.",
+				"We collaborated with Particular for the Design and Launch of our web Platform. The team at Particular was fantastic.",
 		},
 		{
 			testisliderModalImag: "/images/testimonials-v2-img-3.jpg",
@@ -45,6 +46,9 @@ const Home = () => {
 				<ServicesSection />
 				{/* home services section  end*/}
 				<ThemeSectionMode />
+				{/* our story section */}
+				<OurStorySection />
+				{/* our story section end*/}
 				{/* home article section */}
 				<div className="article-and-cta-section">
 					<CTASectionVersionTwo />

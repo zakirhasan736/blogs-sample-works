@@ -1,71 +1,70 @@
 "use client";
 import {
-  ArrowDownIcons,
-  InstagrameIcons,
-  TwitterIcons,
-  YoutubeIcons,
+	ArrowDownIcons,
+	InstagrameIcons,
+	TwitterIcons,
+	YoutubeIcons,
 } from "@/icons";
 import { Image, Link, useState } from "@packages/packages";
 import GlowButton from "../elements/button/glow-button";
 
-
 interface FooterProps {}
 
 const Footer: React.FC<FooterProps> = () => {
-  const [email, setEmail] = useState("");
-  const [error, setError] = useState("");
-  const [success, setSuccessMessage] = useState("");
-  const [loading, setLoading] = useState(false);
+	const [email, setEmail] = useState("");
+	const [error, setError] = useState("");
+	const [success, setSuccessMessage] = useState("");
+	const [loading, setLoading] = useState(false);
 
-  const handleSubmit = async () => {
-    setLoading(true);
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    const isEmty = (input: any) => (input === "" ? true : false);
-    if (isEmty(email)) {
-      setError("Email is required");
-      return;
-    } else if (!emailRegex.test(email)) {
-      setError("Email should be a valid email address");
-      return;
-    }
-    setError("");
-    try {
-      const response = await fetch(
-        `${process.env.NEXT_PUBLIC_API_URL}/api/subscription`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            email,
-          }),
-        }
-      );
+	const handleSubmit = async () => {
+		setLoading(true);
+		const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+		const isEmty = (input: any) => (input === "" ? true : false);
+		if (isEmty(email)) {
+			setError("Email is required");
+			return;
+		} else if (!emailRegex.test(email)) {
+			setError("Email should be a valid email address");
+			return;
+		}
+		setError("");
+		try {
+			const response = await fetch(
+				`${process.env.NEXT_PUBLIC_API_URL}/api/subscription`,
+				{
+					method: "POST",
+					headers: {
+						"Content-Type": "application/json",
+					},
+					body: JSON.stringify({
+						email,
+					}),
+				},
+			);
 
-      if (!response.ok) {
-        throw new Error("Network response was not ok");
-      }
+			if (!response.ok) {
+				throw new Error("Network response was not ok");
+			}
 
-      const responseData = await response.json();
+			const responseData = await response.json();
 
-      if (responseData.status === 200) {
-        setEmail("");
-        setSuccessMessage("Subcription Successfully!");
-        setTimeout(() => {
-          setSuccessMessage("");
-        }, 3000);
-      } else {
-        console.error("EmailJS error:", responseData);
-      }
-    } catch (error) {
-      console.error("EmailJS error:", error);
-    } finally {
-      setLoading(false);
-    }
-  };
+			if (responseData.status === 200) {
+				setEmail("");
+				setSuccessMessage("Thank You For Subscribing!");
+				setTimeout(() => {
+					setSuccessMessage("");
+				}, 3000);
+			} else {
+				console.error("EmailJS error:", responseData);
+			}
+		} catch (error) {
+			console.error("EmailJS error:", error);
+		} finally {
+			setLoading(false);
+		}
+	};
 
-  return (
+	return (
 		<footer className="footer-section pt-[68px] pb-[53px] bg-[#fff] w-full">
 			<div className="custom-container max-w-[1220px] relative">
 				<section className="footer-top-section text-center conclusion pb-[54px]">
@@ -87,7 +86,9 @@ const Footer: React.FC<FooterProps> = () => {
 							className="hidden sm:block"
 							alt="footer brand logo"
 						/>
-						<span className="text-[60px] sm:text-[42px] font-bold text-black font-tertery leading-normal">?</span>
+						<span className="text-[60px] sm:text-[42px] font-bold text-black font-tertery leading-normal">
+							?
+						</span>
 					</div>
 					<p className="promo-info mb-[38px] b-3">
 						Interested in working with us? Fill in the form today, and our team
@@ -96,7 +97,7 @@ const Footer: React.FC<FooterProps> = () => {
 					<Link href="/contacts" className="inline-block">
 						<GlowButton glowBtnText="Start a Project" />
 					</Link>
-				</section>
+				</section> 
 
 				<div className="sep max-w-[1000px] w-full mx-auto"></div>
 				<section className="footer footer-container pt-[54px] flex md:grid  md:grid-cols-12 md:gap-[30px]">
@@ -147,24 +148,12 @@ const Footer: React.FC<FooterProps> = () => {
 							<span></span>
 						</div>
 						<ul>
-							<li>
-								<Link href="#">Shopify</Link>
-							</li>
-							<li>
-								<Link href="#">Magento</Link>
-							</li>
-							<li>
-								<Link href="#">Prestashop</Link>
-							</li>
-							<li>
-								<Link href="#">Wordpress</Link>
-							</li>
-							<li>
-								<Link href="#">Android</Link>
-							</li>
-							<li>
-								<Link href="#">IOS</Link>
-							</li>
+							<li>Shopify</li>
+							<li>Magento</li>
+							<li>Prestashop</li>
+							<li>Wordpress</li>
+							<li>Android</li>
+							<li>IOS</li>
 						</ul>
 					</div>
 					<div className="f-section md:col-span-4 sm:col-span-12">
@@ -176,9 +165,7 @@ const Footer: React.FC<FooterProps> = () => {
 							<li>
 								<Link href="#">About Us</Link>
 							</li>
-							<li>
-								<Link href="#">Pricing</Link>
-							</li>
+
 							<li>
 								<Link href="/services">Our Services</Link>
 							</li>
@@ -191,9 +178,7 @@ const Footer: React.FC<FooterProps> = () => {
 							<li>
 								<Link href="/articles">Blogs</Link>
 							</li>
-							<li>
-								<Link href="#">Careers</Link>
-							</li>
+
 							<li>
 								<Link href="/terms-and-condition">Terms and Conditions</Link>
 							</li>
@@ -238,42 +223,12 @@ const Footer: React.FC<FooterProps> = () => {
 							</div>
 							<ul className="social flex gap-[17px] items-center">
 								<li className="socials-widgets-item">
-									<Link href="">
-										<Image
-											src="/images/icon-fb.svg"
-											alt="socials-widgets icons"
-											width={27}
-											height={35}
-										/>
-									</Link>
-								</li>
-								<li className="socials-widgets-item">
 									<Link href="https://www.linkedin.com/company/byparticularagency/">
 										<Image
 											src="/images/icon-insta.svg"
 											alt="socials-widgets icons"
 											width={27}
 											height={35}
-										/>
-									</Link>
-								</li>
-								<li className="socials-widgets-item">
-									<Link href="">
-										<Image
-											src="/images/icon-insta (1).svg"
-											alt="socials-widgets icons"
-											width={27}
-											height={30}
-										/>
-									</Link>
-								</li>
-								<li className="socials-widgets-item">
-									<Link href="">
-										<Image
-											src="/images/tweeter-icon.svg"
-											alt="socials-widgets icons"
-											width={24}
-											height={24}
 										/>
 									</Link>
 								</li>

@@ -78,7 +78,7 @@ const OurWorkSec = () => {
 								<div className="work-slide-items work-slide-item-two">
 									<div className="client-project-img">
 										<Image
-											src="/images/our-works-img-item-1.jpg" // Replace with the correct image path
+											src="/images/our-works-img-item-2.jpg" // Replace with the correct image path
 											width={657}
 											height={451}
 											className="h-[451px] md:h-auto"
@@ -91,7 +91,7 @@ const OurWorkSec = () => {
 								<div className="work-slide-items work-slide-item-three">
 									<div className="client-project-img">
 										<Image
-											src="/images/our-works-img-item-1.jpg" // Replace with the correct image path
+											src="/images/our-works-img-item-3.jpg" // Replace with the correct image path
 											width={657}
 											height={451}
 											className="h-[451px] md:h-auto"
@@ -135,14 +135,16 @@ const OurWorkSec = () => {
 							{/* Slides for the pagination Swiper */}
 							<SwiperSlide>
 								<div className="client-naeo project-info paginetion-item relative pagination-active">
-									<p className="name mb-[6px]">Naeo</p>
+									<p className="name mb-[6px]">Hult IB School</p>
 									<div className="active-slide-cont-box">
-										<p className="description mb-4">
-											Transforming Naeo's digital presence through a
-											user-focused web design and holistic brand identity,
-											enhancing engagement, credibility, and sustainability
+										<p className="description mb-4 lowercase">
+											Crafting a web design and Paid Ads solution to help
+											deliver on Hult Business School’s ongoing desire for
+											increased student enrolment.
 										</p>
-										<Link href="/case-studies/naeo">Full Case Study</Link>
+										<Link href="/case-studies/hult-ib-school">
+											Full Case Study
+										</Link>
 										<div className="progress-loader"></div>
 									</div>
 								</div>
@@ -151,7 +153,7 @@ const OurWorkSec = () => {
 								<div className="project-info paginetion-item relative">
 									<p className="name  mb-[6px]">Knights Academy</p>
 									<div className="active-slide-cont-box">
-										<p className="description mb-4">
+										<p className="description mb-4 lowercase">
 											Elevating opportunities in American Football and beyond,
 											Knight's Academy transforms talent connections with
 											precision web design and digital marketing prowess.
@@ -167,7 +169,7 @@ const OurWorkSec = () => {
 								<div className="project-info paginetion-item relative">
 									<p className="name  mb-[6px]">Zenbase</p>
 									<div className="active-slide-cont-box">
-										<p className="description mb-4">
+										<p className="description mb-4 lowercase">
 											Elevating Zenbase's financial health solutions, our UX/UI
 											design enhances user empowerment and brand resonance,
 											cultivating an inclusive digital experience.

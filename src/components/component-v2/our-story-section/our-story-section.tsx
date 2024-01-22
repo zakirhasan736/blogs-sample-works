@@ -4,7 +4,7 @@ import React from 'react'
 
 const OurStorySection = () => {
   return (
-		<section className="our-story pb-[104px]">
+		<section className="our-story pt-[104px]">
 			<div className="custom-container max-w-[1220px]">
 				<div className="comon-title mb-4">
 					<h2 className="mb-2">Our Story</h2>
