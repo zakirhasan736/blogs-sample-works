@@ -44,13 +44,6 @@ export default function RootLayout({
             `,
 					}}
 				/>
-				<noscript>
-					<iframe
-						src="https://www.googletagmanager.com/ns.html?id=GTM-KSLS5JR5"
-						height="0"
-						width="0"
-						style={{ display: "none", visibility: "hidden" }}></iframe>
-				</noscript>
 
 				{/* Google Analytics */}
 				<script
@@ -82,6 +75,13 @@ export default function RootLayout({
 				/>
 			</Head>
 			<body className="pca-marketing-page-body md:border-0">
+				<noscript>
+					<iframe
+						src="https://www.googletagmanager.com/ns.html?id=GTM-KSLS5JR5"
+						height="0"
+						width="0"
+						style={{ display: "none", visibility: "hidden" }}></iframe>
+				</noscript>
 				<main>{children}</main>
 			</body>
 		</html>
