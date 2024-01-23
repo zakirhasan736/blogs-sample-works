@@ -22,7 +22,7 @@ const OurWorkSec = () => {
 	const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
 	return (
-		<section className="our-work-section pb-[141px] md:pb-20">
+		<section className="our-work-section pb-[70px] md:pb-20">
 			<div className="custom-container max-w-[1220px]">
 				<div className="comon-title mb-6">
 					<h2>Our Work</h2>

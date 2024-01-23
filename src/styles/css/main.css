@@ -437,6 +437,7 @@ section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next:
 }
 
 /* cta section and articles section */
+/* .our-story, */
 .article-and-cta-section {
     background: radial-gradient(50% 50% at 50% 50%, #151D48 0%, #000000 100%);
 }
@@ -702,10 +703,24 @@ section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next:
     -o-transition: all 650ms ease-in 0s;
 }
 
+
 .transparent-color-bg-anim-section.light-mode .approach-tile h4.name {
     border-bottom: 1px solid #000000;
 }
 
+
+.our-story.light-mode p,
+.our-story.light-mode h1,
+.our-story.light-mode h2,
+.our-story.light-mode h3,
+.our-story.light-mode h4,
+.our-story.light-mode h6,
+.our-story.light-mode a,
+.our-story.light-mode button,
+.our-story.light-mode span,
+.our-story.light-mode li,
+.our-story.light-mode ol,
+.our-story.light-mode .comon-title h5,
 .transparent-color-bg-anim-section.light-mode p,
 .transparent-color-bg-anim-section.light-mode h1,
 .transparent-color-bg-anim-section.light-mode h2,
@@ -721,7 +736,39 @@ section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next:
     color: #000;
 }
 
+.our-story.light-mode {
+    background-color: #f8f9f7;
+}
+
+.our-story.light-mode .comon-title span,
 .transparent-color-bg-anim-section.light-mode .progress-loader,
 .transparent-color-bg-anim-section.light-mode .comon-title span {
     background: #000;
+}
+
+
+/* =========== */
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background:
+        radial-gradient(farthest-side, #ffffff 94%, #0000) top/8px 8px no-repeat,
+        conic-gradient(#0000 30%, #ffffff);
+    -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 8px), #000 0);
+    animation: l13 1s infinite linear;
+}
+
+@keyframes l13 {
+    100% {
+        transform: rotate(1turn)
+    }
+}
+
+.loader-screen-view {
+    background: radial-gradient(50% 50% at 50% 50%, #151D48 0%, #000000 100%);
 }

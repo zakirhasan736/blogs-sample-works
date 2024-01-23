@@ -21,7 +21,7 @@ const ArticleSectionVersionTwo = () => {
 									className="rounded-3 h-[237px] object-cover"
 								/>
 							</Link>
-							<Link href="/articles/digital-marking-strategy">
+							<Link className='text-[#ffffff]' href="/articles/digital-marking-strategy">
 								<h4>Revolutionise Your Digital Marketing Strategy.</h4>
 							</Link>
 							<div className="blog-info">
@@ -43,7 +43,7 @@ const ArticleSectionVersionTwo = () => {
 									className="rounded-3 h-[237px] object-cover"
 								/>
 							</Link>
-							<Link href="/articles/applying-free-thought">
+							<Link className='text-[#ffffff]' href="/articles/applying-free-thought">
 								<h4>
 									Unleashing the Power of Free Thinking in Digital Marketing
 								</h4>
@@ -67,7 +67,7 @@ const ArticleSectionVersionTwo = () => {
 									className="rounded-3 h-[237px] object-cover"
 								/>
 							</Link>
-							<Link href="/articles/psychology-in-marketing">
+							<Link className='text-[#ffffff]' href="/articles/psychology-in-marketing">
 								<h4>How Consumer Behaviour Influences Digital Marketing</h4>
 							</Link>
 							<div className="blog-info">
