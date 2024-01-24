@@ -43,7 +43,7 @@ export const metadata: Metadata = {
 const CaseStudypage: React.FC = () => {
 	return (
 		<div className="case-study-section">
-			<div className="case-study-wrapper grid grid-cols-12 gap-0">
+			<div className="case-study-wrapper grid grid-cols-12 gap-0 pt-[100px]">
 				{navItems.map((item, index) => (
 					<div
 						key={index}

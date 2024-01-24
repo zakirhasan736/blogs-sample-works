@@ -3,7 +3,7 @@ import { Link, Image } from "@packages/packages";
 
 const CTASectionVersionTwo = () => {
 	return (
-		<section className="cta-section-v2 pt-[110px] pb-[87px]">
+		<section className="cta-section-v2 pt-[60px] pb-[87px]">
 			<div className="custom-container">
 				<div className="promotion">
 					<h2 className="mb-9 text-[#F2EFEF] text-center text-[38px] sm:text-[32px] font-medium font-primary capitalize leading-normal">

@@ -11,8 +11,9 @@ const OurStorySection = () => {
 		gsap.timeline({
 			scrollTrigger: {
 				trigger: section,
-				start: "top top+=50px",
+				start: "top top",
 				end: "bottom top",
+				markers: true,
 				onEnterBack: () => {
 					gsap.fromTo(
 						section,
@@ -23,7 +24,7 @@ const OurStorySection = () => {
 						},
 						{
 							backgroundColor: "#000000",
-							duration: 0.1,
+							duration: 0.2,
 							ease: "power2.inOut",
 							onComplete: () => {
 								section.classList.add("dark-mode");
@@ -42,7 +43,7 @@ const OurStorySection = () => {
 						},
 						{
 							backgroundColor: "#000000",
-							duration: 0.1,
+							duration: 0.2,
 							ease: "power2.inOut",
 							onComplete: () => {
 								section.classList.add("dark-mode");
@@ -57,19 +58,19 @@ const OurStorySection = () => {
 						{ backgroundColor: "#000000", duration: 0.1, ease: "power2.inOut" },
 						{
 							backgroundColor: "#f8f9f7",
-							duration: 0.1,
+							duration: 0.2,
 							ease: "power2.inOut",
 							onComplete: () => {
 								gsap.fromTo(
 									section,
 									{
 										backgroundColor: "#f8f9f7",
-										duration: 0.1,
+										duration: 0.2,
 										ease: "power2.inOut",
 									},
 									{
 										backgroundColor: "#f8f9f7", // Dark mode color
-										duration: 0.1,
+										duration: 0.2,
 										ease: "power2.inOut",
 										onComplete: () => {
 											section.classList.remove("dark-mode");
@@ -87,19 +88,19 @@ const OurStorySection = () => {
 						{ backgroundColor: "#000000", duration: 0.1, ease: "power2.inOut" },
 						{
 							backgroundColor: "#f8f9f7",
-							duration: 0.1,
+							duration: 0.2,
 							ease: "power2.inOut",
 							onComplete: () => {
 								gsap.fromTo(
 									section,
 									{
 										backgroundColor: "#f8f9f7",
-										duration: 0.1,
+										duration: 0.2,
 										ease: "power2.inOut",
 									},
 									{
 										backgroundColor: "#f8f9f7", // Dark mode color
-										duration: 0.1,
+										duration: 0.2,
 										ease: "power2.inOut",
 										onComplete: () => {
 											section.classList.remove("dark-mode");
@@ -115,7 +116,7 @@ const OurStorySection = () => {
 		});
 	}, []);
   return (
-		<section className="our-story pt-[104px] light-mode">
+		<section className="our-story pt-[104px] pb-[50px] light-mode">
 			<div className="custom-container max-w-[1220px]">
 				<div className="comon-title mb-4">
 					<h2 className="mb-2">Our Story</h2>

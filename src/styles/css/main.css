@@ -736,6 +736,12 @@ section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next:
     color: #000;
 }
 
+section.our-story.dark-mode {
+    background-color: #000000;
+}
+
+section.our-story.light-mode button span,
+section.our-story.light-mode button,
 .our-story.light-mode {
     background-color: #f8f9f7;
 }
