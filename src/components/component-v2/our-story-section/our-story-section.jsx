@@ -13,7 +13,6 @@ const OurStorySection = () => {
 				trigger: section,
 				start: "top top",
 				end: "bottom top",
-				markers: true,
 				onEnterBack: () => {
 					gsap.fromTo(
 						section,
