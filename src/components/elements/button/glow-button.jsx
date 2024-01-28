@@ -55,7 +55,7 @@ const GlowButton = ({ glowBtnText }) => {
 
 	return (
 		<button className="glow-button text-neu-white" type='button'>
-			<span className="px-[19px] pt-[15px] pb-[17px] text-center text-[16px] font-tertery font-semibold capitalize bg-[#fff]">
+			<span className="px-[19px] pt-[15px] pb-[17px] text-center text-[16px] font-tertery font-semibold capitalize">
 				{glowBtnText}
 			</span>
 			<div className="gradient"></div>

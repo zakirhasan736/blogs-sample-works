@@ -1436,7 +1436,13 @@
     -ms-border-radius: 0;
     -o-border-radius: 0;
   }
-
+  .glow-button{
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
   .glow-button span {
     z-index: 1;
     position: relative;
@@ -1446,7 +1452,7 @@
     width: -moz-fit-content;
     width: fit-content;
     border-radius: 0;
-    background-color: #000000;
+    /* background-color: #000000; */
     overflow: hidden;
     -webkit-mask-image: -webkit-radial-gradient(white, black);
     -webkit-border-radius: 0;
