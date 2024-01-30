@@ -46,6 +46,7 @@ export default function RootLayout({
 				<GoogleAnalytics gaId="G-5VRY1RRCR1" />
 				{/* Hotjar */}
 				<Script
+				id="analyticshotjar"
 					strategy="afterInteractive"
 					dangerouslySetInnerHTML={{
 						__html: `
