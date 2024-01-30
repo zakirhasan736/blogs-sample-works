@@ -1,8 +1,9 @@
+import Head from "next/head";
+import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import "./globals.css";
 import "@/styles/css/main.css";
 import { Urbanist, Inter } from "next/font/google";
-import Head from "next/head";
 import React from "react";
 
 const inter = Inter({
@@ -36,11 +37,13 @@ export default function RootLayout({
 				<script
 					dangerouslySetInnerHTML={{
 						__html: `
-                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                })(window,document,'script','dataLayer','GTM-KSLS5JR5');
+               (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','${process.env.NEXT_PUBLIC_GOOGLE_TAGS}',{
+	page_path: window.location.pathname,
+});
             `,
 					}}
 				/>
@@ -48,7 +51,8 @@ export default function RootLayout({
 				{/* Google Analytics */}
 				<script
 					async
-					src="https://www.googletagmanager.com/gtag/js?id=G-5VRY1RRCR1"></script>
+					src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+				/>
 				<script
 					dangerouslySetInnerHTML={{
 						__html: `
@@ -56,7 +60,9 @@ export default function RootLayout({
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-5VRY1RRCR1');
+  gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}',{
+	page_path: window.location.pathname,
+  });
             `,
 					}}
 				/>
@@ -87,6 +93,8 @@ export default function RootLayout({
 						style={{ display: "none", visibility: "hidden" }}></iframe>
 				</noscript>
 				<main>{children}</main>
+				<GoogleTagManager gtmId="GTM-KSLS5JR5" />
+				<GoogleAnalytics gaId="G-5VRY1RRCR1" />
 			</body>
 		</html>
 	);
