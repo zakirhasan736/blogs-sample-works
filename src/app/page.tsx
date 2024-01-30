@@ -7,8 +7,16 @@ import OurStorySection from "@/components/component-v2/our-story-section/our-sto
 import ServicesSection from "@/components/component-v2/services-section/services";
 import TestimonialsVersionTwo from "@/components/testimonials-section/testimonials-v2";
 import ThemeSectionMode from "@/components/theme-mode/theme-section-mode";
+import LatestBlogs from "@data/blogs/short-blog-data.json";
 
 const Home = () => {
+	// Sort the latest blogs by date in descending order
+	const sortedLatestBlogs = LatestBlogs.sort((a, b) => {
+		return new Date(b.date).getTime() - new Date(a.date).getTime();
+	});
+
+	// Select the latest three blogs
+	const latestThreeBlogs = sortedLatestBlogs.slice(0, 3);
 	const testimonialsSliderData = [
 		{
 			testisliderModalImag: "/images/testimonials-slides-modal-img-1.png",
@@ -52,7 +60,7 @@ const Home = () => {
 				{/* home article section */}
 				<div className="article-and-cta-section">
 					<CTASectionVersionTwo />
-					<ArticleSectionVersionTwo />
+					<ArticleSectionVersionTwo latestBlogs={latestThreeBlogs} ShortBlogs={true} />
 				</div>
 				{/* home article section end*/}
 			</div>

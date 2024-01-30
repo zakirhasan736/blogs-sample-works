@@ -778,3 +778,74 @@ section.our-story.light-mode button,
 .loader-screen-view {
     background: radial-gradient(50% 50% at 50% 50%, #151D48 0%, #000000 100%);
 }
+
+/* about page styles start here */
+/* about banner section */
+.about-page-main-wrapper {
+    background: radial-gradient(50% 50% at 50% 50%, #151D48 0%, #0D0E19 100%);
+}
+
+section.about-banner-section {
+    position: relative;
+    /* background: radial-gradient(38.31% 38.31% at 50% 52.25%, #151D48 0%, #0D0E19 100%); */
+}
+
+/* our team section */
+.team-card {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(9.600000381469727px);
+    max-width: 350px;
+    padding: 20px;
+    width: 100%;
+    /* margin: 0 10px 30px 10px; */
+}
+
+/* joinus career section */
+.join-us {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(9.600000381469727px);
+    width: 100%;
+    max-width: 1114px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.join-us img {
+    border-radius: 6px;
+    width: 100%;
+}
+
+.join-us p {
+    max-width: 100%;
+    line-height: 28px;
+    margin-top: 4px;
+}
+
+.join-us-content {
+    width: 405px;
+    max-width: 100%;
+}
+
+/* blogs page style start here */
+.blogs-page-main-wrapper {
+    background: radial-gradient(50% 50% at 50% 50%, #151D48 0%, #0D0E19 100%);
+}
+
+/* blogs banner section */
+.blogs-banner-section {
+    position: relative;
+    background: radial-gradient(38.31% 38.31% at 50% 52.25%, #151D48 0%, #0D0E19 100%);
+}
+
+.featured-blogs-card {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(9.600000381469727px);
+    padding: 26px 25px 20px 27px;
+}

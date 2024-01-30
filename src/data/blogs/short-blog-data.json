@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "title": "Revolutionise Your Digital Marketing Strategy",
+        "imageUrl": "/images/article-cad-img-1.png",
+        "imageWidth": 330,
+        "imageHeight": 237,
+        "link": "/articles/digital-marking-strategy",
+        "date": "15th January 2024",
+        "agency": "Particular Agency",
+        "featured": true
+    },
+    {
+        "id": 2,
+        "title": "Unleashing the Power of Free Thinking in Digital Marketing",
+        "imageUrl": "/images/article-cad-img-2.png",
+        "imageWidth": 330,
+        "imageHeight": 237,
+        "link": "/articles/applying-free-thought",
+        "date": "8th January 2024",
+        "agency": "Particular Agency",
+        "featured": false
+    },
+    {
+        "id": 3,
+        "title": "How Consumer Behaviour Influences Digital Marketing",
+        "imageUrl": "/images/article-cad-img-3.png",
+        "imageWidth": 330,
+        "imageHeight": 237,
+        "link": "/articles/psychology-in-marketing",
+        "date": "1st January 2024",
+        "agency": "Particular Agency",
+        "featured": false
+    }
+]

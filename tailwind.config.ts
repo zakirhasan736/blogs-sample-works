@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from "tailwindcss";
 
 const config: Config = {
 	content: [
@@ -41,7 +41,7 @@ const config: Config = {
 			primary: ["Urbanist", "sans-serif"],
 			secondary: ["Inter", "sans-serif"],
 			accent: ["Urbanist", "sans-serif"],
-			tertery: ['Lato', "sans-serif"],
+			tertery: ["Lato", "sans-serif"],
 		},
 		fontSize: {
 			"modal-heading": "454px",
@@ -162,4 +162,4 @@ const config: Config = {
 	},
 	plugins: [],
 };
-export default config
+export default config;

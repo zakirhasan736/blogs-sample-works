@@ -1489,6 +1489,31 @@
       transform: scale(1.05) translateY(-44px) rotate(360deg) translateZ(0);
     }
   }
+/* global style */
+.comon-title h2 {
+    color: var(--color-icons-white, #FFF);
+    font-family: Lato;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0 0 10px 0;
+}
+
+.comon-title span {
+    display: inline-block;
+    height: 4px;
+    width: 34px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-left: 1px;
+}
+
+@media screen and (max-width:767px) {
+    .comon-title h2 {
+        font-size: 28px;
+    }
+}
 
 }
 

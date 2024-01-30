@@ -38,6 +38,8 @@ const Navbar = () => {
 			pathname.includes("/case-studies/")
 		) {
 			return "absolute w-full left-0 right-0 top-0 sm:top-0 bg-[#000000] z-[9999]";
+		}else if (pathname.includes("/aboutus")) {
+			return "absolute w-full left-0 right-0 bg-[#000000] top-0 sm:top-0";
 		} else {
 			return "absolute w-full left-0 right-0 bg-[#000000] top-0 sm:top-0";
 		}
