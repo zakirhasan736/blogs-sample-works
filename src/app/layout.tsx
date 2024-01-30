@@ -52,10 +52,11 @@ export default function RootLayout({
 				<script
 					dangerouslySetInnerHTML={{
 						__html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-5VRY1RRCR1');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5VRY1RRCR1');
             `,
 					}}
 				/>
