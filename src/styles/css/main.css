@@ -1,7 +1,7 @@
 /* global style */
 .comon-title h2 {
     color: var(--color-icons-white, #FFF);
-    font-family: Lato;
+    font-family: 'Lato';
     font-size: 38px;
     font-style: normal;
     font-weight: 700;
@@ -33,7 +33,7 @@
 /* services section */
 .aboutus-section-v2 .section-title-box .section-title {
     color: var(--color-icons-white, #FFF);
-    font-family: Lato;
+    font-family: 'Lato';
     font-size: 38px;
     font-style: normal;
     font-weight: 700;
@@ -180,7 +180,7 @@
 
 .testimonials-section-v2 .Testimonials-title-desc p {
     color: #FFF;
-    font-family: Lato;
+    font-family: 'Lato';
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
@@ -249,7 +249,7 @@ section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next:
 
 .service-section-v2 h4 {
     color: #FFF;
-    font-family: Lato;
+    font-family: 'Lato';
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -608,7 +608,7 @@ section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next:
 .copyright {
     color: #000;
     text-align: center;
-    font-family: Lato;
+    font-family: 'Lato';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -848,4 +848,161 @@ section.about-banner-section {
     background: rgba(255, 255, 255, 0.14);
     backdrop-filter: blur(9.600000381469727px);
     padding: 26px 25px 20px 27px;
+}
+
+/* contact page second version styles start here  */
+.contact-page-main-wrapper {
+    padding-top: 140px;
+    position: relative;
+    background: radial-gradient(50% 50% at 50% 50%, #151D48 0%, #0D0E19 100%);
+}
+
+form.contact-form-box.steps-form-wrap {
+    background: rgba(255, 255, 255, 0.14);
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(9.600000381469727px);
+    padding: 29px 30px 24px;
+    border-radius: 12px;
+}
+
+.confirmationcard-item {
+    padding: 19px 31px 20px 18px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    background-color: #D0FAD2;
+    backdrop-filter: blur(9.600000381469727px);
+}
+
+span.prodress-pill {
+    opacity: 0.5;
+    background: #D9D9D9;
+    width: 50%;
+    transition: all 650ms ease-in 0s;
+}
+
+span.prodress-pill.extra-class {
+    transition: all 650ms ease-in 0s;
+    width: 100%;
+    -webkit-transition: all 650ms ease-in 0s;
+    -moz-transition: all 650ms ease-in 0s;
+    -ms-transition: all 650ms ease-in 0s;
+    -o-transition: all 650ms ease-in 0s;
+}
+
+.input-country-select .PhoneInput {
+    padding: 10px 20px;
+    background: #fff;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    height: 48px;
+    border-radius: 6px;
+}
+
+.input-country-select .PhoneInput .PhoneInputCountry {
+    padding-right: 15px;
+    border-right: 1px solid #000;
+}
+
+.input-country-select .PhoneInput .PhoneInputCountry .PhoneInputCountrySelectArrow {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.select-item-with-search .input-item-select-filed-box input:focus,
+.input-country-select .PhoneInput input:focus {
+    outline: 0;
+    border: 0;
+}
+
+.input-country-select .PhoneInput input {
+    padding-left: 15px;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.input-country-select .PhoneInput input::placeholder {
+    color: #000;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: .5;
+}
+
+.select-item-with-search .input-item-select-filed-box input {
+    padding: 12px 20px;
+    height: 48px;
+    width: 100%;
+    border-radius: 6px;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.select-item-with-search .input-item-select-filed-box span {
+    top: 12px;
+    right: 17px;
+}
+
+.select-item-with-search .dropdown-box {
+    position: absolute;
+    z-index: 999;
+    background: #fff;
+    border-radius: 6px;
+    width: 100%;
+    top: 80px;
+    border-radius: 4px;
+    background: var(--color-icons-white, #FFF);
+    box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.10), 0px 24px 24px 0px rgba(0, 0, 0, 0.09), 0px 54px 32px 0px rgba(0, 0, 0, 0.05), 0px 96px 38px 0px rgba(0, 0, 0, 0.01), 0px 150px 42px 0px rgba(0, 0, 0, 0.00);
+}
+
+.select-item-with-search .dropdown-box .search-bar>input {
+    border-radius: 4px;
+    border: 1px solid #CCC;
+    background: var(--color-icons-white, #FFF);
+    padding: 12px 20px;
+    width: 100%;
+    color: #777;
+    font-family: '';
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+    height: 43px;
+}
+
+.select-item-with-search .dropdown-box ul li {
+    padding: 20px 15px 18px;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border-top: 1px solid #000000;
+}
+
+.select-item-with-search .dropdown-box ul {
+    height: 238px;
+    overflow: hidden;
+    overflow-y: scroll;
 }

@@ -13,8 +13,7 @@ export async function POST(req) {
             service_Type: body.serviceType,
             industry: body.industry,
             investment_Range: body.investmentRabge,
-            bussines_Size: body.bussinesSize,
-            project_Idea: body.projectIdea,
+            objective: body.objective,
             desc: body.desc,
             Pivacy_Checkmark: body.PivacyCheckmark,
         };
