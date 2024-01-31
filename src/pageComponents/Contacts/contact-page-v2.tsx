@@ -1,8 +1,6 @@
 "use client";
 import { Link } from "@packages/packages";
 import React, { useState, useEffect } from "react";
-import Button from "@/components/elements/button/button";
-import Checkbox from "./Checkbox";
 import InputField from "./InputField";
 import TextArea from "./TextArea";
 import PivacyCheckmark from "./PivacyCheckmark";
@@ -380,13 +378,19 @@ const ContactPageVersionTw: React.FC = () => {
 			} else if (!emailRegex.test(data.email)) {
 				errors.email = "Email should be a valid email address";
 			}
+			if (isEmty(data.serviceType)) {
+				errors.serviceType = "service type is required";
+			}
 		} else if (step === 2) {
-			// if (isEmty(data.investmentRabge)) {
-			// 	errors.investmentRabge = "Investment range is required";
-			// }
-			// if (isEmty(data.bussinesSize)) {
-			// 	errors.bussinesSize = "Business size is required";
-			// }
+			if (isEmty(data.investmentRabge)) {
+				errors.investmentRabge = "Investment range is required";
+			}
+			if (isEmty(data.industry)) {
+				errors.industry = "Industry type is required";
+			}
+			if (isEmty(data.objective)) {
+				errors.objective = "Objective type is required";
+			}
 			if (isEmty(data.desc)) {
 				errors.desc = "Description is required";
 			}
@@ -469,7 +473,7 @@ const ContactPageVersionTw: React.FC = () => {
 	const prevStep = () => {
 		setStep(1);
 	};
-	const items = ["Item 1", "Item 2", "Item 3", "Item 4", "Item 5"];
+
 	return (
 		<div className="contact-page-main-wrapper min-h-[680px] sm:min-h-auto relative z-50">
 			<div className="contact-page-main-cont-wrapper  pb-[80px] sm:pb-[65px]">
@@ -501,9 +505,9 @@ const ContactPageVersionTw: React.FC = () => {
 									Speak to us Mon - Fri from 9am to 6pm on
 								</p>
 								<Link
-									href="callto:1800 7581 3264"
+									href="callto:02080682012"
 									className=" text-left text-[16px] text-neu-white opacity-80 font-tertery font-bold leading-[28px]">
-									1800 7581 3264
+									02080682012
 								</Link>
 							</div>
 						</div>
@@ -669,7 +673,7 @@ const ContactPageVersionTw: React.FC = () => {
 														placeholder="Exp: Select Food Production"
 														SearchPlaceholder="Search Industry Type"
 														labeltextItem={true}
-														labelText="industry"
+														labelText="Industry"
 														onSelectedItemsChange={
 															handleSelectedIndustryItemsChange
 														}

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 interface SelectItemWithSearchProps {
 	items: string[];
@@ -21,6 +21,7 @@ const SelectItemWithSearch: React.FC<SelectItemWithSearchProps> = ({
 	const [isOpen, setIsOpen] = useState(false);
 	const [searchTerm, setSearchTerm] = useState("");
 	const [selectedItems, setSelectedItems] = useState<string[]>([]);
+	const dropdownRef = useRef<HTMLDivElement>(null);
 
 	const toggleDropdown = () => {
 		setIsOpen(!isOpen);
@@ -32,15 +33,32 @@ const SelectItemWithSearch: React.FC<SelectItemWithSearchProps> = ({
 			: [...selectedItems, item];
 
 		setSelectedItems(updatedSelectedItems);
-		onSelectedItemsChange(updatedSelectedItems.join(", ")); // Pass the selected items as a comma-separated string
+		onSelectedItemsChange(updatedSelectedItems.join(", "));
 	};
+
+	const handleOutsideClick = (event: MouseEvent) => {
+		if (
+			dropdownRef.current &&
+			!dropdownRef.current.contains(event.target as Node)
+		) {
+			setIsOpen(false);
+		}
+	};
+
+	useEffect(() => {
+		document.addEventListener("mousedown", handleOutsideClick);
+
+		return () => {
+			document.removeEventListener("mousedown", handleOutsideClick);
+		};
+	}, []);
 
 	const filteredItems = items.filter(item =>
 		item.toLowerCase().includes(searchTerm.toLowerCase()),
 	);
 
 	return (
-		<div className="select-item-with-search relative">
+		<div className="select-item-with-search relative" ref={dropdownRef}>
 			{labeltextItem && labelText && (
 				<label className="label-text text-[16px] text-left text-neu-white font-tertery font-bold leading-normal mb-[5px] block">
 					{labelText}
@@ -53,7 +71,7 @@ const SelectItemWithSearch: React.FC<SelectItemWithSearchProps> = ({
 					value={selectedItems.join(", ")}
 					onClick={toggleDropdown}
 					placeholder={placeholder}
-					readOnly // Make the input read-only to prevent direct editing
+					readOnly
 				/>
 				<span className="w-[6px] h-[19px] absolute top-0 bottom-0 right-3 mx-auto">
 					<Image

@@ -6,7 +6,7 @@ export async function POST(req) {
         const body = await req.json();
 
         const template_params = {
-            from_name: `${body.firstName} ${body.lastName}`,
+            from_name: `${body.fullName}`,
             to_name: "Particular",
             call: body.call,
             email: body.email,
