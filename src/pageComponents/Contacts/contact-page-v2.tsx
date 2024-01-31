@@ -477,7 +477,7 @@ const ContactPageVersionTw: React.FC = () => {
 					<h1 className="contacts-page-title text-[46px] text-center md:text-[34px] sm:text-[32px] font-bold font-tertery leading-[1.2] capitalize mb-9">
 						Contact us
 					</h1>
-					<div className="contact-page-main-content max-w-[852px] grid grid-cols-16 gap-[54px] sm:gap-[45px] sm:flex sm:flex-col-reverse mx-auto">
+					<div className="contact-page-main-content max-w-[852px] grid grid-cols-16 gap-[54px] sm:gap-[45px] md:flex md:flex-col-reverse mx-auto">
 						<div className="contact-page-main-left-cont col-span-7 w-full">
 							<div className="pragraph-text-box mb-[25px]">
 								<h3 className="contact-info-title mb-[5px] text-[28px] sm:text-[22px] text-left text-neu-white font-tertery font-bold leading-[1.2] capitalize">
