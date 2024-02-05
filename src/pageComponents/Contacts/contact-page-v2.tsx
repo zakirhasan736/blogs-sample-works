@@ -494,7 +494,7 @@ const ContactPageVersionTw: React.FC = () => {
 								<Link
 									href="mailto:support@byparticular.com"
 									className=" text-left text-[16px] text-[#799EFF] font-tertery leading-[28px] font-normal">
-									support@byparticular.com
+									info@byparticular.com
 								</Link>
 							</div>
 							<div className="contact-address-info-box">
@@ -507,7 +507,7 @@ const ContactPageVersionTw: React.FC = () => {
 								<Link
 									href="callto:02080682012"
 									className=" text-left text-[16px] text-neu-white opacity-80 font-tertery font-bold leading-[28px]">
-									02080682012
+									+44 (0) 208 068 2102
 								</Link>
 							</div>
 						</div>
