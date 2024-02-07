@@ -98,7 +98,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
 									/>
 								</div>
 							</div>
-							<p className="award-heading-text mt-3 text-neu-white text-[14px] text-center font-tertery font-extrabold leading-normal uppercase opacity-30">
+							<p className="award-heading-text relative right-[2px] mt-3 text-neu-white text-[14px] text-center font-tertery font-extrabold leading-normal uppercase opacity-30">
 								Awarded by Clutch
 							</p>
 						</div>
