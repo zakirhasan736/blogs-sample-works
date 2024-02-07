@@ -3,7 +3,7 @@ import React from 'react'
 
 const PartnerSection = () => {
   return (
-		<section className="partner-section pb-[150px] sm:pb-[120px]">
+		<section className="partner-section pb-[46px]">
 			<div className="custom-container max-w-[1220px]">
 				<div className="comon-title mb-[58px] max-w-[335px] sm:max-w-[247px] mx-auto">
 					<h2 className="">In partnership with</h2>
