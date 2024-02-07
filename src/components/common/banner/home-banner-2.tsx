@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { Link } from "@packages/packages";
+import { Image, Link } from "@packages/packages";
 import GlowButton from "@/components/elements/button/glow-button";
 import ClientSlider from "../cliend-slider/clientSlider";
 
@@ -32,12 +32,12 @@ interface HomeBannerProps {}
 const HomeBanner: React.FC<HomeBannerProps> = () => {
 	return (
 		<motion.section
-			className="home-banner-section home-banner-section-v2 pt-[223px] md:pt-[156px]  pb-[73px] sm:pb-0"
+			className="home-banner-section home-banner-section-v2 pt-[180px] md:pt-[156px]  pb-[73px] sm:pb-0"
 			initial="hidden"
 			animate="visible"
 			variants={fadeInVariants}>
 			<div className="custom-container sm:h-full">
-				<div className="banner-content-main-wrapper main-visual-section max-w-[1118px] mx-auto pb-[70px] md:pb-14">
+				<div className="banner-content-main-wrapper main-visual-section max-w-[1118px] mx-auto pb-[30px] md:pb-14">
 					<motion.div
 						className="banner-content-text-box text-center"
 						variants={fadeInVariants}>
@@ -79,6 +79,29 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
 							Explore your business's digital potential with our bespoke
 							scorecard.
 						</motion.p>
+						<div className="award-display-wrap text-center mt-10">
+							<div className="award-item-box flex items-center gap-4 justify-center">
+								<div className="award-items">
+									<Image
+										src="/images/top_clutch-award-1.svg"
+										alt="awards cirtificate modal image"
+										width={80}
+										height={86.48}
+									/>
+								</div>
+								<div className="award-items">
+									<Image
+										src="/images/top_clutch-award-2.svg"
+										alt="awards cirtificate modal image"
+										width={80}
+										height={86.48}
+									/>
+								</div>
+							</div>
+							<p className="award-heading-text mt-3 text-neu-white text-[14px] text-center font-tertery font-extrabold leading-normal uppercase opacity-30">
+								Awarded by Clutch
+							</p>
+						</div>
 					</motion.div>
 				</div>
 				<ClientSlider />

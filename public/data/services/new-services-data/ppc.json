@@ -1,0 +1,108 @@
+{
+    "pageTitle": "Service In-Detail - PPC",
+    "pageDescription": " Particular PPC: a blend of strategic precision and effective execution, ensuring every ad campaign maximizes ROI.",
+    "ServicesBannerData": {
+        "paginateTitle": "PPC - Pay per click",
+        "bannerTitle": "",
+        "bannerDescription": "",
+
+        "bannerBtnText1": "",
+        "bannerBtnText2": ""
+    },
+    "ServicesPhaseDataTypeOne": {
+        "servicePhaseLeftData": {
+            "serviceMainSubtitle": "",
+            "serviceMainTitle": "",
+            "serviceMainDesc": ""
+        },
+        "servicePhaseRightData": [
+            {
+                "serviceItemImage": "/images/AB Testing.svg",
+                "serviceItemTitle": "",
+                "serviceItemDesce": ""
+            },
+            {
+                "serviceItemImage": "",
+                "serviceItemTitle": "",
+                "serviceItemDesce": ""
+            },
+            {
+                "serviceItemImage": "",
+                "serviceItemTitle": "",
+                "serviceItemDesce": ""
+            }
+
+        ]
+    },
+    "ServicesPhaseDataTypeTwo": {
+        "servicePhaseLeftData": {
+            "serviceMainSubtitle": "",
+            "serviceMainTitle": "",
+            "serviceMainDesc": ""
+        },
+        "servicePhaseRightData": [
+            {
+                "serviceItemImage": "",
+                "serviceItemTitle": "",
+                "serviceItemDesce": ""
+            },
+            {
+                "serviceItemImage": "",
+                "serviceItemTitle": "",
+                "serviceItemDesce": ""
+            }
+        ]
+    },
+    "ServicesPhaseDataTypeThree": {
+        "servicePhaseLeftData": {
+            "serviceMainSubtitle": "",
+            "serviceMainTitle": "",
+            "serviceMainDesc": ""
+        },
+        "servicePhaseRightData": [
+            {
+                "serviceItemImage": "",
+                "serviceItemTitle": "",
+                "serviceItemDesce": ""
+            },
+            {
+                "serviceItemImage": "",
+                "serviceItemTitle": "",
+                "serviceItemDesce": ""
+            }
+        ]
+    },
+
+
+    "ServicesPhaseDataTypeFour": {
+        "servicePhaseLeftData": {
+            "serviceMainSubtitle": "",
+            "serviceMainTitle": "",
+            "serviceMainDesc": ""
+        },
+        "servicePhaseRightData": [
+            {
+                "serviceItemImage": "",
+                "serviceItemTitle": "",
+                "serviceItemDesce": ""
+            },
+            {
+                "serviceItemImage": "",
+                "serviceItemTitle": "",
+                "serviceItemDesce": ""
+            }
+        ]
+    },
+    "ServicesFinalPhaseDataType": {
+        "servicePhaseLeftData": {
+            "serviceMainSubtitle": "",
+            "serviceMainTitle": "",
+            "serviceMainDesc": ""
+        },
+        "servicePhaseRightData": [
+            {
+                "serviceItemModalImage": ""
+            }
+        ]
+    }
+}

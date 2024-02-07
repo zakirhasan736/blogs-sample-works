@@ -4,6 +4,7 @@ import HomeBanner from "@/components/common/banner/home-banner-2";
 import AboutUsSection from "@/components/component-v2/aboutus-section/aboutus";
 import CTASectionVersionTwo from "@/components/component-v2/cta-section/cta-section-v2";
 import OurStorySection from "@/components/component-v2/our-story-section/our-story-section";
+import PartnerSection from "@/components/component-v2/partner-section/partner";
 import ServicesSection from "@/components/component-v2/services-section/services";
 import TestimonialsVersionTwo from "@/components/testimonials-section/testimonials-v2";
 import ThemeSectionMode from "@/components/theme-mode/theme-section-mode";
@@ -53,6 +54,8 @@ const Home = () => {
 				{/* home services section  */}
 				<ServicesSection />
 				{/* home services section  end*/}
+				<PartnerSection />
+				
 				<ThemeSectionMode />
 				{/* our story section */}
 				<OurStorySection />
