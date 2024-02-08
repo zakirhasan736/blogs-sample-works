@@ -1,7 +1,7 @@
 "use client";
 
-import React, { useRef } from "react";
-import { motion, useInView } from "framer-motion";
+import React from "react";
+import { motion } from "framer-motion";
 import { Image, Link } from "@packages/packages";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Autoplay } from "swiper/modules";
@@ -11,11 +11,6 @@ import "swiper/css/free-mode";
 import PortfolioSlideData from "@data/portfolioSliderData/PortfolioSlideData.json";
 
 const PortfolioSec = () => {
-  const ref = useRef(null);
-  const isInView = useInView(ref, {
-    // triggerOnce: true,
-    // threshold: 0.1,
-  });
 
   return (
     <section className="portfolio pt-[64px] sm:pt-8 pb-[106px] sm:pb-[53px] bg-[#E1E4E8]">
@@ -25,8 +20,8 @@ const PortfolioSec = () => {
           whileInView="visible"
           viewport={{ once: true }}
           variants={{
-            visible: { opacity: 1, scale: 1 },
-            hidden: { opacity: 0, scale: 0 },
+            visible: { opacity: 1 },
+            hidden: { opacity: 0 },
           }}
           transition={{
             duration: 1,
@@ -45,9 +40,6 @@ const PortfolioSec = () => {
       </div>
       <div
         className="portfolio-card-item-box"
-        // initial={{ opacity: 0 }}
-        // animate={isInView ? { opacity: 1 } : {}}
-        // transition={{ duration: 0.8, delay: 0.6 }}
       >
         <div className="custom-container-full max-w-[1440px] w-full mx-auto pl-[140px] laptop-m:pl-[30px] md:pl-[20px] sm:pl-4">
           <div className="portfolio-card-slide-container pb-4 !overflow-hidden">
@@ -85,20 +77,12 @@ const PortfolioSec = () => {
                   <SwiperSlide key={index}>
                     <Link href={`/${portfolio.link}`} className="!text-white">
                       <motion.div
-                        // initial="hidden"
-                        // whileInView="visible"
-                        // viewport={{ once: true }}
-                        // transition={{ duration: 1.5 }}
-                        // variants={{
-                        //   visible: { opacity: 1, scale: 1 },
-                        //   hidden: { opacity: 0, scale: 0 },
-                        // }}
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
                         variants={{
-                          visible: { opacity: 1, scale: 1 },
-                          hidden: { opacity: 0, scale: 0 },
+                          visible: { opacity: 1 },
+                          hidden: { opacity: 0 },
                         }}
                         transition={{
                           duration: 1,

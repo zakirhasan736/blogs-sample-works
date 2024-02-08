@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion, useInView } from "framer-motion";
@@ -6,12 +6,6 @@ import { motion, useInView } from "framer-motion";
 interface ExperienceSecProps {}
 
 const ExperienceSec: React.FC<ExperienceSecProps> = () => {
-  const ref = useRef(null);
-  const inView = useInView(ref, {
-    // triggerOnce: true,
-    // threshold: 0.1,
-  });
-
   return (
     <section className="experience bg-[#fff] text-[#181725]">
       <div className="experiance-sec-wrapper max-w-[1920px] w-full mx-auto grid grid-cols-12 sm:grid-cols-6 gap-0">
@@ -20,8 +14,8 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
           whileInView="visible"
           viewport={{ once: true }}
           variants={{
-            visible: { opacity: 1, scale: 1 },
-            hidden: { opacity: 0, scale: 0 },
+            visible: { opacity: 1 },
+            hidden: { opacity: 0},
           }}
           transition={{ duration: 1, ease: "easeIn", delay: 0.5 }}
           className="experiance-modal-box w-full max-w-full overflow-hidden max-h-[716px] sm:max-h-[275px] h-full col-span-5 sm:col-span-6"
@@ -38,20 +32,12 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
           />
         </motion.div>
         <motion.div
-          // initial="hidden"
-          // whileInView="visible"
-          // viewport={{ once: true }}
-          // transition={{ duration: 1.5 }}
-          // variants={{
-          //   visible: { opacity: 1, scale: 1 },
-          //   hidden: { opacity: 0, scale: 0 },
-          // }}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
           variants={{
-            visible: { opacity: 1, scale: 1 },
-            hidden: { opacity: 0, scale: 0 },
+            visible: { opacity: 1 },
+            hidden: { opacity: 0},
           }}
           transition={{ duration: 1, ease: "easeIn", delay: 0.5 }}
           className="expariance-cont-wrapper w-full col-span-7 h-full sm:col-span-6 flex flex-col"
