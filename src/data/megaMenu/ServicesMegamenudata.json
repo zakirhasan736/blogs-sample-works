@@ -2,19 +2,19 @@
     "ServiceMenuItems": [
         {
             "title": "SEO",
-            "path": "/services/seo",
+            "path": "/services/seo-service",
             "subItems": [
                 {
                     "title": "Local SEO",
-                    "path": "/services/seo"
+                    "path": "/services/seo-service"
                 },
                 {
                     "title": "SEO Audit",
-                    "path": "/services/seo"
+                    "path": "/services/seo-service"
                 },
                 {
                     "title": "Copywrite",
-                    "path": "/services/seo"
+                    "path": "/services/seo-service"
                 }
             ]
         },

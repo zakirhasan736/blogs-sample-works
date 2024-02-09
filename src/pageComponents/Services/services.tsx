@@ -50,7 +50,7 @@ const Services = () => {
 			description:
 				"Particular SEO: a foreign language made easy. Making Search Engine Optimisation friendly, so it works for you too.",
 			btnText: "Discover more",
-			servieItemLinks: "/services/seo",
+			servieItemLinks: "/services/seo-service",
 		},
 		{
 			title: "App Development",
