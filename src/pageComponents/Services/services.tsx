@@ -66,7 +66,7 @@ const Services = () => {
 			description:
 				"Social Networking. Reimagining your ideas around the concept of Social Media to engage your community of like-minded thinkers and fans.",
 			btnText: "Discover more",
-			servieItemLinks: "/services/ppc",
+			servieItemLinks: "/services/pay-per-click",
 		},
 		{
 			title: "Branding",

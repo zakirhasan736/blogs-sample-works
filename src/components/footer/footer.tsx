@@ -118,7 +118,7 @@ const Footer: React.FC<FooterProps> = () => {
 								<Link href="/services/app-development">App Development</Link>
 							</li>
 							<li>
-								<Link href="/services/ppc">PPC</Link>
+								<Link href="/services/pay-per-click">PPC</Link>
 							</li>
 							<li>
 								<Link href="/services/motion-design">Motion Design</Link>

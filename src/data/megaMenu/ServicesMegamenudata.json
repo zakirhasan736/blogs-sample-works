@@ -20,20 +20,20 @@
         },
         {
             "title": "PPC",
-            "path": "/services/ppc",
+            "path": "/services/pay-per-click",
             "subItems": [
                 {
                     "title": "Display Advertising",
-                    "path": "/services/ppc"
+                    "path": "/services/pay-per-click"
                 },
                 {
                     "title": "Re-Marketing",
-                    "path": "/services/ppc"
+                    "path": "/services/pay-per-click"
                 }
                 ,
                 {
                     "title": "Paid Social",
-                    "path": "/services/ppc"
+                    "path": "/services/pay-per-click"
                 }
             ]
         },
