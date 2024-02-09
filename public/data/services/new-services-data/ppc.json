@@ -12,7 +12,7 @@
         {
             "subtitle": "Phase 1",
             "title": "Research And Strategy",
-            "description": "Lorem ipsum dolor sit amet consectetur. Nam tristique ut amet sagittis mauris. Vel congue",
+            "description": "In the research & strategy phase of our PPC journey, we delve deep into your business goals, target audience, and competitive landscape. We craft a data-driven plan to ensure your PPC campaigns hit the mark.",
             "cardItems": [
                 {
                     "title": "Discover Business Goals",
@@ -49,7 +49,7 @@
         {
             "subtitle": "Phase 2",
             "title": "Campaign",
-            "description": "Lorem ipsum dolor sit amet consectetur. Nam tristique ut amet sagittis mauris. Vel congue",
+            "description": "Where we create and launch PPC campaigns tailored to your objectives, meticulously setting up ad groups, keywords, and ads to maximize impact.",
             "cardItems": [
                 {
                     "title": "Account setup",
@@ -81,7 +81,7 @@
         {
             "subtitle": "Phase 3",
             "title": "Review",
-            "description": "Lorem ipsum dolor sit amet consectetur. Nam tristique ut amet sagittis mauris. Vel congue",
+            "description": "Acritical checkpoint in our PPC process. Where we regularly assess campaign performance, analyzing data and feedback to make informed decisions for ongoing success.",
             "cardItems": [
                 {
                     "title": "Analytics",
@@ -108,7 +108,7 @@
         {
             "subtitle": "Phase 4",
             "title": "Optimisation",
-            "description": "Lorem ipsum dolor sit amet consectetur. Nam tristique ut amet sagittis mauris. Vel congue",
+            "description": "In this phase, we fine-tune campaigns, adjust bids, and optimise ad copy to continuously improve ROI and achieve your goals.",
             "cardItems": [
                 {
                     "title": "Account Optimisation",
