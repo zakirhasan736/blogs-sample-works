@@ -113,7 +113,7 @@ const Navbar = () => {
 				showStickyNavbar ? "show" : "hide"
 			}`}>
 			<div className="custom-container md:px-6 sm:px-4">
-				<div className="header-wrapper flex items-center  sm:block">
+				<div className="header-wrapper flex items-center justify-between  sm:block">
 					<div className="header-brand-box pr-4 border-r border-[#FFFfff10] flex items-center justify-between sm:w-full">
 						<Link href="/">
 							<Image
@@ -219,7 +219,7 @@ const Navbar = () => {
 						</ul>
 					</nav>
 					<Link
-						className="w-full ml-auto max-w-[159px] md:hidden"
+						className="w-full max-w-[159px] md:hidden"
 						href="/contacts">
 						<Button
 							btnText="Book a Call"
