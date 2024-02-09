@@ -64,7 +64,7 @@ const Services = () => {
 			description:
 				"Feels like a web design agency, helps like a doctor.  We listen first, and then serve. Particular Websites combine SEO, Strategy and UX to build high-speed, accessible sites that convert even the most stern audiences.",
 			btnText: "Discover more",
-			servieItemLinks: "/services/web-design-and-evelopment",
+			servieItemLinks: "/services/web-design-and-development",
 		},
 		{
 			title: "App Development",

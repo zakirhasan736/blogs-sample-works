@@ -75,19 +75,19 @@
         },
         {
             "title": "Web Development",
-            "path": "/services/web-design-and-evelopment",
+            "path": "/services/web-design-and-development",
             "subItems": [
                 {
                     "title": "User Experience",
-                    "path": "/services/web-design-and-evelopment"
+                    "path": "/services/web-design-and-development"
                 },
                 {
                     "title": "User Design",
-                    "path": "/services/web-design-and-evelopment"
+                    "path": "/services/web-design-and-development"
                 },
                 {
                     "title": "Web Development",
-                    "path": "/services/web-design-and-evelopment"
+                    "path": "/services/web-design-and-development"
                 }
             ]
         },
