@@ -21,13 +21,15 @@ const PartnerSection = () => {
 							/>
 						</div>
 						<div className="partnar-list-items">
-							<Image
-								src="/images/designrush-logos-idqoe849MT 1.svg"
-								width={272}
-								className="md:w-[220px] sm:w-[190px]"
-								height={61}
-								alt="partner modal image"
-							/>
+							<a href="https://www.designrush.com/" target='_blank'>
+								<Image
+									src="/images/designrush-logos-idqoe849MT 1.svg"
+									width={272}
+									className="md:w-[220px] sm:w-[190px]"
+									height={61}
+									alt="partner modal image"
+								/>
+							</a>
 						</div>
 					</div>
 				</div>
