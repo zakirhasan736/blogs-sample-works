@@ -3,7 +3,7 @@ import React from 'react'
 
 const ServicesSection = () => {
   return (
-		<section className="service-section-v2 pt-[122px] pb-20 md:pt-20 md:pb-[120px]">
+		<section className="service-section-v2 pt-[122px] pb-[100px] md:pt-20 md:pb-[120px]">
 			<div className="custom-container max-w-[1220px]">
 				<div>
 					<div className="comon-title mb-11">

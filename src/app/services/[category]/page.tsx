@@ -4,7 +4,7 @@ import ServicesCategoriesPage from "@/pageComponents/Services/Services-details/S
 async function getData(category: any) {
 	try {
 		const res = await fetch(
-			`${process.env.NEXT_PUBLIC_API_URL}/data/services/${category}.json`,
+			`${process.env.NEXT_PUBLIC_API_URL}/data/services/new-services-data/${category}.json`,
 		);
 
 		if (!res.ok) {

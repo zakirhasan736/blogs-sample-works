@@ -19,24 +19,6 @@
             ]
         },
         {
-            "title": "Social Media",
-            "path": "/services/social-media",
-            "subItems": [
-                {
-                    "title": "User Experience",
-                    "path": "/services/social-media"
-                },
-                {
-                    "title": "User Design",
-                    "path": "/services/social-media"
-                },
-                {
-                    "title": "Web Development",
-                    "path": "/services/social-media"
-                }
-            ]
-        },
-        {
             "title": "PPC",
             "path": "/services/ppc",
             "subItems": [

@@ -1,0 +1,13 @@
+<svg width="97" height="101" viewBox="0 0 97 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="problem-statement">
+<rect id="Rectangle 8" x="17" y="15" width="65" height="83" rx="6" fill="white"/>
+<rect id="Rectangle 9" x="29" y="28" width="41" height="4" rx="2" fill="#121212"/>
+<rect id="Rectangle 10" x="29" y="37" width="41" height="4" rx="2" fill="#121212"/>
+<rect id="Rectangle 11" x="29" y="46" width="23" height="4" rx="2" fill="#121212"/>
+<circle id="Ellipse 6" cx="76" cy="80" r="19" fill="white" stroke="#121212" stroke-width="4"/>
+<path id="Vector 1" d="M18 2L18 11" stroke="white" stroke-width="4" stroke-linecap="round"/>
+<path id="Vector 2" d="M12 18L2 18" stroke="white" stroke-width="4" stroke-linecap="round"/>
+<path id="Vector 3" d="M13 13L10 10" stroke="white" stroke-width="4" stroke-linecap="round"/>
+<path id="!" d="M74.3584 84.766H77.6554V88H74.3584V84.766ZM77.5504 77.038L76.7314 83.506H75.2404L74.4424 77.038V73.006H77.5504V77.038Z" fill="#121212"/>
+</g>
+</svg>

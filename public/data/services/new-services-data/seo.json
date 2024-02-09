@@ -1,0 +1,101 @@
+{
+    "pageTitle": "Service In-Detail - SEO",
+    "pageDescription": " Particular SEO: a foreign language made easy. Making Search Engine Optimisation friendly, so it works for you too.",
+    "ServicesBannerData": {
+        "paginateTitle": "SEO - Search Engine Optimisation",
+        "bannerTitle": "SEO - Search Engine Optimisation",
+        "bannerDescription": "Optimisation in your search engine efforts comes from understanding - what to assess, where to place your efforts and how to make an impact.",
+        "bannerBtnText1": "National SEO",
+        "bannerBtnText2": "Local SEO"
+    },
+    "ServicesPhaseDataType": [
+        {
+            "subtitle": "Phase 1",
+            "title": "Research And Strategy",
+            "description": "Dive deep into data, dissecting your market and competitors. We craft a strategic roadmap to ensure your online presence thrives.",
+            "cardItems": [
+                {
+                    "title": "Website Analysis",
+                    "description": "Website research is the foundation of our PPC process. We analyse your site's structure, content, and user experience to create effective ad campaigns that drive results.",
+                    "iconUrl": "/images/Website Analysis.svg"
+                },
+                {
+                    "title": "Keyword Research",
+                    "description": "Identifying high-impact keywords that resonate with your audience",
+                    "iconUrl": "/images/Keyword Research.svg"
+                },
+                {
+                    "title": "Competitor Analysis",
+                    "description": "Dissecting Rival Strategies, Revealing Insights That Empower Your Patch to Dominance.",
+                    "iconUrl": "/images/Competitor Analysis.svg"
+                },
+                {
+                    "title": "Objectives and KPIs",
+                    "description": "Our objectives are beacons, guiding our journey. Key Performance Indicators illuminate our path.",
+                    "iconUrl": "/images/Objectives and KPIs.svg"
+                }
+            ]
+        },
+        {
+            "subtitle": "Phase 2",
+            "title": "Implementation",
+            "description": "We roll up our sleeves and execute our meticulously crafted SEO strategies. From on-page optimization to technical enhancements, we make your digital presence shine.",
+            "cardItems": [
+                {
+                    "title": "Website code optimisation",
+                    "description": "Fine-tuning Your digital DNA, ensuring efficient performance for better user experiences. ",
+                    "iconUrl": "/images/Website code optimisation.svg"
+                },
+                {
+                    "title": "Social media integration",
+                    "description": "Seamlessly blending your online presence, fostering engagement and connectivity.",
+                    "iconUrl": "/images/Social media integration.svg"
+                },
+                {
+                    "title": "Content strategy",
+                    "description": "Crafting narratives that resonate with search engines and audiences, enhancing online visibility.",
+                    "iconUrl": "/images/Content strategy.svg"
+                }
+                
+            ]
+        },
+        {
+            "subtitle": "Phase 3",
+            "title": "Marketing and link building",
+            "description": "We amplify your online reach. We strategically market your content and engage in link-building efforts to boost your website's authority and search engine rankings.",
+            "cardItems": [
+                {
+                    "title": "Blog Submission",
+                    "description": "Expanding your digital footprint, sharing valuable insights and expertise to engage your audience effectively.",
+                    "iconUrl": "/images/Blog Submission.svg"
+                },
+                {
+                    "title": "Press releases",
+                    "description": "Broadcast your news to the world, to magnify your brand’s reputation and trustworthiness ultimately amplifying your sEO Performance and Online Standing",
+                    "iconUrl": "/images/Press releases.svg"
+                },
+                {
+                    "title": "Articles Submission",
+                    "description": "we disseminate authoritative content, strengthening your online presence and industry influence",
+                    "iconUrl": "/images/Articles Submission.svg"
+                },
+                {
+                    "title": "Directory Submission",
+                    "description": "Boosting your online visibility by listing your business in reputable directories",
+                    "iconUrl": "/images/Directory Submission.svg"
+                },
+                {
+                    "title": "Link building",
+                    "description": "Through strategic link building, we connect your website to authoritative sources, boosting your search engine rankings and online authority.",
+                    "iconUrl": "/images/Link building.svg"
+                }
+            ]
+        }
+    ],
+    "ServicesFinalPhaseDataType": {
+        "serviceMainSubtitle": "Phase 4",
+        "serviceMainTitle": "Monthly report",
+        "serviceMainDesc": "Through comprehensive analytics, we measure key metrics, track progress, and identify opportunities for improvement. Our detailed reports not only highlight successes but also provide actionable recommendations for ongoing enhancement.  This phase serves as a crucial feedback loop, allowing us to adapt strategies and continually optimize your SEO, keeping your digital journey on the path to sustained growth and success.",
+        "serviceItemModalImage": "/images/illustration-launch.svg"
+    }
+}

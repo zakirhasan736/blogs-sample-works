@@ -1,4 +1,5 @@
 import ArrowDownIcons from "./arrow-down-icons";
+import ArrowDubbleIcons from "./dubble-angle-arrow";
 import ArrowUpIcons from "./angle-up-icons";
 import YoutubeIcons from "./youtube-icons";
 import InstagrameIcons from "./instagrame-icons";
@@ -16,4 +17,5 @@ export {
 	ArrowDownModalIcons,
 	PlusIcons,
 	PrichingIconOne,
+	ArrowDubbleIcons,
 };

@@ -1,5 +1,5 @@
 "use client";
-import { ArrowDownIcons } from "@/icons";
+import { ArrowDubbleIcons } from "@/icons";
 import { Image, Link } from "@packages/packages";
 import MobileMenuData from "@data/MobileNavbar.json";
 import { usePathname } from "next/navigation";
@@ -113,8 +113,8 @@ const Navbar = () => {
 				showStickyNavbar ? "show" : "hide"
 			}`}>
 			<div className="custom-container md:px-6 sm:px-4">
-				<div className="header-wrapper flex items-center justify-between sm:block">
-					<div className="header-brand-box flex items-center justify-between sm:w-full">
+				<div className="header-wrapper flex items-center  sm:block">
+					<div className="header-brand-box pr-4 border-r border-[#FFFfff10] flex items-center justify-between sm:w-full">
 						<Link href="/">
 							<Image
 								width={149}
@@ -141,7 +141,7 @@ const Navbar = () => {
 								<div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
 									<Link
 										href="/"
-										className="relative text-primary flex items-center gap-2 text-center text-[16px] laptop-m:text-[18px] font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3 lg:px-3">
+										className="relative text-primary flex items-center gap-2 text-center text-[16px] laptop-m:text-[18px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[16px] sm:px-3 lg:px-3">
 										<span>Home</span>
 									</Link>
 								</div>
@@ -150,11 +150,11 @@ const Navbar = () => {
 								<div className="navbar-inner-link-box flex items-center gap-2">
 									<Link
 										href="/case-studies"
-										className="relative text-primary flex items-center gap-2 text-center text-[16px] font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
+										className="relative text-primary flex items-center gap-2 text-center text-[16px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[16px] sm:px-3">
 										<span>Case Studies</span>
 									</Link>
 									<span>
-										<ArrowDownIcons />
+										<ArrowDubbleIcons />
 									</span>
 								</div>
 								{/* =======megamenu */}
@@ -168,11 +168,11 @@ const Navbar = () => {
 								<div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
 									<Link
 										href="/services"
-										className="relative lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-[16px] font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
+										className="relative lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-[16px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[16px] sm:px-3">
 										<span>Services</span>
 									</Link>
 									<span>
-										<ArrowDownIcons />
+										<ArrowDubbleIcons />
 									</span>
 								</div>
 								{/* =======megamenu */}
@@ -186,11 +186,11 @@ const Navbar = () => {
 								<div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
 									<Link
 										href="/our-approach"
-										className="relative lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-[16px] font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
+										className="relative lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-[16px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[16px] sm:px-3">
 										<span>Our Approach</span>
 									</Link>
 									<span>
-										<ArrowDownIcons />
+										<ArrowDubbleIcons />
 									</span>
 								</div>
 								{/* =======megamenu */}
@@ -202,11 +202,11 @@ const Navbar = () => {
 							</li>
 							<li className="navbar-nav-items">
 								<div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
-									<div className="relative cursor-pointer lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-[16px] font-primary font-normal leading-none mb-0 capitalize px-5 py-2 md:text-[16px] sm:px-3">
+									<div className="relative cursor-pointer lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-[16px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[16px] sm:px-3">
 										<span>Features</span>
 									</div>
 									<span>
-										<ArrowDownIcons />
+										<ArrowDubbleIcons />
 									</span>
 								</div>
 								{/* =======megamenu */}
@@ -218,10 +218,12 @@ const Navbar = () => {
 							</li>
 						</ul>
 					</nav>
-					<Link className="w-full max-w-[159px] md:hidden" href="/contacts">
+					<Link
+						className="w-full ml-auto max-w-[159px] md:hidden"
+						href="/contacts">
 						<Button
-							btnText="Contact Us"
-							btnVariant={`pca-secondary-button capitalize text-[16px] laptop-m:text-[16px] md:hidden border-4 border-secondary ${
+							btnText="Book a Call"
+							btnVariant={`pca-secondary-button header-button-cta capitalize text-[16px] laptop-m:text-[16px] md:hidden border-1 border-[#ffffff] ${
 								pathname.includes("/articles/") ? "bg-secondary-2" : ""
 							}`}
 						/>

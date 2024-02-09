@@ -1,0 +1,88 @@
+{
+	"pageTitle": "Service In-Detail - Branding",
+	"pageDescription": " Particular Branding is where stories find their visual voice and sense of feeling. We listen, we create, and we define your brand's essence. Crafting distinctive identities that resonate and endure.",
+	"ServicesBannerData": {
+		"paginateTitle": "Branding",
+		"bannerTitle": "Branding",
+		"bannerDescription": "Crafting a strong and memorable brand identity that builds your narrative, demonstrates your values clearly and resonates with your audience to set you apart.",
+		"bannerBtnText1": "",
+		"bannerBtnText2": ""
+	},
+	"ServicesPhaseDataType": [
+		{
+			"subtitle": "Phase 1",
+			"title": "Verbal Branding",
+			"description": "Crafting the voice and messaging that define your brand's identity. We create impactful names, taglines, and key messages that resonate with your audience, ensuring your brand communicates with clarity and authenticity.",
+			"cardItems": [
+				{
+					"title": "Naming",
+					"description": "We explore distinctive and memorable brand names that encapsulate your essence and set you apart in the market",
+					"iconUrl": "/images/Naming.svg"
+				},
+				{
+					"title": "Competitive Audits",
+					"description": "Dissecting competitors' messaging, tone, and positioning to uncover opportunities that allow your brand to stand out and claim its unique voice.",
+					"iconUrl": "/images/Competitive Audits.svg"
+				},
+				{
+					"title": "Taglines/Straplines",
+					"description": "Taglines are the poetic expressions of your brand's soul. We craft succinct, impactful Phases that encapsulate your brand's promise, leaving a lasting impression in the minds of your audience.",
+					"iconUrl": "/images/TaglinesStraplines.svg"
+				},
+				{
+					"title": "Key Messages",
+					"description": "Key Messages are the building blocks of your brand's communication. We develop clear, concise narratives that convey your brand's values, benefits, and mission, ensuring a consistent and compelling voice across all touchpoints.",
+					"iconUrl": "/images/Key Messages.svg"
+				}
+			]
+		},
+		{
+			"subtitle": "Phase 2",
+			"title": "Brand Strategy",
+			"description": "the compass that guides your brand's journey. We delve into the essence of your business, shaping your brand's positioning, mission, values, and vision. We define its personality, tone of voice, and value proposition, creating a comprehensive roadmap for your brand's success.",
+			"cardItems": [
+				{
+					"title": "Brand Development Workshop",
+					"description": "where we kickstart the journey to define and refine your brand. Through collaborative brainstorming and insightful discussions, we lay the foundation for a brand that resonates with your audience.",
+					"iconUrl": "/images/Brand Development Workshop.svg"
+				},
+				{
+					"title": "Brand Positioning",
+					"description": "the art of finding your unique space in the market. Identifying where your brand fits and how it stands out, crafting a clear and compelling brand identity that sets you apart.",
+					"iconUrl": "/images/Brand Positioning.svg"
+				},
+				{
+					"title": "Mission, Values & Vision",
+					"description": "Mission, Values & Vision are the guiding stars of your brand's journey. We articulate your purpose, principles, and future aspirations, creating a roadmap that aligns your brand with its true north.",
+					"iconUrl": "/images/MissionValuesVision.svg"
+				},
+				{
+					"title": "Brand Personality",
+					"description": "giving your brand a character that people can connect with. We define the traits and qualities that make your brand relatable and memorable, ensuring it resonates with your target audience.",
+					"iconUrl": "/images/Brand Personality.svg"
+				},
+				{
+					"title": "Tone Of Voice",
+					"description": "the language your brand speaks. Defining the style, tone, and manner in which your brand communicates, ensuring consistency and authenticity in all interactions.",
+					"iconUrl": "/images/Tone Of Voice.svg"
+				},
+				{
+					"title": "Value Proposition",
+					"description": "articulating the unique benefits you offer, making it clear why your brand is the best choice for your audience.",
+					"iconUrl": "/images/Value Proposition.svg"
+				},
+				{
+					"title": "Brand Architecture",
+					"description": "Creating a structured framework that defines how sub-brands or product lines relate to the overarching brand, ensuring clarity and cohesion in your brand ecosystem.",
+					"iconUrl": "/images/Brand Architecture.svg"
+				}
+			]
+		}
+	],
+	"ServicesFinalPhaseDataType": {
+		"serviceMainSubtitle": "Phase 3",
+		"serviceMainTitle": "Results",
+		"serviceMainDesc": "We  we unveil the outcomes of our collective efforts. We showcase the tangible impact our Verbal Branding and Brand Strategy will have on your brand's perception, market presence, and audience engagement. We provide you with insights to shape your brand's future direction and growth.",
+		"serviceItemModalImage": "/images/illustration-launch.svg"
+	}
+}

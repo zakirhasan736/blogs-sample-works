@@ -43,10 +43,6 @@
             "path": "/services/seo"
         },
         {
-            "name": "Social Media",
-            "path": "/services/social-media"
-        },
-        {
             "name": "Visual Media",
             "path": "/services/visual-media"
         },

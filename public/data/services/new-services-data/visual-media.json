@@ -1,0 +1,46 @@
+{
+    "pageTitle": "Service In-Detail - Visual Media",
+    "pageDescription": " Every brand possesses a distinctiveness akin to the individuality of a fingerprint. Demanding a personalized strategy as exceptional as the brand's own signature.",
+    "ServicesBannerData": {
+        "paginateTitle": "Motion Design",
+        "bannerTitle": "Motion Design",
+        "bannerDescription": "We bring stories to life with the elegance of a choreographer in our Motion Design service. Particular motion graphics are tailored to stir emotions, making every frame a step towards a deeper connection with your audience.",
+        "bannerBtnText1": "",
+        "bannerBtnText2": ""
+    },
+    "ServicesPhaseDataType": [
+        {
+            "subtitle": "Phase 1",
+            "title": "The Process",
+            "description": "The process of transforming concepts into captivating visuals through storyboarding, animation, and meticulous editing, creating engaging and dynamic content.",
+            "cardItems": [
+                {
+                    "title": "Concept Development",
+                    "description": "Where we brainstorm ideas and craft the core concept that will drive your message. ",
+                    "iconUrl": "/images/Concept Development.svg"
+                },
+                {
+                    "title": "Storyboarding",
+                    "description": "transforming concepts into a visual roadmap. the blueprint that outlines every scene, transition, and element, ensuring a seamless and compelling narrative. It's where your story takes shape, and every frame is meticulously planned.",
+                    "iconUrl": "/images/Storyboarding.svg"
+                },
+                {
+                    "title": "Animation",
+                    "description": "static elements evolving into dynamic visuals. We use motion, timing, and effects to engage your audience, creating a captivating and memorable experience that conveys your message effectively.",
+                    "iconUrl": "/images/Animation.svg"
+                },
+                {
+                    "title": "Video Editing",
+                    "description": "The final polish that brings it all together. Here, we assemble the animated elements, add sound, and fine-tune every detail, ensure the visual and auditory components align, resulting in a polished and impactful motion graphic.",
+                    "iconUrl": "/images/Video Editing.svg"
+                }
+            ]
+        }
+    ],
+    "ServicesFinalPhaseDataType": {
+        "serviceMainSubtitle": "Final Phase",
+        "serviceMainTitle": "Launch",
+        "serviceMainDesc": "The Launch Phase is the culmination of planning and execution. It's the moment when your project takes flight, going live in the digital realm. It's about making a grand entrance, ensuring everything is in place for a successful debut, and setting the stage for ongoing growth and success.",
+        "serviceItemModalImage": "/images/illustration-launch.svg"
+    }
+}

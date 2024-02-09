@@ -1,0 +1,149 @@
+{
+	"pageTitle": "Service In-Detail - Web Development",
+	"pageDescription": " Feels like a web design agency, helps like a doctor.  We listen first, and then serve. Particular Websites combine SEO, Strategy and UX to build high-speed, accessible sites that convert even the most stern audiences.",
+	"ServicesBannerData": {
+		"paginateTitle": " App Development",
+		"bannerTitle": " App Development",
+		"bannerDescription": "Particular apps are Built not just functional but also beautifully crafted, we turn every interaction into an opportunity for growth and engagement.",
+		"bannerBtnText1": "",
+		"bannerBtnText2": ""
+	},
+	"ServicesPhaseDataType": [
+		{
+			"subtitle": "Phase 1",
+			"title": "Discover",
+			"description": "identifying project goals, user needs, and requirements through research and collaboration, laying the foundation for subsequent development stages.",
+			"cardItems": [
+				{
+					"title": "Digital Strategy",
+					"description": "understanding and aligning with business goals is crucial for creating successful and impactful user experiences. Here are some common business goals that UX design aims to address.",
+					"iconUrl": "/images/Digital Strategy.svg"
+				},
+				{
+					"title": "Industry Analysis",
+					"description": "evaluating market trends, competitors, and user needs to make informed decisions, ensuring the app aligns with industry standards and demands.",
+					"iconUrl": "/images/Industry Analysis.svg"
+				},
+				{
+					"title": "User Research",
+					"description": "studying user behaviours and preferences to inform design decisions, ensuring a user-centric approach for an intuitive and effective user experience.",
+					"iconUrl": "/images/User Research.svg"
+				},
+				{
+					"title": "Journey Mapping",
+					"description": "Visualising the user's experience, uncovering touchpoints and emotions, to optimise the user journey and enhance overall usability and satisfaction.",
+					"iconUrl": "/images/Journey Mapping.svg"
+				},
+				{
+					"title": "Discovery Workshop",
+					"description": "By hosting collaborative sessions where stakeholders define project goals, scope and requirements, fostering a shared understanding and aligning team perspectives for successful planning. ",
+					"iconUrl": "/images/Discovery Workshop.svg"
+				}
+			]
+		},
+		{
+			"subtitle": "Phase 2",
+			"title": "Campaign",
+			"description": "Project objectives, scope, timelines, and resources are defined, providing a roadmap for efficient and organized development processes.",
+			"cardItems": [
+				{
+					"title": "Product Roadmap",
+					"description": "Strategic plan outlining the envisioned features, milestones, and timelines, providing a visual guide for teams to align efforts and deliver a successful product.",
+					"iconUrl": "/images/Product Roadmap.svg"
+				},
+				{
+					"title": "Prioritised Product Backlog",
+					"description": "Arranging features and tasks based on their importance, ensuring that the team focuses on delivering the most valuable elements first.",
+					"iconUrl": "/images/Prioritised Product Backlog.svg"
+				},
+				{
+					"title": "Sprint Backlog",
+					"description": "Prioritising a list of tasks and user stories for a specific sprint, guiding the team's work and facilitating efficient progress toward project goals.",
+					"iconUrl": "/images/Sprint Backlog.svg"
+				},
+				{
+					"title": "Sprint Planning",
+					"description": "Collaborating with the team to define tasks for the upcoming sprint, estimate workloads, and sets goals to deliver a functional product increment.",
+					"iconUrl": "/images/Sprint Planning.svg"
+				},
+				{
+					"title": "Risk Mitigation",
+					"description": "Identifying potential issues, developing strategies to minimise their impact, and implementing preventive measures to ensure a smoother project progression and success.",
+					"iconUrl": "/images/Risk Mitigation.svg"
+				}
+			]
+		},
+		{
+			"subtitle": "Phase 3",
+			"title": "Design",
+			"description": "Creating the user interface and experience, wireframes, and prototypes, ensuring a visually appealing and intuitive product that aligns with user needs.",
+			"cardItems": [
+				{
+					"title": "design system",
+					"description": "A consistent set of design principles, patterns, and components, promoting cohesive and efficient product development by ensuring a unified visual and functional language.",
+					"iconUrl": "/images/Analytics.svg"
+				},
+				{
+					"title": "wireframing",
+					"description": "Early-stage visual representation of a user interface, outlining basic design elements and layout to guide development and gather feedback before full design implementation.",
+					"iconUrl": "/images/wireframing.svg"
+				},
+				{
+					"title": "prototyping",
+					"description": "Creating interactive models of the user interface, allowing stakeholders to experience and test the design, ensuring alignment with requirements and expectations before development.",
+					"iconUrl": "/images/Prototyping.svg"
+				}
+			]
+		},
+		{
+			"subtitle": "Phase 4",
+			"title": "develop",
+			"description": "The 'develop' phase involves writing code, creating functionalities, and integrating features based on the project's specifications, bringing the design and plans to life for a functional application.",
+			"cardItems": [
+				{
+					"title": "Frontend Development",
+					"description": "Implementing the visual and interactive aspects of the user interface, translating design elements into functional code for a seamless and engaging user experience.",
+					"iconUrl": "/images/Frontend Development.svg"
+				},
+				{
+					"title": "Backend Development",
+					"description": "Building the server-side of the application, managing data, and handling logic to ensure the functionality, security, and performance of the entire system.",
+					"iconUrl": "/images/Backend Development.svg"
+				},
+				{
+					"title": "Quality Assurance",
+					"description": "Systematically testing and validating the software to identify and fix bugs, ensuring a reliable and high-quality user experience.",
+					"iconUrl": "/images/Quality Assurance.png"
+				}
+			]
+		},
+		{
+			"subtitle": "Phase 5",
+			"title": "Review",
+			"description": "Assessing the project's progress, code quality, and adherence to requirements, providing an opportunity for feedback and ensuring alignment with objectives before advancing to the next phase.",
+			"cardItems": [
+				{
+					"title": "Sprint Retrospectives",
+					"description": "Hosting regular team meetings held at the end of each sprint to reflect on the recently completed work, identify improvements, and optimise future iterations for enhanced productivity.",
+					"iconUrl": "/images/Sprint Retrospectives.svg"
+				},
+				{
+					"title": "User Feedback Loops",
+					"description": "Establishing continuous channels for collecting, analysing, and integrating user feedback into the development process, ensuring the product aligns with user expectations and needs.",
+					"iconUrl": "/images/User Feedback Loops.svg"
+				},
+				{
+					"title": "product analysis",
+					"description": "Evaluating the performance, user engagement, and market trends of the developed product, informing strategic decisions for future enhancements and iterations.",
+					"iconUrl": "/images/product-analysis.svg"
+				}
+			]
+		}
+	],
+	"ServicesFinalPhaseDataType": {
+		"serviceMainSubtitle": "Phase 6",
+		"serviceMainTitle": "Launch",
+		"serviceMainDesc": "A critical period where the fully developed app is released to the public. It involves meticulous planning and execution of marketing strategies, final beta testing, optimization for app stores, and a strategic roll-out plan to ensure a successful and impactful debut. This phase also includes monitoring initial user feedback and performance metrics to make immediate improvements, ensuring the app gains traction and achieves its intended goals in the competitive digital marketplace.",
+		"serviceItemModalImage": "/images/illustration-launch.svg"
+	}
+}

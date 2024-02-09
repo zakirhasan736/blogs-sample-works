@@ -1,108 +1,132 @@
 {
     "pageTitle": "Service In-Detail - PPC",
-    "pageDescription": " Particular PPC: a blend of strategic precision and effective execution, ensuring every ad campaign maximizes ROI.",
+    "pageDescription": "Particular PPC: a blend of strategic precision and effective execution, ensuring every ad campaign maximizes ROI.",
     "ServicesBannerData": {
         "paginateTitle": "PPC - Pay per click",
-        "bannerTitle": "",
-        "bannerDescription": "",
-
+        "bannerTitle": "PPC - Pay Per Click",
+        "bannerDescription": "Strategically driving targeted traffic to your website through data-driven paid advertising campaigns. We build campaigns on Google, Youtube and your most widely-used Social Media channels by customers and businesses.",
         "bannerBtnText1": "",
         "bannerBtnText2": ""
     },
-    "ServicesPhaseDataTypeOne": {
-        "servicePhaseLeftData": {
-            "serviceMainSubtitle": "",
-            "serviceMainTitle": "",
-            "serviceMainDesc": ""
+    "ServicesPhaseDataType": [
+        {
+            "subtitle": "Phase 1",
+            "title": "Research And Strategy",
+            "description": "Lorem ipsum dolor sit amet consectetur. Nam tristique ut amet sagittis mauris. Vel congue",
+            "cardItems": [
+                {
+                    "title": "Discover Business Goals",
+                    "description": "Understanding and aligning with business goals is crucial for creating successful and impactful user experiences. Here are some common business goals that UX design aims to address.",
+                    "iconUrl": "/images/Discover Business Goals.svg"
+                },
+                {
+                    "title": "Competitor Research",
+                    "description": "Understanding and aligning with business goals is crucial for creating successful and impactful user experiences. Here are some common business goals that UX design aims to address.",
+                    "iconUrl": "/images/competitor Research.svg"
+                },
+                {
+                    "title": "Target and Location research",
+                    "description": "Understanding and aligning with business goals is crucial for creating successful and impactful user experiences. Here are some common business goals that UX design aims to address.",
+                    "iconUrl": "/images/Target and Location research.svg"
+                },
+                {
+                    "title": "Bid research",
+                    "description": "Understanding and aligning with business goals is crucial for creating successful and impactful user experiences. Here are some common business goals that UX design aims to address.",
+                    "iconUrl": "/images/Bid research.svg"
+                },
+                {
+                    "title": "Keyword research",
+                    "description": "Understanding and aligning with business goals is crucial for creating successful and impactful user experiences. Here are some common business goals that UX design aims to address.",
+                    "iconUrl": "/images/Keyword research.svg"
+                },
+                {
+                    "title": "Objectives and KPIs",
+                    "description": "Setting clear goals and key performance indicators to measure and optimise campaign performance.",
+                    "iconUrl": "/images/objective-api.svg"
+                }
+            ]
         },
-        "servicePhaseRightData": [
-            {
-                "serviceItemImage": "/images/AB Testing.svg",
-                "serviceItemTitle": "",
-                "serviceItemDesce": ""
-            },
-            {
-                "serviceItemImage": "",
-                "serviceItemTitle": "",
-                "serviceItemDesce": ""
-            },
-            {
-                "serviceItemImage": "",
-                "serviceItemTitle": "",
-                "serviceItemDesce": ""
-            }
-
-        ]
-    },
-    "ServicesPhaseDataTypeTwo": {
-        "servicePhaseLeftData": {
-            "serviceMainSubtitle": "",
-            "serviceMainTitle": "",
-            "serviceMainDesc": ""
+        {
+            "subtitle": "Phase 2",
+            "title": "Campaign",
+            "description": "Lorem ipsum dolor sit amet consectetur. Nam tristique ut amet sagittis mauris. Vel congue",
+            "cardItems": [
+                {
+                    "title": "Account setup",
+                    "description": "Understanding and aligning with business goals is crucial for creating successful and impactful user experiences. Here are some common business goals that UX design aims to address.",
+                    "iconUrl": "/images/Account setup.svg"
+                },
+                {
+                    "title": "Keyword and ad grouping",
+                    "description": "Understanding and aligning with business goals is crucial for creating successful and impactful user experiences. Here are some common business goals that UX design aims to address.",
+                    "iconUrl": "/images/Keyword and ad grouping.svg"
+                },
+                {
+                    "title": "Budget and bid setupy",
+                    "description": "Understanding and aligning with business goals is crucial for creating successful and impactful user experiences. Here are some common business goals that UX design aims to address.",
+                    "iconUrl": "/images/Budget and bid setup.svg"
+                },
+                {
+                    "title": "Drafting ad copy",
+                    "description": "Understanding and aligning with business goals is crucial for creating successful and impactful user experiences. Here are some common business goals that UX design aims to address.",
+                    "iconUrl": "/images/Drafting ad copy.svg"
+                },
+                {
+                    "title": "Landing page development",
+                    "description": "Understanding and aligning with business goals is crucial for creating successful and impactful user experiences. Here are some common business goals that UX design aims to address.",
+                    "iconUrl": "/images/Landing page development.svg"
+                }
+            ]
         },
-        "servicePhaseRightData": [
-            {
-                "serviceItemImage": "",
-                "serviceItemTitle": "",
-                "serviceItemDesce": ""
-            },
-            {
-                "serviceItemImage": "",
-                "serviceItemTitle": "",
-                "serviceItemDesce": ""
-            }
-        ]
-    },
-    "ServicesPhaseDataTypeThree": {
-        "servicePhaseLeftData": {
-            "serviceMainSubtitle": "",
-            "serviceMainTitle": "",
-            "serviceMainDesc": ""
+        {
+            "subtitle": "Phase 3",
+            "title": "Review",
+            "description": "Lorem ipsum dolor sit amet consectetur. Nam tristique ut amet sagittis mauris. Vel congue",
+            "cardItems": [
+                {
+                    "title": "Analytics",
+                    "description": "Understanding and aligning with business goals is crucial for creating successful and impactful user experiences. Here are some common business goals that UX design aims to address.",
+                    "iconUrl": "/images/Analytics.svg"
+                },
+                {
+                    "title": "Updating bids",
+                    "description": "Understanding and aligning with business goals is crucial for creating successful and impactful user experiences. Here are some common business goals that UX design aims to address.",
+                    "iconUrl": "/images/Updating bids.svg"
+                },
+                {
+                    "title": "A/B Testing - Ads and landing page",
+                    "description": "Understanding and aligning with business goals is crucial for creating successful and impactful user experiences. Here are some common business goals that UX design aims to address.",
+                    "iconUrl": "/images/AB Testing.svg"
+                },
+                {
+                    "title": "Reporting",
+                    "description": "Transparent, actionable reports that guide decision-making and showcase campaign progress.",
+                    "iconUrl": "/images/Reporting.svg"
+                }
+            ]
         },
-        "servicePhaseRightData": [
-            {
-                "serviceItemImage": "",
-                "serviceItemTitle": "",
-                "serviceItemDesce": ""
-            },
-            {
-                "serviceItemImage": "",
-                "serviceItemTitle": "",
-                "serviceItemDesce": ""
-            }
-        ]
-    },
-
-
-    "ServicesPhaseDataTypeFour": {
-        "servicePhaseLeftData": {
-            "serviceMainSubtitle": "",
-            "serviceMainTitle": "",
-            "serviceMainDesc": ""
-        },
-        "servicePhaseRightData": [
-            {
-                "serviceItemImage": "",
-                "serviceItemTitle": "",
-                "serviceItemDesce": ""
-            },
-            {
-                "serviceItemImage": "",
-                "serviceItemTitle": "",
-                "serviceItemDesce": ""
-            }
-        ]
-    },
+        {
+            "subtitle": "Phase 4",
+            "title": "Optimisation",
+            "description": "Lorem ipsum dolor sit amet consectetur. Nam tristique ut amet sagittis mauris. Vel congue",
+            "cardItems": [
+                {
+                    "title": "Account Optimisation",
+                    "description": "Understanding and aligning with business goals is crucial for creating successful and impactful user experiences. Here are some common business goals that UX design aims to address.",
+                    "iconUrl": "/images/Account Optimisation.svg"
+                },
+                {
+                    "title": "Webpage optimisation",
+                    "description": "Understanding and aligning with business goals is crucial for creating successful and impactful user experiences. Here are some common business goals that UX design aims to address.",
+                    "iconUrl": "/images/Webpage optimisation.svg"
+                }
+            ]
+        }
+    ],
     "ServicesFinalPhaseDataType": {
-        "servicePhaseLeftData": {
-            "serviceMainSubtitle": "",
-            "serviceMainTitle": "",
-            "serviceMainDesc": ""
-        },
-        "servicePhaseRightData": [
-            {
-                "serviceItemModalImage": ""
-            }
-        ]
+        "serviceMainSubtitle": "Phase 5",
+        "serviceMainTitle": "Results",
+        "serviceMainDesc": "We shine a spotlight on the outcomes of your paid advertising efforts and the impact they've had on your digital presence. We demonstrate your results in a way that captures and tells the story of your PPC success, designed to go beyond just being a simple numbers report. With a focus on continuous improvement and a dedication to achieving your goals, your PPC efforts are there to drive your business forward and expand your online reach. This is always the goal and all analysis should look at how well this has been achieved.",
+        "serviceItemModalImage": "/images/illustration-launch.svg"
     }
 }

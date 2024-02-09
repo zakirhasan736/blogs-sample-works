@@ -1,0 +1,27 @@
+<svg width="109" height="109" viewBox="0 0 109 109" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="all-icons-white">
+<g id="Rectangle 227">
+<mask id="path-1-inside-1_2312_8460" fill="white">
+<rect x="9" width="90" height="90" rx="4"/>
+</mask>
+<rect x="9" width="90" height="90" rx="4" fill="#232323" stroke="white" stroke-width="10" mask="url(#path-1-inside-1_2312_8460)"/>
+</g>
+<rect id="Rectangle 228" x="27" y="5" width="5" height="80" fill="white"/>
+<rect id="Rectangle 230" x="11" y="6" width="20" height="5" fill="white"/>
+<rect id="Rectangle 237" x="77" y="6" width="20" height="5" fill="white"/>
+<rect id="Rectangle 231" x="11" y="18" width="20" height="5" fill="white"/>
+<rect id="Rectangle 238" x="77" y="18" width="20" height="5" fill="white"/>
+<rect id="Rectangle 232" x="11" y="30" width="20" height="5" fill="white"/>
+<rect id="Rectangle 239" x="77" y="30" width="20" height="5" fill="white"/>
+<rect id="Rectangle 233" x="11" y="42" width="20" height="5" fill="white"/>
+<rect id="Rectangle 240" x="77" y="42" width="20" height="5" fill="white"/>
+<rect id="Rectangle 234" x="11" y="54" width="20" height="5" fill="white"/>
+<rect id="Rectangle 241" x="77" y="54" width="20" height="5" fill="white"/>
+<rect id="Rectangle 235" x="11" y="66" width="20" height="5" fill="white"/>
+<rect id="Rectangle 242" x="77" y="66" width="20" height="5" fill="white"/>
+<rect id="Rectangle 236" x="11" y="78" width="20" height="5" fill="white"/>
+<rect id="Rectangle 243" x="77" y="78" width="20" height="5" fill="white"/>
+<rect id="Rectangle 229" x="76" y="5" width="5" height="80" fill="white"/>
+<path id="Rectangle 244" d="M44 31L66 45.5L44 60V31Z" fill="white"/>
+</g>
+</svg>

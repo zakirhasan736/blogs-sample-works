@@ -125,9 +125,9 @@ const Footer: React.FC<FooterProps> = () => {
 							<li>
 								<Link href="/services/visual-media">Visual Media</Link>
 							</li>
-							<li>
+							{/* <li>
 								<Link href="/services/social-media">Social Media</Link>
-							</li>
+							</li> */}
 							<li>
 								<Link href="/services/seo">SEO</Link>
 							</li>
