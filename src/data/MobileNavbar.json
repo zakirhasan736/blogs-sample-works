@@ -43,12 +43,12 @@
             "path": "/services/seo"
         },
         {
-            "name": "Visual Media",
-            "path": "/services/visual-media"
+            "name": "Motion Design",
+            "path": "/services/motion-design"
         },
         {
-            "name": "Web Design Development",
-            "path": "/services/web-design-development"
+            "name": "App Development",
+            "path": "/services/app-development"
         }
         ]
     },

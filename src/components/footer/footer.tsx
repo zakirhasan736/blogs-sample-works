@@ -97,7 +97,7 @@ const Footer: React.FC<FooterProps> = () => {
 					<Link href="/contacts" className="inline-block">
 						<GlowButton glowBtnText="Start a Project" />
 					</Link>
-				</section> 
+				</section>
 
 				<div className="sep max-w-[1000px] w-full mx-auto"></div>
 				<section className="footer footer-container pt-[54px] flex md:grid  md:grid-cols-12 md:gap-[30px]">
@@ -115,15 +115,13 @@ const Footer: React.FC<FooterProps> = () => {
 						</div>
 						<ul>
 							<li>
-								<Link href="/services/web-design-development">
-									Web Development
-								</Link>
+								<Link href="/services/app-development">App Development</Link>
 							</li>
 							<li>
 								<Link href="/services/ppc">PPC</Link>
 							</li>
 							<li>
-								<Link href="/services/visual-media">Visual Media</Link>
+								<Link href="/services/motion-design">Motion Design</Link>
 							</li>
 							{/* <li>
 								<Link href="/services/social-media">Social Media</Link>

@@ -12,7 +12,7 @@ const Services = () => {
 				"Optimisation in your search engine efforts comes from understanding - what to assess, where to place your efforts and how to make an impact",
 		},
 		{
-			title: "Web Design & Development",
+			title: "App Development",
 			subtitle: "Our Services",
 			description:
 				"Particular Websites combine UX, Strategy and Interactivity to build high-speed, accessible sites that convert.",
@@ -30,7 +30,7 @@ const Services = () => {
 				"Every brand possesses a distinctiveness akin to the individuality of a fingerprint. Demanding a personalized strategy as exceptional as the brand's own signature.",
 		},
 		{
-			title: "Visual Media",
+			title: "Motion Design",
 			subtitle: "Our Services",
 			description:
 				"Every brand possesses a distinctiveness akin to the individuality of a fingerprint. Demanding a personalized strategy as exceptional as the brand's own signature.",
@@ -53,12 +53,12 @@ const Services = () => {
 			servieItemLinks: "/services/seo",
 		},
 		{
-			title: "Web Design & Development",
+			title: "App Development",
 			modalTitle: "WEB DEV",
 			description:
 				"Feels like a web design agency, helps like a doctor.  We listen first, and then serve. Particular Websites combine SEO, Strategy and UX to build high-speed, accessible sites that convert even the most stern audiences.",
 			btnText: "Discover more",
-			servieItemLinks: "/services/web-design-development",
+			servieItemLinks: "/services/app-development",
 		},
 		{
 			title: "PPC",
@@ -77,12 +77,12 @@ const Services = () => {
 			servieItemLinks: "/services/branding",
 		},
 		{
-			title: "Visual Media",
-			modalTitle: "Visual Media",
+			title: "Motion Design",
+			modalTitle: "Motion Design",
 			description:
 				"Humankind has spent millennia captivated by important stories told well. Create a pioneering story from your free-thought around your vision. We’ll handle the attention to detail.",
 			btnText: "Discover more",
-			servieItemLinks: "/services/visual-media",
+			servieItemLinks: "/services/motion-design",
 		},
 		{
 			title: "Social Media",
@@ -100,8 +100,8 @@ const Services = () => {
 			ModalImage: "/images/gif/Section01-1.gif",
 		},
 		{
-			ModalTitle: "Web Design & Development",
-			Title: "Web Design & Development",
+			ModalTitle: "App Development",
+			Title: "App Development",
 			ModalImage: "/images/gif/Section03.gif",
 		},
 		{
@@ -115,8 +115,8 @@ const Services = () => {
 			ModalImage: "/images/gif/Section02-1.gif",
 		},
 		{
-			ModalTitle: "Visual Media",
-			Title: "Visual Media",
+			ModalTitle: "Motion Design",
+			Title: "Motion Design",
 			ModalImage: "/images/gif/section 3.gif",
 		},
 		{

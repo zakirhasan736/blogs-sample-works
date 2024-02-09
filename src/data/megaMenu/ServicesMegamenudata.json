@@ -56,42 +56,42 @@
             ]
         },
         {
-            "title": "Web Design & Development",
-            "path": "/services/web-design-development",
+            "title": "App Development",
+            "path": "/services/app-development",
             "subItems": [
                 {
                     "title": "User Experience",
-                    "path": "/services/web-design-development"
+                    "path": "/services/app-development"
                 },
                 {
                     "title": "User Design",
-                    "path": "/services/web-design-development"
+                    "path": "/services/app-development"
                 },
                 {
                     "title": "Web Development",
-                    "path": "/services/web-design-development"
+                    "path": "/services/app-development"
                 }
             ]
         },
         {
-            "title": "Visual Media",
-            "path": "/services/visual-media",
+            "title": "Motion Design",
+            "path": "/services/motion-design",
             "subItems": [
                 {
                     "title": "Creative Direction",
-                    "path": "/services/visual-media"
+                    "path": "/services/motion-design"
                 },
                 {
                     "title": "Photography",
-                    "path": "/services/visual-media"
+                    "path": "/services/motion-design"
                 },
                 {
                     "title": "Videography",
-                    "path": "/services/visual-media"
+                    "path": "/services/motion-design"
                 },
                 {
                     "title": "Graphic Design",
-                    "path": "/services/visual-media"
+                    "path": "/services/motion-design"
                 }
             ]
         }
