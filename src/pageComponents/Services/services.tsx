@@ -12,6 +12,12 @@ const Services = () => {
 				"Optimisation in your search engine efforts comes from understanding - what to assess, where to place your efforts and how to make an impact",
 		},
 		{
+			title: "Web Development",
+			subtitle: "Our Services",
+			description:
+				"Particular Websites combine UX, Strategy and Interactivity to build high-speed, accessible sites that convert.",
+		},
+		{
 			title: "App Development",
 			subtitle: "Our Services",
 			description:
@@ -53,8 +59,16 @@ const Services = () => {
 			servieItemLinks: "/services/seo-service",
 		},
 		{
-			title: "App Development",
+			title: "Web Development",
 			modalTitle: "WEB DEV",
+			description:
+				"Feels like a web design agency, helps like a doctor.  We listen first, and then serve. Particular Websites combine SEO, Strategy and UX to build high-speed, accessible sites that convert even the most stern audiences.",
+			btnText: "Discover more",
+			servieItemLinks: "/services/web-design-and-evelopment",
+		},
+		{
+			title: "App Development",
+			modalTitle: "APP DEV",
 			description:
 				"Feels like a web design agency, helps like a doctor.  We listen first, and then serve. Particular Websites combine SEO, Strategy and UX to build high-speed, accessible sites that convert even the most stern audiences.",
 			btnText: "Discover more",
@@ -102,6 +116,11 @@ const Services = () => {
 		{
 			ModalTitle: "App Development",
 			Title: "App Development",
+			ModalImage: "/images/gif/Section03.gif",
+		},
+		{
+			ModalTitle: "Web Development",
+			Title: "Web Development",
 			ModalImage: "/images/gif/Section03.gif",
 		},
 		{

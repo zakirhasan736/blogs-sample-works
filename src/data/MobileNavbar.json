@@ -47,6 +47,10 @@
             "path": "/services/motion-design"
         },
         {
+            "name": "Web Development",
+            "path": "/services/web-design-and-evelopment"
+        },
+        {
             "name": "App Development",
             "path": "/services/app-development"
         }

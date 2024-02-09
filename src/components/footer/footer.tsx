@@ -115,6 +115,11 @@ const Footer: React.FC<FooterProps> = () => {
 						</div>
 						<ul>
 							<li>
+								<Link href="/services/web-design-and-evelopment">
+									Web Development
+								</Link>
+							</li>
+							<li>
 								<Link href="/services/app-development">App Development</Link>
 							</li>
 							<li>

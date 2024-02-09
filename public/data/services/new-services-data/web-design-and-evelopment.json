@@ -1,0 +1,90 @@
+{
+	"pageTitle": "Service In-Detail - Web Development",
+	"pageDescription": " Feels like a web design agency, helps like a doctor.  We listen first, and then serve. Particular Websites combine SEO, Strategy and UX to build high-speed, accessible sites that convert even the most stern audiences.",
+	"ServicesBannerData": {
+		"paginateTitle": "Web Design & Development",
+		"bannerTitle": "Web Design & Development",
+		"bannerDescription": "Feels like a web design agency, helps like a doctor.  We listen first, and then serve. Particular Websites combine SEO, Strategy and UX to build high-speed, accessible sites that convert even the most stern audiences.",
+		"bannerBtnText1": "",
+		"bannerBtnText2": ""
+	},
+	"ServicesPhaseDataType": [
+		{
+			"subtitle": "Phase 1",
+			"title": "User Experience (UX) Research",
+			"description": "Our Journey’s first step, digging into everything from what your competitors are doing to what your users really want.",
+			"cardItems": [
+				{
+					"title": "Discover Business Goals",
+					"description": "We delve into understanding the core objectives and aspirations of your business. This crucial step ensures that our UX strategies are perfectly aligned with your company's vision, setting a solid foundation for creating designs that not only look great but also drive your business forward.",
+					"iconUrl": "/images/discover-business-goal.svg"
+				},
+				{
+					"title": "Stakeholder Interview",
+					"description": "We engage directly with key figures in your organisation to gain diverse perspectives. This essential dialogue helps us grasp the nuanced needs and expectations of those who matter most, ensuring our UX solutions are deeply informed and strategically aligned.",
+					"iconUrl": "/images/scaleton-interview.svg"
+				},
+				{
+					"title": "Problem Statement",
+					"description": "The 'Problem Statement' phase is where we distill insights into a clear, concise description of the core issues, guiding our UX design towards targeted and effective solutions.",
+					"iconUrl": "/images/problem-stament.svg"
+				},
+				{
+					"title": "User Requirements",
+					"description": "In the 'User Requirements' step, we identify and prioritise the needs and preferences of your target audience, ensuring user-centric and relevant UX design solutions.",
+					"iconUrl": "/images/user-requirment.svg"
+				},
+				{
+					"title": "Market Research",
+					"description": "Our 'Market Research' involves analysing industry trends and competitor strategies to ensure your UX design is innovative, relevant, and positioned for success.",
+					"iconUrl": "/images/merker-research.svg"
+				}
+			]
+		},
+		{
+			"subtitle": "Phase 2",
+			"title": "User Interface Design (UI)",
+			"description": "Project objectives, scope, timelines, and resources are defined, providing a roadmap for efficient and organized development processes.",
+			"cardItems": [
+				{
+					"title": "Information Architecture",
+					"description": "Where we meticulously structure and s content, creating intuitive and accessible user interfaces for seamless user experiences.",
+					"iconUrl": "/images/interface-arcitect.svg"
+				},
+				{
+					"title": "Visual Design",
+					"description": "Crafting aesthetically pleasing and functional interfaces, blending creativity with usability to enhance user engagement and your brand’s identity.",
+					"iconUrl": "/images/visual.svg"
+				}
+			]
+		},
+		{
+			"subtitle": "Phase 3",
+			"title": "Build Development",
+			"description": "Transitioning from designs into reality. executing to blend technology with vision, transforming designs into a digital masterpiece",
+			"cardItems": [
+				{
+					"title": "Frontend Development",
+					"description": "transforming designs into interactive, responsive experiences, ensuring a seamless and engaging user interface across all devices",
+					"iconUrl": "/images/front-web.svg"
+				},
+				{
+					"title": "Backend Development",
+					"description": "Our focus is on robust and scalable solutions, building the backbone for powerful, efficient, and secure applications.",
+					"iconUrl": "/images/back-wev.svg"
+				},
+				{
+					"title": "Quality Assurance",
+					"description": "Rigorous testing underpins our commitment to excellence, ensuring flawless functionality and a superior user experience.",
+					"iconUrl": "/images/Quality Assurance.png"
+				}
+			]
+		}
+	],
+	"ServicesFinalPhaseDataType": {
+		"serviceMainSubtitle": "Phase 4",
+		"serviceMainTitle": "Launch",
+		"serviceMainDesc": "It' time to set the stage to unveil your digital creation to the world in a way that resonates and inspires. This is the crescendo of our collaboration, a moment where we transcend expectations. We’re here to help you elevate to new heights in the digital landscape, poised for growth and ready to make a lasting impact.",
+		"serviceItemModalImage": "/images/illustration-launch.svg"
+	}
+}

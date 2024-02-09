@@ -74,6 +74,24 @@
             ]
         },
         {
+            "title": "Web Development",
+            "path": "/services/web-design-and-evelopment",
+            "subItems": [
+                {
+                    "title": "User Experience",
+                    "path": "/services/web-design-and-evelopment"
+                },
+                {
+                    "title": "User Design",
+                    "path": "/services/web-design-and-evelopment"
+                },
+                {
+                    "title": "Web Development",
+                    "path": "/services/web-design-and-evelopment"
+                }
+            ]
+        },
+        {
             "title": "Motion Design",
             "path": "/services/motion-design",
             "subItems": [
