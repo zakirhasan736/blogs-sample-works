@@ -1,4 +1,4 @@
-import Service from "@/pageComponents/Services/services";
+import Service from "@/pageComponents/Services/services-v2";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {

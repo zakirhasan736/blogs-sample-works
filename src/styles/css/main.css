@@ -1227,9 +1227,11 @@ span.prodress-pill.extra-class {
         padding-bottom: 70px;
     }
 }
+
 .cards-item-info p.cards-item-info-desc {
     line-height: 1.3;
 }
+
 .development-process-section .section-title-box {
     margin-bottom: 60px;
 }
@@ -1375,6 +1377,7 @@ span.prodress-pill.extra-class {
 .zanbase-page-content-main-wrapper {
     background: radial-gradient(50% 50% at 50% 50%, #151D48 0%, #0D0E19 100%);
 }
+
 .case-study-page-wrapper {
     background: radial-gradient(50% 50% at 50% 50%, #151D48 0%, #0D0E19 100%);
 }
@@ -1732,4 +1735,28 @@ ol {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+}
+
+/* services main page style start here */
+.services-wrapper-main-content {
+    background: radial-gradient(50% 50% at 50% 50%, #151D48 0%, #0D0E19 100%);
+}
+
+.services-wrapper-main-content .service-section-v2 {
+    background: transparent;
+}
+
+.services-main-banner-section {
+    /* background: radial-gradient(38.31% 38.31% at 50% 52.25%, #151D48 0%, #0D0E19 100%); */
+    position: relative;
+}
+.technology-section .comon-title h2,
+.platform-section .comon-title h2 {
+    color: #000;
+}
+
+.technology-section .comon-title span,
+.platform-section .comon-title span {
+    background-color: #000000 !important;
+    display: block;
 }
