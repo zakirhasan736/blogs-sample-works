@@ -1,83 +1,57 @@
 {
-    "pageTitle": "Thought Divisions - Free Thought",
-    "pageDescription": " Unravel the barriers in the mind to innovate",
-  "bannerData": {
-    "subHeading": "Free-thought",
-    "title": " in the mind to innovate.",
-    "description": "We break down mental blocks to foster innovation.",
-    "isColorText": true,
-    "colorText": "Unravel the barriers"
-  },
-  "titleData": {
-    "title": "Our Approach at ",
-    "colorText": "Particular",
-    "isColorText": true,
-    "subtitle": [
-      "We encourage Scrutiny and questioning.",
-      "Then redesign and polishing. And then more questioning. And more polishing."
-    ],
-    "description": "This meticulous approach is in both why and how we innovate on the services offered at Particular. We turn the data we get from our better-delivery approach in data-based marketing solutions. London and beyond.",
-    "classNames": "mb-[136px]"
-  },
-  "slugs": [
-    "digital marketing",
-    "designing",
-    "development"
-  ],
+  "pageTitle": "Thought Divisions - Free Thought",
+  "pageDescription": " Unravel the barriers in the mind to innovate",
+"OurApproachBannerData": {
+  "pagePathTitle": "Free thoughts",
+  "pageslugImage": "/images/icon-free-thought-1 2.svg",
+  "pageSlagImageWidth": "66",
+  "pageSlagImageHeight": "84",
+  "pageSlugTitle": "Free thoughts",
+  "pageMainTitle": "Unravel The Barriers In The Mind To Innovate.",
+  "pageSubTitle": "We break down mental blocks to foster innovation.",
+  "pageMainDesc1": "We encourage Scrutiny and questioning.Then redesign and polishing. And then more questioning. And more polishing.",
+  "pageMainDesc2": "This meticulous approach is in both why and how we innovate on the services offered at Particular. We turn the data we get from our better-delivery approach in data-based marketing solutions. London and beyond."
+},
   "DivisionData": {
-"modalScrollText": "Free Thought",
-"thoughtDivisionTitle": "Free Thought",
-"thoughtDivisionSubtitle": "Free-thought at Particular involves pursuing new and often non-conventional ideas."
+    "modalScrollText": "Free Thought",
+    "thoughtDivisionTitle": "Free Thought",
+    "thoughtDivisionImage": "/images/approach-image-1.jpg",
+    "thoughtDivisionSubtitle": "Free-thought at Particular involves pursuing new and often non-conventional ideas."
   },
-    "ThoughtDivisionData": [
-
-      {
-        "detailsinfo_title": "",
-        "detailsinfo_description": "It translates into a daily commitment to innovative thinking and a fresh approach to enhancing customer experiences. ",
-        "infoList": null
-      },
-      {
-        "detailsinfo_title": "",
-        "detailsinfo_description": "In practical terms, this philosophy encourages team members to approach challenges with open-minded investigation.",
-        "infoList": null
-      },
-      {
-        "detailsinfo_title": "",
-        "detailsinfo_description": "Putting aside preconceived notions and embracing humility in the face of new ideas.",
-        "infoList": null
-      },
-        {
-          "detailsinfo_title": "",
-          "detailsinfo_description": "A strong-willed mindset is the driving force, encouraging our team and clients to persevere in the pursuit of better solutions.",
-          "infoList": null
-        },
-          {
-            "detailsinfo_title": "",
-            "detailsinfo_description": "This approach fosters an environment where creative thinking and unconventional ideas are welcomed, enabling Particular to consistently innovate and deliver unique customer experiences.",
-            "infoList": null
-          },
-      {
-        "detailsinfo_title": "This Particular philosophy is foundationally rooted in:",
-        "detailsinfo_description": null,
-        "infoList": [
-          "Open-minded Investigation",
-          "Humility",
-          "A Strong-willed mindset"
-        ]
-      }
-    ],
-    "staticsItems": [
-      {
-        "title": "50+",
-        "description": "Completed marketing projects"
-      },
-      {
-        "title": "£10-100k",
-        "description": "Our current infrastructure allows us to easily cater for projects in this budget range"
-      },
-      {
-        "title": "35%",
-        "description": "Over 1 in 3 clients come back to us within the first 3 months for additional marketing and branding support"
-      }
-    ]
+  "ThoughtDivisionData": [
+    {
+      "detailsinfo_title": "",
+      "detailsinfo_description": "It translates into a daily commitment to innovative thinking and a fresh approach to enhancing customer experiences. ",
+      "infoList": null
+    },
+    {
+      "detailsinfo_title": "",
+      "detailsinfo_description": "In practical terms, this philosophy encourages team members to approach challenges with open-minded investigation.",
+      "infoList": null
+    },
+    {
+      "detailsinfo_title": "",
+      "detailsinfo_description": "Putting aside preconceived notions and embracing humility in the face of new ideas.",
+      "infoList": null
+    },
+    {
+      "detailsinfo_title": "",
+      "detailsinfo_description": "A strong-willed mindset is the driving force, encouraging our team and clients to persevere in the pursuit of better solutions.",
+      "infoList": null
+    },
+    {
+      "detailsinfo_title": "",
+      "detailsinfo_description": "This approach fosters an environment where creative thinking and unconventional ideas are welcomed, enabling Particular to consistently innovate and deliver unique customer experiences.",
+      "infoList": null
+    },
+    {
+      "detailsinfo_title": "This Particular philosophy is foundationally rooted in:",
+      "detailsinfo_description": null,
+      "infoList": [
+        "Open-minded Investigation",
+        "Humility",
+        "A Strong-willed mindset"
+      ]
+    }
+  ]
 }

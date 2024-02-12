@@ -1,32 +1,23 @@
 {
   "pageTitle": "Thought Divisions - Attention To Detail",
   "pageDescription": " Lead with detail in quality to deliver for a purpose.",
-  "bannerData": {
-    "subHeading": "Attention to detail",
-    "title": " in quality to deliver for a purpose.",
-    "description": "Our gift is observation. It just so happens that we’re a marketing agency.",
-    "isColorText": true,
-    "colorText": "Lead with detail"
+
+  "OurApproachBannerData": {
+    "pagePathTitle": "Attention to details",
+    "pageslugImage": "/images/icon-attention-to-detail 2.svg",
+    "pageSlagImageWidth": "64",
+    "pageSlagImageHeight": "39",
+    "pageSlugTitle": "Attention to details",
+    "pageMainTitle": "Lead With Detail In Quality To Deliver For A Purpose.",
+    "pageSubTitle": "Our gift is observation. It just so happens that we’re a marketing agency.",
+    "pageMainDesc1": "We encourage Scrutiny and questioning.Then redesign and polishing. And then more questioning. And more polishing.",
+    "pageMainDesc2": "This meticulous approach is in both why and how we innovate on the services offered at Particular. We turn the data we get from our better-delivery approach in data-based marketing solutions. London and beyond."
   },
-  "titleData": {
-    "title": "Our Approach at ",
-    "colorText": "Particular",
-    "isColorText": true,
-    "subtitle": [
-      "We encourage Scrutiny and questioning.",
-      "Then redesign and polishing. And then more questioning. And more polishing."
-    ],
-    "description": "This meticulous approach is in both why and how we innovate on the services offered at Particular. We turn the data we get from our better-delivery approach in data-based marketing solutions. London and beyond.",
-    "classNames": "mb-[136px]"
-  },
-  "slugs": [
-    "digital marketing",
-    "designing",
-    "development"
-  ],
+ 
   "DivisionData": {
     "modalScrollText": "Attention to Details",
     "thoughtDivisionTitle": "ATTENTION TO DETAIL",
+    "thoughtDivisionImage": "/images/approach-image-2.jpg",
     "thoughtDivisionSubtitle": "Areas of thinking we explore with you in our digital and creative solutions:"
   }, 
 
@@ -46,20 +37,6 @@
       "detailsinfo_title": "Science",
       "detailsinfo_description": "Make intelligent, people-centric business decisions that benefit your brand’s eco-system. The data that humanity has uncovered in Psychology, Economics and Business ties it all together.",
       "infoList": null
-    }
-  ],
-  "staticsItems": [
-    {
-      "title": "50+",
-      "description": "Completed marketing projects"
-    },
-    {
-      "title": "£10-100k",
-      "description": "Our current infrastructure allows us to easily cater for projects in this budget range"
-    },
-    {
-      "title": "35%",
-      "description": "Over 1 in 3 clients come back to us within the first 3 months for additional marketing and branding support"
     }
   ]
 }

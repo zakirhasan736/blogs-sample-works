@@ -2,6 +2,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Button from '@/components/elements/button/button';
 import Link from 'next/link';
+import GlowButton from '../elements/button/glow-button';
 
 interface TabData {
 	id: string;
@@ -97,21 +98,25 @@ const OurApproachTabs: React.FC<{ data: TabData[] }> = ({ data }) => {
   }, []);
 
   return (
-		<div className="our-approach-tabs-sceens-page bg-[#D9D9D9] pt-8 pr-[57px] pb-[51px] sm:px-4 pl-5 rounded-[12px] flex items-start gap-0 overflow-hidden tabs-container sm:flex-col">
-			<div className="our-approach-tabs-screen-left-cont pr-8 sm:pr-0 flex flex-col gap-3 w-full max-w-[360px] tabs pb-5 sm:mb-5 sm:border-b sm:border-b-black">
+		<div className="our-approach-tabs-sceens-page rounded-[12px] flex items-start gap-0 overflow-hidden tabs-container sm:flex-col">
+			<div className="our-approach-tabs-screen-left-cont pr-7 sm:pr-0 flex flex-col gap-3 w-full max-w-[330px] tabs pb-5 sm:mb-5 ">
 				{data.map(tab => (
-					<a
-						key={tab.id}
-						id={tab.id}
-						title={tab.title}
-						className={`our-approad-tabs-items text-text-medium-4 sm:text-[22px]  text-left text-[#191919] font-primary font-semibold leading-none px-5 py-[43px] bg-tranparent sm:px-2 sm:py-6 ${
-							tab.id === activeTab ? "active" : ""
-						} rounded-[16px] max-w-[336px] h-[117px] w-full sm:h-auto sm:text-[23px] sm:max-w-[450px]`}>
-						{tab.title}
-					</a>
+					<>
+						<a
+							key={tab.id}
+							id={tab.id}
+							title={tab.title}
+							className={`our-approad-tabs-items text-[22px] sm:text-[18px]  text-left text-[#fff] font-tertery font-bold capitalize leading-none px-8 py-[39px] bg-tranparent sm:px-4 sm:py-6 ${
+								tab.id === activeTab ? "active" : ""
+							} rounded-[16px] max-w-[336px] h-[108px] w-full sm:h-auto sm:text-[23px] sm:max-w-[450px]`}>
+							{tab.title}
+							<span
+								className={`h-[3px] w-[34px] bg-[#000] mt-1 ${tab.id === activeTab ? "block" : "hidden"}`}></span>
+						</a>
+					</>
 				))}
 			</div>
-			<div className="our-approach-tabs-screen-right-cont overflow-hidden pl-5 border-l border-l-neu-black w-full sm:border-none sm:pl-0">
+			<div className="our-approach-tabs-screen-right-cont overflow-hidden rounded-[10px] border border-[#ffffff] pl-9 pb-9 pt-8 pr-8 w-full sm:px-6 sm:py-8">
 				{data.map(tab => (
 					<div
 						key={tab.id}
@@ -119,14 +124,14 @@ const OurApproachTabs: React.FC<{ data: TabData[] }> = ({ data }) => {
 							tab.id === activeTab ? "active-tab-content" : ""
 						}`}
 						id={`${tab.id}-content`}>
-						<div className="our-approach-tabs-info-text-cont  pt-8 ">
-							<h5 className="tabs-details-info-title mb-[18px] font-primary font-semibold leading-none text-left text-neu-black text-text-accend-3 sm:text-[26px]">
+						<div className="our-approach-tabs-info-text-cont">
+							<h5 className="tabs-details-info-title mb-[14px] font-tertery font-extrabold uppercase leading-none text-left text-neu-white opacity-50 text-[14px] sm:text-[14px]">
 								{tab.title}
 							</h5>
 							{tab.content.beforeList.map((paragraph, index) => (
 								<p
 									key={index}
-									className="text-text-medium-4 sm:text-[16px] text-left text-neu-black font-primary font-normal leading-normal mb-4">
+									className="text-[16px] sm:text-[16px] text-left text-[#fff] font-tertery font-normal leading-normal mb-4">
 									{paragraph}
 								</p>
 							))}
@@ -134,7 +139,7 @@ const OurApproachTabs: React.FC<{ data: TabData[] }> = ({ data }) => {
 								{tab.content.lists.map((listItem, index) => (
 									<li
 										key={index}
-										className="tabs-details-info-list sm:text-[16px] list-disc text-text-medium-4 text-left text-neu-black font-primary font-normal leading-normal">
+										className="tabs-details-info-list sm:text-[16px] list-disc text-[16px] text-left text-[#fff] font-tertery font-normal leading-normal">
 										{listItem}
 									</li>
 								))}
@@ -142,15 +147,12 @@ const OurApproachTabs: React.FC<{ data: TabData[] }> = ({ data }) => {
 							{tab.content.afterList.map((paragraph, index) => (
 								<p
 									key={index}
-									className="text-text-medium-4 text-left sm:text-[16px] text-neu-black font-primary font-normal leading-normal mb-4">
+									className="text-[16px] text-left sm:text-[16px] text-[#fff] font-tertery font-normal leading-normal mb-4">
 									{paragraph}
 								</p>
 							))}
-							<Link href={tab.ItemsLinks}>
-								<Button
-									btnText="Learn More"
-									btnVariant="primary-button max-w-[172px] text-[24px] shadow-box-shadow-primary whitespace-nowrap mt-[30px] ml-auto sm:text-[18px] sm:ml-0"
-								/>
+							<Link href={tab.ItemsLinks} className='flex justify-end'>
+								<GlowButton glowBtnText="Explore" />
 							</Link>
 						</div>
 					</div>

@@ -1,22 +1,22 @@
-import BannerVarientTwo from "@/components/common/banner/banner-varient-2";
-import SectionTitleBoxTwo from "@/components/common/sec-common-title-box/section-title-box-two";
-import SlugList from "@/components/common/slug-names/slugs-name";
 import OurStatics from "@/components/our-statics/our-statics";
+import OurWorkSec from "@/components/component-v2/our-work-section/our-work-sec";
 import ThoughtDivisionInfoList from "@/components/thought-division-details/ThoughtDivisionInfoList";
 import React from "react";
+import OurApproachBannerVersionTwo from "@/components/common/banner/our-approach-banner-v2";
 interface CategoryPageProps {
 	data: {
-		bannerData: {
-			subHeading?: string;
-			title?: string;
-			description?: string;
-			colorText?: string;
-			isColorText?: boolean;
-		}; // Define the type for bannerData
-		titleData: any; // Define the type for titleData
-		slugs: string[]; // Define the type for slugs
+		OurApproachBannerData: {
+			pagePathTitle?: string;
+			pageslugImage: string;
+			pageSlagImageWidth?: number;
+			pageSlagImageHeight?: number;
+			pageSlugTitle?: string;
+			pageMainTitle?: string;
+			pageSubTitle?: string;
+			pageMainDesc1?: string;
+			pageMainDesc2?: string;
+		};
 		ThoughtDivisionData: {
-			// Define the type for items
 			detailsinfo_title: string;
 			detailsinfo_description: string;
 			infoList?: string[];
@@ -25,36 +25,45 @@ interface CategoryPageProps {
 			modalScrollText?: string;
 			thoughtDivisionTitle?: string;
 			thoughtDivisionSubtitle?: string;
+			thoughtDivisionImage: string;
 		};
-		staticsItems: {
-			title?: string;
-			description?: string;
-		}[];
 	};
 }
 const CategoriesPage: React.FC<CategoryPageProps> = ({ data }) => {
 		if (!data) {
 			return <div>No article content available</div>;
 		}
-  const { bannerData, titleData, slugs, ThoughtDivisionData, DivisionData, staticsItems} = data;
+
+  const { OurApproachBannerData, ThoughtDivisionData, DivisionData } = data;
+  
+  const staticsItemsData = [
+		{
+			title: "50+",
+			description: "Completed more than 50 Successful Marketing Projects",
+		},
+		{
+			title: "£1-15k",
+			description:
+				"Our current infrastructure allows us to easily cater for projects in this budgetrange",
+		},
+		{
+			title: "35%",
+			description:
+				"Over 1 in 3 clients come back to us within  the first 3 months for additional marketing and branding support.",
+		},
+	];
+			console.log("OurApproachBannerData:", OurApproachBannerData);
 
   return (
 		<div className="our-thought-division-main-wrapper">
 			{/* thought division banner */}
-			<BannerVarientTwo data={bannerData || ""} />
+			<OurApproachBannerVersionTwo data={OurApproachBannerData} />
 			{/* thought division banner */}
-			<div className="our-thought-division-main-wrapper-cont pt-[184px]  md:pt-20 sm:pt-[67px]">
-				<div className="custom-container">
-					<div className="our-thought-division-section-box mb-[136px] md:mb-[56px] max-w-[1430px] mx-auto">
-						<SectionTitleBoxTwo {...(titleData || "")} />
-					</div>
-				</div>
+			<div className="our-thought-division-main-wrapper-cont">
 				{/* thought division dedtails info */}
-				<section className="thought-division-details-section bg-neu-black pb-[100px]  pt-[100px] overflow-hidden md:pt-[90px] sm:pt-[67px] sm:pb-[80px] md:pb-[90px]">
-					<div className="custom-container">
-						<div className="thought-division-details-wrap relative grid grid-cols-16 gap-5 z-50 sm:flex sm:flex-col mx-auto max-w-[1430px]">
-							{/* approach slug list content */}
-							<SlugList slugs={slugs || ""} />
+				<section className="thought-division-details-section bg-neu-black pt-[47px] overflow-hidden">
+					<div className="custom-container max-w-[1056px]">
+						<div className="thought-division-details-wrap relative">
 							{/* thought division details content box */}
 							<ThoughtDivisionInfoList
 								division={DivisionData || ""}
@@ -68,10 +77,11 @@ const CategoriesPage: React.FC<CategoryPageProps> = ({ data }) => {
 
 				{/* our statics section */}
 				<OurStatics
-					ourStaticsTitle="Growth, revenue, results"
-					staticsItems={staticsItems}
+					staticsItems={staticsItemsData}
+					ourStaticsTitle="Growth revenue and results"
 				/>
 				{/* our statics section end*/}
+				<OurWorkSec WorkSecClass="pt-[70px] pb-[85px] bg-[#ffffff] light-mode-work-section" />
 			</div>
 		</div>
 	);

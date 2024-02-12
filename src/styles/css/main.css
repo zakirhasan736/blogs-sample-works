@@ -683,6 +683,7 @@ section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next:
     text-decoration: none;
     font-size: 1em;
     color: rgba(0, 0, 0, .8);
+    font-family: "Lato", sans-serif;
 }
 
 .f-section li a:hover {
@@ -1750,6 +1751,7 @@ ol {
     /* background: radial-gradient(38.31% 38.31% at 50% 52.25%, #151D48 0%, #0D0E19 100%); */
     position: relative;
 }
+
 .technology-section .comon-title h2,
 .platform-section .comon-title h2 {
     color: #000;
@@ -1759,4 +1761,16 @@ ol {
 .platform-section .comon-title span {
     background-color: #000000 !important;
     display: block;
+}
+
+/* our approach section style start here */
+.our-approach-page-main-wrapper {
+    position: relative;
+    background: radial-gradient(50% 50% at 50% 50%, #151D48 0%, #0D0E19 100%);
+}
+
+@media screen and (max-width:767px) {
+    .breadcrumbs span {
+        font-size: 14px;
+    }
 }

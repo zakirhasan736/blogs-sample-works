@@ -1,42 +1,25 @@
 {
   "pageTitle": "Thought Divisions - Pioneering",
   "pageDescription": " Step forward confidently into new thinking territories",
-  "bannerData": {
-    "subHeading": "Pioneering",
-    "title": " in new territories of the mind.",
-    "description": "Our gift is observation. It just so happens that we’re a marketing agency.",
-    "isColorText": true,
-    "colorText": "Take action confidently"
-  },
-  "titleData": {
-    "title": "Our Approach at ",
-    "colorText": "Particular",
-    "isColorText": true,
-    "subtitle": [
-      "We encourage Pioneering Practice.",
-      "When you can take action in new, less-thought-of areas that are relevant to your customers, you help yourself stand out. In a good way.."
-    ],
-    "description": "This meticulous approach is in both why and how we innovate on the services offered at Particular. We turn the data we get from our better-delivery approach in data-based marketing solutions. London and beyond.",
-    "classNames": "mb-[136px]"
-  },
-  "slugs": [
-    "digital marketing",
-    "designing",
-    "development"
-  ],
+"OurApproachBannerData": {
+  "pagePathTitle": "Pioneering",
+  "pageslugImage": "/images/icon-pioneering 2.svg",
+  "pageSlagImageWidth": "46",
+  "pageSlagImageHeight": "56",
+  "pageSlugTitle": "Pioneering",
+  "pageMainTitle": "Step Forward Confidently Into New Thinking Territories",
+  "pageSubTitle": "Our gift is observation. It just so happens that we’re a marketing agency.",
+  "pageMainDesc1": "We encourage Scrutiny and questioning.Then redesign and polishing. And then more questioning. And more polishing.",
+  "pageMainDesc2": "This meticulous approach is in both why and how we innovate on the services offered at Particular. We turn the data we get from our better-delivery approach in data-based marketing solutions. London and beyond."
+},
+  
   "DivisionData": {
     "modalScrollText": "Pioneering",
     "thoughtDivisionTitle": "PIONEERING",
+    "thoughtDivisionImage": "/images/approach-image-3.jpg",
     "thoughtDivisionSubtitle": "Areas of thinking we explore with you in our digital and creative solutions:"
   },
     "ThoughtDivisionData": [
-
-
-
-
-
-
-
 
       {
         "detailsinfo_title": "Leadership and Influence",
@@ -52,20 +35,6 @@
         "detailsinfo_title": "Action-based thinking",
         "detailsinfo_description": "Action-based thinking prioritises practical, result-oriented approaches, focusing on taking concrete steps and making decisions that lead to immediate, tangible outcomes.",
         "infoList": null
-      }
-    ],
-    "staticsItems": [
-      {
-        "title": "50+",
-        "description": "Completed marketing projects"
-      },
-      {
-        "title": "£10-100k",
-        "description": "Our current infrastructure allows us to easily cater for projects in this budget range"
-      },
-      {
-        "title": "35%",
-        "description": "Over 1 in 3 clients come back to us within the first 3 months for additional marketing and branding support"
       }
     ]
 }

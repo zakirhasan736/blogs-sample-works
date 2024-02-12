@@ -142,7 +142,7 @@ const Navbar = () => {
 									<Link
 										href="/"
 										className="relative text-primary flex items-center gap-2 text-center text-[16px] laptop-m:text-[18px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[16px] sm:px-3 lg:px-3">
-										<span>Home</span>
+										<span className=" font-tertery">Home</span>
 									</Link>
 								</div>
 							</li>
@@ -151,7 +151,7 @@ const Navbar = () => {
 									<Link
 										href="/case-studies"
 										className="relative text-primary flex items-center gap-2 text-center text-[16px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[16px] sm:px-3">
-										<span>Case Studies</span>
+										<span className=" font-tertery">Case Studies</span>
 									</Link>
 									<span>
 										<ArrowDubbleIcons />
@@ -169,7 +169,7 @@ const Navbar = () => {
 									<Link
 										href="/services"
 										className="relative lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-[16px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[16px] sm:px-3">
-										<span>Services</span>
+										<span className=" font-tertery">Services</span>
 									</Link>
 									<span>
 										<ArrowDubbleIcons />
@@ -187,7 +187,7 @@ const Navbar = () => {
 									<Link
 										href="/our-approach"
 										className="relative lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-[16px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[16px] sm:px-3">
-										<span>Our Approach</span>
+										<span className=" font-tertery">Our Approach</span>
 									</Link>
 									<span>
 										<ArrowDubbleIcons />
@@ -203,7 +203,7 @@ const Navbar = () => {
 							<li className="navbar-nav-items">
 								<div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
 									<div className="relative cursor-pointer lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-[16px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[16px] sm:px-3">
-										<span>Features</span>
+										<span className=" font-tertery">Features</span>
 									</div>
 									<span>
 										<ArrowDubbleIcons />

@@ -83,7 +83,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
 								{/* Use Next.js Link for navigation */}
 								<Link
 									href={item.path}
-									className={`relative font-primary font-medium text-[23px] text-left text-neu-white leading-none trancking-[2.28px] mb-5`}>
+									className={`relative font-tertery font-medium text-[23px] text-left text-neu-white leading-none trancking-[2.28px] mb-5`}>
 									<span onClick={() => handleMenuClick(index, item.path)}>
 										{item.name}
 									</span>
@@ -97,7 +97,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
 								<ul className="mobile-drop-down-menu pl-3">
 									{item.dropdownItems.map((subItem, subIndex) => (
 										<li
-											className="mobile-drop-menu-item text-[18px] mb-5 text-left text-[#8e8e8e] font-primary font-bold leading-none"
+											className="mobile-drop-menu-item text-[18px] mb-5 text-left text-[#8e8e8e] font-tertery font-bold leading-none"
 											key={subIndex}>
 											{/* Use Next.js Link for navigation */}
 											<Link href={subItem.path}>

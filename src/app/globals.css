@@ -1514,13 +1514,17 @@
         font-size: 28px;
     }
 }
-
+  .our-approad-tabs-items.active{
+  fill: var(--color-icons-white, #FFF);
+opacity: 0.95;
+filter: drop-shadow(0px 6px 13px rgba(255, 255, 255, 0.10)) drop-shadow(0px 24px 24px rgba(255, 255, 255, 0.09)) drop-shadow(0px 54px 33px rgba(255, 255, 255, 0.05)) drop-shadow(0px 96px 39px rgba(255, 255, 255, 0.01)) drop-shadow(0px 151px 42px rgba(255, 255, 255, 0.00));
+}
 }
 
 
 @layer components {
   .our-approad-tabs-items.active {
-    @apply bg-[#191919] text-neu-white text-center;
+    @apply bg-[#ffffff] text-[#000000] text-left;
   }
 
   .custom-container-fluid {
