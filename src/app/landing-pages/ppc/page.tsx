@@ -270,7 +270,7 @@ const PPCLandingPage = () => {
 							<ul className="StepProgress">
 								<li className="StepProgress-item">
 									<div className="phrase-detail">
-										<p className="subdued">Phrase 1</p>
+										<p className="subdued"> phase 1</p>
 										<h3>User Experience (UX) Research</h3>
 										<p className="phrase-des mb-[17px]">
 											Our Journey’s first step, digging into everything from
@@ -375,9 +375,9 @@ const PPCLandingPage = () => {
 										Click here to expand phrase 2, and 3
 									</strong>
 
-									<div className="phase-reveal">
+									<div className="phase-reveal mt-8">
 										<div className="phrase-detail">
-											<p className="subdued">Phrase 2</p>
+											<p className="subdued"> phase 2</p>
 											<h3>User Interface Design (UI)</h3>
 											<p className="phrase-des mb-[17px]">
 												Project objectives, scope, timelines, and resources are
@@ -396,8 +396,9 @@ const PPCLandingPage = () => {
 													</div>
 													<h4>Information Architecture</h4>
 													<p>
-														Crafting visually stunning and highly functional
-														websites tailored to your brand's unique identity
+														Where we meticulously structure and s content,
+														creating intuitive and accessible user interfaces
+														for seamless user experiences.
 													</p>
 												</div>
 												<div className="service-tile px-5 py-[15px] col-span-3 md:col-span-4 sm:col-span-full  rounded-[12px] border border-[#ffffff20]">
@@ -411,16 +412,17 @@ const PPCLandingPage = () => {
 													</div>
 													<h4>Visual Design</h4>
 													<p>
-														Crafting visually stunning and highly functional
-														websites tailored to your brand's unique identity
+														Crafting aesthetically pleasing and functional
+														interfaces, blending creativity with usability to
+														enhance user engagement and your brand’s identity.
 													</p>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div className="phase-reveal  mt-5">
+									<div className="phase-reveal  mt-8">
 										<div className="phrase-detail">
-											<p className="subdued">Phrase 3</p>
+											<p className="subdued"> phase 3</p>
 											<h3>Build Development</h3>
 											<p className="phrase-des mb-[17px]">
 												Transitioning from designs into reality. executing to
@@ -482,7 +484,7 @@ const PPCLandingPage = () => {
 								</li>
 								<li className="StepProgress-item flex gap-8 sm:flex-col">
 									<div className="phrase-detail">
-										<p className="subdued">Phrase 4</p>
+										<p className="subdued"> phase 4</p>
 										<h3>Launch</h3>
 										<p className="phrase-des md:max-w-[390px]">
 											It' time to set the stage to unveil your digital creation

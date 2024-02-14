@@ -135,32 +135,30 @@ const PPCLandingBanner = () => {
 			<div className="custom-container max-w-[1220px]">
 				<div className="landingpage-hero-section flex items-start gap-2 md:flex-col md:gap-8">
 					<div className="hero-content">
-						<h1>PPC - Pay Per Click</h1>
+						<h1>Web Development Agency</h1>
 						<p className="tagline">
-							Fuelling Your Success, One Click at a Time: Unleash the Power of
-							Precision with Our Pay-Per-Click Expertise!
+							We develop websites for display, e-commerce, portfolio use and web
+							app experiences. If you’re similar to our existing clients, then
+							you likely want to:
 						</p>
 						<div className="features">
 							<ul>
-								<li>Lorem ipsum dolor sit amet consectetur.</li>
+								<li>Acquire Customers More Consistently and Improve Sales</li>
 								<li>
-									Vivamus pellentesque augue tortor lacinia sagittis elementum
-									morbi.
+									Grow your Business Financially and Improve Financial Security
 								</li>
 								<li>
-									Vitae interdum suspendisse iaculis convallis mattis sed porta.
+									Increase Awareness about your Brand with your Target Audience
 								</li>
-								<li>
-									Nulla interdum morbi vitae tellus rutrum platea massa elit.
-								</li>
+								<li>Improve your Brand Perception</li>
 							</ul>
 						</div>
 						<div className="actions md:max-w-[600px] sm:flex-col sm:gap-8">
 							<div className="left">
-								<a href="#">Get your free brand strength assessment</a>
+								<a href="#">Is Your Website Losing You Business?</a>
 								<p className="max-w-[365px] md:mt-3">
-									Explore your business's digital potential with our bespoke
-									scorecard.
+									If you already have a website, take our self-assessment quiz
+									to see if it’s ready to generate business (5 min) .
 								</p>
 							</div>
 							<div className="vertical-sep sm:hidden"></div>
