@@ -6,15 +6,17 @@ interface staticsItems {
 interface OurStaticsPropsType {
 	staticsItems: staticsItems[];
 	ourStaticsTitle?: string;
+	ourStatusWidth?: string;
 }
 
 const OurStatics: React.FC<OurStaticsPropsType> = ({
 	staticsItems,
 	ourStaticsTitle,
+	ourStatusWidth,
 }) => {
 	return (
 		<section className="our-statics-section pt-[86px] pb-[100px] sm:py-20">
-			<div className="custom-container max-w-[1048px]">
+			<div className={`custom-container ${ourStatusWidth || "max-w-[1048px]"}`}>
 				<div className="comon-title mb-11">
 					<h2>{ourStaticsTitle}</h2>
 					<span></span>

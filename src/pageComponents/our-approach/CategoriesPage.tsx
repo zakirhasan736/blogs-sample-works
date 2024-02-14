@@ -81,7 +81,10 @@ const CategoriesPage: React.FC<CategoryPageProps> = ({ data }) => {
 					ourStaticsTitle="Growth revenue and results"
 				/>
 				{/* our statics section end*/}
-				<OurWorkSec WorkSecClass="pt-[70px] pb-[85px] bg-[#ffffff] light-mode-work-section" />
+				<OurWorkSec
+					OurWorkSecTitle=""
+					WorkSecClass="pt-[70px] pb-[85px] bg-[#ffffff] light-mode-work-section"
+				/>
 			</div>
 		</div>
 	);

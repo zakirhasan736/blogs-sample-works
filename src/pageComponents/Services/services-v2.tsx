@@ -58,7 +58,7 @@ const ServicesVersionTwo = () => {
 										height={110}
 									/>
 								</div>
-									<h4>UX Design</h4>
+								<h4>UX Design</h4>
 								<p>
 									Elevating user experiences with intuitive and visually
 									appealing designs, ensuring seamless interactions
@@ -107,7 +107,7 @@ const ServicesVersionTwo = () => {
 										height={110}
 									/>
 								</div>
-									<h4>Content Strategy</h4>
+								<h4>Content Strategy</h4>
 								<p>
 									Creating compelling and tailored content plans to engage and
 									connect with your target audience
@@ -267,7 +267,10 @@ const ServicesVersionTwo = () => {
 					</div>
 				</div>
 			</section>
-			<OurWorkSec WorkSecClass="pt-[70px] pb-[85px] bg-[#ffffff] light-mode-work-section" />
+			<OurWorkSec
+				OurWorkSecTitle=""
+				WorkSecClass="pt-[70px] pb-[85px] bg-[#ffffff] light-mode-work-section"
+			/>
 		</div>
 	);
 };

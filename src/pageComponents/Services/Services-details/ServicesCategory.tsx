@@ -42,7 +42,10 @@ const ServicesCategoriesPage: React.FC<ServicesCategoryPageProps> = ({
 					</div>
 				</div>
 			</section>
-			<OurWorkSec WorkSecClass="pt-[70px] pb-[85px] bg-[#ffffff] light-mode-work-section" />
+			<OurWorkSec
+				OurWorkSecTitle=""
+				WorkSecClass="pt-[70px] pb-[85px] bg-[#ffffff] light-mode-work-section"
+			/>
 		</div>
 	);
 };

@@ -18,7 +18,7 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
 
-const OurWorkSec = ({ WorkSecClass }) => {
+const OurWorkSec = ({ WorkSecClass, OurWorkSecTitle }) => {
 	const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
 	return (
@@ -26,7 +26,7 @@ const OurWorkSec = ({ WorkSecClass }) => {
 			className={`"our-work-section pb-[70px] md:pb-20" ${WorkSecClass}`}>
 			<div className="custom-container max-w-[1220px]">
 				<div className="comon-title mb-6">
-					<h2>Our Work</h2>
+					<h2>{OurWorkSecTitle || "Our Work"}</h2>
 					<span></span>
 				</div>
 				<div className="carousel work-slider-main-box pb-6 grid grid-cols-12 gap-[37px] sm:block">

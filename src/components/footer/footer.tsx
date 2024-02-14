@@ -1,10 +1,5 @@
 "use client";
-import {
-	ArrowDownIcons,
-	InstagrameIcons,
-	TwitterIcons,
-	YoutubeIcons,
-} from "@/icons";
+
 import { Image, Link, useState } from "@packages/packages";
 import GlowButton from "../elements/button/glow-button";
 
@@ -16,7 +11,7 @@ const Footer: React.FC<FooterProps> = () => {
 	const [success, setSuccessMessage] = useState("");
 	const [loading, setLoading] = useState(false);
 
-	const handleSubmit = async () => {
+	const handleSubmit = async () => { 
 		setLoading(true);
 		const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 		const isEmty = (input: any) => (input === "" ? true : false);

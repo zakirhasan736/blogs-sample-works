@@ -22,11 +22,7 @@ const OurApproach: React.FC = () => {
 		},
 	];
 
-  const bannerData = {
-    subHeading: 'Our approach',
-    title: 'Particular believes in delivering better.',
-    description: 'Our gift is observation. It just so happens that we’re a marketing agency.',
-  };
+ 
   return (
 		<div className="our-approach-page-main-wrapper overflow-hidden">
 			{/* our approach banner section */}
@@ -89,7 +85,10 @@ const OurApproach: React.FC = () => {
 				ourStaticsTitle="Growth revenue and results"
 			/>
 			{/* our statics section end*/}
-			<OurWorkSec WorkSecClass="pt-[70px] pb-[85px] bg-[#ffffff] light-mode-work-section" />
+			<OurWorkSec
+				OurWorkSecTitle=""
+				WorkSecClass="pt-[70px] pb-[85px] bg-[#ffffff] light-mode-work-section"
+			/>
 		</div>
 	);
 };

@@ -12,7 +12,7 @@ interface ApiResponse<T> {
 	message: string;
 	data: T;
 	status: number;
-}
+} 
 interface ServiceType {
 	id: string;
 	label: string;
@@ -257,7 +257,7 @@ const ContactPageVersionTw: React.FC = () => {
 	const [step, setStep] = useState(1);
 
 	const [data, setData] = useState({
-		firstName: "",
+		fullName: "",
 		call: "",
 		email: "",
 		serviceType: "",
@@ -269,7 +269,7 @@ const ContactPageVersionTw: React.FC = () => {
 	});
 
 	const [dataErrors, setDataErrors] = useState({
-		firstName: "",
+		fullName: "",
 		call: "",
 		email: "",
 		serviceType: "",
@@ -360,18 +360,19 @@ const ContactPageVersionTw: React.FC = () => {
 		e.preventDefault();
 		setLoading(true);
 		const errors: any = {};
-		const phoneRegex = /^\d{11}$/;
+		const phoneRegex = /^\+\d{1,4}\d{1,14}$/;
+
 		const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 		const isEmty = (input: any) => (input === "" ? true : false);
 		// Validate input fields based on the current step
 		if (step === 1) {
-			if (isEmty(data.firstName)) {
-				errors.firstName = "First name is required";
+			if (isEmty(data.fullName)) {
+				errors.fullName = "First name is required";
 			}
 			if (isEmty(data.call)) {
 				errors.call = "Phone number is required";
 			} else if (!phoneRegex.test(data.call)) {
-				errors.call = "Phone number should be 11 digits only";
+				errors.call = "Phone number should be  digits only";
 			}
 			if (isEmty(data.email)) {
 				errors.email = "Email is required";
@@ -431,7 +432,7 @@ const ContactPageVersionTw: React.FC = () => {
 
 				if (responseData.status === 200) {
 					setData({
-						firstName: "",
+						fullName: "",
 						call: "",
 						email: "",
 						serviceType: "",
@@ -587,14 +588,14 @@ const ContactPageVersionTw: React.FC = () => {
 											<div className="form-first-steps">
 												<div className="contact-form-input-grid-box w-full mb-5">
 													<InputField
-														name="firstName"
+														name="fullName"
 														type="text"
-														id="firstName"
+														id="fullName"
 														placeholder="John Doe"
-														value={data.firstName}
-														error={dataErrors.firstName}
+														value={data.fullName}
+														error={dataErrors.fullName}
 														onChange={handlesendDataChange}
-														htmlFor="firstName"
+														htmlFor="fullName"
 														labeltextItem={true}
 														labelText="Full Name"
 													/>

@@ -6,6 +6,7 @@ import InstagrameIcons from "./instagrame-icons";
 import TwitterIcons from "./twitter-icons";
 import ArrowDownModalIcons from "./arrow-down-modal-icon";
 import PlusIcons from "./Plus-icons";
+import PlusIconsClose from "./Plus-icons-close";
 import PrichingIconOne from "./priching-icon-one";
 
 export {
@@ -18,4 +19,5 @@ export {
 	PlusIcons,
 	PrichingIconOne,
 	ArrowDubbleIcons,
+	PlusIconsClose,
 };

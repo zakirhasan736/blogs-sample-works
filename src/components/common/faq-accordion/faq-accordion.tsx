@@ -1,12 +1,13 @@
 // components/FaqAccordion.tsx
 "use client";
 import React, { useState } from 'react';
-import { PlusIcons } from "@/icons"; // Assuming you have a MinusIcons component
+import { PlusIcons, PlusIconsClose } from "@/icons"; // Assuming you have a MinusIcons component
 
 interface FaqItem {
-  id: number;
-  question: string;
-  answer: string;
+	id: number;
+	question: string;
+	answer: string;
+	answerList?: string[];
 }
 
 interface FaqAccordionProps {
@@ -25,32 +26,43 @@ const FaqAccordion: React.FC<FaqAccordionProps> = ({ faqs }) => {
 			{faqs.map((faq, index) => (
 				<div
 					key={faq.id}
-					className={`faq-accordion-card-item pt-[31px] pr-[36px] sm:pr-5 sm:pl-4 pb-[32px] sm:pt-5 sm:pb-5 ${
-						openIndex === index ? "pb-20 mb-4" : "mb-4"
-					} pl-[43px] rounded-[11px] bg-neu-white`}>
+					className={`faq-accordion-card-item py-[26px] px-[29px] sm:pr-5 sm:pl-4 sm:pt-5 sm:pb-5 ${
+						openIndex === index ? "mb-4" : "mb-4"
+					} rounded-[11px] bg-transparent border border-[#ffffff20]`}>
 					<div
 						className={`faq-accordion-head flex items-center justify-between gap-2  ${
-							openIndex === index ? "mb-[18px]" : ""
+							openIndex === index ? "mb-[10px]" : ""
 						}`}>
 						<h4
-							className="acordion-title text-neu-black text-left sm:text-[18px] text-[21px] font-primary font-normal leading-[1.1] tracking-[3.045px] capitalize"
+							className="acordion-title text-neu-white text-left m-0 sm:text-[18px] text-[22px] font-primary font-bold leading-normal capitalize"
 							onClick={() => toggleAccordion(index)}>
 							{faq.question}
 						</h4>
 						<button
 							className="plus--icons-btn"
 							onClick={() => toggleAccordion(index)}>
-							{openIndex === index ? <PlusIcons /> : <PlusIcons />}
+							{openIndex === index ? <PlusIcons /> : <PlusIconsClose />}
 						</button>
 					</div>
 					<div
 						className={`faq-accordion-details-box ${
 							openIndex === index ? "block" : "hidden"
 						}`}>
-						<span className="shape-line h-[1px] w-[108px] block mb-[13px]  bg-neu-black"></span>
-						<p className="accordion-desc-text text-neu-black text-left sm:text-[18px] text-text-medium-4 font-primary font-normal leading-normal">
+						<span className="shape-line h-[1px] w-[108px] block mb-[10px]  bg-neu-white"></span>
+						<p className="accordion-desc-text text-neu-white text-left sm:text-[15px] text-[16px] font-primary font-normal leading-normal">
 							{faq.answer}
 						</p>
+						{faq.answerList && (
+							<ul className="pl-4 mt-5">
+								{faq.answerList.map((item, itemIndex) => (
+									<li
+										key={itemIndex}
+										className="text-neu-white mb-2 text-left sm:text-[15px] text-[16px] font-primary font-normal leading-normal">
+										{item}
+									</li>
+								))}
+							</ul>
+						)}
 					</div>
 				</div>
 			))}
