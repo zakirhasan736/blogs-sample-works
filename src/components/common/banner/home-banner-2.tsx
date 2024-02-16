@@ -67,7 +67,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
 							className="bannar-spacher max-w-[576px] mx-auto h-[1px] w-full block mt-[30px] mb-[26px]"
 							variants={expandWidthVariants}></motion.span>
 						<Link
-							href="https://www.particularagency.co.uk/self-assess"
+							href="https://assessments.particularagency.co.uk/marketing-strength"
 							className="inline-block">
 							<motion.div variants={fadeInChildVariants}>
 								<GlowButton glowBtnText="Get your free brand strength assessment" />
