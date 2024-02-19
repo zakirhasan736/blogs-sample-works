@@ -73,6 +73,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
 								<GlowButton glowBtnText="Get your free brand strength assessment" />
 							</motion.div>
 						</Link>
+						
 						<motion.p
 							className="banner-desc  text-[16px] text-center text-neu-white font-tertery font-normal leading-[22px] mt-[18px]"
 							variants={fadeInChildVariants}>

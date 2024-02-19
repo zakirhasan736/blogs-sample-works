@@ -19,12 +19,14 @@ interface ArticleSectionVersionTwoProps {
 	blogClass?: string;
 	latestBlogs: Blog[];
 	ShortBlogs?: boolean;
+	BlogSecTitle?: string;
 }
 
 const ArticleSectionVersionTwo: React.FC<ArticleSectionVersionTwoProps> = ({
 	blogClass,
 	latestBlogs,
 	ShortBlogs,
+	BlogSecTitle,
 }) => {
 	return (
 		<section className={`article-blogs-section pb-[100px] ${blogClass || ""}`}>
@@ -32,7 +34,7 @@ const ArticleSectionVersionTwo: React.FC<ArticleSectionVersionTwoProps> = ({
 				<div>
 					<div className="common-title mb-6">
 						<h2 className="text-[38px] sm:text-[28px] text-neu-white text-left mb-2 font-tertery font-bold leading-[1.1]">
-							Blogs and Articles
+							{BlogSecTitle || "Blogs and Articles"}
 						</h2>
 						<span className="h-[4px] w-[34px] block bg-neu-white"></span>
 					</div>

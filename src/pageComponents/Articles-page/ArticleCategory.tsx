@@ -1,78 +1,48 @@
-import SectionTitleBoxTwo from "@/components/common/sec-common-title-box/section-title-box-two";
-import { Image } from "@packages/packages";
-import ArticleDetailsInfoCard from "./ArticleDetailsInfoCard";
-import ArticleDescription from "./ArticleDescriptionBox";
 import React from "react";
+import ArticleSectionVersionTwo from "@/components/article-section/article-section-v2";
+import LatestBlogs from "@data/blogs/short-blog-data.json";
+import ArticleDetailsItem from "./articles-details-item";
+import TagsList from "./article-tag";
 import ArticleBanner from "@/components/common/banner/article-banner";
 interface ArticleCategoryPageProps {
 	data: {
-		bannerData: {
-			subHeading?: string;
-			title?: string;
-			description?: string;
-			colorText?: string;
-			isColorText?: boolean;
-			ArticleBannerModalImg: string;
-		}; // Define the type for bannerData
-		titleData: any; // Define the type for titleData
-		articleModalImageOne: any;
-		articleModalImageTwo: any;
-		articleDetailsDataLeft: any;
-		articleDetailsDataRight: any;
-		descInfoArticle: any;
+		BannerData: any;
+		articlesDetailsData: any;
+		TagsListdata: any;
 	};
 }
 const ArticlesCategory: React.FC<ArticleCategoryPageProps> = ({ data }) => {
-		if (!data) {
-			return <div>No article content available</div>;
-		}
-	const {
-		bannerData,
-		titleData,
-		articleModalImageOne,
-		articleModalImageTwo,
-		articleDetailsDataLeft,
-		articleDetailsDataRight,
-		descInfoArticle,
-	} = data;
+	if (!data) {
+		return <div>No article content available</div>;
+	}
+	const { BannerData, articlesDetailsData, TagsListdata } = data;
+	// Sort the latest blogs by date in descending order
+	const sortedLatestBlogs = LatestBlogs.sort((a, b) => {
+		return new Date(b.date).getTime() - new Date(a.date).getTime();
+	});
+
+	// Select the latest three blogs
+	const latestThreeBlogs = sortedLatestBlogs.slice(0, 3);
 	return (
 		<div className="articles-page-main-wrapper overflow-hidden">
 			{/* articles banner section  */}
-			<ArticleBanner data={bannerData || ""} />
+			<ArticleBanner data={BannerData} />
 			{/* articles banner section  end*/}
 
 			{/* article main content wrapper details info */}
-			<section className="articles-main-wrapper-details-info pt-[193px] pb-[200px] md:pt-[120px] sm:pt-[70px] md:pb-[120px]">
-				<div className="custom-container max-w-[1470px]">
-					<div className="articles-details-content-main">
-						<SectionTitleBoxTwo {...(titleData || "")} />
-						<div className="articles-details-content-main-wrapper pl-[147px] pr-0  md:px-0 grid grid-cols-16 gap-5 sm:flex sm:flex-col">
-							<div className="articles-details-cont-main-box-wrap col-span-full">
-								<Image
-									src={articleModalImageOne || ""}
-									alt="articles modal image"
-									width={1320}
-									height={990}
-									className="modal-article-main-image"
-								/>
-								<ArticleDetailsInfoCard
-									details={articleDetailsDataLeft || ""}
-									detailsTwo={articleDetailsDataRight || ""}
-								/>
-								<Image
-									src={articleModalImageTwo || ""}
-									alt="articles modal image"
-									width={1320}
-									height={483}
-									className="modal-article-main-image-two"
-								/>
-								<ArticleDescription descInfoArticle={descInfoArticle || ""} />
-							</div>
-						</div>
-					</div>
+			<section className="articles-main-wrapper-details-info pb-[150px] lg:pb-20 sm:pb-20">
+				<div className="custom-container max-w-[870px]">
+					<ArticleDetailsItem articles={articlesDetailsData} />
+					{/* ====== */}
+					<TagsList tags={TagsListdata.tags} />
+					{/* ============= */}
 				</div>
 			</section>
 			{/* article main content wrapper details info end*/}
+			<ArticleSectionVersionTwo
+				latestBlogs={latestThreeBlogs}
+				BlogSecTitle="Related Articles"
+			/>
 		</div>
 	);
 };

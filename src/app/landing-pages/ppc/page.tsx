@@ -105,7 +105,7 @@ const PPCLandingPage = () => {
 											<div className="review sm:pr-3">
 												<div>
 													<span>
-														<img
+														<Image width={15} height={48}
 															src="/images/icon-quote-open.svg"
 															alt="testi client modal"
 														/>
@@ -135,7 +135,7 @@ const PPCLandingPage = () => {
 											<div className="review sm:pr-3">
 												<div>
 													<span>
-														<img
+														<Image width={15} height={48}
 															src="/images/icon-quote-open.svg"
 															alt="testi client modal"
 														/>
@@ -165,7 +165,7 @@ const PPCLandingPage = () => {
 											<div className="review sm:pr-3">
 												<div>
 													<span>
-														<img
+														<Image width={15} height={48}
 															src="/images/icon-quote-open.svg"
 															alt="testi client modal"
 														/>

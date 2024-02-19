@@ -4,6 +4,7 @@ import InputField from "@/pageComponents/Contacts/InputField";
 import TextArea from "@/pageComponents/Contacts/TextArea";
 import SendStatesLoader from "@/pageComponents/Contacts/SendStatesLoader";
 import InputCountryNumberSelect from "@/components/elements/country-select/input-country-number-select";
+import Image from "next/image";
 
 const PPCLandingBanner = () => {
 	const [success, setSuccessMessage] = useState("");
@@ -182,13 +183,13 @@ const PPCLandingBanner = () => {
 
 					<div className="usp-form max-w-[550px] w-full">
 						<div className="curve-graph">
-							<img
+							<Image width={187} height={114}
 								src="/images/illustration-curve-chart.svg"
 								alt="cta modal images"
 							/>
 						</div>
 						<div className="bar-graph">
-							<img
+							<Image width={175} height={114}
 								src="/images/illustration-bar-graph.svg"
 								alt="cta modal images"
 							/>
