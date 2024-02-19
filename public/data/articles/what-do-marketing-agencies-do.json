@@ -26,6 +26,7 @@
         {
             "secondarytitle": "Unveiling the Role of Marketing Agencies",
             "imageUrl1": "/images/article-4-image-1.png",
+            "imageAlt1": "image showing what marketing agencies do",
             "content": [
                 {
                     "type": "paragraph",
@@ -96,7 +97,8 @@
                     ]
                 }
             ],
-            "imageUrl2": "/images/article-4-image-2.png"
+            "imageUrl2": "/images/article-4-image-2.png",
+            "imageAlt2": "image showing what marketing agencies do"
         },
         {
             "secondarytitle": "Steps to Expect With a New Marketing Agency",

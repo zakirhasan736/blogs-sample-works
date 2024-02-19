@@ -33,6 +33,7 @@
             "secondarytitle": "Understanding Hosting Costs and Domain Registration",
             "subtitle": "Hosting costs and domain registration",
             "imageUrl1": "/images/article-1-image-1.png",
+            "imageAlt1": "image showing search for website cost",
             "content": [
                 {
                     "type": "paragraph",
@@ -77,7 +78,8 @@
                     ]
                 }
             ],
-            "imageUrl2": "/images/article-1-image-2.png"
+            "imageUrl2": "/images/article-1-image-2.png",
+            "imageAlt2": "image showing search for website cost"
         },
         {
             "secondarytitle": "Ongoing Website Maintenance",

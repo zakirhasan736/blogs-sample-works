@@ -14,6 +14,7 @@ interface Blog {
 	imageHeight: number;
 	imageWidth: number;
 	featured?: boolean;
+	imgAltText: string;
 }
 
 const BlogsPerPage: number = 6;

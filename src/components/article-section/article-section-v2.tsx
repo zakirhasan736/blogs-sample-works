@@ -1,7 +1,8 @@
 import React from "react";
-import BlogsCardComponent from "../common/blogs-banner/blogs-card-component";
+
 import Link from "next/link";
 import GlowButton from "../elements/button/glow-button";
+import BlogsCardComponent from "../common/blogs-banner/blogs-card-component";
 
 interface Blog {
 	id: number;
@@ -13,6 +14,7 @@ interface Blog {
 	imageHeight: number;
 	imageWidth: number;
 	featured?: boolean;
+	imgAltText: string;
 }
 
 interface ArticleSectionVersionTwoProps {
@@ -27,6 +29,7 @@ const ArticleSectionVersionTwo: React.FC<ArticleSectionVersionTwoProps> = ({
 	latestBlogs,
 	ShortBlogs,
 	BlogSecTitle,
+
 }) => {
 	return (
 		<section className={`article-blogs-section pb-[100px] ${blogClass || ""}`}>

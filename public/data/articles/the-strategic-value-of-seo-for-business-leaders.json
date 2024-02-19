@@ -33,6 +33,7 @@
         {
             "secondarytitle": "Step 1: Conduct Strategic Keyword Research",
             "imageUrl1": "/images/article-2-image-1.png",
+            "imageAlt1": "search showing seo rankings",
             "content": [
                 {
                     "type": "paragraph",
@@ -65,7 +66,8 @@
                     "text": "Page titles play a crucial role in attracting clicks and capturing the attention of search engine users. Our team will optimise your page titles to accurately reflect the content of each page while incorporating relevant keywords to improve search engine ranking. By crafting compelling page titles, we'll help increase your website's visibility in search results and drive organic traffic to your site."
                 }
             ],
-            "imageUrl2": "/images/article-2-image-2.png"
+            "imageUrl2": "/images/article-2-image-2.png",
+            "imageAlt2": "search showing seo rankings"
         },
         {
             "secondarytitle": "Step 4: Craft Persuasive Meta Descriptions to Drive Click-Through Rates",

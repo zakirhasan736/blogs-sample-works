@@ -26,6 +26,7 @@
         {
             "secondarytitle": "The Essentials of SEO Pricing",
             "imageUrl1": "/images/article-3-image-1.png",
+            "imageAlt1": "How much does SEO cost in the UK",
             "content": [
                 {
                     "type": "paragraph",
@@ -68,7 +69,8 @@
                     ]
                 }
             ],
-            "imageUrl2": "/images/article-3-image-2.png"
+            "imageUrl2": "/images/article-3-image-2.png",
+            "imageAlt2": "How much does SEO cost in the UK"
         },
         {
             "secondarytitle": "Determining Your SEO Budget",

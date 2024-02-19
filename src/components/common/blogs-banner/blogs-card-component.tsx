@@ -11,6 +11,7 @@ interface Blog {
 	agency: string;
 	imageHeight: number;
 	imageWidth: number;
+	imgAltText: string;
 	blogsItemsClass?: string;
 	featured?: boolean;
 }
@@ -31,7 +32,7 @@ const BlogsCardComponent: React.FC<BlogsCardComponentProps> = ({ blogs }) => {
 							width={blog.imageWidth}
 							height={blog.imageHeight}
 							src={blog.imageUrl}
-							alt="blog article image"
+							alt={blog.imgAltText}
 							className="rounded-3 h-[237px] object-cover"
 						/>
 						{blog.featured && (
