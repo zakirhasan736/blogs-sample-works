@@ -33,9 +33,9 @@ const ArticleBanner: React.FC<ArticleBannerProps> = ({ data }) => {
 							)}
 						</div>
 						<div className="featured-image-cont-box">
-							<h2 className="featured-blog-title text-[22px] sm:text-[18px] text-left text-neu-white font-tertery font-medium leading-[24px] mb-4">
+							<h1 className="featured-blog-title text-[22px] sm:text-[18px] text-left text-neu-white font-tertery font-medium leading-[24px] mb-4">
 								{data.title || ""}
-							</h2>
+							</h1>
 							<div className="featured-blog-info flex items-center justify-between">
 								<p className="author-name text-neu-white text-[14px] font-medium text-left font-tertery leading-normal opacity-70">
 									{`- ${data.auther || ""}`}
