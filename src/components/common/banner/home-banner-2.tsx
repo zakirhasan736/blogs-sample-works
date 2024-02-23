@@ -41,12 +41,12 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
 					<motion.div
 						className="banner-content-text-box text-center"
 						variants={fadeInVariants}>
-						<motion.h3
+						<motion.h1
 							className="banner-subtitle capitalize text-neu-white text-center text-[20px] sm:text-[18px] font-tertery font-semibold leading-[24px] mb-4"
 							variants={fadeInChildVariants}>
 							Delivering Leads, Conversions and Success.
-						</motion.h3>
-						<motion.h1
+						</motion.h1>
+						<motion.h2
 							className="banner-title text-[46px] max-w-[993px] mx-auto sm:text-[32px]  capitalize text-center text-neu-white font-semibold font-primary leading-[1.1]"
 							variants={fadeInChildVariants}>
 							bringing High-quality to Your Buyer, because <br /> it Drives
@@ -54,7 +54,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
 							<span className="text-[#0396FF]">
 								Your Trusted Marketing Agency.
 							</span>
-						</motion.h1>
+						</motion.h2>
 						<motion.p
 							className="banner-desc mt-[25px] text-[16px] text-center text-neu-white font-tertery font-semibold italic leading-[24px]"
 							variants={fadeInChildVariants}>

@@ -33,23 +33,23 @@ const AboutUsSection = () => {
 				<div className="mid-services-section">
 					<div className="section.1-left-cont">
 						<div className="section-1-title-box">
-							<h4 className="section-1-info-title text-[22px] sm:text-[20px] text-neu-white text-left font-tertery font-normal leading-none">
+							<h3 className="section-1-info-title text-[22px] sm:text-[20px] text-neu-white text-left font-tertery font-normal leading-none">
 								The Proof Is In The Pudding{" "}
-							</h4>
+							</h3>
 							<div className="mid-services-wrapper flex justify-between gap-x-[58px] gap-y-1 md:gap-x-[30px]">
 								<div className="mid-services">
-									<h1 className="text-[56px] lg:text-[40px] md:text-[36px] text-left text-neu-white font-tertery font-normal leading-[1.1]">
+									<h4 className="text-[56px] lg:text-[40px] md:text-[36px] text-left text-neu-white font-tertery font-normal leading-[1.1]">
 										140%
-									</h1>
+									</h4>
 									<p className="text-[15px] text-left text-neu-white font-tertery font-normal leading-normal">
 										How much more customers spend following positive
 										interactions compared to negative ones
 									</p>
 								</div>
 								<div className="mid-services">
-									<h1 className="text-[56px] lg:text-[40px] whitespace-nowrap md:text-[36px] text-left text-neu-white font-tertery font-normal leading-[1.1]">
+									<h4 className="text-[56px] lg:text-[40px] whitespace-nowrap md:text-[36px] text-left text-neu-white font-tertery font-normal leading-[1.1]">
 										61% of Customers
-									</h1>
+									</h4>
 									<p className="text-[15px] text-left text-neu-white font-tertery font-normal leading-normal">
 										Say that they would leave for a competitor after just one
 										bad experience
@@ -57,17 +57,17 @@ const AboutUsSection = () => {
 								</div>
 								<div className="mid-services ml-auto">
 									<div className="mid-services-inner-info sm:mb-7">
-										<h1 className="text-[40px] text-left text-neu-white font-normal font-tertery leading-[1.1] sm:text-[27px]">
+										<h4 className="text-[40px] text-left text-neu-white font-normal font-tertery leading-[1.1] sm:text-[27px]">
 											50+
-										</h1>
+										</h4>
 										<p className="text-[15px] text-left text-neu-white font-tertery font-normal leading-normal">
 											Startups & SMEs we’ve worked with
 										</p>
 									</div>
 									<div className="mid-services-inner-info">
-										<h1 className="text-[40px] text-left text-neu-white font-normal font-tertery leading-[1.1] sm:text-[27px]">
+										<h4 className="text-[40px] text-left text-neu-white font-normal font-tertery leading-[1.1] sm:text-[27px]">
 											47%
-										</h1>
+										</h4>
 										<p className="text-[15px] text-left text-neu-white font-tertery font-normal leading-normal">
 											of Particular customers return for a second service within
 											the first 3 months

@@ -1,5 +1,4 @@
 import React from "react";
-import SectionTitleBoxTwo from "../common/sec-common-title-box/section-title-box-two";
 import OurApproachTabs from "./our-approach-tabs";
 import tabsData from "@/data/our-approach-home/our-approach-tabs-data.json";
 

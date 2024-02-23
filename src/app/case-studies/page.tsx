@@ -4,40 +4,7 @@ import type { Metadata } from "next";
 import ArticleSectionVersionTwo from "@/components/article-section/article-section-v2";
 import LatestBlogs from "@data/blogs/short-blog-data.json";
 import GlowButton from "@/components/elements/button/glow-button";
-interface NavItem {
-	path: string;
-	title: string;
-	subtitle: string;
-	link: string;
-}
 
-// const navItems: NavItem[] = [
-// 	{
-// 		path: "/images/case-study-card-1.png",
-// 		title: "Hult Ib School",
-// 		subtitle: "web design and Brand Assets",
-// 		link: "/case-studies/hult-ib-school",
-// 	},
-// 	{
-// 		path: "/images/case-study-card-2.png",
-// 		title: "AI & Humanity",
-// 		subtitle: "web design and Brand Assets",
-// 		link: "/case-studies/ai-and-humanity",
-// 	},
-	
-// 	{
-// 		path: "/images/case-study-card-5.png",
-// 		title: "ZENBASE",
-// 		subtitle: "web design and Brand Assets",
-// 		link: "/case-studies/zenbase",
-// 	},
-// 	{
-// 		path: "/images/case-study-card-6.png",
-// 		title: "village of general",
-// 		subtitle: "web design and Brand Assets",
-// 		link: "/case-studies/village-of-genal",
-// 	}
-// ];
 export const metadata: Metadata = {
 	title: "Case Study",
 	description:
