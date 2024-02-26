@@ -5,6 +5,9 @@ async function getData(category: any) {
 	try {
 		const res = await fetch(
 			`${process.env.NEXT_PUBLIC_API_URL}/data/articles/${category}.json`,
+			{
+				next: { revalidate: 10 },
+			},
 		);
 
 		if (!res.ok) {
