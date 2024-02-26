@@ -1,25 +1,11 @@
-"use client";
-import React, { useState } from "react";
-import ColorCraftUIModal from "@/app/features/colour-craft/steps/ColorCraftUi";
-import ColorCraftEnterModal from "@/app/features/colour-craft/steps/ColorCraftEnter";
+import ColorCraftSwitch from "./colorcraftswitch";
+import type { Metadata } from "next";
 
-const ColorCraftpage = () => {
-   const [isEntered, setIsEntered] = useState(false);
-
-		const handleEnter = () => {
-			// Perform any actions you need when entering the ColorCraftUIPage
-			setIsEntered(true);
-		};
-	return (
-		<>
-
-			{!isEntered ? (
-				<ColorCraftEnterModal onEnter={handleEnter} />
-			) : (
-				<ColorCraftUIModal />
-			)}
-		</>
-	);
+export const metadata: Metadata = {
+	title: "Colour Craft - Particular Agency London",
+	description:
+		"Unleash your creativity with our intuitive color picker feature! Easily explore and select the perfect shades for your design projects. Ideal for graphic designers, artists, and anyone looking to find their ideal color palette. Start crafting visually stunning works now",
 };
-
-export default ColorCraftpage;
+export default function page() {
+	return <ColorCraftSwitch />;
+}

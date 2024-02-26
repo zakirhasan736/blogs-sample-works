@@ -20,9 +20,9 @@ const urbanist = Urbanist({
 });
 
 export const metadata: Metadata = {
-	title: "Home Page",
+	title: "Particular Agency | Digital Marketing Agency in London",
 	description:
-		"Particular is a digital agency focused on strategy, design and advertising. Our mission is to develop brands that are bold, powerful and unforgettable. Our specialities include Web Development & Design, SEO, PPC, Copywriting and Ad campaigns.",
+		"Particular is a London-based digital marketing agency. We are 100% customer-focused, We believe that a high quality experience for your customer is sureproof long-term marketing solution",
 	icons: { icon: "/images/favicon.png", apple: "/images/favicon.png" },
 };
 

@@ -1,10 +1,16 @@
 import Button from "@/components/elements/button/button";
 import Link from "next/link";
 import React from "react";
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+	title: "Privacy Policy - Particular Agency London",
+	description:
+		"Your privacy matters to us. Dive into our Privacy policy to understand how we protect your personal information and respect your rights. Learn about our data collection, usage, and security practices. Trust and transparency are our top priorities",
+};
 const TermsCondition = () => {
 	return (
-		<div className="legal-info-content-wrapper pt-14 pb-[70px]">
+		<div className="legal-info-content-wrapper pt-[140px] pb-[70px]">
 			<div className="custom-container max-w-[995px] px-0 md:px-8 sm:px-4 mx-auto">
 				<h1 className="legal-info-title text-neu-white text-[46px] sm:text-[25px] text-left font-primary font-bold leading-[1.2] capitalize mb-9">
 					Navigating Through the agency with Our Privacy Policy.

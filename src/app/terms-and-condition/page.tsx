@@ -1,10 +1,16 @@
 import Button from '@/components/elements/button/button';
 import Link from 'next/link';
 import React from 'react'
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+	title: "Terms and Conditions - Particular Agency London",
+	description:
+		"Navigate the rules of engagement with our comprehensive Terms and Conditions. Discover the guidelines, rights, and responsibilities that shape your interaction with our services. Stay informed and ensure a seamless experience on our platform.",
+};
 const PrivacyPolicy = () => {
   return (
-		<div className="legal-info-content-wrapper pt-14 pb-[70px]">
+		<div className="legal-info-content-wrapper pt-[140px] pb-[70px]">
 			<div className="custom-container max-w-[995px] px-0 md:px-8 sm:px-4 mx-auto">
 				<h1 className="legal-info-title text-neu-white text-[46px] sm:text-[25px] text-left font-primary font-bold leading-[1.2] capitalize mb-9">
 					Your Guide to a Seamless Experience with Our Terms and Conditions.
