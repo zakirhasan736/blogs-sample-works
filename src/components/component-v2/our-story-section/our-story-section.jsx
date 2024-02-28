@@ -154,8 +154,8 @@ const OurStorySection = () => {
 							presence to new heights.
 						</p>
 
-						<div className="story-btn-box flex items-center gap-8">
-							<Link href="/our-approach" className="inline-block">
+						<div className="story-btn-box flex items-center gap-8 flex-row-reverse justify-end">
+							<Link href="/our-approach" className="inline-block glow-btn-outline">
 								<GlowButton glowBtnText="Our Approach" />
 							</Link>
 							<Link href="/contacts" className="inline-block">

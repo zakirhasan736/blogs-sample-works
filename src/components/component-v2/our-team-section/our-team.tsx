@@ -113,7 +113,7 @@ const OurTeamSection = () => {
 								Anita Victor
 							</h4> 
 							<p className="text-[16px] text-left text-neu-white font-tertery font-normal leading-[28px]">
-								UX/UI Designer
+								UX Designer
 							</p>
 						</div>
 						<div className="team-card col-span-4 md:col-span-6 sm:col-span-full sm:mx-auto ">

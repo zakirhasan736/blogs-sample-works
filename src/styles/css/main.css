@@ -2704,6 +2704,16 @@ form.cta-form-box.steps-form-wrap .PhoneInput input#call {
     list-style: decimal !important;
 }
 
-.desc-item-box p:first-child{
+.desc-item-box p:first-child {
     font-weight: 700;
+}
+button.glow-button{
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.glow-btn-outline button.glow-button>span {
+    background: #000;
 }
