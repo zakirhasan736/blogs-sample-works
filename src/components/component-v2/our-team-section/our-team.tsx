@@ -23,7 +23,7 @@ const OurTeamSection = () => {
 								Jasmani Dyett
 							</h4>
 							<p className="text-[16px] text-left text-neu-white font-tertery font-normal leading-[28px]">
-								CoFounder
+								Founder & Head of Client Success
 							</p>
 						</div>
 						<div className="team-card col-span-4 md:col-span-6 sm:col-span-full sm:mx-auto ">
@@ -38,7 +38,7 @@ const OurTeamSection = () => {
 								Ryan Clarke
 							</h4>
 							<p className="text-[16px] text-left text-neu-white font-tertery font-normal leading-[28px]">
-								CoFounder
+								Founder & Head of Product
 							</p>
 						</div>
 						<div className="team-card col-span-4 md:col-span-6 sm:col-span-full sm:mx-auto ">
@@ -53,7 +53,7 @@ const OurTeamSection = () => {
 								Jarvin Ofosu-Yeboah
 							</h4>
 							<p className="text-[16px] text-left text-neu-white font-tertery font-normal leading-[28px]">
-								CoFounder
+								Founder & Head of Operations
 							</p>
 						</div>
 						<div className="team-card col-span-4 md:col-span-6 sm:col-span-full sm:mx-auto ">
@@ -68,7 +68,7 @@ const OurTeamSection = () => {
 								Rodney Dennis
 							</h4>
 							<p className="text-[16px] text-left text-neu-white font-tertery font-normal leading-[28px]">
-								Business Developer
+								Project Maanger
 							</p>
 						</div>
 						<div className="team-card col-span-4 md:col-span-6 sm:col-span-full sm:mx-auto ">
@@ -83,7 +83,7 @@ const OurTeamSection = () => {
 								Kwame Opoku
 							</h4>
 							<p className="text-[16px] text-left text-neu-white font-tertery font-normal leading-[28px]">
-								Business Developer
+								Product Relationships Consultant
 							</p>
 						</div>
 						<div className="team-card col-span-4 md:col-span-6 sm:col-span-full sm:mx-auto ">
@@ -101,21 +101,7 @@ const OurTeamSection = () => {
 								UX Designer
 							</p>
 						</div>
-						<div className="team-card col-span-4 md:col-span-6 sm:col-span-full sm:mx-auto ">
-							<Image
-								width={311}
-								height={311}
-								className="object-cover rounded-[6px] w-[310px] h-[310px]"
-								src="/images/team-anita.png"
-								alt="Anita Victor"
-							/>
-							<h4 className="text-[22px] mt-3 text-left text-neu-white font-tertery font-bold leading-[32px]">
-								Anita Victor
-							</h4> 
-							<p className="text-[16px] text-left text-neu-white font-tertery font-normal leading-[28px]">
-								UX Designer
-							</p>
-						</div>
+
 						<div className="team-card col-span-4 md:col-span-6 sm:col-span-full sm:mx-auto ">
 							<Image
 								width={311}
@@ -131,20 +117,19 @@ const OurTeamSection = () => {
 								UX Designer
 							</p>
 						</div>
-
 						<div className="team-card col-span-4 md:col-span-6 sm:col-span-full sm:mx-auto ">
 							<Image
 								width={311}
 								height={311}
 								className="object-cover rounded-[6px] w-[310px] h-[310px]"
-								src="/images/team-zakir.jpg"
+								src="/images/team-zakir.png"
 								alt="zakir hosen full stack web developer"
 							/>
 							<h4 className="text-[22px] mt-3 text-left text-neu-white font-tertery font-bold leading-[32px]">
 								Zakir Hosen
 							</h4>
 							<p className="text-[16px] text-left text-neu-white font-tertery font-normal leading-[28px]">
-								Full Stack Web Developer
+								Full Stack Developer
 							</p>
 						</div>
 						<div className="team-card col-span-4 md:col-span-6 sm:col-span-full sm:mx-auto ">
@@ -159,7 +144,22 @@ const OurTeamSection = () => {
 								Adwoa Aduako Sabeng Akosa
 							</h4>
 							<p className="text-[16px] text-left text-neu-white font-tertery font-normal leading-[28px]">
-								Trainee - Full Stack Web Developer
+								Trainee - Full Stack Developer
+							</p>
+						</div>
+						<div className="team-card col-span-4 md:col-span-6 sm:col-span-full sm:mx-auto ">
+							<Image
+								width={311}
+								height={311}
+								className="object-cover rounded-[6px] w-[310px] h-[310px]"
+								src="/images/team-anita.png"
+								alt="Anita Victor"
+							/>
+							<h4 className="text-[22px] mt-3 text-left text-neu-white font-tertery font-bold leading-[32px]">
+								Anita Victor
+							</h4>
+							<p className="text-[16px] text-left text-neu-white font-tertery font-normal leading-[28px]">
+								Head of UX
 							</p>
 						</div>
 					</div>
