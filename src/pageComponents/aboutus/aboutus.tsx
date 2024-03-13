@@ -9,13 +9,14 @@ const AboutUsPage = () => {
 	const sortedLatestBlogs = LatestBlogs.sort((a, b) => {
 		return new Date(b.date).getTime() - new Date(a.date).getTime();
 	});
+	
 
-	// Select the latest three blogs
+	// Select the latest three blogs 
 	const latestThreeBlogs = sortedLatestBlogs.slice(0, 3);
 	return (
 		<div className="about-page-main-wrapper overflow-hidden">
 			<AboutBanner />
-			<OurTeamSection />
+			<OurTeamSection /> 
 			{/* <CareerSection /> */}
 			<ArticleSectionVersionTwo
 				latestBlogs={latestThreeBlogs}
