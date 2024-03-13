@@ -1121,12 +1121,19 @@
 
   label.checkmark-services input:checked~.check-mark-input-mark {
     background: #ffffff;
-
+    position: relative;
   }
 
-  .checkmark-privacy-box input:checked~.check-mark-input-mark {
-    background: #ffffff;
-
+  .checkmark-privacy-box input:checked~.check-mark-input-mark::after {
+left: 5px;
+    top: -6px;
+    width: 8px;
+    height: 18px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    position: absolute;
+    content: '';
   }
 
   .swiper.client-brand-slider {

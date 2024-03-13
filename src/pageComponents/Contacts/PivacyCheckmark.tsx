@@ -50,8 +50,8 @@ const PrivacyCheckmark: React.FC<CheckboxProps> = ({
 				/>
 
 				<div
-					className={`check-mark-input-mark w-[16px] min-w-[16px] h-[16px] border border-light-gray bg-transparent block ${
-						isChecked ? "border-blue-600" : ""
+					className={`check-mark-input-mark w-[16px] relative min-w-[16px] h-[16px] border border-light-gray bg-transparent block ${
+						isChecked ? "border-light-gray" : "border-white"
 					}`}></div>
 				<p className="checkmark-text text-dark-gray">
 					{expanded ? label : truncateText(label, 150)}
