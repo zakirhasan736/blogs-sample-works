@@ -13,7 +13,7 @@ const OurTeamSection = () => {
 					<div className="team-card-box grid grid-cols-12 gap-8 max-w-[1114px] mx-auto">
 						<div className="team-card col-span-4 md:col-span-6 sm:col-span-full sm:mx-auto ">
 							<Image
-								width={311}
+								width={311}  
 								height={311}
 								className="object-cover rounded-[6px] w-[310px] h-[310px]"
 								src="/images/team-jas.png"

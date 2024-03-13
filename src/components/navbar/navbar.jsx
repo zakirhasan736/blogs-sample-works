@@ -189,9 +189,7 @@ const Navbar = () => {
 										className="relative lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-[16px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[16px] sm:px-3">
 										<span className=" font-tertery">Our Approach</span>
 									</Link>
-									{/* <span>
-										<ArrowDubbleIcons />
-									</span> */}
+									
 								</div>
 								
 							</li>

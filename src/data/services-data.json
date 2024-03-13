@@ -1,0 +1,51 @@
+
+[
+    {
+        "title": "Web Development",
+        "description": "Crafting visually stunning and highly functional websites tailored to your brand's unique identity",
+        "icon": "/images/icons/services-item-v2-img-1.svg",
+        "link": "/services/web-design-and-development"
+    },
+    {
+        "title": "PPC (Pay-Per-Click)",
+        "description": "Strategically driving targeted traffic to your website through data-driven paid advertising campaigns",
+        "icon": "/images/icons/services-item-v2-img-2.svg",
+        "link": "/services/pay-per-click"
+    },
+    {
+        "title": "UX Design",
+        "description": "Elevating user experiences with intuitive and visually appealing designs, ensuring seamless interactions",
+        "icon": "/images/icons/services-item-v2-img-3.svg",
+        "link": "/services/"
+    },
+    {
+        "title": "Motion Graphic",
+        "description": "Transforming ideas into captivating visual stories through dynamic and engaging animations and transitions",
+        "icon": "/images/icons/services-item-v2-img-4.svg",
+        "link": "/services/motion-design"
+    },
+    {
+        "title": "SEO",
+        "description": "Boosting your online visibility and ranking on search engines to attract organic traffic and leads to convert it to revenue",
+        "icon": "/images/icons/services-item-v2-img-5.svg",
+        "link": "/services/seo-service"
+    },
+    {
+        "title": "Content Strategy",
+        "description": "Creating compelling and tailored content plans to engage and connect with your target audience",
+        "icon": "/images/icons/services-item-v2-img-6.svg",
+        "link": "/services/"
+    },
+    {
+        "title": "Branding",
+        "description": "Crafting a strong and memorable brand identity that resonates with your audience and sets you apart",
+        "icon": "/images/icons/services-item-v2-img-7.svg",
+        "link": "/services/branding"
+    },
+    {
+        "title": "App Development",
+        "description": "Building custom mobile applications that enhance user engagement and meet your business goals",
+        "icon": "/images/icons/services-item-v2-img-8.svg",
+        "link": "/services/app-development"
+    }
+]
