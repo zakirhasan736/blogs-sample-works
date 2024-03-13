@@ -392,9 +392,7 @@ const ContactPageVersionTw: React.FC = () => {
 			if (isEmty(data.objective)) {
 				errors.objective = "Objective type is required";
 			}
-			if (isEmty(data.desc)) {
-				errors.desc = "Description is required";
-			}
+			
 			if (isEmty(data.PivacyCheckmark)) {
 				errors.PivacyCheckmark = "Privacy consent is required";
 			}
