@@ -87,11 +87,11 @@ const TestimonialsVersionTwo: React.FC<CaseStudySliderProps> = ({
             {/* <h3 className="section-1-info-title text-[22px] sm:text-[20px] text-neu-white text-left font-tertery font-normal leading-none">
                 The Proof Is In The Pudding{" "}
               </h3> */}
-            <h3 className="uppercase section-1-info-title text-[22px] sm:text-[20px] text-neu-white text-left font-tertery font-normal leading-none text-center">
+            <h3 className="uppercase section-1-info-title text-[14px] text-neu-white font-tertery font-normal leading-none text-center">
               particular stats{" "}
             </h3>
             <div className="mid-services-wrapper flex justify-center gap-x-[58px] gap-y-1 md:gap-x-[30px]">
-              <div className="mid-services text-center w-[385px]">
+              <div className="mid-services text-center w-[385px] md:w-full">
                 <h4 className="text-[56px] lg:text-[40px] md:text-[36px]  text-neu-white font-tertery font-normal leading-[1.1]">
                   50+
                 </h4>
@@ -99,7 +99,7 @@ const TestimonialsVersionTwo: React.FC<CaseStudySliderProps> = ({
                   Startups & SMEs we’ve worked with
                 </p>
               </div>
-              <div className="mid-services text-center w-[385px]">
+              <div className="mid-services text-center w-[385px] md:w-[90%] sm:m-auto">
                 <h4 className="text-[56px] lg:text-[40px] whitespace-nowrap md:text-[36px] text-neu-white font-tertery font-normal leading-[1.1]">
                   47%
                 </h4>

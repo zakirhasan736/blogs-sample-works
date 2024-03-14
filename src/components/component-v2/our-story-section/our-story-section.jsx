@@ -121,7 +121,7 @@ const OurStorySection = () => {
           <h2 className="mb-2">Our Story</h2>
           <span></span>
         </div>
-        <div className="our-story-main-cont flex gap-10">
+        <div className="our-story-main-cont flex md:flex-col gap-10">
           <Image
             width={559}
             height={400}

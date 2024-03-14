@@ -30,10 +30,11 @@ const AboutUsSection = () => {
 								of combining Free-thought, Attention to Detail, and Pioneering.
 							</p>
 						</div> */}
-            <div className="flex gap-10">
+            <div className="flex md:flex-col gap-10">
               <Image
                 width={584}
                 height={376}
+                className='res-img'
                 src="/images/about.png"
                 alt="A man typing"
               />
@@ -54,7 +55,7 @@ const AboutUsSection = () => {
                 </p>
                 <Button
                   btnText="start a project"
-                  btnVariant="capitalize mt-20"
+                  btnVariant="capitalize mt-20 md:mt-10"
                 />
               </div>
             </div>
@@ -66,11 +67,11 @@ const AboutUsSection = () => {
               {/* <h3 className="section-1-info-title text-[22px] sm:text-[20px] text-neu-white text-left font-tertery font-normal leading-none">
                 The Proof Is In The Pudding{" "}
               </h3> */}
-              <h3 className="uppercase section-1-info-title text-[22px] sm:text-[20px] text-neu-white text-left font-tertery font-normal leading-none text-center">
+              <h3 className="uppercase section-1-info-title text-[14px] text-neu-white font-tertery font-normal leading-none text-center">
                 Industry stats{" "}
               </h3>
               <div className="mid-services-wrapper flex justify-center gap-x-[58px] gap-y-1 md:gap-x-[30px]">
-                <div className="mid-services text-center w-[385px]">
+                <div className="mid-services text-center w-[385px] md:w-full">
                   <h4 className="text-[56px] lg:text-[40px] md:text-[36px]  text-neu-white font-tertery font-normal leading-[1.1]">
                     140%
                   </h4>
@@ -79,7 +80,7 @@ const AboutUsSection = () => {
                     to negative ones
                   </p>
                 </div>
-                <div className="mid-services text-center w-[385px]">
+                <div className="mid-services text-center w-[385px] md:w-full">
                   <h4 className="text-[56px] lg:text-[40px] whitespace-nowrap md:text-[36px] text-neu-white font-tertery font-normal leading-[1.1]">
                     61%
                   </h4>
