@@ -30,7 +30,7 @@ const AboutUsSection = () => {
 								of combining Free-thought, Attention to Detail, and Pioneering.
 							</p>
 						</div> */}
-            <div className='flex gap-10'>
+            <div className="flex gap-10">
               <Image
                 width={584}
                 height={376}
@@ -42,8 +42,8 @@ const AboutUsSection = () => {
                   Businesses often face a disconnect between their expectations
                   and customers' online experiences, resulting in mistrust and
                   missed opportunities.{" "}
-							  </p>
-							  <br />
+                </p>
+                <br />
                 <p>
                   At Particular Agency, we recognise the significance of
                   customer retention, with even a 5% increase translating to a
@@ -52,7 +52,10 @@ const AboutUsSection = () => {
                   philosophy of Free-thought, Attention to Detail, and
                   Pioneering.
                 </p>
-                <Button btnText="start a project" btnVariant="capitalize mt-20" />
+                <Button
+                  btnText="start a project"
+                  btnVariant="capitalize mt-20"
+                />
               </div>
             </div>
           </div>
@@ -60,29 +63,32 @@ const AboutUsSection = () => {
         <div className="mid-services-section">
           <div className="section.1-left-cont">
             <div className="section-1-title-box">
-              <h3 className="section-1-info-title text-[22px] sm:text-[20px] text-neu-white text-left font-tertery font-normal leading-none">
+              {/* <h3 className="section-1-info-title text-[22px] sm:text-[20px] text-neu-white text-left font-tertery font-normal leading-none">
                 The Proof Is In The Pudding{" "}
+              </h3> */}
+              <h3 className="uppercase section-1-info-title text-[22px] sm:text-[20px] text-neu-white text-left font-tertery font-normal leading-none text-center">
+                Industry stats{" "}
               </h3>
-              <div className="mid-services-wrapper flex justify-between gap-x-[58px] gap-y-1 md:gap-x-[30px]">
-                <div className="mid-services">
-                  <h4 className="text-[56px] lg:text-[40px] md:text-[36px] text-left text-neu-white font-tertery font-normal leading-[1.1]">
+              <div className="mid-services-wrapper flex justify-center gap-x-[58px] gap-y-1 md:gap-x-[30px]">
+                <div className="mid-services text-center w-[385px]">
+                  <h4 className="text-[56px] lg:text-[40px] md:text-[36px]  text-neu-white font-tertery font-normal leading-[1.1]">
                     140%
                   </h4>
-                  <p className="text-[15px] text-left text-neu-white font-tertery font-normal leading-normal">
-                    How much more customers spend following positive
-                    interactions compared to negative ones
+                  <p className="text-[15px] text-neu-white font-tertery font-normal leading-normal">
+                    increase in spend following positive interactions compared
+                    to negative ones
                   </p>
                 </div>
-                <div className="mid-services">
-                  <h4 className="text-[56px] lg:text-[40px] whitespace-nowrap md:text-[36px] text-left text-neu-white font-tertery font-normal leading-[1.1]">
-                    61% of Customers
+                <div className="mid-services text-center w-[385px]">
+                  <h4 className="text-[56px] lg:text-[40px] whitespace-nowrap md:text-[36px] text-neu-white font-tertery font-normal leading-[1.1]">
+                    61%
                   </h4>
-                  <p className="text-[15px] text-left text-neu-white font-tertery font-normal leading-normal">
-                    Say that they would leave for a competitor after just one
-                    bad experience
+                  <p className="text-[15px] text-neu-white font-tertery font-normal leading-normal">
+                    of customers say that they would leave for a competitor
+                    after just one bad experience
                   </p>
                 </div>
-                <div className="mid-services ml-auto">
+                {/* <div className="mid-services ml-auto">
                   <div className="mid-services-inner-info sm:mb-7">
                     <h4 className="text-[40px] text-left text-neu-white font-normal font-tertery leading-[1.1] sm:text-[27px]">
                       50+
@@ -100,7 +106,7 @@ const AboutUsSection = () => {
                       the first 3 months
                     </p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
