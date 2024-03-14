@@ -28,8 +28,8 @@ const TestimonialsVersionTwo: React.FC<CaseStudySliderProps> = ({
 }) => {
   return (
     <section className="testimonials-section-v2">
-      <div className="comon-title mb-20 sm:mb-10 custom-container max-w-[1220px]">
-        <h2 className="mb-[6px]">Our Testimonials</h2>
+      <div className="comon-title mb-10 sm:mb-5 custom-container max-w-[1220px]">
+        <h2>Our Testimonials</h2>
         <span></span>
       </div>
       <Swiper

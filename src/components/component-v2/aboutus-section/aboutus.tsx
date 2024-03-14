@@ -1,4 +1,5 @@
 import Button from '@/components/elements/button/button';
+import GlowButton from '@/components/elements/button/glow-button';
 import Image from 'next/image';
 import React from 'react'
 
@@ -45,7 +46,7 @@ const AboutUsSection = () => {
                   missed opportunities.{" "}
                 </p>
                 <br />
-                <p>
+                <p className='mb-[60px]'>
                   At Particular Agency, we recognise the significance of
                   customer retention, with even a 5% increase translating to a
                   29-95% rise in profitability. Our unique approach emphasises
@@ -53,9 +54,8 @@ const AboutUsSection = () => {
                   philosophy of Free-thought, Attention to Detail, and
                   Pioneering.
                 </p>
-                <Button
-                  btnText="start a project"
-                  btnVariant="capitalize mt-20 md:mt-10"
+                <GlowButton
+                  glowBtnText="start a project"
                 />
               </div>
             </div>

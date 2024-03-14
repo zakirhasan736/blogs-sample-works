@@ -138,39 +138,12 @@ const Navbar = () => {
               <li className="navbar-nav-items">
                 <div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
                   <Link
-                    href="/"
-                    className="relative text-primary flex items-center gap-2 text-center text-[16px] laptop-m:text-[18px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[16px] sm:px-3 lg:px-3"
-                  >
-                    <span className=" font-tertery">Home</span>
-                  </Link>
-                </div>
-              </li>
-              <li className="navbar-nav-items">
-                <div className="navbar-inner-link-box flex items-center gap-2">
-                  <Link
-                    href="/case-studies"
-                    className="relative text-primary flex items-center gap-2 text-center text-[16px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[16px] sm:px-3"
-                  >
-                    <span className=" font-tertery">Case Studies</span>
-                  </Link>
-                  <span>
-                    <ArrowDubbleIcons />
-                  </span>
-                </div>
-                {/* =======megamenu */}
-                <MegaMenu
-                  MegaMenuClass={StudyMegaMenuClass}
-                  items={StudyMenuItems}
-                  footerItems={StudyFooterItems}
-                />
-              </li>
-              <li className="navbar-nav-items">
-                <div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
-                  <Link
                     href="/services"
-                    className="relative lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-[16px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[16px] sm:px-3"
+                    className="relative lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-[14px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[14px] sm:px-3"
                   >
-                    <span className=" font-tertery">Services</span>
+                    <span className=" font-tertery uppercase">
+                      Our Services
+                    </span>
                   </Link>
                   <span>
                     <ArrowDubbleIcons />
@@ -186,35 +159,87 @@ const Navbar = () => {
               <li className="navbar-nav-items">
                 <div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
                   <Link
-                    href="/our-approach"
-                    className="relative lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-[16px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[16px] sm:px-3"
+                    href="/"
+                    className="relative text-primary flex items-center gap-2 text-center text-[14px] laptop-m:text-[18px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[14px] sm:px-3 lg:px-3"
                   >
-                    <span className=" font-tertery">Our Approach</span>
+                    <span className=" font-tertery uppercase">Home</span>
                   </Link>
                 </div>
               </li>
               <li className="navbar-nav-items">
-                <div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
-                  <div className="relative cursor-pointer lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-[16px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[16px] sm:px-3">
-                    <span className=" font-tertery">Features</span>
-                  </div>
+                <div className="navbar-inner-link-box flex items-center gap-2">
+                  <Link
+                    href="/case-studies"
+                    className="relative text-primary flex items-center gap-2 text-center text-[14px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[14px] sm:px-3"
+                  >
+                    <span className=" font-tertery uppercase">
+                      Case Studies
+                    </span>
+                  </Link>
                   <span>
                     <ArrowDubbleIcons />
                   </span>
                 </div>
                 {/* =======megamenu */}
                 <MegaMenu
+                  MegaMenuClass={StudyMegaMenuClass}
+                  items={StudyMenuItems}
+                  footerItems={StudyFooterItems}
+                />
+              </li>
+              <li className="navbar-nav-items">
+                <div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
+                  <Link
+                    href="/our-approach"
+                    className="relative lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-[14px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[14px] sm:px-3"
+                  >
+                    <span className=" font-tertery uppercase">
+                      Our Approach
+                    </span>
+                  </Link>
+                </div>
+              </li>
+              {/* <li className="navbar-nav-items">
+                <div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
+                  <div className="relative cursor-pointer lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-[14px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[14px] sm:px-3">
+                    <span className=" font-tertery uppercase">Features</span>
+                  </div>
+                  <span>
+                    <ArrowDubbleIcons />
+                  </span>
+                </div>
+                {/* =======megamenu *
+                <MegaMenu
                   MegaMenuClass={FeatureMegaMenuClass}
                   items={FeatureMenuItems}
                   footerItems={FeatureFooterItems}
                 />
+              </li> */}
+              <li className="navbar-nav-items">
+                <div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
+                  <Link
+                    href="/features/colour-craft"
+                    className="relative lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-[14px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[14px] sm:px-3"
+                  >
+                    <span className=" font-tertery uppercase">
+                      Colour Craft
+                    </span>
+                    <Image
+                      width={17}
+                      height={19}
+                      src="/images/Vector.png"
+                      alt="icon"
+                      className="-mt-6"
+                    />
+                  </Link>
+                </div>
               </li>
             </ul>
           </nav>
           <Link className="w-full max-w-[159px] md:hidden" href="/contacts">
             <Button
               btnText="Book a Call"
-              btnVariant={`pca-secondary-button text-white header-button-cta capitalize text-[16px] laptop-m:text-[16px] md:hidden border-1 border-[#ffffff] ${
+              btnVariant={`pca-secondary-button text-white header-button-cta capitalize text-[14px] laptop-m:text-[14px] md:hidden border-1 border-[#ffffff] ${
                 pathname.includes("/articles/") ? "bg-secondary-2" : ""
               }`}
             />

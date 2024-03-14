@@ -78,11 +78,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
               className="inline-block"
             >
               <motion.div variants={fadeInChildVariants}>
-                {/* <GlowButton glowBtnText="Get your free brand strength assessment" /> */}
-                <Button
-                  btnText="Get your free brand strength assessment"
-                  btnVariant="max-w-full p-5 capitalize"
-                />
+                <GlowButton glowBtnText="Get your free brand strength assessment" />
               </motion.div>
             </Link>
             {/* <motion.p
