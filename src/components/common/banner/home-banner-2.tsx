@@ -85,15 +85,6 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
                 />
               </motion.div>
             </Link>
-            <div className="mt-[147px] relative">
-              <Image
-                width={70}
-                height={70}
-                alt="A chat box"
-                src="/images/chat-bubble.png"
-                className="absolute right-5 -top-10"
-              />
-            </div>
             {/* <motion.p
               className="banner-desc  text-[16px] text-center text-neu-white font-tertery font-normal leading-[22px] mt-[18px]"
               variants={fadeInChildVariants}

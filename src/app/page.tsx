@@ -38,6 +38,7 @@ const Home = () => {
 			testimonialsAutherBio: "Leaders Rising, Founder",
 			testimonialsAutherName: "- Susie Rushden",
 			testimonialsText:
+			
 				"Since our collaboration began, we've experienced consistent improvement in our marketing outcomes, social media engagement, and brand visibility.",
 		},
 	];

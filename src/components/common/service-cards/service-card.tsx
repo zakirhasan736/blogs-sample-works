@@ -9,8 +9,8 @@ interface Service {
 
 const ServiceCard: React.FC<Service> = ({ title, description, icon, link }) => (
 	<div className="service-items col-span-3 md:col-span-4 sm:col-span-full">
-		<div className="service-item-icons">
-			<Image src={icon} alt="service icons" width={110} height={110} />
+		<div className="service-item-icons mb-[73px]">
+			<Image src={icon} alt="service icons" width={40} height={40} />
 		</div>
 		<Link href={link}>
 			<h4>{title}</h4>
