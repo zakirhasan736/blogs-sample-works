@@ -1,4 +1,4 @@
-import {Image,Link} from "@packages/packages";
+import { Image, Link } from "@packages/packages";
 
 interface Service {
 	title: string;
@@ -7,8 +7,8 @@ interface Service {
 	link: string;
 }
 
-const ServiceCard: React.FC<Service> = ({ title, description, icon, link }) => (
-	<div className="service-card-item col-span-3 md:col-span-4 sm:col-span-full">
+const ServiceCards: React.FC<Service> = ({ title, description, icon, link }) => (
+	<div className="service-card-item col-span-4 md:col-span-4 sm:col-span-full">
 		<Link href={link}>
 			<div className="service-items">
 				<div className="service-item-icons">
@@ -21,4 +21,4 @@ const ServiceCard: React.FC<Service> = ({ title, description, icon, link }) => (
 	</div>
 );
 
-export default ServiceCard;
+export default ServiceCards;
