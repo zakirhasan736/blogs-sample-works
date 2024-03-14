@@ -18,29 +18,7 @@ const CaseStudypage: React.FC = () => {
 
 	// Select the latest three blogs
 	const latestThreeBlogs = sortedLatestBlogs.slice(0, 3);
-	const testimonialsSliderData = [
-		{
-			testisliderModalImag: "/images/testimonials-slides-modal-img-1.png",
-			testimonialsAutherBio: "Dr. John Tsagiris, Founder",
-			testimonialsAutherName: "- Dr. John Tsagiris",
-			testimonialsText:
-				"My partnership with Particular Agency for our web application development has been nothing short of remarkable.",
-		},
-		{
-			testisliderModalImag: "/images/testimonials-v2-img-2.jpg",
-			testimonialsAutherBio: "Rushmoor Knights Academy, Founder",
-			testimonialsAutherName: "- Stephen Diaper",
-			testimonialsText:
-				"We collaborated with Particular for the Design and Launch of our web Platform. The team at Particular was fantastic.",
-		},
-		{
-			testisliderModalImag: "/images/testimonials-v2-img-3.jpg",
-			testimonialsAutherBio: "Leaders Rising, Founder",
-			testimonialsAutherName: "- Susie Rushden",
-			testimonialsText:
-				"Since our collaboration began, we've experienced consistent improvement in our marketing outcomes, social media engagement, and brand visibility.",
-		},
-	];
+
 	return (
 		<div className="case-study-page-wrapper pt-[190px]">
 			<div className="case-study-section pb-[140px] md:pb-20 sm:pb-16">

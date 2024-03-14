@@ -1,4 +1,4 @@
-import Head from "next/head";
+
 import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import "./globals.css";
