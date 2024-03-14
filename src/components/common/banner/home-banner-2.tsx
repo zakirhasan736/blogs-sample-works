@@ -92,7 +92,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
               Explore your business's digital potential with our bespoke
               scorecard.
             </motion.p> */}
-            {/* <div className="award-display-wrap text-center mt-10">
+            <div className="award-display-wrap text-center mt-10">
               <div className="award-item-box flex items-center gap-4 justify-center">
                 <div className="award-items">
                   <Image
@@ -114,7 +114,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
               <p className="award-heading-text relative right-[2px] mt-3 text-neu-white text-[14px] text-center font-tertery font-extrabold leading-normal uppercase opacity-30">
                 Awarded by Clutch
               </p>
-            </div> */}
+            </div>
           </motion.div>
         </div>
         <ClientSlider />
