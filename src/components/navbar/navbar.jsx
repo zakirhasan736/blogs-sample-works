@@ -135,6 +135,16 @@ const Navbar = () => {
           </div>
           <nav className="navigation-navbar">
             <ul className="navbar-nav flex items-center sm:hidden">
+               <li className="navbar-nav-items">
+                <div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
+                  <Link
+                    href="/"
+                    className="relative text-primary flex items-center gap-2 text-center text-[14px] laptop-m:text-[18px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[14px] sm:px-3 lg:px-3"
+                  >
+                    <span className=" font-tertery uppercase">Home</span>
+                  </Link>
+                </div>
+              </li>
               <li className="navbar-nav-items">
                 <div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
                   <Link
@@ -156,16 +166,7 @@ const Navbar = () => {
                   footerItems={ServiceFooterItems}
                 />
               </li>
-              <li className="navbar-nav-items">
-                <div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
-                  <Link
-                    href="/"
-                    className="relative text-primary flex items-center gap-2 text-center text-[14px] laptop-m:text-[18px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[14px] sm:px-3 lg:px-3"
-                  >
-                    <span className=" font-tertery uppercase">Home</span>
-                  </Link>
-                </div>
-              </li>
+             
               <li className="navbar-nav-items">
                 <div className="navbar-inner-link-box flex items-center gap-2">
                   <Link
@@ -239,7 +240,7 @@ const Navbar = () => {
           <Link className="w-full max-w-[159px] md:hidden" href="/contacts">
             <Button
               btnText="Book a Call"
-              btnVariant={`pca-secondary-button text-white header-button-cta capitalize text-[14px] laptop-m:text-[14px] md:hidden border-1 border-[#ffffff] ${
+              btnVariant={`pca-secondary-button text-white header-button-cta capitalize text-[16px] laptop-m:text-[14px] md:hidden border-1 border-[#ffffff] ${
                 pathname.includes("/articles/") ? "bg-secondary-2" : ""
               }`}
             />
