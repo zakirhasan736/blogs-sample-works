@@ -60,7 +60,7 @@ const Footer: React.FC<FooterProps> = () => {
 	};
 
 	return (
-		<footer className="footer-section pt-[68px] pb-[53px] bg-[#fff] w-full">
+		<section className="footer-section pt-[68px] pb-[53px] bg-[#fff] w-full">
 			<div className="custom-container max-w-[1220px] relative">
 				<section className="footer-top-section text-center conclusion pb-[54px]">
 					<p className="mb-[13px] text-center text-[22px] font-normal capitalize font-tertery text-[#000]">
@@ -242,7 +242,7 @@ const Footer: React.FC<FooterProps> = () => {
 					</p>
 				</div>
 			</div>
-		</footer>
+		</section>
 	);
 };
 
