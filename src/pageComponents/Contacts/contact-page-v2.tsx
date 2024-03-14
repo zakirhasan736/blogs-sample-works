@@ -258,6 +258,7 @@ const objectiveTypes: ObjectiveType[] = [
 ];
 
 const ContactPageVersionTw: React.FC = () => {
+
   const [success, setSuccessMessage] = useState("");
   const [loading, setLoading] = useState(false);
   const [selectedValues, setSelectedValues] = useState<string[]>([]);
@@ -796,6 +797,7 @@ const ContactPageVersionTw: React.FC = () => {
       </div>
     </div>
   );
+
 };
 
 export default ContactPageVersionTw;
