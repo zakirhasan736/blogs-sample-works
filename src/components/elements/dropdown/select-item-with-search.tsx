@@ -86,7 +86,7 @@ const SelectItemWithSearch: React.FC<SelectItemWithSearchProps> = ({
 						height={19}
 					/>
 				</span>
-				{error ?? <p className="text-red-700">{error}</p>}
+				{error ? <span className="text-red-700">{error}</span> : ""}
 			</div>
 			{isOpen && (
 				<div className="dropdown-box">

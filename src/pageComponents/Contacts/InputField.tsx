@@ -48,7 +48,8 @@ const InputField: React.FC<InputFieldProps> = ({
 					onChange={handleChange}
 					className="input-fild-item w-full text-[#000000] h-[48px] border border-light-gray focus:border-light-gray focus:outline-0 b bg-neu-white rounded-[6px] text-left py-[10px] px-5 text-[14px] font-primary font-normal leading-none placeholder:text-[14px] placeholder:text-dark-gray"
 				/>
-				{error ?? <p className="text-red-700">{error}</p>}
+				
+				{error ? <span className="text-red-700">{error}</span> : ""}
 			</label>
 		</div>
 	);
