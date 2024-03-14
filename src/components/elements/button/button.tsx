@@ -10,7 +10,7 @@ const Button: React.FC<ButtonProps> = ({ btnText, type="button", btnVariant }) =
   return (
     <button
       type={type}
-      className={`rounded-[4px] py-3 w-full bg-btn text-btn-color h-[48px] flex justify-center items-center z-5  max-w-[159px] ${
+      className={`rounded-[4px] py-3 w-full bg-btn text-btn-color h-[48px] flex justify-center items-center z-5 font-semibold  max-w-[159px] ${
         btnVariant || ""
       }`}
     >
