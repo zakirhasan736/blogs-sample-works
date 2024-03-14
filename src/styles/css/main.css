@@ -357,7 +357,7 @@ section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next:
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    text-transform: capitalize;
+    text-transform: uppercase;
     margin: 7px 0 0 0;
 }
 
@@ -473,7 +473,7 @@ section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next:
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .description {
@@ -808,9 +808,9 @@ section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next:
 }
 
 
-.transparent-color-bg-anim-section.light-mode .approach-tile h4.name {
+/* .transparent-color-bg-anim-section.light-mode .approach-tile h4.name {
     border-bottom: 1px solid #000000;
-}
+} */
 
 
 .light-mode-work-section .comon-title span {

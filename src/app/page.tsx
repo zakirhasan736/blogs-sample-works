@@ -54,7 +54,7 @@ const Home = () => {
 				{/* home services section  */}
 				<ServicesSection />
 				{/* home services section  end*/}
-				<PartnerSection />
+				{/* <PartnerSection /> */}
 				
 				<ThemeSectionMode />
 				{/* our story section */}
