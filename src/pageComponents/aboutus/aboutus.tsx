@@ -5,7 +5,6 @@ import LatestBlogs from "@data/blogs/short-blog-data.json";
 import React from "react";
 
 const AboutUsPage = () => {
-	// Sort the latest blogs by date in descending order
 	const sortedLatestBlogs = LatestBlogs.sort((a, b) => {
 		return new Date(b.date).getTime() - new Date(a.date).getTime();
 	});
@@ -17,7 +16,6 @@ const AboutUsPage = () => {
 		<div className="about-page-main-wrapper overflow-hidden">
 			<AboutBanner />
 			<OurTeamSection /> 
-			{/* <CareerSection /> */}
 			<ArticleSectionVersionTwo
 				latestBlogs={latestThreeBlogs}
 				ShortBlogs={true}
