@@ -1,12 +1,15 @@
 import React from "react";
 interface ButtonProps {
-
   btnText: string;
   btnVariant?: string;
-  type?: "button" | "submit" | "reset"; 
+  type?: "button" | "submit" | "reset";
 }
 
-const Button: React.FC<ButtonProps> = ({ btnText, type="button", btnVariant }) => {
+const Button: React.FC<ButtonProps> = ({
+  btnText,
+  type = "button",
+  btnVariant,
+}) => {
   return (
     <button
       type={type}

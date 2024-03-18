@@ -27,9 +27,9 @@ const Home = () => {
         "My partnership with Particular Agency for our web application development has been nothing short of remarkable.",
     },
     {
-      testisliderModalImag: "/images/testimonials-v2-img-2.jpg",
-      testimonialsAutherBio: "Rushmoor Knights Academy, Founder",
-      testimonialsAutherName: "- Stephen Diaper",
+      testisliderModalImag: "/images/testimonials-v2-img-4.png",
+      testimonialsAutherBio: "TC Cambridge conferences,  Industry Expert",
+      testimonialsAutherName: "- Dr. Sooter",
       testimonialsText:
         "We collaborated with Particular for the Design and Launch of our web Platform. The team at Particular was fantastic.",
     },
@@ -54,7 +54,7 @@ const Home = () => {
         {/* home services section  */}
         <ServicesSection />
         {/* home services section  end*/}
-        <PartnerSection />
+        {/* <PartnerSection /> */}
 
         <ThemeSectionMode />
         {/* our story section */}
