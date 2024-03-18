@@ -1,8 +1,8 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import LoadingScreen from "@/components/common/pre-loader/LoadingScreen";
-import { Footer } from "@/components";
-import Navbar from "@/components/navbar/navbar";
+import { Footer, Navbar } from "@/components";
+// import Navbar from "@/components/navbar/navbar";
 
 export default function Template({ children }: { children: React.ReactNode }) {
 	const [pageLoaded, setPageLoaded] = useState(false);

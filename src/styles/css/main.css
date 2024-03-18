@@ -1112,7 +1112,9 @@ span.prodress-pill.extra-class {
     height: 43px;
 }
 
-.select-item-with-search .dropdown-box ul li{
+
+.select-item-with-search .dropdown-box ul li label{
+
     padding: 20px 15px 18px;
     color: #000;
     font-family: 'Lato';

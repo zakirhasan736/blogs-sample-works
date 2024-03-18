@@ -2,7 +2,8 @@ import Image from "next/image";
 import React from "react";
 import ServiceBannerVersionTwo from "./service-banner-v2";
 import OurWorkSec from "@/components/component-v2/our-work-section/our-work-sec";
-
+import services from "@data/services-data.json";
+import ServiceCards from "./service-cards";
 const ServicesVersionTwo = () => {
 	return (
 		<div className="services-wrapper-main-content ">
@@ -15,138 +16,9 @@ const ServicesVersionTwo = () => {
 							<span></span>
 						</div>
 						<div className="all-services grid grid-cols-12 gap-x-10 gap-y-[45px] lg:gap-x-[20px] lg:gap-y-[30px]">
-							<div className="service-items col-span-4 md:col-span-4 sm:col-span-full">
-								<div className="service-item-icons">
-									<Image
-										src="/images/icons/services-item-v2-img-1.svg"
-										alt="service icons"
-										width={110}
-										height={110}
-									/>
-								</div>
-								<a href="/services/web-design-and-development">
-									<h4>Web Development</h4>
-								</a>
-								<p>
-									Crafting visually stunning and highly functional websites
-									tailored to your brand's unique identity
-								</p>
-							</div>
-							<div className="service-items col-span-4 md:col-span-4 sm:col-span-full">
-								<div className="service-item-icons">
-									<Image
-										src="/images/icons/services-item-v2-img-2.svg"
-										alt="service icons"
-										width={110}
-										height={110}
-									/>
-								</div>
-								<a href="/services/pay-per-click">
-									<h4>PPC (Pay-Per-Click)</h4>
-								</a>
-								<p>
-									Strategically driving targeted traffic to your website through
-									data-driven paid advertising campaigns
-								</p>
-							</div>
-							<div className="service-items col-span-4 md:col-span-4 sm:col-span-full">
-								<div className="service-item-icons">
-									<Image
-										src="/images/icons/services-item-v2-img-3.svg"
-										alt="service icons"
-										width={110}
-										height={110}
-									/>
-								</div>
-								<h4>UX Design</h4>
-								<p>
-									Elevating user experiences with intuitive and visually
-									appealing designs, ensuring seamless interactions
-								</p>
-							</div>
-							<div className="service-items col-span-4 md:col-span-4 sm:col-span-full">
-								<div className="service-item-icons">
-									<Image
-										src="/images/icons/services-item-v2-img-4.svg"
-										alt="service icons"
-										width={110}
-										height={110}
-									/>
-								</div>
-								<a href="/services/motion-design">
-									<h4>Motion Graphic</h4>
-								</a>
-								<p>
-									Transforming ideas into captivating visual stories through
-									dynamic and engaging animations and transitions
-								</p>
-							</div>
-							<div className="service-items col-span-4 md:col-span-4 sm:col-span-full">
-								<div className="service-item-icons">
-									<Image
-										src="/images/icons/services-item-v2-img-5.svg"
-										alt="service icons"
-										width={110}
-										height={110}
-									/>
-								</div>
-								<a href="/services/seo-service">
-									<h4>SEO</h4>
-								</a>
-								<p>
-									Boosting your online visibility and ranking on search engines
-									to attract organic traffic and leads to convert it to revenue
-								</p>
-							</div>
-							<div className="service-items col-span-4 md:col-span-4 sm:col-span-full">
-								<div className="service-item-icons">
-									<Image
-										src="/images/icons/services-item-v2-img-6.svg"
-										alt="service icons"
-										width={110}
-										height={110}
-									/>
-								</div>
-								<h4>Content Strategy</h4>
-								<p>
-									Creating compelling and tailored content plans to engage and
-									connect with your target audience
-								</p>
-							</div>
-							<div className="service-items col-span-4 md:col-span-4 sm:col-span-full">
-								<div className="service-item-icons">
-									<Image
-										src="/images/icons/services-item-v2-img-7.svg"
-										alt="service icons"
-										width={110}
-										height={110}
-									/>
-								</div>
-								<a href="/services/branding">
-									<h4>Branding</h4>
-								</a>
-								<p>
-									Crafting a strong and memorable brand identity that resonates
-									with your audience and sets you apart
-								</p>
-							</div>
-							<div className="service-items col-span-4 md:col-span-4 sm:col-span-full">
-								<div className="service-item-icons">
-									<Image
-										src="/images/icons/services-item-v2-img-8.svg"
-										alt="service icons"
-										width={110}
-										height={110}
-									/>
-								</div>
-								<a href="/services/app-development">
-									<h4>App Development</h4>
-								</a>
-								<p>
-									Building custom mobile applications that enhance user
-									engagement and meet your business goals
-								</p>
-							</div>
+							{services.map((service, index) => (
+								<ServiceCards key={index} {...service} />
+							))}
 						</div>
 					</div>
 				</div>
