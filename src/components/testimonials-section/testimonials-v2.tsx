@@ -38,7 +38,7 @@ const TestimonialsVersionTwo: React.FC<CaseStudySliderProps> = ({
         navigation={true}
         loop={true}
         autoplay={{
-          delay: 3000,
+          delay: 10000,
           disableOnInteraction: false,
         }}
         modules={[EffectFade, Navigation, Autoplay]}
