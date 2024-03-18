@@ -75,13 +75,7 @@
         ]
     },
     {
-        "name": "Features",
-        "path": "#!",
-        "dropdownItems": [
-            {
-                "name": "Color Craft",
-                "path": "/features/colour-craft"
-            }
-        ]
+      "name": "Colour Craft",
+      "path": "/features/colour-craft?colors=000000-ffffff-4685ff-f2f2f2-ffb084"
     }
 ]

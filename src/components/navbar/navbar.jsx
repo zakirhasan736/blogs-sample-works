@@ -135,7 +135,7 @@ const Navbar = () => {
           </div>
           <nav className="navigation-navbar">
             <ul className="navbar-nav flex items-center sm:hidden">
-               <li className="navbar-nav-items">
+              <li className="navbar-nav-items">
                 <div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
                   <Link
                     href="/"
@@ -166,7 +166,7 @@ const Navbar = () => {
                   footerItems={ServiceFooterItems}
                 />
               </li>
-             
+
               <li className="navbar-nav-items">
                 <div className="navbar-inner-link-box flex items-center gap-2">
                   <Link
@@ -219,7 +219,7 @@ const Navbar = () => {
               <li className="navbar-nav-items">
                 <div className="navbar-inner-link-box flex items-center gap-2 lg:gap-0">
                   <Link
-                    href="/features/colour-craft"
+                    href="/features/colour-craft?colors=000000-ffffff-4685ff-f2f2f2-ffb084"
                     className="relative lg:px-3 text-primary laptop-m:text-[18px] flex items-center gap-2 text-center text-[14px] font-tertery font-normal leading-none mb-0 capitalize px-6 py-2 md:text-[14px] sm:px-3"
                   >
                     <span className=" font-tertery uppercase">
