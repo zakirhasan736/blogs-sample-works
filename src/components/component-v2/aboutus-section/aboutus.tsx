@@ -5,7 +5,7 @@ import React from 'react'
 
 const AboutUsSection = () => {
   return (
-    <section className="aboutus-section-v2 pt-[76px] pb-[89px]  md:pb-[60px]">
+    <section className="aboutus-section-v2 pb-[89px]  md:pb-[60px]">
       <div className="custom-container max-w-[1220px]">
         <div className="section-left-cont">
           <div className="section-title-box">
