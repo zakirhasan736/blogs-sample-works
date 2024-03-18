@@ -31,15 +31,15 @@ const AboutUsSection = () => {
 								of combining Free-thought, Attention to Detail, and Pioneering.
 							</p>
 						</div> */}
-            <div className="flex md:flex-col gap-10">
+            <div className="flex md:flex-col gap-10 w-50">
               <Image
                 width={584}
                 height={376}
-                className='res-img'
-                src="/images/about.png"
+                className='res-img max-w-full'
+                src="/images/about.jpg"
                 alt="A man typing"
               />
-              <div>
+              <div className='w-50'>
                 <p>
                   Businesses often face a disconnect between their expectations
                   and customers' online experiences, resulting in mistrust and
