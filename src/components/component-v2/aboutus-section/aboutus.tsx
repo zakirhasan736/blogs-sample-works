@@ -33,7 +33,7 @@ const AboutUsSection = () => {
 						</div> */}
             <div className="flex md:flex-col gap-10 w-50">
               <Image
-                width={584}
+                width={450}
                 height={376}
                 className='res-img max-w-full'
                 src="/images/about.jpg"
