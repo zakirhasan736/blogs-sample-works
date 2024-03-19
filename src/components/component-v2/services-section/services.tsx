@@ -4,7 +4,7 @@ import React from 'react'
 
 const ServicesSection = () => {
   return (
-		<section className="service-section-v2 pt-[122px] pb-[100px] md:pt-20 md:pb-[120px]">
+		<section className="service-section-v2 pt-[122px] pb-[100px] md:pt-20 sm:pt-4 md:pb-[120px] sm:pb-0">
 			<div className="custom-container max-w-[1220px]">
 				<div>
 					<div className="comon-title mb-11">

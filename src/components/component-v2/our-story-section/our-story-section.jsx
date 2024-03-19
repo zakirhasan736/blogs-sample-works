@@ -115,7 +115,7 @@ const OurStorySection = () => {
     });
   }, []);
   return (
-    <section className="our-story pt-[104px] pb-[50px] light-mode">
+    <section className="our-story pt-[104px] sm:pt-12 pb-[50px] sm:pb-9 light-mode">
       <div className="custom-container max-w-[1220px]">
         <div className="comon-title mb-4">
           <h2 className="mb-2">Our Story</h2>

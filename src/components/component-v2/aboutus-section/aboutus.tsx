@@ -5,7 +5,7 @@ import React from 'react'
 
 const AboutUsSection = () => {
   return (
-    <section className="aboutus-section-v2 pb-[89px]  md:pb-[60px]">
+    <section className="aboutus-section-v2 pb-[89px] md:pb-[60px] sm:pb-8">
       <div className="custom-container max-w-[1220px]">
         <div className="section-left-cont">
           <div className="section-title-box">
@@ -31,7 +31,7 @@ const AboutUsSection = () => {
 								of combining Free-thought, Attention to Detail, and Pioneering.
 							</p>
 						</div> */}
-            <div className="flex md:flex-col gap-10">
+            <div className="flex md:flex-col gap-10 sm:pr-4">
               <Image
                 width={450}
                 height={376}

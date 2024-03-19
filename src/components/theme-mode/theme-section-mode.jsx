@@ -118,7 +118,7 @@ useEffect(() => {
 
 
 	return (
-		<div className="transparent-color-bg-anim-section dark-mode pt-[97px]">
+		<div className="transparent-color-bg-anim-section dark-mode pt-[97px] sm:pt-14">
 			{/* home our work section */}
 			<OurWorkSec />
 			{/* home our work section end*/}
