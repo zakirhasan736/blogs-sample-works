@@ -9,7 +9,7 @@ const AboutUsSection = () => {
       <div className="custom-container max-w-[1220px]">
         <div className="section-left-cont">
           <div className="section-title-box">
-            <div className="comon-title mb-10 max-w-[670px] m-auto text-center">
+            <div className="comon-title mb-10 max-w-[670px] sm:max-w-full m-auto text-center">
               <h2>
                 Improving Buyer experience will gain you the results you want.
               </h2>
@@ -31,7 +31,7 @@ const AboutUsSection = () => {
 								of combining Free-thought, Attention to Detail, and Pioneering.
 							</p>
 						</div> */}
-            <div className="flex md:flex-col gap-10 w-50">
+            <div className="flex md:flex-col gap-10">
               <Image
                 width={450}
                 height={376}
@@ -39,7 +39,7 @@ const AboutUsSection = () => {
                 src="/images/about.jpg"
                 alt="A man typing"
               />
-              <div className='w-50'>
+              <div>
                 <p>
                   Businesses often face a disconnect between their expectations
                   and customers' online experiences, resulting in mistrust and
