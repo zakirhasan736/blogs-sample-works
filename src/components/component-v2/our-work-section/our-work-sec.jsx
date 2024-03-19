@@ -23,7 +23,7 @@ const OurWorkSec = ({ WorkSecClass, OurWorkSecTitle }) => {
 
 	return (
     <section
-      className={`"our-work-section pb-[70px] md:pb-20" ${WorkSecClass}`}
+      className={`"our-work-section pb-[70px] sm:pb-10 md:pb-20" ${WorkSecClass}`}
     >
       <div className="custom-container max-w-[1220px]">
         <div className="comon-title mb-6">

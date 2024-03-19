@@ -2,7 +2,7 @@ import React from 'react'
 import {Image, Link} from '@packages/packages'
 const OurApproachSection = () => {
   return (
-    <section className="our-approach-section pb-[90px] pt-[70px] md:pb-20">
+    <section className="our-approach-section pb-[90px] pt-[70px] sm:pt-0 md:pb-20">
       <div className="custom-container max-w-[1220px]">
         <div className="comon-title mb-6">
           <h2>Our Approach</h2>
