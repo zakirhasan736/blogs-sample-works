@@ -1,7 +1,7 @@
-import Button from '@/components/elements/button/button';
-import GlowButton from '@/components/elements/button/glow-button';
-import Image from 'next/image';
-import React from 'react'
+import Button from "@/components/elements/button/button";
+import GlowButton from "@/components/elements/button/glow-button";
+import Image from "next/image";
+import React from "react";
 
 const AboutUsSection = () => {
   return (
@@ -31,22 +31,22 @@ const AboutUsSection = () => {
 								of combining Free-thought, Attention to Detail, and Pioneering.
 							</p>
 						</div> */}
-            <div className="flex md:flex-col gap-10 sm:pr-4">
+            <div className="flex md:flex-col gap-10 sm:p-2">
               <Image
                 width={450}
                 height={376}
-                className='res-img max-w-full'
+                className="res-img max-w-full"
                 src="/images/about.jpg"
                 alt="A man typing"
               />
-              <div>
-                <p>
+              <div className="sm:text-center">
+                <p className="sm:text-left">
                   Businesses often face a disconnect between their expectations
                   and customers' online experiences, resulting in mistrust and
                   missed opportunities.{" "}
                 </p>
                 <br />
-                <p className='mb-[60px]'>
+                <p className="mb-[60px] sm:text-left">
                   At Particular Agency, we recognise the significance of
                   customer retention, with even a 5% increase translating to a
                   29-95% rise in profitability. Our unique approach emphasises
@@ -54,9 +54,7 @@ const AboutUsSection = () => {
                   philosophy of Free-thought, Attention to Detail, and
                   Pioneering.
                 </p>
-                <GlowButton
-                  glowBtnText="start a project"
-                />
+                <GlowButton glowBtnText="start a project" />
               </div>
             </div>
           </div>
@@ -115,6 +113,6 @@ const AboutUsSection = () => {
       </div>
     </section>
   );
-}
+};
 
-export default AboutUsSection
+export default AboutUsSection;
