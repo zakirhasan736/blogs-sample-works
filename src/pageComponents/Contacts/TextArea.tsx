@@ -45,7 +45,7 @@ const TextArea: React.FC<InputFieldProps> = ({
 					value={value}
 					onChange={handleChange}
 					placeholder={placeholder}></textarea>
-				{error ?? <p className="text-red-700">{error}</p>}
+				{error ? <p className="text-red-700">{error}</p> : ''}
 			</label>
 		</div>
 	);
