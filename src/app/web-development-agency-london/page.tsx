@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
-import PPCLandingBanner from "../ppc-components/ppc-landing-banner";
+import PPCLandingBanner from "./ppc-components/ppc-landing-banner";
 import OurStatics from "@/components/our-statics/our-statics";
 import OurWorkSec from "@/components/component-v2/our-work-section/our-work-sec";
 import FaqAccordion from "@/components/common/faq-accordion/faq-accordion";
