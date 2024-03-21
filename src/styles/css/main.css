@@ -2,6 +2,7 @@
 body {
     -webkit-font-smoothing: antialiased;
 }
+
 h1 {
     font-size: 2.875em;
     line-height: 1.2;
@@ -1113,7 +1114,7 @@ span.prodress-pill.extra-class {
 }
 
 
-.select-item-with-search .dropdown-box ul li label{
+.select-item-with-search .dropdown-box ul li label {
 
     padding: 20px 15px 18px;
     color: #000;
@@ -1706,7 +1707,12 @@ ol {
     border-image-slice: 1;
     border-radius: 4px;
     display: inline-block;
-    animation: fade 4s infinite ease-in-out;
+    border-image-source: linear-gradient(135deg, #FEB692 0%, #EA5455 100%);
+    background: linear-gradient(135deg, #FEB692 0%, #EA5455 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* animation: fade 4s infinite ease-in-out; */
 }
 
 @keyframes fade {
@@ -2169,15 +2175,20 @@ ol {
 .actions a {
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
-    font-size: 1em;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 700;
     padding: 14px 17px;
     box-sizing: border-box;
     border: 3px solid;
     border-image-slice: 1;
     border-radius: 4px;
     display: inline-block;
-    animation: fade 4s infinite ease-in-out;
+    /* animation: fade 4s infinite ease-in-out; */
+    border-image-source: linear-gradient(135deg, #FEB692 0%, #EA5455 100%);
+    background: linear-gradient(135deg, #FEB692 0%, #EA5455 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @keyframes fade {

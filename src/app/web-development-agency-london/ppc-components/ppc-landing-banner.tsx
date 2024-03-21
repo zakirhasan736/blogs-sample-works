@@ -130,7 +130,7 @@ const PPCLandingBanner = () => {
       <div className="custom-container max-w-[1220px]">
         <div className="landingpage-hero-section flex items-start gap-2 md:flex-col md:gap-8">
           <div className="hero-content">
-            <p className="tag-title">
+            <p className="tag-title text-text-xxs-small">
               DISPLAY, E-COMMERCE, PORTFOLIO, WEB APPS
             </p>
             <h1>Web Development Agency</h1>
@@ -177,9 +177,9 @@ const PPCLandingBanner = () => {
 							</div>
 						</div> */}
             <div className="actions md:max-w-[600px] flex-col sm:gap-8">
-              <div className="flex flex-col w-1/2">
+              <div className="flex flex-col w-3/4">
                 <i className="mb-2">Already have a website??</i>
-                <a href="#">Take A Self Assessment Quiz</a>
+                <a href="#" className="text-center">Take A Self Assessment Quiz</a>
               </div>
               <div className="mt-[47px]">
                 <div className="flex gap-1">
