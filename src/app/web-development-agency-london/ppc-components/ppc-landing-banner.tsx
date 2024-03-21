@@ -13,19 +13,35 @@ const PPCLandingBanner = () => {
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [redirectTimer, setRedirectTimer] = useState(18);
   const [step, setStep] = useState(1);
+  const [hasWebsite, setHasWebsite] = useState('no');
 
-  const [data, setData] = useState({
-    fullName: "",
-    call: "",
-    email: "",
-    desc: "",
-  });
+  // const [data, setData] = useState({
+  //   fullName: "",
+  //   call: "",
+  //   email: "",
+  //   desc: "",
+  // });
+   const [data, setData] = useState({
+     websitePurpose: "",
+     concernAboutWebsite: "",
+     reachTargetAudience: "",
+     idealOutcomeOfRedesign: "",
+    budget: "",
+   });
+
+  // const [dataErrors, setDataErrors] = useState({
+  //   fullName: "",
+  //   call: "",
+  //   email: "",
+  //   desc: "",
+  // });
 
   const [dataErrors, setDataErrors] = useState({
-    fullName: "",
-    call: "",
-    email: "",
-    desc: "",
+    websitePurpose: "",
+    concernAboutWebsite: "",
+    reachTargetAudience: "",
+    idealOutcomeOfRedesign: "",
+    budget: "",
   });
 
   const handlesendDataChange = (field: string, value: string) => {
@@ -40,89 +56,178 @@ const PPCLandingBanner = () => {
     }));
   };
 
-  const handleSubmitCTAMessage = async (
-    e: React.FormEvent<HTMLFormElement>
-  ) => {
-    e.preventDefault();
-    setLoading(true);
-    const errors: any = {};
-    const phoneRegex = /^\+\d{1,4}\d{1,14}$/;
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    const isEmty = (input: any) => (input === "" ? true : false);
-    // Validate input fields based on the current step
-    if (isEmty(data.fullName)) {
-      errors.fullName = "First name is required";
-    }
-    if (isEmty(data.call)) {
-      errors.call = "Phone number is required";
-    } else if (!phoneRegex.test(data.call)) {
-      errors.call = "Phone number should be digits only";
-    }
-    if (isEmty(data.email)) {
-      errors.email = "Email is required";
-    } else if (!emailRegex.test(data.email)) {
-      errors.email = "Email should be a valid email address";
-    }
-    if (isEmty(data.desc)) {
-      errors.desc = "Description is required";
-    }
+  // const handleSubmitCTAMessage = async (
+  //   e: React.FormEvent<HTMLFormElement>
+  // ) => {
+  //   e.preventDefault();
+  //   setLoading(true);
+  //   const errors: any = {};
+  //   const phoneRegex = /^\+\d{1,4}\d{1,14}$/;
+  //   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  //   const isEmty = (input: any) => (input === "" ? true : false);
+  //   // Validate input fields based on the current step
+  //   if (isEmty(data.fullName)) {
+  //     errors.fullName = "First name is required";
+  //   }
+  //   if (isEmty(data.call)) {
+  //     errors.call = "Phone number is required";
+  //   } else if (!phoneRegex.test(data.call)) {
+  //     errors.call = "Phone number should be digits only";
+  //   }
+  //   if (isEmty(data.email)) {
+  //     errors.email = "Email is required";
+  //   } else if (!emailRegex.test(data.email)) {
+  //     errors.email = "Email should be a valid email address";
+  //   }
+  //   if (isEmty(data.desc)) {
+  //     errors.desc = "Description is required";
+  //   }
 
-    // Set form errors
-    setDataErrors({ ...dataErrors, ...errors });
+  //   // Set form errors
+  //   setDataErrors({ ...dataErrors, ...errors });
 
-    // If there are errors, stop loading and return
-    if (Object.keys(errors).length > 0) {
-      setLoading(false);
-      return;
-    }
+  //   // If there are errors, stop loading and return
+  //   if (Object.keys(errors).length > 0) {
+  //     setLoading(false);
+  //     return;
+  //   }
 
-    setDataErrors({ ...dataErrors, ...errors });
+  //   setDataErrors({ ...dataErrors, ...errors });
 
-    if (Object.keys(errors).length === 0) {
-      try {
-        const response = await fetch(
-          `${process.env.NEXT_PUBLIC_API_URL}/api/cta-mail-send`,
-          {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify(data),
-          }
-        );
+  //   if (Object.keys(errors).length === 0) {
+  //     try {
+  //       const response = await fetch(
+  //         `${process.env.NEXT_PUBLIC_API_URL}/api/cta-mail-send`,
+  //         {
+  //           method: "POST",
+  //           headers: {
+  //             "Content-Type": "application/json",
+  //           },
+  //           body: JSON.stringify(data),
+  //         }
+  //       );
 
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
+  //       if (!response.ok) {
+  //         throw new Error("Network response was not ok");
+  //       }
 
-        const responseData = await response.json();
+  //       const responseData = await response.json();
 
-        if (responseData.status === 200) {
-          setData({
-            fullName: "",
-            call: "",
-            email: "",
-            desc: "",
-          });
-          setSelectedValues([]);
-          setSuccessMessage("Message sent successfully!");
-          setFormSubmitted(true);
-          setTimeout(() => {
-            setSuccessMessage("");
-          }, 3000);
-        } else {
-          // Handle error
-          console.error("EmailJS error:", responseData);
-        }
-      } catch (error) {
-        console.error("EmailJS error:", error);
-      } finally {
-        setLoading(false); // Set loading state to false when done
-      }
-    } else {
-      setLoading(false);
-      return;
-    }
+  //       if (responseData.status === 200) {
+  //         setData({
+  //           fullName: "",
+  //           call: "",
+  //           email: "",
+  //           desc: "",
+  //         });
+  //         setSelectedValues([]);
+  //         setSuccessMessage("Message sent successfully!");
+  //         setFormSubmitted(true);
+  //         setTimeout(() => {
+  //           setSuccessMessage("");
+  //         }, 3000);
+  //       } else {
+  //         // Handle error
+  //         console.error("EmailJS error:", responseData);
+  //       }
+  //     } catch (error) {
+  //       console.error("EmailJS error:", error);
+  //     } finally {
+  //       setLoading(false); // Set loading state to false when done
+  //     }
+  //   } else {
+  //     setLoading(false);
+  //     return;
+  //   }
+  // };
+
+   const handleSubmitCTAMessage = async (
+     e: React.FormEvent<HTMLFormElement>
+   ) => {
+     e.preventDefault();
+     setLoading(true);
+     const errors: any = {};
+     const phoneRegex = /^\+\d{1,4}\d{1,14}$/;
+     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+     const isEmty = (input: any) => (input === "" ? true : false);
+     // Validate input fields based on the current step
+     if (isEmty(data.concernAboutWebsite) || isEmty(data.websitePurpose)) {
+       errors.fullName = "This field is required";
+     }
+    //  if (isEmty(data.idealOutcomeOfRedesign)) {
+    //    errors.call = "This field is required";
+    //  } else if (!phoneRegex.test(data.call)) {
+    //    errors.call = "Phone number should be digits only";
+     //  }
+     if (isEmty(data.idealOutcomeOfRedesign) || isEmty(data.reachTargetAudience)) {
+       errors.call = "This field is required";
+     }
+    //  if (isEmty(data.email)) {
+    //    errors.email = "Email is required";
+    //  } else if (!emailRegex.test(data.email)) {
+    //    errors.email = "Email should be a valid email address";
+    //  }
+     if (isEmty(data.budget)) {
+       errors.desc = "Pls add your budget";
+     }
+
+     // Set form errors
+     setDataErrors({ ...dataErrors, ...errors });
+
+     // If there are errors, stop loading and return
+     if (Object.keys(errors).length > 0) {
+       setLoading(false);
+       return;
+     }
+
+     setDataErrors({ ...dataErrors, ...errors });
+
+     if (Object.keys(errors).length === 0) {
+       try {
+         const response = await fetch(
+           `${process.env.NEXT_PUBLIC_API_URL}/api/cta-mail-send`,
+           {
+             method: "POST",
+             headers: {
+               "Content-Type": "application/json",
+             },
+             body: JSON.stringify(data),
+           }
+         );
+
+         if (!response.ok) {
+           throw new Error("Network response was not ok");
+         }
+
+         const responseData = await response.json();
+
+         if (responseData.status === 200) {
+           setData({
+             websitePurpose: "",
+             concernAboutWebsite: "",
+             reachTargetAudience: "",
+             idealOutcomeOfRedesign: "",
+             budget: "",
+           });
+           setSelectedValues([]);
+           setSuccessMessage("Message sent successfully!");
+           setFormSubmitted(true);
+           setTimeout(() => {
+             setSuccessMessage("");
+           }, 3000);
+         } else {
+           // Handle error
+           console.error("EmailJS error:", responseData);
+         }
+       } catch (error) {
+         console.error("EmailJS error:", error);
+       } finally {
+         setLoading(false); // Set loading state to false when done
+       }
+     } else {
+       setLoading(false);
+       return;
+     }
   };
 
   return (
@@ -179,7 +284,9 @@ const PPCLandingBanner = () => {
             <div className="actions md:max-w-[600px] flex-col sm:gap-8">
               <div className="flex flex-col w-3/4">
                 <i className="mb-2">Already have a website??</i>
-                <a href="#" className="text-center">Take A Self Assessment Quiz</a>
+                <a href="#" className="text-center">
+                  Take A Self Assessment Quiz
+                </a>
               </div>
               <div className="mt-[47px]">
                 <div className="flex gap-1">
@@ -223,18 +330,67 @@ const PPCLandingBanner = () => {
                 onSubmit={(e) => handleSubmitCTAMessage(e)}
                 className="cta-form-box steps-form-wrap w-full"
               >
+                <div>
+                  <span className="text-gray-700">
+                    Do you have a website already?
+                  </span>
+                  <div className="flex justify-between w-3/4">
+                    <label className="!flex gap-4">
+                      <input
+                        type="radio"
+                        className="form-radio h-6 w-6 accent-black"
+                        name="website"
+                        value="no"
+                        checked={hasWebsite === "no"}
+                        onChange={() => setHasWebsite("no")}
+                      />
+                      <span>No</span>
+                    </label>
+                    <label className="!flex gap-4">
+                      <input
+                        type="radio"
+                        className="form-radio h-6 w-6 accent-black"
+                        name="website"
+                        value="yes"
+                        checked={hasWebsite === "yes"}
+                        onChange={() => setHasWebsite("yes")}
+                      />
+                      <span>Yes</span>
+                    </label>
+                  </div>
+                </div>
                 <div className="contact-form-input-grid-box w-full mb-2">
                   <InputField
-                    name="fullName"
+                    name={
+                      hasWebsite === "yes"
+                        ? "concernAboutWebsite"
+                        : "websitePurpose"
+                    }
                     type="text"
                     id="fullName"
                     placeholder="John Doe"
-                    value={data.fullName}
-                    error={dataErrors.fullName}
+                    value={
+                      hasWebsite === "yes"
+                        ? `${data.concernAboutWebsite}`
+                        : `${data.websitePurpose}`
+                    }
+                    error={
+                      hasWebsite === "yes"
+                        ? `${data.concernAboutWebsite}`
+                        : `${data.websitePurpose}`
+                    }
                     onChange={handlesendDataChange}
-                    htmlFor="fullName"
+                    htmlFor={
+                      hasWebsite === "yes"
+                        ? "concernAboutWebsite"
+                        : "websitePurpose"
+                    }
                     labeltextItem={true}
-                    labelText="Name"
+                    labelText={
+                      hasWebsite === "yes"
+                        ? "What is your main concern about your current website?"
+                        : "What is the purpose of your new website?"
+                    }
                   />
                 </div>
                 <div className="contact-form-input-grid-box w-full mb-2">
@@ -242,18 +398,48 @@ const PPCLandingBanner = () => {
                   <InputField
                     htmlFor="email"
                     type="text"
-                    name="email"
+                    name={
+                      hasWebsite === "yes"
+                        ? "idealOutcomeOfRedesign"
+                        : "reachTargetAudience"
+                    }
                     id="email"
-                    value={data.email}
-                    error={dataErrors.email}
+                    value={
+                      hasWebsite === "yes"
+                        ? `${data.idealOutcomeOfRedesign}`
+                        : `${data.reachTargetAudience}`
+                    }
+                    error={
+                      hasWebsite === "yes"
+                        ? `${data.idealOutcomeOfRedesign}`
+                        : `${data.reachTargetAudience}`
+                    }
                     onChange={handlesendDataChange}
                     placeholder="johndoe@domain.com"
                     labeltextItem={true}
-                    labelText="Email"
+                    labelText={
+                      hasWebsite === "yes"
+                        ? "What is the Ideal outcome of the redesign?"
+                        : "How do you currently reach your target audience?"
+                    }
                   />
                 </div>
                 <div className="contact-form-input-grid-box w-full mb-2">
-                  {/* ======= */}
+                  <InputField
+                    name="budget"
+                    type="text"
+                    id="budget"
+                    placeholder="e.g. £4000"
+                    value={data.budget}
+                    error={dataErrors.budget}
+                    onChange={handlesendDataChange}
+                    htmlFor="budget"
+                    labeltextItem={true}
+                    labelText="Budget"
+                  />
+                </div>
+                {/* <div className="contact-form-input-grid-box w-full mb-2">
+                  {/* ======= *
                   <InputCountryNumberSelect
                     type="text"
                     id="call"
@@ -266,9 +452,9 @@ const PPCLandingBanner = () => {
                     onChange={handlesendDataChange}
                   />
 
-                  {/* ========= */}
-                </div>
-                <div className="contact-form-input-grid-box w-full mb-2">
+                  {/* ========= *
+                </div> */}
+                {/* <div className="contact-form-input-grid-box w-full mb-2">
                   <TextArea
                     htmlFor="desc"
                     id="desc"
@@ -280,7 +466,7 @@ const PPCLandingBanner = () => {
                     labeltextItem={true}
                     labelText="Message/Query"
                   />
-                </div>
+                </div> */}
                 <div className="submite-btn-box mt-5 flex flex-col-reverse gap-4">
                   {success && !loading && <p className="block">{success}</p>}
                   <button

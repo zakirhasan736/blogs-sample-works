@@ -1749,6 +1749,7 @@ ol {
     }
 }
 
+
 /* services main page style start here */
 .services-wrapper-main-content {
     background: radial-gradient(50% 50% at 50% 50%, #151D48 0%, #0D0E19 100%);
@@ -2735,3 +2736,4 @@ button.glow-button {
 .glow-btn-outline button.glow-button>span {
     background: #000;
 }
+
