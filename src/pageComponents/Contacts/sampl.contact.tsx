@@ -375,9 +375,10 @@ const ContactPageVersionTw: React.FC = () => {
 		setLoading(true);
 		const errors: any = {};
 		const phoneRegex = /^\+\d{1,4}\d{1,14}$/;
+
 		const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 		const isEmty = (input: any) => (input === "" ? true : false);
-
+		// Validate input fields based on the current step
 		if (step === 1) {
 			if (isEmty(data.fullName)) {
 				errors.fullName = "First name is required";
@@ -385,7 +386,7 @@ const ContactPageVersionTw: React.FC = () => {
 			if (isEmty(data.call)) {
 				errors.call = "Phone number is required";
 			} else if (!phoneRegex.test(data.call)) {
-				errors.call = "Phone number should be digits only";
+				errors.call = "Phone number should be  digits only";
 			}
 			if (isEmty(data.email)) {
 				errors.email = "Email is required";
@@ -393,7 +394,7 @@ const ContactPageVersionTw: React.FC = () => {
 				errors.email = "Email should be a valid email address";
 			}
 			if (isEmty(data.serviceType)) {
-				errors.serviceType = "Service type is required";
+				errors.serviceType = "service type is required";
 			}
 		} else if (step === 2) {
 			if (isEmty(data.investmentRabge)) {
@@ -405,6 +406,9 @@ const ContactPageVersionTw: React.FC = () => {
 			if (isEmty(data.objective)) {
 				errors.objective = "Objective type is required";
 			}
+			//   if (isEmty(data.desc)) {
+			//     errors.desc = "Description is required";
+			//   }
 			if (isEmty(data.PivacyCheckmark)) {
 				errors.PivacyCheckmark = "Privacy consent is required";
 			}
@@ -420,18 +424,16 @@ const ContactPageVersionTw: React.FC = () => {
 		}
 
 		setDataErrors({ ...dataErrors, ...errors });
-	if (Object.keys(errors).length === 0) {
+
+		if (Object.keys(errors).length === 0) {
 			try {
-				const response = await fetch(
-					`${process.env.NEXT_PUBLIC_API_URL}/api/mail-send`,
-					{
-						method: "POST",
-						headers: {
-							"Content-Type": "application/json",
-						},
-						body: JSON.stringify(data),
+				const response = await fetch(`api/mail`, {
+					method: "POST",
+					headers: {
+						"Content-Type": "application/json",
 					},
-				);
+					body: JSON.stringify(data),
+				});
 
 				if (!response.ok) {
 					throw new Error("Network response was not ok");
@@ -453,13 +455,10 @@ const ContactPageVersionTw: React.FC = () => {
 					});
 					setSelectedValues([]);
 					setSuccessMessage("Message sent successfully!");
-
-					if (step === 1) {
-						setStep(2);
-					} else {
-						// If we are on the second step, set the form submission success flag to true
-						setFormSubmitted(true);
-					}
+					setFormSubmitted(true);
+					setTimeout(() => {
+						setSuccessMessage("");
+					}, 3000);
 				} else {
 					// Handle error
 					console.error("EmailJS error:", responseData);
@@ -469,11 +468,18 @@ const ContactPageVersionTw: React.FC = () => {
 			} finally {
 				setLoading(false);
 			}
-	} else {
-		setLoading(false);
-		return;
-	}
-	
+		} else {
+			setLoading(false);
+			return;
+		}
+
+		if (step === 1) {
+			if (data.fullName !== "" || data.call !== "" || data.email !== "") {
+				setStep(2);
+			} else {
+				return false;
+			}
+		}
 	};
 
 	const prevStep = () => {
@@ -488,7 +494,6 @@ const ContactPageVersionTw: React.FC = () => {
 			}
 		}
 	};
-
 	return (
 		<div className="contact-page-main-wrapper min-h-[680px] sm:min-h-auto relative z-50">
 			<div className="contact-page-main-cont-wrapper  pb-[80px] sm:pb-[65px]">
