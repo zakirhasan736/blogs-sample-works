@@ -2797,3 +2797,15 @@ h1,h2,h3,h4,h5,h6 {
     color: #1A1A1A;
     text-decoration: underline;
 }
+
+.experience {
+   
+}
+
+.experience .box {
+    border-top: 1px solid #4D4D4D;
+}
+
+.experience .box div:first-child {
+    border-right: 1px solid #4D4D4D;
+}
