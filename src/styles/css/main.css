@@ -2828,14 +2828,14 @@ h1,h2,h3,h4,h5,h6 {
         padding: 8px 16px;
         gap: 8px;
         border-radius: 4px ;
-}
-
-.testimonials h2 {
-        font-size: 40px;
-        font-weight: 400;
-        line-height: 48px;
-        letter-spacing: 0.05em;
-}
+    }
+    
+    .testimonials h2 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+    }
 .testimonials p {
         font-size: 18px;
         font-weight: 400;
