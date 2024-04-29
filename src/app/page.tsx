@@ -5,6 +5,7 @@ import AboutUsSection from "@/components/component-v2/aboutus-section/aboutus";
 import CTASectionVersionTwo from "@/components/component-v2/cta-section/cta-section-v2";
 import OurStorySection from "@/components/component-v2/our-story-section/our-story-section";
 import ServicesSection from "@/components/component-v2/services-section/services";
+import BlogsSec from "@/components/component-v3/blogs/blogs";
 import ExperienceSec from "@/components/component-v3/experience/experience";
 import PartnersSec from "@/components/component-v3/partners/partners";
 import PortfolioSec from "@/components/component-v3/portfolio/portfolio";
@@ -66,6 +67,9 @@ const Home = () => {
         {/* partners banner section */}
         <PartnersSec />
         {/* partners banner section end*/}
+        {/* blogs banner section */}
+        <BlogsSec />
+        {/* blogs banner section end*/}
       </div>
     </>
   );
