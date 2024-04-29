@@ -6,6 +6,7 @@ import CTASectionVersionTwo from "@/components/component-v2/cta-section/cta-sect
 import OurStorySection from "@/components/component-v2/our-story-section/our-story-section";
 import ServicesSection from "@/components/component-v2/services-section/services";
 import ExperienceSec from "@/components/component-v3/experience/experience";
+import PartnersSec from "@/components/component-v3/partners/partners";
 import PortfolioSec from "@/components/component-v3/portfolio/portfolio";
 import ServicesSec from "@/components/component-v3/services/services";
 import TestimonialSec from "@/components/component-v3/testimonials/testimonials";
@@ -62,6 +63,9 @@ const Home = () => {
         {/* testimonial banner section */}
         < TestimonialSec />
         {/* testimonial banner section end*/}
+        {/* partners banner section */}
+        <PartnersSec />
+        {/* partners banner section end*/}
       </div>
     </>
   );

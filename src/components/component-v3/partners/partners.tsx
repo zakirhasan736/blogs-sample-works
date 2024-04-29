@@ -2,24 +2,24 @@
 
 import React, { useState } from "react";
 import { Image, Link } from "@packages/packages";
+import ClientSlider from "@/components/common/cliend-slider/clientSlider";
 
 
-const TestimonialSec = () => {
+const PartnersSec = () => {
 
 	return (
-    <section className="testimonials bg-[#fff] text-[#181725] pt-[101px] pb-[48px]">
+    <section className="partners bg-[#181725] text-[#fff] pt-[33px] pb-[75px]">
       <div className="custom-container">
-          <div className="flex gap-10">
-            <h2 className="text-[#181725]">Testimonials</h2>
-            <p>
-              Our clients have amazing things to say about Particular. Read what{" "}
-              <br />
-              they have to say.
-            </p>
+        <div className="flex justify-between mb-[73px]">
+          <h2>Trusted by 50+ <br /> companies globally</h2>
+          <Link href="">
+            <button>Start a Project</button>
+          </Link>
         </div>
+        <ClientSlider />
       </div>
     </section>
   );
 };
 
-export default TestimonialSec;
+export default PartnersSec;
