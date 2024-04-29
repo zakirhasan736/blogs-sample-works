@@ -11,6 +11,7 @@ import PartnersSec from "@/components/component-v3/partners/partners";
 import PortfolioSec from "@/components/component-v3/portfolio/portfolio";
 import ServicesSec from "@/components/component-v3/services/services";
 import TestimonialSec from "@/components/component-v3/testimonials/testimonials";
+import VideoSec from "@/components/component-v3/video/video";
 import TestimonialsVersionTwo from "@/components/testimonials-section/testimonials-v2";
 import ThemeSectionMode from "@/components/theme-mode/theme-section-mode";
 import LatestBlogs from "@data/blogs/short-blog-data.json";
@@ -70,6 +71,9 @@ const Home = () => {
         {/* blogs banner section */}
         <BlogsSec />
         {/* blogs banner section end*/}
+        {/* video banner section */}
+        <VideoSec />
+        {/* video banner section end*/}
       </div>
     </>
   );
