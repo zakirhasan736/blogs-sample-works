@@ -5,6 +5,7 @@ import AboutUsSection from "@/components/component-v2/aboutus-section/aboutus";
 import CTASectionVersionTwo from "@/components/component-v2/cta-section/cta-section-v2";
 import OurStorySection from "@/components/component-v2/our-story-section/our-story-section";
 import ServicesSection from "@/components/component-v2/services-section/services";
+import PortfolioSec from "@/components/component-v3/portfolio/portfolio";
 import TestimonialsVersionTwo from "@/components/testimonials-section/testimonials-v2";
 import ThemeSectionMode from "@/components/theme-mode/theme-section-mode";
 import LatestBlogs from "@data/blogs/short-blog-data.json";
@@ -46,6 +47,9 @@ const Home = () => {
         {/* home banner section */}
         <HomeBanner />
         {/* home banner section end*/}
+        {/* portfolio banner section */}
+        < PortfolioSec />
+        {/* portfolio banner section end*/}
       </div>
     </>
   );

@@ -2741,7 +2741,7 @@ button.glow-button {
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
 
-body, p, div, span {
+body, p, div, span, a {
 font-family: 'Helvetica Neue', sans-serif;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -2769,4 +2769,31 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
+}
+
+/* Portfolio */
+.portfolio {
+    background: #E1E4E8;
+    padding: 64px 0 106px;
+}
+
+.portfolio h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.4px;
+    letter-spacing: 0.05em;
+}
+
+.portfolio p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.portfolio a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #1A1A1A;
+    text-decoration: underline;
 }
