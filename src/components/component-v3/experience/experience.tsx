@@ -42,7 +42,6 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
           </button>
         </div>
         <div className="text-center">
-          <div className="v-line"></div>
           <div className="flex">
             <div>
               <h2>61%</h2>
@@ -51,7 +50,6 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
                 experience{" "}
               </p>
             </div>
-            <div className="h-line"></div>
             <div>
               <h2>140%</h2>
               <p>

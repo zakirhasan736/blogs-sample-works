@@ -7,6 +7,7 @@ import OurStorySection from "@/components/component-v2/our-story-section/our-sto
 import ServicesSection from "@/components/component-v2/services-section/services";
 import ExperienceSec from "@/components/component-v3/experience/experience";
 import PortfolioSec from "@/components/component-v3/portfolio/portfolio";
+import ServicesSec from "@/components/component-v3/services/services";
 import TestimonialsVersionTwo from "@/components/testimonials-section/testimonials-v2";
 import ThemeSectionMode from "@/components/theme-mode/theme-section-mode";
 import LatestBlogs from "@data/blogs/short-blog-data.json";
@@ -53,6 +54,9 @@ const Home = () => {
         {/* portfolio banner section end*/}
         {/* experience banner section */}
         < ExperienceSec />
+        {/* experience banner section end*/}
+        {/* experience banner section */}
+        < ServicesSec />
         {/* experience banner section end*/}
       </div>
     </>
