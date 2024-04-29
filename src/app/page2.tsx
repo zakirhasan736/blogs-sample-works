@@ -1,6 +1,6 @@
 "use client";
 import ArticleSectionVersionTwo from "@/components/article-section/article-section-v2";
-import HomeBanner from "@/components/common/banner/home-banner-3";
+import HomeBanner from "@/components/common/banner/home-banner-2";
 import AboutUsSection from "@/components/component-v2/aboutus-section/aboutus";
 import CTASectionVersionTwo from "@/components/component-v2/cta-section/cta-section-v2";
 import OurStorySection from "@/components/component-v2/our-story-section/our-story-section";
@@ -46,6 +46,28 @@ const Home = () => {
         {/* home banner section */}
         <HomeBanner />
         {/* home banner section end*/}
+        <AboutUsSection />
+        {/* home testimonials section */}
+        <TestimonialsVersionTwo TestiSlides={testimonialsSliderData} />
+        {/* home testimonials section end*/}
+        {/* home services section  */}
+        <ServicesSection />
+        {/* home services section  end*/}
+        {/* <PartnerSection /> */}
+
+        <ThemeSectionMode />
+        {/* our story section */}
+        <OurStorySection />
+        {/* our story section end*/}
+        {/* home article section */}
+        <div className="article-and-cta-section">
+          <CTASectionVersionTwo />
+          <ArticleSectionVersionTwo
+            latestBlogs={latestThreeBlogs}
+            ShortBlogs={true}
+          />
+        </div>
+        {/* home article section end*/}
       </div>
     </>
   );
