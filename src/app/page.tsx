@@ -6,6 +6,7 @@ import CTASectionVersionTwo from "@/components/component-v2/cta-section/cta-sect
 import OurStorySection from "@/components/component-v2/our-story-section/our-story-section";
 import ServicesSection from "@/components/component-v2/services-section/services";
 import BlogsSec from "@/components/component-v3/blogs/blogs";
+import ContactSec from "@/components/component-v3/contact/contact";
 import ExperienceSec from "@/components/component-v3/experience/experience";
 import PartnersSec from "@/components/component-v3/partners/partners";
 import PortfolioSec from "@/components/component-v3/portfolio/portfolio";
@@ -55,25 +56,28 @@ const Home = () => {
         {/* home banner section end*/}
         {/* portfolio banner section */}
         < PortfolioSec />
-        {/* portfolio banner section end*/}
-        {/* experience banner section */}
+        {/* portfolio section end*/}
+        {/* experience section */}
         < ExperienceSec />
-        {/* experience banner section end*/}
-        {/* services banner section */}
+        {/* experience section end*/}
+        {/* services section */}
         < ServicesSec />
-        {/* services banner section end*/}
-        {/* testimonial banner section */}
+        {/* services section end*/}
+        {/* testimonial section */}
         < TestimonialSec />
-        {/* testimonial banner section end*/}
-        {/* partners banner section */}
+        {/* testimonial section end*/}
+        {/* partners section */}
         <PartnersSec />
-        {/* partners banner section end*/}
-        {/* blogs banner section */}
+        {/* partners section end*/}
+        {/* blogs section */}
         <BlogsSec />
-        {/* blogs banner section end*/}
-        {/* video banner section */}
+        {/* blogs section end*/}
+        {/* video section */}
         <VideoSec />
-        {/* video banner section end*/}
+        {/* video section end*/}
+        {/* contact section */}
+        <ContactSec />
+        {/* contact section end*/}
       </div>
     </>
   );
