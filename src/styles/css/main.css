@@ -2884,7 +2884,6 @@ footer button {
     font-weight: 400;
     line-height: 14.4px;
     letter-spacing: 0.15em;
-    margin-bottom: 7px;
 }
 
 .blogs p {
@@ -2915,7 +2914,7 @@ footer button {
 
 .blogs .bg-no-repea {
     position: relative;
-        background-color: rgba(0, 0, 0, .4);
+        background-color: rgba(0, 0, 0, 0.3);
             position: relative;
             background-size: cover;
             background-position: center;
