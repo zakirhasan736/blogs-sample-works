@@ -58,7 +58,22 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
           </motion.p>
           <button className="lbtn">Let's talk</button>
         </div>
-        <Image src="/images/agency.png" alt="brand" width={139} height={68} className="absolute bottom-[37px] right-4"/>
+        <Image
+          src="/images/agency.png"
+          alt="brand"
+          width={139}
+          height={68}
+          className="absolute bottom-[37px] right-4"
+        />
+        <Link href="">
+          <Image
+            src="/images/network.png"
+            alt="brand"
+            width={126}
+            height={69}
+            className="absolute bottom-[373px] right-0 sm:bottom-[573px]"
+          />
+        </Link>
       </div>
     </motion.section>
   );
