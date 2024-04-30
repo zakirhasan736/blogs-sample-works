@@ -13,7 +13,17 @@ const BlogsSec = () => {
           <div>
             <h2>News & Blog</h2>
           </div>
-          <div className="bg-no-repea bg-[url('/images/blog.png')] h-[262px]">
+          <div className="bg-no-repea h-[262px]">
+            <div className="overlay"></div>
+            <video
+              autoPlay
+              muted
+              loop
+              className="absolute inset-0 z-0 w-full h-full object-cover"
+            >
+              <source src="/images/blog.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
             <div className="content">
               <h5>cx</h5>
               <p>
@@ -56,7 +66,17 @@ const BlogsSec = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-no-repea bg-[url('/images/blog6.png')] h-[262px]">
+            <div className="bg-no-repea bg-[url('/images/blo.png')] h-[262px]">
+              <div className="overlay"></div>
+              <video
+                autoPlay
+                muted
+                loop
+                className="absolute inset-0 z-0 w-full h-full object-cover"
+              >
+                <source src="/images/blog6.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
               <div className="content">
                 <h5>design</h5>
                 <p>
@@ -65,7 +85,17 @@ const BlogsSec = () => {
               </div>
             </div>
           </div>
-          <div className="bg-no-repea bg-[url('/images/blog5.png')] mt-[14px] h-[540px] sm:h-[262px]">
+          <div className="bg-no-repea mt-[14px] h-[540px] sm:h-[262px]">
+            <div className="overlay"></div>
+            <video
+              autoPlay
+              muted
+              loop
+              className="absolute inset-0 z-0 w-full h-full object-cover"
+            >
+              <source src="/images/blog5.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
             <div className="content">
               <h5>business</h5>
               <p>
