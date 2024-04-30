@@ -29,7 +29,7 @@ const BlogsSec = () => {
           </div>
         </div>
         <div className="grid-container">
-          <div className="bg-no-repea bg-[url('/images/blog2.png')] mt-[14px] h-[540px]">
+          <div className="bg-no-repea bg-[url('/images/blog2.png')] mt-[14px] h-[540px] sm:h-[262px]">
             <div className="content">
               <h5>social media</h5>
               <p>why is apple’s marketing so effective?</p>
@@ -65,7 +65,7 @@ const BlogsSec = () => {
               </div>
             </div>
           </div>
-          <div className="bg-no-repea bg-[url('/images/blog5.png')] mt-[14px] h-[540px]">
+          <div className="bg-no-repea bg-[url('/images/blog5.png')] mt-[14px] h-[540px] sm:h-[262px]">
             <div className="content">
               <h5>business</h5>
               <p>

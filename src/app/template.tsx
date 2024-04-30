@@ -1,8 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import LoadingScreen from "@/components/common/pre-loader/LoadingScreen";
-import { Footer, Navbar } from "@/components";
-// import Navbar from "@/components/navbar/navbar";
+import Footer from "@/components/component-v3/footer/footer";
 
 export default function Template({ children }: { children: React.ReactNode }) {
 	const [pageLoaded, setPageLoaded] = useState(false);
@@ -21,12 +20,12 @@ export default function Template({ children }: { children: React.ReactNode }) {
 
 	return (
 		<>
-			<Navbar />
+			{/* <Navbar /> */}
 			<main className="pca-marketing-main-wraper">{children}</main>
 			<Footer />
-			{!pageLoaded && (
+			{/* {!pageLoaded && (
 				<LoadingScreen  />
-			)}
+			)} */}
 		</>
 	);
 }

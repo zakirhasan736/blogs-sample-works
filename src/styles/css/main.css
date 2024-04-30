@@ -2741,12 +2741,23 @@ button.glow-button {
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
 
-body, p, div, span, a {
-font-family: 'Helvetica Neue', sans-serif;
+body,
+p,
+div,
+span,
+a {
+    font-family: 'Helvetica Neue', sans-serif;
 }
-h1,h2,h3,h4,h5,h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Manrope", sans-serif;
 }
+
 .home-banner-section-v3 h1 {
     font-size: 56px;
     font-weight: 400;
@@ -2798,9 +2809,7 @@ h1,h2,h3,h4,h5,h6 {
     text-decoration: underline;
 }
 
-.experience {
-   
-}
+.experience {}
 
 .experience .box {
     border-top: 1px solid #4D4D4D;
@@ -2811,44 +2820,48 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .services h3 {
-        font-size: 24px;
-        font-weight: 700;
-        line-height: 28.8px;
-        letter-spacing: 0.05em;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    letter-spacing: 0.05em;
 }
+
 .services a {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 200;
     line-height: 33px;
 }
 
 .testimonials button {
     border: 1px solid #181725;
-        height: 48px;
-        padding: 8px 16px;
-        gap: 8px;
-        border-radius: 4px ;
-    }
-    
-    .testimonials h2, .partners h2 {
+    height: 48px;
+    padding: 8px 16px;
+    gap: 8px;
+    border-radius: 4px;
+}
+
+.testimonials h2,
+.partners h2 {
     font-size: 40px;
     font-weight: 400;
     line-height: 48px;
     letter-spacing: 0.05em;
-    }
-.testimonials p {
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 32.4px;
 }
 
-.partners button {
-            height: 48px;
-                padding: 8px 16px;
-                gap: 8px;
-                border-radius: 4px;
-                background: #fff;
-               color: #181725;
+.testimonials p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+}
+
+.partners button,
+footer button {
+    height: 48px;
+    padding: 8px 16px;
+    gap: 8px;
+    border-radius: 4px;
+    background: #fff;
+    color: #181725;
 }
 
 .blogs {
@@ -2857,37 +2870,38 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .blogs h2 {
-        font-size: 56px;
-        font-weight: 400;
-        line-height: 58.8px;
-        letter-spacing: 0.05em;
-        color: #181725;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 58.8px;
+    letter-spacing: 0.05em;
+    color: #181725;
 }
 
 .blogs h5 {
     text-transform: uppercase;
-        font-family: Helvetica Neue;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 14.4px;
-        letter-spacing: 0.15em;
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    letter-spacing: 0.15em;
 }
+
 .blogs p {
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
 }
 
-.blogs .grid-container{
-   display: grid;
-   grid-template-columns: 1fr 3fr 1fr;
-   gap: 24px;
+.blogs .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 24px;
 }
 
-.blogs .grids{
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   gap: 24px;
+.blogs .grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
 }
 
 .blogs .bg-no-repea {
@@ -2895,9 +2909,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .blogs .bg-no-repea .content {
-   position: absolute;
-   left: 16px;
-   bottom: 32px;
+    position: absolute;
+    left: 16px;
+    bottom: 32px;
 }
 
 .contact-sec {
@@ -2908,21 +2922,22 @@ h1,h2,h3,h4,h5,h6 {
     color: #000000;
 }
 
-.contact-sec  img {
+.contact-sec img {
     height: 100%;
     object-fit: cover;
 }
 
 .contact-form h3 {
-        font-size: 32px;
-        font-weight: 400;
-        line-height: 48px;
-        letter-spacing: 0.05em;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.05em;
 }
+
 .contact-form p {
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 .contact-form form .form-row {
@@ -3024,9 +3039,43 @@ select:focus~.underline:before,
 .contact-form button {
     background: #181725;
     color: #fff;
-        height: 40px;
-        padding: 8px 16px ;
-        border-radius: 4px;
+    height: 40px;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+footer button {
+    margin-top: 16px;
+}
+
+footer .footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 96px;
+}
+
+footer .footer-title h5 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    letter-spacing: 0.15em;
+    margin-bottom: 12px;
+}
+
+footer ul li {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 8px;
+}
+
+footer .copy,
+footer .copy li {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16.5px;
+    text-align: left;
 }
 
 @media (max-width: 700px) {
@@ -3046,7 +3095,39 @@ select:focus~.underline:before,
         margin: 35px 0 !important;
     }
 
-    .submit-btn .input-data {
-        width: 40% !important;
+    .flex {
+        flex-direction: column;
+    }
+
+    .grid-container,
+    .grids,
+    .footer-container,
+    .contact-sec {
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+    }
+
+    p {
+        line-height: 20px;
+        font-size: 16px !important;
+    }
+
+    br {
+        display: none;
+    }
+
+h1 {
+        font-size: 36px !important;
+        line-height: 38.8px !important;
+    }
+
+        h2 {
+            font-size: 30px !important;
+            line-height: 36.8px !important;
+        }
+
+    h3 {
+        font-size: 24px !important;
+            line-height: 38px !important;
     }
 }

@@ -11,7 +11,7 @@ const ServicesSec: React.FC<ServicesSecProps> = () => {
         <div className="flex justify-between">
           <div>
             <h3>SERVICES</h3>
-            <div className="mt-[83px] award-item-box flex items-center gap-4 justify-center">
+            <div className="sm:my-8 mt-[83px] award-item-box flex items-center sm:items-start gap-4 justify-center ">
               <div className="award-items">
                 <Image
                   src="/images/top_clutch-award-1.svg"

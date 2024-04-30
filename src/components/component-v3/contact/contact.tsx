@@ -12,7 +12,7 @@ const ContactSec= () => {
         width={710}
         height={600}
       />
-      <div className="contact-form pt-[74px] pb-[50px]">
+      <div className="contact-form pt-[74px] pb-[50px] sm:pt-[40px] sm:px-8">
         <h3>Ready to get started?</h3>
         <p>Fast track your growth with Particular </p>
         <form className="pr-[176px]">

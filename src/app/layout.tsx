@@ -2,21 +2,8 @@ import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import "./globals.css";
 import "@/styles/css/main.css";
-import { Urbanist, Inter } from "next/font/google";
 import React from "react";
 import Script from "next/script";
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-  display: "swap",
-});
-
-const urbanist = Urbanist({
-  subsets: ["latin"],
-  variable: "--font-urbanist",
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: "Particular Agency | Digital Marketing Agency in London",
@@ -31,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${urbanist.variable}`}>
+    <html lang="en">
       <body className="pca-marketing-page-body md:border-0">
         <noscript>
           <iframe
