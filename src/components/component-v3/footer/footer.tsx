@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="custom-container">
         <div className="footer-container">
           <div>
-            <Image src="/images/logo.png" alt="logo" width={216} height={87} />
+            <Image src="/images/logo.svg" alt="logo" width={216} height={87} />
             <p>
               Our gift is observation, it just so happens we’re a Marketing
               agency.
