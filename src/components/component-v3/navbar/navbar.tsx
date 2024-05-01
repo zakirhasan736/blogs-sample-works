@@ -8,7 +8,7 @@ const Navbar = () => {
   setIsDrawerOpen(!isDrawerOpen);
 };
   return (
-    <>
+    <nav className="absolute pt-10 z-[99999] w-full">
       <div className=" custom-container flex sm:hidden">
         <Link href="/">
           <Image
@@ -19,7 +19,7 @@ const Navbar = () => {
           />
         </Link>
         <ul className=" text-text-extra-small flex flex-row gap-14 ml-[99px] mr-[75px]">
-          <li className="!hover:[#026FEE]">
+          <li className="text-[#026FEE]">
             <Link href="/">AGENCY</Link>
           </li>
           <li className="hover:[#026FEE]">
@@ -80,7 +80,7 @@ const Navbar = () => {
             </svg>
           </button>
           <ul className="flex flex-col space-y-4">
-            <li className="hover:[#026FEE]">
+            <li className="!hover-[#026FEE]">
               <Link href="/">AGENCY</Link>
             </li>
             <li className="hover:[#026FEE]">
@@ -108,7 +108,8 @@ const Navbar = () => {
           <button className="btn mt-16">Brand Assessment</button>
         </div>
       </div>
-    </>
+      <button className="btn sm:hidden absolute right-4 top-[23px]">Brand Assessment</button>
+    </nav>
   );
 };
 
