@@ -2990,6 +2990,10 @@ footer button {
         line-height: 21px;
 }
 
+.contacts .input-data .underline:before {
+    background: rgba(255, 255, 255, 0.2);
+}
+
 .contact-sec img {
     height: 100%;
     object-fit: cover;
