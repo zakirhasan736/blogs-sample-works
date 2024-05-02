@@ -2741,6 +2741,9 @@ button.glow-button {
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
 
+body.pca-marketing-page-body {
+    background: #1A1A1A;
+}
 body,
 p,
 div,
@@ -2753,8 +2756,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5{
     font-family: "Manrope", sans-serif;
 }
 
@@ -2952,6 +2954,42 @@ footer button {
     color: #000000;
 }
 
+.contacts {
+        background: unset;
+            color: #fff;
+            padding: 185px 0 104px;
+}
+
+.contacts h2 {
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 67.2px;
+        letter-spacing: 0.05em;
+        margin-bottom: 24px;
+}
+.contacts textarea,
+.contacts input,
+.contacts select,
+.contacts label {
+    background-color: transparent !important;
+}
+
+.contacts label {
+    color: #fff !important;
+}
+
+.contacts .input-data input,
+.contacts select,
+.contacts .textarea textarea {
+    border-bottom: 1px solid #fff;
+}
+
+.contacts .text-sm {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+}
+
 .contact-sec img {
     height: 100%;
     object-fit: cover;
@@ -2998,7 +3036,7 @@ select,
     height: 100%;
     border: none;
     font-size: 17px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
 .contact-form input:focus,
@@ -3064,14 +3102,6 @@ select:valid~.underline:before,
 select:focus~.underline:before,
 .textarea textarea:valid~.underline:before {
     transform: scale(1);
-}
-
-.contact-form button {
-    background: #181725;
-    color: #fff;
-    height: 40px;
-    padding: 8px 16px;
-    border-radius: 4px;
 }
 
 footer button {

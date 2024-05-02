@@ -1,20 +1,40 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
-const ContactSec= () => {
+const ContactVersionThree = () => {
   return (
-    <section className="contact-sec">
-      <Image
-        src="/images/contact.jpg"
-        alt="Contact Image"
-        width={710}
-        height={600}
-      />
-      <div className="contact-form pt-[74px] pb-[50px] sm:pt-[40px] sm:px-8">
-        <h3>Ready to get started?</h3>
-        <p>Fast track your growth with Particular </p>
+    <section className="custom-container contacts contact-sec sm:px-8">
+      <div className="lg:px-8">
+        <h2>Get in touch</h2>
+        <p className="text-lg">
+          Fill in the form below, and we’ll be in touch.
+        </p>
+        <div className="mt-[65px]">
+          <h6 className="text-text-extra-small mb-2 uppercase">
+            Help And Support?
+          </h6>
+          <p className="text-sm">
+            Please send us all queries or support requests on the email
+            mentioned below. <br />
+            <Link href="mailto:info@byparticular.com">
+              info@byparticular.com
+            </Link>
+          </p>
+        </div>
+        <div className="mt-[41px]">
+          <h6 className="text-text-extra-small mb-2 uppercase">
+            Ready To Go? Call Us
+          </h6>
+          <p className="text-sm">
+            Speak to us Mon - Fri from 9am to 6pm on <br />
+            <Link href="mailto:+4402080682102">+44 (0) 208 068 2102</Link>
+          </p>
+        </div>
+      </div>
+      <div className="contact-form sm:px-8">
         <form className="pr-[176px]">
           <div className="form-row">
             <div className="input-data">
@@ -69,11 +89,13 @@ const ContactSec= () => {
               <br />
             </div>
           </div>
-          <button className="btn btn-dark" type="submit">Send</button>
+          <button className="btn" type="submit">
+            Send
+          </button>
         </form>
       </div>
     </section>
   );
 };
 
-export default ContactSec;
+export default ContactVersionThree;
