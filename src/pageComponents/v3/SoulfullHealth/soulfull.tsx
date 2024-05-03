@@ -216,7 +216,7 @@ const SoulfullHealth = () => {
           <button className="btn btn-dark mt-[30px]">Start a project</button>
         </div>
         <div className="custom-container text-[#181725] mt-[85px]">
-          <div className="flex justify-between">
+          <div className="flex justify-between soul">
             <h4>See more Particular projects</h4>
             <button> See all</button>
           </div>

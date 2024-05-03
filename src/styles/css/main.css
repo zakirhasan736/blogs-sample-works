@@ -2761,6 +2761,20 @@ h5{
     margin: 0;
 }
 
+h1 {
+        font-size: 56px;
+        font-weight: 400;
+        line-height: 58.8px;
+        letter-spacing: 0.05em;
+}
+
+h2 {
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0.05em;
+}
+
 h3 {
     font-size: 32px;
     font-weight: 400;
@@ -2773,6 +2787,12 @@ h4 {
         font-weight: 400 ;
         line-height: 28.8px;
         letter-spacing: 0.05em;
+}
+
+p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
 }
 
 .lgp {
@@ -2877,7 +2897,7 @@ h4 {
     line-height: 33px;
 }
 
-.testimonials button {
+.testimonials button, .soul button {
     border: 1px solid #181725;
     height: 48px;
     padding: 8px 16px;
