@@ -1,8 +1,25 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
+  const pathname = usePathname() || "/";
+  const navColor = () => {
+    if (pathname === "/portfolio") {
+      return "text-[#181725]";
+    } else {
+      return "text-[#fff]";
+    }
+  };
+  const btnColor = () => {
+    if (pathname === "/portfolio") {
+      return "!bg-[#181725] !text-[#fff]";
+    } else {
+      return "!bg-[#fff] !text-[#181725]";
+    }
+  };
+
     const [isDrawerOpen, setIsDrawerOpen] = useState(false);
     const handleDrawerToggle = () => {
   setIsDrawerOpen(!isDrawerOpen);
@@ -18,7 +35,9 @@ const Navbar = () => {
             height="43"
           />
         </Link>
-        <ul className=" text-text-extra-small flex flex-row gap-14 ml-[99px] mr-[75px]">
+        <ul
+          className={` text-text-extra-small flex flex-row gap-14 ml-[99px] mr-[75px] ${navColor()} `}
+        >
           <li className="text-[#026FEE]">
             <Link href="/">AGENCY</Link>
           </li>
@@ -108,7 +127,11 @@ const Navbar = () => {
           <button className="btn mt-16">Brand Assessment</button>
         </div>
       </div>
-      <button className="btn sm:hidden absolute right-4 top-[23px]">Brand Assessment</button>
+      <button
+        className={`btn ${btnColor()} sm:hidden absolute right-4 top-[23px]`}
+      >
+        Brand Assessment
+      </button>
     </nav>
   );
 };
