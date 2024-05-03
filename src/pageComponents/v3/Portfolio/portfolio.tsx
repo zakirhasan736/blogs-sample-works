@@ -16,7 +16,7 @@ const PortfolioV3 = () => {
         </div>
         <div className="projects text-white">
           <div className="w-full flex gap-6">
-            <Link href="" className=" w-2/4 ">
+            <Link href="" className=" w-2/4 sm:w-full">
               <div className="project p-6 bg-no-repea bg-[url('/images/project1.png')] h-[262px] sm:w-full">
                 <div>
                   <span className="pill">Brand Identity</span>
@@ -30,7 +30,7 @@ const PortfolioV3 = () => {
               </div>
             </Link>
 
-            <Link href="" className=" w-2/4 ">
+            <Link href="" className=" w-2/4 sm:w-full">
               <div className="project p-6 bg-no-repea bg-[url('/images/project2.png')] h-[262px] sm:w-full">
                 <div>
                   <span className="pill">Photography</span>

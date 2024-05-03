@@ -2761,6 +2761,32 @@ h5{
     margin: 0;
 }
 
+h3 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+}
+
+h4 {
+        font-size: 24px;
+        font-weight: 400 ;
+        line-height: 28.8px;
+        letter-spacing: 0.05em;
+}
+
+.lgp {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 33px;
+}
+
+.mdp {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32.4px;
+}
+
 .btn {
     background: #fff;
         color: #181725;
@@ -2990,12 +3016,6 @@ h5{
     object-fit: cover;
 }
 
-.contact-form h3 {
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 48px;
-    letter-spacing: 0.05em;
-}
 
 .contact-form p {
     font-size: 16px;
@@ -3208,6 +3228,16 @@ footer .copy li {
         font-weight: 400;
         line-height: 28.8px;
         letter-spacing: 0.05em;
+}
+
+.portd .pill {
+    border: 1px solid #333333;
+        padding: 8px;
+        border-radius: 16px;
+        margin-right: 16px;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18px;
 }
 
 @media (max-width: 700px) {
