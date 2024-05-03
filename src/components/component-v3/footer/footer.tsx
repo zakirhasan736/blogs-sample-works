@@ -9,13 +9,13 @@ const Footer = () => {
     <footer className="bg-[#1A1A1A] pt-[110px] pb-[91px]">
       <div className="custom-container">
         <div className="footer-container">
-          <div>
+          <div className="sm:mb-4">
             <Image src="/images/logo.svg" alt="logo" width={216} height={87} />
             <p>
               Our gift is observation, it just so happens we’re a Marketing
               agency.
             </p>
-            <button>Book a call</button>
+            <button className="btn">Book a call</button>
           </div>
           <div className="flex gap-8">
             <div>

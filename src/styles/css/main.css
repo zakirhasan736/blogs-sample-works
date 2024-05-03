@@ -2873,16 +2873,6 @@ h5{
     line-height: 32.4px;
 }
 
-.partners button,
-footer button {
-    height: 48px;
-    padding: 8px 16px;
-    gap: 8px;
-    border-radius: 4px;
-    background: #fff;
-    color: #181725;
-}
-
 .blogs {
     background: #E1E4E8;
     padding: 105px 0 86px;
