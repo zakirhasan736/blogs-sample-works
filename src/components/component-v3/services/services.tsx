@@ -30,7 +30,7 @@ const ServicesSec: React.FC<ServicesSecProps> = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-12 text-[">
+          <div className="flex gap-12 sm:gap-4">
             <div className="flex flex-col gap-4">
               <Link href="" className="underline font-normal">Web & App Development</Link>
               <Link href="">UI/UX Design</Link>
