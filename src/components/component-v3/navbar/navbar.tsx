@@ -26,7 +26,7 @@ const Navbar = () => {
             <Link href="/">ABOUT US</Link>
           </li>
           <li className="hover:[#026FEE]">
-            <Link href="/">PORTFOLIO</Link>
+            <Link href="/portfolio">PORTFOLIO</Link>
           </li>
           <li className="hover:[#026FEE]">
             <Link href="/">SERVICES</Link>
