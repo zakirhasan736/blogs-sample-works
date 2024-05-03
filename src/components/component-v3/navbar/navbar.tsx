@@ -16,7 +16,7 @@ const Navbar = () => {
 
   const btnColor = () => {
     if (pathname === "/portfolio") {
-      return "!bg-[#181725] !text-[#fff]";
+      return "!bg-[#181725] !text-[#fff] !right-[56px]";
     } else {
       return "!bg-[#fff] !text-[#181725]";
     }
@@ -48,7 +48,7 @@ const Navbar = () => {
 
   return (
     <nav className="absolute pt-10 z-[99999] w-full">
-      <div className="custom-container flex sm:hidden">
+      <div className="custom-container flex justify-between sm:hidden">
         <Link href="/">
           <Image
             src="/images/white-brand-logo.svg"
@@ -75,8 +75,8 @@ const Navbar = () => {
           <li className="hover:[#026FEE]">
             <Link href="/">COLOUR CRAFT</Link>
           </li>
-        </ul>
         {renderUKImage()} {/* Conditionally render the UK image */}
+        </ul>
       </div>
 
       {/* Mobile Menu */}
