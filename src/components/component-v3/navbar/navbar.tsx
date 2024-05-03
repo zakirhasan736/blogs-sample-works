@@ -6,21 +6,31 @@ import { usePathname } from "next/navigation";
 const Navbar = () => {
   const pathname = usePathname() || "/";
 
-  const navColor = () => {
-    if (pathname === "/portfolio") {
-      return "text-[#181725]";
-    } else {
-      return "text-[#fff]";
-    }
-  };
 
-  const btnColor = () => {
-    if (pathname === "/portfolio") {
-      return "!bg-[#181725] !text-[#fff] !right-[56px]";
-    } else {
-      return "!bg-[#fff] !text-[#181725]";
-    }
-  };
+   const isPortfolioPage = pathname === "/portfolio";
+
+   const navColor = () => {
+     if (isPortfolioPage) {
+       return "text-[#181725]";
+     } else {
+       return "text-[#fff]";
+     }
+   };
+
+   const btnColor = () => {
+     if (isPortfolioPage) {
+       return "!bg-[#181725] !text-[#fff]";
+     } else if (pathname === '/') {
+       return "!right-4";
+      } else {
+       return "!bg-[#fff] !text-[#181725]";
+     }
+   };
+
+   const logoSrc = isPortfolioPage
+     ? "/images/logo-black.svg"
+     : "/images/logo.svg";
+
 
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
@@ -30,7 +40,7 @@ const Navbar = () => {
 
   // Function to conditionally render the UK image
   const renderUKImage = () => {
-    if (pathname !== "/portfolio") {
+    if (pathname === "/") {
       return (
         <Link href="">
           <Image
@@ -51,7 +61,7 @@ const Navbar = () => {
       <div className="custom-container flex justify-between sm:hidden">
         <Link href="/">
           <Image
-            src="/images/white-brand-logo.svg"
+            src={logoSrc}
             alt="Logo"
             width="107"
             height="43"
@@ -135,7 +145,7 @@ const Navbar = () => {
 
       {/* Button on Mobile */}
       <button
-        className={`btn ${btnColor()} sm:hidden absolute right-4 top-[23px]`}
+        className={`btn ${btnColor()} sm:hidden absolute right-14 top-[23px]`}
       >
         Brand Assessment
       </button>
