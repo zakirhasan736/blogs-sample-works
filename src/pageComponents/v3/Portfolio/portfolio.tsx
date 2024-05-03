@@ -15,94 +15,107 @@ const PortfolioV3 = () => {
           </p>
         </div>
         <div className="projects text-white">
-          <div className="flex gap-6">
-            <div className="project p-6 bg-no-repea bg-[url('/images/project1.png')] h-[262px] w-2/4 sm:w-full">
-              <div>
-                <span className="pill">Brand Identity</span>
-                <span className="pill">Photography</span>
-                <span className="pill">Web Design</span>
-              </div>
-              <div className="content">
-                <h4>Metisse</h4>
-                <p>Timeless pieces for extraordinary moments</p>
-              </div>
-            </div>
-            <div className="project p-6 bg-no-repea bg-[url('/images/project2.png')] h-[262px] w-2/4 sm:w-full">
-              <div>
-                <span className="pill">Photography</span>
-                <span className="pill">Web Design</span>
-              </div>
-              <div className="content">
-                <h4>Stories of our Generation</h4>
-                <p>Finding the pieces that make up life.</p>
-              </div>
-            </div>
-          </div>
-          <div className="flex gap-6 mt-6">
-            <div className="w-[70%] sm:w-full">
-              <div className="project p-6 bg-no-repea bg-[url('/images/project3.png')] h-[262px] w-full mb-4">
+          <div className="w-full flex gap-6">
+            <Link href="" className=" w-2/4 ">
+              <div className="project p-6 bg-no-repea bg-[url('/images/project1.png')] h-[262px] sm:w-full">
                 <div>
                   <span className="pill">Brand Identity</span>
                   <span className="pill">Photography</span>
                   <span className="pill">Web Design</span>
                 </div>
                 <div className="content">
-                  <h4>SoulFull Health</h4>
-                  <p>A User Experience Design and Brand Identity project</p>
+                  <h4>Metisse</h4>
+                  <p>Timeless pieces for extraordinary moments</p>
                 </div>
               </div>
-              <div className="project p-6 relative h-[262px] sm:w-full">
-                {/* Video Background */}
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  className="absolute inset-0 w-full h-full object-cover"
-                >
-                  {/* Provide multiple video sources for broader browser compatibility */}
-                  <source src="/images/project4.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+            </Link>
 
-                <div className="relative z-10 h-full flex flex-col justify-between">
-                  {/* Pill tags */}
-                  <div className=" mb-2">
+            <Link href="" className=" w-2/4 ">
+              <div className="project p-6 bg-no-repea bg-[url('/images/project2.png')] h-[262px] sm:w-full">
+                <div>
+                  <span className="pill">Photography</span>
+                  <span className="pill">Web Design</span>
+                </div>
+                <div className="content">
+                  <h4>Stories of our Generation</h4>
+                  <p>Finding the pieces that make up life.</p>
+                </div>
+              </div>
+            </Link>
+          </div>
+          <div className="flex gap-6 mt-6">
+            <div className="w-[70%] sm:w-full">
+              <Link href="">
+                <div className="project p-6 bg-no-repea bg-[url('/images/project3.png')] h-[262px] w-full mb-4">
+                  <div>
                     <span className="pill">Brand Identity</span>
                     <span className="pill">Photography</span>
                     <span className="pill">Web Design</span>
                   </div>
-
-                  {/* Content */}
                   <div className="content">
-                    <h4>Metisse</h4>
-                    <p>Timeless pieces for extraordinary moments</p>
+                    <h4>SoulFull Health</h4>
+                    <p>A User Experience Design and Brand Identity project</p>
                   </div>
                 </div>
-              </div>
+              </Link>
+              <Link href="">
+                <div className="project p-6 relative h-[262px] sm:w-full">
+                  {/* Video Background */}
+                  <video
+                    autoPlay
+                    muted
+                    loop
+                    className="absolute inset-0 w-full h-full object-cover"
+                  >
+                    {/* Provide multiple video sources for broader browser compatibility */}
+                    <source src="/images/project4.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+
+                  <div className="relative z-10 h-full flex flex-col justify-between">
+                    {/* Pill tags */}
+                    <div className=" mb-2">
+                      <span className="pill">Brand Identity</span>
+                      <span className="pill">Photography</span>
+                      <span className="pill">Web Design</span>
+                    </div>
+
+                    {/* Content */}
+                    <div className="content">
+                      <h4>Metisse</h4>
+                      <p>Timeless pieces for extraordinary moments</p>
+                    </div>
+                  </div>
+                </div>
+              </Link>
             </div>
-            <div className="project p-6 relative h-[540px] w-[30%] sm:w-full">
-              {/* Video Background */}
-              <video
-                autoPlay
-                muted
-                loop
-                className="absolute inset-0 w-full h-full object-cover"
-              >
-                {/* Provide multiple video sources for broader browser compatibility */}
-                <source src="/images/project5.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-              <div className="relative z-10 h-full flex flex-col justify-between">
-                <div>
-                  <span className="pill">Brand Identity</span>
-                  <span className="pill">Photography</span>
-                  <span className="pill">Web Design</span>
+            <div className="w-[30%]">
+              <Link href="">
+                <div className="project p-6 relative h-[540px] sm:w-full">
+                  {/* Video Background */}
+                  <video
+                    autoPlay
+                    muted
+                    loop
+                    className="absolute inset-0 w-full h-full object-cover"
+                  >
+                    {/* Provide multiple video sources for broader browser compatibility */}
+                    <source src="/images/project5.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                  <div className="relative z-10 h-full flex flex-col justify-between">
+                    <div>
+                      <span className="pill">Brand Identity</span>
+                      <span className="pill">Photography</span>
+                      <span className="pill">Web Design</span>
+                    </div>
+                    <div className="content">
+                      <h4>Burn Hard</h4>
+                      <p>Timeless pieces for extraordinary moments</p>
+                    </div>
+                  </div>
                 </div>
-                <div className="content">
-                  <h4>Burn Hard</h4>
-                  <p>Timeless pieces for extraordinary moments</p>
-                </div>
-              </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -118,7 +131,7 @@ const PortfolioV3 = () => {
                 Specialist in designing bespoke digital strategies for <br />{" "}
                 brands across all sectors and companies across the globe.
               </p>
-              <Link href='contacts'>
+              <Link href="contacts">
                 <button className="btn btn-dark">Contact</button>
               </Link>
             </div>
