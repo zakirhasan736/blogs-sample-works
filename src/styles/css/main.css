@@ -3011,6 +3011,10 @@ p {
     background-color: transparent !important;
 }
 
+.contacts select option {
+    color: #000;
+}
+
 .contacts label {
     color: #fff !important;
 }
@@ -3064,7 +3068,7 @@ form .form-row .textarea {
 }
 
 .input-data input,
-select,
+.input-data select,
 .textarea textarea {
     display: block;
     width: 100%;
@@ -3085,6 +3089,7 @@ select,
 .input-data select:focus~label,
 .textarea textarea:focus~label,
 .input-data input:valid~label,
+.input-data select:valid~label,
 .textarea textarea:valid~label {
     transform: translateY(-20px);
     font-size: 11px;

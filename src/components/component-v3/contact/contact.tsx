@@ -43,7 +43,6 @@ const ContactSec= () => {
           <div className="form-row">
             <div className="input-data">
               <select name="service">
-                <option value=""></option>
                 <option value="branding">Branding</option>
                 <option value="web-dev">Web Development</option>
               </select>
@@ -52,7 +51,6 @@ const ContactSec= () => {
             </div>
             <div className="input-data">
               <select name="industry">
-                <option value=""></option>
                 <option value="Technology">Technology</option>
                 <option value="Travels">Travels</option>
               </select>
