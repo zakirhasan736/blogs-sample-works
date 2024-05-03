@@ -45,7 +45,7 @@ const PortfolioV3 = () => {
           </div>
           <div className="flex gap-6 mt-6">
             <div className="w-[70%] sm:w-full">
-              <Link href="">
+              <Link href="/soulfullhealth">
                 <div className="project p-6 bg-no-repea bg-[url('/images/project3.png')] h-[262px] w-full mb-4">
                   <div>
                     <span className="pill">Brand Identity</span>
