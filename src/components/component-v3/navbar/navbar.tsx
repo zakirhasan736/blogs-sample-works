@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 
 const Navbar = () => {
   const pathname = usePathname() || "/";
+
   const navColor = () => {
     if (pathname === "/portfolio") {
       return "text-[#181725]";
@@ -12,6 +13,7 @@ const Navbar = () => {
       return "text-[#fff]";
     }
   };
+
   const btnColor = () => {
     if (pathname === "/portfolio") {
       return "!bg-[#181725] !text-[#fff]";
@@ -20,13 +22,33 @@ const Navbar = () => {
     }
   };
 
-    const [isDrawerOpen, setIsDrawerOpen] = useState(false);
-    const handleDrawerToggle = () => {
-  setIsDrawerOpen(!isDrawerOpen);
-};
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+
+  const handleDrawerToggle = () => {
+    setIsDrawerOpen(!isDrawerOpen);
+  };
+
+  // Function to conditionally render the UK image
+  const renderUKImage = () => {
+    if (pathname !== "/portfolio") {
+      return (
+        <Link href="">
+          <Image
+            src="/images/uk.png"
+            alt="UK Flag"
+            width="169"
+            height="21"
+            className="object-contain"
+          />
+        </Link>
+      );
+    }
+    return null; // Return null if on the /portfolio page
+  };
+
   return (
     <nav className="absolute pt-10 z-[99999] w-full">
-      <div className=" custom-container flex sm:hidden">
+      <div className="custom-container flex sm:hidden">
         <Link href="/">
           <Image
             src="/images/white-brand-logo.svg"
@@ -36,7 +58,7 @@ const Navbar = () => {
           />
         </Link>
         <ul
-          className={` text-text-extra-small flex flex-row gap-14 ml-[99px] mr-[75px] ${navColor()} `}
+          className={`text-text-extra-small flex flex-row gap-14 ml-[99px] mr-[75px] ${navColor()}`}
         >
           <li className="text-[#026FEE]">
             <Link href="/">AGENCY</Link>
@@ -54,18 +76,11 @@ const Navbar = () => {
             <Link href="/">COLOUR CRAFT</Link>
           </li>
         </ul>
-        <Link href="">
-          {" "}
-          <Image
-            src="/images/uk.png"
-            alt="Logo"
-            width="169"
-            height="21"
-            className="object-contain"
-          />
-        </Link>
+        {renderUKImage()} {/* Conditionally render the UK image */}
       </div>
-      <div className=" relative my-4">
+
+      {/* Mobile Menu */}
+      <div className="relative my-4">
         <div className="flex justify-end !flex-row">
           <button
             className="mobo-trigger-menu-btn hidden sm:block"
@@ -79,10 +94,9 @@ const Navbar = () => {
             />
           </button>
         </div>
+        {/* Mobile Drawer Menu */}
         <div
-          className={`fixed flex flex-col p-10 z-[99999] top-0 right-0 h-screen w-full menu-bg text-white transition-transform duration-300 transform ${
-            isDrawerOpen ? "translate-x-0" : "translate-x-full"
-          }`}
+          className={`fixed flex flex-col p-10 z-[99999] top-0 right-0 h-screen w-full menu-bg text-white transition-transform duration-300 transform ${isDrawerOpen ? "translate-x-0" : "translate-x-full"}`}
         >
           <button
             className="absolute right-7 top-4 p-3"
@@ -114,19 +128,12 @@ const Navbar = () => {
             <li className="hover:[#026FEE]">
               <Link href="/">COLOUR CRAFT</Link>
             </li>
-            <Link href="">
-              <Image
-                src="/images/uk.png"
-                alt="Logo"
-                width="169"
-                height="21"
-                className="object-contain"
-              />
-            </Link>
           </ul>
           <button className="btn mt-16">Brand Assessment</button>
         </div>
       </div>
+
+      {/* Button on Mobile */}
       <button
         className={`btn ${btnColor()} sm:hidden absolute right-4 top-[23px]`}
       >
