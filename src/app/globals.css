@@ -1538,7 +1538,7 @@ filter: drop-shadow(0px 6px 13px rgba(255, 255, 255, 0.10)) drop-shadow(0px 24px
   }
 
   .custom-container {
-    @apply container laptop-x:container laptop-m:container lg:container md:container sm:container xs:container xxs:container laptop-x:px-20 laptop-m:px-[60px] lg:px-[45px] sm:px-4 xxs:px-4;
+    @apply container laptop-x:container laptop-m:container lg:container md:container sm:container xs:container xxs:container laptop-x:px-[30px] laptop-m:px-[30px] lg:px-[25px] md:px-[20px] sm:px-4 xxs:px-4;
   }
 
   .pca-secondary-button {

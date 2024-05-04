@@ -6,6 +6,7 @@ import React from "react";
 
 const Footer = () => {
   return (
+
     <footer className="bg-[#1A1A1A] pt-[110px] pb-[91px]">
       <div className="custom-container">
         <div className="footer-container">
@@ -56,55 +57,56 @@ const Footer = () => {
                   <Link href="/services/branding">Brand Identity</Link>
                 </li>
                 {/* <li>
+
 								<Link href="#">App Development</Link>
 							</li> */}
-              </ul>
-            </div>
-            <div>
-              <div className="footer-title">
-                <h5>Quick Links</h5>
-              </div>
-              <ul>
-                <li>
-                  <Link href="/aboutus">About Us</Link>
-                </li>
+							</ul>
+						</div>
+						<div>
+							<div className="footer-title">
+								<h5>Quick Links</h5>
+							</div>
+							<ul>
+								<li>
+									<Link href="/aboutus">About Us</Link>
+								</li>
 
-                <li>
-                  <Link href="/services">Portfolio</Link>
-                </li>
-                <li>
-                  <Link href="/case-studies">Colour Craft</Link>
-                </li>
-                <li>
-                  <Link href="/articles">Blogs</Link>
-                </li>
+								<li>
+									<Link href="/services">Portfolio</Link>
+								</li>
+								<li>
+									<Link href="/case-studies">Colour Craft</Link>
+								</li>
+								<li>
+									<Link href="/articles">Blogs</Link>
+								</li>
 
-                <li>
-                  <Link href="/careers">Careers</Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div className="copy flex justify-between mt-10">
-          <ul>
-            <li>
-              <Link href="/terms-and-condition" >Terms and Conditions</Link>
-            </li>
-            <li>
-              <Link href="/privacy-policy">Privacy Policy</Link>
-            </li>
-          </ul>
-          <div className="text-right sm:text-left">
-            <p>
-              Copyright 2024 <br /> Particular Holdings (Registered in UK). All
-              rights reserved.
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
-  );
+								<li>
+									<Link href="/careers">Careers</Link>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div className="copy flex justify-between mt-10">
+					<ul>
+						<li>
+							<Link href="/terms-and-condition">Terms and Conditions</Link>
+						</li>
+						<li>
+							<Link href="/privacy-policy">Privacy Policy</Link>
+						</li>
+					</ul>
+					<div className="text-right sm:text-left">
+						<p>
+							Copyright {new Date().getFullYear()} <br /> Particular Holdings
+							(Registered in UK). All rights reserved.
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	);
 };
 
 export default Footer;
