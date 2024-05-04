@@ -7,7 +7,7 @@ import React from "react";
 const Footer = () => {
   return (
 
-    <footer className="bg-[#1A1A1A] pt-[110px] pb-[91px]">
+    <footer className="bg-[#1A1A1A] pt-[110px] pb-[91px] sm:pt-[45px] sm:pb-[60px]"> 
       <div className="custom-container">
         <div className="footer-container">
           <div className="sm:mb-4">
@@ -18,7 +18,7 @@ const Footer = () => {
             </p>
             <button className="btn">Book a call</button>
           </div>
-          <div className="flex gap-8">
+          <div className="flex gap-8 sm:flex-col">
             <div>
               <div className="footer-title">
                 <h5>Location</h5>
@@ -88,7 +88,7 @@ const Footer = () => {
 						</div>
 					</div>
 				</div>
-				<div className="copy flex justify-between mt-10">
+				<div className="copy flex justify-between mt-10 sm:flex-col">
 					<ul>
 						<li>
 							<Link href="/terms-and-condition">Terms and Conditions</Link>

@@ -30,53 +30,53 @@ interface HomeBannerProps {}
 
 const HomeBanner: React.FC<HomeBannerProps> = () => {
   return (
-    <motion.section
-      className="home-banner-section home-banner-section-v3 relative"
-      style={{ height: "80vh" }}
-    >
-      {/* Background Video */}
-      <video
-        autoPlay
-        muted
-        loop
-        className="absolute inset-0 z-0 w-full h-full object-cover"
-      >
-        <source src="/images/hero.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-      <div className="custom-container">
-        {/* Content */}
-        <div className="absolute bottom-[118px] text-white">
-          <motion.h1>
-            Where Every Pixel <br /> Tells a Particular Story
-          </motion.h1>
-          <motion.p>
-            We forge sustained marketing success for businesses by genuinely
-            grasping <br /> the essence of human engagement. Specialist in
-            designing bespoke digital <br /> strategies for brands across all
-            sectors and companies across the globe.
-          </motion.p>
-          <button className="lbtn">Let's talk</button>
-        </div>
-        <Image
-          src="/images/agency.png"
-          alt="brand"
-          width={139}
-          height={68}
-          className="absolute bottom-[37px] right-4"
-        />
-        <Link href="">
-          <Image
-            src="/images/network.png"
-            alt="brand"
-            width={126}
-            height={69}
-            className="absolute bottom-[373px] right-0 sm:bottom-[573px] sm:h-[60px]"
-          />
-        </Link>
-      </div>
-    </motion.section>
-  );
+		<motion.section
+			className="home-banner-section home-banner-section-v3 relative"
+			style={{ height: "80vh" }}>
+			{/* Background Video */}
+			<video
+				autoPlay
+				muted
+				loop
+				className="absolute inset-0 z-0 w-full h-full object-cover">
+				<source src="/images/hero.mp4" type="video/mp4" />
+				Your browser does not support the video tag.
+			</video>
+			<div className="custom-container h-full">
+				{/* Content */}
+				<div className="absolute bottom-[118px] text-white">
+					<motion.h1>
+						Where Every Pixel <br /> Tells a Particular Story
+					</motion.h1>
+					<motion.p>
+						We forge sustained marketing success for businesses by genuinely
+						grasping <br /> the essence of human engagement. Specialist in
+						designing bespoke digital <br /> strategies for brands across all
+						sectors and companies across the globe.
+					</motion.p>
+					<button className="lbtn">Let's talk</button>
+				</div>
+				<Image
+					src="/images/agency.png"
+					alt="brand"
+					width={139}
+					height={68}
+					className="absolute bottom-[37px] right-4"
+				/>
+				<Link
+					href=""
+					className="absolute bottom-[373px] right-0 sm:bottom-[500px] sm:h-[60px]">
+					<Image
+						src="/images/network.png"
+						alt="brand"
+						width={126}
+						height={69}
+						className="w-full h-full"
+					/>
+				</Link>
+			</div>
+		</motion.section>
+	);
 };
 
 export default HomeBanner;

@@ -15,7 +15,7 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
 					</video>
 				</div>
 				<div className="expariance-cont-wrapper w-full col-span-7 h-full sm:col-span-6 flex flex-col">
-					<div className="w-full experiance-wrap-top-cont py-[54px] pl-[173px] lg:pl-[100px] md:pl-[65px] sm:pl-[45px] pr-[140px] lg:pr-[25px] md:pr-[20px] sm:pr-[16px]">
+					<div className="w-full experiance-wrap-top-cont py-[54px] pl-[173px] laptop-m:pl-[100px] lg:pl-[80px] md:pl-[35px] sm:pl-[25px] pr-[140px] lg:pr-[25px] md:pr-[20px] sm:pr-[16px]">
 						<div className="flex justify-between items-center">
 							<h2 className="max-w-[528px] w-full font-normal">
 								great buyer experience? excellent returns.
@@ -63,7 +63,7 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
 									would leave for a competitor after just one bad experience{" "}
 								</p>
 							</div>
-							<div className="insight-card-item col-span-6 sm:col-span-6 text-center pt-10 pb-[55px]">
+							<div className="insight-card-item sm:border-t sm:border-t-Mono-70 col-span-6 sm:col-span-6 text-center pt-10 pb-[55px]">
 								<h2 className="title font-normal leading-none mb-[14px]">
 									140%
 								</h2>

@@ -8,7 +8,7 @@ const ServicesSec: React.FC<ServicesSecProps> = () => {
   return (
     <section className="services bg-[#1A1A1A] text-[#FFFFFF] pt-[71px] pb-[33px]">
       <div className="custom-container">
-        <div className="flex justify-between">
+        <div className="flex justify-between items-start sm:flex-col gap-10">
           <div>
             <h3>SERVICES</h3>
             <div className="sm:my-8 mt-[83px] award-item-box flex items-center sm:items-start gap-4 justify-center ">

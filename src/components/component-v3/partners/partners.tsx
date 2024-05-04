@@ -10,7 +10,7 @@ const PartnersSec = () => {
 	return (
     <section className="partners bg-[#181725] text-[#fff] pt-[33px] pb-[75px]">
       <div className="custom-container">
-        <div className="flex justify-between mb-[73px]">
+        <div className="flex justify-between mb-[73px] sm:flex-col sm:gap-[25px]">
           <h2 className="sm:mb-4">Trusted by 50+ <br /> companies globally</h2>
           <Link href="">
             <button className="btn">Start a Project</button>

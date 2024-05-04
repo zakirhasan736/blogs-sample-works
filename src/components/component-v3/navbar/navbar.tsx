@@ -57,100 +57,89 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="absolute pt-10 z-[99999] w-full">
-      <div className="custom-container flex justify-between sm:hidden">
-        <Link href="/">
-          <Image
-            src={logoSrc}
-            alt="Logo"
-            width="107"
-            height="43"
-          />
-        </Link>
-        <ul
-          className={`text-text-extra-small flex flex-row gap-14 ml-[99px] mr-[75px] ${navColor()}`}
-        >
-          <li className="text-[#026FEE]">
-            <Link href="/">AGENCY</Link>
-          </li>
-          <li className="hover:[#026FEE]">
-            <Link href="/">ABOUT US</Link>
-          </li>
-          <li className="hover:[#026FEE]">
-            <Link href="/portfolio">PORTFOLIO</Link>
-          </li>
-          <li className="hover:[#026FEE]">
-            <Link href="/">SERVICES</Link>
-          </li>
-          <li className="hover:[#026FEE]">
-            <Link href="/">COLOUR CRAFT</Link>
-          </li>
-        {renderUKImage()} {/* Conditionally render the UK image */}
-        </ul>
-      </div>
+		<nav className="absolute py-[23px] md:px-4 z-[99999] w-full max-w-[1440px] mx-auto left-0 right-0">
+			<div className="custom-container !max-w-[1306px] flex justify-between items-center md:hidden !mr-0">
+				<Link href="/">
+					<Image src={logoSrc} alt="Logo" width="107" height="43" />
+				</Link>
+				<ul
+					className={`text-text-extra-small flex flex-row gap-14 ${navColor()}`}>
+					<li className="text-[#026FEE]">
+						<Link href="/">AGENCY</Link>
+					</li>
+					<li className="hover:[#026FEE]">
+						<Link href="/">ABOUT US</Link>
+					</li>
+					<li className="hover:[#026FEE]">
+						<Link href="/portfolio">PORTFOLIO</Link>
+					</li>
+					<li className="hover:[#026FEE]">
+						<Link href="/">SERVICES</Link>
+					</li>
+					<li className="hover:[#026FEE]">
+						<Link href="/">COLOUR CRAFT</Link>
+					</li>
+					{renderUKImage()} {/* Conditionally render the UK image */}
+				</ul>
+				<button className={`btn ${btnColor()}  right-14 top-[23px]`}>
+					Brand Assessment
+				</button>
+			</div>
 
-      {/* Mobile Menu */}
-      <div className="relative my-4">
-        <div className="flex justify-end !flex-row">
-          <button
-            className="mobo-trigger-menu-btn hidden sm:block"
-            onClick={handleDrawerToggle}
-          >
-            <Image
-              src="/images/icons/trigger-menu.svg"
-              width="28"
-              height="9"
-              alt="header trigger btn icon"
-            />
-          </button>
-        </div>
-        {/* Mobile Drawer Menu */}
-        <div
-          className={`fixed flex flex-col p-10 z-[99999] top-0 right-0 h-screen w-full menu-bg text-white transition-transform duration-300 transform ${isDrawerOpen ? "translate-x-0" : "translate-x-full"}`}
-        >
-          <button
-            className="absolute right-7 top-4 p-3"
-            onClick={handleDrawerToggle}
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="21"
-              height="21"
-              viewBox="0 0 21 21"
-              fill="none"
-            >
-              <path d="M1 1L20 20M1 20L20 1" stroke="white" strokeWidth="2" />
-            </svg>
-          </button>
-          <ul className="flex flex-col space-y-4">
-            <li className="!hover-[#026FEE]">
-              <Link href="/">AGENCY</Link>
-            </li>
-            <li className="hover:[#026FEE]">
-              <Link href="/">ABOUT US</Link>
-            </li>
-            <li className="hover:[#026FEE]">
-              <Link href="/portfolio">PORTFOLIO</Link>
-            </li>
-            <li className="hover:[#026FEE]">
-              <Link href="/">SERVICES</Link>
-            </li>
-            <li className="hover:[#026FEE]">
-              <Link href="/">COLOUR CRAFT</Link>
-            </li>
-          </ul>
-          <button className="btn mt-16">Brand Assessment</button>
-        </div>
-      </div>
-
-      {/* Button on Mobile */}
-      <button
-        className={`btn ${btnColor()} sm:hidden absolute right-14 top-[23px]`}
-      >
-        Brand Assessment
-      </button>
-    </nav>
-  );
+			{/* Mobile Menu */}
+			<div className="relative hidden md:block">
+				<div className="flex justify-between items-center">
+					<Link href="/">
+						<Image src={logoSrc} alt="Logo" width="107" height="43" />
+					</Link>
+					<button
+						className="mobo-trigger-menu-btn "
+						onClick={handleDrawerToggle}>
+						<Image
+							src="/images/icons/trigger-menu.svg"
+							width="28"
+							height="9"
+							alt="header trigger btn icon"
+						/>
+					</button>
+				</div>
+				{/* Mobile Drawer Menu */}
+				<div
+					className={`fixed flex flex-col p-10 z-[99999] top-0 right-0 h-screen max-w-[350px] w-full menu-bg text-white transition-transform duration-300 transform ${isDrawerOpen ? "translate-x-0" : "translate-x-full"}`}>
+					<button
+						className="absolute right-7 top-4 p-3"
+						onClick={handleDrawerToggle}>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="21"
+							height="21"
+							viewBox="0 0 21 21"
+							fill="none">
+							<path d="M1 1L20 20M1 20L20 1" stroke="white" strokeWidth="2" />
+						</svg>
+					</button>
+					<ul className="flex flex-col space-y-4">
+						<li className="!hover-[#026FEE]">
+							<Link href="/">AGENCY</Link>
+						</li>
+						<li className="hover:[#026FEE]">
+							<Link href="/">ABOUT US</Link>
+						</li>
+						<li className="hover:[#026FEE]">
+							<Link href="/portfolio">PORTFOLIO</Link>
+						</li>
+						<li className="hover:[#026FEE]">
+							<Link href="/">SERVICES</Link>
+						</li>
+						<li className="hover:[#026FEE]">
+							<Link href="/">COLOUR CRAFT</Link>
+						</li>
+					</ul>
+					<button className="btn mt-16">Brand Assessment</button>
+				</div>
+			</div>
+		</nav>
+	);
 };
 
 export default Navbar;

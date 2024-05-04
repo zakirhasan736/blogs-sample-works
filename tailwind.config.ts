@@ -22,7 +22,7 @@ const config: Config = {
 			xs: { max: "414px" },
 			xxs: { max: "375px" },
 			"2xl": "1921px",
-			DEFAULT: "1160px",
+			DEFAULT: "1212px",
 		}, 
 		container: {
 			center: true,
