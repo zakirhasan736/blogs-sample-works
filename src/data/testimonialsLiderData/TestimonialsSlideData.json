@@ -1,0 +1,122 @@
+{
+    "TestimonialsSlideData": [
+        {
+            "ProjectTitle": "Tsagaris Clinic",
+            "clientName": "Dr John Tsagaris",
+            "clientWord": "My partnership with Particular Agency for my web application development has been nothing short of remarkable.",
+            "rating": 5,
+            "projectModalImage": "testimonials-client-img-1.png",
+            "rettingProvider": "trusted-provider-img-1.svg",
+            "categoryItems": [
+                "Brand Identity",
+                "Photography",
+                "Web Design"
+            ]
+        },
+        {
+            "ProjectTitle": "Rushmoor Knights Academy",
+            "clientName": "Stephen Diaper",
+            "clientWord": "We collaborated with Particular for the redesign of our website. The team at Particular was fantastic.",
+            "rating": 5,
+            "projectModalImage": "testimonials-client-img-2.png",
+            "rettingProvider": "trusted-provider-img-2.svg",
+            "categoryItems": [
+                "Brand Identity",
+                "Photography",
+                "Web Design"
+            ]
+        },
+        {
+            "ProjectTitle": "Metisse",
+            "clientName": "Noura El-Bahi",
+            "clientWord": "We collaborated with Particular for the redesign of our website. The team at Particular was fantastic.",
+            "rating": 5,
+            "projectModalImage": "testimonials-client-img-3.png",
+            "rettingProvider": "trusted-provider-img-2.svg",
+            "categoryItems": [
+                "Brand Identity",
+                "Photography",
+                "Web Design"
+            ]
+        },
+        {
+            "ProjectTitle": "Tsagaris Clinic",
+            "clientName": "Dr John Tsagaris",
+            "clientWord": "My partnership with Particular Agency for my web application development has been nothing short of remarkable.",
+            "rating": 5,
+            "projectModalImage": "testimonials-client-img-1.png",
+            "rettingProvider": "trusted-provider-img-1.svg",
+            "categoryItems": [
+                "Brand Identity",
+                "Photography",
+                "Web Design"
+            ]
+        },
+        {
+            "ProjectTitle": "Rushmoor Knights Academy",
+            "clientName": "Stephen Diaper",
+            "clientWord": "We collaborated with Particular for the redesign of our website. The team at Particular was fantastic.",
+            "rating": 5,
+            "projectModalImage": "testimonials-client-img-2.png",
+            "rettingProvider": "trusted-provider-img-2.svg",
+            "categoryItems": [
+                "Brand Identity",
+                "Photography",
+                "Web Design"
+            ]
+        },
+        {
+            "ProjectTitle": "Metisse",
+            "clientName": "Noura El-Bahi",
+            "clientWord": "We collaborated with Particular for the redesign of our website. The team at Particular was fantastic.",
+            "rating": 5,
+            "projectModalImage": "testimonials-client-img-3.png",
+            "rettingProvider": "trusted-provider-img-2.svg",
+            "categoryItems": [
+                "Brand Identity",
+                "Photography",
+                "Web Design"
+            ]
+        },
+        {
+            "ProjectTitle": "Tsagaris Clinic",
+            "clientName": "Dr John Tsagaris",
+            "clientWord": "My partnership with Particular Agency for my web application development has been nothing short of remarkable.",
+            "rating": 5,
+            "projectModalImage": "testimonials-client-img-1.png",
+            "rettingProvider": "trusted-provider-img-1.svg",
+            "categoryItems": [
+                "Brand Identity",
+                "Photography",
+                "Web Design"
+            ]
+        },
+        {
+            "ProjectTitle": "Rushmoor Knights Academy",
+            "clientName": "Stephen Diaper",
+            "clientWord": "We collaborated with Particular for the redesign of our website. The team at Particular was fantastic.",
+            "rating": 5,
+            "projectModalImage": "testimonials-client-img-2.png",
+            "rettingProvider": "trusted-provider-img-2.svg",
+            "categoryItems": [
+                "Brand Identity",
+                "Photography",
+                "Web Design"
+            ]
+        },
+        {
+            "ProjectTitle": "Metisse",
+            "clientName": "Noura El-Bahi",
+            "clientWord": "We collaborated with Particular for the redesign of our website. The team at Particular was fantastic.",
+            "rating": 5,
+            "projectModalImage": "testimonials-client-img-3.png",
+            "rettingProvider": "trusted-provider-img-2.svg",
+            "categoryItems": [
+                "Brand Identity",
+                "Photography",
+                "Web Design"
+            ]
+        }
+        
+    ]
+}
