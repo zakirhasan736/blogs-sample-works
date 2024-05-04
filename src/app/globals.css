@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -64,15 +65,15 @@
     -moz-transition: position 650ms ease 0s;
     -ms-transition: position 650ms ease 0s;
     -o-transition: position 650ms ease 0s;
-}
+  }
 
-  header.header-section.hide{
+  header.header-section.hide {
     transition: position 650ms ease 0s;
     -webkit-transition: possition 650ms ease 0s;
     -moz-transition: possition 650ms ease 0s;
     -ms-transition: possition 650ms ease 0s;
     -o-transition: possition 650ms ease 0s;
-}
+  }
 
   .navbar-nav-items:hover>a:before,
   .navbar-nav-items:not(:first-child)>a.active-asign:before {
@@ -1124,7 +1125,7 @@
   }
 
   .checkmark-privacy-box input:checked~.check-mark-input-mark::after {
-left: 5px;
+    left: 5px;
     top: -6px;
     width: 8px;
     height: 18px;
@@ -1341,12 +1342,12 @@ left: 5px;
 
   .banner-client-brand-box:before {
     left: 0;
-    background: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+    background: linear-gradient(to left, rgb(26, 26, 26, 0), rgb(26, 26, 26));
   }
 
   .banner-client-brand-box:after {
     right: 0;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+    background: linear-gradient(to right, rgb(26, 26, 26, 0), rgb(26, 26, 26));
   }
 
   .banner-client-brand-box .slick-track {
@@ -1451,7 +1452,7 @@ left: 5px;
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-    border-radius: 0; 
+    border-radius: 0;
     overflow: hidden;
     -webkit-mask-image: -webkit-radial-gradient(white, black);
     -webkit-border-radius: 0;
@@ -1495,8 +1496,9 @@ left: 5px;
       transform: scale(1.05) translateY(-44px) rotate(360deg) translateZ(0);
     }
   }
-/* global style */
-.comon-title h2 {
+
+  /* global style */
+  .comon-title h2 {
     color: var(--color-icons-white, #FFF);
     font-family: Lato;
     font-size: 38px;
@@ -1505,26 +1507,27 @@ left: 5px;
     line-height: normal;
     text-transform: capitalize;
     margin: 0 0 10px 0;
-}
+  }
 
-.comon-title span {
+  .comon-title span {
     display: inline-block;
     height: 4px;
     width: 34px;
     background-color: rgba(255, 255, 255, 1);
     margin-left: 1px;
-}
+  }
 
-@media screen and (max-width:767px) {
+  @media screen and (max-width:767px) {
     .comon-title h2 {
-        font-size: 28px;
+      font-size: 28px;
     }
-}
-  .our-approad-tabs-items.active{
-  fill: var(--color-icons-white, #FFF);
-opacity: 0.95;
-filter: drop-shadow(0px 6px 13px rgba(255, 255, 255, 0.10)) drop-shadow(0px 24px 24px rgba(255, 255, 255, 0.09)) drop-shadow(0px 54px 33px rgba(255, 255, 255, 0.05)) drop-shadow(0px 96px 39px rgba(255, 255, 255, 0.01)) drop-shadow(0px 151px 42px rgba(255, 255, 255, 0.00));
-}
+  }
+
+  .our-approad-tabs-items.active {
+    fill: var(--color-icons-white, #FFF);
+    opacity: 0.95;
+    filter: drop-shadow(0px 6px 13px rgba(255, 255, 255, 0.10)) drop-shadow(0px 24px 24px rgba(255, 255, 255, 0.09)) drop-shadow(0px 54px 33px rgba(255, 255, 255, 0.05)) drop-shadow(0px 96px 39px rgba(255, 255, 255, 0.01)) drop-shadow(0px 151px 42px rgba(255, 255, 255, 0.00));
+  }
 }
 
 
@@ -1534,7 +1537,7 @@ filter: drop-shadow(0px 6px 13px rgba(255, 255, 255, 0.10)) drop-shadow(0px 24px
   }
 
   .custom-container-fluid {
-    @apply max-w-[1728px] w-full mx-auto pl-[112px] pr-[115px] sm:px-0;
+    @apply max-w-[1728px] w-full mx-auto pl-[112px] pr-[115px] sm: px-0;
   }
 
   .custom-container {

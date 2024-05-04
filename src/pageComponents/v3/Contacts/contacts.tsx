@@ -6,8 +6,8 @@ import React from "react";
 
 const ContactVersionThree = () => {
   return (
-    <section className="custom-container contacts contact-sec sm:px-8">
-      <div className="lg:px-8">
+    <section className="custom-container contacts contact-sec sm:px-8 grid grid-cols-12 sm:grid-cols-6 gap-5">
+      <div className="lg:px-8 col-span-6">
         <h2>Get in touch</h2>
         <p className="text-lg">
           Fill in the form below, and we’ll be in touch.
@@ -34,8 +34,8 @@ const ContactVersionThree = () => {
           </p>
         </div>
       </div>
-      <div className="contact-form sm:px-8">
-        <form className="pr-[176px]">
+      <div className="contact-form sm:px-8 col-span-6">
+        <form className="">
           <div className="form-row">
             <div className="input-data">
               <input type="text" required />

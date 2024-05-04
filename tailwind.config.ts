@@ -108,6 +108,7 @@ const config: Config = {
 				"mono-100": "#181725",
 				"mono-50": "#E3F0FF",
 				"Mono-70": "#4d4d4d",
+				"mono-90": "#1A1A1A", 
 				primary: "#F2EFEF",
 				secondary: "rgba(0, 175, 252, 0.78)",
 				"secondary-2": "#2997FF",

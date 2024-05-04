@@ -4,11 +4,10 @@ import React, { useState } from "react";
 import { Image, Link } from "@packages/packages";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import {
-	Autoplay,
-} from "swiper/modules";
+import { FreeMode, Autoplay } from "swiper/modules";
 
 import "swiper/css";
+import "swiper/css/free-mode";
 import PortfolioSlideData from "@data/portfolioSliderData/PortfolioSlideData.json"
 const PortfolioSec = () => {
 
@@ -32,14 +31,15 @@ const PortfolioSec = () => {
 						<div className="portfolio-card-item-wrapper max-w-[1056px] md:max-w-[500px] sm:max-w-[280px] w-full ml-0">
 							<Swiper
 								spaceBetween={10}
-								loop={true}
-								centeredSlides={true}
+								// loop={true}
+								// centeredSlides={true}
+								freeMode={true}
 								autoplay={{
 									delay: 6000,
 									disableOnInteraction: false,
 								}}
 								navigation={false}
-								modules={[Autoplay]}
+								modules={[FreeMode, Autoplay]}
 								breakpoints={{
 									640: {
 										slidesPerView: 1,
@@ -58,7 +58,7 @@ const PortfolioSec = () => {
 										spaceBetween: 10,
 									},
 								}}
-								className="thumbs w-full !overflow-visible">
+								className="portfolios w-full !overflow-visible">
 								{/* {PortfolioSlideData.map((portfolio, index) => (
 									<SwiperSlide key={index}>
 										<div className="portfolio-card-item max-w-[344px] w-full relative">
@@ -92,6 +92,130 @@ const PortfolioSec = () => {
 										</div>
 									</SwiperSlide>
 								))} */}
+								<SwiperSlide>
+									<div className="portfolio-card-item max-w-[344px] w-full relative">
+										<div className="portfolio-card-img rounded-[4px] max-w-[344px] w-full max-h-[424px] h-ful">
+											<Image
+												src="/images/portfolio/soulful-health-thumbnail-image.png"
+												alt="portfolio thumbnail image"
+												className="card-image rounded-[4px] w-full h-full"
+												width={344}
+												height={424}
+											/>
+										</div>
+										<div className="portfolio-card-cont absolute top-0 left-0 w-full h-full flex flex-col">
+											<div className="card-logo py-6 px-[6px] bg-white max-w-[75px] w-full h-[66px] rounded-tl-[4px]">
+												<Image
+													src="/images/portfolio/soulful-brand-logo.svg"
+													alt="portfolio project brand logo"
+													width={62}
+													height={17}
+												/>
+											</div>
+											<div className="portfolio-info mt-auto w-full px-4 py-[24px]">
+												<h4 className="card-subtitle uppercase font-secondary text-[14px] font-normal tracking-[2.1px] mb-[5px] leading-[16px]">
+													soulfull health
+												</h4>
+												<h5 className="card-title sm:text-[18px] text-[24px] text-left text-white font-primary font-bold tracking-[2.1px] uppercase leading-[120%]">
+													Enlightenment for woman
+												</h5>
+											</div>
+										</div>
+									</div>
+								</SwiperSlide>
+								<SwiperSlide>
+									<div className="portfolio-card-item max-w-[344px] w-full relative">
+										<div className="portfolio-card-img rounded-[4px] max-w-[344px] w-full max-h-[424px] h-ful">
+											<Image
+												src="/images/portfolio/soulful-health-thumbnail-image.png"
+												alt="portfolio thumbnail image"
+												className="card-image rounded-[4px] w-full h-full"
+												width={344}
+												height={424}
+											/>
+										</div>
+										<div className="portfolio-card-cont absolute top-0 left-0 w-full h-full flex flex-col">
+											<div className="card-logo py-6 px-[6px] bg-white max-w-[75px] w-full h-[66px] rounded-tl-[4px]">
+												<Image
+													src="/images/portfolio/soulful-brand-logo.svg"
+													alt="portfolio project brand logo"
+													width={62}
+													height={17}
+												/>
+											</div>
+											<div className="portfolio-info mt-auto w-full px-4 py-[24px]">
+												<h4 className="card-subtitle uppercase font-secondary text-[14px] font-normal tracking-[2.1px] mb-[5px] leading-[16px]">
+													soulfull health
+												</h4>
+												<h5 className="card-title sm:text-[18px] text-[24px] text-left text-white font-primary font-bold tracking-[2.1px] uppercase leading-[120%]">
+													Enlightenment for woman
+												</h5>
+											</div>
+										</div>
+									</div>
+								</SwiperSlide>
+								<SwiperSlide>
+									<div className="portfolio-card-item max-w-[344px] w-full relative">
+										<div className="portfolio-card-img rounded-[4px] max-w-[344px] w-full max-h-[424px] h-ful">
+											<Image
+												src="/images/portfolio/soulful-health-thumbnail-image.png"
+												alt="portfolio thumbnail image"
+												className="card-image rounded-[4px] w-full h-full"
+												width={344}
+												height={424}
+											/>
+										</div>
+										<div className="portfolio-card-cont absolute top-0 left-0 w-full h-full flex flex-col">
+											<div className="card-logo py-6 px-[6px] bg-white max-w-[75px] w-full h-[66px] rounded-tl-[4px]">
+												<Image
+													src="/images/portfolio/soulful-brand-logo.svg"
+													alt="portfolio project brand logo"
+													width={62}
+													height={17}
+												/>
+											</div>
+											<div className="portfolio-info mt-auto w-full px-4 py-[24px]">
+												<h4 className="card-subtitle uppercase font-secondary text-[14px] font-normal tracking-[2.1px] mb-[5px] leading-[16px]">
+													soulfull health
+												</h4>
+												<h5 className="card-title sm:text-[18px] text-[24px] text-left text-white font-primary font-bold tracking-[2.1px] uppercase leading-[120%]">
+													Enlightenment for woman
+												</h5>
+											</div>
+										</div>
+									</div>
+								</SwiperSlide>
+								<SwiperSlide>
+									<div className="portfolio-card-item max-w-[344px] w-full relative">
+										<div className="portfolio-card-img rounded-[4px] max-w-[344px] w-full max-h-[424px] h-ful">
+											<Image
+												src="/images/portfolio/soulful-health-thumbnail-image.png"
+												alt="portfolio thumbnail image"
+												className="card-image rounded-[4px] w-full h-full"
+												width={344}
+												height={424}
+											/>
+										</div>
+										<div className="portfolio-card-cont absolute top-0 left-0 w-full h-full flex flex-col">
+											<div className="card-logo py-6 px-[6px] bg-white max-w-[75px] w-full h-[66px] rounded-tl-[4px]">
+												<Image
+													src="/images/portfolio/soulful-brand-logo.svg"
+													alt="portfolio project brand logo"
+													width={62}
+													height={17}
+												/>
+											</div>
+											<div className="portfolio-info mt-auto w-full px-4 py-[24px]">
+												<h4 className="card-subtitle uppercase font-secondary text-[14px] font-normal tracking-[2.1px] mb-[5px] leading-[16px]">
+													soulfull health
+												</h4>
+												<h5 className="card-title sm:text-[18px] text-[24px] text-left text-white font-primary font-bold tracking-[2.1px] uppercase leading-[120%]">
+													Enlightenment for woman
+												</h5>
+											</div>
+										</div>
+									</div>
+								</SwiperSlide>
 								<SwiperSlide>
 									<div className="portfolio-card-item max-w-[344px] w-full relative">
 										<div className="portfolio-card-img rounded-[4px] max-w-[344px] w-full max-h-[424px] h-ful">
