@@ -1,15 +1,28 @@
 "use client";
-
-import React, { useState } from "react";
-import { Image, Link } from "@packages/packages";
+import React from "react";
+import { Image } from "@packages/packages";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
-
 import "swiper/css";
 import TestimonialsData from "@data/testimonialsLiderData/TestimonialsSlideData.json";
-const TestimonialSec = () => {
+
+interface Testimonial {
+	ProjectTitle: string;
+	isVideo?: boolean;
+	projectModalVideo?: string;
+	projectModalImage?: string;
+	clientName: string;
+	rating?: number;
+	rettingProvider: string;
+	clientWord: string;
+	categoryItems: string[];
+}
+interface TestimonialsData {
+	TestimonialsSlideData: Testimonial[];
+}
+const TestimonialSec: React.FC = () => {
 	// Define a function to generate rating stars
-	const renderRatingStars = rating => {
+	const renderRatingStars = (rating: number) => {
 		const filledStars = Math.floor(rating); // Get the number of filled stars
 		const remainder = rating - filledStars; // Get the remainder for partial stars
 
@@ -38,7 +51,6 @@ const TestimonialSec = () => {
 		if (remainder > 0) {
 			stars.push(
 				<li key="partial" className="rettings">
-			
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						width="16"
@@ -76,7 +88,9 @@ const TestimonialSec = () => {
 
 		return stars;
 	};
+
 	const testimonials = TestimonialsData.TestimonialsSlideData;
+
 	return (
 		<section className="testimonials bg-[#fff] text-[#181725] pt-[101px] pb-[48px]">
 			<div className="custom-container">
@@ -140,7 +154,7 @@ const TestimonialSec = () => {
 															loop
 															className="z-0 w-full h-full object-cover">
 															<source
-																src={`/videos/${testimonials.projectModalVideo}`}
+																src={`/images/testimonials/${testimonials.projectModalVideo}`}
 																type="video/mp4"
 															/>
 															Your browser does not support the video tag.
@@ -197,7 +211,6 @@ const TestimonialSec = () => {
 										</div>
 									</SwiperSlide>
 								))}
-								
 							</Swiper>
 						</div>
 					</div>

@@ -5,6 +5,7 @@
             "clientName": "Dr John Tsagaris",
             "clientWord": "My partnership with Particular Agency for my web application development has been nothing short of remarkable.",
             "rating": 5,
+            "isVideo": false,
             "projectModalImage": "testimonials-client-img-1.png",
             "rettingProvider": "trusted-provider-img-1.svg",
             "categoryItems": [
@@ -31,7 +32,8 @@
             "clientName": "Noura El-Bahi",
             "clientWord": "We collaborated with Particular for the redesign of our website. The team at Particular was fantastic.",
             "rating": 5,
-            "projectModalImage": "testimonials-client-img-3.png",
+            "isVideo": true,
+            "projectModalVideo": "metisse-modal-video.mp4",
             "rettingProvider": "trusted-provider-img-2.svg",
             "categoryItems": [
                 "Brand Identity",
@@ -70,7 +72,8 @@
             "clientName": "Noura El-Bahi",
             "clientWord": "We collaborated with Particular for the redesign of our website. The team at Particular was fantastic.",
             "rating": 5,
-            "projectModalImage": "testimonials-client-img-3.png",
+            "isVideo": true,
+            "projectModalVideo": "metisse-modal-video.mp4",
             "rettingProvider": "trusted-provider-img-2.svg",
             "categoryItems": [
                 "Brand Identity",
@@ -109,7 +112,8 @@
             "clientName": "Noura El-Bahi",
             "clientWord": "We collaborated with Particular for the redesign of our website. The team at Particular was fantastic.",
             "rating": 5,
-            "projectModalImage": "testimonials-client-img-3.png",
+            "isVideo": true,
+            "projectModalVideo": "metisse-modal-video.mp4",
             "rettingProvider": "trusted-provider-img-2.svg",
             "categoryItems": [
                 "Brand Identity",
@@ -117,6 +121,5 @@
                 "Web Design"
             ]
         }
-        
     ]
 }
