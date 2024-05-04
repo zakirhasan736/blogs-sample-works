@@ -22,178 +22,58 @@ const PortfolioSec = () => {
 	const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
 	return (
-    <section className="portfolio">
-      <div className="custom-container">
-        <div className="flex justify-between">
-          <div>
-            <h3 className="text-[#181725]">Particular Portfolio</h3>
-            <p className="text-[#000]">
-              We pioneer what's next, combining creativity, tech innovation and
-              data.
-            </p>
-          </div>
-          <Link href="">View all</Link>
-        </div>
-        {/* <div className="carousel work-slider-main-box pb-6 grid grid-cols-12 gap-[37px] sm:block">
-          <div className="work-slide-main-view col-span-7">
-            <Swiper
-              spaceBetween={10}
-              effect={"fade"}
-              loop={true}
-              autoplay={{
-                delay: 6000,
-                disableOnInteraction: false,
-              }}
-              navigation={false}
-              thumbs={{
-                swiper:
-                  thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
-              }}
-              modules={[EffectFade, FreeMode, Navigation, Thumbs, Autoplay]}
-              breakpoints={{
-                640: {
-                  slidesPerView: 1,
-                  spaceBetween: 20,
-                },
-                768: {
-                  slidesPerView: 1,
-                  spaceBetween: 40,
-                },
-                1024: {
-                  slidesPerView: 1,
-                  spaceBetween: 50,
-                },
-              }}
-              fade={true} // Add fade effect
-              className="thumbs w-full rounded-lg"
-            >
-              {/* Slides for the main Swiper *
-              <SwiperSlide>
-                <div className="work-slide-items work-slide-item-one">
-                  <div className="client-project-img">
-                    <Image
-                      src="/images/our-works-img-item-1.jpg"
-                      width={657}
-                      height={451}
-                      className="h-[451px] md:h-auto"
-                      alt="our work carousel image"
-                    />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="work-slide-items work-slide-item-two">
-                  <div className="client-project-img">
-                    <Image
-                      src="/images/our-works-img-item-2.jpg" // Replace with the correct image path
-                      width={657}
-                      height={451}
-                      className="h-[451px] md:h-auto"
-                      alt="our work carousel image"
-                    />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="work-slide-items work-slide-item-three">
-                  <div className="client-project-img">
-                    <Image
-                      src="/images/our-works-img-item-3.jpg" // Replace with the correct image path
-                      width={657}
-                      height={451}
-                      className="h-[451px] md:h-auto"
-                      alt="our work carousel image"
-                    />
-                  </div>
-                </div>
-              </SwiperSlide>
-            </Swiper>
-          </div>
-
-          {/* Pagination Box 
-          <div className="clients pagination-box col-span-5">
-            <Swiper
-              onSwiper={setThumbsSwiper}
-              loop={false}
-              spaceBetween={12}
-              slidesPerView={3}
-              freeMode={true}
-              autoplay={{
-                delay: 6000,
-                disableOnInteraction: false,
-              }}
-              watchSlidesProgress={true}
-              modules={[FreeMode, Navigation, Thumbs, Autoplay]}
-              breakpoints={{
-                640: {
-                  slidesPerView: 3,
-                  spaceBetween: 0,
-                },
-                738: {
-                  slidesPerView: 3,
-                  spaceBetween: 0,
-                },
-                1024: {
-                  slidesPerView: 3,
-                  spaceBetween: 0,
-                },
-              }}
-              className="w-full rounded-lg"
-            >
-              {/* Slides for the pagination Swiper *
-              <SwiperSlide>
-                <div className="client-naeo project-info paginetion-item relative pagination-active">
-                  <p className="name mb-[6px]">Hult IB School</p>
-                  <div className="active-slide-cont-box">
-                    <p className="description mb-4">
-                      Transforming Naeo's digital user experience through a
-                      user-focused web design and holistic brand identity,
-                      enhancing engagement, credibility, and sustainability
-                    </p>
-                    <Link href="/case-studies/hult-ib-school">
-                      Full Case Study
-                    </Link>
-                    <div className="progress-loader"></div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="project-info paginetion-item relative">
-                  <p className="name  mb-[6px]">Knights Academy</p>
-                  <div className="active-slide-cont-box">
-                    <p className="description mb-4">
-                      Design intention: to symbolise the harmonious coexistence
-                      of AI and humanity, ensuring the campaign's messaging
-                      would be easily digestible for a contemporary,
-                      fast-evolving audience.
-                    </p>
-                    <Link href="/case-studies/ai-and-humanity">
-                      Full Case Study
-                    </Link>
-                    <div className="progress-loader"></div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="project-info paginetion-item relative">
-                  <p className="name  mb-[6px]">Zenbase</p>
-                  <div className="active-slide-cont-box">
-                    <p className="description mb-4">
-                      Elevating Zenbase's financial health solutions, our UX/UI
-                      design enhances user empowerment and brand resonance,
-                      cultivating an inclusive digital experience.
-                    </p>
-                    <Link href="/case-studies/zenbase">Full Case Study</Link>
-                    <div className="progress-loader"></div>
-                  </div>
-                </div>
-              </SwiperSlide>
-            </Swiper>
-          </div>
-        </div> */}
-      </div>
-    </section>
-  );
+		<section className="portfolio pt-[64px] pb-[106px] bg-[#E1E4E8]">
+			<div className="custom-container">
+				<div className="flex items-center justify-between mb-[47px] sm:mb-[35px]">
+					<div className="section-title-box">
+						<h2 className="text-[#181725]">Particular Portfolio</h2>
+						<p className="text-[#000]">
+							We pioneer what's next, combining creativity, tech innovation and
+							data.
+						</p>
+					</div>
+					<Link href="">View all</Link>
+				</div>
+			</div>
+			<div className="portfolio-card-item-box">
+				<div className="custom-container-full max-w-[1440px] w-full pl-[170px] pr-0 mx-auto laptop-x:pl-[30px] laptop-m:pl-[30px] lg:pl-[25px] md:pl-[20px] sm:pl-4 xxs:pl-4">
+					<div className="portfolio-card-item-wrapper">
+						{/* =========== */}
+						<div className="portfolio-card-item max-w-[344px] w-full relative">
+							<div className="portfolio-card-img rounded-[4px] max-w-[344px] w-full max-h-[424px] h-ful">
+								<Image
+									src="/images/portfolio/soulful-health-thumbnail-image.png"
+									alt="portfolio thumbnail image"
+									className="card-image rounded-[4px] w-full h-full"
+									width={344}
+									height={424}
+								/>
+							</div>
+							<div className="portfolio-card-cont absolute top-0 left-0 w-full h-full flex flex-col">
+								<div className="card-logo py-6 px-[6px] bg-white max-w-[75px] w-full h-[66px] rounded-tl-[4px]">
+									<Image
+										src="/images/portfolio/soulful-brand-logo.svg"
+										alt="portfolio project brand logo"
+										width={62}
+										height={17}
+									/>
+								</div>
+								<div className="portfolio-info mt-auto w-full px-4 py-[24px]">
+									<h4 className="card-subtitle uppercase font-secondary text-[14px] font-normal tracking-[2.1px] mb-[5px] leading-[16px]">
+										soulfull health
+									</h4>
+									<h5 className="card-title text-[24px] text-left text-white font-primary font-bold tracking-[2.1px] uppercase leading-[120%]">
+										Enlightenment for woman
+									</h5>
+								</div>
+							</div>
+						</div>
+						{/* ============== */}
+					</div>
+				</div>
+			</div>
+		</section>
+	);
 };
 
 export default PortfolioSec;

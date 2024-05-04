@@ -21,7 +21,6 @@ h3 {
     font-size: 1.75em;
     font-weight: 700;
     text-transform: capitalize;
-    margin: 10px 0;
 }
 
 h4 {
@@ -2783,12 +2782,12 @@ h6 {
 }
 
 /* Portfolio */
-.portfolio {
+/* .portfolio {
     background: #E1E4E8;
     padding: 64px 0 106px;
-}
+} */
 
-.portfolio h3 {
+.portfolio h2 {
     font-size: 32px;
     font-weight: 500;
     line-height: 38.4px;
@@ -2808,8 +2807,6 @@ h6 {
     color: #1A1A1A;
     text-decoration: underline;
 }
-
-.experience {}
 
 .experience .box {
     border-top: 1px solid #4D4D4D;
@@ -2915,11 +2912,11 @@ footer button {
 
 .blogs .bg-no-repea {
     position: relative;
-        background-color: rgba(0, 0, 0, .4);
-            position: relative;
-            background-size: cover;
-            background-position: center;
-            background-blend-mode: hard-light;
+    background-color: rgba(0, 0, 0, .4);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: hard-light;
 }
 
 .blogs .bg-no-repea .content {
@@ -2930,9 +2927,6 @@ footer button {
 }
 
 .contact-sec {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 90px;
     background: #fff;
     color: #000000;
 }
@@ -3110,9 +3104,7 @@ footer .copy li {
         margin: 35px 0 !important;
     }
 
-    .flex {
-        flex-direction: column;
-    }
+
 
     .grid-container,
     .grids,
@@ -3131,18 +3123,25 @@ footer .copy li {
         display: none;
     }
 
-h1 {
+    h1 {
         font-size: 36px !important;
         line-height: 38.8px !important;
     }
 
-        h2 {
-            font-size: 30px !important;
-            line-height: 36.8px !important;
-        }
+    h2 {
+        font-size: 30px !important;
+        line-height: 36.8px !important;
+    }
 
     h3 {
         font-size: 24px !important;
-            line-height: 38px !important;
+        line-height: 38px !important;
     }
+}
+
+
+/* testimonials section home */
+.testimonials-overly-cont {
+    border-radius: 4px;
+    background: linear-gradient(180deg, rgba(71, 66, 66, 0.00) 33%, #000 100%);
 }
