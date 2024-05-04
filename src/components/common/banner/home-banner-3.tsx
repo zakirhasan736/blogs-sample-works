@@ -71,7 +71,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
             alt="brand"
             width={126}
             height={69}
-            className="absolute bottom-[373px] right-0 sm:bottom-[573px]"
+            className="absolute bottom-[373px] right-0 sm:bottom-[573px] sm:h-[60px]"
           />
         </Link>
       </div>

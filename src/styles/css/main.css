@@ -2740,6 +2740,9 @@ button.glow-button {
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
 
+body.pca-marketing-page-body {
+    background: #1A1A1A;
+}
 body,
 p,
 div,
@@ -2752,9 +2755,71 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5{
     font-family: "Manrope", sans-serif;
+    margin: 0;
+}
+
+h1 {
+        font-size: 56px;
+        font-weight: 400;
+        line-height: 58.8px;
+        letter-spacing: 0.05em;
+}
+
+h2 {
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0.05em;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+}
+
+h4 {
+        font-size: 24px;
+        font-weight: 400 ;
+        line-height: 28.8px;
+        letter-spacing: 0.05em;
+}
+
+p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+}
+
+.lgp {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 33px;
+}
+
+.mdp {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32.4px;
+}
+
+.btn {
+    background: #fff;
+        color: #181725;
+        height: 40px;
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+}
+
+.btn-dark {
+    background: #181725;
+    color: #fff;
 }
 
 .home-banner-section-v3 h1 {
@@ -2829,7 +2894,7 @@ h6 {
     line-height: 33px;
 }
 
-.testimonials button {
+.testimonials button, .soul button {
     border: 1px solid #181725;
     height: 48px;
     padding: 8px 16px;
@@ -2849,16 +2914,6 @@ h6 {
     font-size: 18px;
     font-weight: 400;
     line-height: 32.4px;
-}
-
-.partners button,
-footer button {
-    height: 48px;
-    padding: 8px 16px;
-    gap: 8px;
-    border-radius: 4px;
-    background: #fff;
-    color: #181725;
 }
 
 .blogs {
@@ -2881,7 +2936,6 @@ footer button {
     font-weight: 400;
     line-height: 14.4px;
     letter-spacing: 0.15em;
-    margin-bottom: 7px;
 }
 
 .blogs p {
@@ -2896,7 +2950,7 @@ footer button {
     gap: 24px;
 }
 
-.blogs .grid-container .overlay {
+.overlay {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -2912,11 +2966,13 @@ footer button {
 
 .blogs .bg-no-repea {
     position: relative;
-    background-color: rgba(0, 0, 0, .4);
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: hard-light;
+
+        background-color: rgba(0, 0, 0, 0.3);
+            position: relative;
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: hard-light;
+
 }
 
 .blogs .bg-no-repea .content {
@@ -2931,17 +2987,55 @@ footer button {
     color: #000000;
 }
 
+.contacts {
+        background: unset;
+            color: #fff;
+            padding: 185px 0 104px;
+}
+
+.contacts h2 {
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 67.2px;
+        letter-spacing: 0.05em;
+        margin-bottom: 24px;
+}
+.contacts textarea,
+.contacts input,
+.contacts select,
+.contacts label {
+    background-color: transparent !important;
+}
+
+.contacts select option {
+    color: #000;
+}
+
+.contacts label {
+    color: #fff !important;
+}
+
+.contacts .input-data input,
+.contacts select,
+.contacts .textarea textarea {
+    border-bottom: 1px solid #fff;
+}
+
+.contacts .text-sm {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+}
+
+.contacts .input-data .underline:before {
+    background: rgba(255, 255, 255, 0.2);
+}
+
 .contact-sec img {
     height: 100%;
     object-fit: cover;
 }
 
-.contact-form h3 {
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 48px;
-    letter-spacing: 0.05em;
-}
 
 .contact-form p {
     font-size: 16px;
@@ -2970,14 +3064,14 @@ form .form-row .textarea {
 }
 
 .input-data input,
-select,
+.input-data select,
 .textarea textarea {
     display: block;
     width: 100%;
     height: 100%;
     border: none;
     font-size: 17px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
 .contact-form input:focus,
@@ -2991,6 +3085,7 @@ select,
 .input-data select:focus~label,
 .textarea textarea:focus~label,
 .input-data input:valid~label,
+.input-data select:valid~label,
 .textarea textarea:valid~label {
     transform: translateY(-20px);
     font-size: 11px;
@@ -3045,14 +3140,6 @@ select:focus~.underline:before,
     transform: scale(1);
 }
 
-.contact-form button {
-    background: #181725;
-    color: #fff;
-    height: 40px;
-    padding: 8px 16px;
-    border-radius: 4px;
-}
-
 footer button {
     margin-top: 16px;
 }
@@ -3085,6 +3172,93 @@ footer .copy li {
     font-weight: 400;
     line-height: 16.5px;
     text-align: left;
+}
+.menu-bg {
+    background-color: rgb(22, 22, 23);
+}
+
+.portfolio-v3 {
+    background: #fff;
+    color: #181725;
+    padding: 155px 0 119px;
+}
+.portfolio-v3 .title h2 {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 58.8px;
+    letter-spacing: 0.05em;
+}
+.portfolio-v3 .title p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    color: #000;
+}
+.projects .project {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-size: cover;
+}
+
+.projects .pill {
+        padding: 8px;
+        margin-right: 8px;
+        border-radius: 16px;
+        background: #969CA2;
+        color: #181725;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18px;
+}
+
+.projects h4 {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.8px;
+        letter-spacing: 0.05em;
+}
+.projects p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+}
+
+.portfolio-v3 h3 {
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0.05em;
+}
+.portfolio-v3 h6 {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19.2px;
+            letter-spacing: 0.15em;
+            color: #666;
+}
+
+.soulfull-banner h1 {
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 67.2px;
+        letter-spacing: 0.05em;
+}
+.soulfull-banner h4 {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.8px;
+        letter-spacing: 0.05em;
+}
+
+.portd .pill {
+    border: 1px solid #333333;
+        padding: 8px;
+        border-radius: 16px;
+        margin-right: 16px;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18px;
 }
 
 @media (max-width: 700px) {
@@ -3140,8 +3314,18 @@ footer .copy li {
 }
 
 
+@media (max-width: 400px) {
+    .projects .pill {
+        display: block;
+        margin-bottom: 10px;
+        text-align: center;
+        width: 100px;
+    }
+
+
 /* testimonials section home */
 .testimonials-overly-cont {
     border-radius: 4px;
     background: linear-gradient(180deg, rgba(71, 66, 66, 0.00) 33%, #000 100%);
+
 }
