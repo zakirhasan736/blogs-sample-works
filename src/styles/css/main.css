@@ -14,7 +14,6 @@ h1 {
 h2 {
     font-size: 2.375em;
     font-weight: 700;
-    margin: 0 0 10px 0;
 }
 
 h3 {
@@ -26,7 +25,6 @@ h3 {
 h4 {
     font-size: 1.125em;
     font-weight: 600;
-    margin: 10px 0 5px 0;
 }
 
 .tagline {
@@ -3338,4 +3336,18 @@ footer .copy li {
     border-radius: 4px;
     background: linear-gradient(180deg, rgba(71, 66, 66, 0.00) 33%, #000 100%);
 
+}
+
+/* services page styles */
+.modal-box-overlyn-items {
+    display: none;
+}
+
+.services-modal-box:hover .modal-box-overlyn-items {
+    display: flex;
+}
+
+li.services-list.active button.services-item-btn {
+    font-weight: 600;
+    text-decoration: underline;
 }

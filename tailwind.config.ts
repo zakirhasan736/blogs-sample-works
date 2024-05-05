@@ -107,6 +107,7 @@ const config: Config = {
 			colors: {
 				"mono-100": "#181725",
 				"mono-50": "#E3F0FF",
+				"mono-60": "#666666", 
 				"Mono-70": "#4d4d4d",
 				"mono-90": "#1A1A1A", 
 				primary: "#F2EFEF",

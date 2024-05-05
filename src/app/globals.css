@@ -23,7 +23,7 @@
   * {
     box-sizing: border-box;
     padding: 0;
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Helvetica neue', sans-serif;
     margin: 0;
   }
 
@@ -38,13 +38,13 @@
 
   html {
     scroll-behavior: smooth;
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Helvetica neue', sans-serif;
   }
 
   body {
     color: #ffffff;
-    background-color: #000;
-    font-family: 'Urbanist', sans-serif;
+    background-color: #1a1a1a;
+    font-family: 'Helvetica neue', sans-serif;
     box-sizing: border-box;
     overflow: hidden;
     overflow-y: scroll;

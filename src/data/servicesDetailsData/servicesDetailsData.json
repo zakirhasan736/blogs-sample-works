@@ -1,0 +1,122 @@
+[
+    {
+        "title": "Web & App Development",
+        "description": "Lorem ipsum dolor sit amet consectetur. Elementum neque in commodo lobortis sed duis vel. Lorem ipsum dolor sit amet consectetur. Elementum neque in commodo lobortis sed duis vel.",
+        "includes": [
+        [
+            "Industry analysis",
+            "User research",
+            "Customer journey mapping",
+            "Product roadmap",
+            "Prioritised product backlog",
+            "Sprint backlog"
+        ],
+        [
+            "Risk mitigation",
+            "User research",
+            "Customer journey mapping",
+            "Product roadmap",
+            "Prioritised product backlog",
+            "Sprint backlog"
+        ],
+        [
+            "Frontend development",
+            "Backend Development",
+            "Quality Assurance",
+            "Product analysis"
+        ]
+        ],
+        "faqs": [
+            {
+                "id": 1,
+                "question": "Question 1",
+                "answer": "Answer to Question 1"
+            },
+            {
+                "id": 2,
+                "question": "Question 2",
+                "answer": "Answer to Question 2"
+            }
+        ],
+        "imagePath": "service1.jpg",
+        "videoPath": "web-design-development.mp4",
+        "hasVideo": true
+    },
+    {
+        "title": "UI/UX Design",
+        "description": "Lorem ipsum dolor sit amet consectetur. Elementum neque in commodo lobortis sed duis vel. Lorem ipsum dolor sit amet consectetur. Elementum neque in commodo lobortis sed duis vel.",
+        "includes": [
+        [
+            "Stakeholder interview",
+            "Problem statement",
+            "User requirements",
+            "Market research",
+            "Information architecture"
+        ],
+        [
+            "Design system",
+            "Wireframes",
+            "Visual Design",
+            "Prototype"
+        ]
+        ],
+        "faqs": [
+            {
+                "id": 1,
+                "question": "Question 1",
+                "answer": "Answer to Question 1"
+            },
+            {
+                "id": 2,
+                "question": "Question 2",
+                "answer": "Answer to Question 2"
+            }
+        ],
+        "imagePath": "services-details-item-2.png",
+        "hasVideo": false
+    },
+    {
+        "title": "PPC (Pay-Per-Click)",
+        "description": "Lorem ipsum dolor sit amet consectetur. Elementum neque in commodo lobortis sed duis vel. Lorem ipsum dolor sit amet consectetur. Elementum neque in commodo lobortis sed duis vel.",
+        "includes": [
+            [
+                "Website research",
+                "Competitor research",
+                "Target research",
+                "Bid Research",
+                "Keyword research",
+                "Objectives & KPIs"
+            ],
+            [
+                "Account set up",
+                "Keyword & Ad grouping",
+                "Budget & Bid set up",
+                "Drafting Ad copy",
+                "Landing page development",
+                "Analytics"
+            ],
+            [
+                "Updating bids",
+                "A/B Testing - Ads & landing pages",
+                "Reporting",
+                "Account Optimisation",
+                "Web page Optimisation"
+            ]
+        ],
+        "faqs": [
+            {
+                "id": 1,
+                "question": "Question 1",
+                "answer": "Answer to Question 1"
+            },
+            {
+                "id": 2,
+                "question": "Question 2",
+                "answer": "Answer to Question 2"
+            }
+        ],
+        "videoPath": "content-strategy.mp4",
+        "hasVideo": true
+      
+    }
+]

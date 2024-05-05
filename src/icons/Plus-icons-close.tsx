@@ -7,19 +7,16 @@ const PlusIcons: React.FC<PlusIconsProps> = () => {
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
-			width="24"
-			height="25"
-			viewBox="0 0 24 25"
+			width="16"
+			height="16"
+			viewBox="0 0 16 16"
 			fill="none">
-			<g opacity="0.8">
-				<path
-					d="M19 12.9766L12 19.9766L5 12.9766"
-					stroke="white"
-					stroke-width="2"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-				/>
-			</g>
+			<path
+				fill-rule="evenodd"
+				clip-rule="evenodd"
+				d="M1.6665 8C1.6665 7.44773 2.11422 7 2.6665 7H13.3332C13.8854 7 14.3332 7.44773 14.3332 8C14.3332 8.55227 13.8854 9 13.3332 9H2.6665C2.11422 9 1.6665 8.55227 1.6665 8Z"
+				fill="#0A0A0A"
+			/>
 		</svg>
 	);
 };
