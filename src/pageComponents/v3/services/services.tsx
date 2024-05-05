@@ -19,7 +19,7 @@ const ServicesPage = () => {
 			<section className="cta-section bg-[#CBD7E3] pt-[82px] pb-[71px] md:py-[60px] sm:py-[45px]">
 				<div className="custom-container">
 					<div className="cta-wrapper">
-						<h2 className="text-mono-100 mb-[23px] text-center">
+						<h2 className="text-mono-100 mb-[23px] text-center md:text-[32px]">
 							Partner with Particular
 						</h2>
 						<p className="cta-desc max-w-[620px] mx-auto w-full mb-8 sm:mb-4 text-[18px] text-center text-mono-100 leading-[180%] font-accent font-normal">

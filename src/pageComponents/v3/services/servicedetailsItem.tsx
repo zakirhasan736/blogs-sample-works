@@ -73,12 +73,12 @@ const handleServiceItemClick = (index: number) => {
 				}, []);
 
 	return (
-		<div className="services-page-wrapper-cont gap-5 flex items-start pb-[24px] sm:pb-[20px]">
-			<div className="services-left-cont  w-full sticky top-10 max-w-[272px]">
+		<div className="services-page-wrapper-cont gap-5 flex items-start pb-[24px] sm:pb-[20px] sm:flex-col">
+			<div className="services-left-cont  w-full sticky sm:relative sm:top-0 top-10 max-w-[272px] md:max-w-[200px] sm:max-w-full">
 				<h3 className="services-title mb-4 text-mono-60 font-accent font-normal text-[16px] text-left leading-[120%] tracking-[2.4px] uppercase">
 					SERVICES
 				</h3>
-				<ul className="services-list-items flex flex-col gap-4">
+				<ul className="services-list-items flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:justify-center">
 					{ServiceDetailsData.map((service, index) => (
 						<li
 							key={index}
@@ -152,7 +152,7 @@ const handleServiceItemClick = (index: number) => {
 							<h5 className="services-includes-title mb-4 text-mono-60 text-left text-[14px] font-accent font-normal uppercase tracking-[2.1px] leading-[120%]">
 								SERVICE includes:
 							</h5>
-							<div className="services-includes-lists-grid flex items-start gap-[53px] sm:gap-[35px]">
+							<div className="services-includes-lists-grid flex items-start gap-[53px] sm:gap-[35px] sm:flex-col">
 								{service.includes.map((include, includeIndex) => (
 									<ul
 										key={includeIndex}
