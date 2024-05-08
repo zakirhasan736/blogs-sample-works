@@ -327,8 +327,8 @@
         "answer": "Yes. Many of our clients ask for us to work on both their website and brand development at the same time. A popular combination is a website, logo mark and logo type. Other companies opt for a website and full brand identity kit, along with other Particular services. The choice is completely up to the company in question."
       }
     ],
-    "imagePath": "services-details-item-branding.png",
-    "hasVideo": false,
+    "videoPath": "branding.mp4",
+    "hasVideo": true,
     "hasFaqs": true
   },
   {
