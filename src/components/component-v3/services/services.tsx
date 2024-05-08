@@ -32,15 +32,14 @@ const ServicesSec: React.FC<ServicesSecProps> = () => {
           </div>
           <div className="flex gap-12 sm:gap-4">
             <div className="flex flex-col gap-4">
-              <Link href="" className="underline font-normal">Web & App Development</Link>
-              <Link href="">UI/UX Design</Link>
-              <Link href="">Content Strategy</Link>
-              <Link href="">PPC (Pay-per-click)</Link>
+              <p className="hover:underline">Web & App Development</p>
+              <p className="hover:underline">UI/UX Design</p>
+              <p className="hover:underline">PPC (Pay-per-click)</p>
             </div>
             <div className="flex flex-col gap-4">
-              <Link href="">SEO</Link>
-              <Link href="">Brand Identity</Link>
-              <Link href="">Motion Graphics</Link>
+              <p className="hover:underline">SEO</p>
+              <p className="hover:underline">Brand Identity</p>
+              <p className="hover:underline">Motion Graphics</p>
             </div>
           </div>
         </div>
