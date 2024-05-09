@@ -57,7 +57,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
           <button className="lbtn">Let's talk</button>
         </div>
         <Image
-          src="/images/agency.png"
+          src="/images/agency.svg"
           alt="brand"
           width={139}
           height={68}
@@ -79,7 +79,6 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
       </div>
     </motion.section>
   );
-
 };
 
 export default HomeBanner;
