@@ -10,7 +10,7 @@ const SoulfullHealth = () => {
       <Banner />
       <section className="pt-16 pb-20 bg-white">
         <div className="custom-container flex justify-between gap-[123px] sm:gap-8 ">
-          <div className="mdp text-[#4D4D4D] ">
+          <div className="mdp text-[#4D4D4D] w-1/2">
             <div>
               Business Stage: <span className="text-[#181725]">Pre-launch</span>
             </div>
@@ -21,11 +21,11 @@ const SoulfullHealth = () => {
             <div>
               Key Areas of Focus:{" "}
               <span className="text-[#181725]">
-                <Link href="" className="text-underline">
+                <Link href="" className="underline">
                   Website User Experience Design
                 </Link>
-                ,
-                <Link href="" className="text-underline">
+                ,{" "}
+                <Link href="" className="underline">
                   Brand Identity
                 </Link>
                 , Enhanced Customer Engagement, Improved Market Positioning,
@@ -33,7 +33,7 @@ const SoulfullHealth = () => {
               </span>
             </div>
           </div>
-          <p className="lgp text-black">
+          <p className="lgp text-black w-1/2">
             Soulfull Health, a rising star thoughtfully-conceived by its
             Founder, Helen, is soon to launch in the world of women's wellness
             and aims to reshape the landscape of holistic health for women
@@ -41,23 +41,11 @@ const SoulfullHealth = () => {
           </p>
         </div>
       </section>
-      <section className="custom-container pt-[47px]">
-        <div className="flex gap-[18px] justify-center ">
-          <Image
-            src="/images/homesh1.png"
-            alt="Soulfull Health Homepage One"
-            width={484}
-            height={750}
-            className="sm:w-full"
-          />
-          <Image
-            className="mt-[43px] sm:w-full"
-            src="/images/homesh2.png"
-            alt="Soulfull Health Homepage Two"
-            width={484}
-            height={750}
-          />
-        </div>
+      <section>
+        <video className="w-full h-full object-cover" autoPlay muted loop>
+          <source src="/images/soul.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </section>
       <section className="pt-[42px] pb-[108px] bg-white">
         <div className="custom-container">
@@ -239,10 +227,7 @@ const SoulfullHealth = () => {
                 <p>Timeless pieces for extraordinary moments</p>
               </article>
             </Link>
-            <Link
-              href=""
-              className="w-1/2 sm:w-full"
-            >
+            <Link href="" className="w-1/2 sm:w-full">
               <article>
                 <Image
                   src="/images/project2.png"
