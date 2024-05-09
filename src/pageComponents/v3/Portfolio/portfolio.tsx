@@ -139,15 +139,15 @@ const PortfolioV3 = () => {
               <h6 className="mb-4">SERVICES</h6>
               <div className="flex gap-12 sm:gap-4">
                 <div className="flex flex-col gap-4">
-                  <Link href="">Web & App Development</Link>
-                  <Link href="">UI/UX Design</Link>
-                  <Link href="">Content Strategy</Link>
-                  <Link href="">PPC (Pay-per-click)</Link>
+                  <Link href="/services">Web & App Development</Link>
+                  <Link href="/services">UI/UX Design</Link>
+                  <Link href="/services">Content Strategy</Link>
+                  <Link href="/services">PPC (Pay-per-click)</Link>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <Link href="">SEO</Link>
-                  <Link href="">Brand Identity</Link>
-                  <Link href="">Motion Graphics</Link>
+                  <Link href="/services">SEO</Link>
+                  <Link href="/services">Brand Identity</Link>
+                  <Link href="/services">Motion Graphics</Link>
                 </div>
               </div>
             </div>

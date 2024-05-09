@@ -53,29 +53,23 @@ const Footer = () => {
               </div>
               <ul>
                 <li>
-                  <Link href="/services/web-design-and-development">
-                    Web &amp; App Development
-                  </Link>
+                  <Link href="/services">Web &amp; App Development</Link>
                 </li>
                 <li>
-                  <Link href="/services/pay-per-click">PPC</Link>
+                  <Link href="/services">PPC</Link>
                 </li>
                 <li>
-                  <Link href="/services/app-development">UI/UX Design</Link>
+                  <Link href="/services">UI/UX Design</Link>
                 </li>
                 <li>
-                  <Link href="/services/motion-design">Motion Design</Link>
+                  <Link href="/services">Motion Design</Link>
                 </li>
                 <li>
-                  <Link href="/services/seo-service">SEO</Link>
+                  <Link href="/services">SEO</Link>
                 </li>
                 <li>
-                  <Link href="/services/branding">Brand Identity</Link>
+                  <Link href="/services">Brand Identity</Link>
                 </li>
-                {/* <li>
-
-								<Link href="#">App Development</Link>
-							</li> */}
               </ul>
             </div>
             <div>
