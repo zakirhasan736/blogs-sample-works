@@ -1,129 +1,78 @@
 {
-    "pageTitle": "Articles - How Much Should a Website Cost in 2024?",
+    "pageTitle": "Blog - How Much Should a Website Cost in 2024?",
     "pageDescription": "Discover the range of website costs in 2024, from DIY options to custom designs, including hosting, maintenance, and design expenses",
     "BannerData": {
-        "ArticleImg": "/images/article-cad-img-1.png",
-        "title": "How much does a website cost in 2024?",
+        "blogFeaturedImg": "blogs-single-banner-img-1.jpg",
+        "bannerContentWidth": "[660px]",
+        "blogCategory": "Seo",
+        "title": "How much does SEO cost in 2024?",
         "description": [
             "In the digital era, having a website is non-negotiable for businesses and individuals alike. When creating a website, the first step is to learn about the expenses and what you need to do.",
             "From choosing a web host to designing a user-friendly interface, every step is crucial. This guide makes it easy to understand how to build a website. It covers using website builders, getting professional designs, and making sure people can find your site through search engines."
         ],
-        "isFeaturedArticles": true,
-        "auther": "Particular Agency",
-        "Posteddate": "12th Feb 2024"
+        "authorName": "Particular Agency",
+        "blogTimeToRead": "7 min"
     },
-    "articlesDetailsData": [
-        {
-            "title": "How much does a website cost in 2024?",
-            "content": [
-                {
-                    "type": "paragraph",
-                    "text": "In 2024, making a website comes with lots of options. Easy-to-use website builders for beginners, and tailor-made options for businesses wanting something more professional. Tools like Wix, Squarespace, and Shopify have altered how we make websites. They're user-friendly and much cheaper than old-school web development."
-                },
-                {
-                    "type": "unordered-list",
-                    "listItems": [
-                        "Website Builders: A website with a website builder is perfect for small businesses or personal websites. The average cost extends from £120 to £500 a year. They are affordable and offer lots of design choices.",
-                        "Professional Web Design and Development: Businesses aiming for a unique online presence often turn to professional web designers. Choosing this path guarantees a unique design made just for you, improving how visitors interact with your site. The price for a completely custom website varies from £5,000 to £75,000 for a business website."
-                    ]
-                }
-            ]
-        },
-        {
-            "secondarytitle": "Understanding Hosting Costs and Domain Registration",
-            "subtitle": "Hosting costs and domain registration",
-            "imageUrl1": "/images/article-1-image-1.png",
-            "imageAlt1": "image showing search for website cost",
-            "content": [
-                {
-                    "type": "paragraph",
-                    "text": "A critical aspect of website creation is choosing a reliable web host and registering a domain name. Hosting costs can vary significantly based on the type of hosting service (shared, VPS, dedicated) you opt for."
-                },
-                {
-                    "type": "unordered-list",
-                    "listItems": [
-                        "Shared Hosting: Shared hosting is an affordable choice for new websites that don't have a lot of visitors yet. Prices range from £60 to £120 a year.",
-                        "VPS Hosting: For websites needing more resources, VPS hosting ranges from £240 to £600 per year.",
-                        "Dedicated Hosting: For larger businesses and online stores. Prices extend from £1,200 to more than £10,000 a year.",
-                        "Domain Registration: On top of website hosting, many hosting services give you a free domain the first year. After that, renewing your domain usually costs between £10 and £50 annually."
-                    ]
-                }
-            ]
-        },
-        {
-            "secondarytitle": "Designing for Your Audience: The Importance of User Experience",
-            "content": [
-                {
-                    "type": "paragraph",
-                    "text": "User experience (UX) is paramount in website design. Investing in UX design ensures your website is intuitive, engaging, and accessible. Making sure your site works well with social media. Ensuring it is compatible with mobile devices and swift loading times are essential for the success of your website."
-                },
-                {
-                    "type": "paragraph",
-                    "text": "For this step, it is important in working with a web designer."
-                }
-            ]
-        },
-        {
-            "secondarytitle": "The Costs Involved in Building an Ecommerce Website",
-            "content": [
-                {
-                    "type": "paragraph",
-                    "text": "E-commerce websites have additional requirements, including payment processing, inventory management, and security measures. Building an online store typically costs between £15,000 and £30,000, with ongoing costs for maintenance, marketing, and hosting."
-                },
-                {
-                    "type": "unordered-list",
-                    "listItems": [
-                        "E-commerce Platforms: Services like Shopify and BigCommerce provide all-in-one solutions. Their monthly plans vary from £29 to £299, mixing simplicity with a professional approach when you create a website.",
-                        "Marketing Your Website: No website can succeed without visitors. Investing in search engine optimization (SEO) and leveraging social media can significantly increase your online visibility. Starting SEO work can cost from £500 to £2,500. Then, keeping up with content marketing and building links could cost anywhere from £250 to £5,000 each month."
-                    ]
-                }
-            ],
-            "imageUrl2": "/images/article-1-image-2.png",
-            "imageAlt2": "image showing search for website cost"
-        },
-        {
-            "secondarytitle": "Ongoing Website Maintenance",
-            "content": [
-                {
-                    "type": "paragraph",
-                    "text": "Maintaining a website is an ongoing commitment. Regular updates, security checks, and content refreshes are necessary to keep your site relevant and secure. Annual maintenance costs can range from £400 to £5,000, depending on the complexity of your website."
-                }
-            ]
-        },
-        {
-            "secondarytitle": "Conclusion: Budgeting for Your Website in 2024",
-            "content": [
-                {
-                    "type": "paragraph",
-                    "text": "Building and maintaining a website in 2024 requires careful planning and budgeting. Choosing a website builder on your own or going for a tailored design means you need to know the costs involved."
-                },
-                {
-                    "type": "paragraph",
-                    "text": "From hosting, getting a domain, to the design, building, and promoting your site. Smart investment in these areas helps you build an online space that achieves your targets and connects well with your visitors."
-                }
-            ]
-        },
-       
-        {
-            "secondarytitle": "FAQs",
-            "content": [
-                {
-                    "type": "unordered-list",
-                    "listItems": [
-                        "Is it possible to construct a website at no cost? Yes. However, this option comes with certain restrictions. Free plans on website builders often come with ads and use a subdomain.",
-                        "How frequently should I update my website? Regular updates are essential for maintaining a fresh and relevant online presence. Consider updating your content, images, and features periodically.",
-                        "Do I need a domain for my website? Yes, a domain is your website's address on the internet. It's crucial for building a professional online presence."
-                    ]
-                }
-            ]
-        }
-    ],
-    "TagsListdata": {
-        "tags": [
-            "Design",
-            "Development",
-            "Marketing",
-            "SEO"
+    "SingleBlogsDetailsInfo": {
+        "singleBlogDetailsDesc": "On average, small businesses can expect to pay between £500 to £2000 per month for comprehensive SEO services. This monthly retainer ensures that your website is continuously optimised in line with evolving search engine algorithms and market trends.",
+        "blogDetailsInfoItems": [
+            {
+                "title": "SEO Categories",
+                "desc": "",
+                "itemListDesc": [
+                    "SEO is an umbrella term encompassing various strategies and techniques used to improve a website's ranking on search engines. The cost of SEO services in the UK can vary widely depending on several factors. This includes the type of SEO required, the level of expertise, and the specific needs of your business.",
+                    "SEO can be categorised into several types:"
+                ],
+                "itemList": [
+                    "Technical SEO: Focuses on improving technical aspects of your website, like site speed and mobile-friendliness",
+                    "On-Page SEO: Involves optimising individual web pages to rank higher and earn more relevant traffic.",
+                    "Off-Page SEO (Link Building): Aims to increase the domain authority of your website through backlinks from other sites."
+                ],
+                "listDesc": [],
+                "image": "",
+                "video": ""
+            },
+            {
+                "title": "Pricing Structures",
+                "desc": "",
+                "itemListDesc": [
+                    "SEO agencies and consultants typically offer several pricing structures:"
+                ],
+                "itemList": [
+                    "Monthly Retainer: Ideal for ongoing SEO efforts, with costs ranging as mentioned earlier.",
+                    "Project-Based: Prices vary depending on the project's scope but can range from £1000 to £2500 for small to medium-sized projects.",
+                    "Hourly Rate: SEO consultants may charge between £50 and £150 per hour, depending on their expertise."
+                ],
+                "listDesc": [
+                    "When planning your SEO budget to fit your marketing strategy, think about your business's size, how competitive your industry is, and what you want to achieve in terms of growth.",
+                    "For small businesses, allocating 10-20% of your overall marketing budget to SEO is a good starting point.",
+                    "Local SEO is necessary for businesses looking to attract customers in specific geographic areas. Expect to invest in local SEO packages that include Google My Business optimisation, local citations, and localised content creation. Prices tend to range from £300 to £1000 per month."
+                ],
+                "image": "",
+                "video": "blog-details-info-modal-video-1.mp4"
+            },
+            {
+                "title": "Maximising ROI with SEO Analytics",
+                "desc": "",
+                "itemListDesc": [
+                    "A important component often included in SEO packages is advanced analytics. This plays a pivotal role in understanding the effectiveness of your SEO efforts.",
+                    "This analysis ensures that your investment is safeguarded. This is done by working efficiently to meet your business objectives, ultimately maximising the return on your SEO investment.",
+                    "Diligent tracking and adapting based on analytics feedback, companies can optimise their online presence and drive more targeted results.",
+                    "Investing in SEO is a long-term strategy that can significantly enhance your online presence and drive sustainable growth.",
+                    "Grasping the costs linked with various SEO services can help you create a smart SEO strategy, leading to strong returns on your investment. The real secret to winning at SEO isn't just in the spending, but in smartly investing in the services that truly align with what your business aims to achieve."
+                ],
+                "itemList": [],
+                "listDesc": [],
+                "image": "",
+                "video": ""
+            }
         ]
+    },
+    "BlogInfoModals": {
+        "blogInfoModalImg": "blog-details-info-modal-info-img-1.jpg",
+        "blogInfoModalTitle": "Your Business Growth is Our Responsibility.",
+        "blogInfoModalDesc1": "Enhancing your site's search engine optimisation (SEO) can be the key to unlocking new opportunities and achieving your business goals.",
+        "blogInfoModalDesc2": "At Particular Agency, we specialise in creating tailored SEO strategies that are designed to increase your visibility and engage your target audience effectively.",
+        "blogInfoModalBtnText": "Partner with Particular"
     }
 }

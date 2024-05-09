@@ -79,6 +79,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
       </div>
     </motion.section>
   );
+
 };
 
 export default HomeBanner;

@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Image } from "@packages/packages";
+import { Image, Link } from "@packages/packages";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -103,7 +103,9 @@ const TestimonialSec: React.FC = () => {
 							they have to say.
 						</p>
 					</div>
-					<button>Portfolio</button>
+					<Link href="/portfolio">
+						<button>Portfolio</button>
+					</Link>
 				</div>
 			</div>
 			<div className="testimonials-wrapper-box mt-[10px] sm:mt-10">

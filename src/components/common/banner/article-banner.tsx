@@ -5,7 +5,7 @@ interface ArticleBannerProps {
 	data: {
 		ArticleImg: string;
 		title?: string;
-		description?: string[];
+		description?: string[]; 
 		isFeaturedArticles?: boolean;
 		auther: string;
 		Posteddate: string;
