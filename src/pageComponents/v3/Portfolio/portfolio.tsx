@@ -16,7 +16,7 @@ const PortfolioV3 = () => {
         </div>
         <div className="projects text-white">
           <div className="w-full flex gap-6">
-            <Link href="/drjohntsagaris" className=" w-2/4 sm:w-full">
+            <Link href="" className=" w-2/4 sm:w-full">
               <div className="project p-6 bg-no-repea bg-[url('/images/project1.png')] h-[262px] sm:w-full">
                 <div>
                   <span className="pill">Brand Identity</span>
@@ -30,15 +30,15 @@ const PortfolioV3 = () => {
               </div>
             </Link>
 
-            <Link href="/knightsacademy" className=" w-2/4 sm:w-full">
+            <Link href="/drjohntsagaris" className=" w-2/4 sm:w-full">
               <div className="project p-6 bg-no-repea bg-[url('/images/project2.png')] h-[262px] sm:w-full">
                 <div>
                   <span className="pill">Photography</span>
                   <span className="pill">Web Design</span>
                 </div>
                 <div className="content">
-                  <h4>Stories of our Generation</h4>
-                  <p>Finding the pieces that make up life.</p>
+                  <h4>Dr John Tsagiris</h4>
+                  <p>A leading practitioner in health and wellness</p>
                 </div>
               </div>
             </Link>
@@ -58,7 +58,7 @@ const PortfolioV3 = () => {
                   </div>
                 </div>
               </Link>
-              <Link href="">
+              <Link href="/knightsacademy">
                 <div className="project p-6 relative h-[262px] sm:w-full">
                   {/* Video Background */}
                   <video
@@ -82,7 +82,7 @@ const PortfolioV3 = () => {
 
                     {/* Content */}
                     <div className="content">
-                      <h4>Metisse</h4>
+                      <h4>Rushmore Knights Academy</h4>
                       <p>Timeless pieces for extraordinary moments</p>
                     </div>
                   </div>
