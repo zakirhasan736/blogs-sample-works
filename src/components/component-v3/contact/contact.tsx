@@ -19,7 +19,7 @@ const ContactSec = () => {
         <div className="contact-form col-span-6 md:col-span-7 sm:col-span-6 pt-[74px] pb-[50px] md:pt-[40px] sm:py-8 pr-[176px] lg:pr-[25px] md:pr-[20px] sm:px-4">
           <h3>Ready to get started?</h3>
           <p>Fast track your growth with Particular </p>
-          <form className="pr-[176px]">
+          <form>
             <div className="form-row">
               <div className="input-data">
                 <input type="text" required />
