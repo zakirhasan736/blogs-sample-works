@@ -79,7 +79,6 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
       </div>
     </section>
   );
-
 };
 
 export default ExperienceSec;

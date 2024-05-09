@@ -89,7 +89,7 @@ const PortfolioV3 = () => {
                 </div>
               </Link>
             </div>
-            <div className="w-[30%]">
+            <div className="w-[30%] sm:w-auto">
               <Link href="">
                 <div className="project p-6 relative h-[540px] sm:w-full">
                   {/* Video Background */}
@@ -121,9 +121,9 @@ const PortfolioV3 = () => {
         </div>
       </div>
       <div>
-        <div className="custom-container mt-[94px]">
-          <div className="flex justify-between">
-            <div className="title sm:mb-5">
+        <div className="custom-container mt-[94px] sm:mt-[56px]">
+          <div className="flex justify-between sm:flex-col">
+            <div className="title sm:mb-[53px]">
               <h3>
                 Partner with <br /> Particular
               </h3>

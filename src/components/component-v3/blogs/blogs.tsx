@@ -3,10 +3,8 @@
 import React, { useState } from "react";
 import { Image, Link } from "@packages/packages";
 
-
 const BlogsSec = () => {
-
-	return (
+  return (
     <section className="blogs pt-[105px] sm:pt-20 pb-[86px] sm:pb-[60px]">
       <div className="custom-container">
         <div className="grid-container">
@@ -99,25 +97,24 @@ const BlogsSec = () => {
             </Link>
           </div>
           <Link href="">
-
-          <div className="bg-no-repea mt-[14px] h-[540px] sm:h-[262px]">
-            <div className="overlay"></div>
-            <video
-              autoPlay
-              muted
-              loop
-              className="absolute inset-0 z-0 w-full h-full object-cover"
-            >
-              <source src="/images/blog5.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-            <div className="content">
-              <h5>business</h5>
-              <p>
-                Harness the power of customer experience to grow your business
-              </p>
+            <div className="bg-no-repea mt-[14px] h-[540px] sm:h-[262px]">
+              <div className="overlay"></div>
+              <video
+                autoPlay
+                muted
+                loop
+                className="absolute inset-0 z-0 w-full h-full object-cover"
+              >
+                <source src="/images/blog5.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <div className="content">
+                <h5>business</h5>
+                <p>
+                  Harness the power of customer experience to grow your business
+                </p>
+              </div>
             </div>
-          </div>
           </Link>
         </div>
       </div>
