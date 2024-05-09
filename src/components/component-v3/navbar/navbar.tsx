@@ -148,7 +148,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <li className="hover:[#026FEE]">
+            <li className="hover:[#026FEE] hidden">
               <Link href="/">ABOUT US</Link>
             </li>
             <li className="hover:[#026FEE]">
@@ -158,7 +158,7 @@ const Navbar = () => {
               <Link href="/services">SERVICES</Link>
             </li>
             <li className="hover:[#026FEE]">
-              <Link href="/">COLOUR CRAFT</Link>
+              <Link href="/case-studies">COLOUR CRAFT</Link>
             </li>
             <li className="hover:[#026FEE]">
               <Link
@@ -170,6 +170,49 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
+          <div className="mt-24">
+            <Image
+              src="/images/mobile-logo.svg"
+              alt="logo"
+              width={130}
+              height={52}
+            />
+            <p className="mb-6">
+              Our gift is observation, it just so happens we’re a Marketing
+              agency.
+            </p>
+            <Link href="/contacts">
+              <button className="btn">Book a call</button>
+            </Link>
+
+            <div className="flex gap-[15px] mt-[45px]">
+              <Link href="" target="_blank">
+                <img src="/images/facebook.svg" alt="Facebook Icon" />
+              </Link>
+              <Link
+                href="https://www.linkedin.com/company/byparticularagency/"
+                target="_blank"
+              >
+                <img src="/images/linkedin.svg" alt="LinkedIn Icon" />
+              </Link>
+              <Link href="" target="_blank">
+                <img src="/images/google.svg" alt="" />
+              </Link>
+              <Link href="" target="_blank">
+                <img src="/images/x.svg" alt="X Icon" />
+              </Link>
+            </div>
+            <div className="copy mt-10">
+              <ul>
+                <li className="mb-2">
+                  <Link href="/terms-and-condition">Terms and Conditions</Link>
+                </li>
+                <li>
+                  <Link href="/privacy-policy">Privacy Policy</Link>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
