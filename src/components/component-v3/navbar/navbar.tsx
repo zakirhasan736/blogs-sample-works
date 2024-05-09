@@ -91,7 +91,7 @@ const Navbar = () => {
             <Link href="/services">SERVICES</Link>
           </li>
           <li className="hover:[#026FEE]">
-            <Link href="/">COLOUR CRAFT</Link>
+            <Link href="/case-studies">COLOUR CRAFT</Link>
           </li>
           {renderUKImage()} {/* Conditionally render the UK image */}
         </ul>
