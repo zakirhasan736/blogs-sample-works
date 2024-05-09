@@ -29,9 +29,7 @@ const Navbar = () => {
   const logoSrc = isPortfolioPage
     ? "/images/logo-black.svg"
     : "/images/logo.svg";
-  const triggerImg = isPortfolioPage
-    ? "trigger-menu-black.svg"
-    : "trigger-menu.svg";
+  const triggerImg = isPortfolioPage ? "bar2.svg" : "bar.svg";
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   const handleDrawerToggle = () => {
@@ -116,7 +114,7 @@ const Navbar = () => {
             onClick={handleDrawerToggle}
           >
             <Image
-              src={`/images/icons/${triggerImg}`}
+              src={`/images/${triggerImg}`}
               width="28"
               height="9"
               alt="header trigger btn icon"
@@ -125,26 +123,31 @@ const Navbar = () => {
         </div>
         {/* Mobile Drawer Menu */}
         <div
-          className={`fixed flex flex-col p-10 z-[99999] top-0 right-0 h-screen max-w-[350px] w-full menu-bg text-white transition-transform duration-300 transform ${isDrawerOpen ? "translate-x-0" : "translate-x-full"}`}
+          className={`fixed flex flex-col p-10 z-[99999] top-0 right-0 h-screen w-full bg-[#1a1a1a] text-white transition-transform duration-300 transform ${isDrawerOpen ? "translate-x-0" : "translate-x-full"}`}
         >
           <button
             className="absolute right-7 top-4 p-3"
             onClick={handleDrawerToggle}
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="21"
-              height="21"
-              viewBox="0 0 21 21"
-              fill="none"
-            >
-              <path d="M1 1L20 20M1 20L20 1" stroke="white" strokeWidth="2" />
-            </svg>
+            <Image src="/images/close.svg" alt="Close" width={24} height={24} />
           </button>
-          <ul className="flex flex-col space-y-4">
-            <li className="!hover-[#026FEE]">
-              <Link href="/">AGENCY</Link>
-            </li>
+          <ul className="flex flex-col space-y-[34px] mt-[90px]">
+            <div className="relative network">
+              <Link href="/" className="text-[#026FEE]">
+                AGENCY
+              </Link>
+              <ul className="absolute hidden bg-none text-[#AE8651]">
+                <li>
+                  <Link
+                    href="https://network.byparticular.com/"
+                    target="_blank"
+                    className="block"
+                  >
+                    NETWORK
+                  </Link>
+                </li>
+              </ul>
+            </div>
             <li className="hover:[#026FEE]">
               <Link href="/">ABOUT US</Link>
             </li>
@@ -157,13 +160,16 @@ const Navbar = () => {
             <li className="hover:[#026FEE]">
               <Link href="/">COLOUR CRAFT</Link>
             </li>
+            <li className="hover:[#026FEE]">
+              <Link
+                href="https://assessments.particularagency.co.uk/marketing-strength"
+                target="_blank"
+                className="underline"
+              >
+                BRAND STRENGTH ASSESSMENT
+              </Link>
+            </li>
           </ul>
-          <Link
-            href="https://assessments.particularagency.co.uk/marketing-strength"
-            target="_blank"
-          >
-            <button className="btn mt-16">Brand Assessment</button>
-          </Link>
         </div>
       </div>
     </nav>
