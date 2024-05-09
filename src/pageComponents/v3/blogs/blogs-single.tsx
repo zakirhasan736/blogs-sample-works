@@ -96,13 +96,17 @@ const blogTitle = blogDetailsInfoItems.map(
 					</div>
 					<div className="featured-blogs-wrap grid grid-cols-12 sm:grid-cols-6 gap-6 sm:gap-[30px]">
 						<div className="blog-card-item col-span-6 sm:col-span-6">
-							<Image
-								src="/images/blogs/featured-blog-card-img-1.png"
-								alt="featured blog thumbnail image"
-								className="w-full max-w-[569px] mb-8 sm:mb-4 h-[262px] rounded-[4px] object-cover"
-								width={569}
-								height={262}
-							/>
+							<Link
+								href="/articles/how-much-does-a-website-cost-in-2024"
+								className="w-full h-full">
+								<Image
+									src="/images/blogs/blogs-single-banner-img-1.jpg"
+									alt="featured blog thumbnail image"
+									className="w-full max-w-[569px] mb-8 sm:mb-4 h-[262px] rounded-[4px] object-cover"
+									width={569}
+									height={262}
+								/>
+							</Link>
 							<div className="blog-card-cont-box">
 								<ul className="blog-category-lists mb-[19px] sm:mb-[12px] flex flex-wrap gap-[18px] items-center">
 									<li className="blogs-category-list text-[12px] text-center text-white font-accent font-normal leading-[150%] flex items-center justify-center border border-white p-2 rounded-full h-[34px]">
@@ -112,31 +116,39 @@ const blogTitle = blogDetailsInfoItems.map(
 										UX/UI
 									</li>
 								</ul>
-								<h4 className="blog-title mb-[8px] tracking-[1.2px] leading-[150%] font-normal font-primary text-[24px] md:text-[20px] sm:text-[18px] text-white">
-									How much does a website cost in 2024?
-								</h4>
+								<Link href="/articles/how-much-does-a-website-cost-in-2024">
+									<h4 className="blog-title mb-[8px] tracking-[1.2px] leading-[150%] font-normal font-primary text-[24px] md:text-[20px] sm:text-[18px] text-white">
+										How much does a website cost in 2024?
+									</h4>
+								</Link>
 								<p className="blog-desc text-[16px] sm:text-[12px] font-accent font-normal leading-[150%] text-left text-white !opacity-100">
 									Find out how much building your website will cost this year.
 								</p>
 							</div>
 						</div>
 						<div className="blog-card-item col-span-6 sm:col-span-6">
-							<Image
-								src="/images/blogs/featured-blog-card-img-2.png"
-								alt="featured blog thumbnail image"
-								className="w-full max-w-[569px] mb-8 sm:mb-4 h-[262px] rounded-[4px] object-cover"
-								width={569}
-								height={262}
-							/>
+							<Link
+								href="/articles/how-much-does-seo-cost-in-2025"
+								className="w-full h-full">
+								<Image
+									src="/images/blogs/blogs-single-banner-img-2.jpg"
+									alt="featured blog thumbnail image"
+									className="w-full max-w-[569px] mb-8 sm:mb-4 h-[262px] rounded-[4px] object-cover"
+									width={569}
+									height={262}
+								/>
+							</Link>
 							<div className="blog-card-cont-box">
 								<ul className="blog-category-lists mb-[19px] sm:mb-[12px] flex flex-wrap gap-[18px] items-center">
 									<li className="blogs-category-list text-[12px] text-center text-white font-accent font-normal leading-[150%] flex items-center justify-center border border-white p-2 rounded-full h-[34px]">
 										Marketing
 									</li>
 								</ul>
-								<h4 className="blog-title mb-[8px] tracking-[1.2px] leading-[150%] font-normal font-primary text-[24px] md:text-[20px] sm:text-[18px] text-white">
-									What Do Marketing Agencies Do?
-								</h4>
+								<Link href="/articles/how-much-does-seo-cost-in-2025">
+									<h4 className="blog-title mb-[8px] tracking-[1.2px] leading-[150%] font-normal font-primary text-[24px] md:text-[20px] sm:text-[18px] text-white">
+										What Do Marketing Agencies Do?
+									</h4>
+								</Link>
 								<p className="blog-desc text-[16px] sm:text-[12px] font-accent font-normal leading-[150%] text-left text-white !opacity-100">
 									Find out how much building your website will cost this year.
 								</p>
