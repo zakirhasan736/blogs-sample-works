@@ -2761,6 +2761,7 @@ body.pca-marketing-page-body {
 }
 
 body,
+.legal-content-text-main-cont .info-text,
 p,
 div,
 span,
@@ -2963,7 +2964,7 @@ p {
 
 .blogs .grid-container {
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1.5fr 3fr 1.5fr;
   gap: 24px;
 }
 
@@ -2996,6 +2997,7 @@ p {
   left: 16px;
   bottom: 32px;
   z-index: 2;
+  padding-right: 16px;
 }
 
 .contact-sec {
@@ -3087,7 +3089,7 @@ form .form-row .textarea {
   height: 100%;
   border: none;
   font-size: 17px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid #666;
 }
 
 .contact-form input:focus,
@@ -3101,10 +3103,10 @@ form .form-row .textarea {
 .input-data select:focus ~ label,
 .textarea textarea:focus ~ label,
 .input-data input:valid ~ label,
-.input-data select:valid ~ label,
 .textarea textarea:valid ~ label {
   transform: translateY(-20px);
   font-size: 11px;
+  margin-bottom: 10px;
   font-weight: 400;
   line-height: 16.5px;
   color: #181725;
@@ -3139,9 +3141,9 @@ form .form-row .textarea {
 .input-data .underline:before {
   position: absolute;
   content: "";
-  height: 2px;
+  height: 1.5px;
   width: 100%;
-  background: rgba(0, 0, 0, 0.12);
+  background: #181725;
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.3s ease;
@@ -3149,9 +3151,9 @@ form .form-row .textarea {
 
 .input-data input:focus ~ .underline:before,
 .input-data input:valid ~ .underline:before,
-select:valid ~ .underline:before,
+.input-data select:valid ~ .underline:before,
 .textarea textarea:focus ~ .underline:before,
-select:focus ~ .underline:before,
+.input-data select:focus ~ .underline:before,
 .textarea textarea:valid ~ .underline:before {
   transform: scale(1);
 }
@@ -3285,6 +3287,9 @@ footer .copy li {
 }
 
 @media (max-width: 700px) {
+  .projects .flex {
+    flex-direction: column;
+  }
   .contact-form .text {
     font-size: 30px;
   }
@@ -3363,6 +3368,6 @@ li.services-list.active button.services-item-btn {
   text-decoration: underline;
 }
 
-.relative:hover .absolute {
+.network:hover .absolute {
   display: block;
 }

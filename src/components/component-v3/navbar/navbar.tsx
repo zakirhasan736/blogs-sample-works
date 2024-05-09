@@ -26,15 +26,11 @@ const Navbar = () => {
     }
   };
 
-
-	const logoSrc = isPortfolioPage
-		? "/images/logo-black.svg"
-		: "/images/logo.svg";
-	const triggerImg = isPortfolioPage
-		? "trigger-menu-black.svg"
-		: "trigger-menu.svg";
-	const [isDrawerOpen, setIsDrawerOpen] = useState(false);
-
+  const logoSrc = isPortfolioPage
+    ? "/images/logo-black.svg"
+    : "/images/logo.svg";
+  const triggerImg = isPortfolioPage ? "bar2.svg" : "bar.svg";
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   const handleDrawerToggle = () => {
     setIsDrawerOpen(!isDrawerOpen);
@@ -46,11 +42,11 @@ const Navbar = () => {
       return (
         <Link href="">
           <Image
-            src="/images/uk.png"
+            src="/images/uk.svg"
             alt="UK Flag"
             width="169"
             height="21"
-            className="object-contain"
+            className="object-contain hidden"
           />
         </Link>
       );
@@ -67,11 +63,11 @@ const Navbar = () => {
         <ul
           className={`text-text-extra-small flex flex-row gap-14 ${navColor()}`}
         >
-          <div className="relative">
+          <div className="relative network">
             <Link href="/" className="text-[#026FEE]">
               AGENCY
             </Link>
-            <ul className="absolute hidden bg-none text-[#026FEE]">
+            <ul className="absolute hidden bg-none text-[#AE8651]">
               <li>
                 <Link
                   href="https://network.byparticular.com/"
@@ -83,7 +79,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <li className="hover:[#026FEE]">
+          <li className="hover:[#026FEE] hidden">
             <Link href="/">ABOUT US</Link>
           </li>
           <li className="hover:[#026FEE]">
@@ -93,70 +89,134 @@ const Navbar = () => {
             <Link href="/services">SERVICES</Link>
           </li>
           <li className="hover:[#026FEE]">
-            <Link href="/">COLOUR CRAFT</Link>
+            <Link href="/case-studies">COLOUR CRAFT</Link>
           </li>
           {renderUKImage()} {/* Conditionally render the UK image */}
         </ul>
-        <button className={`btn ${btnColor()}  right-14 top-[23px]`}>
-          Brand Assessment
-        </button>
+        <Link
+          href="https://assessments.particularagency.co.uk/marketing-strength"
+          target="_blank"
+        >
+          <button className={`btn ${btnColor()}  right-14 top-[23px]`}>
+            Brand Assessment
+          </button>
+        </Link>
       </div>
 
-			{/* Mobile Menu */}
-			<div className="relative hidden md:block">
-				<div className="flex justify-between items-center">
-					<Link href="/">
-						<Image src={logoSrc} alt="Logo" width="107" height="43" />
-					</Link>
-					<button
-						className="mobo-trigger-menu-btn "
-						onClick={handleDrawerToggle}>
-						<Image
-							src={`/images/icons/${triggerImg}`}
-							width="28"
-							height="9"
-							alt="header trigger btn icon"
-						/>
-					</button>
-				</div>
-				{/* Mobile Drawer Menu */}
-				<div
-					className={`fixed flex flex-col p-10 z-[99999] top-0 right-0 h-screen max-w-[350px] w-full menu-bg text-white transition-transform duration-300 transform ${isDrawerOpen ? "translate-x-0" : "translate-x-full"}`}>
-					<button
-						className="absolute right-7 top-4 p-3"
-						onClick={handleDrawerToggle}>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="21"
-							height="21"
-							viewBox="0 0 21 21"
-							fill="none">
-							<path d="M1 1L20 20M1 20L20 1" stroke="white" strokeWidth="2" />
-						</svg>
-					</button>
-					<ul className="flex flex-col space-y-4">
-						<li className="!hover-[#026FEE]">
-							<Link href="/">AGENCY</Link>
-						</li>
-						<li className="hover:[#026FEE]">
-							<Link href="/">ABOUT US</Link>
-						</li>
-						<li className="hover:[#026FEE]">
-							<Link href="/portfolio">PORTFOLIO</Link>
-						</li>
-						<li className="hover:[#026FEE]">
-							<Link href="/services">SERVICES</Link>
-						</li>
-						<li className="hover:[#026FEE]">
-							<Link href="/">COLOUR CRAFT</Link>
-						</li>
-					</ul>
-					<button className="btn mt-16">Brand Assessment</button>
-				</div>
-			</div>
-		</nav>
-	);
+      {/* Mobile Menu */}
+      <div className="relative hidden md:block">
+        <div className="flex justify-between items-center">
+          <Link href="/">
+            <Image src={logoSrc} alt="Logo" width="107" height="43" />
+          </Link>
+          <button
+            className="mobo-trigger-menu-btn "
+            onClick={handleDrawerToggle}
+          >
+            <Image
+              src={`/images/${triggerImg}`}
+              width="28"
+              height="9"
+              alt="header trigger btn icon"
+            />
+          </button>
+        </div>
+        {/* Mobile Drawer Menu */}
+        <div
+          className={`fixed flex flex-col p-10 z-[99999] top-0 right-0 h-screen w-full bg-[#1a1a1a] text-white transition-transform duration-300 transform ${isDrawerOpen ? "translate-x-0" : "translate-x-full"}`}
+        >
+          <button
+            className="absolute right-7 top-4 p-3"
+            onClick={handleDrawerToggle}
+          >
+            <Image src="/images/close.svg" alt="Close" width={24} height={24} />
+          </button>
+          <ul className="flex flex-col space-y-[34px] mt-[90px]">
+            <div className="relative network">
+              <Link href="/" className="text-[#026FEE]">
+                AGENCY
+              </Link>
+              <ul className="absolute hidden bg-none text-[#AE8651]">
+                <li>
+                  <Link
+                    href="https://network.byparticular.com/"
+                    target="_blank"
+                    className="block"
+                  >
+                    NETWORK
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <li className="hover:[#026FEE] hidden">
+              <Link href="/">ABOUT US</Link>
+            </li>
+            <li className="hover:[#026FEE]">
+              <Link href="/portfolio">PORTFOLIO</Link>
+            </li>
+            <li className="hover:[#026FEE]">
+              <Link href="/services">SERVICES</Link>
+            </li>
+            <li className="hover:[#026FEE]">
+              <Link href="/case-studies">COLOUR CRAFT</Link>
+            </li>
+            <li className="hover:[#026FEE]">
+              <Link
+                href="https://assessments.particularagency.co.uk/marketing-strength"
+                target="_blank"
+                className="underline"
+              >
+                BRAND STRENGTH ASSESSMENT
+              </Link>
+            </li>
+          </ul>
+          <div className="mt-24">
+            <Image
+              src="/images/mobile-logo.svg"
+              alt="logo"
+              width={130}
+              height={52}
+            />
+            <p className="mb-6">
+              Our gift is observation, it just so happens we’re a Marketing
+              agency.
+            </p>
+            <Link href="/contacts">
+              <button className="btn">Book a call</button>
+            </Link>
 
+            <div className="flex gap-[15px] mt-[45px]">
+              <Link href="" target="_blank">
+                <img src="/images/facebook.svg" alt="Facebook Icon" />
+              </Link>
+              <Link
+                href="https://www.linkedin.com/company/byparticularagency/"
+                target="_blank"
+              >
+                <img src="/images/linkedin.svg" alt="LinkedIn Icon" />
+              </Link>
+              <Link href="" target="_blank">
+                <img src="/images/google.svg" alt="" />
+              </Link>
+              <Link href="" target="_blank">
+                <img src="/images/x.svg" alt="X Icon" />
+              </Link>
+            </div>
+            <div className="copy mt-10">
+              <ul>
+                <li className="mb-2">
+                  <Link href="/terms-and-condition">Terms and Conditions</Link>
+                </li>
+                <li>
+                  <Link href="/privacy-policy">Privacy Policy</Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  );
 };
 
 export default Navbar;

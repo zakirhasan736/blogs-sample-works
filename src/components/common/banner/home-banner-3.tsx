@@ -57,7 +57,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
           <button className="lbtn">Let's talk</button>
         </div>
         <Image
-          src="/images/agency.png"
+          src="/images/agency.svg"
           alt="brand"
           width={139}
           height={68}
@@ -66,7 +66,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
         <Link
           href="https://network.byparticular.com/"
           target="_blank"
-          className="absolute bottom-[373px] right-0 sm:bottom-[500px] sm:h-[60px] z-10"
+          className="absolute bottom-[373px] right-0 sm:hidden z-10"
         >
           <Image
             src="/images/network.svg"
@@ -79,7 +79,6 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
       </div>
     </motion.section>
   );
-
 };
 
 export default HomeBanner;
