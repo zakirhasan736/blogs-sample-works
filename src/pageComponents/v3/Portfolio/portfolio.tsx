@@ -31,7 +31,7 @@ const PortfolioV3 = () => {
             </Link>
 
             <Link href="/drjohntsagaris" className=" w-2/4 sm:w-full">
-              <div className="project p-6 bg-no-repea bg-[url('/images/project2.png')] h-[262px] sm:w-full">
+              <div className="project p-6 bg-no-repea bg-[url('/images/drjohn.png')] h-[262px] sm:w-full">
                 <div>
                   <span className="pill">Photography</span>
                   <span className="pill">Web Design</span>
