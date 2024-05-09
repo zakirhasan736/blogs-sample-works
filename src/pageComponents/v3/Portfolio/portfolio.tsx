@@ -121,9 +121,9 @@ const PortfolioV3 = () => {
         </div>
       </div>
       <div>
-        <div className="custom-container mt-[94px]">
-          <div className="flex justify-between">
-            <div className="title sm:mb-5">
+        <div className="custom-container mt-[94px] sm:mt-[56px]">
+          <div className="flex justify-between sm:flex-col">
+            <div className="title sm:mb-[53px]">
               <h3>
                 Partner with <br /> Particular
               </h3>
