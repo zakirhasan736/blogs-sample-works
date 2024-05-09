@@ -81,7 +81,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <li className="hover:[#026FEE]">
+          <li className="hover:[#026FEE] hidden">
             <Link href="/">ABOUT US</Link>
           </li>
           <li className="hover:[#026FEE]">
@@ -95,9 +95,14 @@ const Navbar = () => {
           </li>
           {renderUKImage()} {/* Conditionally render the UK image */}
         </ul>
-        <button className={`btn ${btnColor()}  right-14 top-[23px]`}>
-          Brand Assessment
-        </button>
+        <Link
+          href="https://assessments.particularagency.co.uk/marketing-strength"
+          target="_blank"
+        >
+          <button className={`btn ${btnColor()}  right-14 top-[23px]`}>
+            Brand Assessment
+          </button>
+        </Link>
       </div>
 
       {/* Mobile Menu */}
@@ -153,7 +158,12 @@ const Navbar = () => {
               <Link href="/">COLOUR CRAFT</Link>
             </li>
           </ul>
-          <button className="btn mt-16">Brand Assessment</button>
+          <Link
+            href="https://assessments.particularagency.co.uk/marketing-strength"
+            target="_blank"
+          >
+            <button className="btn mt-16">Brand Assessment</button>
+          </Link>
         </div>
       </div>
     </nav>
