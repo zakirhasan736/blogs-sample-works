@@ -89,7 +89,7 @@ const PortfolioV3 = () => {
                 </div>
               </Link>
             </div>
-            <div className="w-[30%]">
+            <div className="w-[30%] sm:w-auto">
               <Link href="">
                 <div className="project p-6 relative h-[540px] sm:w-full">
                   {/* Video Background */}
