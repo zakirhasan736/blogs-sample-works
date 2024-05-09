@@ -5,7 +5,7 @@ import { Image, Link } from "@packages/packages";
 
 const BlogsSec = () => {
   return (
-    <section className="blogs h-screen pt-[105px] sm:pt-20 pb-[86px] sm:pb-[60px]">
+    <section className="blogs pt-[105px] sm:pt-20 pb-[86px] sm:pb-[60px]">
       <div className="custom-container">
         <div className="grid-container">
           <div>

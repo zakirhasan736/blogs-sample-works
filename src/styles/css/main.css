@@ -3364,6 +3364,6 @@ li.services-list.active button.services-item-btn {
   text-decoration: underline;
 }
 
-.relative:hover .absolute {
+.network:hover .absolute {
   display: block;
 }

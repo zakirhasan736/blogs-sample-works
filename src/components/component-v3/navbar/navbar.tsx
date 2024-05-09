@@ -65,7 +65,7 @@ const Navbar = () => {
         <ul
           className={`text-text-extra-small flex flex-row gap-14 ${navColor()}`}
         >
-          <div className="relative">
+          <div className="relative network">
             <Link href="/" className="text-[#026FEE]">
               AGENCY
             </Link>
