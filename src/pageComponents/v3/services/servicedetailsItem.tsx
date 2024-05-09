@@ -8,6 +8,7 @@ import ServiceDetailsData from "@data/servicesDetailsData/servicesDetailsData.js
 const OFFSET = 50; // Offset in pixels
 
 const ServiceDetailsItem: React.FC = () => {
+
 		    const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
 				const [activeServiceIndex, setActiveServiceIndex] = useState<number>(0);
 				const serviceItemsRef = useRef<(HTMLLIElement | null)[]>([]);
@@ -196,6 +197,7 @@ const handleServiceItemClick = (index: number) => {
 			</div>
 		</div>
 	);
+
 };
 
 export default ServiceDetailsItem;

@@ -1,122 +1,356 @@
 [
-    {
-        "title": "Web & App Development",
-        "description": "Lorem ipsum dolor sit amet consectetur. Elementum neque in commodo lobortis sed duis vel. Lorem ipsum dolor sit amet consectetur. Elementum neque in commodo lobortis sed duis vel.",
-        "includes": [
-        [
-            "Industry analysis",
-            "User research",
-            "Customer journey mapping",
-            "Product roadmap",
-            "Prioritised product backlog",
-            "Sprint backlog"
-        ],
-        [
-            "Risk mitigation",
-            "User research",
-            "Customer journey mapping",
-            "Product roadmap",
-            "Prioritised product backlog",
-            "Sprint backlog"
-        ],
-        [
-            "Frontend development",
-            "Backend Development",
-            "Quality Assurance",
-            "Product analysis"
-        ]
-        ],
-        "faqs": [
-            {
-                "id": 1,
-                "question": "Question 1",
-                "answer": "Answer to Question 1"
-            },
-            {
-                "id": 2,
-                "question": "Question 2",
-                "answer": "Answer to Question 2"
-            }
-        ],
-        "imagePath": "service1.jpg",
-        "videoPath": "web-design-development.mp4",
-        "hasVideo": true
-    },
-    {
-        "title": "UI/UX Design",
-        "description": "Lorem ipsum dolor sit amet consectetur. Elementum neque in commodo lobortis sed duis vel. Lorem ipsum dolor sit amet consectetur. Elementum neque in commodo lobortis sed duis vel.",
-        "includes": [
-        [
-            "Stakeholder interview",
-            "Problem statement",
-            "User requirements",
-            "Market research",
-            "Information architecture"
-        ],
-        [
-            "Design system",
-            "Wireframes",
-            "Visual Design",
-            "Prototype"
-        ]
-        ],
-        "faqs": [
-            {
-                "id": 1,
-                "question": "Question 1",
-                "answer": "Answer to Question 1"
-            },
-            {
-                "id": 2,
-                "question": "Question 2",
-                "answer": "Answer to Question 2"
-            }
-        ],
-        "imagePath": "services-details-item-2.png",
-        "hasVideo": false
-    },
-    {
-        "title": "PPC (Pay-Per-Click)",
-        "description": "Lorem ipsum dolor sit amet consectetur. Elementum neque in commodo lobortis sed duis vel. Lorem ipsum dolor sit amet consectetur. Elementum neque in commodo lobortis sed duis vel.",
-        "includes": [
-            [
-                "Website research",
-                "Competitor research",
-                "Target research",
-                "Bid Research",
-                "Keyword research",
-                "Objectives & KPIs"
-            ],
-            [
-                "Account set up",
-                "Keyword & Ad grouping",
-                "Budget & Bid set up",
-                "Drafting Ad copy",
-                "Landing page development",
-                "Analytics"
-            ],
-            [
-                "Updating bids",
-                "A/B Testing - Ads & landing pages",
-                "Reporting",
-                "Account Optimisation",
-                "Web page Optimisation"
-            ]
-        ],
-        "faqs": [
-            {
-                "id": 1,
-                "question": "Question 1",
-                "answer": "Answer to Question 1"
-            },
-            {
-                "id": 2,
-                "question": "Question 2",
-                "answer": "Answer to Question 2"
-            }
-        ],
-        "videoPath": "content-strategy.mp4",
-        "hasVideo": true
-      
-    }
+  {
+    "title": "Web & App Development",
+    "description": "Lorem ipsum dolor sit amet consectetur. Elementum neque in commodo lobortis sed duis vel. Lorem ipsum dolor sit amet consectetur. Elementum neque in commodo lobortis sed duis vel.",
+    "includes": [
+      [
+        "Industry analysis",
+        "User research",
+        "Customer journey mapping",
+        "Product roadmap",
+        "Prioritised product backlog",
+        "Sprint backlog"
+      ],
+      [
+        "Risk mitigation",
+        "User research",
+        "Customer journey mapping",
+        "Product roadmap",
+        "Prioritised product backlog",
+        "Sprint backlog"
+      ],
+      [
+        "Frontend development",
+        "Backend Development",
+        "Quality Assurance",
+        "Product analysis"
+      ]
+    ],
+    "faqs": [
+      {
+        "id": 1,
+        "question": "Who owns the website once it is complete? Who has the rights to it?",
+        "answer": "Once the website project is complete, with both the designs and the fully-functional website approved by you, it is fully-owned by you once all invoices have been paid in full*, as quoted in your project proposal. For projects with regularly payments scheduled for a period of 3 months or more, projects may be complete before payment is made in full. In such instances, the complete website may or will likely be launched so that you are able to proceed with your continued marketing efforts. However, the website will not be fully-owned by you until payment is complete in full. *Paid in full meaning the project quote, excluding any fees proposed for website hosting and maintenance by Particular Agency."
+      },
+      {
+        "id": 2,
+        "question": "What is the process of website transfer once it’s ready?",
+        "answer": "Once the website is ready for deployment, we begin the transfer process by first backing up your current site (if applicable). We then upload the new site files to your hosting server, configure any necessary settings, and perform final tests to ensure everything is working as expected. Once everything is confirmed, the new site goes live. We provide you with all credentials and a guide to navigate through your new website."
+      },
+      {
+        "id": 3,
+        "question": "Are SEO Services included in the web design package?",
+        "answer": "Search Engine Optimisation (SEO) services can be included in all website projects but are not included as standard. For Particular clients seeking SEO additions to the project, they should mention this to a member of the Products team during Discovery Calls or other communication with them. This can be over the phone or by email."
+      },
+      {
+        "id": 4,
+        "question": "How many revisions do I get when Particular are building and designing my website?",
+        "answer": "5 revisions are offered per website project as standard - with 3 during the design phase of the project and the remaining 2 during the development phase. The number of revisions, 5, has been selected through our analysis of our experience developing creative projects with clients. Data suggests that 5 is sufficient for our clients’ ideas to be effectively understood and then designed & built, before undergoing our clients’ final scrutiny that completes the project to the specified scope."
+      },
+      {
+        "id": 5,
+        "question": "How long will it take to complete my website project?",
+        "answer": "The duration of your website project will vary based on its scope. Project duration typically starts at 3 weeks for the smallest scale projects and can range up to several months for extensive, experience intensive web platforms and apps. We aim to complete most projects within a 4-8 weeks timeline."
+      },
+      {
+        "id": 6,
+        "question": "What is your website quality assurance process?",
+        "answer": "Our quality assurance process involves multiple stages including design review, code review, functionality testing, cross-browser and device compatibility testing, and performance optimization checks. We ensure that every website we deliver is up to our standard of excellence."
+      },
+      {
+        "id": 7,
+        "question": "How often will I be updated about my project?",
+        "answer": "At the start, you'll set your communication preference. Our usual scheduled update is once a week. Of course, within this, you may be communicating with your account manager on an ongoing basis."
+      },
+      {
+        "id": 8,
+        "question": "What environment do you use when you develop your websites (e.g. Github)?",
+        "answer": "We utilize a version control system like GitHub for tracking changes in the website's codebase. This ensures that multiple developers can work on the site simultaneously without conflicts, and it allows us to maintain a history of all changes. In addition, we use local development environments to build and test the site before pushing to staging or live servers. Please note this is for custom code"
+      },
+      {
+        "id": 9,
+        "question": "Will I be able to speak to my web designer directly?",
+        "answer": "We will usually schedule them in to attend your first and third revision meetings. This gives you a chance to express directly to the person developing your vision creatively."
+      },
+      {
+        "id": 10,
+        "question": "Do you offer post-launch support?",
+        "answer": "Yes, we offer post-launch support packages to ensure your website continues to run smoothly. This includes periodic updates, security patches, and troubleshooting any issues that may arise."
+      },
+      {
+        "id": 10,
+        "question": "Will you host my website once it’s done?",
+        "answer": "We leave this choice open to our clients. For Particular Agency customers, where may likely have designed and built the website in full, it is a natural progression for us to host and manage the website once complete. You can learn the full details through our Maintenance & Hosting Guide. However, this is not a compulsory action. We prefer for our clients to have the choice so that hosting with us may be a willing action, rather than a term of engagement. The extra freedom of movement can help businesses, smaller ones especially, with their next moves - we respect this entirely."
+      },
+      {
+        "id": 11,
+        "question": "If I ‘break’ my website post-launch, is it within my rights to have it resolved by you without charge?",
+        "answer": "We always strive to ensure our clients are satisfied. If there's an issue resulting from our work, we'll fix it at no additional cost. However, if changes were made post-launch without our guidance and caused the issue, there might be a fee involved for the resolution."
+      },
+      {
+        "id": 12,
+        "question": "Does Web Maintenance include cookie compliance updates?",
+        "answer": "Yes, our maintenance package includes updates for cookie compliance to ensure your website adheres to the latest regulations and best practices."
+      },
+      {
+        "id": 13,
+        "question": "Does my website project include web copy?",
+        "answer": "Website projects will not include web copy as standard, and Particular Agency’s Product team will ask if assistance with this will be useful for you. If so, this will be included in your proposal offer. Some clients know from start to finish what they would like to say on their website, down to the last letter. Others aren’t so fussed, or would like assistance saying the right things. Both scenarios are fine for the Particular Agency Design team to work with."
+      },
+      {
+        "id": 14,
+        "question": "What will my website’s site speed be like?",
+        "answer": "We optimise all our websites for speed by implementing best practices such as image optimisation, minification of scripts, and leveraging browser caching. While the exact site speed can vary based on hosting, content, and user location, we aim for your site to be as fast as possible and score well on speed test tools."
+      },
+      {
+        "id": 14,
+        "question": "Are there ways that you can ensure my website’s speed is optimal? Do you offer website speed optimisation as a service?",
+        "answer": "Speed optimisation involves strategic work in the development of your website. Moving towards a website that’s responsive and fast can look like any of the following: Compress Images, Enabling Browser Caching, Minimising HTTP Requests, Using Content Delivery Networks (CDNs), Optimising Code, Reducing Server Response Time, Eliminating Render-Blocking JavaScript, Content Delivery Optimisation, Monitoring Performance, Regularly Updating Software and Implementing SSL Encryption. The above can all be offered as a part of our Web Design & Development service."
+      },
+      {
+        "id": 15,
+        "question": "I have another website, but it has bugs or is broken. Can you help fix it??",
+        "answer": "Absolutely! We offer website troubleshooting and repair services. Just provide us with the details, and we'll assess the issues and provide a plan of action to get your site back up and running."
+      },
+      {
+        "id": 16,
+        "question": "I don’t really want to be too involved in the creative process. Can I leave Particular Agency to get on with the work and then show it to me?",
+        "answer": "This isn't a problem at all. Please ensure you communicate this preference to your account manager. We're more than happy to handle the creative process and present the work to you once it's ready."
+      },
+      {
+        "id": 17,
+        "question": "Do I have to complete my website brief in order to get a quote?",
+        "answer": "The short answer is, yes. We use your completed website brief, which is designed to gauge the full scope of your project, to then prepare your proposal. Your proposal is the written document confirming Particular Agency’s acceptance of the brief and openness to work on the project. You will need this to complete onboarding. Our full onboarding process is outlined in our Web Development Guide, which is free for you to download here."
+      },
+      {
+        "id": 18,
+        "question": "How can I track the data on my website?",
+        "answer": "We typically integrate Google Analytics or similar tracking tools into the websites we develop. This allows you to monitor website traffic, user behavior, conversion rates, and more. We provide a tutorial on how to navigate and interpret this data, ensuring you're well-equipped to understand your site's performance."
+      },
+      {
+        "id": 19,
+        "question": "Will my website automatically be optimised for mobile, and include mobile designs?",
+        "answer": "TBespoke mobile designs can be included in all website projects and you will typically discuss this service in any project proposal you receive from the Particular Product team. Mobile usage accounts for over 55% of all web traffic and is usually most sensible in developing a professional-looking, user-friendly online presence."
+      },
+      {
+        "id": 20,
+        "question": "What is Figma?",
+        "answer": "Figma is a collaborative design tool that allows for real-time sharing, editing, and commenting on design files. It's a platform that facilitates seamless communication and collaboration between designers and clients."
+      }
+    ],
+    "imagePath": "service1.jpg",
+    "videoPath": "web-design-development.mp4",
+    "hasVideo": true,
+    "hasFaqs": true
+  },
+  {
+    "title": "UI/UX Design",
+    "description": "Lorem ipsum dolor sit amet consectetur. Elementum neque in commodo lobortis sed duis vel. Lorem ipsum dolor sit amet consectetur. Elementum neque in commodo lobortis sed duis vel.",
+    "includes": [
+      [
+        "Stakeholder interview",
+        "Problem statement",
+        "User requirements",
+        "Market research",
+        "Information architecture"
+      ],
+      ["Design system", "Wireframes", "Visual Design", "Prototype"]
+    ],
+    "faqs": [
+      {
+        "id": 1,
+        "question": "Question 1",
+        "answer": "Answer to Question 1"
+      },
+      {
+        "id": 2,
+        "question": "Question 2",
+        "answer": "Answer to Question 2"
+      }
+    ],
+    "imagePath": "services-details-item-2.png",
+    "hasVideo": false,
+    "hasFaqs": false
+  },
+  {
+    "title": "PPC (Pay-Per-Click)",
+    "description": "Lorem ipsum dolor sit amet consectetur. Elementum neque in commodo lobortis sed duis vel. Lorem ipsum dolor sit amet consectetur. Elementum neque in commodo lobortis sed duis vel.",
+    "includes": [
+      [
+        "Website research",
+        "Competitor research",
+        "Target research",
+        "Bid Research",
+        "Keyword research",
+        "Objectives & KPIs"
+      ],
+      [
+        "Account set up",
+        "Keyword & Ad grouping",
+        "Budget & Bid set up",
+        "Drafting Ad copy",
+        "Landing page development",
+        "Analytics"
+      ],
+      [
+        "Updating bids",
+        "A/B Testing - Ads & landing pages",
+        "Reporting",
+        "Account Optimisation",
+        "Web page Optimisation"
+      ]
+    ],
+    "faqs": [
+      {
+        "id": 1,
+        "question": "Question 1",
+        "answer": "Answer to Question 1"
+      },
+      {
+        "id": 2,
+        "question": "Question 2",
+        "answer": "Answer to Question 2"
+      }
+    ],
+    "videoPath": "content-strategy.mp4",
+    "hasVideo": true,
+    "hasFaqs": false
+  },
+  {
+    "title": "SEO (National & Local)",
+    "description": "Lorem ipsum dolor sit amet consectetur. Elementum neque in commodo lobortis sed duis vel. Lorem ipsum dolor sit amet consectetur. Elementum neque in commodo lobortis sed duis vel.",
+    "includes": [
+      [
+        "Website Analysis",
+        "Keyword Research",
+        "Competitor Analysis",
+        "Website Code Optimisation",
+        "Social Media Integration",
+        "Content strategy"
+      ],
+      [
+        "Blog Submission",
+        "Article Submission",
+        "Press Releases",
+        "Directory Submission",
+        "Link Building",
+        "Monthly Reporting"
+      ],
+      [
+        "Local Citation",
+        "Local Link Building",
+        "Google Business Profile Management"
+      ]
+    ],
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What’s the difference between Local, National and International SEO?",
+        "answer": "Local SEO is a strategy tailored to businesses looking to attract customers from a specific local area, like a city or county region. It involves targeting location-specific keywords, such as 'plumber in Liverpool' or 'Italian restaurant near me.' Local SEO efforts include optimising Google My Business listings, managing local citations, encouraging online reviews, and creating location-specific content. It's highly beneficial for businesses with a physical presence, like restaurants, local shops, plumbers, dentists, and hair salons. National SEO, on the other hand, is designed for businesses with a broader, national audience. The focus here is on attracting customers across an entire country without the need for specific location modifiers in keywords. National SEO involves targeting more generic or industry-related keywords, building high-quality backlinks, creating comprehensive content, and optimising the website's technical aspects to compete at a national level. It's often used by e-commerce websites, large corporations, and businesses with products or services that cater to a nationwide market. International SEO is the strategy for businesses with a global reach and the ambition to attract a worldwide customer base. It necessitates the targeting of keywords relevant to multiple countries or regions, often in various languages. International SEO efforts may include implementing tags to indicate language and regional targeting, adapting currency and pricing structures, and optimizing for different search engines popular in various regions. This approach is typically employed by large multinational corporations, global e-commerce sites, and businesses with a presence in multiple countries to expand their reach and cater to diverse international audiences. These three types of SEO vary in their geographic focus and require distinct strategies and techniques to effectively reach the intended audience. The choice of which type to pursue depends on your business goals, target audience, and the extent of your geographic reach. Many businesses may employ a combination of these strategies to effectively connect with both local and global customers."
+      },
+      {
+        "id": 2,
+        "question": "What is SEO? How can it help my website and business?",
+        "answer": "SEO stands for Search Engine Optimisation, and it refers to the practice of optimising your website and overall online content to improve your website’s (and brand’s) visibility and ranking in search engine results, such as Google, Bing, and Yahoo. The primary goal of SEO is to increase the quantity and quality of organic (non-paid) traffic to your website. This is achieved through various strategies and techniques designed to make your website more attractive to search engines and, consequently, more appealing to users."
+      },
+      {
+        "id": 3,
+        "question": "Do I have to pay for SEO forever?",
+        "answer": "No, ongoing SEO is purely an optional move for any business, although it can be more beneficial for some businesses than others. Where your market niche is quite competitive, ongoing SEO is a smart way to stay present in the eyes of customers, encouraging more sales and interaction with your business online. The principles that go into SEO are those which generally contribute to having a better, more engaging, more interactive website anyway, so it’s usually a good way to invest in your company - at least for a while. Particular SEO packages are offered on a monthly-rolling basis with no long-term commitment. Results will vary based on your investment horizon and may take up to 6 months to see web traffic results."
+      },
+      {
+        "id": 4,
+        "question": "SEO doesn’t give results straight away? How long does it take for SEO to work?",
+        "answer": "SEO is a long-term strategy, and it typically does not yield immediate results. The time it takes for SEO to work and show significant results can vary based on several factors. While there is no fixed timeframe for SEO results, you can generally expect to see noticeable improvements in your organic search traffic and rankings within several months. Significant results may take anywhere from 6 months to a year or more, depending on the factors mentioned above. However, it's important to remember that SEO is an investment in the long-term success of your website, and the benefits it provides can continue to grow over time as your efforts compound. Patience and consistent effort are key to achieving success with SEO."
+      },
+      {
+        "id": 5,
+        "question": "Are SEO Services included in the web design package?",
+        "answer": "SSearch Engine Optimisation (SEO) services can be included in all website projects but are not included as standard. For Particular clients seeking SEO additions to the project, they should mention this to a member of the Products team during Discovery Calls or other communication with them. This can be over the phone or by email."
+      }
+    ],
+    "imagePath": "services-details-item-seo.png",
+    "hasVideo": false,
+    "hasFaqs": true
+  },
+  {
+    "title": "Branding",
+    "description": "Lorem ipsum dolor sit amet consectetur. Elementum neque in commodo lobortis sed duis vel. Lorem ipsum dolor sit amet consectetur. Elementum neque in commodo lobortis sed duis vel.",
+    "includes": [
+      [
+        "Naming",
+        "Competitive Analysis",
+        "Typography",
+        "Taglines/Straplines",
+        "Key Messages",
+        "Brand Development Workshop"
+      ],
+      [
+        "Brand Positioning",
+        "Mission, Values, Vision",
+        "Brand Personality",
+        "Tone Of Voice",
+        "Value Proposition",
+        "Brand Architecture"
+      ],
+      ["Brand Assets", "Colour Pallete"]
+    ],
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What do I need for ‘branding’? I don’t really know what goes into it.",
+        "answer": "Branding is a comprehensive process that involves creating a strong and distinctive identity for your business. It goes beyond just a logo and includes various elements that work together to establish your brand's image and reputation. This includes your brand’s strategy, identity, its messaging, its tagline or slogan, website and online presence, content strategy, marketing materials, its customer experience and across-the-board consistency. Ultimately, to build a relatively complete brand, all of the above will be a part of the final picture. Starting with an idea of your customer experience, a website and online presence, a logo mark and some marketing materials will be enough to start making money. The vast world of continued brand development awaits you after that foundation, and many brand will redesign their logos, amend their slogans and refine their messaging over time."
+      },
+      {
+        "id": 2,
+        "question": "I have a brand but want to make it more concise. Can you help?",
+        "answer": "Yes. Brand development continually occurs throughout a company’s journey, so it never really ends. Particular Agency helps with revamping brands also."
+      },
+      {
+        "id": 3,
+        "question": "How many revisions do I get for my logo mark?",
+        "answer": "3 revisions. Before the project starts you will be given a logo brief to provide our design team with, which will help shape their understanding of your ideas."
+      },
+      {
+        "id": 4,
+        "question": "What’s the difference between a logo mark and logo type",
+        "answer": "A logo mark, often referred to as an emblem or symbol, is a graphic or visual element within a logo that represents the brand or company. It is a unique and recognizable symbol that doesn't necessarily include any text or the company's name. A logo type is a logo that consists solely of the company's name or a specific typographic treatment of the brand's name. It does not include a separate graphic or symbol."
+      },
+      {
+        "id": 5,
+        "question": "What’s a Brand Identity Kit?",
+        "answer": "A Brand Identity Kit, also referred to as a Brand Banner, works as the effective manual for all things that concern the brand. This includes Brand logo mark, logo type, tone, personality, essence, market positioning, etc. It serves primarily as a visual representation of the brand in all formats, including placement."
+      },
+      {
+        "id": 6,
+        "question": "Can you work on my both brand and website at the same time?",
+        "answer": "Yes. Many of our clients ask for us to work on both their website and brand development at the same time. A popular combination is a website, logo mark and logo type. Other companies opt for a website and full brand identity kit, along with other Particular services. The choice is completely up to the company in question."
+      }
+    ],
+    "videoPath": "branding.mp4",
+    "hasVideo": true,
+    "hasFaqs": true
+  },
+  {
+    "title": "Motion Graphic",
+    "description": "Lorem ipsum dolor sit amet consectetur. Elementum neque in commodo lobortis sed duis vel. Lorem ipsum dolor sit amet consectetur. Elementum neque in commodo lobortis sed duis vel.",
+    "includes": [
+      ["Concept Development", "Storyboarding", "Animation", "Video Editing"]
+    ],
+    "faqs": [
+      {
+        "id": 1,
+        "question": "Question 1",
+        "answer": "Answer to Question 1"
+      },
+      {
+        "id": 2,
+        "question": "Question 2",
+        "answer": "Answer to Question 2"
+      }
+    ],
+    "imagePath": "services-details-item-motion.png",
+    "hasVideo": false,
+    "hasFaqs": false
+  }
 ]
