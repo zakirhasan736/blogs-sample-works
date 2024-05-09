@@ -29,7 +29,9 @@ const Navbar = () => {
 	const logoSrc = isPortfolioPage
 		? "/images/logo-black.svg"
 		: "/images/logo.svg";
-
+	const triggerImg = isPortfolioPage
+		? "trigger-menu-black.svg"
+		: "trigger-menu.svg";
 	const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
 	const handleDrawerToggle = () => {
@@ -94,7 +96,7 @@ const Navbar = () => {
 						className="mobo-trigger-menu-btn "
 						onClick={handleDrawerToggle}>
 						<Image
-							src="/images/icons/trigger-menu.svg"
+							src={`/images/icons/${triggerImg}`}
 							width="28"
 							height="9"
 							alt="header trigger btn icon"

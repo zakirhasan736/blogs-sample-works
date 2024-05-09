@@ -22,7 +22,7 @@ const PortfolioSec = () => {
 							data.
 						</p>
 					</div>
-					<Link href="">View all</Link>
+					<Link href="/portfolio">View all</Link>
 				</div>
 			</div>
 			<div className="portfolio-card-item-box">

@@ -73,9 +73,9 @@ const handleServiceItemClick = (index: number) => {
 				}, []);
 
 	return (
-		<div className="services-page-wrapper-cont gap-5 flex items-start pb-[24px] sm:pb-[20px] sm:flex-col">
+		<div className="services-page-wrapper-cont gap-5 sm:gap-10 flex items-start pb-[24px] sm:pb-[20px] sm:flex-col">
 			<div className="services-left-cont  w-full sticky sm:relative sm:top-0 top-10 max-w-[272px] md:max-w-[200px] sm:max-w-full">
-				<h3 className="services-title mb-4 text-mono-60 font-accent font-normal text-[16px] text-left leading-[120%] tracking-[2.4px] uppercase">
+				<h3 className="services-title mb-4 text-mono-60 font-accent font-normal !text-[16px] text-left leading-[120%] tracking-[2.4px] uppercase">
 					SERVICES
 				</h3>
 				<ul className="services-list-items flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:justify-center">

@@ -49,9 +49,9 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
 							We understand that even a 5% increase in customer retention
 							translates to a 29-95% rise in profitability.
 						</p>
-						<button className="bg-[#181725] text-white px-4 py-2 mt-[33px] rounded-[4px]">
+						<Link href="/contacts" className="inline-block bg-[#181725] text-white px-4 py-2 mt-[33px] rounded-[4px]">
 							Contact us
-						</button>
+						</Link>
 					</div>
 					<div className="mt-auto w-full experiance-wrap-bottom-cont border-t border-t-Mono-70">
 						<div className="insight-card-items grid grid-cols-12 sm:grid-cols-6 gap-0">

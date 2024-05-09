@@ -54,7 +54,9 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
 						designing bespoke digital <br /> strategies for brands across all
 						sectors and companies across the globe.
 					</motion.p>
-					<button className="lbtn">Let's talk</button>
+					<Link href="/contacts">
+						<button className="lbtn">Let's talk</button>
+					</Link>
 				</div>
 				<Image
 					src="/images/agency.png"
