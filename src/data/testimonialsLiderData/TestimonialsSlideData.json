@@ -1,125 +1,60 @@
 {
-    "TestimonialsSlideData": [
-        {
-            "ProjectTitle": "Tsagaris Clinic",
-            "clientName": "Dr John Tsagaris",
-            "clientWord": "My partnership with Particular Agency for my web application development has been nothing short of remarkable.",
-            "rating": 5,
-            "isVideo": false,
-            "projectModalImage": "testimonials-client-img-1.png",
-            "rettingProvider": "trusted-provider-img-1.svg",
-            "categoryItems": [
-                "Brand Identity",
-                "Photography",
-                "Web Design"
-            ]
-        },
-        {
-            "ProjectTitle": "Rushmoor Knights Academy",
-            "clientName": "Stephen Diaper",
-            "clientWord": "We collaborated with Particular for the redesign of our website. The team at Particular was fantastic.",
-            "rating": 5,
-            "projectModalImage": "testimonials-client-img-2.png",
-            "rettingProvider": "trusted-provider-img-2.svg",
-            "categoryItems": [
-                "Brand Identity",
-                "Photography",
-                "Web Design"
-            ]
-        },
-        {
-            "ProjectTitle": "Metisse",
-            "clientName": "Noura El-Bahi",
-            "clientWord": "We collaborated with Particular for the redesign of our website. The team at Particular was fantastic.",
-            "rating": 5,
-            "isVideo": true,
-            "projectModalVideo": "metisse-modal-video.mp4",
-            "rettingProvider": "trusted-provider-img-2.svg",
-            "categoryItems": [
-                "Brand Identity",
-                "Photography",
-                "Web Design"
-            ]
-        },
-        {
-            "ProjectTitle": "Tsagaris Clinic",
-            "clientName": "Dr John Tsagaris",
-            "clientWord": "My partnership with Particular Agency for my web application development has been nothing short of remarkable.",
-            "rating": 5,
-            "projectModalImage": "testimonials-client-img-1.png",
-            "rettingProvider": "trusted-provider-img-1.svg",
-            "categoryItems": [
-                "Brand Identity",
-                "Photography",
-                "Web Design"
-            ]
-        },
-        {
-            "ProjectTitle": "Rushmoor Knights Academy",
-            "clientName": "Stephen Diaper",
-            "clientWord": "We collaborated with Particular for the redesign of our website. The team at Particular was fantastic.",
-            "rating": 5,
-            "projectModalImage": "testimonials-client-img-2.png",
-            "rettingProvider": "trusted-provider-img-2.svg",
-            "categoryItems": [
-                "Brand Identity",
-                "Photography",
-                "Web Design"
-            ]
-        },
-        {
-            "ProjectTitle": "Metisse",
-            "clientName": "Noura El-Bahi",
-            "clientWord": "We collaborated with Particular for the redesign of our website. The team at Particular was fantastic.",
-            "rating": 5,
-            "isVideo": true,
-            "projectModalVideo": "metisse-modal-video.mp4",
-            "rettingProvider": "trusted-provider-img-2.svg",
-            "categoryItems": [
-                "Brand Identity",
-                "Photography",
-                "Web Design"
-            ]
-        },
-        {
-            "ProjectTitle": "Tsagaris Clinic",
-            "clientName": "Dr John Tsagaris",
-            "clientWord": "My partnership with Particular Agency for my web application development has been nothing short of remarkable.",
-            "rating": 5,
-            "projectModalImage": "testimonials-client-img-1.png",
-            "rettingProvider": "trusted-provider-img-1.svg",
-            "categoryItems": [
-                "Brand Identity",
-                "Photography",
-                "Web Design"
-            ]
-        },
-        {
-            "ProjectTitle": "Rushmoor Knights Academy",
-            "clientName": "Stephen Diaper",
-            "clientWord": "We collaborated with Particular for the redesign of our website. The team at Particular was fantastic.",
-            "rating": 5,
-            "projectModalImage": "testimonials-client-img-2.png",
-            "rettingProvider": "trusted-provider-img-2.svg",
-            "categoryItems": [
-                "Brand Identity",
-                "Photography",
-                "Web Design"
-            ]
-        },
-        {
-            "ProjectTitle": "Metisse",
-            "clientName": "Noura El-Bahi",
-            "clientWord": "We collaborated with Particular for the redesign of our website. The team at Particular was fantastic.",
-            "rating": 5,
-            "isVideo": true,
-            "projectModalVideo": "metisse-modal-video.mp4",
-            "rettingProvider": "trusted-provider-img-2.svg",
-            "categoryItems": [
-                "Brand Identity",
-                "Photography",
-                "Web Design"
-            ]
-        }
-    ]
+  "TestimonialsSlideData": [
+    {
+      "ProjectTitle": "Tsagaris Clinic",
+      "clientName": "Dr John Tsagaris",
+      "clientWord": "My partnership with Particular Agency for my web application development has been nothing short of remarkable.",
+      "rating": 5,
+      "isVideo": false,
+      "projectModalImage": "testimonials-client-img-1.png",
+      "rettingProvider": "trusted-provider-img-1.svg",
+      "categoryItems": ["Brand Identity", "Photography", "Web Design"]
+    },
+    {
+      "ProjectTitle": "Rushmoor Knights Academy",
+      "clientName": "Stephen Diaper",
+      "clientWord": "We collaborated with Particular for the redesign of our website. The team at Particular was fantastic.",
+      "rating": 5,
+      "projectModalImage": "testimonials-client-img-2.png",
+      "rettingProvider": "trusted-provider-img-2.svg",
+      "categoryItems": ["Brand Identity", "Photography", "Web Design"]
+    },
+    {
+      "ProjectTitle": "Metisse",
+      "clientName": "Noura El-Bahi",
+      "clientWord": "Execution was spot on and expanded tastefully on my existing brand.",
+      "rating": 5,
+      "isVideo": true,
+      "projectModalVideo": "metisse-modal-video.mp4",
+      "rettingProvider": "trusted-provider-img-2.svg",
+      "categoryItems": ["Brand Identity", "Photography", "Web Design"]
+    },
+    {
+      "ProjectTitle": "Trinius Ltd",
+      "clientName": "Rosie Akshar",
+      "clientWord": "Great experience from start to finish. Project delivered on time and on budget with the whole team being very responsive, helpful and knowledgeable. Will use them again in the future.",
+      "rating": 5,
+      "projectModalImage": "testimonials-client-img-4.png",
+      "rettingProvider": "trusted-provider-img-1.svg",
+      "categoryItems": ["Brand Identity"]
+    },
+    {
+      "ProjectTitle": "Jude",
+      "clientName": "Jacques",
+      "clientWord": "A really smooth, objective-based experience. Very communicate and purposeful in their approach, they have added so much additional value to my company's marketing capabilities.",
+      "rating": 5,
+      "projectModalImage": "testimonials-client-img-5.png",
+      "rettingProvider": "trusted-provider-img-1.svg",
+      "categoryItems": ["Brand Identity"]
+    },
+    {
+      "ProjectTitle": "Susie Rushden",
+      "clientName": "Susie Rushden",
+      "clientWord": "Particular Agency are a breath of fresh air in the approach to customer service and real understanding of my business needs. ",
+      "rating": 5,
+      "projectModalImage": "testimonials-client-img-6.png",
+      "rettingProvider": "trusted-provider-img-1.svg",
+      "categoryItems": ["Photography"]
+    }
+  ]
 }

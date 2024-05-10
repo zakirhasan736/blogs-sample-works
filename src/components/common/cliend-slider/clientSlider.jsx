@@ -66,14 +66,6 @@ const ClientSlider = () => {
               alt="client brand logo"
             />
           </div>
-          <div className="client-brand-item">
-            <Image
-              src="/images/client-logo-5.svg"
-              width={120}
-              height={55}
-              alt="client brand logo"
-            />
-          </div>
         </Slider>
       </div>
     </div>
