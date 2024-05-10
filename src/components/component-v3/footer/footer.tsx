@@ -20,20 +20,17 @@ const Footer = () => {
             </Link>
 
             <div className="flex gap-[15px] mt-[60px]">
-              <Link href="" target="_blank">
-                <img src="/images/facebook.svg" alt="Facebook Icon" />
-              </Link>
               <Link
                 href="https://www.linkedin.com/company/byparticularagency/"
                 target="_blank"
               >
                 <img src="/images/linkedin.svg" alt="LinkedIn Icon" />
               </Link>
-              <Link href="" target="_blank">
+              <Link
+                href="https://www.google.com/search?q=particular+agency&rlz=1C5CHFA_enGB964GB964&oq=part&gs_lcrp=EgZjaHJvbWUqBggBEEUYOzIGCAAQRRhBMgYIARBFGDsyBggCEEUYOTIGCAMQRRg7Mg0IBBAAGJIDGIAEGIoFMgYIBRBFGEEyBggGEEUYPDIGCAcQRRhB0gEIMzU3MWowajSoAgCwAgE&sourceid=chrome&ie=UTF-8"
+                target="_blank"
+              >
                 <img src="/images/google.svg" alt="" />
-              </Link>
-              <Link href="" target="_blank">
-                <img src="/images/x.svg" alt="X Icon" />
               </Link>
             </div>
           </div>

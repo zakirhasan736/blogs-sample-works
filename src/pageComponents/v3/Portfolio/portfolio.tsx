@@ -7,7 +7,7 @@ const PortfolioV3 = () => {
     <section className="portfolio-v3">
       <div className="custom-container">
         <div className="title mb-[42px]">
-          <h2>Portfolio</h2>
+          <h2 className="mb-6">Portfolio</h2>
           <p>
             We work with a variety of businesses across the globe all striving
             for <br />
@@ -33,8 +33,8 @@ const PortfolioV3 = () => {
             <Link href="/drjohntsagaris" className=" w-2/4 sm:w-full">
               <div className="project p-6 bg-no-repea bg-[url('/images/drjohn.png')] h-[262px] sm:w-full">
                 <div>
-                  <span className="pill">Photography</span>
-                  <span className="pill">Web Design</span>
+                  <span className="pill">SEO</span>
+                  <span className="pill">Logo Design</span>
                 </div>
                 <div className="content">
                   <h4>Dr John Tsagiris</h4>
@@ -49,7 +49,6 @@ const PortfolioV3 = () => {
                 <div className="project p-6 bg-no-repea bg-[url('/images/project3.png')] h-[262px] w-full mb-4">
                   <div>
                     <span className="pill">Brand Identity</span>
-                    <span className="pill">Photography</span>
                     <span className="pill">Web Design</span>
                   </div>
                   <div className="content">
@@ -75,15 +74,15 @@ const PortfolioV3 = () => {
                   <div className="relative z-10 h-full flex flex-col justify-between">
                     {/* Pill tags */}
                     <div className=" mb-2">
-                      <span className="pill">Brand Identity</span>
-                      <span className="pill">Photography</span>
-                      <span className="pill">Web Design</span>
+                      <span className="pill">Web App Development</span>
                     </div>
 
                     {/* Content */}
                     <div className="content">
                       <h4>Rushmore Knights Academy</h4>
-                      <p>Timeless pieces for extraordinary moments</p>
+                      <p>
+                        Leading the Rising Wave of American Football in the UK
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -107,7 +106,7 @@ const PortfolioV3 = () => {
                     <div>
                       <span className="pill">Brand Identity</span>
                       <span className="pill">Photography</span>
-                      <span className="pill">Web Design</span>
+                      <span className="pill">Videography</span>
                     </div>
                     <div className="content">
                       <h4>Burn Hard</h4>
