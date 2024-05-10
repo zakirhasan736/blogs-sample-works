@@ -31,11 +31,11 @@ const BlogsSec = () => {
               </div>
             </div>
           </Link>
-          <Link href="">
+          <Link href="articles/how-much-does-seo-cost-in-2025">
             <div className="bg-no-repea bg-[url('/images/blog1.png')] h-[262px]">
               <div className="content">
-                <h5>productivity</h5>
-                <p>why is apple’s marketing so effective?</p>
+                <h5>seo</h5>
+                <p>How much does SEO cost in 2024?</p>
               </div>
             </div>
           </Link>
@@ -96,7 +96,7 @@ const BlogsSec = () => {
               </div>
             </Link>
           </div>
-          <Link href="">
+          <Link href="/articles/how-much-does-a-website-cost-in-2024">
             <div className="bg-no-repea mt-[14px] h-[540px] sm:h-[262px]">
               <div className="overlay"></div>
               <video
@@ -109,9 +109,9 @@ const BlogsSec = () => {
                 Your browser does not support the video tag.
               </video>
               <div className="content">
-                <h5>business</h5>
+                <h5>DAta analytics</h5>
                 <p>
-                  Harness the power of customer experience to grow your business
+                  How Businesses Benefit from Using Analytics on Their Website
                 </p>
               </div>
             </div>

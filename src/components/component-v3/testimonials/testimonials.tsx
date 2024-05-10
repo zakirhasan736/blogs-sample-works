@@ -177,29 +177,31 @@ const TestimonialSec: React.FC = () => {
                           )}
                         </div>
                         <div className="testimonials-overly-cont absolute top-0 left-0 w-full h-full flex flex-col justify-end items-start px-[24px] py-[32px]">
-                          <p className="authore-name mb-4 text-mono-50 text-[14px] text-left font-accent font-normal leading-[150%]">
-                            {testimonials.clientName}
-                          </p>
-                          <div className="testimonials-retting flex items-center gap-4">
-                            {testimonials.rating && (
-                              <ul className="retting-lists flex items-center gap-2">
-                                {renderRatingStars(testimonials.rating)}
-                              </ul>
-                            )}
-                            <div className="trusted-provider">
-                              <a href="/">
-                                <Image
-                                  src={`/images/testimonials/${testimonials.rettingProvider}`}
-                                  alt="rettings trusted provider"
-                                  width={16}
-                                  height={16}
-                                />
-                              </a>
+                          <div className="content">
+                            <p className="authore-name mb-4 text-mono-50 text-[14px] text-left font-accent font-normal leading-[150%]">
+                              {testimonials.clientName}
+                            </p>
+                            <div className="testimonials-retting flex items-center gap-4">
+                              {testimonials.rating && (
+                                <ul className="retting-lists flex items-center gap-2">
+                                  {renderRatingStars(testimonials.rating)}
+                                </ul>
+                              )}
+                              <div className="trusted-provider">
+                                <a href="/">
+                                  <Image
+                                    src={`/images/testimonials/${testimonials.rettingProvider}`}
+                                    alt="rettings trusted provider"
+                                    width={16}
+                                    height={16}
+                                  />
+                                </a>
+                              </div>
                             </div>
+                            <p className="testimonials-words mt-2 text-mono-50  text-[16px] text-left font-accent font-normal leading-[150%]">
+                              “{testimonials.clientWord}”
+                            </p>
                           </div>
-                          <p className="testimonials-words mt-2 text-mono-50  text-[16px] text-left font-accent font-normal leading-[150%]">
-                            “{testimonials.clientWord}”
-                          </p>
                         </div>
                       </div>
                       <ul className="categoy-list flex-wrap mt-4 sm:mt-3 gap-4 flex items-center justify-start">

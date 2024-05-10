@@ -3285,6 +3285,22 @@ footer .copy li {
   font-weight: 400;
   line-height: 18px;
 }
+.portfolio-info,
+.testimonials-overly-cont .content {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-card-item:hover .portfolio-info,
+.testimonials-cont-box:hover .testimonials-overly-cont .content {
+  transform: translateY(-50px);
+}
+
+.portfolio-card-item .card-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media (max-width: 700px) {
   .projects .flex {

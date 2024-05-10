@@ -20,20 +20,17 @@ const Footer = () => {
             </Link>
 
             <div className="flex gap-[15px] mt-[60px]">
-              <Link href="" target="_blank">
-                <img src="/images/facebook.svg" alt="Facebook Icon" />
-              </Link>
               <Link
                 href="https://www.linkedin.com/company/byparticularagency/"
                 target="_blank"
               >
                 <img src="/images/linkedin.svg" alt="LinkedIn Icon" />
               </Link>
-              <Link href="" target="_blank">
+              <Link
+                href="https://www.google.com/search?q=particular+agency&rlz=1C5CHFA_enGB964GB964&oq=part&gs_lcrp=EgZjaHJvbWUqBggBEEUYOzIGCAAQRRhBMgYIARBFGDsyBggCEEUYOTIGCAMQRRg7Mg0IBBAAGJIDGIAEGIoFMgYIBRBFGEEyBggGEEUYPDIGCAcQRRhB0gEIMzU3MWowajSoAgCwAgE&sourceid=chrome&ie=UTF-8"
+                target="_blank"
+              >
                 <img src="/images/google.svg" alt="" />
-              </Link>
-              <Link href="" target="_blank">
-                <img src="/images/x.svg" alt="X Icon" />
               </Link>
             </div>
           </div>
@@ -53,29 +50,23 @@ const Footer = () => {
               </div>
               <ul>
                 <li>
-                  <Link href="/services/web-design-and-development">
-                    Web &amp; App Development
-                  </Link>
+                  <Link href="/services">Web &amp; App Development</Link>
                 </li>
                 <li>
-                  <Link href="/services/pay-per-click">PPC</Link>
+                  <Link href="/services">PPC</Link>
                 </li>
                 <li>
-                  <Link href="/services/app-development">UI/UX Design</Link>
+                  <Link href="/services">UI/UX Design</Link>
                 </li>
                 <li>
-                  <Link href="/services/motion-design">Motion Design</Link>
+                  <Link href="/services">Motion Design</Link>
                 </li>
                 <li>
-                  <Link href="/services/seo-service">SEO</Link>
+                  <Link href="/services">SEO</Link>
                 </li>
                 <li>
-                  <Link href="/services/branding">Brand Identity</Link>
+                  <Link href="/services">Brand Identity</Link>
                 </li>
-                {/* <li>
-
-								<Link href="#">App Development</Link>
-							</li> */}
               </ul>
             </div>
             <div>
