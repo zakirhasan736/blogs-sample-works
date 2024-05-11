@@ -3357,8 +3357,6 @@ footer .copy li {
 
 @media (max-width: 400px) {
   .projects .pill {
-    display: block;
-    margin-bottom: 10px;
     text-align: center;
     width: 100px;
   }

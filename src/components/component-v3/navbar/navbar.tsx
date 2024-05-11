@@ -107,7 +107,12 @@ const Navbar = () => {
       <div className="relative hidden md:block">
         <div className="flex justify-between items-center">
           <Link href="/">
-            <Image src={logoSrc} alt="Logo" width="107" height="43" />
+            <Image
+              src="/images/mobile-logo.svg"
+              alt="Logo"
+              width="107"
+              height="43"
+            />
           </Link>
           <button
             className="mobo-trigger-menu-btn "
@@ -177,7 +182,7 @@ const Navbar = () => {
               width={130}
               height={52}
             />
-            <p className="mb-6">
+            <p className="mb-6 mt-3">
               Our gift is observation, it just so happens we’re a Marketing
               agency.
             </p>
