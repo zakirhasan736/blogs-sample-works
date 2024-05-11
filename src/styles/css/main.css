@@ -3103,6 +3103,7 @@ form .form-row .textarea {
 .input-data select:focus ~ label,
 .textarea textarea:focus ~ label,
 .input-data input:valid ~ label,
+.input-data select:valid ~ label,
 .textarea textarea:valid ~ label {
   transform: translateY(-20px);
   font-size: 11px;
@@ -3110,6 +3111,7 @@ form .form-row .textarea {
   font-weight: 400;
   line-height: 16.5px;
   color: #181725;
+  background: transparent;
 }
 
 .textarea textarea {
