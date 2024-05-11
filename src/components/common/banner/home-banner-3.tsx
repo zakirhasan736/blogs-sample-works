@@ -37,7 +37,6 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
         autoPlay
         muted
         loop
-        controls
         className="absolute inset-0 z-0 w-full h-full object-cover :sm:object-right-top"
       >
         <source src="/images/hero.mov" type="video/mp4" />

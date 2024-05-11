@@ -3111,7 +3111,7 @@ form .form-row .textarea {
   font-weight: 400;
   line-height: 16.5px;
   color: #181725;
-  background: transparent;
+  background: transparent !important;
 }
 
 .textarea textarea {
