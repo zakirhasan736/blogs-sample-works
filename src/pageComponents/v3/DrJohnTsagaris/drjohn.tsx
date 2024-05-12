@@ -47,7 +47,7 @@ const DrJohnTsagiris = () => {
       <section className="pt-[57px] pb-[51px]">
         <video
           className="w-full h-full object-cover"
-          autoPlay={false}
+          autoPlay={true}
           muted
           loop
         >

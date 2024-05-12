@@ -61,7 +61,7 @@ const PortfolioV3 = () => {
                 <div className="project p-6 relative h-[262px] sm:w-full">
                   {/* Video Background */}
                   <video
-                    autoPlay={false}
+                    autoPlay={true}
                     muted
                     loop
                     className="absolute inset-0 w-full h-full object-cover"
@@ -93,7 +93,7 @@ const PortfolioV3 = () => {
                 <div className="project p-6 relative h-[540px] sm:w-full">
                   {/* Video Background */}
                   <video
-                    autoPlay={false}
+                    autoPlay={true}
                     muted
                     loop
                     className="absolute inset-0 w-full h-full object-cover"

@@ -65,7 +65,7 @@ const ServiceTypeOption: React.FC<ServiceTypeOptionProps> = ({ data }) => {
                   playsInline
                   loop
                   muted
-                  autoPlay={false}
+                  autoPlay={true}
                 >
                   <source
                     src={data.ServicesTypeSecModalvideo}
