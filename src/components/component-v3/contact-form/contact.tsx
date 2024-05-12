@@ -217,8 +217,8 @@ const ContactForm: React.FC<ContactFormProps> = ({ className }) => {
                 required
               >
                 <option value=""></option>
-                <option value="branding">Branding</option>
-                <option value="web-dev">Web Development</option>
+                <option value="Branding">Branding</option>
+                <option value="Web-Development">Web Development</option>
               </select>
               <div className="underline"></div>
               <label htmlFor="service">Service</label>

@@ -8,11 +8,11 @@ export async function POST(req) {
         const template_params = {
             from_name: `${body.firstName} ${body.lastName}`,
             to_name: "Particular",
-            contactNumber: body.contactNumber,
+            call: body.contactNumber,
             email: body.email,
             service_Type: body.service,
             industry: body.industry,
-            message: body.message,
+            desc: body.message,
         };
 
         const response = await emailjs.send(
