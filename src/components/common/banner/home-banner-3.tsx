@@ -34,14 +34,12 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
       <div className="overlay"></div>
       {/* Background Video */}
       <video
-        autoPlay={true}
-        muted
+        src="/images/hero.mov"
+        autoPlay
         loop
+        muted
         className="absolute inset-0 z-0 w-full h-full object-cover sm:object-right-top"
-      >
-        <source src="/images/hero.mov" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      />
       <div className="custom-container h-full">
         {/* Content */}
         <div className="absolute bottom-[118px] text-white z-10">
