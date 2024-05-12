@@ -3026,7 +3026,8 @@ video {
 .contacts textarea,
 .contacts input,
 .contacts select,
-.contacts label {
+.contacts label,
+.contacts option {
   background-color: transparent !important;
 }
 
@@ -3039,7 +3040,7 @@ video {
 }
 
 .contacts .input-data input,
-.contacts select,
+.contacts .input-data select,
 .contacts .textarea textarea {
   border-bottom: 1px solid #fff;
 }
@@ -3051,7 +3052,7 @@ video {
 }
 
 .contacts .input-data .underline:before {
-  background: rgba(255, 255, 255, 0.2);
+  background: #fff;
 }
 
 .contact-sec img {
@@ -3162,6 +3163,10 @@ select::-ms-expand {
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.3s ease;
+}
+
+.contacts .input-data .underline:before {
+  background: #fff;
 }
 
 .input-data input:focus ~ .underline:before,

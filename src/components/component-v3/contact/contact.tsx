@@ -46,7 +46,7 @@ const ContactSec = () => {
             </div>
             <div className="form-row">
               <div className="input-data">
-                <select name="service">
+                <select name="service" required>
                   <option value=""></option>
                   <option value="branding">Branding</option>
                   <option value="web-dev">Web Development</option>
@@ -55,7 +55,7 @@ const ContactSec = () => {
                 <label htmlFor="">Service</label>
               </div>
               <div className="input-data">
-                <select name="industry">
+                <select name="industry" required>
                   <option value=""></option>
                   <option value="Technology">Technology</option>
                   <option value="Travels">Travels</option>
