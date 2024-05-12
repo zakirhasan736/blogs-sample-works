@@ -6,16 +6,13 @@ export async function POST(req) {
         const body = await req.json();
 
         const template_params = {
-            from_name: `${body.fullName}`,
+            from_name: `${body.firstName} ${body.lastName}`,
             to_name: "Particular",
-            call: body.call,
+            contactNumber: body.contactNumber,
             email: body.email,
-            service_Type: body.serviceType,
+            service_Type: body.service,
             industry: body.industry,
-            investment_Range: body.investmentRabge,
-            objective: body.objective,
-            desc: body.desc,
-            Pivacy_Checkmark: body.PivacyCheckmark,
+            message: body.message,
         };
 
         const response = await emailjs.send(

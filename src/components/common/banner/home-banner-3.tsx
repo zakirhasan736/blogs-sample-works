@@ -35,7 +35,6 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
       {/* Background Video */}
       <video
         autoPlay={true}
-        controls={false}
         muted
         loop
         className="absolute inset-0 z-0 w-full h-full object-cover sm:object-right-top"
