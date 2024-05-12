@@ -30,8 +30,8 @@ const Navbar = () => {
     ? "/images/logo-black.svg"
     : "/images/logo.svg";
   const logoSrcM = isPortfolioPage
-    ? "/images/mobile-logo-dark.svg"
-    : "/images/mobile-logo.svg";
+    ? "/images/logo.svg"
+    : "/images/logo-black.svg";
   const triggerImg = isPortfolioPage ? "bar2.svg" : "bar.svg";
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
@@ -112,7 +112,13 @@ const Navbar = () => {
       <div className="relative hidden md:block">
         <div className="flex justify-between items-center">
           <Link href="/">
-            <Image src={logoSrcM} alt="Logo" width="69" height="28" />
+            <Image
+              src={logoSrc}
+              alt="Logo"
+              width="107"
+              height="43"
+              className="object-cover"
+            />
           </Link>
           <button
             className="mobo-trigger-menu-btn "
