@@ -17,6 +17,7 @@ const BlogsSec = () => {
               <video
                 src="/images/blog.mp4"
                 autoPlay
+                playsInline
                 muted
                 loop
                 className="absolute inset-0 z-0 w-full h-full object-cover"
@@ -78,6 +79,7 @@ const BlogsSec = () => {
                 <video
                   src="/images/blog6.mp4"
                   autoPlay
+                  playsInline
                   muted
                   loop
                   className="absolute inset-0 z-0 w-full h-full object-cover"
@@ -98,6 +100,7 @@ const BlogsSec = () => {
               <video
                 src="/images/blog5.mp4"
                 autoPlay
+                playsInline
                 muted
                 loop
                 className="absolute inset-0 z-0 w-full h-full object-cover"

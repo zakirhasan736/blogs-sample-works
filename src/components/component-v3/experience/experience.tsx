@@ -13,6 +13,7 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
             src="/images/experiance.mp4"
             width={650}
             autoPlay
+            playsInline
             muted
             loop
             className="z-0 w-full h-full object-cover"
