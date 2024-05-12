@@ -84,7 +84,9 @@ const Footer = () => {
                   <Link href="/portfolio">Portfolio</Link>
                 </li>
                 <li>
-                  <Link href="/case-studies">Colour Craft</Link>
+                  <Link href="/features/colour-craft?colors=000000-ffffff-4685ff-f2f2f2-ffb084">
+                    Colour Craft
+                  </Link>
                 </li>
                 <li>
                   <Link href="/contacts">Contact Us</Link>

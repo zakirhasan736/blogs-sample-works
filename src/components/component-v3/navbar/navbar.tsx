@@ -89,7 +89,9 @@ const Navbar = () => {
             <Link href="/services">SERVICES</Link>
           </li>
           <li className="hover:[#026FEE]">
-            <Link href="/case-studies">COLOUR CRAFT</Link>
+            <Link href="/features/colour-craft?colors=000000-ffffff-4685ff-f2f2f2-ffb084">
+              COLOUR CRAFT
+            </Link>
           </li>
           {renderUKImage()} {/* Conditionally render the UK image */}
         </ul>
@@ -163,7 +165,9 @@ const Navbar = () => {
               <Link href="/services">SERVICES</Link>
             </li>
             <li className="hover:[#026FEE]">
-              <Link href="/case-studies">COLOUR CRAFT</Link>
+              <Link href="/features/colour-craft?colors=000000-ffffff-4685ff-f2f2f2-ffb084">
+                COLOUR CRAFT
+              </Link>
             </li>
             <li className="hover:[#026FEE]">
               <Link
