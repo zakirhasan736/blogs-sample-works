@@ -37,7 +37,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
         autoPlay
         muted
         loop
-        className="absolute inset-0 z-0 w-full h-full object-cover :sm:object-right-top"
+        className="absolute inset-0 z-0 w-full h-full object-cover sm:object-right-top"
       >
         <source src="/images/hero.mov" type="video/mp4" />
         Your browser does not support the video tag.
