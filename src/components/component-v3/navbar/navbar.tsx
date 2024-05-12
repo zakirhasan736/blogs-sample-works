@@ -109,7 +109,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      <div className="relative hidden md:block">
+      <div className="relative hidden md:block mt-3">
         <div className="flex justify-between items-center">
           <Link href="/">
             <Image

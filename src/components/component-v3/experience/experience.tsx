@@ -9,7 +9,12 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
     <section className="experience bg-[#fff] text-[#181725]">
       <div className="experiance-sec-wrapper  max-w-[1920px] w-full mx-auto grid grid-cols-12 sm:grid-cols-6 gap-0">
         <div className="experiance-modal-box w-full max-w-full overflow-hidden max-h-[716px] h-full col-span-5 sm:col-span-6">
-          <video autoPlay muted loop className="z-0 w-full h-full object-cover">
+          <video
+            autoPlay={true}
+            muted
+            loop
+            className="z-0 w-full h-full object-cover"
+          >
             <source width={650} src="/images/experiance.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>

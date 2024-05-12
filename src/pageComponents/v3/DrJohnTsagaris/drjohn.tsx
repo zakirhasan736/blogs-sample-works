@@ -45,7 +45,12 @@ const DrJohnTsagaris = () => {
         </div>
       </section>
       <section className="pt-[57px] pb-[51px]">
-        <video className="w-full h-full object-cover" autoPlay muted loop>
+        <video
+          className="w-full h-full object-cover"
+          autoPlay={true}
+          muted
+          loop
+        >
           <source src="/images/google.mov" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
