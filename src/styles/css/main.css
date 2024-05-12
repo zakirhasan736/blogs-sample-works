@@ -2766,7 +2766,7 @@ p,
 div,
 span,
 a {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", sans-serif !important;
 }
 
 h1,
