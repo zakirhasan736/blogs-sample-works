@@ -1,4 +1,4 @@
-import DrJohnTsagiris from "@/pageComponents/v3/DrJohnTsagiris/drjohn";
+import DrJohnTsagiris from "@/pageComponents/v3/DrJohnTsagaris/drjohn";
 import PortfolioV3 from "@/pageComponents/v3/Portfolio/portfolio";
 import SoulfullHealth from "@/pageComponents/v3/SoulfullHealth/soulfull";
 import type { Metadata } from "next";
