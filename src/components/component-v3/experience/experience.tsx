@@ -10,7 +10,7 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
       <div className="experiance-sec-wrapper  max-w-[1920px] w-full mx-auto grid grid-cols-12 sm:grid-cols-6 gap-0">
         <div className="experiance-modal-box w-full max-w-full overflow-hidden max-h-[716px] h-full col-span-5 sm:col-span-6">
           <video
-            autoPlay={true}
+            autoPlay={false}
             muted
             loop
             className="z-0 w-full h-full object-cover"

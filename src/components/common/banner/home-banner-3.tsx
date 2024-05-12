@@ -34,7 +34,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
       <div className="overlay"></div>
       {/* Background Video */}
       <video
-        autoPlay={true}
+        autoPlay={false}
         muted
         loop
         className="absolute inset-0 z-0 w-full h-full object-cover sm:object-right-top"

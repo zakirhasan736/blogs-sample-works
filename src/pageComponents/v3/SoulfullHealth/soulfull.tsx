@@ -44,7 +44,7 @@ const SoulfullHealth = () => {
       <section>
         <video
           className="w-full h-full object-cover"
-          autoPlay={true}
+          autoPlay={false}
           muted
           loop
         >
@@ -131,7 +131,7 @@ const SoulfullHealth = () => {
           <div className="w-[667px] h-[351px] md:w-full mt-[110px] mb-[83px]">
             <video
               className="w-full h-full object-cover"
-              autoPlay={true}
+              autoPlay={false}
               muted
               loop
             >

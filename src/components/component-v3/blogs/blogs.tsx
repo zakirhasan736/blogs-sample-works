@@ -15,7 +15,7 @@ const BlogsSec = () => {
             <div className="bg-no-repea h-[262px]">
               <div className="overlay"></div>
               <video
-                autoPlay={true}
+                autoPlay={false}
                 muted
                 loop
                 className="absolute inset-0 z-0 w-full h-full object-cover"
@@ -78,7 +78,7 @@ const BlogsSec = () => {
               <div className="bg-no-repea bg-[url('/images/blo.png')] h-[262px]">
                 <div className="overlay"></div>
                 <video
-                  autoPlay={true}
+                  autoPlay={false}
                   muted
                   loop
                   className="absolute inset-0 z-0 w-full h-full object-cover"
@@ -100,7 +100,7 @@ const BlogsSec = () => {
             <div className="bg-no-repea mt-[14px] h-[540px] sm:h-[262px]">
               <div className="overlay"></div>
               <video
-                autoPlay={true}
+                autoPlay={false}
                 muted
                 loop
                 className="absolute inset-0 z-0 w-full h-full object-cover"
