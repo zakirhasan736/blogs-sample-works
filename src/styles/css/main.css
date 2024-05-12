@@ -2815,6 +2815,9 @@ p {
 video {
   pointer-events: none;
 }
+video::-webkit-media-controls-start-playback-button {
+  display: none;
+}
 
 .lgp {
   font-size: 22px;
