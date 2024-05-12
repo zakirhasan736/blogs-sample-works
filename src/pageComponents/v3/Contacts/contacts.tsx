@@ -1,5 +1,6 @@
 "use client";
 
+import ContactForm from "@/components/component-v3/contact-form/contact";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -37,64 +38,7 @@ const ContactVersionThree = () => {
         </div>
       </div>
       <div className="contact-form sm:px-8 col-span-6">
-        <form className="">
-          <div className="form-row">
-            <div className="input-data">
-              <input type="text" required />
-              <div className="underline"></div>
-              <label htmlFor="">First name</label>
-            </div>
-            <div className="input-data">
-              <input type="text" required />
-              <div className="underline"></div>
-              <label htmlFor="">Last name</label>
-            </div>
-          </div>
-          <div className="form-row">
-            <div className="input-data">
-              <input type="text" required />
-              <div className="underline"></div>
-              <label htmlFor="">Email address</label>
-            </div>
-            <div className="input-data">
-              <input type="text" required />
-              <div className="underline"></div>
-              <label htmlFor="">Contact number</label>
-            </div>
-          </div>
-          <div className="form-row">
-            <div className="input-data">
-              <select name="service">
-                <option value=""></option>
-                <option value="branding">Branding</option>
-                <option value="web-dev">Web Development</option>
-              </select>
-              <div className="underline"></div>
-              <label htmlFor="">Service</label>
-            </div>
-            <div className="input-data">
-              <select name="industry">
-                <option value=""></option>
-                <option value="Technology">Technology</option>
-                <option value="Travels">Travels</option>
-              </select>
-              <div className="underline"></div>
-              <label htmlFor="">Industry</label>
-            </div>
-          </div>
-          <div className="form-row">
-            <div className="input-data textarea">
-              <textarea required></textarea>
-              <br />
-              <div className="underline"></div>
-              <label htmlFor="">How can we help?</label>
-              <br />
-            </div>
-          </div>
-          <button className="btn" type="submit">
-            Send
-          </button>
-        </form>
+        <ContactForm className="" />
       </div>
       <div className="hidden sm:block px-8">
         <div className="mt-[65px]">

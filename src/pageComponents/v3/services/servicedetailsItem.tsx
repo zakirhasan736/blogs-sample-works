@@ -106,7 +106,7 @@ const ServiceDetailsItem: React.FC = () => {
             <div className="services-modal-box relative mb-6 max-w-[864px] h-[217px] rounded-[4px]">
               {service.hasVideo ? (
                 <video
-                  autoPlay
+                  autoPlay={true}
                   muted
                   loop
                   className="z-0 w-full h-full object-cover rounded-[4px]"

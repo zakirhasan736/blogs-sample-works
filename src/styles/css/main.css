@@ -2766,7 +2766,7 @@ p,
 div,
 span,
 a {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", sans-serif !important;
 }
 
 h1,
@@ -2814,6 +2814,9 @@ p {
 
 video {
   pointer-events: none;
+}
+video::-webkit-media-controls-start-playback-button {
+  display: none;
 }
 
 .lgp {
@@ -3026,7 +3029,8 @@ video {
 .contacts textarea,
 .contacts input,
 .contacts select,
-.contacts label {
+.contacts label,
+.contacts option {
   background-color: transparent !important;
 }
 
@@ -3039,7 +3043,7 @@ video {
 }
 
 .contacts .input-data input,
-.contacts select,
+.contacts .input-data select,
 .contacts .textarea textarea {
   border-bottom: 1px solid #fff;
 }
@@ -3051,7 +3055,7 @@ video {
 }
 
 .contacts .input-data .underline:before {
-  background: rgba(255, 255, 255, 0.2);
+  background: #fff;
 }
 
 .contact-sec img {
@@ -3115,7 +3119,16 @@ form .form-row .textarea {
   font-weight: 400;
   line-height: 16.5px;
   color: #181725;
-  background: transparent !important;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
 }
 
 .textarea textarea {
@@ -3153,6 +3166,10 @@ form .form-row .textarea {
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.3s ease;
+}
+
+.contacts .input-data .underline:before {
+  background: #fff;
 }
 
 .input-data input:focus ~ .underline:before,

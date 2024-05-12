@@ -29,6 +29,9 @@ const Navbar = () => {
   const logoSrc = isPortfolioPage
     ? "/images/logo-black.svg"
     : "/images/logo.svg";
+  const logoSrcM = isPortfolioPage
+    ? "/images/logo.svg"
+    : "/images/logo-black.svg";
   const triggerImg = isPortfolioPage ? "bar2.svg" : "bar.svg";
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
@@ -89,7 +92,9 @@ const Navbar = () => {
             <Link href="/services">SERVICES</Link>
           </li>
           <li className="hover:[#026FEE]">
-            <Link href="/case-studies">COLOUR CRAFT</Link>
+            <Link href="/features/colour-craft?colors=000000-ffffff-4685ff-f2f2f2-ffb084">
+              COLOUR CRAFT
+            </Link>
           </li>
           {renderUKImage()} {/* Conditionally render the UK image */}
         </ul>
@@ -104,14 +109,15 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      <div className="relative hidden md:block">
+      <div className="relative hidden md:block mt-3">
         <div className="flex justify-between items-center">
           <Link href="/">
             <Image
-              src="/images/mobile-logo.svg"
+              src={logoSrc}
               alt="Logo"
               width="107"
               height="43"
+              className="object-cover"
             />
           </Link>
           <button
@@ -163,7 +169,9 @@ const Navbar = () => {
               <Link href="/services">SERVICES</Link>
             </li>
             <li className="hover:[#026FEE]">
-              <Link href="/case-studies">COLOUR CRAFT</Link>
+              <Link href="/features/colour-craft?colors=000000-ffffff-4685ff-f2f2f2-ffb084">
+                COLOUR CRAFT
+              </Link>
             </li>
             <li className="hover:[#026FEE]">
               <Link

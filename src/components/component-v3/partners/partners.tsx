@@ -12,8 +12,8 @@ const PartnersSec = () => {
           <h2 className="sm:mb-4">
             Trusted by 50+ <br /> companies globally
           </h2>
-          <Link href="">
-            <button className="btn">Start a Project</button>
+          <Link href="/contacts" className="btn">
+            Start a Project
           </Link>
         </div>
         <ClientSlider />
