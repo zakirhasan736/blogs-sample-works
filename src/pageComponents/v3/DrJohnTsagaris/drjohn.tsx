@@ -45,12 +45,7 @@ const DrJohnTsagiris = () => {
         </div>
       </section>
       <section className="pt-[57px] pb-[51px]">
-        <video
-          className="w-full h-full object-cover"
-          autoPlay={true}
-          muted
-          loop
-        >
+        <video className="w-full h-full object-cover" autoPlay muted loop>
           <source src="/images/google.mov" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -59,21 +54,21 @@ const DrJohnTsagiris = () => {
         <div className="custom-container">
           <div className="flex gap-6 mb-[86px] justify-center">
             <Image
-              src="/images/probimg1.png"
+              src="/images/jproblem1.png"
               alt="Image 1"
               width={371}
               height={400}
               className="sm:w-full"
             />
             <Image
-              src="/images/probimg2.png"
+              src="/images/jprob2.png"
               alt="Image 2"
               width={371}
               height={400}
               className="sm:w-full"
             />
             <Image
-              src="/images/probimg3.png"
+              src="/images/jprob3.png"
               alt="Image 3"
               width={371}
               height={400}
@@ -97,8 +92,8 @@ const DrJohnTsagiris = () => {
         </div>
       </section>
       <section className="pb-[77px]">
-        <div className="bg-[url('/images/proto1.png')] h-[496px] bg-cover sm:bg-center"></div>
-        <div className="bg-[url('/images/proto2.png')] h-[579px] bg-cover"></div>
+        <div className="bg-[url('/images/jproto1.png')] h-[496px] bg-cover sm:bg-center"></div>
+        <div className="bg-[url('/images/jproto2.png')] h-[579px] bg-cover"></div>
         <div className="text-center text-white w-[728px] md:w-full m-auto mt-[84px] md:p-5">
           <h3>
             How Particular partnered with <br /> John Tsagiris
@@ -110,89 +105,75 @@ const DrJohnTsagiris = () => {
             to identify the behaviours, motivations, and pain points of his
             buyer persona and provide them with high quality solutions.
           </h4>
-          <h4>
+          <h4 className="mb-5">
             This understanding allowed us to tailor every aspect of the website
             design, logo design, and SEO strategy to resonate with Dr.
             Tsagiris's audience in a way that doesn't just communicate with them
             but conveys the outcomes that would be enjoyed if they were lucky
             enough to interact with the brand.
           </h4>
+          <Link href="/services" className="btn">
+            Partner with Particular
+          </Link>
         </div>
       </section>
-      <section className="bg-white pt-[89px] pb-[83px] text-center flex justify-center relative">
-        <div className="mt-10">
-          <Image
-            src="/images/johnlogo.png"
-            alt="Soulfull Health Logo"
-            width={433}
-            height={121}
-            className="text-center object-contain absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-          />
+      <section className="bg-white pt-[89px] pb-[83px] ">
+        <div className=" flex justify-center relative">
+          <div className=" flex absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+            <Image
+              src="/images/jaward1.png"
+              alt="Soulfull Health Logo"
+              width={131}
+              height={118}
+              className="text-center object-contain"
+            />
+            <Image
+              src="/images/johnlogo.png"
+              alt="Soulfull Health Logo"
+              width={433}
+              height={121}
+              className="text-center object-contain"
+            />
+            <Image
+              src="/images/jaward2.png"
+              alt="Soulfull Health Logo"
+              width={122}
+              height={124}
+              className="text-center object-contain"
+            />
+          </div>
           <div className="w-[667px] h-[351px] md:w-full mt-[110px]">
             <video className="w-full h-full object-cover" autoPlay muted loop>
-              <source src="/images/demo.mov" type="video/mp4" />
+              <source src="/images/jdemo.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
         </div>
-      </section>
-      <section className="pt-[110px] pb-[72px]">
-        <div className="flex gap-14 justify-center md:p-5">
-          <Image
-            src="/images/ethosm.png"
-            alt="Soulfull Health pages"
-            width={247}
-            height={586}
-            className="object-contain md:w-full"
-          />
-          <Image
-            src="/images/home.png"
-            alt="SoulfullHome page"
-            width={247}
-            height={586}
-            className="object-contain md:w-full"
-          />
-          <Image
-            src="/images/sgm.png"
-            alt="Soulfull Health pages"
-            width={247}
-            height={586}
-            className="object-contain md:w-full"
-          />
-          <Image
-            src="/images/product.png"
-            alt="Soulfull Products page"
-            width={247}
-            height={586}
-            className="object-contain md:w-full"
-          />
-          <Image
-            src="/images/login.png"
-            alt="Soulfull Login page"
-            width={247}
-            height={586}
-            className="object-contain md:w-full"
-          />
+        <div className="h-[768px] w-full">
+          <video className="w-full h-full object-cover" autoPlay muted loop>
+            <source src="/images/djohndem.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
       </section>
       <section className="bg-white pt-[83px] pb-[46px]">
         <div className="flex justify-center">
           <Image
-            src="/images/2 1.png"
+            src="/images/j2 1.png"
             alt="Soulfull Health pages"
             width={481}
             height={685}
             className="object-contain md:w-full"
           />
           <Image
-            src="/images/3 1.png"
+            src="/images/j3 1.png"
             alt="SoulfullHome page"
             width={481}
             height={685}
             className="object-contain md:w-full"
           />
           <Image
-            src="/images/4 1.png"
+            src="/images/j4 1.png"
             alt="Soulfull Health pages"
             width={481}
             height={685}
@@ -200,7 +181,7 @@ const DrJohnTsagiris = () => {
           />
         </div>
         <div className="text-center text-[#181725] mt-[92px] w-[748px] m-auto sm:w-full">
-          <p className="lgp mb-8">
+          <p className="lgp">
             “"The brand, John Tsagiris, embodies a mission to optimise the
             ageless wellness journey of our clientele, integrating traditional
             holistic disciplines with modern aesthetic methods. Together with
@@ -208,8 +189,10 @@ const DrJohnTsagiris = () => {
             with health and vitality.""
           </p>
           <p className="uppercase text-black">Dr. John Tsagiris</p>
-          <p className="text-[#666]">Solopreneur</p>
-          <button className="btn btn-dark mt-[30px]">Start a project</button>
+          <p className="text-[#666] mb-[30px]">Solopreneur</p>
+          <Link href="/contacts" className="btn btn-dark ">
+            Start a project
+          </Link>
         </div>
         <div className="custom-container text-[#181725] mt-[85px]">
           <div className="flex justify-between soul">

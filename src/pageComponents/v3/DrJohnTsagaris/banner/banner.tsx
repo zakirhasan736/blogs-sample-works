@@ -8,8 +8,7 @@ interface HomeBannerProps {}
 const Banner: React.FC<HomeBannerProps> = () => {
   return (
     <section
-      className="soulfull-banner bg-[url('/images/john-hero.png')] bg-cover relative"
-      style={{ height: "80vh" }}
+      className="soulfull-banner bg-[url('/images/john-hero.png')] bg-cover relative h-screen"
     >
       <div className="custom-container">
         {/* Content */}
