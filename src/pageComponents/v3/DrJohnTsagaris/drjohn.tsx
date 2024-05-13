@@ -117,7 +117,7 @@ const DrJohnTsagiris = () => {
           </Link>
         </div>
       </section>
-      <section className="bg-white pt-[89px] pb-[83px] ">
+      <section className="bg-white pt-[89px] ">
         <div className=" flex justify-center relative">
           <div className=" flex absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2">
             <Image
