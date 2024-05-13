@@ -36,9 +36,9 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
       <video
         src="/images/hero.mov"
         autoPlay
-        playsInline
         loop
         muted
+        playsInline
         className="absolute inset-0 z-0 w-full h-full object-cover sm:object-right-top"
       />
       <div className="custom-container h-full">

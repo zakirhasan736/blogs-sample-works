@@ -2816,7 +2816,10 @@ video {
   pointer-events: none;
 }
 video::-webkit-media-controls-start-playback-button {
-  display: none;
+  display: none !important;
+}
+video::-webkit-media-controls {
+  display: none !important;
 }
 
 .lgp {
@@ -3407,4 +3410,28 @@ li.services-list.active button.services-item-btn {
 
 .network:hover .absolute {
   display: block;
+}
+
+*::-webkit-media-controls-panel {
+
+  display: none !important;
+
+  -webkit-appearance: none !important;
+
+}
+
+*::--webkit-media-controls-play-button {
+
+  display: none !important;
+
+  -webkit-appearance: none !important;
+
+}
+
+*::-webkit-media-controls-start-playback-button {
+
+  display: none !important;
+
+  -webkit-appearance: none !important;
+
 }
