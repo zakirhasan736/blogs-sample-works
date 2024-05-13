@@ -1,10 +1,18 @@
 "use client";
 import ArticleSectionVersionTwo from "@/components/article-section/article-section-v2";
-import HomeBanner from "@/components/common/banner/home-banner-2";
+import HomeBanner from "@/components/common/banner/home-banner-3";
 import AboutUsSection from "@/components/component-v2/aboutus-section/aboutus";
 import CTASectionVersionTwo from "@/components/component-v2/cta-section/cta-section-v2";
 import OurStorySection from "@/components/component-v2/our-story-section/our-story-section";
 import ServicesSection from "@/components/component-v2/services-section/services";
+import BlogsSec from "@/components/component-v3/blogs/blogs";
+import ContactSec from "@/components/component-v3/contact/contact";
+import ExperienceSec from "@/components/component-v3/experience/experience";
+import PartnersSec from "@/components/component-v3/partners/partners";
+import PortfolioSec from "@/components/component-v3/portfolio/portfolio";
+import ServicesSec from "@/components/component-v3/services/services";
+import TestimonialSec from "@/components/component-v3/testimonials/testimonials";
+import VideoSec from "@/components/component-v3/video/video";
 import TestimonialsVersionTwo from "@/components/testimonials-section/testimonials-v2";
 import ThemeSectionMode from "@/components/theme-mode/theme-section-mode";
 import LatestBlogs from "@data/blogs/short-blog-data.json";
@@ -46,28 +54,30 @@ const Home = () => {
         {/* home banner section */}
         <HomeBanner />
         {/* home banner section end*/}
-        <AboutUsSection />
-        {/* home testimonials section */}
-        <TestimonialsVersionTwo TestiSlides={testimonialsSliderData} />
-        {/* home testimonials section end*/}
-        {/* home services section  */}
-        <ServicesSection />
-        {/* home services section  end*/}
-        {/* <PartnerSection /> */}
-
-        <ThemeSectionMode />
-        {/* our story section */}
-        <OurStorySection />
-        {/* our story section end*/}
-        {/* home article section */}
-        <div className="article-and-cta-section">
-          <CTASectionVersionTwo />
-          <ArticleSectionVersionTwo
-            latestBlogs={latestThreeBlogs}
-            ShortBlogs={true}
-          />
-        </div>
-        {/* home article section end*/}
+        {/* portfolio banner section */}
+        < PortfolioSec />
+        {/* portfolio section end*/}
+        {/* experience section */}
+        < ExperienceSec />
+        {/* experience section end*/}
+        {/* services section */}
+        < ServicesSec />
+        {/* services section end*/}
+        {/* testimonial section */}
+        < TestimonialSec />
+        {/* testimonial section end*/}
+        {/* partners section */}
+        <PartnersSec />
+        {/* partners section end*/}
+        {/* blogs section */}
+        <BlogsSec />
+        {/* blogs section end*/}
+        {/* video section */}
+        <VideoSec />
+        {/* video section end*/}
+        {/* contact section */}
+        <ContactSec />
+        {/* contact section end*/}
       </div>
     </>
   );

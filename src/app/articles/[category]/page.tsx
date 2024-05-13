@@ -1,5 +1,5 @@
 import NotFound from "@/app/not-found";
-import ArticlesCategory from "@/pageComponents/Articles-page/ArticleCategory";
+import BlogsPage from "@/pageComponents/v3/blogs/blogs-single";
 
 async function getData(category: any) {
 	try {
@@ -46,7 +46,7 @@ const page = async ({ params }: any) => {
 
 	return (
 		<>
-			<ArticlesCategory data={data} />
+			<BlogsPage data={data} />
 		</>
 	);
 };

@@ -7,7 +7,7 @@ import ArticleBanner from "@/components/common/banner/article-banner";
 interface ArticleCategoryPageProps {
 	data: {
 		BannerData: any;
-		articlesDetailsData: any;
+		articlesDetailsData: any; 
 		TagsListdata: any;
 	};
 }

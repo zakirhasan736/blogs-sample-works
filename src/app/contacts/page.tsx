@@ -1,4 +1,4 @@
-import ContactPageVersionTwo from "@/pageComponents/Contacts/contact-page-v2";
+import ContactVersionThree from "@/pageComponents/v3/Contacts/contacts";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function page() {
 	return (
 		<>
-			<ContactPageVersionTwo />
+			<ContactVersionThree />
 		</>
 	);
 	
