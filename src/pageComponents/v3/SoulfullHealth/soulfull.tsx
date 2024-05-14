@@ -60,21 +60,18 @@ const SoulfullHealth = () => {
               alt="Image 1"
               width={371}
               height={400}
-              className="sm:w-full"
             />
             <Image
               src="/images/probimg2.png"
               alt="Image 2"
               width={371}
               height={400}
-              className="sm:w-full"
             />
             <Image
               src="/images/probimg3.png"
               alt="Image 3"
               width={371}
               height={400}
-              className="sm:w-full"
             />
           </div>
           <div className="text-center text-black w-[767px] md:w-full m-auto">

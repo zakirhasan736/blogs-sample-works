@@ -68,21 +68,18 @@ const BurnHard = () => {
               alt="Image 1"
               width={371}
               height={400}
-              className="sm:w-full"
             />
             <Image
               src="/images/metisseprobimg2.png"
               alt="Image 2"
               width={371}
               height={400}
-              className="sm:w-full"
             />
             <Image
               src="/images/metisseprobimg3.png"
               alt="Image 3"
               width={371}
               height={400}
-              className="sm:w-full"
             />
           </div>
           <div className="text-center text-black w-[767px] md:w-full m-auto">

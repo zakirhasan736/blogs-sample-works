@@ -3379,6 +3379,32 @@ footer .copy li {
     font-size: 24px !important;
     line-height: 38px !important;
   }
+
+    .bg-cover {
+      background-position: center;
+    }
+
+   .pca-marketing-main-wraper .flex {
+      flex-direction: column;
+    }
+
+        .w-1\/2 {
+          width: 100%;
+        }
+
+        h4 {
+          font-size: unset !important;
+        }
+
+                .portd .pill {
+                  margin-right: 8px;
+                  font-size: 12px;
+                  line-height: 10px;
+                }
+
+              .soul {
+                display: block;
+              }
 }
 
 @media (max-width: 400px) {
