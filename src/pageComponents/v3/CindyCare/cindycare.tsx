@@ -109,7 +109,7 @@ const CindyCare = () => {
             lifestyles, and expectations of high-class clientele in the targeted
             regions.
           </h4>
-          <h4>
+          <h4 className="mb-5">
             This research formed the foundation of our design process, ensuring
             that every element of Cindy Care's brand identity and website
             resonated with their target audience.

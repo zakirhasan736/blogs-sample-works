@@ -23,8 +23,8 @@ const KnightsAcademy = () => {
               <span className="text-[#181725]">
                 <Link href="" className="underline">
                   Player and Coach Portals,
-                </Link>
-                {" "} Data Analytics and Metrics Tracking
+                </Link>{" "}
+                Data Analytics and Metrics Tracking
               </span>
             </div>
             <div>
@@ -110,7 +110,7 @@ const KnightsAcademy = () => {
             Partnering with Particular Agency, Soulfull has begun its mission to
             revolutionise the wellness journey for their community.
           </h4>
-          <h4>
+          <h4 className="mb-5">
             By prioritising user experience on the back of a research-driven
             approach, we developed a unique and ambitious website that matches
             its value proposition centred on convenience, affordability, and

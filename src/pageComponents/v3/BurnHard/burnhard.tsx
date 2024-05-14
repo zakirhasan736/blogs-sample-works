@@ -109,7 +109,7 @@ const BurnHard = () => {
             create an emotional connection with the audience, emphasising the
             brand’s commitment to empowering individuals through fitness.
           </h4>
-          <h4>
+          <h4 className="mb-5">
             Our focus on creating cinematic video clips and photo shoots aimed
             to capture Bernhard's energy and expertise, positioning Burn Hard as
             a premier destination for upscale clientele.
