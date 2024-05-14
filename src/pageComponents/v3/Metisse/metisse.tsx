@@ -50,12 +50,7 @@ const BurnHard = () => {
         </div>
       </section>
       <section>
-        <video
-          className="w-full h-full object-cover"
-          autoPlay={true}
-          muted
-          loop
-        >
+        <video className="w-full h-full object-cover" autoPlay muted loop>
           <source src="/images/metisse.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>

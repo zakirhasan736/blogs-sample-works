@@ -19,23 +19,23 @@ export default function Template({ children }: { children: React.ReactNode }) {
 		};
 	}, []);
 
-		 useEffect(() => {
-       document.addEventListener("DOMContentLoaded", function () {
-         var videoElements = document.querySelectorAll("video");
+	// 	 useEffect(() => {
+    //    document.addEventListener("DOMContentLoaded", function () {
+    //      var videoElements = document.querySelectorAll("video");
 
-         videoElements.forEach(function (videoElement) {
-           videoElement.controls = false;
+    //      videoElements.forEach(function (videoElement) {
+    //        videoElement.controls = false;
 
-           videoElement.addEventListener("play", function () {
-             this.controls = false;
-           });
+    //        videoElement.addEventListener("play", function () {
+    //          this.controls = false;
+    //        });
 
-           videoElement.addEventListener("pause", function () {
-             this.controls = false;
-           });
-         });
-       });
-     }, []);
+    //        videoElement.addEventListener("pause", function () {
+    //          this.controls = false;
+    //        });
+    //      });
+    //    });
+    //  }, []);
 
 	return (
 		<>
