@@ -3361,7 +3361,7 @@ footer .copy li {
     display: none;
   }
 
-  h1, h2 {
+  h1, h2, .portfolio-v3 h3 {
       font-size: 24px !important;
       font-weight: 400;
       line-height: 36px !important;
