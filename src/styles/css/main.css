@@ -3380,7 +3380,7 @@ footer .copy li {
     letter-spacing: 0.05em;
   }
 
-  .relative .transform {
+  .relative .-translate-y-1\/2 {
     width: 171px;
   }
  .pt-\[89px\] .flex {
