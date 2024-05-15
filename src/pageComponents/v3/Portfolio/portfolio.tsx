@@ -6,9 +6,9 @@ const PortfolioV3 = () => {
   return (
     <section className="portfolio-v3">
       <div className="custom-container">
-        <div className="title mb-[42px]">
+        <div className="title mb-[42px] sm:mb-20">
           <h2 className="mb-6">Portfolio</h2>
-          <p>
+          <p className="mdp">
             We work with a variety of businesses across the globe all striving
             for <br />
             the best human experience for their users.
@@ -136,7 +136,7 @@ const PortfolioV3 = () => {
             </div>
             <div>
               <h6 className="mb-4">SERVICES</h6>
-              <div className="flex gap-12 sm:gap-4">
+              <div className="flex sm:!flex-row gap-12 sm:gap-4">
                 <div className="flex flex-col gap-4">
                   <Link href="/services">Web & App Development</Link>
                   <Link href="/services">UI/UX Design</Link>
