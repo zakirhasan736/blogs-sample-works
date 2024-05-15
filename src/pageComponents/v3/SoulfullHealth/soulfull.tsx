@@ -120,7 +120,7 @@ const SoulfullHealth = () => {
             height={121}
             className="text-center object-contain absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
           />
-          <div className="w-[667px] h-[351px] md:w-full mt-[110px] mb-[83px]">
+          <div className="w-[667px] md:w-full mt-[110px] mb-[83px]">
             <video className="w-full h-full object-cover" autoPlay muted loop>
               <source src="/images/demo.mov" type="video/mp4" />
               Your browser does not support the video tag.

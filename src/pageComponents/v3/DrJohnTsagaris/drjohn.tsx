@@ -139,7 +139,7 @@ const DrJohnTsagiris = () => {
               className="text-center object-contain"
             />
           </div>
-          <div className="w-[667px] h-[351px] md:w-full mt-[110px]">
+          <div className="w-[667px] md:w-full mt-[110px]">
             <video className="w-full h-full object-cover" autoPlay muted loop>
               <source src="/images/jdemo.mp4" type="video/mp4" />
               Your browser does not support the video tag.
