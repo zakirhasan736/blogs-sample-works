@@ -2939,12 +2939,6 @@ video::-webkit-media-controls {
   letter-spacing: 0.05em;
 }
 
-.testimonials p {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 32.4px;
-}
-
 .blogs {
   background: #e1e4e8;
 }
@@ -3329,6 +3323,13 @@ footer .copy li {
 }
 
 @media (max-width: 700px) {
+  .home-banner-section-v3 {
+    max-height: 514px;
+  }
+
+  .btn, .lbtn {
+    height: 40px !important;
+  }
   .projects .flex {
     flex-direction: column;
   }
@@ -3356,28 +3357,29 @@ footer .copy li {
     gap: 20px !important;
   }
 
-  p {
-    line-height: 20px;
-    font-size: 16px !important;
+  p, .mdp {
+    font-size: 14px;
+      font-weight: 400;
+      line-height: 21px;
   }
 
   br {
     display: none;
   }
 
-  h1 {
-    font-size: 36px !important;
-    line-height: 38.8px !important;
-  }
-
-  h2 {
-    font-size: 30px !important;
-    line-height: 36.8px !important;
+  h1, h2 {
+      font-size: 24px !important;
+      font-weight: 400;
+      line-height: 36px !important;
+      letter-spacing: 0.05em;
   }
 
   h3 {
-    font-size: 24px !important;
-    line-height: 38px !important;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0.05em;
+    text-align: left;
   }
 
     .bg-cover {

@@ -40,7 +40,7 @@ const Footer = () => {
                 <h5>Location</h5>
               </div>
               <p>
-                United Kingdom <br /> 8 Cody Road, London, <br /> England, E16
+                8 Cody Road, London, <br /> England, E16
                 4SR
               </p>
             </div>

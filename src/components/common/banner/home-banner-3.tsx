@@ -43,7 +43,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
       />
       <div className="custom-container h-full">
         {/* Content */}
-        <div className="absolute bottom-[118px] text-white z-10">
+        <div className="absolute bottom-[118px] sm:bottom-[61px] text-white z-10">
           <motion.h1 className="mb-5">
             Where Every Pixel <br /> Tells a Particular Story
           </motion.h1>
@@ -62,7 +62,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
           alt="brand"
           width={139}
           height={68}
-          className="absolute bottom-[37px] right-4 z-10"
+          className="absolute bottom-[37px] right-4 z-10 sm:hidden"
         />
         <Link
           href="https://network.byparticular.com/"
