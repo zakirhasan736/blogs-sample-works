@@ -3320,7 +3320,7 @@ footer .copy li {
     max-height: 514px;
   }
 
-  .btn, .lbtn, .btn a {
+  button, .btn, .lbtn, .btn a {
     height: 40px !important;
     font-size: 14px !important;
   }
@@ -3351,10 +3351,10 @@ footer .copy li {
     gap: 20px !important;
   }
 
-  p, .mdp {
-    font-size: 14px;
-      font-weight: 400;
-      line-height: 21px;
+  p, .mdp, h4 {
+    font-size: 14px !important;
+      font-weight: 400 !important;
+      line-height: 21px !important;
   }
 
   br {
@@ -3368,17 +3368,33 @@ footer .copy li {
       letter-spacing: 0.05em;
   }
 
+  .lgp {
+      font-size: 16px;
+      line-height: 24px;
+  }
+
   h3 {
     font-size: 18px;
     font-weight: 400;
     line-height: 28.8px;
     letter-spacing: 0.05em;
-    text-align: left;
   }
 
+  .relative .transform {
+    width: 171px;
+  }
+ .pt-\[89px\] .flex {
+    flex-direction: row !important;
+  }
     .bg-cover {
       background-position: center;
     }
+
+   .pb-20 {
+      padding-bottom: 23px !important;
+    }
+
+    
 
    .pca-marketing-main-wraper .flex {
       flex-direction: column;
@@ -3388,10 +3404,6 @@ footer .copy li {
           width: 100%;
         }
 
-        h4 {
-          font-size: unset !important;
-        }
-
                 .portd .pill {
                   margin-right: 8px;
                   font-size: 12px;
@@ -3399,7 +3411,11 @@ footer .copy li {
                 }
 
               .soul {
-                display: block;
+                flex-direction: row !important;
+              }
+
+              .text-\[\#181725\] h4 {
+                font-size: 16px !important;
               }
 }
 
