@@ -33,24 +33,26 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
     <motion.section className="home-banner-section home-banner-section-v3 bg-no-repea relative h-screen">
       <div className="overlay"></div>
       {/* Background Video */}
-      {/* <video
-        src="https://vimeo.com/947313454?share=copy"
-        autoPlay
-        loop
-        muted
-        playsInline
+      <video
+        src="/images/hero.mov"
+        autoPlay={true}
+        muted={true}
+        playsInline={true}
+        controls={false}
         className="absolute inset-0 z-0 w-full h-full object-cover sm:object-right-top"
-      /> */}
-      <iframe
-        src="https://player.vimeo.com/video/947313454?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&background=true&muted=true&autoplay=true&controls=false&playsinline=true"
+      />
+
+      {/* <iframe
+        src="https://player.vimeo.com/video/947313454?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
         width="1920"
         height="1080"
+        frameborder="0"
         allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
         title="-eb01-4107-a341-f40a40cead8d"
-      ></iframe>
+      ></iframe> */}
       <div className="custom-container h-full">
         {/* Content */}
-        <div className="absolute bottom-[118px] sm:bottom-[61px] text-white z-10">
+        <div className="absolute bottom-[118px] text-white z-10">
           <motion.h1 className="mb-5">
             Where Every Pixel <br /> Tells a Particular Story
           </motion.h1>
@@ -69,7 +71,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
           alt="brand"
           width={139}
           height={68}
-          className="absolute bottom-[37px] right-4 z-10 sm:hidden"
+          className="absolute bottom-[37px] right-4 z-10"
         />
         <Link
           href="https://network.byparticular.com/"
