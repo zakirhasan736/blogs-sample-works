@@ -43,7 +43,7 @@ const BlogInfoModal: React.FC<BlogsInfoModalProps> = ({ data }) => {
 						<Link
 							href="/contacts"
 							className="px-[16px] py-[8px] rounded-[4px] mx-auto !mt-[63px] md:!!mt-[25px] bg-white h-10 max-w-[175px] w-full text-[14px] text-mono-100 font-accent font-normal leading-[150%] flex items-center justify-center">
-							{data.blogInfoModalBtnText || ""}
+							{data.blogInfoModalBtnText || "Grow with Particular"}
 						</Link>
 					</div>
 				</div>
