@@ -106,17 +106,14 @@ const ServiceDetailsItem: React.FC = () => {
             <div className="services-modal-box relative mb-6 max-w-[864px] h-[217px] rounded-[4px]">
               {service.hasVideo ? (
                 <video
-                  autoPlay
-                  muted
-                  loop
+                  src={`/images/services/${service.videoPath}`}
+                  autoPlay={true}
+                  muted={true}
+                  playsInline={true}
+                  controls={false}
+                  loop={true}
                   className="z-0 w-full h-full object-cover rounded-[4px]"
-                >
-                  <source
-                    src={`/images/services/${service.videoPath}`}
-                    type="video/mp4"
-                  />
-                  Your browser does not support the video tag.
-                </video>
+                ></video>
               ) : (
                 <Image
                   src={`/images/services/${service.imagePath}`}

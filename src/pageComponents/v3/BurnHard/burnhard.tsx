@@ -42,16 +42,14 @@ const BurnHard = () => {
       </section>
       <section>
         <video
-          className="w-full h-full object-cover"
+          src="/images/burnhard.mp4"
           autoPlay={true}
           muted={true}
           playsInline={true}
           controls={false}
           loop={true}
-        >
-          <source src="/images/burnhard.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+          className="w-full h-full object-cover"
+        ></video>
       </section>
       <section className="pt-[42px] pb-[108px] bg-white">
         <div className="custom-container">

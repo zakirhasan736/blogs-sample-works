@@ -61,19 +61,14 @@ const ServiceTypeOption: React.FC<ServiceTypeOptionProps> = ({ data }) => {
                   height={500}
                 />
                 <video
-                  className="video-modal-control"
+                  src={data.ServicesTypeSecModalvideo}
                   autoPlay={true}
                   muted={true}
                   playsInline={true}
                   controls={false}
                   loop={true}
-                >
-                  <source
-                    src={data.ServicesTypeSecModalvideo}
-                    type="video/mp4"
-                  />
-                  Your browser does not support the video tag.
-                </video>
+                  className="video-modal-control"
+                ></video>
               </div>
             </div>
           </div>
