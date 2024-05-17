@@ -70,7 +70,7 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
                   would leave for a competitor after just one bad experience{" "}
                 </p>
               </div>
-              <div className="insight-card-item sm:border-t sm:border-t-Mono-70 col-span-6 sm:col-span-6 text-center pt-10 pb-[55px]">
+              <div className="insight-card-item sm:border-t-Mono-70 col-span-6 sm:col-span-6 text-center pt-10 pb-[55px]">
                 <h2 className="title font-normal leading-none mb-[14px] text-mono-100 !font-primary">
                   140%
                 </h2>
