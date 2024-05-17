@@ -6,11 +6,11 @@ import "@/styles/css/color-modal.css";
 import ColorCraftFaq from "./ColorCraftFaq";
 const ColorCraft = () => {
   useEffect(() => {
-    const primaryColour = document.getElementById("prim");
-    const secondaryColour = document.getElementById("sec");
-    const primbuttnColour = document.getElementById("primbuttn");
-    const secbuttnColour = document.getElementById("secbuttn");
-    const accentColour = document.getElementById("accent");
+    const primaryColor = document.getElementById("prim");
+    const secondaryColor = document.getElementById("sec");
+    const primbuttnColor = document.getElementById("primbuttn");
+    const secbuttnColor = document.getElementById("secbuttn");
+    const accentColor = document.getElementById("accent");
     const randomizeButton = document.getElementById("randomize");
 
     // Random colour sets
