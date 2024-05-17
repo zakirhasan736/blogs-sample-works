@@ -8,8 +8,8 @@ const PartnersSec = () => {
   return (
     <section className="partners bg-[#1a1a1a] text-[#fff] pt-[33px] pb-[75px]">
       <div className="custom-container">
-        <div className="flex justify-between mb-[73px] sm:flex-col sm:gap-[25px]">
-          <h2 className="sm:mb-4">
+        <div className="sm:block flex justify-between mb-[73px]">
+          <h2 className="sm:mb-8">
             Trusted by 50+ <br /> companies globally
           </h2>
           <Link href="/contacts" className="btn">

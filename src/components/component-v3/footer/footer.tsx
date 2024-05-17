@@ -39,8 +39,8 @@ const Footer = () => {
               <div className="footer-title">
                 <h5>Location</h5>
               </div>
-              <p>
-                United Kingdom <br /> 8 Cody Road, London, <br /> England, E16
+              <p className="sm:w-44">
+                8 Cody Road, London, <br /> England, E16
                 4SR
               </p>
             </div>

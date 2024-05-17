@@ -8,7 +8,7 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
   return (
     <section className="experience bg-[#fff] text-[#181725]">
       <div className="experiance-sec-wrapper  max-w-[1920px] w-full mx-auto grid grid-cols-12 sm:grid-cols-6 gap-0">
-        <div className="experiance-modal-box w-full max-w-full overflow-hidden max-h-[716px] h-full col-span-5 sm:col-span-6">
+        <div className="experiance-modal-box w-full max-w-full overflow-hidden max-h-[716px] sm:max-h-[275px]  h-full col-span-5 sm:col-span-6">
           <video
             src="/images/experiance.mp4"
             width={650}
@@ -20,8 +20,8 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
           />
         </div>
         <div className="expariance-cont-wrapper w-full col-span-7 h-full sm:col-span-6 flex flex-col">
-          <div className="w-full experiance-wrap-top-cont py-[54px] pl-[173px] laptop-m:pl-[100px] lg:pl-[80px] md:pl-[35px] sm:pl-[25px] pr-[140px] lg:pr-[25px] md:pr-[20px] sm:pr-[16px]">
-            <div className="flex justify-between items-center mb-[26px]">
+          <div className="w-full experiance-wrap-top-cont py-[54px] sm:py-4 pl-[173px] laptop-m:pl-[100px] lg:pl-[80px] md:pl-[35px] sm:pl-[25px] pr-[140px] lg:pr-[25px] md:pr-[20px] sm:pr-[16px] sm:mb-10">
+            <div className="flex justify-between items-center mb-[26px] sm:mb-3">
               <h2 className="max-w-[528px] w-full font-primary text-mono-100 font-light">
                 great buyer experience? excellent returns.
               </h2>
@@ -45,12 +45,12 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
               </div>
             </div>
 
-            <p className="max-w-[568px] text-[18px] leading-[180%] font-normal font-accent text-mono-90 !opacity-100">
+            <p className="max-w-[568px] mdp font-normal font-accent text-mono-90 !opacity-100">
               Businesses often face a disconnect between their expectations and{" "}
               customers' online experiences, resulting in mistrust and missed{" "}
               opportunities.
-              <br />
-              <br />
+              <br className="sm:!block" />
+              <br className="sm:!block" />
               We understand that even a 5% increase in customer retention
               translates to a 29-95% rise in profitability.
             </p>
@@ -61,7 +61,7 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
             </Link>
           </div>
           <div className="mt-auto w-full experiance-wrap-bottom-cont border-t border-t-Mono-70">
-            <div className="insight-card-items grid grid-cols-12 sm:grid-cols-6 gap-0">
+            <div className="insight-card-items grid grid-cols-12 gap-0">
               <div className="insight-card-item col-span-6 sm:col-span-6 text-center border-r border-r-Mono-70  pt-10 pb-[55px]">
                 <h2 className="title font-normal leading-none mb-[14px] text-mono-100 !font-primary">
                   61%

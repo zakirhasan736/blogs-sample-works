@@ -21,7 +21,7 @@ const ServicesPage = () => {
             <h2 className="text-mono-100 mb-[23px] text-center md:text-[32px]">
               Partner with Particular
             </h2>
-            <p className="cta-desc max-w-[620px] mx-auto w-full mb-8 sm:mb-4 text-[18px] text-center text-mono-100 leading-[180%] font-accent font-normal">
+            <p className="cta-desc max-w-[620px] mx-auto w-full mb-8 sm:mb-4 text-[18px] sm:text-[14px] text-center text-mono-100 leading-[180%] font-accent font-normal">
               Specialist in designing bespoke digital strategies for brands
               across all sectors and companies across the globe.
             </p>

@@ -32,11 +32,11 @@ const FaqAccordion: React.FC<FaqAccordionProps> = ({ faqs }) => {
 							: "pb-[56px] sm:pb-[35px]"
 					} rounded-[11px] bg-transparent`}>
 					<div
-						className={`faq-accordion-head flex items-start justify-between gap-3  ${
+						className={`faq-accordion-head flex sm:!flex-row items-start justify-between gap-3  ${
 							openIndex === index ? "mb-[10px]" : ""
 						}`}>
 						<h4
-							className="acordion-title text-mono-100 text-left m-0 sm:text-[14px] text-[14px] font-accent font-normal leading-normal capitalize"
+							className="acordion-title text-mono-100 text-left m-0 sm:!text-[14px] text-[16px] font-accent font-normal leading-normal capitalize"
 							onClick={() => toggleAccordion(index)}>
 							{faq.question}
 						</h4>
@@ -50,7 +50,7 @@ const FaqAccordion: React.FC<FaqAccordionProps> = ({ faqs }) => {
 						className={`faq-accordion-details-box mt-6 ${
 							openIndex === index ? "block" : "hidden"
 						}`}>
-						<p className="accordion-desc-text text-[#333] text-left sm:text-[14px] text-[14px] font-primary font-normal leading-normal !opacity-100">
+						<p className="accordion-desc-text text-[#333] text-left sm:text-[12px] text-[14px] font-primary font-normal leading-normal !opacity-100">
 							{faq.answer}
 						</p>
 						{faq.answerList && (
@@ -58,7 +58,7 @@ const FaqAccordion: React.FC<FaqAccordionProps> = ({ faqs }) => {
 								{faq.answerList.map((item, itemIndex) => (
 									<li
 										key={itemIndex}
-										className="text-neu-white mb-2 text-left sm:text-[14px] text-[14px] font-primary font-normal leading-normal">
+										className="text-neu-white mb-2 text-left sm:text-[12px] text-[14px] font-primary font-normal leading-normal">
 										{item}
 									</li>
 								))}

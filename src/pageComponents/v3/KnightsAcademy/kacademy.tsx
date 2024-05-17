@@ -23,8 +23,8 @@ const KnightsAcademy = () => {
               <span className="text-[#181725]">
                 <Link href="" className="underline">
                   Player and Coach Portals,
-                </Link>
-                {" "} Data Analytics and Metrics Tracking
+                </Link>{" "}
+                Data Analytics and Metrics Tracking
               </span>
             </div>
             <div>
@@ -46,12 +46,7 @@ const KnightsAcademy = () => {
         </div>
       </section>
       <section>
-        <video
-          className="w-full h-full object-cover"
-          autoPlay={true}
-          muted
-          loop
-        >
+        <video className="w-full h-full object-cover" autoPlay muted loop>
           <source src="/images/rushmoor.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -64,21 +59,18 @@ const KnightsAcademy = () => {
               alt="Image 1"
               width={371}
               height={400}
-              className="sm:w-full"
             />
             <Image
               src="/images/rprobimg1.png"
               alt="Image 2"
               width={371}
               height={400}
-              className="sm:w-full"
             />
             <Image
               src="/images/rprobimg2.png"
               alt="Image 3"
               width={371}
               height={400}
-              className="sm:w-full"
             />
           </div>
           <div className="text-center text-black w-[767px] md:w-full m-auto">
@@ -110,7 +102,7 @@ const KnightsAcademy = () => {
             Partnering with Particular Agency, Soulfull has begun its mission to
             revolutionise the wellness journey for their community.
           </h4>
-          <h4>
+          <h4 className="mb-5">
             By prioritising user experience on the back of a research-driven
             approach, we developed a unique and ambitious website that matches
             its value proposition centred on convenience, affordability, and
@@ -130,7 +122,7 @@ const KnightsAcademy = () => {
             height={121}
             className="text-center object-contain absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
           />
-          <div className="w-[667px] h-[351px] md:w-full mt-[110px]">
+          <div className="w-[667px] md:w-full mt-[110px]">
             <video className="w-full h-full object-cover" autoPlay muted loop>
               <source src="/images/rdemo.mp4" type="video/mp4" />
               Your browser does not support the video tag.

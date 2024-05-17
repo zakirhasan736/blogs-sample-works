@@ -6,9 +6,9 @@ const PortfolioV3 = () => {
   return (
     <section className="portfolio-v3">
       <div className="custom-container">
-        <div className="title mb-[42px]">
+        <div className="title mb-[42px] sm:mb-20">
           <h2 className="mb-6">Portfolio</h2>
-          <p>
+          <p className="mdp">
             We work with a variety of businesses across the globe all striving
             for <br />
             the best human experience for their users.
@@ -16,7 +16,7 @@ const PortfolioV3 = () => {
         </div>
         <div className="projects text-white">
           <div className="w-full flex gap-6">
-            <Link href="" className=" w-2/4 sm:w-full">
+            <Link href="/metisse" className=" w-2/4 sm:w-full">
               <div className="project p-6 bg-no-repea bg-[url('/images/project1.png')] h-[262px] sm:w-full">
                 <div>
                   <span className="pill">Brand Identity</span>
@@ -61,7 +61,7 @@ const PortfolioV3 = () => {
                 <div className="project p-6 relative h-[262px] sm:w-full">
                   {/* Video Background */}
                   <video
-                    autoPlay={true}
+                    autoPlay
                     muted
                     loop
                     className="absolute inset-0 w-full h-full object-cover"
@@ -89,11 +89,11 @@ const PortfolioV3 = () => {
               </Link>
             </div>
             <div className="w-[30%] sm:w-auto">
-              <Link href="">
+              <Link href="/burn-hard">
                 <div className="project p-6 relative h-[540px] sm:w-full">
                   {/* Video Background */}
                   <video
-                    autoPlay={true}
+                    autoPlay
                     muted
                     loop
                     className="absolute inset-0 w-full h-full object-cover"
@@ -136,7 +136,7 @@ const PortfolioV3 = () => {
             </div>
             <div>
               <h6 className="mb-4">SERVICES</h6>
-              <div className="flex gap-12 sm:gap-4">
+              <div className="flex sm:!flex-row gap-12 sm:gap-4">
                 <div className="flex flex-col gap-4">
                   <Link href="/services">Web & App Development</Link>
                   <Link href="/services">UI/UX Design</Link>
