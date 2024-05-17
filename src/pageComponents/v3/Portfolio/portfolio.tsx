@@ -6,9 +6,9 @@ const PortfolioV3 = () => {
   return (
     <section className="portfolio-v3">
       <div className="custom-container">
-        <div className="title mb-[42px]">
+        <div className="title mb-[42px] sm:mb-20">
           <h2 className="mb-6">Portfolio</h2>
-          <p>
+          <p className="mdp">
             We work with a variety of businesses across the globe all striving
             for <br />
             the best human experience for their users.
@@ -61,15 +61,14 @@ const PortfolioV3 = () => {
                 <div className="project p-6 relative h-[262px] sm:w-full">
                   {/* Video Background */}
                   <video
-                    autoPlay
-                    muted
-                    loop
+                    src="/images/project4.mp4"
+                    autoPlay={true}
+                    muted={true}
+                    playsInline={true}
+                    controls={false}
+                    loop={true}
                     className="absolute inset-0 w-full h-full object-cover"
-                  >
-                    {/* Provide multiple video sources for broader browser compatibility */}
-                    <source src="/images/project4.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                  ></video>
 
                   <div className="relative z-10 h-full flex flex-col justify-between">
                     {/* Pill tags */}
@@ -93,15 +92,14 @@ const PortfolioV3 = () => {
                 <div className="project p-6 relative h-[540px] sm:w-full">
                   {/* Video Background */}
                   <video
-                    autoPlay
-                    muted
-                    loop
+                    src="/images/project5.mp4"
+                    autoPlay={true}
+                    muted={true}
+                    playsInline={true}
+                    controls={false}
+                    loop={true}
                     className="absolute inset-0 w-full h-full object-cover"
-                  >
-                    {/* Provide multiple video sources for broader browser compatibility */}
-                    <source src="/images/project5.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                  ></video>
                   <div className="relative z-10 h-full flex flex-col justify-between">
                     <div>
                       <span className="pill">Brand Identity</span>
@@ -136,7 +134,7 @@ const PortfolioV3 = () => {
             </div>
             <div>
               <h6 className="mb-4">SERVICES</h6>
-              <div className="flex gap-12 sm:gap-4">
+              <div className="flex sm:!flex-row gap-12 sm:gap-4">
                 <div className="flex flex-col gap-4">
                   <Link href="/services">Web & App Development</Link>
                   <Link href="/services">UI/UX Design</Link>

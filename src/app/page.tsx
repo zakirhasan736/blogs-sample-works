@@ -55,22 +55,22 @@ const Home = () => {
         <HomeBanner />
         {/* home banner section end*/}
         {/* portfolio banner section */}
-        < PortfolioSec />
+        <PortfolioSec />
         {/* portfolio section end*/}
         {/* experience section */}
-        < ExperienceSec />
+        <ExperienceSec />
         {/* experience section end*/}
         {/* services section */}
-        < ServicesSec />
+        <ServicesSec />
         {/* services section end*/}
         {/* testimonial section */}
-        < TestimonialSec />
+        <TestimonialSec />
         {/* testimonial section end*/}
         {/* partners section */}
         <PartnersSec />
         {/* partners section end*/}
         {/* blogs section */}
-        <BlogsSec />
+        {/* <BlogsSec /> */}
         {/* blogs section end*/}
         {/* video section */}
         <VideoSec />

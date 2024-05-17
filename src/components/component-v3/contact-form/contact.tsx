@@ -6,104 +6,137 @@ interface ContactFormProps {
 }
 
 const ContactForm: React.FC<ContactFormProps> = ({ className }) => {
-  	const [success, setSuccessMessage] = useState("");
+  const [success, setSuccessMessage] = useState("");
   const [loading, setLoading] = useState(false);
   const [selectedValues, setSelectedValues] = useState<string[]>([]);
-    const [formSubmitted, setFormSubmitted] = useState(false);
-    const [redirectTimer, setRedirectTimer] = useState(18);
+  const [formSubmitted, setFormSubmitted] = useState(false);
+  const [redirectTimer, setRedirectTimer] = useState(18);
 
-   const handleChange = (e: any) => {
-     const { name, value } = e.target;
-     setData({ ...data, [name]: value });
+  const services = [
+    "Web & App Development",
+    "UX/UI Design",
+    "Branding",
+    "PPC",
+    "SEO",
+    "Motion Graphic",
+  ];
+
+  const industries = [
+    "Agriculture",
+    "Automotive",
+    "Banking",
+    "Construction",
+    "Education",
+    "Energy",
+    "Entertainment",
+    "Fashion",
+    "Food and Beverage",
+    "Healthcare",
+    "Hospitality",
+    "Information Technology",
+    "Insurance",
+    "Manufacturing",
+    "Mining",
+    "Pharmaceuticals",
+    "Real Estate",
+    "Retail",
+    "Telecommunications",
+    "Transportation",
+    "Utilities",
+  ];
+
+  const handleChange = (e: any) => {
+    const { name, value } = e.target;
+    setData({ ...data, [name]: value });
   };
-  
-    const [data, setData] = useState({
-      firstName: "",
-      lastName: "",
-      email: "",
-      contactNumber: "",
-      message: "",
-      service: "",
-      industry: "",
-    });
 
-    useEffect(() => {
-      let timer: NodeJS.Timeout;
-      if (formSubmitted) {
-        timer = setInterval(() => {
-          setRedirectTimer((prevTimer) => prevTimer - 1);
-        }, 1000);
+  const [data, setData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    contactNumber: "",
+    message: "",
+    service: "",
+    industry: "",
+  });
 
-        return () => clearInterval(timer);
-      }
-    }, [formSubmitted]);
+  useEffect(() => {
+    let timer: NodeJS.Timeout;
+    if (formSubmitted) {
+      timer = setInterval(() => {
+        setRedirectTimer((prevTimer) => prevTimer - 1);
+      }, 1000);
 
+      return () => clearInterval(timer);
+    }
+  }, [formSubmitted]);
 
-    useEffect(() => {
-      if (formSubmitted) {
-        // Scroll to the top when the confirmation screen is shown
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      }
-    }, [formSubmitted]);
+  useEffect(() => {
+    if (formSubmitted) {
+      // Scroll to the top when the confirmation screen is shown
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }, [formSubmitted]);
 
-    const handleSubmitMessage = async (e: React.FormEvent<HTMLFormElement>) => {
-      e.preventDefault();
-      setLoading(true);
-      const errors: any = {};
-      const phoneRegex = /^\+\d{1,4}\d{1,14}$/;
-      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  const handleSubmitMessage = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setLoading(true);
+    const errors: any = {};
+    const phoneRegex = /^\+\d{1,4}\d{1,14}$/;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-      // If there are errors, stop loading and return
-      if (Object.keys(errors).length > 0) {
-        setLoading(false);
-        return;
-      }
-      if (Object.keys(errors).length === 0) {
-        try {
-          const response = await fetch(
-            `${process.env.NEXT_PUBLIC_API_URL}/api/mail-send`,
-            {
-              method: "POST",
-              headers: {
-                "Content-Type": "application/json",
-              },
-              body: JSON.stringify(data),
-            }
-          );
-
-          if (!response.ok) {
-            throw new Error("Network response was not ok");
+    // If there are errors, stop loading and return
+    if (Object.keys(errors).length > 0) {
+      setLoading(false);
+      return;
+    }
+    if (Object.keys(errors).length === 0) {
+      try {
+        const response = await fetch(
+          `${process.env.NEXT_PUBLIC_API_URL}/api/mail-send`,
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(data),
           }
+        );
 
-          const responseData = await response.json();
-
-          if (responseData.status === 200) {
-            setData({
-              firstName: "",
-              lastName: "",
-              email: "",
-              contactNumber: "",
-              message: "",
-              service: "",
-              industry: ""
-            });
-            setSelectedValues([]);
-            setSuccessMessage("Message sent successfully!");
-
-          } else {
-            // Handle error
-            console.error("EmailJS error:", responseData);
-          }
-        } catch (error) {
-          console.error("EmailJS error:", error);
-        } finally {
-          setLoading(false);
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
         }
-      } else {
+
+        const responseData = await response.json();
+
+        if (responseData.status === 200) {
+          setData({
+            firstName: "",
+            lastName: "",
+            email: "",
+            contactNumber: "",
+            message: "",
+            service: "",
+            industry: "",
+          });
+          setSelectedValues([]);
+          setSuccessMessage("Message sent successfully!");
+          setFormSubmitted(true);
+        } else {
+          // Handle error
+          console.error("EmailJS error:", responseData);
+        }
+      } catch (error) {
+        console.error("EmailJS error:", error);
+      } finally {
         setLoading(false);
-        return;
       }
-    };
+    } else {
+      setLoading(false);
+      return;
+    }
+  };
+
   return (
     <>
       {formSubmitted && (
@@ -215,10 +248,14 @@ const ContactForm: React.FC<ContactFormProps> = ({ className }) => {
                 value={data.service}
                 onChange={handleChange}
                 required
+                className="scrollable-dropdown"
               >
                 <option value=""></option>
-                <option value="Branding">Branding</option>
-                <option value="Web-Development">Web Development</option>
+                {services.map((service) => (
+                  <option key={service} value={service}>
+                    {service}
+                  </option>
+                ))}
               </select>
               <div className="underline"></div>
               <label htmlFor="service">Service</label>
@@ -229,10 +266,14 @@ const ContactForm: React.FC<ContactFormProps> = ({ className }) => {
                 value={data.industry}
                 onChange={handleChange}
                 required
+                className="scrollable-dropdown"
               >
                 <option value=""></option>
-                <option value="Technology">Technology</option>
-                <option value="Travels">Travels</option>
+                {industries.map((industry) => (
+                  <option key={industry} value={industry}>
+                    {industry}
+                  </option>
+                ))}
               </select>
               <div className="underline"></div>
               <label htmlFor="industry">Industry</label>

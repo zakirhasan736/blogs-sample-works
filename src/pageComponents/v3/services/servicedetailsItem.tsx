@@ -71,7 +71,7 @@ const ServiceDetailsItem: React.FC = () => {
   return (
     <div className="services-page-wrapper-cont gap-5 sm:gap-10 flex items-start pb-[24px] sm:pb-[20px] sm:flex-col">
       <div className="services-left-cont  w-full sticky sm:relative sm:top-0 top-10 max-w-[272px] md:max-w-[200px] sm:max-w-full">
-        <h3 className="services-title mb-4 text-mono-60 font-accent font-normal !text-[16px] text-left leading-[120%] tracking-[2.4px] uppercase">
+        <h3 className="services-title mb-4 text-mono-60 font-accent font-normal !text-[16px] sm:!text-[14px] text-left leading-[120%] tracking-[2.4px] uppercase">
           SERVICES
         </h3>
         <ul className="services-list-items flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:justify-center">
@@ -106,17 +106,14 @@ const ServiceDetailsItem: React.FC = () => {
             <div className="services-modal-box relative mb-6 max-w-[864px] h-[217px] rounded-[4px]">
               {service.hasVideo ? (
                 <video
-                  autoPlay
-                  muted
-                  loop
+                  src={`/images/services/${service.videoPath}`}
+                  autoPlay={true}
+                  muted={true}
+                  playsInline={true}
+                  controls={false}
+                  loop={true}
                   className="z-0 w-full h-full object-cover rounded-[4px]"
-                >
-                  <source
-                    src={`/images/services/${service.videoPath}`}
-                    type="video/mp4"
-                  />
-                  Your browser does not support the video tag.
-                </video>
+                ></video>
               ) : (
                 <Image
                   src={`/images/services/${service.imagePath}`}
@@ -135,7 +132,7 @@ const ServiceDetailsItem: React.FC = () => {
                 </Link>
               </div>
             </div>
-            <div className="services-item-title-box flex items-center justify-between gap-[30px] mb-[18px]">
+            <div className="services-item-title-box flex sm:!flex-row items-center justify-between gap-[30px] mb-[18px]">
               <h4 className="services-item-title text-black">
                 {service.title}
               </h4>
@@ -151,7 +148,7 @@ const ServiceDetailsItem: React.FC = () => {
               {service.description}
             </p>
             <div className="services-item-service-includes">
-              <h5 className="services-includes-title mb-4 text-mono-60 text-left text-[14px] font-accent font-normal uppercase tracking-[2.1px] leading-[120%]">
+              <h5 className="services-includes-title mb-4 text-mono-60 text-left text-[14px] sm:text-[12px] font-accent font-normal uppercase tracking-[2.1px] leading-[120%]">
                 SERVICE includes:
               </h5>
               <div className="services-includes-lists-grid flex items-start gap-[53px] sm:gap-[35px] sm:flex-col">
@@ -163,7 +160,7 @@ const ServiceDetailsItem: React.FC = () => {
                     {include.map((item, itemIndex) => (
                       <li
                         key={itemIndex}
-                        className="services-includes-list text-black text-[14px] text-left font-normal font-accent leading-[150%] !list-disc"
+                        className="services-includes-list text-black text-[14px] sm:text-[12px] text-left font-normal font-accent leading-[150%] !list-disc"
                       >
                         {item}
                       </li>
@@ -176,20 +173,22 @@ const ServiceDetailsItem: React.FC = () => {
             <div
               className={`faq-popup-wrapper fixed top-0 z-[99999] right-0 w-full h-full bg-[rgba(26,26,26,0.50)] ${openFaqIndex === index ? "" : "hidden"}`}
             >
-              <div className="faq-popups-main-wrap max-w-[597px] min-h-[100vh] overflow-hidden overflow-y-scroll pt-[72px] pb-[45px] pl-8 pr-9 sm:px-4 ml-auto mr-0 w-full h-full bg-[#D9D9D9]">
-                <div className="faq-popups-heading-box flex items-start justify-between w-full">
-                  <div className="faq-heading-title-box">
+              <div className="faq-popups-main-wrap max-w-[597px] min-h-[100vh] overflow-hidden overflow-y-scroll pt-[72px] pb-[45px] pl-8 pr-9 sm:px-4 ml-auto mr-0 w-full h-full bg-[#D9D9D9] sm:bg-[#fff]">
+                <div className="faq-popups-heading-box w-full">
+                  <div className="faq-heading-title-box  flex sm:!flex-row items-start justify-between">
                     <h3 className="text-black mb-2">FAQs</h3>
-                    <h4 className="service-title text-[12px] text-left text-Mono-70 font-accent font-normal tracking-[1.8px] uppercase leading-[120%]">
-                      {service.title}
-                    </h4>
+                    <button onClick={() => toggleFaqModal(index)}>
+                      <Image
+                        src="/images/cancel-black.svg"
+                        alt="Close"
+                        width={24}
+                        height={24}
+                      />
+                    </button>
                   </div>
-                  <button
-                    className="close-btn text-mono-100 py-[5px] px-[10px] text-[14px] font-medium font-accent rounded-[4px] border border-mono-100 relative top-[-25px]"
-                    onClick={() => toggleFaqModal(index)}
-                  >
-                    Close
-                  </button>
+                  <h4 className="service-title !text-[12px] text-left text-Mono-70 font-accent font-normal tracking-[1.8px] uppercase leading-[120%]">
+                    {service.title}
+                  </h4>
                 </div>
 
                 <div className="faq-accordion-box mt-[56px] sm:mt-[35px]">

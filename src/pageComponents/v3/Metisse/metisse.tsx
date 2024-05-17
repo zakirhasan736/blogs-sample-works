@@ -50,10 +50,15 @@ const BurnHard = () => {
         </div>
       </section>
       <section>
-        <video className="w-full h-full object-cover" autoPlay muted loop>
-          <source src="/images/metisse.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <video
+          src="/images/metisse.mp4"
+          autoPlay={true}
+          muted={true}
+          playsInline={true}
+          controls={false}
+          loop={true}
+          className="w-full h-full object-cover"
+        ></video>
       </section>
       <section className="pt-[42px] pb-[108px] bg-white">
         <div className="custom-container">
@@ -122,11 +127,16 @@ const BurnHard = () => {
             height={121}
             className="text-center object-contain absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
           />
-          <div className="w-[667px] h-[351px] md:w-full mt-[110px]">
-            <video className="w-full h-full object-cover" autoPlay muted loop>
-              <source src="/images/metissedemo.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+          <div className="w-[667px] md:w-full mt-[110px]">
+            <video
+              src="/images/metissedemo.mp4"
+              autoPlay={true}
+              muted={true}
+              playsInline={true}
+              controls={false}
+              loop={true}
+              className="w-full h-full object-cover"
+            ></video>
           </div>
         </div>
         <div className="bg-[url('/images/metissedemo.gif')] h-[768px] w-full bg-cover"></div>

@@ -45,10 +45,15 @@ const DrJohnTsagiris = () => {
         </div>
       </section>
       <section className="pt-[57px] pb-[51px]">
-        <video className="w-full h-full object-cover" autoPlay muted loop>
-          <source src="/images/google.mov" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <video
+          src="/images/google.mov"
+          autoPlay={true}
+          muted={true}
+          playsInline={true}
+          controls={false}
+          loop={true}
+          className="w-full h-full object-cover"
+        ></video>
       </section>
       <section className="pt-[42px] pb-[108px] bg-white">
         <div className="custom-container">
@@ -139,18 +144,28 @@ const DrJohnTsagiris = () => {
               className="text-center object-contain"
             />
           </div>
-          <div className="w-[667px] h-[351px] md:w-full mt-[110px]">
-            <video className="w-full h-full object-cover" autoPlay muted loop>
-              <source src="/images/jdemo.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+          <div className="w-[667px] md:w-full mt-[110px]">
+            <video
+              src="/images/jdemo.mp4"
+              className="w-full h-full object-cover"
+              autoPlay={true}
+              muted={true}
+              playsInline={true}
+              controls={false}
+              loop={true}
+            ></video>
           </div>
         </div>
         <div className="h-[768px] w-full">
-          <video className="w-full h-full object-cover" autoPlay muted loop>
-            <source src="/images/djohndem.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+          <video
+            src="/images/djohndem.mp4"
+            className="w-full h-full object-cover"
+            autoPlay={true}
+            muted={true}
+            playsInline={true}
+            controls={false}
+            loop={true}
+          ></video>
         </div>
       </section>
       <section className="bg-white pt-[83px] pb-[46px]">

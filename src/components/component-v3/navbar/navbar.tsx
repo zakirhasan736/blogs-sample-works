@@ -98,12 +98,9 @@ const Navbar = () => {
           </li>
           {renderUKImage()} {/* Conditionally render the UK image */}
         </ul>
-        <Link
-          href="https://assessments.particularagency.co.uk/marketing-strength"
-          target="_blank"
-        >
+        <Link href="/contacts" target="_blank">
           <button className={`btn ${btnColor()}  right-14 top-[23px]`}>
-            Brand Assessment
+            Contact Us
           </button>
         </Link>
       </div>

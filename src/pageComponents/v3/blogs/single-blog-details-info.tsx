@@ -24,7 +24,7 @@ const SingleBlogDetailsInfo: React.FC<SingleBlogDetailsInfoProps> = ({
   return (
     <>
       {data.singleBlogDetailsDesc && (
-        <p className="!opacity-100 blog-first-desc text-[16px] text-left text-black font-accent font-normal leading-[150%] mb-5">
+        <p className="!opacity-100 blog-first-desc text-[16px] text-center text-[#181725] font-accent font-normal leading-6 mb-10">
           {data.singleBlogDetailsDesc}
         </p>
       )}
@@ -45,9 +45,11 @@ const SingleBlogDetailsInfo: React.FC<SingleBlogDetailsInfoProps> = ({
                   )}
                   {item.video && (
                     <video
-                      autoPlay
-                      muted
-                      loop
+                      autoPlay={true}
+                      muted={true}
+                      playsInline={true}
+                      controls={false}
+                      loop={true}
                       className="w-full h-full object-cover"
                     >
                       <source
@@ -60,12 +62,12 @@ const SingleBlogDetailsInfo: React.FC<SingleBlogDetailsInfoProps> = ({
                 </div>
               )}
               {item.title && (
-                <h3 className="blog-details-info-title mb-[34px] sm:mb-7 text-[40px] text-left text-black font-primary font-normal tracking-[2px] leading-[120%]">
+                <h3 className="blog-details-info-title mb-4 sm:mb-7 text-[16px] text-left text-[#181725] font-primary font-bold leading-6">
                   {item.title}
                 </h3>
               )}
               {item.desc && (
-                <p className="!opacity-100 blog-details-desc text-[16px] sm:text-[14px] text-left text-black font-accent font-normal leading-[150%]">
+                <p className="!opacity-100 blog-details-desc text-[16px] sm:text-[14px] text-left text-[#181725] font-accent font-normal leading-6">
                   {item.desc}
                 </p>
               )}
@@ -74,7 +76,7 @@ const SingleBlogDetailsInfo: React.FC<SingleBlogDetailsInfoProps> = ({
                 {item.itemListDesc.map((listDesc, listIndex) => (
                   <p
                     key={listIndex}
-                    className="!opacity-100 list-info-box-text mb-5 text-[18px] sm:text-[16px] text-left text-black font-accent font-normal leading-[150%]"
+                    className="!opacity-100 list-info-box-text mb-5 text-[18px] sm:text-[16px] text-left text-[#181725] font-accent font-normal leading-[150%]"
                   >
                     {listDesc}
                   </p>
@@ -84,7 +86,7 @@ const SingleBlogDetailsInfo: React.FC<SingleBlogDetailsInfoProps> = ({
                     {item.itemList.map((listItem, listItemIndex) => (
                       <li
                         key={listItemIndex}
-                        className="list-disc info-box-list-item text-[18px] sm:text-[16px] text-left text-black font-accent font-normal leading-[150%]"
+                        className="list-disc info-box-list-item text-[18px] sm:text-[16px] text-left text-[#181725] font-accent font-normal leading-[150%]"
                       >
                         {listItem}
                       </li>
@@ -96,7 +98,7 @@ const SingleBlogDetailsInfo: React.FC<SingleBlogDetailsInfoProps> = ({
                     {item.listDesc.map((desc, descIndex) => (
                       <p
                         key={descIndex}
-                        className="!opacity-100 list-info-box-text mb-5 text-[18px] sm:text-[16px] text-left text-black font-accent font-normal leading-[150%]"
+                        className="!opacity-100 list-info-box-text mb-5 text-[18px] sm:text-[16px] text-left text-[#181725] font-accent font-normal leading-[150%]"
                       >
                         {desc}
                       </p>
