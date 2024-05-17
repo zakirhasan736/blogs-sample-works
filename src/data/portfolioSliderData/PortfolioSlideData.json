@@ -4,27 +4,31 @@
     "cardImg": "soulful-health-thumbnail-image.png",
     "cardImgLogo": "soulful-brand-logo.svg",
     "cardSubTitle": "soulfull health",
-    "cardTitle": "Enlightenment for woman"
+    "cardTitle": "Enlightenment for woman",
+    "link": "soulfullhealth"
   },
   {
     "id": 2,
     "cardImg": "rushmoore-thumb.png",
     "cardImgLogo": "rushmoore-logo.svg",
     "cardSubTitle": "Rushmoor knights academy",
-    "cardTitle": "Leading the Rising Wave of American Football in the UK"
+    "cardTitle": "Leading the Rising Wave of American Football in the UK",
+    "link": "knightsacademy"
   },
   {
     "id": 4,
     "cardImg": "drjohn-thumb.png",
     "cardImgLogo": "drjohn-logo.svg",
     "cardSubTitle": "Dr JOHN TSAGIRIS",
-    "cardTitle": "A leading practitioner in health and wellness"
+    "cardTitle": "A leading practitioner in health and wellness",
+    "link": "drjohntsagaris"
   },
   {
     "id": 5,
     "cardImg": "modal-image-3.png",
     "cardImgLogo": "metisse-brand-logo.svg",
     "cardSubTitle": "METISSE",
-    "cardTitle": "tIMELESS PIECES FOR EVERY watch lover"
+    "cardTitle": "tIMELESS PIECES FOR EVERY watch lover",
+    "link": "metisse"
   }
 ]

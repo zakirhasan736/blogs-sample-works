@@ -16,10 +16,11 @@ const BlogsSec = () => {
               <div className="overlay"></div>
               <video
                 src="/images/blog.mp4"
-                autoPlay
-                playsInline
-                muted
-                loop
+                autoPlay={true}
+                muted={true}
+                playsInline={true}
+                controls={false}
+                loop={true}
                 className="absolute inset-0 z-0 w-full h-full object-cover"
               />
               <div className="content">
@@ -78,10 +79,11 @@ const BlogsSec = () => {
                 <div className="overlay"></div>
                 <video
                   src="/images/blog6.mp4"
-                  autoPlay
-                  playsInline
-                  muted
-                  loop
+                  autoPlay={true}
+                  muted={true}
+                  playsInline={true}
+                  controls={false}
+                  loop={true}
                   className="absolute inset-0 z-0 w-full h-full object-cover"
                 />
                 <div className="content">
@@ -99,10 +101,11 @@ const BlogsSec = () => {
               <div className="overlay"></div>
               <video
                 src="/images/blog5.mp4"
-                autoPlay
-                playsInline
-                muted
-                loop
+                autoPlay={true}
+                muted={true}
+                playsInline={true}
+                controls={false}
+                loop={true}
                 className="absolute inset-0 z-0 w-full h-full object-cover"
               />
               <div className="content">

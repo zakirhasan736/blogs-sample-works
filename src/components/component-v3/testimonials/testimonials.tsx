@@ -155,17 +155,14 @@ const TestimonialSec: React.FC = () => {
                         <div className="testimonials-modal-item max-w-[371px] h-[476px] relative  rounded-[4px] overflow-hidde">
                           {testimonials.isVideo ? ( // Assuming there's a field 'isVideo' in testimonials indicating whether it's a video or not
                             <video
-                              autoPlay
-                              muted
-                              loop
+                              src={`/images/testimonials/${testimonials.projectModalVideo}`}
+                              autoPlay={true}
+                              muted={true}
+                              playsInline={true}
+                              controls={false}
+                              loop={true}
                               className="z-0 w-full h-full object-cover"
-                            >
-                              <source
-                                src={`/images/testimonials/${testimonials.projectModalVideo}`}
-                                type="video/mp4"
-                              />
-                              Your browser does not support the video tag.
-                            </video>
+                            ></video>
                           ) : (
                             <Image
                               src={`/images/testimonials/${testimonials.projectModalImage}`}

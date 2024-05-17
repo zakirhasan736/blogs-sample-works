@@ -45,9 +45,11 @@ const SingleBlogDetailsInfo: React.FC<SingleBlogDetailsInfoProps> = ({
                   )}
                   {item.video && (
                     <video
-                      autoPlay
-                      muted
-                      loop
+                      autoPlay={true}
+                      muted={true}
+                      playsInline={true}
+                      controls={false}
+                      loop={true}
                       className="w-full h-full object-cover"
                     >
                       <source

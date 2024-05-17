@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="sm:mb-4">
             <Image src="/images/logo.svg" alt="logo" width={216} height={87} />
             <p>
-              Our gift is observation, it just so happens we’re a Marketing
+              Our gift is observation, it just so happens we’re a marketing
               agency.
             </p>
             <Link href="/contacts">
@@ -40,8 +40,7 @@ const Footer = () => {
                 <h5>Location</h5>
               </div>
               <p className="sm:w-44">
-                8 Cody Road, London, <br /> England, E16
-                4SR
+                8 Cody Road, London, <br /> England, E16 4SR
               </p>
             </div>
             <div>

@@ -5,8 +5,6 @@
     "includes": [
       [
         "Industry analysis",
-        "User research",
-        "Customer journey mapping",
         "Product roadmap",
         "Prioritised product backlog",
         "Sprint backlog"
@@ -15,9 +13,7 @@
         "Risk mitigation",
         "User research",
         "Customer journey mapping",
-        "Product roadmap",
-        "Prioritised product backlog",
-        "Sprint backlog"
+        "Product roadmap"
       ],
       [
         "Frontend development",
@@ -159,18 +155,23 @@
     "faqs": [
       {
         "id": 1,
-        "question": "Question 1",
-        "answer": "Answer to Question 1"
+        "question": "What is the difference between UX and UI design?",
+        "answer": "UX design focuses on the overall feel and experience of the product, aiming to enhance user satisfaction by improving usability, accessibility, and interaction. UI design specifically targets the product’s interface, focusing on aesthetics and the design of all the elements that users interact with."
       },
       {
         "id": 2,
-        "question": "Question 2",
-        "answer": "Answer to Question 2"
+        "question": "What is SEO? How can it help my website and business?",
+        "answer": "Yes, we provide post-launch support and are available to make further adjustments as needed as per our 30-day change period. These are considered minor adjustments, however major adjustments are typically signed off once the design phase is completed We also offer maintenance packages for ongoing updates and optimisations."
+      },
+      {
+        "id": 3,
+        "question": "What makes your company different from other UX/UI design firms?",
+        "answer": "We pride ourselves on our user-centered design process and our commitment to understanding the psychology behind human engagement and effective designs. Our choices are made off the back behavioural and cognitive analysis, ensuring that we deliver solutions that not only convert but through user interaction is intended to build brand loyalty for your company"
       }
     ],
     "imagePath": "services-details-item-2.png",
     "hasVideo": false,
-    "hasFaqs": false
+    "hasFaqs": true
   },
   {
     "title": "PPC (Pay-Per-Click)",
@@ -203,18 +204,38 @@
     "faqs": [
       {
         "id": 1,
-        "question": "Question 1",
-        "answer": "Answer to Question 1"
+        "question": "What platforms do you manage PPC campaigns on",
+        "answer": "We manage PPC campaigns on a variety of platforms including Google Ads, Facebook, Instagram, LinkedIn, and more. We select the platforms based on where your target audience is most active and where the campaigns can achieve the highest ROI."
       },
       {
         "id": 2,
-        "question": "Question 2",
-        "answer": "Answer to Question 2"
+        "question": "How do you charge for your PPC services?",
+        "answer": "Our pricing models include a monthly management fee or a percentage of the ad spend, depending on the complexity and size of the campaign. We believe in transparent billing with no hidden costs, ensuring you know exactly what you are paying for."
+      },
+      {
+        "id": 3,
+        "question": "Can you help reduce my ad spend while maintaining performance?",
+        "answer": "Yes, optimising ad spend while maintaining or improving performance is one of our key objectives. We use advanced targeting, bid strategies, and continuous testing to ensure that your budget is used efficiently to achieve optimal results."
+      },
+      {
+        "id": 4,
+        "question": "How often will I get updates about my campaigns?",
+        "answer": "We provide regular reporting that fits your needs—whether weekly, bi-weekly, or monthly. Our reports include key performance indicators such as click-through rate, cost per click, conversion rate, and ROI. We also offer real-time dashboards where you can check the performance of your campaigns at any time."
+      },
+      {
+        "id": 5,
+        "question": "What kind of ROI can I expect from my PPC campaigns?",
+        "answer": "The ROI from PPC campaigns can vary significantly based on factors like industry, competition, and ad spend. We conduct thorough market and competitor research to set realistic expectations and continuously optimize campaigns for the best possible returns."
+      },
+      {
+        "id": 6,
+        "question": "Do you require long-term contracts?",
+        "answer": "No, we do not require long-term contracts. Our services are provided on a month-to-month basis because we believe in earning your business through continuous, measurable results, however typically we recommend onboarding for at least three months, in order to allow us remarket and optimise your campaign for you to see the best results."
       }
     ],
     "videoPath": "content-strategy.mp4",
     "hasVideo": true,
-    "hasFaqs": false
+    "hasFaqs": true
   },
   {
     "title": "SEO (National & Local)",
@@ -340,17 +361,37 @@
     "faqs": [
       {
         "id": 1,
-        "question": "Question 1",
-        "answer": "Answer to Question 1"
+        "question": "What services do you offer?",
+        "answer": "We specialise in creating custom motion graphics for a variety of applications, including promotional videos, explainer videos, educational materials, and corporate presentations. Our services also extend to kinetic typography, logo animation, and visual effects for film and television."
       },
       {
         "id": 2,
-        "question": "Question 2",
-        "answer": "Answer to Question 2"
+        "question": "How long does it take to create a motion graphics video?",
+        "answer": "The production time can vary depending on the complexity and length of the video. Typically, a simple project can be completed in 2-4 weeks, while more intricate projects might take 6-8 weeks or more. We always aim to meet your deadlines and can adjust our workflow to fit your schedule."
+      },
+      {
+        "id": 3,
+        "question": "Can I be involved in the production process?",
+        "answer": "Absolutely! We encourage your involvement at each stage of the process. Your feedback is crucial in the concept development stage and at various approval milestones throughout the production."
+      },
+      {
+        "id": 4,
+        "question": "How much does a motion graphics video cost?",
+        "answer": "The cost of motion graphics videos varies based on the complexity of the project, video length, and specific requirements like custom illustrations or advanced animations. We provide a detailed quote after an initial consultation to understand your project needs."
+      },
+      {
+        "id": 5,
+        "question": "What software and tools do you use?",
+        "answer": "We use industry-standard software such as Adobe After Effects, Cinema 4D, Adobe Premiere Pro, and Illustrator to create high-quality motion graphics. Our team is skilled in a variety of tools to ensure the best results for any type of project."
+      },
+      {
+        "id": 6,
+        "question": "Do you provide the final video in different formats?",
+        "answer": "Yes, we can deliver your video in various formats suitable for web, broadcast, or social media, ensuring compatibility with all platforms you plan to use."
       }
     ],
     "imagePath": "services-details-item-motion.png",
     "hasVideo": false,
-    "hasFaqs": false
+    "hasFaqs": true
   }
 ]

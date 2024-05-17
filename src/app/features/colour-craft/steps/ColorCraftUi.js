@@ -6,11 +6,11 @@ import "@/styles/css/color-modal.css";
 import ColorCraftFaq from "./ColorCraftFaq";
 const ColorCraft = () => {
   useEffect(() => {
-    const primaryColour = document.getElementById("prim");
-    const secondaryColour = document.getElementById("sec");
-    const primbuttnColour = document.getElementById("primbuttn");
-    const secbuttnColour = document.getElementById("secbuttn");
-    const accentColour = document.getElementById("accent");
+    const primaryColor = document.getElementById("prim");
+    const secondaryColor = document.getElementById("sec");
+    const primbuttnColor = document.getElementById("primbuttn");
+    const secbuttnColor = document.getElementById("secbuttn");
+    const accentColor = document.getElementById("accent");
     const randomizeButton = document.getElementById("randomize");
 
     // Random colour sets
@@ -1191,7 +1191,7 @@ Thanks for using Colour Craft By particular!`;
           <div className="hero mt-20">
             <div className="hero-text">
               <h1 className="text-[65px] text-left font-primary font-medium leading-[1.2] capitalize mb-[50px] sm:mb-7">
-                Visualise Your <span className="color-effect">Colours</span>
+                Visualise Your <span className="color-effect">Colours </span>
                 <br />
                 On a Real Website
               </h1>

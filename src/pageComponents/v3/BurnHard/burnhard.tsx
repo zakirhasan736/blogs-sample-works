@@ -41,10 +41,15 @@ const BurnHard = () => {
         </div>
       </section>
       <section>
-        <video className="w-full h-full object-cover" autoPlay muted loop>
-          <source src="/images/burnhard.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <video
+          src="/images/burnhard.mp4"
+          autoPlay={true}
+          muted={true}
+          playsInline={true}
+          controls={false}
+          loop={true}
+          className="w-full h-full object-cover"
+        ></video>
       </section>
       <section className="pt-[42px] pb-[108px] bg-white">
         <div className="custom-container">
@@ -121,7 +126,14 @@ const BurnHard = () => {
             className="text-center object-contain absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
           />
           <div className="w-[667px] md:w-full mt-[110px]">
-            <video className="w-full h-full object-cover" autoPlay muted loop>
+            <video
+              className="w-full h-full object-cover"
+              autoPlay={true}
+              muted={true}
+              playsInline={true}
+              controls={false}
+              loop={true}
+            >
               <source src="/images/burndemo.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
