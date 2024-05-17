@@ -2856,6 +2856,10 @@ video::-webkit-media-controls {
   line-height: 58.8px;
   letter-spacing: 0.05em;
 }
+.home-banner-section-v3 iframe {
+  width: 100vw;
+  height: 100vh;
+}
 
 .home-banner-section-v3 p {
   font-size: 18px;
@@ -3413,25 +3417,19 @@ li.services-list.active button.services-item-btn {
 }
 
 *::-webkit-media-controls-panel {
-
   display: none !important;
 
   -webkit-appearance: none !important;
-
 }
 
 *::--webkit-media-controls-play-button {
-
   display: none !important;
 
   -webkit-appearance: none !important;
-
 }
 
 *::-webkit-media-controls-start-playback-button {
-
   display: none !important;
 
   -webkit-appearance: none !important;
-
 }

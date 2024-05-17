@@ -33,14 +33,21 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
     <motion.section className="home-banner-section home-banner-section-v3 bg-no-repea relative h-screen">
       <div className="overlay"></div>
       {/* Background Video */}
-      <video
-        src="/images/hero.mov"
+      {/* <video
+        src="https://vimeo.com/947313454?share=copy"
         autoPlay
         loop
         muted
         playsInline
         className="absolute inset-0 z-0 w-full h-full object-cover sm:object-right-top"
-      />
+      /> */}
+      <iframe
+        src="https://player.vimeo.com/video/947313454?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&background=true&muted=true&autoplay=true&controls=false&playsinline=true"
+        width="1920"
+        height="1080"
+        allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+        title="-eb01-4107-a341-f40a40cead8d"
+      ></iframe>
       <div className="custom-container h-full">
         {/* Content */}
         <div className="absolute bottom-[118px] text-white z-10">
