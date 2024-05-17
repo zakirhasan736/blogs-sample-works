@@ -62,10 +62,11 @@ const ServiceTypeOption: React.FC<ServiceTypeOptionProps> = ({ data }) => {
                 />
                 <video
                   className="video-modal-control"
-                  playsInline
-                  loop
-                  muted
-                  autoPlay
+                  autoPlay={true}
+                  muted={true}
+                  playsInline={true}
+                  controls={false}
+                  loop={true}
                 >
                   <source
                     src={data.ServicesTypeSecModalvideo}
