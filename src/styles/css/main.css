@@ -3476,3 +3476,9 @@ li.services-list.active button.services-item-btn {
 
   -webkit-appearance: none !important;
 }
+
+.scrollable-dropdown {
+  max-height: 150px !important;
+  overflow-y: auto;
+  background-color: red;
+}
