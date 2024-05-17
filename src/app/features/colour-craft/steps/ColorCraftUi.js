@@ -1191,7 +1191,7 @@ Thanks for using Colour Craft By particular!`;
           <div className="hero mt-20">
             <div className="hero-text">
               <h1 className="text-[65px] text-left font-primary font-medium leading-[1.2] capitalize mb-[50px] sm:mb-7">
-                Visualise Your <span className="color-effect">Colours</span>
+                Visualise Your <span className="color-effect">Colours </span>
                 <br />
                 On a Real Website
               </h1>
