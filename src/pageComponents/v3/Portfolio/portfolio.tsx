@@ -61,15 +61,14 @@ const PortfolioV3 = () => {
                 <div className="project p-6 relative h-[262px] sm:w-full">
                   {/* Video Background */}
                   <video
-                    autoPlay
-                    muted
-                    loop
+                    src="/images/project4.mp4"
+                    autoPlay={true}
+                    muted={true}
+                    playsInline={true}
+                    controls={false}
+                    loop={true}
                     className="absolute inset-0 w-full h-full object-cover"
-                  >
-                    {/* Provide multiple video sources for broader browser compatibility */}
-                    <source src="/images/project4.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                  ></video>
 
                   <div className="relative z-10 h-full flex flex-col justify-between">
                     {/* Pill tags */}
@@ -93,15 +92,14 @@ const PortfolioV3 = () => {
                 <div className="project p-6 relative h-[540px] sm:w-full">
                   {/* Video Background */}
                   <video
-                    autoPlay
-                    muted
-                    loop
+                    src="/images/project5.mp4"
+                    autoPlay={true}
+                    muted={true}
+                    playsInline={true}
+                    controls={false}
+                    loop={true}
                     className="absolute inset-0 w-full h-full object-cover"
-                  >
-                    {/* Provide multiple video sources for broader browser compatibility */}
-                    <source src="/images/project5.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                  ></video>
                   <div className="relative z-10 h-full flex flex-col justify-between">
                     <div>
                       <span className="pill">Brand Identity</span>

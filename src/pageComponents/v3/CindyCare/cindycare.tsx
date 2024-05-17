@@ -40,7 +40,14 @@ const CindyCare = () => {
         </div>
       </section>
       <section>
-        <video className="w-full h-full object-cover" autoPlay muted loop>
+        <video
+          className="w-full h-full object-cover"
+          autoPlay={true}
+          muted={true}
+          playsInline={true}
+          controls={false}
+          loop={true}
+        >
           <source src="/images/cindy.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>

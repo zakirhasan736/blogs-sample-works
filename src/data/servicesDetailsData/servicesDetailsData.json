@@ -5,8 +5,6 @@
     "includes": [
       [
         "Industry analysis",
-        "User research",
-        "Customer journey mapping",
         "Product roadmap",
         "Prioritised product backlog",
         "Sprint backlog"
@@ -15,9 +13,7 @@
         "Risk mitigation",
         "User research",
         "Customer journey mapping",
-        "Product roadmap",
-        "Prioritised product backlog",
-        "Sprint backlog"
+        "Product roadmap"
       ],
       [
         "Frontend development",
