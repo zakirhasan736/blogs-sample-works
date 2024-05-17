@@ -98,7 +98,7 @@ const Navbar = () => {
           </li>
           {renderUKImage()} {/* Conditionally render the UK image */}
         </ul>
-        <Link href="/contacts" target="_blank">
+        <Link href="/contacts">
           <button className={`btn ${btnColor()}  right-14 top-[23px]`}>
             Contact Us
           </button>
