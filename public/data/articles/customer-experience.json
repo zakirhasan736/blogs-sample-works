@@ -6,14 +6,14 @@
     "bannerContentWidth": "[660px]",
     "blogCategory": "Customer experience",
     "title": "What is Customer Experience and Why Your Business Will Die Without Valuing It",
-    "description": [
-      ""
-    ],
+    "description": [""],
     "authorName": "Particular Agency",
     "blogTimeToRead": "7 min"
   },
   "SingleBlogsDetailsInfo": {
     "singleBlogDetailsDesc": "In today's fiercely competitive market, understanding and enhancing customer experience is not just a luxury—it's a crucial lifeline for your business's survival and growth. This comprehensive guide will delve into what customer experience really entails and why neglecting it can spell disaster for any company, no matter the size or industry.",
+    "desc1": "",
+    "desc2": "",
     "blogDetailsInfoItems": [
       {
         "title": "Understanding Customer Experience",
@@ -79,7 +79,7 @@
       },
       {
         "title": "Creating a Culture of Customer Centricity",
-        "desc":"Cultivating a customer-centric culture is fundamental. It ensures every employee from the top down values and acts upon customer feedback to improve service and product offerings. This holistic approach not only enhances customer experience but also fosters a positive work environment that emphasises respect, responsiveness, and innovation.",
+        "desc": "Cultivating a customer-centric culture is fundamental. It ensures every employee from the top down values and acts upon customer feedback to improve service and product offerings. This holistic approach not only enhances customer experience but also fosters a positive work environment that emphasises respect, responsiveness, and innovation.",
         "itemListDesc": [],
         "itemList": [],
         "listDesc": [],
@@ -160,11 +160,25 @@
       }
     ]
   },
+  "hasOrderedList": false,
+  "isOrdered": false,
   "BlogInfoModals": {
-    "blogInfoModalImg": "bulb.png",
-    "blogInfoModalTitle": "Linking CX to Other Key Services",
-    "blogInfoModalDesc1": "Understanding the customer experience is pivotal, but linking it to other areas such as digital marketing and SEO services can magnify its impact. Enhancing your online visibility through SEO, for instance, can attract more customers, while effective digital marketing ensures that the customer journey starts off on the right foot.",
-    "blogInfoModalDesc2": "How to Measure Customer Experience Effectively: To fully understand the impact of your efforts, it’s vital to measure customer experience meticulously. Implementing metrics like Net Promoter Score (NPS), Customer Satisfaction Score (CSAT), and Customer Effort Score (CES) can provide insights into how well your business meets customer expectations. Analytics can help you identify not just how customers feel about your product or service, but also pinpoint areas for improvement.",
+    "blogInfoModalTitle": "",
+    "blogInfoModalDesc1": "",
+    "blogInfoModalDesc2": "",
+    "blogInfoModalDesc3": "",
+    "blogInfoModalTitle2": "",
+    "blogInfoModalDesc2_1": "",
+    "blogInfoModalDesc2_2": "",
+    "blogInfoModalDesc2_3": "",
+    "blogInfoModalTitle3": "",
+    "blogInfoModalDesc3_1": "",
+    "blogInfoModalDesc3_2": "",
+    "blogInfoModalDesc3_3": "",
+    "blogInfoModalTitle4": "",
+    "blogInfoModalDesc4_1": "",
+    "blogInfoModalDesc4_2": "",
+    "blogInfoModalDesc4_3": "",
     "blogInfoModalBtnText": "Grow with Particular"
   }
 }

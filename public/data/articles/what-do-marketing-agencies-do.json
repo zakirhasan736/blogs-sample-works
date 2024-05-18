@@ -15,6 +15,8 @@
   },
   "SingleBlogsDetailsInfo": {
     "singleBlogDetailsDesc": "Navigating the digital landscape can be complex, but understanding how a marketing agency does is a great place to start. This blog will guide you through what to expect when hiring a marketing agency, the services they offer, and how to ensure you're making the right choice for your business's online growth.",
+    "desc1": "",
+    "desc2": "",
     "blogDetailsInfoItems": [
       {
         "title": "The Role of Marketing Agencies",
@@ -109,17 +111,35 @@
         "desc": "Embarking on a partnership with a new marketing agency is a significant step for any business. To help you navigate this journey, here are seven key steps you can expect when starting with a new marketing agency:",
         "itemListDesc": [],
         "itemList": ["Initial Consultation and Discovery Meeting"],
-        "listDesc": ["The first step typically involves a consultation or discovery meeting. This is where you and the agency build your initial relationship. Expect to discuss your business goals, target audience, current marketing activities, and what you hope to achieve with the agency's help. It's a crucial phase for laying the groundwork and ensuring both parties are aligned."],
+        "listDesc": [
+          "The first step typically involves a consultation or discovery meeting. This is where you and the agency build your initial relationship. Expect to discuss your business goals, target audience, current marketing activities, and what you hope to achieve with the agency's help. It's a crucial phase for laying the groundwork and ensuring both parties are aligned."
+        ],
         "image": "",
         "video": ""
       }
     ]
   },
+  "hasOrderedList": true,
+  "isOrdered": false,
+
   "BlogInfoModals": {
-    "blogInfoModalImg": "blog-details-info-modal-info-img-1.jpg",
-    "blogInfoModalTitle": "Integrating Traditional Marketing with Digital Strategies.",
-    "blogInfoModalDesc1": "Enhancing your site's search engine optimisation (SEO) can be the key to unlocking new opportunities and achieving your business goals.",
-    "blogInfoModalDesc2": "At Particular Agency, we specialise in creating tailored SEO strategies that are designed to increase your visibility and engage your target audience effectively.",
+    "blogInfoModalImg": "bulb.png",
+    "blogInfoModalTitle": "Integrating Traditional Marketing with Digital Strategies",
+    "blogInfoModalDesc1": "In an increasingly digital world, traditional marketing channels like print, radio, and TV still hold value, especially when integrated with digital strategies.",
+    "blogInfoModalDesc2": "This holistic approach ensures that all marketing activities are in harmony. Leveraging the strengths of each channel to maximise reach and impact.",
+    "blogInfoModalDesc3": "Marketing agencies can help businesses find the right balance between digital and traditional methods. Ensuring a unified message and strategy across all platforms.",
+    "blogInfoModalTitle2": "The Future of Marketing: Trends to Watch",
+    "blogInfoModalDesc2_1": "Staying ahead in the digital marketing space means keeping an eye on emerging trends and technologies.",
+    "blogInfoModalDesc2_2": "Voice search optimization, artificial intelligence in customer segmentation and personalization, augmented reality in advertising, and the growing importance of sustainability in brand messaging are just a few trends shaping the future of marketing.",
+    "blogInfoModalDesc2_3": "Partnering with a forward-thinking marketing agency ensures your business remains at the cutting edge, ready to capitalize on new opportunities as they arise.",
+    "blogInfoModalTitle3": "",
+    "blogInfoModalDesc3_1": "",
+    "blogInfoModalDesc3_2": "",
+    "blogInfoModalDesc3_3": "",
+    "blogInfoModalTitle4": "",
+    "blogInfoModalDesc4_1": "",
+    "blogInfoModalDesc4_2": "",
+    "blogInfoModalDesc4_3": "",
     "blogInfoModalBtnText": "Grow with Particular"
   }
 }
