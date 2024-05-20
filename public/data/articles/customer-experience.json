@@ -2,7 +2,7 @@
   "pageTitle": "Blog - What is Customer Experience and Why Your Business Will Die Without Valuing It",
   "pageDescription": "Navigating the digital landscape can be complex, but understanding how a marketing agency does is a great place to start. ",
   "BannerData": {
-    "blogFeaturedImg": "blogs-single-banner-img-1.jpg",
+    "blogFeaturedImg": "blogd4.png",
     "bannerContentWidth": "[660px]",
     "blogCategory": "Customer experience",
     "title": "What is Customer Experience and Why Your Business Will Die Without Valuing It",
@@ -163,6 +163,7 @@
   "hasOrderedList": false,
   "isOrdered": false,
   "BlogInfoModals": {
+    "blogInfoModalImg": "bulb.png",
     "blogInfoModalTitle": "",
     "blogInfoModalDesc1": "",
     "blogInfoModalDesc2": "",

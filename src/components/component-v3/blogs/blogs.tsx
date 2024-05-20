@@ -31,7 +31,7 @@ const BlogsSec = () => {
               </div>
             </div>
           </Link>
-          <Link href="articles/how-much-does-seo-cost-in-2025">
+          <Link href="articles/how-much-does-seo-cost-in-2024">
             <div className="bg-no-repea bg-[url('/images/blog1.png')] h-[262px]">
               <div className="content">
                 <h5>seo</h5>
@@ -96,7 +96,7 @@ const BlogsSec = () => {
               </div>
             </Link>
           </div>
-          <Link href="/articles/how-much-does-a-website-cost-in-2024">
+          <Link href="/articles/benefit-of-analytics-on-website">
             <div className="bg-no-repea mt-[14px] h-[540px] sm:h-[262px]">
               <div className="overlay"></div>
               <video
