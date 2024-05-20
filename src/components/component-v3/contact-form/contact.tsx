@@ -120,7 +120,9 @@ const ContactForm: React.FC<ContactFormProps> = ({ className }) => {
             industry: "",
           });
           setSelectedValues([]);
-          setSuccessMessage("Message sent successfully!");
+          setSuccessMessage(
+            "Thank you for your submission. We will be in touch soon."
+          );
           setFormSubmitted(true);
         } else {
           // Handle error
@@ -168,20 +170,8 @@ const ContactForm: React.FC<ContactFormProps> = ({ className }) => {
             </div>
             <div className="confirmation-msg-main">
               <p className="conf-desc mb-[6px] text-[#143215] text-[16px] text-left font-normal font-tertery leading-[28px]">
-                Your Query has been submitted successfully, and one of our
-                Agents will contact you shortly to discuss further.
+                Thank you for your submission. We will be in touch soon.
               </p>
-              <p className="conf-desc mb-[2px] text-[#000000] text-[16px] text-left font-normal font-tertery leading-[28px]">
-                Redirecting to Home Page in...
-              </p>
-              <div className="counter-titmer">
-                <span className="text-[#000000] text-[28px] sm:text-[24px] text-left font-normal font-tertery leading-[28px]">
-                  {redirectTimer}
-                </span>
-                <span className="text-[#000000] text-[16px] text-left font-bold font-tertery leading-[1.2] capitalize">
-                  Sec
-                </span>
-              </div>
             </div>
           </div>
         </div>
