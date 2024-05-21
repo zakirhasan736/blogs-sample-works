@@ -6,9 +6,9 @@ const PortfolioV3 = () => {
   return (
     <section className="portfolio-v3">
       <div className="custom-container">
-        <div className="title mb-[42px]">
-          <h2>Portfolio</h2>
-          <p>
+        <div className="title mb-[42px] sm:mb-20">
+          <h2 className="mb-6">Portfolio</h2>
+          <p className="mdp">
             We work with a variety of businesses across the globe all striving
             for <br />
             the best human experience for their users.
@@ -16,7 +16,7 @@ const PortfolioV3 = () => {
         </div>
         <div className="projects text-white">
           <div className="w-full flex gap-6">
-            <Link href="/drjohntsagaris" className=" w-2/4 sm:w-full">
+            <Link href="/metisse" className=" w-2/4 sm:w-full">
               <div className="project p-6 bg-no-repea bg-[url('/images/project1.png')] h-[262px] sm:w-full">
                 <div>
                   <span className="pill">Brand Identity</span>
@@ -30,15 +30,15 @@ const PortfolioV3 = () => {
               </div>
             </Link>
 
-            <Link href="/knightsacademy" className=" w-2/4 sm:w-full">
-              <div className="project p-6 bg-no-repea bg-[url('/images/project2.png')] h-[262px] sm:w-full">
+            <Link href="/drjohntsagaris" className=" w-2/4 sm:w-full">
+              <div className="project p-6 bg-no-repea bg-[url('/images/drjohn.png')] h-[262px] sm:w-full">
                 <div>
-                  <span className="pill">Photography</span>
-                  <span className="pill">Web Design</span>
+                  <span className="pill">SEO</span>
+                  <span className="pill">Logo Design</span>
                 </div>
                 <div className="content">
-                  <h4>Stories of our Generation</h4>
-                  <p>Finding the pieces that make up life.</p>
+                  <h4>Dr John Tsagiris</h4>
+                  <p>A leading practitioner in health and wellness</p>
                 </div>
               </div>
             </Link>
@@ -49,7 +49,6 @@ const PortfolioV3 = () => {
                 <div className="project p-6 bg-no-repea bg-[url('/images/project3.png')] h-[262px] w-full mb-4">
                   <div>
                     <span className="pill">Brand Identity</span>
-                    <span className="pill">Photography</span>
                     <span className="pill">Web Design</span>
                   </div>
                   <div className="content">
@@ -58,56 +57,54 @@ const PortfolioV3 = () => {
                   </div>
                 </div>
               </Link>
-              <Link href="">
+              <Link href="/knightsacademy">
                 <div className="project p-6 relative h-[262px] sm:w-full">
                   {/* Video Background */}
                   <video
-                    autoPlay
-                    muted
-                    loop
+                    src="/images/project4.mp4"
+                    autoPlay={true}
+                    muted={true}
+                    playsInline={true}
+                    controls={false}
+                    loop={true}
                     className="absolute inset-0 w-full h-full object-cover"
-                  >
-                    {/* Provide multiple video sources for broader browser compatibility */}
-                    <source src="/images/project4.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                  ></video>
 
                   <div className="relative z-10 h-full flex flex-col justify-between">
                     {/* Pill tags */}
                     <div className=" mb-2">
-                      <span className="pill">Brand Identity</span>
-                      <span className="pill">Photography</span>
-                      <span className="pill">Web Design</span>
+                      <span className="pill">Web App Development</span>
                     </div>
 
                     {/* Content */}
                     <div className="content">
-                      <h4>Metisse</h4>
-                      <p>Timeless pieces for extraordinary moments</p>
+                      <h4>Rushmore Knights Academy</h4>
+                      <p>
+                        Leading the Rising Wave of American Football in the UK
+                      </p>
                     </div>
                   </div>
                 </div>
               </Link>
             </div>
             <div className="w-[30%] sm:w-auto">
-              <Link href="">
+              <Link href="/burn-hard">
                 <div className="project p-6 relative h-[540px] sm:w-full">
                   {/* Video Background */}
                   <video
-                    autoPlay
-                    muted
-                    loop
+                    src="/images/project5.mp4"
+                    autoPlay={true}
+                    muted={true}
+                    playsInline={true}
+                    controls={false}
+                    loop={true}
                     className="absolute inset-0 w-full h-full object-cover"
-                  >
-                    {/* Provide multiple video sources for broader browser compatibility */}
-                    <source src="/images/project5.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                  ></video>
                   <div className="relative z-10 h-full flex flex-col justify-between">
                     <div>
                       <span className="pill">Brand Identity</span>
                       <span className="pill">Photography</span>
-                      <span className="pill">Web Design</span>
+                      <span className="pill">Videography</span>
                     </div>
                     <div className="content">
                       <h4>Burn Hard</h4>
@@ -137,17 +134,17 @@ const PortfolioV3 = () => {
             </div>
             <div>
               <h6 className="mb-4">SERVICES</h6>
-              <div className="flex gap-12 sm:gap-4">
+              <div className="flex sm:!flex-row gap-12 sm:gap-4">
                 <div className="flex flex-col gap-4">
-                  <Link href="">Web & App Development</Link>
-                  <Link href="">UI/UX Design</Link>
-                  <Link href="">Content Strategy</Link>
-                  <Link href="">PPC (Pay-per-click)</Link>
+                  <Link href="/services">Web & App Development</Link>
+                  <Link href="/services">UI/UX Design</Link>
+                  <Link href="/services">Content Strategy</Link>
+                  <Link href="/services">PPC (Pay-per-click)</Link>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <Link href="">SEO</Link>
-                  <Link href="">Brand Identity</Link>
-                  <Link href="">Motion Graphics</Link>
+                  <Link href="/services">SEO</Link>
+                  <Link href="/services">Brand Identity</Link>
+                  <Link href="/services">Motion Graphics</Link>
                 </div>
               </div>
             </div>

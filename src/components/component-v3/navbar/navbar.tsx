@@ -29,6 +29,9 @@ const Navbar = () => {
   const logoSrc = isPortfolioPage
     ? "/images/logo-black.svg"
     : "/images/logo.svg";
+  const logoSrcM = isPortfolioPage
+    ? "/images/logo.svg"
+    : "/images/logo-black.svg";
   const triggerImg = isPortfolioPage ? "bar2.svg" : "bar.svg";
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
@@ -89,25 +92,30 @@ const Navbar = () => {
             <Link href="/services">SERVICES</Link>
           </li>
           <li className="hover:[#026FEE]">
-            <Link href="/case-studies">COLOUR CRAFT</Link>
+            <Link href="/features/colour-craft?colors=000000-ffffff-4685ff-f2f2f2-ffb084">
+              COLOUR CRAFT
+            </Link>
           </li>
           {renderUKImage()} {/* Conditionally render the UK image */}
         </ul>
-        <Link
-          href="https://assessments.particularagency.co.uk/marketing-strength"
-          target="_blank"
-        >
+        <Link href="/contacts">
           <button className={`btn ${btnColor()}  right-14 top-[23px]`}>
-            Brand Assessment
+            Contact Us
           </button>
         </Link>
       </div>
 
       {/* Mobile Menu */}
-      <div className="relative hidden md:block">
+      <div className="relative hidden md:block mt-3">
         <div className="flex justify-between items-center">
           <Link href="/">
-            <Image src={logoSrc} alt="Logo" width="107" height="43" />
+            <Image
+              src={logoSrc}
+              alt="Logo"
+              width="107"
+              height="43"
+              className="object-cover"
+            />
           </Link>
           <button
             className="mobo-trigger-menu-btn "
@@ -158,7 +166,9 @@ const Navbar = () => {
               <Link href="/services">SERVICES</Link>
             </li>
             <li className="hover:[#026FEE]">
-              <Link href="/case-studies">COLOUR CRAFT</Link>
+              <Link href="/features/colour-craft?colors=000000-ffffff-4685ff-f2f2f2-ffb084">
+                COLOUR CRAFT
+              </Link>
             </li>
             <li className="hover:[#026FEE]">
               <Link
@@ -177,7 +187,7 @@ const Navbar = () => {
               width={130}
               height={52}
             />
-            <p className="mb-6">
+            <p className="mb-6 mt-3">
               Our gift is observation, it just so happens we’re a Marketing
               agency.
             </p>
@@ -186,20 +196,17 @@ const Navbar = () => {
             </Link>
 
             <div className="flex gap-[15px] mt-[45px]">
-              <Link href="" target="_blank">
-                <img src="/images/facebook.svg" alt="Facebook Icon" />
-              </Link>
               <Link
                 href="https://www.linkedin.com/company/byparticularagency/"
                 target="_blank"
               >
                 <img src="/images/linkedin.svg" alt="LinkedIn Icon" />
               </Link>
-              <Link href="" target="_blank">
+              <Link
+                href="https://www.google.com/search?q=particular+agency&rlz=1C5CHFA_enGB964GB964&oq=part&gs_lcrp=EgZjaHJvbWUqBggBEEUYOzIGCAAQRRhBMgYIARBFGDsyBggCEEUYOTIGCAMQRRg7Mg0IBBAAGJIDGIAEGIoFMgYIBRBFGEEyBggGEEUYPDIGCAcQRRhB0gEIMzU3MWowajSoAgCwAgE&sourceid=chrome&ie=UTF-8"
+                target="_blank"
+              >
                 <img src="/images/google.svg" alt="" />
-              </Link>
-              <Link href="" target="_blank">
-                <img src="/images/x.svg" alt="X Icon" />
               </Link>
             </div>
             <div className="copy mt-10">

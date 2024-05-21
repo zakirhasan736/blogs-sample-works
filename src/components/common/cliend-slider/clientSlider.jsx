@@ -31,10 +31,10 @@ const ClientSlider = () => {
     ],
   };
   return (
-    <div className="banner-client-brand-box pb-[73px] max-w-[1004px] mx-auto overflow-hidden h-[120px]">
+    <div className="banner-client-brand-box pb-[73px]  sm:pb-[33px]  max-w-[1004px] mx-auto overflow-hidden h-[120px]">
       <div className="client-brand-box opacity-20">
         <Slider {...settings}>
-          <div className="client-brand-item">
+          <div className="client-brand-item sm:!w-[150px]">
             <Image
               src="/images/client-logo-3.svg"
               width={142}
@@ -42,7 +42,7 @@ const ClientSlider = () => {
               alt="client brand logo"
             />
           </div>
-          <div className="client-brand-item">
+          <div className="client-brand-item sm:!w-[150px]">
             <Image
               src="/images/brand-trade.svg"
               width={142}
@@ -50,7 +50,7 @@ const ClientSlider = () => {
               alt="client brand logo"
             />
           </div>
-          <div className="client-brand-item">
+          <div className="client-brand-item sm:!w-[150px]">
             <Image
               src="/images/client-logo-4.svg"
               width={174}
@@ -58,7 +58,7 @@ const ClientSlider = () => {
               alt="client brand logo"
             />
           </div>
-          <div className="client-brand-item">
+          <div className="client-brand-item sm:!w-[150px]">
             <Image
               src="/images/brand-soulfull.svg"
               width={132}
@@ -66,11 +66,11 @@ const ClientSlider = () => {
               alt="client brand logo"
             />
           </div>
-          <div className="client-brand-item">
+          <div className="client-brand-item sm:!w-[150px]">
             <Image
-              src="/images/client-logo-5.svg"
-              width={120}
-              height={55}
+              src="/images/brand-met.svg"
+              width={132}
+              height={78}
               alt="client brand logo"
             />
           </div>

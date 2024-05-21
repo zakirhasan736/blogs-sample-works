@@ -2,13 +2,17 @@
 
 import React from "react";
 
-const VideoSec= () => {
+const VideoSec = () => {
   return (
     <div>
-      <video autoPlay muted loop>
-        <source src="/images/city.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      <video
+        src="/images/city.mp4"
+        autoPlay={true}
+        muted={true}
+        playsInline={true}
+        controls={false}
+        loop={true}
+      />
     </div>
   );
 };
