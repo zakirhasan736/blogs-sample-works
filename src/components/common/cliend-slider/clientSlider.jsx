@@ -66,6 +66,14 @@ const ClientSlider = () => {
               alt="client brand logo"
             />
           </div>
+          <div className="client-brand-item sm:!w-[150px]">
+            <Image
+              src="/images/brand-met.svg"
+              width={132}
+              height={78}
+              alt="client brand logo"
+            />
+          </div>
         </Slider>
       </div>
     </div>

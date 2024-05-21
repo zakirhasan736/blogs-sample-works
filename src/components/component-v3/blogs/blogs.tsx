@@ -11,7 +11,7 @@ const BlogsSec = () => {
           <div>
             <h2>News & Blog</h2>
           </div>
-          <Link href="">
+          <Link href="articles/customer-experience">
             <div className="bg-no-repea h-[262px]">
               <div className="overlay"></div>
               <video
@@ -26,12 +26,13 @@ const BlogsSec = () => {
               <div className="content">
                 <h5>cx</h5>
                 <p>
-                  Harness the power of customer experience to grow your business
+                  What is Customer Experience and Why Your Business Will Die
+                  Without Valuing It
                 </p>
               </div>
             </div>
           </Link>
-          <Link href="articles/how-much-does-seo-cost-in-2025">
+          <Link href="articles/how-much-does-seo-cost-in-2024">
             <div className="bg-no-repea bg-[url('/images/blog1.png')] h-[262px]">
               <div className="content">
                 <h5>seo</h5>
@@ -62,14 +63,11 @@ const BlogsSec = () => {
                   </div>
                 </div>
               </Link>
-              <Link href="">
+              <Link href="articles/what-do-marketing-agencies-do">
                 <div className="bg-no-repea bg-[url('/images/blog4.png')] h-[262px]">
                   <div className="content">
                     <h5>marketing</h5>
-                    <p>
-                      Harness the power of customer experience to grow your
-                      business
-                    </p>
+                    <p>What do marketing agencies do?</p>
                   </div>
                 </div>
               </Link>
@@ -96,7 +94,7 @@ const BlogsSec = () => {
               </div>
             </Link>
           </div>
-          <Link href="/articles/how-much-does-a-website-cost-in-2024">
+          <Link href="/articles/benefit-of-analytics-on-website">
             <div className="bg-no-repea mt-[14px] h-[540px] sm:h-[262px]">
               <div className="overlay"></div>
               <video

@@ -2,7 +2,7 @@
   "pageTitle": "Blog - How Businesses Benefit from Using Analytics on Their Website",
   "pageDescription": "Navigating the digital landscape can be complex, but understanding how a marketing agency does is a great place to start. ",
   "BannerData": {
-    "blogFeaturedImg": "blogs-single-banner-img-1.jpg",
+    "blogFeaturedImg": "blogd2.png",
     "bannerContentWidth": "[660px]",
     "blogCategory": "DAta analytics",
     "title": "How Businesses Benefit from Using Analytics on Their Website",
@@ -13,61 +13,22 @@
     "blogTimeToRead": "7 min"
   },
   "SingleBlogsDetailsInfo": {
-    "singleBlogDetailsDesc": "On average, small businesses can expect to pay between £500 to £2000 per month for comprehensive SEO services. This monthly retainer ensures that your website is continuously optimised in line with evolving search engine algorithms and market trends.",
+    "singleBlogDetailsDesc": "In the digital age, having a strong online presence is crucial for businesses. Website analytics play a key role in understanding how to optimise your website and improve your digital marketing efforts. Here's a deep dive into how businesses can benefit from using analytics on their website.",
+    "desc1": "",
+    "desc2": "",
     "blogDetailsInfoItems": [
       {
-        "title": "",
+        "title": "Introduction to Website Analytics",
         "desc": "Web analytics provide a wealth of information about how users interact with your site. These tools give you clear information about your website's popularity and user engagement. They show which parts are popular and engaging, and which areas need improvement. This information is crucial for making informed decisions about how to improve your site's overall effectiveness.",
-        "itemListDesc": [
-          "SEO is an umbrella term encompassing various strategies and techniques used to improve a website's ranking on search engines. The cost of SEO services in the UK can vary widely depending on several factors. This includes the type of SEO required, the level of expertise, and the specific needs of your business."
-        ],
+        "itemListDesc": [""],
         "itemList": [],
         "listDesc": [],
         "image": "",
         "video": ""
       },
       {
-        "title": "SEO can be categorised into several types:",
-        "desc": "",
-        "itemListDesc": [],
-        "itemList": [
-          "Technical SEO: Focuses on improving technical aspects of your website, like site speed and mobile-friendliness.",
-          "On-Page SEO: Involves optimising individual web pages to rank higher and earn more relevant traffic.",
-          "Off-Page SEO (Link Building): Aims to increase the domain authority of your website through backlinks from other sites."
-        ],
-        "listDesc": [],
-        "image": "",
-        "video": ""
-      },
-      {
-        "title": "The Tangible Benefits of Prioritising CX",
-        "desc": "Opting for a full-service marketing agency can streamline your marketing efforts. From traditional marketing to digital campaigns, these agencies handle it all, ensuring a cohesive strategy that drives results.",
-        "itemListDesc": [],
-        "itemList": [
-          "Increased Customer Loyalty: A positive experience can turn a one-time buyer into a lifelong customer.",
-          "Enhanced Brand Reputation: Happy customers are more likely to recommend your brand, acting as organic advocates for your business.",
-          "Higher Retention Rates: It costs significantly less to retain satisfied customers than to acquire new ones, impacting your bottom line positively."
-        ],
-        "listDesc": [],
-        "image": "",
-        "video": ""
-      },
-      {
-        "title": "Pricing Structures",
-        "desc": "SEO agencies and consultants typically offer several pricing structures: ",
-        "itemListDesc": [],
-        "itemList": [
-          "Monthly Retainer: Ideal for ongoing SEO efforts, with costs ranging as mentioned earlier. ",
-          "Project-Based: Prices vary depending on the project's scope but can range from £1000 to £2500 for small to medium-sized projects. ",
-          "Hourly Rate: SEO consultants may charge between £50 and £150 per hour, depending on their expertise."
-        ],
-        "listDesc": [],
-        "image": "",
-        "video": ""
-      },
-      {
-        "title": "",
-        "desc": "When planning your SEO budget to fit your marketing strategy, think about your business's size, how competitive your industry is, and what you want to achieve in terms of growth.",
+        "title": "Knowing Your Visitors",
+        "desc": "Knowing who comes to your website helps you decide what to show them to keep them interested. Tools like Google Analytics can tell you how many people visit, who they are, where they are from and what they like. This helps you make your website better for your visitors.",
         "itemListDesc": [],
         "itemList": [],
         "listDesc": [],
@@ -75,8 +36,8 @@
         "video": ""
       },
       {
-        "title": "",
-        "desc": "For small businesses, allocating 10-20% of your overall marketing budget to SEO is a good starting point.",
+        "title": "Insights into Demographics",
+        "desc": "Demographic insights help you see exactly who your visitors are, including age, gender, location, and even interests. This data is invaluable for crafting targeted marketing messages and can help refine your marketing channels.",
         "itemListDesc": [],
         "itemList": [],
         "listDesc": [],
@@ -84,8 +45,17 @@
         "video": ""
       },
       {
-        "title": "",
-        "desc": "Local SEO is necessary for businesses looking to attract customers in specific geographic areas. Expect to invest in local SEO packages that include Google My Business optimisation, local citations, and localised content creation. Prices tend to range from £300 to £1000 per month.Pricing",
+        "title": "Improving Site Interactions",
+        "desc": "By analysing how users interact with your website, you can enhance user experience significantly. This means checking how many pages people look at, how long they stay on your site, and bounce rates. Bounce rates tell us if visitors leave after only looking at one page. This helps us understand what keeps them interested and what might be making them leave.",
+        "itemListDesc": [],
+        "itemList": [],
+        "listDesc": [],
+        "image": "",
+        "video": ""
+      },
+      {
+        "title": "Personalising User Experiences",
+        "desc": "By understanding different visitor segments, you can personalise experiences on your website. For example, if you know you have a lot of visitors from a certain city, you might show them deals or events happening near them. This personal touch can make visitors feel more connected to your brand.",
         "itemListDesc": [],
         "itemList": [],
         "listDesc": [],
@@ -102,8 +72,8 @@
         "video": ""
       },
       {
-        "title": "Maximising ROI with SEO Analytics",
-        "desc": "An important component often included in SEO packages is advanced analytics. This plays a pivotal role in understanding the effectiveness of your SEO efforts.",
+        "title": "Optimising User Navigation",
+        "desc": "A smooth navigation experience can encourage visitors to explore more of your website, increasing their engagement. Analytics help identify areas where visitors drop off and allow you to streamline navigation to maintain user interest.",
         "itemListDesc": [],
         "itemList": [],
         "listDesc": [],
@@ -111,8 +81,8 @@
         "video": ""
       },
       {
-        "title": "",
-        "desc": "This analysis ensures that your investment is safeguarded. This is done by working efficiently to meet your business objectives, ultimately maximising the return on your SEO investment.",
+        "title": "Monitoring Conversion Journeys",
+        "desc": "Tracking how visitors move from being casual browsers to becoming customers is crucial. Analytics help us see how well we turn visitors into buyers by showing which parts of your site are good at making sales. This lets us know what's working and what might need some tweaking.",
         "itemListDesc": [],
         "itemList": [],
         "listDesc": [],
@@ -120,8 +90,8 @@
         "video": ""
       },
       {
-        "title": "",
-        "desc": "Diligent tracking and adapting based on analytics feedback, companies can optimise their online presence and drive more targeted results.",
+        "title": "Analysing Purchase Behaviour",
+        "desc": "Understanding how and why your customers make purchases is essential. Analytics show us patterns in how people buy things, letting you change what you offer to better match what your customers want.",
         "itemListDesc": [],
         "itemList": [],
         "listDesc": [],
@@ -129,8 +99,8 @@
         "video": ""
       },
       {
-        "title": "",
-        "desc": "Grasping the costs linked with various SEO services can help you create a smart SEO strategy, leading to strong returns on your investment. The real secret to winning at SEO isn't just in the spending, but in smartly investing in the services that truly align with what your business aims to achieve.",
+        "title": "Refining Content Approaches",
+        "desc": "The content on your website plays a pivotal role in attracting and retaining customers. With insights from web analytics, you can see which content performs best and tailor your approach accordingly.",
         "itemListDesc": [],
         "itemList": [],
         "listDesc": [],
@@ -138,22 +108,54 @@
         "video": ""
       },
       {
-        "title": "",
-        "desc": "Diligent tracking and adapting based on analytics feedback, companies can optimise their online presence and drive more targeted results.",
+        "title": "Adjusting Marketing Campaigns",
+        "desc": "Analytics can show you how well your marketing campaigns are working. If you see that a campaign is bringing a lot of visitors to your site, you know it's doing well. If not, you might need to change your approach. This helps you spend your marketing budget more wisely.",
+        "itemListDesc": [],
+        "itemList": [],
+        "listDesc": [],
+        "image": "",
+        "video": ""
+      },
+      {
+        "title": "Identifying Technical Issues",
+        "desc": "Sometimes, analytics can point out problems with your website that you did not know about. For example, pages that take too long to load or links that don’t work. Fixing these issues makes your website better and keeps visitors happy",
+        "itemListDesc": [],
+        "itemList": [],
+        "listDesc": [],
+        "image": "",
+        "video": ""
+      },
+      {
+        "title": "Enhancing Mobile Experience",
+        "desc": "With more people using smartphones to visit websites, it is important to know how your site performs on mobile devices. Analytics can tell you if you need to improve the mobile version of your site to make it easier for phone users to browse and buy.",
         "itemListDesc": [],
         "itemList": [],
         "listDesc": [],
         "image": "",
         "video": ""
       }
-  
     ]
   },
+  "hasOrderedList": false,
+  "isOrdered": false,
   "BlogInfoModals": {
-    "blogInfoModalImg": "blog-details-info-modal-info-img-1.jpg",
-    "blogInfoModalTitle": "Linking CX to Other Key Services",
-    "blogInfoModalDesc1": "Understanding the customer experience is pivotal, but linking it to other areas such as digital marketing and SEO services can magnify its impact. Enhancing your online visibility through SEO, for instance, can attract more customers, while effective digital marketing ensures that the customer journey starts off on the right foot.",
-    "blogInfoModalDesc2": "How to Measure Customer Experience Effectively: To fully understand the impact of your efforts, it’s vital to measure customer experience meticulously. Implementing metrics like Net Promoter Score (NPS), Customer Satisfaction Score (CSAT), and Customer Effort Score (CES) can provide insights into how well your business meets customer expectations. Analytics can help you identify not just how customers feel about your product or service, but also pinpoint areas for improvement.",
+    "blogInfoModalImg": "graph.png",
+    "blogInfoModalTitle": "Boosting SEO Practices",
+    "blogInfoModalDesc1": "Analytics tools can show you which keywords bring traffic to your site from search engines. This information is crucial for enhancing SEO efforts and ensuring your site remains visible and relevant.",
+    "blogInfoModalDesc2": "",
+    "blogInfoModalDesc3": "",
+    "blogInfoModalTitle2": "Conducting Competitor Analysis",
+    "blogInfoModalDesc2_1": "Seeing how you stack up against competitors is easier with analytics. These tools allow for a detailed competitive analysis and can help you benchmark your performance against industry standards.",
+    "blogInfoModalDesc2_2": "",
+    "blogInfoModalDesc2_3": "",
+    "blogInfoModalTitle3": "Setting Industry Benchmarks",
+    "blogInfoModalDesc3_1": "Analytics enable you to compare your site’s performance against industry averages. This benchmarking can be instrumental in setting realistic goals and strategies for improvement.",
+    "blogInfoModalDesc3_2": "",
+    "blogInfoModalDesc3_3": "",
+    "blogInfoModalTitle4": "Understanding Engagement Patterns",
+    "blogInfoModalDesc4_1": "Learning about how people interact with different parts of your website helps you understand what keeps them engaged. For example, you might find out which videos they watch the most or which blog posts they spend the most time reading. This information can guide you in creating more of the content that your visitors love.",
+    "blogInfoModalDesc4_2": "",
+    "blogInfoModalDesc4_3": "",
     "blogInfoModalBtnText": "Grow with Particular"
   }
 }

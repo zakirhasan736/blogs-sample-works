@@ -5,6 +5,8 @@ import Link from "next/link";
 interface SingleBlogDetailsInfoProps {
   data: {
     singleBlogDetailsDesc?: string;
+    desc1?: string;
+    desc2?: string;
     blogDetailsInfoItems?: {
       title?: string;
       desc?: string;
@@ -26,6 +28,16 @@ const SingleBlogDetailsInfo: React.FC<SingleBlogDetailsInfoProps> = ({
       {data.singleBlogDetailsDesc && (
         <p className="!opacity-100 blog-first-desc text-[16px] text-center text-[#181725] font-accent font-normal leading-6 mb-10">
           {data.singleBlogDetailsDesc}
+        </p>
+      )}
+      {data.desc1 && (
+        <p className="!opacity-100 blog-first-desc text-[16px] text-[#181725] font-accent font-normal leading-6 mb-4">
+          {data.desc1}
+        </p>
+      )}
+      {data.desc2 && (
+        <p className="!opacity-100 blog-first-desc text-[16px] text-[#181725] font-accent font-normal leading-6 mb-4">
+          {data.desc2}
         </p>
       )}
       <div className="blog-details-info-wrap mb-[67px] md:mb-[45px] sm:mb-[30px]">
@@ -67,7 +79,7 @@ const SingleBlogDetailsInfo: React.FC<SingleBlogDetailsInfoProps> = ({
                 </h3>
               )}
               {item.desc && (
-                <p className="!opacity-100 blog-details-desc text-[16px] sm:text-[14px] text-left text-[#181725] font-accent font-normal leading-6">
+                <p className="!opacity-100 blog-details-desc text-[16px] text-left text-[#181725] font-accent font-normal leading-6">
                   {item.desc}
                 </p>
               )}
@@ -76,7 +88,7 @@ const SingleBlogDetailsInfo: React.FC<SingleBlogDetailsInfoProps> = ({
                 {item.itemListDesc.map((listDesc, listIndex) => (
                   <p
                     key={listIndex}
-                    className="!opacity-100 list-info-box-text mb-5 text-[18px] sm:text-[16px] text-left text-[#181725] font-accent font-normal leading-[150%]"
+                    className="!opacity-100 list-info-box-text mb-5 text-[16px] text-left text-[#181725] font-accent font-normal leading-[150%]"
                   >
                     {listDesc}
                   </p>
@@ -86,7 +98,7 @@ const SingleBlogDetailsInfo: React.FC<SingleBlogDetailsInfoProps> = ({
                     {item.itemList.map((listItem, listItemIndex) => (
                       <li
                         key={listItemIndex}
-                        className="list-disc info-box-list-item text-[18px] sm:text-[16px] text-left text-[#181725] font-accent font-normal leading-[150%]"
+                        className="list-disc info-box-list-item text-[16px] text-left text-[#181725] font-accent font-normal leading-[150%]"
                       >
                         {listItem}
                       </li>
@@ -98,7 +110,7 @@ const SingleBlogDetailsInfo: React.FC<SingleBlogDetailsInfoProps> = ({
                     {item.listDesc.map((desc, descIndex) => (
                       <p
                         key={descIndex}
-                        className="!opacity-100 list-info-box-text mb-5 text-[18px] sm:text-[16px] text-left text-[#181725] font-accent font-normal leading-[150%]"
+                        className="!opacity-100 list-info-box-text mb-5 text-[16px] text-left text-[#181725] font-accent font-normal leading-[150%]"
                       >
                         {desc}
                       </p>
