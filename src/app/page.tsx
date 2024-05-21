@@ -71,7 +71,6 @@ const Home = () => {
         {/* partners section end*/}
         {/* blogs section */}
         <BlogsSec />
-        {/* blogs section end*/}
         {/* video section */}
         <VideoSec />
         {/* video section end*/}
