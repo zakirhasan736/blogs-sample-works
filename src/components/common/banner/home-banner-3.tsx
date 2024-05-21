@@ -34,18 +34,27 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
       <div className="overlay"></div>
       {/* Background Video */}
       <video
-        autoPlay
-        muted
-        loop
-        className="absolute inset-0 z-0 w-full h-full object-cover"
-      >
-        <source src="/images/hero2.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+        src="/images/hero.mov"
+        autoPlay={true}
+        muted={true}
+        playsInline={true}
+        controls={false}
+        loop={true}
+        className="absolute inset-0 z-0 w-full h-full object-cover sm:object-right-top"
+      />
+
+      {/* <iframe
+        src="https://player.vimeo.com/video/947313454?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+        width="1920"
+        height="1080"
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+        title="-eb01-4107-a341-f40a40cead8d"
+      ></iframe> */}
       <div className="custom-container h-full">
         {/* Content */}
         <div className="absolute bottom-[118px] text-white z-10">
-          <motion.h1>
+          <motion.h1 className="mb-5">
             Where Every Pixel <br /> Tells a Particular Story
           </motion.h1>
           <motion.p>
@@ -54,7 +63,9 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
             designing bespoke digital <br /> strategies for brands across all
             sectors and companies across the globe.
           </motion.p>
-          <button className="lbtn">Let's talk</button>
+          <Link href="/contacts">
+            <button className="lbtn">Let's talk</button>
+          </Link>
         </div>
         <Image
           src="/images/agency.svg"

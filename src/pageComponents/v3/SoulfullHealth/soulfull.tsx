@@ -42,10 +42,15 @@ const SoulfullHealth = () => {
         </div>
       </section>
       <section>
-        <video className="w-full h-full object-cover" autoPlay muted loop>
-          <source src="/images/soul.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <video
+          src="/images/soul.mp4"
+          autoPlay={true}
+          muted={true}
+          playsInline={true}
+          controls={false}
+          loop={true}
+          className="w-full h-full object-cover"
+        ></video>
       </section>
       <section className="pt-[42px] pb-[108px] bg-white">
         <div className="custom-container">
@@ -55,21 +60,18 @@ const SoulfullHealth = () => {
               alt="Image 1"
               width={371}
               height={400}
-              className="sm:w-full"
             />
             <Image
               src="/images/probimg2.png"
               alt="Image 2"
               width={371}
               height={400}
-              className="sm:w-full"
             />
             <Image
               src="/images/probimg3.png"
               alt="Image 3"
               width={371}
               height={400}
-              className="sm:w-full"
             />
           </div>
           <div className="text-center text-black w-[767px] md:w-full m-auto">
@@ -103,16 +105,19 @@ const SoulfullHealth = () => {
             Partnering with Particular Agency, Soulfull has begun its mission to
             revolutionise the wellness journey for their community.
           </h4>
-          <h4>
+          <h4 className="mb-5">
             By prioritising user experience on the back of a research-driven
             approach, we developed a unique and ambitious website that matches
             its value proposition centred on convenience, affordability, and
             effectiveness for its audience of women worldwide.
           </h4>
+          <Link href="/services" className="btn">
+            Partner with Particular
+          </Link>
         </div>
       </section>
-      <section className="bg-white pt-[89px] pb-[83px] text-center flex justify-center relative">
-        <div>
+      <section className="bg-white pt-[89px]">
+        <div className=" text-center flex justify-center relative">
           <Image
             src="/images/slogo.svg"
             alt="Soulfull Health Logo"
@@ -120,79 +125,46 @@ const SoulfullHealth = () => {
             height={121}
             className="text-center object-contain absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
           />
-          <div className="w-[667px] h-[351px] md:w-full mt-[110px]">
-            <video className="w-full h-full object-cover" autoPlay muted loop>
-              <source src="/images/demo.mov" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+          <div className="w-[667px] md:w-full mt-[110px] mb-[83px]">
+            <video
+              src="/images/demo.mov"
+              autoPlay={true}
+              muted={true}
+              playsInline={true}
+              controls={false}
+              loop={true}
+              className="w-full h-full object-cover"
+            ></video>
           </div>
         </div>
-      </section>
-      <section className="pt-[110px] pb-[72px]">
-        <div className="flex gap-14 justify-center md:p-5">
-          <Image
-            src="/images/ethosm.png"
-            alt="Soulfull Health pages"
-            width={247}
-            height={586}
-            className="object-contain md:w-full"
-          />
-          <Image
-            src="/images/home.png"
-            alt="SoulfullHome page"
-            width={247}
-            height={586}
-            className="object-contain md:w-full"
-          />
-          <Image
-            src="/images/sgm.png"
-            alt="Soulfull Health pages"
-            width={247}
-            height={586}
-            className="object-contain md:w-full"
-          />
-          <Image
-            src="/images/product.png"
-            alt="Soulfull Products page"
-            width={247}
-            height={586}
-            className="object-contain md:w-full"
-          />
-          <Image
-            src="/images/login.png"
-            alt="Soulfull Login page"
-            width={247}
-            height={586}
-            className="object-contain md:w-full"
-          />
-        </div>
+        <div className="bg-[url('/images/demo.gif')] h-[768px] w-full bg-cover"></div>
       </section>
       <section className="bg-white pt-[83px] pb-[46px]">
-        <div className="flex justify-center">
+        <div className="flex w-full">
           <Image
             src="/images/2 1.png"
             alt="Soulfull Health pages"
             width={481}
             height={685}
-            className="object-contain md:w-full"
+            className="object-cover w-1/3 md:w-full"
           />
           <Image
             src="/images/3 1.png"
             alt="SoulfullHome page"
             width={481}
             height={685}
-            className="object-contain md:w-full"
+            className="object-cover w-1/3 md:w-full"
           />
           <Image
             src="/images/4 1.png"
             alt="Soulfull Health pages"
             width={481}
             height={685}
-            className="object-contain md:w-full"
+            className="object-cover w-1/3 md:w-full"
           />
         </div>
         <div className="text-center text-[#181725] mt-[92px] w-[748px] m-auto sm:w-full">
-          <p className="lgp mb-8">
+          <p className="lgp">
             “At Soulfull Health, our mission is to ignite a global movement of
             wellness empowerment for women of every age, shaping a future where
             every woman takes charge of her wellness journey, supported by
@@ -200,13 +172,17 @@ const SoulfullHealth = () => {
             individuals."
           </p>
           <p className="uppercase text-black">Helen nguyen</p>
-          <p className="text-[#666]">Founder</p>
-          <button className="btn btn-dark mt-[30px]">Start a project</button>
+          <p className="text-[#666] mb-[30px]">Founder</p>
+          <Link href="/contacts" className="btn btn-dark ">
+            Start a project
+          </Link>
         </div>
         <div className="custom-container text-[#181725] mt-[85px]">
           <div className="flex justify-between soul">
             <h4>See more Particular projects</h4>
-            <button> See all</button>
+            <Link href="/portfolio">
+              <button> See all</button>
+            </Link>
           </div>
           <div className="flex gap-6 mt-[58px]">
             <Link href="" className="w-1/2 sm:w-full">
