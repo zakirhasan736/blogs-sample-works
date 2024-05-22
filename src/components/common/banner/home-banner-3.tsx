@@ -4,27 +4,6 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 
-const fadeInVariants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: { staggerChildren: 0.2, ease: "easeOut" },
-  },
-};
-
-const fadeInChildVariants = {
-  hidden: { opacity: 0, y: 10 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
-};
-
-const expandWidthVariants = {
-  hidden: { width: "0%", opacity: 0 },
-  visible: {
-    width: "100%",
-    opacity: 1,
-    transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] },
-  },
-};
 
 interface HomeBannerProps {}
 
@@ -40,17 +19,8 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
         playsInline={true}
         controls={false}
         loop={true}
-        className="absolute inset-0 z-0 w-full h-full object-cover sm:object-right-top"
+        className="absolute inset-0 z-0 w-full h-full object-cover"
       />
-
-      {/* <iframe
-        src="https://player.vimeo.com/video/947313454?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-        width="1920"
-        height="1080"
-        frameborder="0"
-        allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-        title="-eb01-4107-a341-f40a40cead8d"
-      ></iframe> */}
       <div className="custom-container h-full">
         {/* Content */}
         <div className="absolute bottom-[118px] text-white z-10">

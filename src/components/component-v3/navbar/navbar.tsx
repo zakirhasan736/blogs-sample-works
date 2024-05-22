@@ -82,8 +82,8 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <li className="hover:[#026FEE] hidden">
-            <Link href="/">ABOUT US</Link>
+          <li className="hover:[#026FEE]">
+            <Link href="/aboutus">ABOUT US</Link>
           </li>
           <li className="hover:[#026FEE]">
             <Link href="/portfolio">PORTFOLIO</Link>
@@ -139,7 +139,7 @@ const Navbar = () => {
           >
             <Image src="/images/close.svg" alt="Close" width={24} height={24} />
           </button>
-          <ul className="flex flex-col space-y-[34px] mt-[90px]">
+          <ul className="flex flex-col space-y-[34px] pt-[30px] mt-auto">
             <div className="relative network">
               <Link href="/" className="text-[#026FEE]">
                 AGENCY
@@ -156,8 +156,8 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <li className="hover:[#026FEE] hidden">
-              <Link href="/">ABOUT US</Link>
+            <li className="hover:[#026FEE]">
+              <Link href="/aboutus">ABOUT US</Link>
             </li>
             <li className="hover:[#026FEE]">
               <Link href="/portfolio">PORTFOLIO</Link>
@@ -180,7 +180,7 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-          <div className="mt-24">
+          <div className="mt-auto">
             <Image
               src="/images/mobile-logo.svg"
               alt="logo"
