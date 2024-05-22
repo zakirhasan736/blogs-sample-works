@@ -63,7 +63,9 @@ const Home = () => {
         <PartnersSec />
         {/* partners section end*/}
         {/* blogs section */}
-        <BlogsSec />
+        {/* <BlogsSec /> */}
+        {/* blogs section end*/}
+
         {/* video section */}
         <VideoSec />
         {/* video section end*/}
