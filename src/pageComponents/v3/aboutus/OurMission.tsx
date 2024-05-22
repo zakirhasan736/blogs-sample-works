@@ -21,14 +21,14 @@ const OurMission = () => {
 							Our mission revolves around positive-sum interactions, where both
 							parties gain tangible, reasonable benefits from transactions and
 							interactions.
-							<br />
-							<br />
+							<br className='!block' />
+							<br className='!block' />
 							We analyse human interaction to identify valuable formats and
 							outcomes, believing that a great product or service, with a
 							thoughtful focus on human prosperity, is the best marketing and
 							sustainability strategy.
-							<br />
-							<br />
+							<br className='!block' />
+							<br className='!block' />
 							We are also in the process of developing a revised index for Human
 							Experience quality, expanding on the Human Development Index
 							(HDI), which will inform our work for the next 100 years and
