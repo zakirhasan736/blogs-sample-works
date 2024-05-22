@@ -3353,9 +3353,9 @@ footer .copy li {
   p,
   .mdp,
   h4 {
-    font-size: 16px ;
-    font-weight: 400 ;
-    line-height: 21px ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
   }
 
   h5 {
@@ -3369,9 +3369,9 @@ footer .copy li {
   h1,
   h2,
   .portfolio-v3 h3 {
-    font-size: 36px ;
+    font-size: 36px;
     font-weight: 400;
-    line-height: 150% ;
+    line-height: 150%;
     letter-spacing: 0.05em;
   }
 
@@ -3473,6 +3473,12 @@ li.services-list.active button.services-item-btn {
   display: none !important;
 
   -webkit-appearance: none !important;
+}
+
+.mobile-view-img {
+  /* width: 69.674px;
+  height: 28px; */
+  flex-shrink: 0;
 }
 
 .scrollable-dropdown {

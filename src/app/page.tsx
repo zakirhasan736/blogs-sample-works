@@ -11,10 +11,10 @@ import VideoSec from "@/components/component-v3/video/video";
 import LatestBlogs from "@data/blogs/short-blog-data.json";
 
 const Home = () => {
-  // Sort the latest blogs by date in descending order
-  const sortedLatestBlogs = LatestBlogs.sort((a, b) => {
-    return new Date(b.date).getTime() - new Date(a.date).getTime();
-  });
+	// Sort the latest blogs by date in descending order
+	const sortedLatestBlogs = LatestBlogs.sort((a, b) => {
+		return new Date(b.date).getTime() - new Date(a.date).getTime();
+	});
 
   // Select the latest three blogs
   const latestThreeBlogs = sortedLatestBlogs.slice(0, 3);

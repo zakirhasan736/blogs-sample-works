@@ -18,13 +18,13 @@ const CommunityLatter = () => {
 					</h4>
 					<p className="desc body-regular-1 text-center mb-6 text-mono-100 mx-auto max-w-[766px] w-full !opacity-100">
 						To our community at Particular and all of Humankind,
-						<br />
-						<br />
+						<br className='!block' />
+						<br className='!block' />
 						This is a message, written and contributed directly by the
 						Particular directors, and we extend our hand in wishing you the
 						warmest welcome into the Particular community.
-						<br />
-						<br />
+						<br className='!block' />
+						<br className='!block' />
 						Throughout a period of around 15 years, we saw that the social
 						contract has been quite severely broken. This dates as far back as
 						the 2008 financial crisis.

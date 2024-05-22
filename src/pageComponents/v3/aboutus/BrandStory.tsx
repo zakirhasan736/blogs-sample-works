@@ -23,13 +23,13 @@ const BrandStory = () => {
 					<p className="body-large text-center text-mono-100 max-w-[766px] mx-auto">
 						The Particular community has a desire for positive-sums in the human
 						experience.
-						<br />
-						<br />
+						<br className='!block' />
+						<br className='!block' />
 						Our ‘Happily Ever After’ is a world of people that uphold and
 						respect their role in producing a more optimal human experience -
 						and for that world to support such progress for everyone.
-						<br />
-						<br />
+						<br className='!block' />
+						<br className='!block' />
 						Particular’s ‘Moral of the Story’ is that trust builds confidence
 						and hope, and hope and confidence build bright futures. High quality
 						relationships that have mutually productive outcomes begin that

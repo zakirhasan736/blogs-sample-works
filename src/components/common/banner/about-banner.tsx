@@ -5,14 +5,14 @@ const AboutBanner = () => {
   return (
 		<section className="about-banner-section h-[100vh] pt-[163px] pb-[64px]">
 			<Image
-				src="/images/about-us-banner-image.jpg"
+				src="/images/about-us-banner-img.svg"
 				alt="aboutus banner image"
-				width={1440}
+				width={1920}
 				height={851}
-				className="absolute inset-0 z-0 w-full h-full object-cover sm:hidden sm:object-right-top"
+				className="absolute inset-0 z-0 w-full h-full object-cover sm:hidden sm:object-top"
 			/>
 			<Image
-				src="/images/aboutus-banner-img-mobo.jpg"
+				src="/images/about-us-banner-img-mobo.svg"
 				alt="aboutus banner image"
 				width={1440}
 				height={851}

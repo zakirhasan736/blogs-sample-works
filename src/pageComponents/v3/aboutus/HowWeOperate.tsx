@@ -14,7 +14,7 @@ const HowWeOperate = () => {
 						careers, and social interactions. Particular Agency builds on this
 						foundation - offering premium to encourage premium, that’s the
 						mindset.
-                        <br /><br />
+                        <br className='!block' /><br className='!block' />
                         Growing at pace in the B2B marketing space, we help
 						rethink and expand our partners’ and clients’ brands and offerings.
 						With optimisation and a human-focused experience in mind at all

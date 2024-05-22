@@ -17,14 +17,14 @@ const WhatWeCare = () => {
 								but are not limited to:
 							</p>
 							<Image
-								src="/images/what-we-care-moda-img-1.png"
+								src="/images/what-we-care-img-2-desk.svg"
 								alt="what we care item modal image"
 								width={568}
 								className="w-full h-[162px] object-cover sm:hidden object-top rounded-[4px]"
 								height={162}
 							/>
 							<Image
-								src="/images/what-we-care-moda-img-1-mobo.png"
+								src="/images/what-we-care-modal-img-1-mobo.svg"
 								alt="what we care item modal image"
 								width={568}
 								className="w-full h-[162px] object-cover hidden sm:block object-bottom rounded-[4px]"
@@ -55,20 +55,22 @@ const WhatWeCare = () => {
 					</div>
 					<div className="what-we-care-cont-item mb-[86px] md:mb-[50px] sm:mb-[45px] grid grid-cols-12 sm:grid-cols-6 gap-[57px] md:gap-[30px] sm:gap-35px]">
 						<div className="what-we-care-cont-item-left-cont col-span-6">
-							<h3 className="title text-mono-100 mb-[11px]">Who We Serve</h3>
+							<h3 className="title text-mono-100 mb-[11px]">
+								The Interests We Cater To
+							</h3>
 							<p className="desc body-regular-1 text-mono-100 mb-6">
-								We serve a diverse audience at Particular. Our clients include,
-								but are not limited to:
+								If you could sum it up into their interests, we usually cater to
+								people who have an interest in the following areas:
 							</p>
 							<Image
-								src="/images/what-we-care-moda-img-2.png"
+								src="/images/what-we-care-img-1-desk.svg"
 								alt="what we care item modal image"
 								width={568}
 								className="w-full h-[162px] rounded-[4px] sm:hidden object-cover object-top"
 								height={162}
 							/>
 							<Image
-								src="/images/what-we-care-moda-img-2-mobo.png"
+								src="/images/what-we-care-modal-img-2-mobo.svg"
 								alt="what we care item modal image"
 								width={568}
 								className="w-full h-[162px] rounded-[4px] hidden sm:block object-cover  object-bottom"
@@ -77,42 +79,41 @@ const WhatWeCare = () => {
 						</div>
 						<div className="what-we-care-cont-item-right-cont pt-[125px] sm:pt-0 grid grid-cols-12 gap-[47px] md:gap-[35px] sm:grid-cols-full">
 							<ul className="what-we-care-item-cont-lists-cont pl-5 col-span-6 sm:col-span-full">
-								<li className="list-item font-accent">C-Level Executives</li>
 								<li className="list-item font-accent">
-									Founders & Entrepreneurs
-								</li>
-								<li className="list-item font-accent">Directors</li>
-								<li className="list-item font-accent">
-									Chief Marketing Officers & Marketers
+									(Sustainably) Growing their Business or Brand
 								</li>
 								<li className="list-item font-accent">
-									Governments, Local Authorities & Councils
+									Developing their Entrepreneurial talent and Business Acumen
 								</li>
 								<li className="list-item font-accent">
-									Private Organisations who (wish to) advertise
+									Customer Experience Management & Optimisation
 								</li>
 								<li className="list-item font-accent">
-									Investors & Workers in Sustainable Development
+									User Experience Management & Optimisation
+								</li>
+								<li className="list-item font-accent">
+									Persuasive Advertisement
 								</li>
 							</ul>
 							<ul className="what-we-care-item-cont-lists-cont sm:pl-5  col-span-6 sm:col-span-full">
-								<li className="list-item font-accent">C-Level Executives</li>
 								<li className="list-item font-accent">
-									Founders & Entrepreneurs
+									Transforming Perception of Concepts (for good)
 								</li>
-								<li className="list-item font-accent">Directors</li>
+								<li className="list-item font-accent">Customer Retention</li>
 								<li className="list-item font-accent">
-									Chief Marketing Officers & Marketers
-								</li>
-								<li className="list-item font-accent">
-									Governments, Local Authorities & Councils
+									The betterment of humankind
 								</li>
 								<li className="list-item font-accent">
-									Private Organisations who (wish to) advertise
+									Leadership & Skill Mastery
 								</li>
 								<li className="list-item font-accent">
-									Investors & Workers in Sustainable Development
+									Humanity and its betterment
 								</li>
+								<li className="list-item font-accent">Knowledge-seeking</li>
+								<li className="list-item font-accent">
+									Real-world information
+								</li>
+								<li className="list-item font-accent">High-quality</li>
 							</ul>
 						</div>
 					</div>
