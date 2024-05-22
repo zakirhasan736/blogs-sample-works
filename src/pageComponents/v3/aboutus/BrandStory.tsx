@@ -11,7 +11,7 @@ const BrandStory = () => {
 					playsInline={true}
 					controls={false}
 					loop={true}
-					className="absolute inset-0 z-0 w-full  h-full object-cover sm:object-right-top"
+					className="absolute inset-0 z-0 w-full  h-full object-cover"
 				/>
 			</div>
 			<div className="custom-container">

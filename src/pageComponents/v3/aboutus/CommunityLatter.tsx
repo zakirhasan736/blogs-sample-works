@@ -8,7 +8,7 @@ const CommunityLatter = () => {
 				src="/images/community-latter-modal-image.png"
 				alt="community latter sec modal image"
 				width={1440}
-				className='w-full h-[387px] object-cover'
+				className='w-full h-[387px] object-cover object-top'
 				height={387}
 			/>
 			<div className="custom-container">
