@@ -55,10 +55,12 @@ const WhatWeCare = () => {
 					</div>
 					<div className="what-we-care-cont-item mb-[86px] md:mb-[50px] sm:mb-[45px] grid grid-cols-12 sm:grid-cols-6 gap-[57px] md:gap-[30px] sm:gap-35px]">
 						<div className="what-we-care-cont-item-left-cont col-span-6">
-							<h3 className="title text-mono-100 mb-[11px]">Who We Serve</h3>
+							<h3 className="title text-mono-100 mb-[11px]">
+								The Interests We Cater To
+							</h3>
 							<p className="desc body-regular-1 text-mono-100 mb-6">
-								We serve a diverse audience at Particular. Our clients include,
-								but are not limited to:
+								If you could sum it up into their interests, we usually cater to
+								people who have an interest in the following areas:
 							</p>
 							<Image
 								src="/images/what-we-care-img-1-desk.svg"

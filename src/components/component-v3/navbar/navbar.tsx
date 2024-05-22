@@ -144,7 +144,7 @@ const Navbar = () => {
 						onClick={handleDrawerToggle}>
 						<Image src="/images/close.svg" alt="Close" width={24} height={24} />
 					</button>
-					<ul className="flex flex-col space-y-[34px] pt-[30px] mt-auto">
+					<ul className="flex flex-col space-y-[34px] xxs:space-y-[20px] pt-14 xxs:pt-6 pb-3">
 						<div className="relative network">
 							<Link href="/" className="text-[#026FEE]">
 								AGENCY
@@ -190,7 +190,7 @@ const Navbar = () => {
 							width={130}
 							height={52}
 						/>
-						<p className="mb-6 mt-3">
+						<p className="mb-6 mt-3 xxs:mt-2">
 							Our gift is observation, it just so happens we’re a Marketing
 							agency.
 						</p>
@@ -198,7 +198,7 @@ const Navbar = () => {
 							<button className="btn">Book a call</button>
 						</Link>
 
-						<div className="flex gap-[15px] mt-[45px]">
+						<div className="flex gap-[15px] mt-[25px]">
 							<Link
 								href="https://www.linkedin.com/company/byparticularagency/"
 								target="_blank">
@@ -210,7 +210,7 @@ const Navbar = () => {
 								<img src="/images/google.svg" alt="" />
 							</Link>
 						</div>
-						<div className="copy mt-10">
+						<div className="copy mt-6">
 							<ul>
 								<li className="mb-2">
 									<Link href="/terms-and-condition">Terms and Conditions</Link>
