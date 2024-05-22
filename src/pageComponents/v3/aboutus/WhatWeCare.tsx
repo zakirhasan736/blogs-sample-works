@@ -20,7 +20,14 @@ const WhatWeCare = () => {
 								src="/images/what-we-care-moda-img-1.png"
 								alt="what we care item modal image"
 								width={568}
-								className="w-full h-[162px] rounded-[4px]"
+								className="w-full h-[162px] object-cover sm:hidden object-top rounded-[4px]"
+								height={162}
+							/>
+							<Image
+								src="/images/what-we-care-moda-img-1-mobo.png"
+								alt="what we care item modal image"
+								width={568}
+								className="w-full h-[162px] object-cover hidden sm:block object-bottom rounded-[4px]"
 								height={162}
 							/>
 						</div>
@@ -57,7 +64,14 @@ const WhatWeCare = () => {
 								src="/images/what-we-care-moda-img-2.png"
 								alt="what we care item modal image"
 								width={568}
-								className="w-full h-[162px] rounded-[4px]"
+								className="w-full h-[162px] rounded-[4px] sm:hidden object-cover object-top"
+								height={162}
+							/>
+							<Image
+								src="/images/what-we-care-moda-img-2-mobo.png"
+								alt="what we care item modal image"
+								width={568}
+								className="w-full h-[162px] rounded-[4px] hidden sm:block object-cover  object-bottom"
 								height={162}
 							/>
 						</div>

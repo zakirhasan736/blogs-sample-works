@@ -9,8 +9,16 @@ const AboutBanner = () => {
 				alt="aboutus banner image"
 				width={1440}
 				height={851}
-				className="absolute inset-0 z-0 w-full h-full object-cover sm:object-right-top"
+				className="absolute inset-0 z-0 w-full h-full object-cover sm:hidden sm:object-right-top"
 			/>
+			<Image
+				src="/images/aboutus-banner-img-mobo.jpg"
+				alt="aboutus banner image"
+				width={1440}
+				height={851}
+				className="absolute inset-0 z-0 w-full h-full object-cover hidden sm:block sm:object-top"
+			/>
+
 			<div className="custom-container h-full">
 				<div className="about-banner-wrapper flex flex-col justify-end h-full">
 					<div className="about-banner-cont-box relative z-50 ">
