@@ -19,6 +19,7 @@ const BrandStory = () => {
 					<p className="eybrow-large mb-10 sm:mb-8 text-mono-100">
 						brand story
 					</p>
+					
 					<p className="body-large text-center text-mono-100 max-w-[766px] mx-auto">
 						The Particular community has a desire for positive-sums in the human
 						experience.

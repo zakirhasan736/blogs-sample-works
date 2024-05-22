@@ -4,13 +4,11 @@ import React from 'react'
 const AboutBanner = () => {
   return (
 		<section className="about-banner-section h-[100vh] pt-[163px] pb-[64px]">
-			<video
-				src="/images/aboutus-banner-video.mp4"
-				autoPlay={true}
-				muted={true}
-				playsInline={true}
-				controls={false}
-				loop={true}
+			<Image
+				src="/images/about-us-banner-image.jpg"
+				alt="aboutus banner image"
+				width={1440}
+				height={851}
 				className="absolute inset-0 z-0 w-full h-full object-cover sm:object-right-top"
 			/>
 			<div className="custom-container h-full">
