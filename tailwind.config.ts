@@ -23,7 +23,7 @@ const config: Config = {
 			xxs: { max: "375px" },
 			"2xl": "1921px",
 			DEFAULT: "1212px",
-		}, 
+		},
 		container: {
 			center: true,
 			padding: {
@@ -40,7 +40,7 @@ const config: Config = {
 		fontFamily: {
 			primary: ["Manrope", "sans-serif"],
 			secondary: ["Manrope", "sans-serif"],
-			accent: ["Helvetica Neue", "sans-serif"],
+			accent: ["Helvetica Neue", "Roboto", "sans-serif"],
 			tertery: ["Lato", "sans-serif"],
 		},
 		fontSize: {
@@ -107,9 +107,9 @@ const config: Config = {
 			colors: {
 				"mono-100": "#181725",
 				"mono-50": "#E3F0FF",
-				"mono-60": "#666666", 
+				"mono-60": "#666666",
 				"Mono-70": "#4d4d4d",
-				"mono-90": "#1A1A1A", 
+				"mono-90": "#1A1A1A",
 				primary: "#F2EFEF",
 				secondary: "rgba(0, 175, 252, 0.78)",
 				"secondary-2": "#2997FF",

@@ -1,25 +1,23 @@
-import ArticleSectionVersionTwo from "@/components/article-section/article-section-v2";
-import AboutBanner from "@/components/common/banner/about-banner";
-import OurTeamSection from "@/components/component-v2/our-team-section/our-team";
-import LatestBlogs from "@data/blogs/short-blog-data.json";
 import React from "react";
+import AboutBanner from "@/components/common/banner/about-banner";
+import OurMission from "../v3/aboutus/OurMission";
+import MissionStatement from "../v3/aboutus/MissionStatement";
+import BrandStory from "../v3/aboutus/BrandStory";
+import HowWeOperate from "../v3/aboutus/HowWeOperate";
+import CommunityLatter from "../v3/aboutus/CommunityLatter";
+import WhatWeCare from "../v3/aboutus/WhatWeCare";
 
 const AboutUsPage = () => {
-	const sortedLatestBlogs = LatestBlogs.sort((a, b) => {
-		return new Date(b.date).getTime() - new Date(a.date).getTime();
-	});
-	
 
-	// Select the latest three blogs 
-	const latestThreeBlogs = sortedLatestBlogs.slice(0, 3);
 	return (
-		<div className="about-page-main-wrapper overflow-hidden">
+		<div className="aboutus-page-main-wrapper overflow-hidden">
 			<AboutBanner />
-			<OurTeamSection /> 
-			<ArticleSectionVersionTwo
-				latestBlogs={latestThreeBlogs}
-				ShortBlogs={true}
-			/>
+			<OurMission />
+			<MissionStatement />
+			<BrandStory />
+			<HowWeOperate />
+			<WhatWeCare />
+			<CommunityLatter />
 		</div>
 	);
 };
