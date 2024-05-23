@@ -140,7 +140,7 @@ const DrJohnTsagiris = () => {
               className="text-center object-contain"
             />
           </div>
-          <div className="w-[667px] md:w-full mt-[110px] sm:mt-8">
+          <div className="w-[667px] md:w-full mt-[110px] sm:mt-6">
             <video
               src="/images/jdemo.mp4"
               className="w-full h-full object-cover"

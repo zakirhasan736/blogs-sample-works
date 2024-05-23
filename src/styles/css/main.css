@@ -3326,7 +3326,7 @@ footer .copy li {
 @media (max-width: 700px) {
   .john-a {
     position: unset;
-    margin-left: 8%;
+    margin-left: 15px;
     transform: unset;
   }
   .-translate-x-1\/2 {
