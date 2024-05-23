@@ -41,6 +41,38 @@ p {
   opacity: 0.8;
 }
 
+.eybrow-large {
+  text-align: center;
+  font-family: "Helvetica Neue", "Arial", "sans-serif";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  opacity: 1 !important;
+}
+
+.body-large {
+  font-kerning: none;
+  font-family: "Helvetica Neue", "Arial", "sans-serif";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  opacity: 1;
+}
+
+.body-regular-1 {
+  font-kerning: none;
+  font-family: "Helvetica Neue", "Arial", "sans-serif";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  opacity: 1;
+}
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 36px;
@@ -3459,4 +3491,16 @@ li.services-list.active button.services-item-btn {
 .scrollable-dropdown {
   max-height: 150px !important;
   overflow-y: auto;
+}
+
+/* about us page styles start here */
+.what-we-care-item-cont-lists-cont .list-item {
+  color: var(--mono-80, #333);
+  font-kerning: none;
+  font-size: 14px;
+  font-style: normal;
+  list-style: disc !important;
+  font-weight: 400 !important;
+  line-height: 160%;
+  opacity: 1;
 }
