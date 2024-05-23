@@ -3,7 +3,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Portfolio | Metisse",
-  description: "Checkout our Portfolio",
+  description:
+    "Metisse, a ambitious watch brand led by Noura, aimed to disrupt the watch industry with innovative designs targeting women aged 16-35 in the UK.",
 };
 export default function page() {
   return (

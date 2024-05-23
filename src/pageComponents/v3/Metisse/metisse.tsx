@@ -21,24 +21,24 @@ const BurnHard = () => {
             <div>
               Key Areas of Focus:{" "}
               <span className="text-[#181725]">
-                <Link href="" className="underline">
+                <span className="underline">
                   Web Design & Development,
-                </Link>{" "}
+                </span>{" "}
               </span>
               <span className="text-[#181725]">
-                <Link href="" className="underline">
+                <span className="underline">
                   Branding and Verbal Identity,
-                </Link>{" "}
+                </span>{" "}
               </span>
               <span className="text-[#181725]">
-                <Link href="" className="underline">
+                <span className="underline">
                   Social Media Strategy,
-                </Link>{" "}
+                </span>{" "}
               </span>
               <span className="text-[#181725]">
-                <Link href="" className="underline">
+                <span className="underline">
                   Visual Assets and PPC
-                </Link>{" "}
+                </span>{" "}
               </span>
             </div>
           </div>
@@ -174,8 +174,10 @@ const BurnHard = () => {
             will achieve unparalleled success in the watch industry."
           </p>
           <p className="uppercase text-black">Noura</p>
-          <p className="text-[#666]">Founder</p>
-          <button className="btn btn-dark mt-[30px]">Start a project</button>
+          <p className="text-[#666] mb-[30px]">Founder</p>
+           <Link href="/contacts" className="btn btn-dark ">
+            Start a project
+          </Link>
         </div>
         <div className="custom-container text-[#181725] mt-[85px]">
           <div className="flex justify-between soul">

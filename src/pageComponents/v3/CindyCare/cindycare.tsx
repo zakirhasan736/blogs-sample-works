@@ -21,9 +21,9 @@ const CindyCare = () => {
             <div>
               Key Areas of Focus:{" "}
               <span className="text-[#181725]">
-                <Link href="" className="underline">
+                <span className="underline">
                   Website Design & User Experience,
-                </Link>{" "}
+                </span>{" "}
                 Brand Identity and Buyer Persona Research
               </span>
             </div>
@@ -169,8 +169,10 @@ const CindyCare = () => {
             clients."
           </p>
           <p className="uppercase text-black">Cindy</p>
-          <p className="text-[#666]">Founder</p>
-          <button className="btn btn-dark mt-[30px]">Start a project</button>
+          <p className="text-[#666] mb-[30px]">Founder</p>
+           <Link href="/contacts" className="btn btn-dark ">
+            Start a project
+          </Link>
         </div>
         <div className="custom-container text-[#181725] mt-[85px]">
           <div className="flex justify-between soul">

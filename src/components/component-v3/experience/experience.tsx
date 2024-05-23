@@ -75,7 +75,7 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
                   140%
                 </h2>
                 <p className="max-w-[263px] mx-auto text-[16px] font-accent font-normal text-mono-100">
-                  increase in spend following positive interactions
+                  increase in spending following positive interactions
                 </p>
               </div>
             </div>

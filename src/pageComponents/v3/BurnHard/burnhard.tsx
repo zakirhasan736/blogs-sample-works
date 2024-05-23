@@ -21,14 +21,12 @@ const BurnHard = () => {
             <div>
               Key Areas of Focus:{" "}
               <span className="text-[#181725]">
-                <Link href="" className="underline">
-                  Client Acquisition,
-                </Link>{" "}
+                <span className="underline">Client Acquisition,</span>{" "}
               </span>
               <span className="text-[#181725]">
-                <Link href="" className="underline">
+                <span className="underline">
                   Brand Visibility and Client Engagement
-                </Link>{" "}
+                </span>{" "}
               </span>
             </div>
           </div>
@@ -92,8 +90,8 @@ const BurnHard = () => {
         </div>
       </section>
       <section className="pb-[77px]">
-        <div className="bg-[url('/images/burnproto1.png')] h-[496px] bg-cover sm:bg-center"></div>
-        <div className="bg-[url('/images/burnproto2.png')] h-[579px] bg-cover"></div>
+        <div className="bg-[url('/images/burnproto1.png')] h-[496px] bg-cover sm:bg-[center]"></div>
+        <div className="bg-[url('/images/burnproto2.png')] h-[579px] bg-cover sm:!bg-[30%]"></div>
         <div className="text-center text-white w-[728px] md:w-full m-auto mt-[84px] md:p-5">
           <h3>
             How Particular Partnered with <br /> Burn-Hard
@@ -172,8 +170,10 @@ const BurnHard = () => {
             clients."
           </p>
           <p className="uppercase text-black">Bernhard</p>
-          <p className="text-[#666]">Founder</p>
-          <button className="btn btn-dark mt-[30px]">Start a project</button>
+          <p className="text-[#666] mb-[30px]">Founder</p>
+           <Link href="/contacts" className="btn btn-dark ">
+            Start a project
+          </Link>
         </div>
         <div className="custom-container text-[#181725] mt-[85px]">
           <div className="flex justify-between soul">
