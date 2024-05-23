@@ -3,7 +3,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Portfolio | Burn Hard",
-  description: "Checkout our Portfolio",
+  description:
+    "Burn Hard, an influential personal training brand spearheaded by its Founder, Bernhard, looked to elevate its online presence to attract affluent clientele and amplify its brand image in the fitness industry",
 };
 export default function page() {
   return (

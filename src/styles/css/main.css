@@ -120,10 +120,6 @@ p {
     font-size: 1em;
   }
 
-  .body-large {
-    font-size: 16px;
-  }
-
   p {
     line-height: 15px;
   }
@@ -3312,7 +3308,24 @@ footer .copy li {
   align-items: center;
 }
 
+.joha-a {
+  position: absolute;
+}
+
 @media (max-width: 700px) {
+  .john-a {
+    position: unset;
+    margin-left: 15px;
+    transform: unset;
+  }
+
+  .-translate-x-1\/2 {
+    --tw-translate-x: unset;
+  }
+
+  .-translate-y-1\/2 {
+    --tw-translate-y: unset;
+  }
 
   button,
   .btn,
@@ -3353,9 +3366,9 @@ footer .copy li {
   p,
   .mdp,
   h4 {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 21px;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 21px !important;
   }
 
   h5 {
@@ -3369,9 +3382,9 @@ footer .copy li {
   h1,
   h2,
   .portfolio-v3 h3 {
-    font-size: 36px;
+    font-size: 36px !important;
     font-weight: 400;
-    line-height: 150%;
+    line-height: 150% !important;
     letter-spacing: 0.05em;
   }
 
@@ -3475,12 +3488,6 @@ li.services-list.active button.services-item-btn {
   -webkit-appearance: none !important;
 }
 
-.mobile-view-img {
-  /* width: 69.674px;
-  height: 28px; */
-  flex-shrink: 0;
-}
-
 .scrollable-dropdown {
   max-height: 150px !important;
   overflow-y: auto;
@@ -3493,7 +3500,7 @@ li.services-list.active button.services-item-btn {
   font-size: 14px;
   font-style: normal;
   list-style: disc !important;
-  font-weight: 400;
+  font-weight: 400 !important;
   line-height: 160%;
   opacity: 1;
 }

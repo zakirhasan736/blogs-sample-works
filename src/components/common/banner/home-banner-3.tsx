@@ -19,7 +19,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
         playsInline={true}
         controls={false}
         loop={true}
-        className="absolute inset-0 z-0 w-full h-full object-cover"
+        className="absolute inset-0 z-0 w-full h-full object-cover sm:object-right-top"
       />
       <div className="custom-container h-full">
         {/* Content */}

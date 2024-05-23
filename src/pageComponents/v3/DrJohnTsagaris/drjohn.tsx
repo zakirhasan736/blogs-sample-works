@@ -23,14 +23,10 @@ const DrJohnTsagiris = () => {
             <div>
               Key Areas of Focus:{" "}
               <span className="text-[#181725]">
-                <Link href="" className="underline">
+                <span className="underline">
                   Website User Experience Design
-                </Link>
-                ,{" "}
-                <Link href="" className="underline">
-                  Logo Redesign
-                </Link>
-                , SEO Strategy
+                </span>
+                , <span className="underline">Logo Redesign</span>, SEO Strategy
               </span>
             </div>
           </div>
@@ -119,9 +115,9 @@ const DrJohnTsagiris = () => {
           </Link>
         </div>
       </section>
-      <section className="bg-white pt-[89px] ">
+      <section className="bg-white pt-[130px] sm:pt-10 ">
         <div className=" flex justify-center relative">
-          <div className=" flex absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          <div className=" flex sm:!flex-row john-a absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2">
             <Image
               src="/images/jaward1.png"
               alt="Soulfull Health Logo"
@@ -144,7 +140,7 @@ const DrJohnTsagiris = () => {
               className="text-center object-contain"
             />
           </div>
-          <div className="w-[667px] md:w-full mt-[110px]">
+          <div className="w-[667px] md:w-full mt-[110px] sm:mt-6">
             <video
               src="/images/jdemo.mp4"
               className="w-full h-full object-cover"
@@ -209,41 +205,43 @@ const DrJohnTsagiris = () => {
         <div className="custom-container text-[#181725] mt-[85px]">
           <div className="flex justify-between soul">
             <h4>See more Particular projects</h4>
-            <button> See all</button>
+           <Link href="/portfolio">
+              <button> See all</button>
+            </Link>
           </div>
           <div className="flex gap-6 mt-[58px]">
-            <Link href="" className="w-1/2 sm:w-full">
+            <Link href="/knightsacademy" className="w-1/2 sm:w-full">
               <article>
                 <Image
-                  src="/images/blogflower.png"
+                  src="/images/portfolio/rushmoore-thumb.png"
                   alt="Soulfull Health Project"
                   width={433}
                   height={121}
-                  className="w-full"
+                  className="w-full h-[262px] object-cover"
                 />
                 <div className="mt-8 mb-[19px] portd">
                   <span className="pill">Brand Identity</span>
                   <span className="pill">Photography</span>
                   <span className="pill">Web Design</span>
                 </div>
-                <h4>Metisse</h4>
-                <p>Timeless pieces for extraordinary moments</p>
+                <h4>Rushmoor knights academy</h4>
+                <p>Leading the Rising Wave of American Football in the UK</p>
               </article>
             </Link>
-            <Link href="" className="w-1/2 sm:w-full">
+            <Link href="/burn-hard" className="w-1/2 sm:w-full">
               <article>
                 <Image
-                  src="/images/project2.png"
+                  src="/images/portfolio/burn-hard.png"
                   alt="Soulfull Health Project"
                   width={433}
                   height={121}
-                  className="w-full"
+                  className="w-full h-[262px] object-cover"
                 />
                 <div className="mt-8 mb-[19px] portd">
                   <span className="pill">Web Design</span>
                 </div>
-                <h4>Stories of our Generations</h4>
-                <p>Finding the pieces that make up life.</p>
+                <h4>Burn-Hard</h4>
+                <p>Making Waves In The Fitness Industry</p>
               </article>
             </Link>
           </div>
