@@ -3323,9 +3323,11 @@ footer .copy li {
     margin-left: 15px;
     transform: unset;
   }
+
   .-translate-x-1\/2 {
     --tw-translate-x: unset;
   }
+
   .-translate-y-1\/2 {
     --tw-translate-y: unset;
   }
@@ -3369,9 +3371,9 @@ footer .copy li {
   p,
   .mdp,
   h4 {
-    font-size: 16px;
+    font-size: 16px !important;
     font-weight: 400;
-    line-height: 21px;
+    line-height: 21px !important;
   }
 
   h5 {
@@ -3384,11 +3386,18 @@ footer .copy li {
 
   h1,
   h2,
-  .portfolio-v3 h3 {
-    font-size: 36px;
+  .portfolio-v3 {
+    font-size: 36px !important;
     font-weight: 400;
-    line-height: 150%;
-    letter-spacing: 0.05em;
+    line-height: 150% !important;
+    letter-spacing: 0.05em !important;
+  }
+
+  h3 {
+    font-size: 32px !important;
+    font-weight: 400;
+    line-height: 150% !important;
+    letter-spacing: 0.05em !important;
   }
 
   .lgp {
