@@ -19,7 +19,7 @@
     "id": 4,
     "cardImg": "drjohn-thumb.png",
     "cardImgLogo": "drjohn-logo.svg",
-    "cardSubTitle": "Dr JOHN TSAGIRIS",
+    "cardSubTitle": "Dr JOHN TSAGARIS",
     "cardTitle": "A leading practitioner in health and wellness",
     "link": "drjohntsagaris"
   },
@@ -30,5 +30,21 @@
     "cardSubTitle": "METISSE",
     "cardTitle": "tIMELESS PIECES FOR EVERY watch lover",
     "link": "metisse"
+  },
+  {
+    "id": 6,
+    "cardImg": "burn-hard.png",
+    "cardImgLogo": "burn-logo.svg",
+    "cardSubTitle": "Burnhard",
+    "cardTitle": "Making Waves In The Fitness Industry",
+    "link": "burn-hard"
+  },
+  {
+    "id": 7,
+    "cardImg": "cindy.png",
+    "cardImgLogo": "cindy-logo.svg",
+    "cardSubTitle": "Cindy care",
+    "cardTitle": "the perfect alternative to a care home",
+    "link": "cindycare"
   }
 ]
