@@ -26,11 +26,7 @@ const DrJohnTsagiris = () => {
                 <span className="underline">
                   Website User Experience Design
                 </span>
-                ,{" "}
-                <span className="underline">
-                  Logo Redesign
-                </span>
-                , SEO Strategy
+                , <span className="underline">Logo Redesign</span>, SEO Strategy
               </span>
             </div>
           </div>
@@ -119,9 +115,9 @@ const DrJohnTsagiris = () => {
           </Link>
         </div>
       </section>
-      <section className="bg-white pt-[89px] ">
+      <section className="bg-white pt-[130px] sm:pt-10 ">
         <div className=" flex justify-center relative">
-          <div className=" flex absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          <div className=" flex sm:!flex-row john-a absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2">
             <Image
               src="/images/jaward1.png"
               alt="Soulfull Health Logo"
@@ -144,7 +140,7 @@ const DrJohnTsagiris = () => {
               className="text-center object-contain"
             />
           </div>
-          <div className="w-[667px] md:w-full mt-[110px]">
+          <div className="w-[667px] md:w-full mt-[110px] sm:mt-8">
             <video
               src="/images/jdemo.mp4"
               className="w-full h-full object-cover"
