@@ -21,24 +21,24 @@ const BurnHard = () => {
             <div>
               Key Areas of Focus:{" "}
               <span className="text-[#181725]">
-                <Link href="" className="underline">
+                <span className="underline">
                   Web Design & Development,
-                </Link>{" "}
+                </span>{" "}
               </span>
               <span className="text-[#181725]">
-                <Link href="" className="underline">
+                <span className="underline">
                   Branding and Verbal Identity,
-                </Link>{" "}
+                </span>{" "}
               </span>
               <span className="text-[#181725]">
-                <Link href="" className="underline">
+                <span className="underline">
                   Social Media Strategy,
-                </Link>{" "}
+                </span>{" "}
               </span>
               <span className="text-[#181725]">
-                <Link href="" className="underline">
+                <span className="underline">
                   Visual Assets and PPC
-                </Link>{" "}
+                </span>{" "}
               </span>
             </div>
           </div>

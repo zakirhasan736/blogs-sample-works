@@ -21,9 +21,9 @@ const KnightsAcademy = () => {
             <div>
               Key Areas of Focus:{" "}
               <span className="text-[#181725]">
-                <Link href="" className="underline">
+                <span className="underline">
                   Player and Coach Portals,
-                </Link>{" "}
+                </span>{" "}
                 Data Analytics and Metrics Tracking
               </span>
             </div>

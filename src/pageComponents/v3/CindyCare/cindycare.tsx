@@ -21,9 +21,9 @@ const CindyCare = () => {
             <div>
               Key Areas of Focus:{" "}
               <span className="text-[#181725]">
-                <Link href="" className="underline">
+                <span className="underline">
                   Website Design & User Experience,
-                </Link>{" "}
+                </span>{" "}
                 Brand Identity and Buyer Persona Research
               </span>
             </div>

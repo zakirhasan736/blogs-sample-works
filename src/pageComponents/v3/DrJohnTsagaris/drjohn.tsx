@@ -23,13 +23,13 @@ const DrJohnTsagiris = () => {
             <div>
               Key Areas of Focus:{" "}
               <span className="text-[#181725]">
-                <Link href="" className="underline">
+                <span className="underline">
                   Website User Experience Design
-                </Link>
+                </span>
                 ,{" "}
-                <Link href="" className="underline">
+                <span className="underline">
                   Logo Redesign
-                </Link>
+                </span>
                 , SEO Strategy
               </span>
             </div>

@@ -21,13 +21,13 @@ const SoulfullHealth = () => {
             <div>
               Key Areas of Focus:{" "}
               <span className="text-[#181725]">
-                <Link href="" className="underline">
+                <span className="underline">
                   Website User Experience Design
-                </Link>
+                </span>
                 ,{" "}
-                <Link href="" className="underline">
+                <span className="underline">
                   Brand Identity
-                </Link>
+                </span>
                 , Enhanced Customer Engagement, Improved Market Positioning,
                 Business Growth
               </span>

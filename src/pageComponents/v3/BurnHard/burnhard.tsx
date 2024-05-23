@@ -21,14 +21,12 @@ const BurnHard = () => {
             <div>
               Key Areas of Focus:{" "}
               <span className="text-[#181725]">
-                <Link href="" className="underline">
-                  Client Acquisition,
-                </Link>{" "}
+                <span className="underline">Client Acquisition,</span>{" "}
               </span>
               <span className="text-[#181725]">
-                <Link href="" className="underline">
+                <span className="underline">
                   Brand Visibility and Client Engagement
-                </Link>{" "}
+                </span>{" "}
               </span>
             </div>
           </div>
@@ -92,8 +90,8 @@ const BurnHard = () => {
         </div>
       </section>
       <section className="pb-[77px]">
-        <div className="bg-[url('/images/burnproto1.png')] h-[496px] bg-cover sm:bg-center"></div>
-        <div className="bg-[url('/images/burnproto2.png')] h-[579px] bg-cover"></div>
+        <div className="bg-[url('/images/burnproto1.png')] h-[496px] bg-cover sm:bg-[center]"></div>
+        <div className="bg-[url('/images/burnproto2.png')] h-[579px] bg-cover sm:!bg-[30%]"></div>
         <div className="text-center text-white w-[728px] md:w-full m-auto mt-[84px] md:p-5">
           <h3>
             How Particular Partnered with <br /> Burn-Hard
