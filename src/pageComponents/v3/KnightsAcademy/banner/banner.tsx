@@ -7,13 +7,11 @@ interface HomeBannerProps {}
 
 const Banner: React.FC<HomeBannerProps> = () => {
   return (
-    <section
-      className="soulfull-banner bg-[url('/images/kacademy-hero.png')] bg-cover relative h-screen"
-    >
+    <section className="soulfull-banner bg-[url('/images/kacademy-hero.png')] bg-cover relative h-screen">
       <div className="custom-container">
         {/* Content */}
         <div className="absolute bottom-[48px] text-white">
-          <h1>Rushmoor Knights Academy</h1>
+          <h1 className="mb-6">Rushmoor Knights Academy</h1>
           <h4>Leading the Rising Wave of American Football in the UK</h4>
         </div>
       </div>
