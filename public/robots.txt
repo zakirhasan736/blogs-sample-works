@@ -1,0 +1,37 @@
+# User-agent: * applies to all web crawlers
+User-agent: *
+# Disallow all crawlers from accessing the following directories
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /backup/
+Allow: /
+
+# Allow all crawlers to access the following pages
+Allow: /public/
+Allow: /public/page1.html
+
+# Specify the location of the sitemap
+Sitemap: https://www.example.com/sitemap.xml
+
+# Block a specific crawler
+User-agent: BadBot
+Disallow: /
+
+# Allow specific crawlers full access
+User-agent: Googlebot
+Disallow:
+
+User-agent: Bingbot
+Disallow:
+
+# Prevent crawlers from indexing search results pages
+Disallow: /search
+
+# Block all crawlers from accessing specific file types
+User-agent: *
+Disallow: /*.pdf$
+Disallow: /*.doc$
+
+# Allow a specific crawler to access a normally disallowed directory
+User-agent: SpecialCrawler
+Allow: /private/special-access/
