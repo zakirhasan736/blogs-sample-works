@@ -2821,21 +2821,28 @@ video::-webkit-media-controls {
   line-height: 32.4px;
 }
 
+button {
+    transition: transform 0.3s ease-in-out;
+      height: 48px;
+}
+
 .btn {
   background: #fff;
   color: #181725;
-  height: 40px;
+  height: 48px;
   padding: 8px 16px;
   border-radius: 4px;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
-}
+  transition: transform 0.3s ease-in-out;
+  }
 
-.btn-dark {
-  background: #181725;
-  color: #fff;
-}
+  .btn-dark {
+    background: #181725;
+    color: #fff;
+    transition: transform 0.5s ease-in-out;
+  }
 
 .home-banner-section-v3 h1 {
   font-size: 56px;
