@@ -187,7 +187,7 @@ const BurnHard = () => {
             </Link>
           </div>
           <div className="flex gap-6 mt-[58px]">
-            <Link href="/soulfullhealth" className="w-1/2 sm:w-full">
+            <Link href="/burn-hard" className="w-1/2 sm:w-full">
               <article>
                 <Image
                   src="/images/portfolio/burn-hard.png"

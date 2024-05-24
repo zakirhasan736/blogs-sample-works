@@ -3315,15 +3315,15 @@ footer .copy li {
 @media (max-width: 700px) {
   .john-a {
     position: unset;
-    margin-left: 15px;
+    margin-left: 8px;
     transform: unset;
   }
 
-  .-translate-x-1\/2 {
+    .john-a .-translate-x-1\/2 {
     --tw-translate-x: unset;
   }
 
-  .-translate-y-1\/2 {
+    .john-a .-translate-y-1\/2 {
     --tw-translate-y: unset;
   }
 
