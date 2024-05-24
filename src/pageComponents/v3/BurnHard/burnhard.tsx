@@ -109,8 +109,8 @@ const BurnHard = () => {
             to capture Bernhard's energy and expertise, positioning Burn Hard as
             a premier destination for upscale clientele.
           </h4>
-          <Link href="/services" className="btn">
-            Partner with Particular
+          <Link href="/services">
+            <button className="btn">Partner with Particular</button>
           </Link>
         </div>
       </section>
@@ -171,8 +171,8 @@ const BurnHard = () => {
           </p>
           <p className="uppercase text-black">Bernhard</p>
           <p className="text-[#666] mb-[30px]">Founder</p>
-           <Link href="/contacts" className="btn btn-dark ">
-            Start a project
+          <Link href="/contacts">
+            <button className="btn btn-dark">Start a project</button>
           </Link>
         </div>
         <div className="custom-container text-[#181725] mt-[85px]">
