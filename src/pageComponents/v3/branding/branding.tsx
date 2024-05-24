@@ -2,9 +2,9 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import Banner from "@/components/common/banner/seo-banner";
+import Banner from "@/components/common/banner/branding-banner";
 
-const SeoPage = () => {
+const BrandingPage = () => {
   return (
     <>
       <Banner />
@@ -102,4 +102,4 @@ const SeoPage = () => {
   );
 };
 
-export default SeoPage;
+export default BrandingPage;

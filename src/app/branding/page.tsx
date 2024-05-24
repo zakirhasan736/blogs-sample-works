@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import SeoPage from '../../pageComponents/v3/seo/seo';
+import SeoPage from '../../pageComponents/v3/branding/branding';
 
 export const metadata: Metadata = {
   title: "Branding | Particular Agency",
