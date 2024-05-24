@@ -6,7 +6,7 @@ interface HomeBannerProps {}
 
 const Banner: React.FC<HomeBannerProps> = () => {
   return (
-    <section className="soulfull-banner bg-[url('/images/seo.png')] bg-cover relative h-screen">
+    <section className="soulfull-banner relative bg-[url('/images/seo.png')] h-[451px]">
       <div className="custom-container">
         {/* Content */}
         <div className="absolute bottom-[48px] text-white">
