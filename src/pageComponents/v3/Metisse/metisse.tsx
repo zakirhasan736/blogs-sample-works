@@ -21,24 +21,16 @@ const BurnHard = () => {
             <div>
               Key Areas of Focus:{" "}
               <span className="text-[#181725]">
-                <span className="underline">
-                  Web Design & Development,
-                </span>{" "}
+                <span className="underline">Web Design & Development,</span>{" "}
               </span>
               <span className="text-[#181725]">
-                <span className="underline">
-                  Branding and Verbal Identity,
-                </span>{" "}
+                <span className="underline">Branding and Verbal Identity,</span>{" "}
               </span>
               <span className="text-[#181725]">
-                <span className="underline">
-                  Social Media Strategy,
-                </span>{" "}
+                <span className="underline">Social Media Strategy,</span>{" "}
               </span>
               <span className="text-[#181725]">
-                <span className="underline">
-                  Visual Assets and PPC
-                </span>{" "}
+                <span className="underline">Visual Assets and PPC</span>{" "}
               </span>
             </div>
           </div>
@@ -113,8 +105,8 @@ const BurnHard = () => {
             and positioning strategy centred around Metisse's unique hexagonal
             dial design.
           </h4>
-          <Link href="/services" className="btn">
-            Partner with Particular
+          <Link href="/services">
+            <button className="btn">Partner with Particular</button>
           </Link>
         </div>
       </section>
@@ -175,8 +167,8 @@ const BurnHard = () => {
           </p>
           <p className="uppercase text-black">Noura</p>
           <p className="text-[#666] mb-[30px]">Founder</p>
-           <Link href="/contacts" className="btn btn-dark ">
-            Start a project
+          <Link href="/contacts">
+            <button className="btn btn-dark">Start a project</button>
           </Link>
         </div>
         <div className="custom-container text-[#181725] mt-[85px]">

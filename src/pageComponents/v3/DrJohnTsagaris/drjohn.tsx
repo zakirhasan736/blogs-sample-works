@@ -110,8 +110,8 @@ const DrJohnTsagiris = () => {
             but conveys the outcomes that would be enjoyed if they were lucky
             enough to interact with the brand.
           </h4>
-          <Link href="/services" className="btn">
-            Partner with Particular
+          <Link href="/services">
+            <button className="btn">Partner with Particular</button>
           </Link>
         </div>
       </section>
@@ -198,14 +198,14 @@ const DrJohnTsagiris = () => {
           </p>
           <p className="uppercase text-black">Dr. John Tsagiris</p>
           <p className="text-[#666] mb-[30px]">Solopreneur</p>
-          <Link href="/contacts" className="btn btn-dark ">
-            Start a project
+          <Link href="/contacts">
+            <button className="btn btn-dark">Start a project</button>
           </Link>
         </div>
         <div className="custom-container text-[#181725] mt-[85px]">
           <div className="flex justify-between soul">
             <h4>See more Particular projects</h4>
-           <Link href="/portfolio">
+            <Link href="/portfolio">
               <button> See all</button>
             </Link>
           </div>

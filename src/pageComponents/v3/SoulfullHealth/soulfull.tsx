@@ -24,12 +24,9 @@ const SoulfullHealth = () => {
                 <span className="underline">
                   Website User Experience Design
                 </span>
-                ,{" "}
-                <span className="underline">
-                  Brand Identity
-                </span>
-                , Enhanced Customer Engagement, Improved Market Positioning,
-                Business Growth
+                , <span className="underline">Brand Identity</span>, Enhanced
+                Customer Engagement, Improved Market Positioning, Business
+                Growth
               </span>
             </div>
           </div>
@@ -111,8 +108,8 @@ const SoulfullHealth = () => {
             its value proposition centred on convenience, affordability, and
             effectiveness for its audience of women worldwide.
           </h4>
-          <Link href="/services" className="btn">
-            Partner with Particular
+          <Link href="/services">
+            <button className="btn">Partner with Particular</button>
           </Link>
         </div>
       </section>
@@ -173,8 +170,8 @@ const SoulfullHealth = () => {
           </p>
           <p className="uppercase text-black">Helen nguyen</p>
           <p className="text-[#666] mb-[30px]">Founder</p>
-          <Link href="/contacts" className="btn btn-dark ">
-            Start a project
+          <Link href="/contacts">
+            <button className="btn btn-dark">Start a project</button>
           </Link>
         </div>
         <div className="custom-container text-[#181725] mt-[85px]">

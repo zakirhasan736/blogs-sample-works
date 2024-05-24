@@ -111,8 +111,8 @@ const CindyCare = () => {
             that every element of Cindy Care's brand identity and website
             resonated with their target audience.
           </h4>
-          <Link href="/services" className="btn">
-            Partner with Particular
+          <Link href="/services">
+            <button className="btn">Partner with Particular</button>
           </Link>
         </div>
       </section>
@@ -170,14 +170,14 @@ const CindyCare = () => {
           </p>
           <p className="uppercase text-black">Cindy</p>
           <p className="text-[#666] mb-[30px]">Founder</p>
-           <Link href="/contacts" className="btn btn-dark ">
-            Start a project
+          <Link href="/contacts">
+            <button className="btn btn-dark">Start a project</button>
           </Link>
         </div>
         <div className="custom-container text-[#181725] mt-[85px]">
           <div className="flex justify-between soul">
             <h4>See more Particular projects</h4>
-           <Link href="/portfolio">
+            <Link href="/portfolio">
               <button> See all</button>
             </Link>
           </div>
