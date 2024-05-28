@@ -31,6 +31,7 @@ export default function RootLayout({
         <main>{children}</main>
         <GoogleTagManager gtmId="GTM-KSLS5JR5" />
         <GoogleAnalytics gaId="G-5VRY1RRCR1" />
+        <GoogleAnalytics gaId="G-F2X0PS4KNB" />
         {/* Hotjar */}
         <Script
           id="analyticshotjar"
@@ -58,6 +59,20 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-KSLS5JR5');
+            `,
+          }}
+        />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-F2X0PS4KNB"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-F2X0PS4KNB');
             `,
           }}
         />
