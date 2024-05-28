@@ -18,11 +18,11 @@ const Navbar = () => {
 
   const btnColor = () => {
     if (isPortfolioPage) {
-      return "!bg-[#181725] !text-[#fff]";
+      return "btn-dark !text-[#fff]";
     } else if (pathname === "/") {
       return "!right-4";
     } else {
-      return "!bg-[#fff] !text-[#181725]";
+      return "";
     }
   };
 

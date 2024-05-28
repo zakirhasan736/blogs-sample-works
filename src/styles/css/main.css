@@ -2822,7 +2822,7 @@ video::-webkit-media-controls {
 }
 
 button {
-    transition: transform 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
       height: 48px;
 }
 
@@ -2835,13 +2835,21 @@ button {
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
-  transition: transform 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  }
+
+  .btn:hover {
+    background: #CBD7E3;
   }
 
   .btn-dark {
     background: #181725;
     color: #fff;
-    transition: transform 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .btn-dark:hover {
+    background: #333333;
   }
 
 .home-banner-section-v3 h1 {
@@ -2871,6 +2879,10 @@ button {
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
+}
+
+.home-banner-section-v3 .lbtn:hover {
+  background: #666666;
 }
 
 /* Portfolio */
@@ -2922,12 +2934,17 @@ button {
 }
 
 .testimonials button,
-.soul button {
+.soul button, .about-btn {
   border: 1px solid #181725;
   height: 48px;
   padding: 8px 16px;
   gap: 8px;
   border-radius: 4px;
+}
+
+.testimonials button:hover,
+.soul button:hover, .about-btn:hover{
+  background: #CBD7E3;
 }
 
 .testimonials h2,

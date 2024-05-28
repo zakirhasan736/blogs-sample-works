@@ -11,7 +11,7 @@ const OurMission = () => {
 							Inspire. Assure. Transform.
 						</h2>
 						<Link href="/contacts">
-							<button className="secondary-btn varient-black h-12 py-2 px-4 rounded-[4px] border border-mono-100 text-[14px] font-normal font-accent text-center text-mono-100 leading-[150%]">
+							<button className="btn about-btn">
 								Talk to us
 							</button>
 						</Link>

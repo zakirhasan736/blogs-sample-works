@@ -55,7 +55,7 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
               translates to a 29-95% rise in profitability.
             </p>
             <Link href="/contacts">
-              <button className="bg-[#181725] text-white px-4 py-2 mt-[33px] rounded-[4px]">
+              <button className="btn btn-dark mt-[33px]">
                 Contact us
               </button>
             </Link>
