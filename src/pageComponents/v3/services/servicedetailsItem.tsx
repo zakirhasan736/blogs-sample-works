@@ -173,7 +173,7 @@ const ServiceDetailsItem: React.FC = () => {
             <div
               className={`faq-popup-wrapper fixed top-0 z-[99999] right-0 w-full h-full bg-[rgba(26,26,26,0.50)] ${openFaqIndex === index ? "" : "hidden"}`}
             >
-              <div className="faq-popups-main-wrap max-w-[597px] min-h-[100vh] overflow-hidden overflow-y-scroll pt-[72px] pb-[45px] pl-8 pr-9 sm:px-4 ml-auto mr-0 w-full h-full bg-[#D9D9D9] sm:bg-[#fff]">
+              <div className="faq-popups-main-wrap max-w-[597px] min-h-[100vh] overflow-hidden overflow-y-scroll pt-[72px] pb-[45px] pl-8 pr-9 sm:px-4 ml-auto mr-0 w-full h-full bg-[#fff]">
                 <div className="faq-popups-heading-box w-full">
                   <div className="faq-heading-title-box  flex sm:!flex-row items-start justify-between">
                     <h3 className="text-black mb-2">FAQs</h3>
