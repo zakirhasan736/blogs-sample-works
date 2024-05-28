@@ -25,7 +25,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
         {/* Content */}
         <div className="absolute bottom-[118px] text-white z-10">
           <motion.h1 className="mb-5">
-            Where Every Pixel <br /> Tells a Particular Story
+            Digital marketing <br /> agency in london
           </motion.h1>
           <motion.p>
             We forge sustained marketing success for businesses by genuinely
