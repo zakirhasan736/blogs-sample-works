@@ -18,7 +18,7 @@ const Footer = () => {
 							height={87}
 						/>
 						<Image
-							src="/images/footer-mobo-logo.svg"
+							src="/images/mobile-logo.png"
 							alt="logo"
 							className="hidden sm:block"
 							width={216}
