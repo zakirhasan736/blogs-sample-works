@@ -79,7 +79,7 @@
   "isOrdered": false,
   "BlogInfoModals": {
     "blogInfoModalImg": "graph.png",
-    "blogInfoModalBtnText": "Grow with Particular",
+    "blogInfoModalBtnText": "Partner with Particular",
     "sections": [
       {
         "title": "Your Business Growth is Our Responsibility.",
@@ -87,7 +87,7 @@
           "Enhancing your site's search engine optimisation (SEO) can be the key to unlocking new opportunities and achieving your business goals.",
           "At Particular Agency, we specialise in creating tailored SEO strategies that are designed to increase your visibility and engage your target audience effectively."
         ],
-        "type": "list"
+        "type": "normal"
       }
     ]
   }
