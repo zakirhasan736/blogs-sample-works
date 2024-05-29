@@ -111,7 +111,7 @@ const SingleBlogDetailsInfo: React.FC<SingleBlogDetailsInfoProps> = ({
 										)}
 										{item.itemTypeDescList &&
 											item.itemTypeDescList.length > 0 && (
-												<ul className="includes-list-item-with-desc-box pl-5 mb-20 sm:mb-16">
+												<ul className="includes-list-item-with-desc-box mb-20 sm:mb-16">
 													{item.itemTypeDescList.map(
 														(descList, descListIndex) => (
 															<li
