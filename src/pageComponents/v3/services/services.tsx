@@ -27,9 +27,9 @@ const ServicesPage = () => {
             </p>
             <Link
               href="/contacts"
-              className="px-4 py-2 h-[48px] max-w-[111px] flex justify-center items-center mx-auto bg-mono-100 rounded-[4px]"
+              className="flex justify-center items-center mx-auto"
             >
-              Contact us
+              <button className="btn btn-dark ">Contact us</button>
             </Link>
           </div>
         </div>

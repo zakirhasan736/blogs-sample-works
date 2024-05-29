@@ -61,7 +61,7 @@ const blogTitle = blogDetailsInfoItems.map(
                   className={`blogDetailss-list ${activeblogDetailsIndex === index ? "active" : ""}`}
                 >
                   <button
-                    className="blogDetailss-item-btn hover:underline hover:font-semibold transition-all ease-in-out text-[12px] text-left text-[#181725] font-accent  leading-[150%] active:underline active:font-medium"
+                    className="blogDetailss-item-btn !h-auto hover:underline hover:font-semibold transition-all ease-in-out text-[14px] text-left text-[#181725] font-accent  leading-[150%] active:underline active:font-medium"
                     type="button"
                   >
                     {title}
@@ -76,9 +76,11 @@ const blogTitle = blogDetailsInfoItems.map(
             Start a project
           </Link>
         </div>
+
         <div className="blog-details-right-cont max-w-[650px]  w-full">
           <SingleBlogDetailsInfo data={SingleBlogsDetailsInfo} />
         </div>
+        
       </div>
       {/* blog info modal section */}
       <BlogInfoModal data={BlogInfoModals} />

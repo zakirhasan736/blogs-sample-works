@@ -24,12 +24,9 @@ const SoulfullHealth = () => {
                 <span className="underline">
                   Website User Experience Design
                 </span>
-                ,{" "}
-                <span className="underline">
-                  Brand Identity
-                </span>
-                , Enhanced Customer Engagement, Improved Market Positioning,
-                Business Growth
+                , <span className="underline">Brand Identity</span>, Enhanced
+                Customer Engagement, Improved Market Positioning, Business
+                Growth
               </span>
             </div>
           </div>
@@ -111,8 +108,8 @@ const SoulfullHealth = () => {
             its value proposition centred on convenience, affordability, and
             effectiveness for its audience of women worldwide.
           </h4>
-          <Link href="/services" className="btn">
-            Partner with Particular
+          <Link href="/services">
+            <button className="btn">Partner with Particular</button>
           </Link>
         </div>
       </section>
@@ -173,8 +170,8 @@ const SoulfullHealth = () => {
           </p>
           <p className="uppercase text-black">Helen nguyen</p>
           <p className="text-[#666] mb-[30px]">Founder</p>
-          <Link href="/contacts" className="btn btn-dark ">
-            Start a project
+          <Link href="/contacts">
+            <button className="btn btn-dark">Start a project</button>
           </Link>
         </div>
         <div className="custom-container text-[#181725] mt-[85px]">
@@ -185,14 +182,14 @@ const SoulfullHealth = () => {
             </Link>
           </div>
           <div className="flex gap-6 mt-[58px]">
-            <Link href="" className="w-1/2 sm:w-full">
+            <Link href="/metisse" className="w-1/2 sm:w-full">
               <article>
                 <Image
-                  src="/images/project1.png"
+                  src="/images/portfolio/modal-image-3.png"
                   alt="Soulfull Health Project"
                   width={433}
                   height={121}
-                  className="w-full"
+                  className="w-full h-[262px] object-cover"
                 />
                 <div className="mt-8 mb-[19px] portd">
                   <span className="pill">Brand Identity</span>
@@ -200,23 +197,23 @@ const SoulfullHealth = () => {
                   <span className="pill">Web Design</span>
                 </div>
                 <h4>Metisse</h4>
-                <p>Timeless pieces for extraordinary moments</p>
+                <p>Timeless pieces for every watch lover</p>
               </article>
             </Link>
-            <Link href="" className="w-1/2 sm:w-full">
+            <Link href="/knightsacademy" className="w-1/2 sm:w-full">
               <article>
                 <Image
-                  src="/images/project2.png"
+                  src="/images/portfolio/rushmoore-thumb.png"
                   alt="Soulfull Health Project"
                   width={433}
                   height={121}
-                  className="w-full"
+                  className="w-full h-[262px] object-cover"
                 />
                 <div className="mt-8 mb-[19px] portd">
                   <span className="pill">Web Design</span>
                 </div>
-                <h4>Stories of our Generations</h4>
-                <p>Finding the pieces that make up life.</p>
+                <h4>Rushmoor Knights Academy</h4>
+                <p>Leading the Rising Wave of American Football in the UK</p>
               </article>
             </Link>
           </div>

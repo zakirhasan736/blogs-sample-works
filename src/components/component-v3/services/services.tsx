@@ -14,18 +14,20 @@ const ServicesSec: React.FC<ServicesSecProps> = () => {
             <div className="sm:my-8 mt-[83px] award-item-box flex sm:!flex-row items-center sm:items-start gap-4 justify-center ">
               <div className="award-items">
                 <Image
-                  src="/images/top_clutch-award-1.svg"
+                  src="/images/clutch1.png"
                   alt="awards cirtificate modal image"
                   width={80}
                   height={86.48}
+                  className="object-cover"
                 />
               </div>
               <div className="award-items">
                 <Image
-                  src="/images/top_clutch-award-2.svg"
+                  src="/images/clutch2.png"
                   alt="awards cirtificate modal image"
                   width={80}
                   height={86.48}
+                  className="object-cover"
                 />
               </div>
             </div>

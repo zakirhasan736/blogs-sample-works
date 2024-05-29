@@ -109,8 +109,8 @@ const BurnHard = () => {
             to capture Bernhard's energy and expertise, positioning Burn Hard as
             a premier destination for upscale clientele.
           </h4>
-          <Link href="/services" className="btn">
-            Partner with Particular
+          <Link href="/services">
+            <button className="btn">Partner with Particular</button>
           </Link>
         </div>
       </section>
@@ -171,48 +171,50 @@ const BurnHard = () => {
           </p>
           <p className="uppercase text-black">Bernhard</p>
           <p className="text-[#666] mb-[30px]">Founder</p>
-           <Link href="/contacts" className="btn btn-dark ">
-            Start a project
+          <Link href="/contacts">
+            <button className="btn btn-dark">Start a project</button>
           </Link>
         </div>
         <div className="custom-container text-[#181725] mt-[85px]">
           <div className="flex justify-between soul">
             <h4>See more Particular projects</h4>
-            <button> See all</button>
+            <Link href="/portfolio">
+              <button> See all</button>
+            </Link>
           </div>
           <div className="flex gap-6 mt-[58px]">
-            <Link href="" className="w-1/2 sm:w-full">
+            <Link href="/soulfullhealth" className="w-1/2 sm:w-full">
               <article>
                 <Image
-                  src="/images/project1.png"
+                  src="/images/portfolio/soulful-health-thumbnail-image.png"
                   alt="Soulfull Health Project"
                   width={433}
                   height={121}
-                  className="w-full"
+                  className="w-full h-[262px] object-cover"
                 />
                 <div className="mt-8 mb-[19px] portd">
                   <span className="pill">Brand Identity</span>
                   <span className="pill">Photography</span>
                   <span className="pill">Web Design</span>
                 </div>
-                <h4>Metisse</h4>
-                <p>Timeless pieces for extraordinary moments</p>
+                <h4>Soulfull Health</h4>
+                <p>Enlightenment for woman</p>
               </article>
             </Link>
-            <Link href="" className="w-1/2 sm:w-full">
+            <Link href="/cindycare" className="w-1/2 sm:w-full">
               <article>
                 <Image
-                  src="/images/project2.png"
+                  src="/images/portfolio/cindy.png"
                   alt="Soulfull Health Project"
                   width={433}
                   height={121}
-                  className="w-full"
+                  className="w-full h-[262px] object-cover"
                 />
                 <div className="mt-8 mb-[19px] portd">
                   <span className="pill">Web Design</span>
                 </div>
-                <h4>Stories of our Generations</h4>
-                <p>Finding the pieces that make up life.</p>
+                <h4>Cindy Care</h4>
+                <p>The perfect alternative to a care home</p>
               </article>
             </Link>
           </div>

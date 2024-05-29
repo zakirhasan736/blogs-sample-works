@@ -120,10 +120,6 @@ p {
     font-size: 1em;
   }
 
-  .body-large {
-    font-size: 16px;
-  }
-
   p {
     line-height: 15px;
   }
@@ -2825,21 +2821,36 @@ video::-webkit-media-controls {
   line-height: 32.4px;
 }
 
+button {
+    transition: all 0.5s ease-in-out;
+      height: 48px;
+}
+
 .btn {
   background: #fff;
   color: #181725;
-  height: 40px;
+  height: 48px;
   padding: 8px 16px;
   border-radius: 4px;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
-}
+  transition: all 0.5s ease-in-out;
+  }
 
-.btn-dark {
-  background: #181725;
-  color: #fff;
-}
+  .btn:hover {
+    background: #CBD7E3;
+  }
+
+  .btn-dark {
+    background: #181725;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .btn-dark:hover {
+    background: #333333;
+  }
 
 .home-banner-section-v3 h1 {
   font-size: 56px;
@@ -2868,6 +2879,10 @@ video::-webkit-media-controls {
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
+}
+
+.home-banner-section-v3 .lbtn:hover {
+  background: #666666;
 }
 
 /* Portfolio */
@@ -2919,12 +2934,17 @@ video::-webkit-media-controls {
 }
 
 .testimonials button,
-.soul button {
+.soul button, .about-btn {
   border: 1px solid #181725;
   height: 48px;
   padding: 8px 16px;
   gap: 8px;
   border-radius: 4px;
+}
+
+.testimonials button:hover,
+.soul button:hover, .about-btn:hover{
+  background: #CBD7E3;
 }
 
 .testimonials h2,
@@ -3317,18 +3337,18 @@ footer .copy li {
 }
 
 @media (max-width: 700px) {
-
   .john-a {
     position: unset;
-    margin-left: 15px;
+    margin-left: 8px;
     transform: unset;
   }
 
-  .-translate-x-1\/2 {
+    .john-a .-translate-x-1\/2 {
     --tw-translate-x: unset;
   }
 
-  .-translate-y-1\/2 {
+    .john-a .-translate-y-1\/2 {
+
     --tw-translate-y: unset;
   }
 
@@ -3372,7 +3392,9 @@ footer .copy li {
   .mdp,
   h4 {
     font-size: 16px !important;
-    font-weight: 400;
+
+    font-weight: 400 !important;
+
     line-height: 21px !important;
   }
 
@@ -3386,18 +3408,13 @@ footer .copy li {
 
   h1,
   h2,
-  .portfolio-v3 {
+
+  .portfolio-v3 h3 {
     font-size: 36px !important;
     font-weight: 400;
     line-height: 150% !important;
-    letter-spacing: 0.05em !important;
-  }
+    letter-spacing: 0.05em;
 
-  h3 {
-    font-size: 32px !important;
-    font-weight: 400;
-    line-height: 150% !important;
-    letter-spacing: 0.05em !important;
   }
 
   .lgp {
@@ -3500,12 +3517,6 @@ li.services-list.active button.services-item-btn {
   -webkit-appearance: none !important;
 }
 
-.mobile-view-img {
-  /* width: 69.674px;
-  height: 28px; */
-  flex-shrink: 0;
-}
-
 .scrollable-dropdown {
   max-height: 150px !important;
   overflow-y: auto;
@@ -3518,7 +3529,7 @@ li.services-list.active button.services-item-btn {
   font-size: 14px;
   font-style: normal;
   list-style: disc !important;
-  font-weight: 400;
+  font-weight: 400 !important;
   line-height: 160%;
   opacity: 1;
 }

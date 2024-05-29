@@ -18,11 +18,11 @@ const Navbar = () => {
 
   const btnColor = () => {
     if (isPortfolioPage) {
-      return "!bg-[#181725] !text-[#fff]";
+      return "btn-dark !text-[#fff]";
     } else if (pathname === "/") {
       return "!right-4";
     } else {
-      return "!bg-[#fff] !text-[#181725]";
+      return "";
     }
   };
 
@@ -30,8 +30,8 @@ const Navbar = () => {
     ? "/images/logo-black.svg"
     : "/images/logo.svg";
   const logoSrcMobo = isPortfolioPage
-		? "/images/logo-black.svg"
-		: "/images/logo.svg";
+    ? "/images/mobile-logo.png"
+    : "/images/logo-white-mobo.png";
   const triggerImg = isPortfolioPage ? "bar2.svg" : "bar.svg";
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 

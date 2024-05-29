@@ -22,6 +22,7 @@
         "desc": "Web analytics provide a wealth of information about how users interact with your site. These tools give you clear information about your website's popularity and user engagement. They show which parts are popular and engaging, and which areas need improvement. This information is crucial for making informed decisions about how to improve your site's overall effectiveness.",
         "itemListDesc": [""],
         "itemList": [],
+        "itemTypeDescList": [],
         "listDesc": [],
         "image": "",
         "video": ""
@@ -31,6 +32,7 @@
         "desc": "Knowing who comes to your website helps you decide what to show them to keep them interested. Tools like Google Analytics can tell you how many people visit, who they are, where they are from and what they like. This helps you make your website better for your visitors.",
         "itemListDesc": [],
         "itemList": [],
+        "itemTypeDescList": [],
         "listDesc": [],
         "image": "",
         "video": ""
@@ -40,6 +42,7 @@
         "desc": "Demographic insights help you see exactly who your visitors are, including age, gender, location, and even interests. This data is invaluable for crafting targeted marketing messages and can help refine your marketing channels.",
         "itemListDesc": [],
         "itemList": [],
+        "itemTypeDescList": [],
         "listDesc": [],
         "image": "",
         "video": ""
@@ -49,6 +52,7 @@
         "desc": "By analysing how users interact with your website, you can enhance user experience significantly. This means checking how many pages people look at, how long they stay on your site, and bounce rates. Bounce rates tell us if visitors leave after only looking at one page. This helps us understand what keeps them interested and what might be making them leave.",
         "itemListDesc": [],
         "itemList": [],
+        "itemTypeDescList": [],
         "listDesc": [],
         "image": "",
         "video": ""
@@ -58,6 +62,7 @@
         "desc": "By understanding different visitor segments, you can personalise experiences on your website. For example, if you know you have a lot of visitors from a certain city, you might show them deals or events happening near them. This personal touch can make visitors feel more connected to your brand.",
         "itemListDesc": [],
         "itemList": [],
+        "itemTypeDescList": [],
         "listDesc": [],
         "image": "",
         "video": ""
@@ -67,6 +72,7 @@
         "desc": "",
         "itemListDesc": [],
         "itemList": [],
+        "itemTypeDescList": [],
         "listDesc": [],
         "image": "data.png",
         "video": ""
@@ -76,6 +82,7 @@
         "desc": "A smooth navigation experience can encourage visitors to explore more of your website, increasing their engagement. Analytics help identify areas where visitors drop off and allow you to streamline navigation to maintain user interest.",
         "itemListDesc": [],
         "itemList": [],
+        "itemTypeDescList": [],
         "listDesc": [],
         "image": "",
         "video": ""
@@ -85,6 +92,7 @@
         "desc": "Tracking how visitors move from being casual browsers to becoming customers is crucial. Analytics help us see how well we turn visitors into buyers by showing which parts of your site are good at making sales. This lets us know what's working and what might need some tweaking.",
         "itemListDesc": [],
         "itemList": [],
+        "itemTypeDescList": [],
         "listDesc": [],
         "image": "",
         "video": ""
@@ -94,6 +102,7 @@
         "desc": "Understanding how and why your customers make purchases is essential. Analytics show us patterns in how people buy things, letting you change what you offer to better match what your customers want.",
         "itemListDesc": [],
         "itemList": [],
+        "itemTypeDescList": [],
         "listDesc": [],
         "image": "",
         "video": ""
@@ -103,6 +112,7 @@
         "desc": "The content on your website plays a pivotal role in attracting and retaining customers. With insights from web analytics, you can see which content performs best and tailor your approach accordingly.",
         "itemListDesc": [],
         "itemList": [],
+        "itemTypeDescList": [],
         "listDesc": [],
         "image": "",
         "video": ""
@@ -112,6 +122,7 @@
         "desc": "Analytics can show you how well your marketing campaigns are working. If you see that a campaign is bringing a lot of visitors to your site, you know it's doing well. If not, you might need to change your approach. This helps you spend your marketing budget more wisely.",
         "itemListDesc": [],
         "itemList": [],
+        "itemTypeDescList": [],
         "listDesc": [],
         "image": "",
         "video": ""
@@ -121,6 +132,7 @@
         "desc": "Sometimes, analytics can point out problems with your website that you did not know about. For example, pages that take too long to load or links that don’t work. Fixing these issues makes your website better and keeps visitors happy",
         "itemListDesc": [],
         "itemList": [],
+        "itemTypeDescList": [],
         "listDesc": [],
         "image": "",
         "video": ""
@@ -130,6 +142,7 @@
         "desc": "With more people using smartphones to visit websites, it is important to know how your site performs on mobile devices. Analytics can tell you if you need to improve the mobile version of your site to make it easier for phone users to browse and buy.",
         "itemListDesc": [],
         "itemList": [],
+        "itemTypeDescList": [],
         "listDesc": [],
         "image": "",
         "video": ""
@@ -138,24 +151,39 @@
   },
   "hasOrderedList": false,
   "isOrdered": false,
-  "BlogInfoModals": {
-    "blogInfoModalImg": "graph.png",
-    "blogInfoModalTitle": "Boosting SEO Practices",
-    "blogInfoModalDesc1": "Analytics tools can show you which keywords bring traffic to your site from search engines. This information is crucial for enhancing SEO efforts and ensuring your site remains visible and relevant.",
-    "blogInfoModalDesc2": "",
-    "blogInfoModalDesc3": "",
-    "blogInfoModalTitle2": "Conducting Competitor Analysis",
-    "blogInfoModalDesc2_1": "Seeing how you stack up against competitors is easier with analytics. These tools allow for a detailed competitive analysis and can help you benchmark your performance against industry standards.",
-    "blogInfoModalDesc2_2": "",
-    "blogInfoModalDesc2_3": "",
-    "blogInfoModalTitle3": "Setting Industry Benchmarks",
-    "blogInfoModalDesc3_1": "Analytics enable you to compare your site’s performance against industry averages. This benchmarking can be instrumental in setting realistic goals and strategies for improvement.",
-    "blogInfoModalDesc3_2": "",
-    "blogInfoModalDesc3_3": "",
-    "blogInfoModalTitle4": "Understanding Engagement Patterns",
-    "blogInfoModalDesc4_1": "Learning about how people interact with different parts of your website helps you understand what keeps them engaged. For example, you might find out which videos they watch the most or which blog posts they spend the most time reading. This information can guide you in creating more of the content that your visitors love.",
-    "blogInfoModalDesc4_2": "",
-    "blogInfoModalDesc4_3": "",
-    "blogInfoModalBtnText": "Grow with Particular"
-  }
+
+    "BlogInfoModals": {
+      "blogInfoModalImg": "graph.png",
+      "blogInfoModalBtnText": "Grow with Particular",
+      "sections": [
+        {
+          "title": "Boosting SEO Practices",
+          "descriptions": [
+            "Analytics tools can show you which keywords bring traffic to your site from search engines. This information is crucial for enhancing SEO efforts and ensuring your site remains visible and relevant."
+          ],
+          "type": "list"
+        },
+        {
+          "title": "Conducting Competitor Analysis",
+          "descriptions": [
+            "Seeing how you stack up against competitors is easier with analytics. These tools allow for a detailed competitive analysis and can help you benchmark your performance against industry standards."
+          ],
+          "type": "list"
+        },
+        {
+          "title": "Setting Industry Benchmarks",
+          "descriptions": [
+            "Analytics enable you to compare your site’s performance against industry averages. This benchmarking can be instrumental in setting realistic goals and strategies for improvement."
+          ],
+          "type": "list"
+        },
+        {
+          "title": "Understanding Engagement Patterns",
+          "descriptions": [
+            "Learning about how people interact with different parts of your website helps you understand what keeps them engaged. For example, you might find out which videos they watch the most or which blog posts they spend the most time reading. This information can guide you in creating more of the content that your visitors love."
+          ],
+          "type": "list"
+        }
+      ]
+    }
 }

@@ -30,6 +30,7 @@
           "On-Page SEO: Involves optimising individual web pages to rank higher and earn more relevant traffic.",
           "Off-Page SEO (Link Building): Aims to increase the domain authority of your website through backlinks from other sites."
         ],
+        "itemTypeDescList": [],
         "listDesc": [],
         "image": "",
         "video": ""
@@ -45,6 +46,7 @@
           "Project-Based: Prices vary depending on the project's scope but can range from £1000 to £2500 for small to medium-sized projects.",
           "Hourly Rate: SEO consultants may charge between £50 and £150 per hour, depending on their expertise."
         ],
+        "itemTypeDescList": [],
         "listDesc": [
           "When planning your SEO budget to fit your marketing strategy, think about your business's size, how competitive your industry is, and what you want to achieve in terms of growth.",
           "For small businesses, allocating 10-20% of your overall marketing budget to SEO is a good starting point.",
@@ -64,6 +66,7 @@
           "Grasping the costs linked with various SEO services can help you create a smart SEO strategy, leading to strong returns on your investment. The real secret to winning at SEO isn't just in the spending, but in smartly investing in the services that truly align with what your business aims to achieve."
         ],
         "itemList": [],
+        "itemTypeDescList": [],
         "listDesc": [],
         "image": "",
         "video": ""
@@ -72,24 +75,16 @@
   },
   "hasOrderedList": false,
   "isOrdered": false,
-  "BlogInfoModals": {
-    "blogInfoModalImg": "blog-details-info-modal-info-img-1.jpg",
-    "blogInfoModalTitle": "",
-    "blogInfoModalDesc1": "",
-    "blogInfoModalDesc2": "",
-    "blogInfoModalDesc3": "",
-    "blogInfoModalTitle2": "",
-    "blogInfoModalDesc2_1": "",
-    "blogInfoModalDesc2_2": "",
-    "blogInfoModalDesc2_3": "",
-    "blogInfoModalTitle3": "",
-    "blogInfoModalDesc3_1": "",
-    "blogInfoModalDesc3_2": "",
-    "blogInfoModalDesc3_3": "",
-    "blogInfoModalTitle4": "",
-    "blogInfoModalDesc4_1": "",
-    "blogInfoModalDesc4_2": "",
-    "blogInfoModalDesc4_3": "",
-    "blogInfoModalBtnText": "Partner with Particular"
-  }
+
+    "BlogInfoModals": {
+      "blogInfoModalImg": "blog-details-info-modal-info-img-1.jpg",
+      "blogInfoModalBtnText": "Partner with Particular",
+      "sections": [
+        {
+          "title": "",
+          "descriptions": [],
+          "type": "list"
+        }
+      ]
+    }
 }
