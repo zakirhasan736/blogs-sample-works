@@ -74,6 +74,7 @@ const SingleBlogDetailsInfo: React.FC<SingleBlogDetailsInfoProps> = ({
 									)}
 								</div>
 							)}
+
 							<div className="max-w-[650px] w-full md:pr-[20px] sm:px-[16px]">
 								{item.title && (
 									<h3 className="blog-details-info-title mb-4 sm:mb-7 text-[16px] text-left text-[#181725] font-primary font-bold leading-6">
@@ -110,6 +111,7 @@ const SingleBlogDetailsInfo: React.FC<SingleBlogDetailsInfoProps> = ({
 															{listItem}
 														</li>
 													))}
+
 												</ul>
 											)}
 											{item.itemTypeDescList &&
