@@ -20,7 +20,7 @@ const Footer = () => {
 						<Image
 							src="/images/mobile-logo.png"
 							alt="logo"
-							className="hidden sm:block"
+							className="hidden sm:block sm:mb-6"
 							width={216}
 							height={65}
 						/>

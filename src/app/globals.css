@@ -1400,7 +1400,7 @@
 
   @media screen and (max-width: 767px) {
     .banner-client-brand-box .slick-track {
-      gap: 50px;
+      gap: 10px;
     }
   }
 

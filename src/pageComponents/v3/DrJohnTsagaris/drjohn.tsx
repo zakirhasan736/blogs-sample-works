@@ -91,7 +91,7 @@ const DrJohnTsagaris = () => {
       </section>
       <section className="pb-[77px]">
         <div className="bg-[url('/images/jproto1.png')] h-[496px] bg-cover sm:bg-center"></div>
-        <div className="bg-[url('/images/jproto2.png')] h-[579px] bg-cover"></div>
+        <div className="bg-[url('/images/jproto2.png')] h-[579px] bg-cover sm:!bg-left"></div>
         <div className="text-center text-white w-[728px] md:w-full m-auto mt-[84px] md:p-5">
           <h3>
             How Particular partnered with <br /> John Tsagaris
