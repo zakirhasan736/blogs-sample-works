@@ -22,7 +22,7 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
         <div className="expariance-cont-wrapper w-full col-span-7 h-full sm:col-span-6 flex flex-col">
           <div className="w-full experiance-wrap-top-cont py-[54px] sm:py-4 pl-[173px] laptop-m:pl-[100px] lg:pl-[80px] md:pl-[35px] sm:pl-[25px] pr-[140px] lg:pr-[25px] md:pr-[20px] sm:pr-[16px] sm:mb-10">
             <div className="flex justify-between items-center mb-[26px] sm:mb-3">
-              <h2 className="max-w-[528px] w-full font-primary text-mono-100 font-light">
+              <h2 className="max-w-[528px] w-full font-primary text-mono-100 ">
                 Great buyer experience? Excellent returns.
               </h2>
               <div className="navigation  items-center gap-2 hidden">
