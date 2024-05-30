@@ -3,7 +3,7 @@ import React from 'react'
 
 const OurMission = () => {
   return (
-		<section className="our-mission-section pt-[88px] pb-[103px] bg-white">
+		<section className="our-mission-section pt-[88px] sm:pt-12 pb-[103px] bg-white">
 			<div className="custom-container">
 				<div className="our-mission-content-box grid grid-cols-12 sm:grid-cols-6 gap-6">
 					<div className="our-mission-left-cont col-span-6">

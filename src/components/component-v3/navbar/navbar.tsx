@@ -174,14 +174,14 @@ const Navbar = () => {
 								COLOUR CRAFT
 							</Link>
 						</li>
-						<li className="hover:[#026FEE]">
+						{/* <li className="hover:[#026FEE]">
 							<Link
 								href="https://assessments.particularagency.co.uk/marketing-strength"
 								target="_blank"
 								className="underline">
 								BRAND STRENGTH ASSESSMENT
 							</Link>
-						</li>
+						</li> */}
 					</ul>
 					<div className="mt-auto">
 						<Image

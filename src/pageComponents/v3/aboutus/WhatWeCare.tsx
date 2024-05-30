@@ -4,7 +4,7 @@ import React from "react";
 
 const WhatWeCare = () => {
 	return (
-    <section className="what-we-care-section py-[76px] bg-white">
+    <section className="what-we-care-section py-[76px] sm:pt-12 bg-white">
       <div className="custom-container">
         <div className="what-we-care-wrapper">
           <div className="what-we-care-cont-item mb-[86px] md:mb-[50px] sm:mb-[45px] grid grid-cols-12 sm:grid-cols-6 gap-[57px] md:gap-[30px] sm:gap-35px]">

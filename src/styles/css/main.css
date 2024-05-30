@@ -613,7 +613,7 @@ section.testimonials-section-v2
 
 .blog h4 {
   font-size: 1.125em;
-  font-weight: 500;
+  font-weight: 400;
   margin: 16px 0 12px 0;
   line-height: 24px;
 }
@@ -2899,12 +2899,6 @@ button {
   background: #333333;
 }
 
-.home-banner-section-v3 h1 {
-  font-size: 56px;
-  font-weight: 400;
-  line-height: 58.8px;
-  letter-spacing: 0.05em;
-}
 
 .home-banner-section-v3 iframe {
   width: 100vw;
@@ -3426,7 +3420,9 @@ footer .copy li {
   .mdp,
   h4 {
     font-size: 16px !important;
+
     font-weight: 400 !important;
+
     line-height: 21px !important;
   }
 
@@ -3440,11 +3436,13 @@ footer .copy li {
 
   h1,
   h2,
+
   .portfolio-v3 h3 {
     font-size: 36px !important;
     font-weight: 400;
     line-height: 150% !important;
     letter-spacing: 0.05em;
+
   }
 
   .lgp {

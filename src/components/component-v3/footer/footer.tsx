@@ -101,13 +101,13 @@ const Footer = () => {
 									<Link href="/contacts">Contact Us</Link>
 								</li>
 
-								<li>
+								{/* <li>
 									<Link
 										href="https://assessments.particularagency.co.uk/marketing-strength"
 										target="_blank">
 										Brand Assessment
 									</Link>
-								</li>
+								</li> */}
 							</ul>
 						</div>
 					</div>
