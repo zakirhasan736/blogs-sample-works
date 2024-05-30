@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 
-
 interface HomeBannerProps {}
 
 const HomeBanner: React.FC<HomeBannerProps> = () => {
@@ -24,8 +23,11 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
       <div className="custom-container h-full">
         {/* Content */}
         <div className="absolute bottom-[118px] text-white z-10">
+          <motion.p className="text-[14px] uppercase">
+            London-based digital marketing agency
+          </motion.p>
           <motion.h1 className="mb-5">
-            Digital marketing <br /> agency in london
+            Where Every Pixel <br /> Tells a Particular Story
           </motion.h1>
           <motion.p>
             We forge sustained marketing success for businesses by genuinely

@@ -2,15 +2,14 @@ import ContactVersionThree from "@/pageComponents/v3/Contacts/contacts";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Contact Us",
-	description:
-		"Ready to elevate your digital presence? Contact us today! Our page provides easy ways to get in touch with our expert digital marketing team. Whether it's for SEO, PPC, Web Design, or a bespoke marketing strategy, we're here to help your business succeed. Reach out for a consultation or any queries you have",
+  title: "Particular Agency | Contacts",
+  description:
+    "Ready to elevate your digital presence? Contact us today! Our page provides easy ways to get in touch with our expert digital marketing team. Whether it's for SEO, PPC, Web Design, or a bespoke marketing strategy, we're here to help your business succeed. Reach out for a consultation or any queries you have",
 };
 export default function page() {
-	return (
-		<>
-			<ContactVersionThree />
-		</>
-	);
-	
+  return (
+    <>
+      <ContactVersionThree />
+    </>
+  );
 }
