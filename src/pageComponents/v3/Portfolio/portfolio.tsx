@@ -37,7 +37,7 @@ const PortfolioV3 = () => {
                   <span className="pill">Logo Design</span>
                 </div>
                 <div className="content">
-                  <h4>Dr John Tsagiris</h4>
+                  <h4>Dr John Tsagaris</h4>
                   <p>A leading practitioner in health and wellness</p>
                 </div>
               </div>
