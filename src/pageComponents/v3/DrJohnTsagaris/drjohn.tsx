@@ -190,13 +190,13 @@ const DrJohnTsagaris = () => {
         </div>
         <div className="text-center text-[#181725] mt-[92px] w-[748px] m-auto sm:w-full">
           <p className="lgp">
-            “"The brand, John Tsagaris, embodies a mission to optimise the
+            "The brand, John Tsagaris, embodies a mission to optimise the
             ageless wellness journey of our clientele, integrating traditional
             holistic disciplines with modern aesthetic methods. Together with
             Particular Agency, we're shaping a future where beauty is synonymous
-            with health and vitality.""
+            with health and vitality."
           </p>
-          <p className="uppercase text-black">Dr. John Tsagaris</p>
+          <p className="uppercase text-black my-3">Dr. John Tsagaris</p>
           <p className="text-[#666] mb-[30px]">Solopreneur</p>
           <Link href="/contacts">
             <button className="btn btn-dark">Start a project</button>

@@ -168,7 +168,7 @@ const CindyCare = () => {
             prominent online presence and deliver exceptional service to our
             clients."
           </p>
-          <p className="uppercase text-black">Cindy</p>
+          <p className="uppercase text-black my-3">Cindy</p>
           <p className="text-[#666] mb-[30px]">Founder</p>
           <Link href="/contacts">
             <button className="btn btn-dark">Start a project</button>
