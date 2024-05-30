@@ -7,7 +7,7 @@ const PortfolioV3 = () => {
     <section className="portfolio-v3">
       <div className="custom-container">
         <div className="title mb-[42px] sm:mb-20">
-          <h2 className="mb-6">Portfolio</h2>
+          <h1 className="mb-6">Portfolio</h1>
           <p className="mdp">
             We work with a variety of businesses across the globe all striving
             for <br />

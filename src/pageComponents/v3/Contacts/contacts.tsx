@@ -9,8 +9,8 @@ const ContactVersionThree = () => {
   return (
     <section className="custom-container contacts contact-sec sm:px-8 grid grid-cols-12 sm:grid-cols-6 gap-5">
       <div className="lg:px-8 col-span-6">
-        <h2>Get in touch</h2>
-        <p className="text-lg">
+        <h1>Get in touch</h1>
+        <p className="text-lg mt-4">
           Fill in the form below, and we’ll be in touch.
         </p>
         <div className="sm:hidden">
