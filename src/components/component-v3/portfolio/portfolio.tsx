@@ -16,7 +16,6 @@ const PortfolioSec = () => {
         <div className=" mb-[47px] sm:mb-[35px] sm:flex-col sm:items-start sm:gap-5">
           <div className="section-title-box flex sm:!flex-row justify-between mb-2">
             <h3 className="text-[#181725]">Particular Portfolio</h3>
-            <Link href="/portfolio">View all</Link>
           </div>
           <p className="text-[#000]">
             We pioneer what's next, combining creativity, tech innovation and

@@ -10,8 +10,8 @@ const ServicesSec: React.FC<ServicesSecProps> = () => {
       <div className="custom-container">
         <div className="flex sm:!flex-row justify-between items-start  gap-10">
           <div>
-            <h3 className="sm:!text-text-small">SERVICES</h3>
-            <div className="sm:my-8 mt-[83px] award-item-box flex sm:!flex-row items-center sm:items-start gap-4 justify-center ">
+            <h3 className="sm:!text-text-small">Services</h3>
+            <div className="sm:my-8 mt-6 award-item-box flex sm:!flex-row items-center sm:items-start gap-4 justify-center ">
               <div className="award-items">
                 <Image
                   src="/images/clutch1.png"

@@ -7,11 +7,11 @@ const OurMission = () => {
 			<div className="custom-container">
 				<div className="our-mission-content-box grid grid-cols-12 sm:grid-cols-6 gap-6">
 					<div className="our-mission-left-cont col-span-6">
-						<h2 className="title font-primary font-normal text-black text-[40px] md:text-[38px] sm:text-[36px] leading-[120%] tracking-[2px] mb-6">
+						<h3 className="title font-primary font-normal text-black text-[40px] md:text-[38px] sm:text-[36px] leading-[120%] tracking-[2px] mb-6">
 							Inspire. Assure. Transform.
-						</h2>
+						</h3>
 						<Link href="/contacts">
-							<button className="btn about-btn">
+							<button className="btn btn-dark">
 								Talk to us
 							</button>
 						</Link>

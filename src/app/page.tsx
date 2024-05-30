@@ -1,5 +1,6 @@
 "use client";
 import HomeBanner from "@/components/common/banner/home-banner-3";
+import BlogsSec from "@/components/component-v3/blogs/blogs";
 import ContactSec from "@/components/component-v3/contact/contact";
 import ExperienceSec from "@/components/component-v3/experience/experience";
 import PartnersSec from "@/components/component-v3/partners/partners";
@@ -62,7 +63,7 @@ const Home = () => {
         <PartnersSec />
         {/* partners section end*/}
         {/* blogs section */}
-        {/* <BlogsSec /> */}
+        <BlogsSec />
         {/* blogs section end*/}
 
         {/* video section */}

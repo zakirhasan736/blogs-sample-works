@@ -25,7 +25,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
       <div className="custom-container h-full">
         {/* Content */}
         <div className="absolute bottom-[118px] text-white z-10">
-          <motion.p className="text-[14px] uppercase">
+          <motion.p className="text-![14px] uppercase mb-4">
             London-based digital marketing agency
           </motion.p>
           <motion.h1 className="mb-5">
