@@ -98,8 +98,8 @@ const TestimonialSec: React.FC = () => {
     <section className="testimonials bg-[#fff] text-[#181725] pt-[101px] pb-[48px] sm:pt-[35px] sm:pb-[80px]">
       <div className="custom-container">
         <div className="section-title-box sm:flex sm:flex-col sm:gap-[15px]">
-          <div className="flex gap-10 lg:gap-[30px] sm:flex-col sm:gap-5">
-            <h2 className="text-[#181725]">Testimonials</h2>
+          <div className="flex gap-20 lg:gap-[30px] sm:flex-col sm:gap-5">
+            <h3 className="text-[#181725]">Testimonials</h3>
             <p className="mdp">
               Our clients have amazing things to say about Particular. Read what{" "}
               <br />
@@ -107,7 +107,7 @@ const TestimonialSec: React.FC = () => {
             </p>
           </div>
           <Link href="/portfolio">
-            <button>Portfolio</button>
+            <button className="btn btn-dark">Portfolio</button>
           </Link>
         </div>
       </div>

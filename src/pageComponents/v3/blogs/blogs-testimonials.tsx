@@ -12,7 +12,7 @@ const BlogsTestimonials = () => {
             looking to enhance their online presence"
           </p>
           <p className="subtitle-text text-mono-100 text-center uppercase tracking-[2.4px] text-[16px] sm:text-[12px] font-primary font-normal leading-[150%] mb-2">
-            John Tsagiris
+            John Tsagaris
           </p>
           <p className="subtitle-text text-mono-100 text-center text-[16px] sm:text-[12px] font-primary font-normal leading-[150%] ">
             Founder

@@ -171,7 +171,7 @@ const KnightsAcademy = () => {
             changing the way the sport operates, empowering individuals to reach
             their full potential and driving excellence across the board."
           </p>
-          <p className="uppercase text-black">STephen diaper</p>
+          <p className="uppercase text-black my-3">STephen diaper</p>
           <p className="text-[#666] mb-[30px]">Founder</p>
           <Link href="/contacts">
             <button className="btn btn-dark">Start a project</button>

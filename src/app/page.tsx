@@ -1,5 +1,6 @@
 "use client";
 import HomeBanner from "@/components/common/banner/home-banner-3";
+import BlogsSec from "@/components/component-v3/blogs/blogs";
 import ContactSec from "@/components/component-v3/contact/contact";
 import ExperienceSec from "@/components/component-v3/experience/experience";
 import PartnersSec from "@/components/component-v3/partners/partners";
@@ -10,18 +11,18 @@ import VideoSec from "@/components/component-v3/video/video";
 import LatestBlogs from "@data/blogs/short-blog-data.json";
 
 const Home = () => {
-	// Sort the latest blogs by date in descending order
-	const sortedLatestBlogs = LatestBlogs.sort((a, b) => {
-		return new Date(b.date).getTime() - new Date(a.date).getTime();
-	});
+  // Sort the latest blogs by date in descending order
+  const sortedLatestBlogs = LatestBlogs.sort((a, b) => {
+    return new Date(b.date).getTime() - new Date(a.date).getTime();
+  });
 
   // Select the latest three blogs
   const latestThreeBlogs = sortedLatestBlogs.slice(0, 3);
   const testimonialsSliderData = [
     {
       testisliderModalImag: "/images/testimonials-slides-modal-img-1.png",
-      testimonialsAutherBio: "Dr. John Tsagiris, Founder",
-      testimonialsAutherName: "- Dr. John Tsagiris",
+      testimonialsAutherBio: "Dr. John Tsagaris, Founder",
+      testimonialsAutherName: "- Dr. John Tsagaris",
       testimonialsText:
         "My partnership with Particular Agency for our web application development has been nothing short of remarkable.",
     },
@@ -62,7 +63,7 @@ const Home = () => {
         <PartnersSec />
         {/* partners section end*/}
         {/* blogs section */}
-        {/* <BlogsSec /> */}
+        <BlogsSec />
         {/* blogs section end*/}
 
         {/* video section */}

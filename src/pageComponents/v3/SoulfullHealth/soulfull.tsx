@@ -168,7 +168,7 @@ const SoulfullHealth = () => {
             accessible resources and a global network of like-minded
             individuals."
           </p>
-          <p className="uppercase text-black">Helen nguyen</p>
+          <p className="uppercase text-black my-3">Helen nguyen</p>
           <p className="text-[#666] mb-[30px]">Founder</p>
           <Link href="/contacts">
             <button className="btn btn-dark">Start a project</button>
