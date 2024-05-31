@@ -2819,7 +2819,6 @@ h1,
 
 .seo-h1 {
   font-size: 14px !important;
-  margin: 0;
 }
 
 h2 {
@@ -3439,10 +3438,11 @@ footer .copy li {
 
   h1,
   h2,
-  .h1 .portfolio-v3 h3 {
+  .h1,
+   .portfolio-v3 h3 {
     font-size: 36px !important;
     font-weight: 400;
-    line-height: 150% !important;
+    line-height: 145% !important;
     letter-spacing: 0.05em;
   }
 
@@ -3494,6 +3494,10 @@ footer .copy li {
 
   .text-\[\#181725\] h4 {
     font-size: 16px !important;
+  }
+
+  .seo-h1 {
+    font-size: 12px !important;
   }
 }
 

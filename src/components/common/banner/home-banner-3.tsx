@@ -23,13 +23,13 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
       <div className="custom-container h-full">
         {/* Content */}
         <div className="absolute bottom-[118px] text-white z-10">
-          <motion.h1 className="text-![14px] seo-h1 uppercase mb-4">
+          <motion.h1 className="text-![14px] seo-h1 uppercase mb-1">
             London-based digital marketing agency
           </motion.h1>
           <motion.p className="h1 mb-5">
             Where Every Pixel <br /> Tells a Particular Story
           </motion.p>
-          <motion.p>
+          <motion.p className="mt-5">
             We forge sustained marketing success for businesses by genuinely
             grasping <br /> the essence of human engagement. Specialist in
             designing bespoke digital <br /> strategies for brands across all
