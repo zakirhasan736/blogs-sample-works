@@ -30,7 +30,7 @@ const Navbar = () => {
     ? "/images/logo-black.svg"
     : "/images/logo.svg";
   const logoSrcMobo = isPortfolioPage
-    ? "/images/logo-black.svg"
+    ? "/images/black-mob-logo.svg"
     : "/images/logo-white-mobo.png";
   const triggerImg = isPortfolioPage ? "bar2.svg" : "bar.svg";
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
