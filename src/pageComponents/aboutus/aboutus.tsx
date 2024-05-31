@@ -4,7 +4,7 @@ import OurMission from "../v3/aboutus/OurMission";
 import MissionStatement from "../v3/aboutus/MissionStatement";
 import BrandStory from "../v3/aboutus/BrandStory";
 import HowWeOperate from "../v3/aboutus/HowWeOperate";
-// import CommunityLatter from "../v3/aboutus/CommunityLatter";
+import CommunityLatter from "../v3/aboutus/CommunityLatter";
 import WhatWeCare from "../v3/aboutus/WhatWeCare";
 
 const AboutUsPage = () => {
@@ -17,7 +17,7 @@ const AboutUsPage = () => {
 			<BrandStory />
 			<HowWeOperate />
 			<WhatWeCare />
-			{/* <CommunityLatter /> */}
+			<CommunityLatter />
 		</div>
 	);
 };
