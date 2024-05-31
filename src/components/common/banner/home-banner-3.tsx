@@ -18,19 +18,17 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
         playsInline={true}
         controls={false}
         loop={true}
-
         className="absolute inset-0 z-0 w-full h-full object-cover sm:object-right-top"
-
       />
       <div className="custom-container h-full">
         {/* Content */}
         <div className="absolute bottom-[118px] text-white z-10">
-          <motion.p className="text-![14px] uppercase mb-4">
+          <motion.h1 className="text-![14px] seo-h1 uppercase mb-4">
             London-based digital marketing agency
-          </motion.p>
-          <motion.h1 className="mb-5">
-            Where Every Pixel <br /> Tells a Particular Story
           </motion.h1>
+          <motion.p className="h1 mb-5">
+            Where Every Pixel <br /> Tells a Particular Story
+          </motion.p>
           <motion.p>
             We forge sustained marketing success for businesses by genuinely
             grasping <br /> the essence of human engagement. Specialist in

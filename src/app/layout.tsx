@@ -28,6 +28,18 @@ export default function RootLayout({
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
+        <script
+          type="text/javascript"
+          src="https://cdn.weglot.com/weglot.min.js"
+        ></script>
+        <Script
+          id="weglot"
+          dangerouslySetInnerHTML={{
+            __html: `
+                Weglot.initialize({ api_key: 'wg_d0f282972e7486231b9d5518409b11344' });
+              `,
+          }}
+        />
         <main>{children}</main>
         <GoogleTagManager gtmId="GTM-KSLS5JR5" />
         <GoogleAnalytics gaId="G-5VRY1RRCR1" />
