@@ -1,5 +1,4 @@
 import React from "react";
-
 import ServiceDetailsItem from "./servicedetailsItem";
 import Link from "next/link";
 const ServicesPage = () => {
@@ -37,5 +36,4 @@ const ServicesPage = () => {
     </div>
   );
 };
-
 export default ServicesPage;
