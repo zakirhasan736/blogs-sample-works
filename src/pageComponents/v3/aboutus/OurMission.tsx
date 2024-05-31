@@ -3,15 +3,15 @@ import React from 'react'
 
 const OurMission = () => {
   return (
-		<section className="our-mission-section pt-[88px] pb-[103px] bg-white">
+		<section className="our-mission-section pt-[88px] sm:pt-12 pb-[103px] bg-white">
 			<div className="custom-container">
 				<div className="our-mission-content-box grid grid-cols-12 sm:grid-cols-6 gap-6">
 					<div className="our-mission-left-cont col-span-6">
-						<h2 className="title font-primary font-normal text-black text-[40px] md:text-[38px] sm:text-[36px] leading-[120%] tracking-[2px] mb-6">
+						<h3 className="title font-primary font-normal text-black text-[40px] md:text-[38px] sm:text-[36px] leading-[120%] tracking-[2px] mb-6">
 							Inspire. Assure. Transform.
-						</h2>
+						</h3>
 						<Link href="/contacts">
-							<button className="secondary-btn varient-black h-12 py-2 px-4 rounded-[4px] border border-mono-100 text-[14px] font-normal font-accent text-center text-mono-100 leading-[150%]">
+							<button className="btn btn-dark">
 								Talk to us
 							</button>
 						</Link>

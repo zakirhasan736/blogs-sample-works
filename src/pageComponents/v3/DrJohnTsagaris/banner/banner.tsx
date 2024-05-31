@@ -11,7 +11,7 @@ const Banner: React.FC<HomeBannerProps> = () => {
       <div className="custom-container">
         {/* Content */}
         <div className="absolute bottom-[48px] text-white">
-          <h1 className="mb-6">Dr John Tsagiris</h1>
+          <h1 className="mb-6">Dr John Tsagaris</h1>
           <h4>A Digital Transformation Project</h4>
         </div>
       </div>

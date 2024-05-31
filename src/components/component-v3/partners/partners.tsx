@@ -9,9 +9,9 @@ const PartnersSec = () => {
     <section className="partners bg-[#1a1a1a] text-[#fff] pt-[33px] pb-[75px]">
       <div className="custom-container">
         <div className="sm:block flex justify-between mb-[73px]">
-          <h2 className="sm:mb-8">
+          <h3 className="sm:mb-8">
             Trusted by 50+ <br /> companies globally
-          </h2>
+          </h3>
           <Link href="/contacts">
            <button  className="btn"> Start a Project </button>
           </Link>

@@ -169,7 +169,7 @@ const BurnHard = () => {
             our brand presence and deliver great fitness experiences to our
             clients."
           </p>
-          <p className="uppercase text-black">Bernhard</p>
+          <p className="uppercase text-black my-3">Bernhard</p>
           <p className="text-[#666] mb-[30px]">Founder</p>
           <Link href="/contacts">
             <button className="btn btn-dark">Start a project</button>

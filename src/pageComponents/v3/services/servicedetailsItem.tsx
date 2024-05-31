@@ -4,70 +4,53 @@ import Image from "next/image";
 import Link from "next/link";
 import FaqAccordion from "@/components/common/faq-accordion/faq-accordion";
 import ServiceDetailsData from "@data/servicesDetailsData/servicesDetailsData.json";
-
-const OFFSET = 50; // Offset in pixels
-
+const OFFSET = 50;
 const ServiceDetailsItem: React.FC = () => {
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
   const [activeServiceIndex, setActiveServiceIndex] = useState<number>(0);
   const serviceItemsRef = useRef<(HTMLLIElement | null)[]>([]);
   const dataIndexItemsRef = useRef<(HTMLElement | null)[]>([]);
-
   const toggleFaqModal = (index: number) => {
     setOpenFaqIndex(openFaqIndex === index ? null : index);
   };
-
   const handleServiceItemClick = (index: number) => {
-    // Remove active class from the currently active item
     const currentActiveItem = serviceItemsRef.current[activeServiceIndex];
     if (currentActiveItem) {
       currentActiveItem.classList.remove("active");
     }
-
-    // Add active class to the clicked service item
     const clickedItem = serviceItemsRef.current[index];
     if (clickedItem) {
       clickedItem.classList.add("active");
     }
-
-    // Scroll to the corresponding service details
     const serviceDetail = dataIndexItemsRef.current[index];
     if (serviceDetail) {
       serviceDetail.scrollIntoView({ behavior: "smooth" });
     }
-
-    // Update the active service index
     setActiveServiceIndex(index);
   };
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPosition = window.scrollY + OFFSET; // Apply offset
+      const scrollPosition = window.scrollY + OFFSET;
       const windowHeight = window.innerHeight;
-
       let currentActiveIndex = -1;
-
       for (let i = 0; i < dataIndexItemsRef.current.length; i++) {
         const item = dataIndexItemsRef.current[i];
         if (item) {
           const itemRect = item.getBoundingClientRect();
           if (itemRect.top - OFFSET <= windowHeight && itemRect.bottom >= 0) {
-            // Apply offset
             currentActiveIndex = i;
             break;
           }
         }
       }
-
       setActiveServiceIndex(currentActiveIndex);
     };
-
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
   return (
     <div className="services-page-wrapper-cont gap-5 sm:gap-10 flex items-start pb-[24px] sm:pb-[20px] sm:flex-col">
       <div className="services-left-cont  w-full sticky sm:relative sm:top-0 top-10 max-w-[272px] md:max-w-[200px] sm:max-w-full">
@@ -82,14 +65,12 @@ const ServiceDetailsItem: React.FC = () => {
               className={`services-list ${activeServiceIndex === index ? "active" : ""}`}
               onClick={() => handleServiceItemClick(index)}
             >
-              {/* <a href={`#service-${index}`}> */}
               <button
                 className="services-item-btn hover:underline hover:font-semibold transition-all ease-in-out text-[16px] text-left text-mono-100 font-accent  leading-[150%] active:underline active:font-medium"
                 type="button"
               >
                 {service.title}
               </button>
-              {/* </a> */}
             </li>
           ))}
         </ul>
@@ -99,7 +80,6 @@ const ServiceDetailsItem: React.FC = () => {
           <div
             key={index}
             data-index={index}
-            // id={`service-${index}`}
             ref={(el) => (dataIndexItemsRef.current[index] = el)}
             className="services-items-details-box pb-[55px] sm:pb-[35px]"
           >
@@ -169,11 +149,10 @@ const ServiceDetailsItem: React.FC = () => {
                 ))}
               </div>
             </div>
-            {/* faq popup screens */}
             <div
               className={`faq-popup-wrapper fixed top-0 z-[99999] right-0 w-full h-full bg-[rgba(26,26,26,0.50)] ${openFaqIndex === index ? "" : "hidden"}`}
             >
-              <div className="faq-popups-main-wrap max-w-[597px] min-h-[100vh] overflow-hidden overflow-y-scroll pt-[72px] pb-[45px] pl-8 pr-9 sm:px-4 ml-auto mr-0 w-full h-full bg-[#D9D9D9] sm:bg-[#fff]">
+              <div className="faq-popups-main-wrap max-w-[597px] min-h-[100vh] overflow-hidden overflow-y-scroll pt-[72px] pb-[45px] pl-8 pr-9 sm:px-4 ml-auto mr-0 w-full h-full bg-[#fff]">
                 <div className="faq-popups-heading-box w-full">
                   <div className="faq-heading-title-box  flex sm:!flex-row items-start justify-between">
                     <h3 className="text-black mb-2">FAQs</h3>
@@ -202,5 +181,4 @@ const ServiceDetailsItem: React.FC = () => {
     </div>
   );
 };
-
 export default ServiceDetailsItem;

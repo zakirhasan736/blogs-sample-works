@@ -165,7 +165,7 @@ const BurnHard = () => {
             bringing our vision to life, and I am confident that together, we
             will achieve unparalleled success in the watch industry."
           </p>
-          <p className="uppercase text-black">Noura</p>
+          <p className="uppercase text-black my-3">Noura</p>
           <p className="text-[#666] mb-[30px]">Founder</p>
           <Link href="/contacts">
             <button className="btn btn-dark">Start a project</button>

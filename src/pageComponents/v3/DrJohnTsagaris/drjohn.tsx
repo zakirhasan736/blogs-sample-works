@@ -4,7 +4,7 @@ import React from "react";
 import Banner from "./banner/banner";
 import Image from "next/image";
 
-const DrJohnTsagiris = () => {
+const DrJohnTsagaris = () => {
   return (
     <>
       <Banner />
@@ -17,7 +17,7 @@ const DrJohnTsagiris = () => {
             <div className="my-[19px]">
               Who in the team we worked with:{" "}
               <span className="text-[#181725]">
-                Dr John Tsagiris, Solopreneur
+                Dr John Tsagaris, Solopreneur
               </span>
             </div>
             <div>
@@ -31,10 +31,10 @@ const DrJohnTsagiris = () => {
             </div>
           </div>
           <p className="lgp text-black w-1/2">
-            Dr. John Tsagiris, a pioneer in holistic beauty and founder of the
+            Dr. John Tsagaris, a pioneer in holistic beauty and founder of the
             Acuskinlift Method, sought to rejuvenate the online presence of his
-            brand, Dr. John Tsagiris. With a mission to optimise the ageless
-            wellness journey of his clientele, Dr. Tsagiris pictured a digital
+            brand, Dr. John Tsagaris. With a mission to optimise the ageless
+            wellness journey of his clientele, Dr. Tsagaris pictured a digital
             platform that reflected his transformative natural skin tightening
             and lifting techniques.
           </p>
@@ -79,11 +79,11 @@ const DrJohnTsagiris = () => {
               Cohesion
             </h3>
             <p className="mt-[26px] mdp">
-              Despite Dr. Tsagiris's renowned expertise, the brand faced
+              Despite Dr. Tsagaris's renowned expertise, the brand faced
               challenges in establishing a cohesive online presence and
               effectively communicating its brand identity. The absence of a
               robust digital platform hindered engagement with the target
-              audience, limiting Dr. Tsagiris's ability to attract high-profile
+              audience, limiting Dr. Tsagaris's ability to attract high-profile
               clients and boost sales.
             </p>
           </div>
@@ -91,14 +91,14 @@ const DrJohnTsagiris = () => {
       </section>
       <section className="pb-[77px]">
         <div className="bg-[url('/images/jproto1.png')] h-[496px] bg-cover sm:bg-center"></div>
-        <div className="bg-[url('/images/jproto2.png')] h-[579px] bg-cover"></div>
+        <div className="bg-[url('/images/jproto2.png')] h-[579px] bg-cover sm:!bg-left"></div>
         <div className="text-center text-white w-[728px] md:w-full m-auto mt-[84px] md:p-5">
           <h3>
-            How Particular partnered with <br /> John Tsagiris
+            How Particular partnered with <br /> John Tsagaris
           </h3>
           <h4 className="mt-[26px] mb-8">
             Our philosophical approach to user experience research enabled us to
-            capture Dr. Tsagiris's target audience and their unique needs and
+            capture Dr. Tsagaris's target audience and their unique needs and
             preferences. By meticulously analysing data and insights, we sought
             to identify the behaviours, motivations, and pain points of his
             buyer persona and provide them with high quality solutions.
@@ -106,7 +106,7 @@ const DrJohnTsagiris = () => {
           <h4 className="mb-5">
             This understanding allowed us to tailor every aspect of the website
             design, logo design, and SEO strategy to resonate with Dr.
-            Tsagiris's audience in a way that doesn't just communicate with them
+            Tsagaris's audience in a way that doesn't just communicate with them
             but conveys the outcomes that would be enjoyed if they were lucky
             enough to interact with the brand.
           </h4>
@@ -190,13 +190,13 @@ const DrJohnTsagiris = () => {
         </div>
         <div className="text-center text-[#181725] mt-[92px] w-[748px] m-auto sm:w-full">
           <p className="lgp">
-            “"The brand, John Tsagiris, embodies a mission to optimise the
+            "The brand, John Tsagaris, embodies a mission to optimise the
             ageless wellness journey of our clientele, integrating traditional
             holistic disciplines with modern aesthetic methods. Together with
             Particular Agency, we're shaping a future where beauty is synonymous
-            with health and vitality.""
+            with health and vitality."
           </p>
-          <p className="uppercase text-black">Dr. John Tsagiris</p>
+          <p className="uppercase text-black my-3">Dr. John Tsagaris</p>
           <p className="text-[#666] mb-[30px]">Solopreneur</p>
           <Link href="/contacts">
             <button className="btn btn-dark">Start a project</button>
@@ -251,4 +251,4 @@ const DrJohnTsagiris = () => {
   );
 };
 
-export default DrJohnTsagiris;
+export default DrJohnTsagaris;

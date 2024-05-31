@@ -10,36 +10,38 @@ const ServicesSec: React.FC<ServicesSecProps> = () => {
       <div className="custom-container">
         <div className="flex sm:!flex-row justify-between items-start  gap-10">
           <div>
-            <h3 className="sm:!text-text-small">SERVICES</h3>
-            <div className="sm:my-8 mt-[83px] award-item-box flex sm:!flex-row items-center sm:items-start gap-4 justify-center ">
+            <h3 className="sm:!text-text-small">Services</h3>
+            <div className="sm:my-8 mt-6 award-item-box flex sm:!flex-row items-center sm:items-start gap-4 justify-center ">
               <div className="award-items">
                 <Image
-                  src="/images/top_clutch-award-1.svg"
+                  src="/images/clutch1.png"
                   alt="awards cirtificate modal image"
                   width={80}
                   height={86.48}
+                  className="object-cover"
                 />
               </div>
               <div className="award-items">
                 <Image
-                  src="/images/top_clutch-award-2.svg"
+                  src="/images/clutch2.png"
                   alt="awards cirtificate modal image"
                   width={80}
                   height={86.48}
+                  className="object-cover"
                 />
               </div>
             </div>
           </div>
           <div className="flex sm:!flex-row gap-12 sm:gap-4">
             <div className="flex flex-col gap-4">
-              <p className="hover:underline">Web & App Development</p>
-              <p className="hover:underline">UI/UX Design</p>
-              <p className="hover:underline">PPC (Pay-per-click)</p>
+              <p>Web & App Development</p>
+              <p>UI/UX Design</p>
+              <p>PPC (Pay-per-click)</p>
             </div>
             <div className="flex flex-col gap-4">
-              <p className="hover:underline">SEO</p>
-              <p className="hover:underline">Brand Identity</p>
-              <p className="hover:underline">Motion Graphics</p>
+              <p>SEO</p>
+              <p>Brand Identity</p>
+              <p>Motion Graphics</p>
             </div>
           </div>
         </div>

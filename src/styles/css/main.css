@@ -7,7 +7,6 @@ h1 {
   font-size: 2.875em;
   line-height: 1.2;
   font-weight: 700;
-  text-transform: capitalize;
   margin: 0;
 }
 
@@ -19,7 +18,6 @@ h2 {
 h3 {
   font-size: 1.75em;
   font-weight: 700;
-  text-transform: capitalize;
 }
 
 h4 {
@@ -326,7 +324,9 @@ p {
 }
 
 section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next,
-section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-prev {
+section.testimonials-section-v2
+  .testimonials-slider-swiper
+  .swiper-button-prev {
   right: 0 !important;
   left: auto;
   bottom: 33px !important;
@@ -337,22 +337,34 @@ section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-prev 
   background: rgba(255, 255, 255, 0.3);
 }
 
-section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next {
+section.testimonials-section-v2
+  .testimonials-slider-swiper
+  .swiper-button-next {
   right: 51px !important;
 }
 
-section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-prev {
+section.testimonials-section-v2
+  .testimonials-slider-swiper
+  .swiper-button-prev {
   right: calc(51px + 51px + 10px) !important;
 }
 
-section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-prev:after,
-section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next:after {
+section.testimonials-section-v2
+  .testimonials-slider-swiper
+  .swiper-button-prev:after,
+section.testimonials-section-v2
+  .testimonials-slider-swiper
+  .swiper-button-next:after {
   font-size: 20px;
   color: #fff;
 }
 
-section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-prev:hover,
-section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next:hover {
+section.testimonials-section-v2
+  .testimonials-slider-swiper
+  .swiper-button-prev:hover,
+section.testimonials-section-v2
+  .testimonials-slider-swiper
+  .swiper-button-next:hover {
   background-color: #000000;
 }
 
@@ -364,9 +376,11 @@ section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next:
 
 /* services section version two */
 .service-section-v2 {
-  background: radial-gradient(38.31% 38.31% at 50% 52.25%,
-      #151d48 0%,
-      #000 100%);
+  background: radial-gradient(
+    38.31% 38.31% at 50% 52.25%,
+    #151d48 0%,
+    #000 100%
+  );
   position: relative;
 }
 
@@ -410,12 +424,17 @@ section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next:
     justify-content: space-between;
     align-items: start;
 } */
-.clients.pagination-box .swiper.swiper-initialized.swiper-horizontal .swiper-wrapper {
+.clients.pagination-box
+  .swiper.swiper-initialized.swiper-horizontal
+  .swiper-wrapper {
   flex-direction: column;
   gap: 12px;
 }
 
-.clients.pagination-box .swiper.swiper-initialized.swiper-horizontal .swiper-wrapper .swiper-slide {
+.clients.pagination-box
+  .swiper.swiper-initialized.swiper-horizontal
+  .swiper-wrapper
+  .swiper-slide {
   width: 100% !important;
   height: 77px;
   overflow: hidden;
@@ -461,7 +480,10 @@ section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next:
   display: none;
 }
 
-.clients.pagination-box .swiper.swiper-initialized.swiper-horizontal .swiper-wrapper .swiper-slide.swiper-slide-thumb-active {
+.clients.pagination-box
+  .swiper.swiper-initialized.swiper-horizontal
+  .swiper-wrapper
+  .swiper-slide.swiper-slide-thumb-active {
   height: auto;
   transition: all 650ms ease-in-out 0s;
   -webkit-transition: all 650ms ease-in-out 0s;
@@ -470,7 +492,11 @@ section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next:
   -o-transition: all 650ms ease-in-out 0s;
 }
 
-.clients.pagination-box .swiper.swiper-initialized.swiper-horizontal .swiper-wrapper .swiper-slide.swiper-slide-thumb-active .active-slide-cont-box {
+.clients.pagination-box
+  .swiper.swiper-initialized.swiper-horizontal
+  .swiper-wrapper
+  .swiper-slide.swiper-slide-thumb-active
+  .active-slide-cont-box {
   display: block;
 }
 
@@ -585,7 +611,7 @@ section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next:
 
 .blog h4 {
   font-size: 1.125em;
-  font-weight: 500;
+  font-weight: 400;
   margin: 16px 0 12px 0;
   line-height: 24px;
 }
@@ -732,9 +758,11 @@ section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next:
 }
 
 .home-banner-section-v2 {
-  background: radial-gradient(38.31% 38.31% at 50% 52.25%,
-      #151d48 0%,
-      #000000 100%);
+  background: radial-gradient(
+    38.31% 38.31% at 50% 52.25%,
+    #151d48 0%,
+    #000000 100%
+  );
 }
 
 @media only screen and (max-width: 1100px) {
@@ -965,9 +993,11 @@ section.about-banner-section {
 /* blogs banner section */
 .blogs-banner-section {
   position: relative;
-  background: radial-gradient(38.31% 38.31% at 50% 52.25%,
-      #151d48 0%,
-      #0d0e19 100%);
+  background: radial-gradient(
+    38.31% 38.31% at 50% 52.25%,
+    #151d48 0%,
+    #0d0e19 100%
+  );
 }
 
 .featured-blogs-card {
@@ -1039,7 +1069,10 @@ span.prodress-pill.extra-class {
   border-right: 1px solid #000;
 }
 
-.input-country-select .PhoneInput .PhoneInputCountry .PhoneInputCountrySelectArrow {
+.input-country-select
+  .PhoneInput
+  .PhoneInputCountry
+  .PhoneInputCountrySelectArrow {
   font-size: 25px;
   font-weight: 800;
 }
@@ -1106,7 +1139,7 @@ span.prodress-pill.extra-class {
     0px 150px 42px 0px rgba(0, 0, 0, 0);
 }
 
-.select-item-with-search .dropdown-box .search-bar>input {
+.select-item-with-search .dropdown-box .search-bar > input {
   border-radius: 4px;
   border: 1px solid #ccc;
   background: var(--color-icons-white, #fff);
@@ -1184,9 +1217,11 @@ span.prodress-pill.extra-class {
   position: relative;
 
   position: relative;
-  background: radial-gradient(38.31% 38.31% at 50% 52.25%,
-      #151d48 0%,
-      #0d0e19 100%);
+  background: radial-gradient(
+    38.31% 38.31% at 50% 52.25%,
+    #151d48 0%,
+    #0d0e19 100%
+  );
 }
 
 @media screen and (max-width: 767px) {
@@ -1266,7 +1301,9 @@ span.prodress-pill.extra-class {
   gap: 50px;
 }
 
-.development-process-phach-item .process-item-right-cont .process-item-cards-item {
+.development-process-phach-item
+  .process-item-right-cont
+  .process-item-cards-item {
   display: flex;
   align-items: flex-start;
   gap: 19px;
@@ -1284,7 +1321,9 @@ span.prodress-pill.extra-class {
     grid-template-columns: 320px 1fr;
   }
 
-  .development-process-phach-item .process-item-right-cont .process-item-cards-item {
+  .development-process-phach-item
+    .process-item-right-cont
+    .process-item-cards-item {
     display: flex;
     flex-direction: column;
     gap: 19px;
@@ -1292,7 +1331,9 @@ span.prodress-pill.extra-class {
 }
 
 @media screen and (max-width: 767px) {
-  .development-process-phach-item .process-item-right-cont .process-item-cards-item {
+  .development-process-phach-item
+    .process-item-right-cont
+    .process-item-cards-item {
     display: flex;
     flex-direction: column;
     gap: 19px;
@@ -1437,9 +1478,11 @@ span.prodress-pill.extra-class {
   width: 100%;
   max-width: 100%;
   position: relative;
-  background: radial-gradient(38.31% 38.31% at 50% 52.25%,
-      #151d48 0%,
-      #0d0e19 100%);
+  background: radial-gradient(
+    38.31% 38.31% at 50% 52.25%,
+    #151d48 0%,
+    #0d0e19 100%
+  );
 }
 
 .landingpage-hero-section .hero-form {
@@ -2396,9 +2439,11 @@ ol {
 }
 
 .client-wrapper .gradient {
-  background: linear-gradient(270deg,
-      #121838 42.86%,
-      rgba(14, 16, 29, 0) 78.38%);
+  background: linear-gradient(
+    270deg,
+    #121838 42.86%,
+    rgba(14, 16, 29, 0) 78.38%
+  );
   max-width: 518px;
   width: 100%;
   height: 283px;
@@ -2733,7 +2778,7 @@ button.glow-button {
   -o-border-radius: 4px;
 }
 
-.glow-btn-outline button.glow-button>span {
+.glow-btn-outline button.glow-button > span {
   background: #000;
 }
 
@@ -2758,16 +2803,22 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+.h1 {
   font-family: "Manrope", sans-serif;
   margin: 0;
 }
 
-h1 {
-  font-size: 56px;
-  font-weight: 400;
-  line-height: 58.8px;
-  letter-spacing: 0.05em;
+h1,
+.h1 {
+  font-size: 56px !important;
+  font-weight: 400 !important;
+  line-height: 58.8px !important;
+  letter-spacing: 0.05em !important;
+}
+
+.seo-h1 {
+  font-size: 14px !important;
 }
 
 h2 {
@@ -2797,6 +2848,18 @@ p {
   line-height: 24px;
 }
 
+/* Add this to your global CSS or component CSS file */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 video {
   pointer-events: none;
 }
@@ -2822,8 +2885,8 @@ video::-webkit-media-controls {
 }
 
 button {
-    transition: transform 0.3s ease-in-out;
-      height: 48px;
+  transition: all 0.5s ease-in-out;
+  height: 48px;
 }
 
 .btn {
@@ -2835,20 +2898,21 @@ button {
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
-  transition: transform 0.3s ease-in-out;
-  }
+  transition: all 0.5s ease-in-out;
+}
 
-  .btn-dark {
-    background: #181725;
-    color: #fff;
-    transition: transform 0.5s ease-in-out;
-  }
+.btn:hover {
+  background: #cbd7e3;
+}
 
-.home-banner-section-v3 h1 {
-  font-size: 56px;
-  font-weight: 400;
-  line-height: 58.8px;
-  letter-spacing: 0.05em;
+.btn-dark {
+  background: #181725;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-dark:hover {
+  background: #333333;
 }
 
 .home-banner-section-v3 iframe {
@@ -2873,18 +2937,15 @@ button {
   line-height: 21px;
 }
 
+.home-banner-section-v3 .lbtn:hover {
+  background: #666666;
+}
+
 /* Portfolio */
 /* .portfolio {
     background: #E1E4E8;
     padding: 64px 0 106px;
 } */
-
-.portfolio h2 {
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 38.4px;
-  letter-spacing: 0.05em;
-}
 
 .portfolio p {
   font-size: 16px;
@@ -2910,7 +2971,6 @@ button {
 
 .services h3 {
   font-size: 24px;
-  font-weight: 700;
   line-height: 28.8px;
   letter-spacing: 0.05em;
 }
@@ -2922,12 +2982,19 @@ button {
 }
 
 .testimonials button,
-.soul button {
+.soul button,
+.about-btn {
   border: 1px solid #181725;
   height: 48px;
   padding: 8px 16px;
   gap: 8px;
   border-radius: 4px;
+}
+
+.testimonials button:hover,
+.soul button:hover,
+.about-btn:hover {
+  background: #cbd7e3;
 }
 
 .testimonials h2,
@@ -3103,12 +3170,12 @@ form .form-row .textarea {
   outline: none;
 }
 
-.input-data input:focus~label,
-.input-data select:focus~label,
-.textarea textarea:focus~label,
-.input-data input:valid~label,
-.input-data select:valid~label,
-.textarea textarea:valid~label {
+.input-data input:focus ~ label,
+.input-data select:focus ~ label,
+.textarea textarea:focus ~ label,
+.input-data input:valid ~ label,
+.input-data select:valid ~ label,
+.textarea textarea:valid ~ label {
   transform: translateY(-20px);
   font-size: 11px;
   margin-bottom: 10px;
@@ -3168,12 +3235,12 @@ select::-ms-expand {
   background: #fff;
 }
 
-.input-data input:focus~.underline:before,
-.input-data input:valid~.underline:before,
-.input-data select:valid~.underline:before,
-.textarea textarea:focus~.underline:before,
-.input-data select:focus~.underline:before,
-.textarea textarea:valid~.underline:before {
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before,
+.input-data select:valid ~ .underline:before,
+.textarea textarea:focus ~ .underline:before,
+.input-data select:focus ~ .underline:before,
+.textarea textarea:valid ~ .underline:before {
   transform: scale(1);
 }
 
@@ -3219,13 +3286,6 @@ footer .copy li {
   background: #fff;
   color: #181725;
   padding: 155px 0 119px;
-}
-
-.portfolio-v3 .title h2 {
-  font-size: 56px;
-  font-weight: 400;
-  line-height: 58.8px;
-  letter-spacing: 0.05em;
 }
 
 .projects .project {
@@ -3319,6 +3379,10 @@ footer .copy li {
   position: absolute;
 }
 
+p {
+  opacity: unset;
+}
+
 @media (max-width: 700px) {
   .john-a {
     position: unset;
@@ -3326,11 +3390,11 @@ footer .copy li {
     transform: unset;
   }
 
-    .john-a .-translate-x-1\/2 {
+  .john-a .-translate-x-1\/2 {
     --tw-translate-x: unset;
   }
 
-    .john-a .-translate-y-1\/2 {
+  .john-a .-translate-y-1\/2 {
     --tw-translate-y: unset;
   }
 
@@ -3374,7 +3438,9 @@ footer .copy li {
   .mdp,
   h4 {
     font-size: 16px !important;
+
     font-weight: 400 !important;
+
     line-height: 21px !important;
   }
 
@@ -3388,10 +3454,11 @@ footer .copy li {
 
   h1,
   h2,
-  .portfolio-v3 h3 {
+  .h1,
+   .portfolio-v3 h3 {
     font-size: 36px !important;
     font-weight: 400;
-    line-height: 150% !important;
+    line-height: 145% !important;
     letter-spacing: 0.05em;
   }
 
@@ -3443,6 +3510,10 @@ footer .copy li {
 
   .text-\[\#181725\] h4 {
     font-size: 16px !important;
+  }
+
+  .seo-h1 {
+    font-size: 12px !important;
   }
 }
 

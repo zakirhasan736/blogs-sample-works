@@ -6,9 +6,7 @@
     "blogCategory": "Seo",
     "bannerContentWidth": "",
     "title": "How Much Does SEO Cost in 2024?",
-    "description": [
-  
-    ],
+    "description": [],
     "authorName": "Particular Agency",
     "blogTimeToRead": "7 min"
   },
@@ -26,6 +24,7 @@
           "On-Page SEO: Involves optimising individual web pages to rank higher and earn more relevant traffic.",
           "Off-Page SEO (Link Building): Aims to increase the domain authority of your website through backlinks from other sites."
         ],
+        "itemTypeDescList": [],
         "listDesc": [],
         "image": "",
         "video": ""
@@ -39,6 +38,7 @@
           "Project-Based: Prices vary depending on the project's scope but can range from £1000 to £2500 for small to medium-sized projects. ",
           "Hourly Rate: SEO consultants may charge between £50 and £150 per hour, depending on their expertise."
         ],
+        "itemTypeDescList": [],
         "listDesc": [
           "When planning your SEO budget to fit your marketing strategy, think about your business's size, how competitive your industry is, and what you want to achieve in terms of growth.",
           "For small businesses, allocating 10-20% of your overall marketing budget to SEO is a good starting point.",
@@ -47,11 +47,12 @@
         "image": "",
         "video": ""
       },
-         {
+      {
         "title": "",
         "desc": "",
         "itemListDesc": [],
         "itemList": [],
+        "itemTypeDescList": [],
         "listDesc": [],
         "image": "data.png",
         "video": ""
@@ -63,6 +64,7 @@
           "This analysis ensures that your investment is safeguarded. This is done by working efficiently to meet your business objectives, ultimately maximising the return on your SEO investment."
         ],
         "itemList": [],
+        "itemTypeDescList": [],
         "listDesc": [
           "Diligent tracking and adapting based on analytics feedback, companies can optimise their online presence and drive more targeted results.",
           "Investing in SEO is a long-term strategy that can significantly enhance your online presence and drive sustainable growth.",
@@ -77,22 +79,16 @@
   "isOrdered": false,
   "BlogInfoModals": {
     "blogInfoModalImg": "graph.png",
-    "blogInfoModalTitle": "Your Business Growth is Our Responsibility.",
-    "blogInfoModalDesc1": "Enhancing your site's search engine optimisation (SEO) can be the key to unlocking new opportunities and achieving your business goals. ",
-    "blogInfoModalDesc2": "At Particular Agency, we specialise in creating tailored SEO strategies that are designed to increase your visibility and engage your target audience effectively.",
-    "blogInfoModalDesc3": "",
-    "blogInfoModalTitle2": "",
-    "blogInfoModalDesc2_1": "",
-    "blogInfoModalDesc2_2": "",
-    "blogInfoModalDesc2_3": "",
-    "blogInfoModalTitle3": "",
-    "blogInfoModalDesc3_1": "",
-    "blogInfoModalDesc3_2": "",
-    "blogInfoModalDesc3_3": "",
-    "blogInfoModalTitle4": "",
-    "blogInfoModalDesc4_1": "",
-    "blogInfoModalDesc4_2": "",
-    "blogInfoModalDesc4_3": "",
-    "blogInfoModalBtnText": "Grow with Particular"
+    "blogInfoModalBtnText": "Partner with Particular",
+    "sections": [
+      {
+        "title": "Your Business Growth is Our Responsibility.",
+        "descriptions": [
+          "Enhancing your site's search engine optimisation (SEO) can be the key to unlocking new opportunities and achieving your business goals.",
+          "At Particular Agency, we specialise in creating tailored SEO strategies that are designed to increase your visibility and engage your target audience effectively."
+        ],
+        "type": "normal"
+      }
+    ]
   }
 }

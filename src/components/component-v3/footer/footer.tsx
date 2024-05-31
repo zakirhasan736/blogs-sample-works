@@ -18,9 +18,9 @@ const Footer = () => {
 							height={87}
 						/>
 						<Image
-							src="/images/footer-mobo-logo.svg"
+							src="/images/mobile-logo.png"
 							alt="logo"
-							className="hidden sm:block"
+							className="hidden sm:block sm:mb-6"
 							width={216}
 							height={65}
 						/>
@@ -101,13 +101,13 @@ const Footer = () => {
 									<Link href="/contacts">Contact Us</Link>
 								</li>
 
-								<li>
+								{/* <li>
 									<Link
 										href="https://assessments.particularagency.co.uk/marketing-strength"
 										target="_blank">
 										Brand Assessment
 									</Link>
-								</li>
+								</li> */}
 							</ul>
 						</div>
 					</div>
