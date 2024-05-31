@@ -3367,6 +3367,10 @@ footer .copy li {
   position: absolute;
 }
 
+p {
+  opacity: unset;
+}
+
 @media (max-width: 700px) {
   .john-a {
     position: unset;
