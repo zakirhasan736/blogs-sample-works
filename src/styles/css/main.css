@@ -324,9 +324,7 @@ p {
 }
 
 section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next,
-section.testimonials-section-v2
-  .testimonials-slider-swiper
-  .swiper-button-prev {
+section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-prev {
   right: 0 !important;
   left: auto;
   bottom: 33px !important;
@@ -337,34 +335,22 @@ section.testimonials-section-v2
   background: rgba(255, 255, 255, 0.3);
 }
 
-section.testimonials-section-v2
-  .testimonials-slider-swiper
-  .swiper-button-next {
+section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next {
   right: 51px !important;
 }
 
-section.testimonials-section-v2
-  .testimonials-slider-swiper
-  .swiper-button-prev {
+section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-prev {
   right: calc(51px + 51px + 10px) !important;
 }
 
-section.testimonials-section-v2
-  .testimonials-slider-swiper
-  .swiper-button-prev:after,
-section.testimonials-section-v2
-  .testimonials-slider-swiper
-  .swiper-button-next:after {
+section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-prev:after,
+section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next:after {
   font-size: 20px;
   color: #fff;
 }
 
-section.testimonials-section-v2
-  .testimonials-slider-swiper
-  .swiper-button-prev:hover,
-section.testimonials-section-v2
-  .testimonials-slider-swiper
-  .swiper-button-next:hover {
+section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-prev:hover,
+section.testimonials-section-v2 .testimonials-slider-swiper .swiper-button-next:hover {
   background-color: #000000;
 }
 
@@ -376,11 +362,9 @@ section.testimonials-section-v2
 
 /* services section version two */
 .service-section-v2 {
-  background: radial-gradient(
-    38.31% 38.31% at 50% 52.25%,
-    #151d48 0%,
-    #000 100%
-  );
+  background: radial-gradient(38.31% 38.31% at 50% 52.25%,
+      #151d48 0%,
+      #000 100%);
   position: relative;
 }
 
@@ -424,17 +408,12 @@ section.testimonials-section-v2
     justify-content: space-between;
     align-items: start;
 } */
-.clients.pagination-box
-  .swiper.swiper-initialized.swiper-horizontal
-  .swiper-wrapper {
+.clients.pagination-box .swiper.swiper-initialized.swiper-horizontal .swiper-wrapper {
   flex-direction: column;
   gap: 12px;
 }
 
-.clients.pagination-box
-  .swiper.swiper-initialized.swiper-horizontal
-  .swiper-wrapper
-  .swiper-slide {
+.clients.pagination-box .swiper.swiper-initialized.swiper-horizontal .swiper-wrapper .swiper-slide {
   width: 100% !important;
   height: 77px;
   overflow: hidden;
@@ -480,10 +459,7 @@ section.testimonials-section-v2
   display: none;
 }
 
-.clients.pagination-box
-  .swiper.swiper-initialized.swiper-horizontal
-  .swiper-wrapper
-  .swiper-slide.swiper-slide-thumb-active {
+.clients.pagination-box .swiper.swiper-initialized.swiper-horizontal .swiper-wrapper .swiper-slide.swiper-slide-thumb-active {
   height: auto;
   transition: all 650ms ease-in-out 0s;
   -webkit-transition: all 650ms ease-in-out 0s;
@@ -492,11 +468,7 @@ section.testimonials-section-v2
   -o-transition: all 650ms ease-in-out 0s;
 }
 
-.clients.pagination-box
-  .swiper.swiper-initialized.swiper-horizontal
-  .swiper-wrapper
-  .swiper-slide.swiper-slide-thumb-active
-  .active-slide-cont-box {
+.clients.pagination-box .swiper.swiper-initialized.swiper-horizontal .swiper-wrapper .swiper-slide.swiper-slide-thumb-active .active-slide-cont-box {
   display: block;
 }
 
@@ -758,11 +730,9 @@ section.testimonials-section-v2
 }
 
 .home-banner-section-v2 {
-  background: radial-gradient(
-    38.31% 38.31% at 50% 52.25%,
-    #151d48 0%,
-    #000000 100%
-  );
+  background: radial-gradient(38.31% 38.31% at 50% 52.25%,
+      #151d48 0%,
+      #000000 100%);
 }
 
 @media only screen and (max-width: 1100px) {
@@ -993,11 +963,9 @@ section.about-banner-section {
 /* blogs banner section */
 .blogs-banner-section {
   position: relative;
-  background: radial-gradient(
-    38.31% 38.31% at 50% 52.25%,
-    #151d48 0%,
-    #0d0e19 100%
-  );
+  background: radial-gradient(38.31% 38.31% at 50% 52.25%,
+      #151d48 0%,
+      #0d0e19 100%);
 }
 
 .featured-blogs-card {
@@ -1069,10 +1037,7 @@ span.prodress-pill.extra-class {
   border-right: 1px solid #000;
 }
 
-.input-country-select
-  .PhoneInput
-  .PhoneInputCountry
-  .PhoneInputCountrySelectArrow {
+.input-country-select .PhoneInput .PhoneInputCountry .PhoneInputCountrySelectArrow {
   font-size: 25px;
   font-weight: 800;
 }
@@ -1139,7 +1104,7 @@ span.prodress-pill.extra-class {
     0px 150px 42px 0px rgba(0, 0, 0, 0);
 }
 
-.select-item-with-search .dropdown-box .search-bar > input {
+.select-item-with-search .dropdown-box .search-bar>input {
   border-radius: 4px;
   border: 1px solid #ccc;
   background: var(--color-icons-white, #fff);
@@ -1217,11 +1182,9 @@ span.prodress-pill.extra-class {
   position: relative;
 
   position: relative;
-  background: radial-gradient(
-    38.31% 38.31% at 50% 52.25%,
-    #151d48 0%,
-    #0d0e19 100%
-  );
+  background: radial-gradient(38.31% 38.31% at 50% 52.25%,
+      #151d48 0%,
+      #0d0e19 100%);
 }
 
 @media screen and (max-width: 767px) {
@@ -1301,9 +1264,7 @@ span.prodress-pill.extra-class {
   gap: 50px;
 }
 
-.development-process-phach-item
-  .process-item-right-cont
-  .process-item-cards-item {
+.development-process-phach-item .process-item-right-cont .process-item-cards-item {
   display: flex;
   align-items: flex-start;
   gap: 19px;
@@ -1321,9 +1282,7 @@ span.prodress-pill.extra-class {
     grid-template-columns: 320px 1fr;
   }
 
-  .development-process-phach-item
-    .process-item-right-cont
-    .process-item-cards-item {
+  .development-process-phach-item .process-item-right-cont .process-item-cards-item {
     display: flex;
     flex-direction: column;
     gap: 19px;
@@ -1331,9 +1290,7 @@ span.prodress-pill.extra-class {
 }
 
 @media screen and (max-width: 767px) {
-  .development-process-phach-item
-    .process-item-right-cont
-    .process-item-cards-item {
+  .development-process-phach-item .process-item-right-cont .process-item-cards-item {
     display: flex;
     flex-direction: column;
     gap: 19px;
@@ -1478,11 +1435,9 @@ span.prodress-pill.extra-class {
   width: 100%;
   max-width: 100%;
   position: relative;
-  background: radial-gradient(
-    38.31% 38.31% at 50% 52.25%,
-    #151d48 0%,
-    #0d0e19 100%
-  );
+  background: radial-gradient(38.31% 38.31% at 50% 52.25%,
+      #151d48 0%,
+      #0d0e19 100%);
 }
 
 .landingpage-hero-section .hero-form {
@@ -2439,11 +2394,9 @@ ol {
 }
 
 .client-wrapper .gradient {
-  background: linear-gradient(
-    270deg,
-    #121838 42.86%,
-    rgba(14, 16, 29, 0) 78.38%
-  );
+  background: linear-gradient(270deg,
+      #121838 42.86%,
+      rgba(14, 16, 29, 0) 78.38%);
   max-width: 518px;
   width: 100%;
   height: 283px;
@@ -2778,7 +2731,7 @@ button.glow-button {
   -o-border-radius: 4px;
 }
 
-.glow-btn-outline button.glow-button > span {
+.glow-btn-outline button.glow-button>span {
   background: #000;
 }
 
@@ -3170,12 +3123,12 @@ form .form-row .textarea {
   outline: none;
 }
 
-.input-data input:focus ~ label,
-.input-data select:focus ~ label,
-.textarea textarea:focus ~ label,
-.input-data input:valid ~ label,
-.input-data select:valid ~ label,
-.textarea textarea:valid ~ label {
+.input-data input:focus~label,
+.input-data select:focus~label,
+.textarea textarea:focus~label,
+.input-data input:valid~label,
+.input-data select:valid~label,
+.textarea textarea:valid~label {
   transform: translateY(-20px);
   font-size: 11px;
   margin-bottom: 10px;
@@ -3235,12 +3188,12 @@ select::-ms-expand {
   background: #fff;
 }
 
-.input-data input:focus ~ .underline:before,
-.input-data input:valid ~ .underline:before,
-.input-data select:valid ~ .underline:before,
-.textarea textarea:focus ~ .underline:before,
-.input-data select:focus ~ .underline:before,
-.textarea textarea:valid ~ .underline:before {
+.input-data input:focus~.underline:before,
+.input-data input:valid~.underline:before,
+.input-data select:valid~.underline:before,
+.textarea textarea:focus~.underline:before,
+.input-data select:focus~.underline:before,
+.textarea textarea:valid~.underline:before {
   transform: scale(1);
 }
 
@@ -3455,7 +3408,7 @@ p {
   h1,
   h2,
   .h1,
-   .portfolio-v3 h3 {
+  .portfolio-v3 h3 {
     font-size: 36px !important;
     font-weight: 400;
     line-height: 145% !important;
@@ -3581,4 +3534,9 @@ li.services-list.active button.services-item-btn {
   font-weight: 400 !important;
   line-height: 160%;
   opacity: 1;
+}
+
+li.blogDetailss-list.active button.blogDetailss-item-btn {
+  font-weight: 600;
+  text-decoration: underline;
 }
