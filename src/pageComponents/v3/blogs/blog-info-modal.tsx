@@ -29,7 +29,7 @@ const BlogInfoModal: React.FC<BlogsInfoModalProps> = ({ data }) => (
 		</div>
 
 		{data.sections && data.blogInfoModalBtnText && (
-			<div className="info-modal-info-main-cont pt-[77px] sm:pt-[60px] pb-[65px] sm:pb-[55px] bg-mono-90">
+			<div className="info-modal-info-main-cont pt-[77px] sm:pt-[60px] pb-[65px] sm:pb-[55px] sm:px-4  bg-mono-90">
 				<div className="info-modal-info-main-cont-wrap max-w-[655px] w-full mx-auto">
 					{data.sections.map((section, index) => (
 						<div key={index} className="mb-10">
