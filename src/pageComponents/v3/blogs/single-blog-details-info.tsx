@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 
 interface SingleBlogDetailsInfoProps {
 	data: {
@@ -12,20 +11,22 @@ interface SingleBlogDetailsInfoProps {
 			desc?: string;
 			itemListDesc: string[];
 			itemList: string[];
-			itemTypeDescList?: {title: string; desc: string }[];
+			itemTypeDescList?: { title: string; desc: string }[];
 			listDesc?: string[][];
 			image?: string;
 			video?: string;
 		}[];
 	};
+	blogContentItemsRef: React.MutableRefObject<HTMLDivElement[]>;
 }
 
 const SingleBlogDetailsInfo: React.FC<SingleBlogDetailsInfoProps> = ({
-  data,
+	data,
+	blogContentItemsRef,
 }) => {
-  return (
+	return (
 		<>
-			<div className="max-w-[650px] w-full  md:pr-[20px] sm:px-[16px]">
+			<div className="max-w-[650px] w-full md:pr-[20px] sm:px-[16px]">
 				{data.singleBlogDetailsDesc && (
 					<p className="!opacity-100 blog-first-desc text-[16px] text-center text-[#181725] font-accent font-normal leading-6 mb-10">
 						{data.singleBlogDetailsDesc}
@@ -45,7 +46,10 @@ const SingleBlogDetailsInfo: React.FC<SingleBlogDetailsInfoProps> = ({
 			<div className="blog-details-info-wrap mb-[67px] md:mb-[45px] sm:mb-[30px]">
 				{data.blogDetailsInfoItems &&
 					data.blogDetailsInfoItems.map((item, index) => (
-						<div className="blog-details-info-item mb-7" key={index}>
+						<div
+							className="blog-details-info-item mb-7"
+							key={index}
+							ref={el => (blogContentItemsRef.current[index] = el!)}>
 							{(item.image || item.video) && (
 								<div className="blog-details-info-image mb-[77px] md:mb-[45px] sm:mb-[35px] w-full max-w-full h-[400px]">
 									{item.image && (
@@ -74,7 +78,6 @@ const SingleBlogDetailsInfo: React.FC<SingleBlogDetailsInfoProps> = ({
 									)}
 								</div>
 							)}
-
 							<div className="max-w-[650px] w-full md:pr-[20px] sm:px-[16px]">
 								{item.title && (
 									<h3 className="blog-details-info-title mb-4 sm:mb-7 text-[16px] text-left text-[#181725] font-primary font-bold leading-6">
@@ -111,7 +114,6 @@ const SingleBlogDetailsInfo: React.FC<SingleBlogDetailsInfoProps> = ({
 															{listItem}
 														</li>
 													))}
-
 												</ul>
 											)}
 											{item.itemTypeDescList &&
@@ -153,5 +155,7 @@ const SingleBlogDetailsInfo: React.FC<SingleBlogDetailsInfoProps> = ({
 		</>
 	);
 };
+
+SingleBlogDetailsInfo.displayName = "SingleBlogDetailsInfo";
 
 export default SingleBlogDetailsInfo;

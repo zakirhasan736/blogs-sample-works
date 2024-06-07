@@ -88,16 +88,7 @@
         "image": "",
         "video": ""
       },
-      {
-        "title": "",
-        "desc": "",
-        "itemListDesc": [],
-        "itemList": [],
-        "itemTypeDescList": [],
-        "listDesc": [],
-        "image": "what-do-marketing.png",
-        "video": ""
-      },
+ 
       {
         "title": "Selecting the Right Marketing Agency: A Six-Point Checklist",
         "desc": "",
@@ -112,7 +103,7 @@
         ],
         "itemTypeDescList": [],
         "listDesc": [],
-        "image": "",
+        "image": "what-do-marketing.png",
         "video": ""
       },
       {
@@ -126,12 +117,36 @@
             "desc": "The first step typically involves a consultation or discovery meeting. This is where you and the agency build your initial relationship. Expect to discuss your business goals, target audience, current marketing activities, and what you hope to achieve with the agency's help. It's a crucial phase for laying the groundwork and ensuring both parties are aligned."
           },
           {
-            "title": "2. Strategic Planning",
-            "desc": "In this phase, the agency will develop a strategic plan tailored to your business needs. This includes identifying key performance indicators, setting goals, and outlining the steps needed to achieve them."
+            "title": "2. In-depth Market and Competitive Analysis",
+            "desc": "Once the initial discussions are out of the way, the agency will likely conduct a thorough market analysis. This includes looking at your competitors, understanding your industry's landscape, and identifying opportunities for your brand. The goal here is to gather actionable insights that will inform your marketing strategy."
+          },
+          {
+            "title": "3. Strategy Development",
+            "desc": "With a clear understanding of your business and its environment, the next step is strategy development. The agency will craft a customised marketing strategy that outlines the approach for achieving your goals. This can include digital marketing services, social media marketing plans, content creation strategies, and more, depending on your needs."
+          },
+          {
+            "title": "4. Implementation Planning",
+            "desc": "With a strategy in place, the focus shifts to implementation. This process involves planning out the operations of executing the proposed marketing activities. From timelines and responsibilities to setting up necessary tools and platforms like Google Analytics, email marketing systems, and social media accounts."
+          },
+          {
+            "title": "5. Campaign Execution",
+            "desc": "The agency will start rolling out marketing campaigns according to the plan. This could involve launching a new website, starting PPC campaigns, publishing content, or kicking off social media activities. Regular updates and communications from the agency should be expected during this phase."
+          },
+          {
+            "title": "6. Monitoring and Reporting",
+            "desc": "With campaigns in motion, the agency will monitor performance closely. Using tools like Google Analytics to track progress against your marketing goals. Using regular reports that provide insights into what's working, what's not, and how your investment is translating into results."
+          },
+          {
+            "title": "7. Review and Optimisation",
+            "desc": "The final step in the process is an ongoing one. Based on the performance data, the agency will review the effectiveness of the marketing strategies and make necessary adjustments."
+          },
+          {
+            "title": "",
+            "desc": "Optimisation is key to improving Return of Investment. Ensuring that your marketing efforts continue to align with your evolving business objectives. Embarking on this journey with a new marketing agency is an exciting opportunity to grow your business. By understanding these seven steps, you'll be better prepared to collaborate effectively with your agency and drive meaningful results. "
           }
         ],
         "listDesc": [
-          "The first step typically involves a consultation or discovery meeting. This is where you and the agency build your initial relationship. Expect to discuss your business goals, target audience, current marketing activities, and what you hope to achieve with the agency's help. It's a crucial phase for laying the groundwork and ensuring both parties are aligned."
+          ""
         ],
         "image": "",
         "video": ""
@@ -151,13 +166,13 @@
       },
       {
         "title": "Measuring Success: Beyond Google Analytics",
-        "desc": "Embarking on a partnership with a new marketing agency is a significant step for any business. To help you navigate this journey, here are seven key steps you can expect when starting with a new marketing agency:",
-        "itemListDesc": [],
-        "itemList": [],
-        
-        "listDesc": [
-          "While Google Analytics is a powerful tool for measuring website traffic and behaviour, a comprehensive digital marketing strategy requires a broader set of metrics to truly gauge success."
+        "desc": "While Google Analytics is a powerful tool for measuring website traffic and behaviour, a comprehensive digital marketing strategy requires a broader set of metrics to truly gauge success.",
+        "itemListDesc": [
+          "Conversion rates, customer lifetime value, brand awareness metrics, and social media engagement rates are just some of the additional metrics agencies might track to provide a fuller picture of your marketing campaign's effectiveness."
         ],
+        "itemList": [],
+        "itemTypeDescList": [],
+        "listDesc": [""],
         "image": "",
         "video": ""
       }
