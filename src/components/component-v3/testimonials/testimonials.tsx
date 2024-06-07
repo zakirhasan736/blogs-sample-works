@@ -94,21 +94,35 @@ const TestimonialSec: React.FC = () => {
 		return stars;
 	};
 
-  const handleAudioPlay = (audioFile: string) => {
-		if (currentAudio && isPlaying === audioFile) {
+const handleAudioPlay = (audioFile: string) => {
+	if (currentAudio && isPlaying === audioFile) {
+		currentAudio.pause();
+		setCurrentAudio(null);
+		setIsPlaying(null);
+	} else {
+		if (currentAudio) {
 			currentAudio.pause();
+		}
+		const audio = new Audio(`/images/testimonials/${audioFile}`);
+		audio.play();
+		audio.addEventListener("ended", () => {
 			setCurrentAudio(null);
 			setIsPlaying(null);
-		} else {
-			if (currentAudio) {
-				currentAudio.pause();
-			}
-			const audio = new Audio(`/images/testimonials/${audioFile}`);
-			audio.play();
-			setCurrentAudio(audio);
-			setIsPlaying(audioFile);
-		}
-	};
+		});
+		setCurrentAudio(audio);
+		setIsPlaying(audioFile);
+	}
+};
+
+const handleAudioPause = () => {
+	if (currentAudio) {
+		currentAudio.pause();
+		setCurrentAudio(null);
+		setIsPlaying(null);
+	}
+};
+
+
 	return (
 		<section className="testimonials bg-[#fff] text-[#181725] pt-[101px] pb-[48px] sm:pt-[35px] sm:pb-[80px]">
 			<div className="custom-container">
@@ -211,20 +225,34 @@ const TestimonialSec: React.FC = () => {
 																“{testimonial.clientWord}”
 															</p>
 														)}
+
 														{testimonial.audioFile && (
 															<div className="audio-testi-word-box !flex items-center gap-4 mt-4">
-																<button
-																	className="play-audio !border-0 hover:!bg-transparent  focus:!bg-transparent !p-0"
-																	onClick={() =>
-																		handleAudioPlay(testimonial.audioFile)
-																	}>
-																	<Image
-																		src="/images/audio-play-button.svg"
-																		alt="audio play button"
-																		width={24}
-																		height={24}
-																	/>
-																</button>
+																{isPlaying === testimonial.audioFile ? (
+																	<button
+																		className="pause-audio !border-0 hover:!bg-transparent focus:!bg-transparent !p-0"
+																		onClick={() => handleAudioPause()}>
+																		<Image
+																			src="/images/pause-button.png"
+																			alt="audio pause button"
+																			width={24}
+																			height={24}
+																		/>
+																	</button>
+																) : (
+																	<button
+																		className="play-audio !border-0 hover:!bg-transparent focus:!bg-transparent !p-0"
+																		onClick={() =>
+																			handleAudioPlay(testimonial.audioFile)
+																		}>
+																		<Image
+																			src="/images/audio-play-button.svg"
+																			alt="audio play button"
+																			width={24}
+																			height={24}
+																		/>
+																	</button>
+																)}
 																<div className="audio-wave-sound-box">
 																	<Image
 																		src="/images/audio-waves.svg"
