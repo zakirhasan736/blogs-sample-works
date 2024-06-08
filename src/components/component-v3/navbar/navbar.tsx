@@ -6,7 +6,10 @@ import { usePathname } from "next/navigation";
 const Navbar = () => {
   const pathname = usePathname() || "/";
 
-  const isPortfolioPage = pathname === "/portfolio" || pathname === "/services";
+  const isPortfolioPage =
+    pathname === "/portfolio" ||
+    pathname === "/services" ||
+    pathname === "/web-packages";
 
   const navColor = () => {
     if (isPortfolioPage) {
