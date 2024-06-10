@@ -220,15 +220,15 @@ const TestimonialSec: React.FC = () => {
 									},
 								}}
 								className="testimonials w-full !overflow-visible">
-								{testimonials.map((testimonial, index) => (
+								{testimonials.map((testimonial, index) => ( 
 									<SwiperSlide key={index}>
 										<div className="testimonials-card-item pb-4 max-w-[371px] w-full">
 											<h4 className="project-title mb-6 capitalize md:mb-5 sm:mb-4 text-mono-100 text-center sm:text-left text-[24px] sm:!text-[18px] font-primary font-light leading-[120%] tracking-[1.2px]">
 												{testimonial.ProjectTitle}
-											</h4>
+											</h4> 
 											<div className="testimonials-cont-box relative max-w-[371px] h-[476px] w-full rounded-[4px] overflow-hidden">
 												<div className="testimonials-modal-item max-w-[371px] h-[476px] relative rounded-[4px] overflow-hidden">
-													{testimonial.isVideo ? (
+													 {testimonial.isVideo ? (
 														<video
 															src={`/images/testimonials/${testimonial.projectModalVideo}`}
 															autoPlay={true}
@@ -246,6 +246,7 @@ const TestimonialSec: React.FC = () => {
 															className="w-full h-full object-cover"
 														/>
 													)}
+													
 												</div>
 												<div className="testimonials-overly-cont absolute top-0 left-0 w-full h-full flex flex-col justify-end items-start px-[24px] py-[32px]">
 													<div className="content">
