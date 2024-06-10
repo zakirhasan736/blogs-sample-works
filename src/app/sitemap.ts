@@ -65,7 +65,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.5,
     },
     {
-      url: `${NEXT_PUBLIC_API_URL}features//colour-craft?colors=000000-ffffff-4685ff-f2f2f2-ffb084`,
+      url: `${NEXT_PUBLIC_API_URL}features/colour-craft?colors=000000-ffffff-4685ff-f2f2f2-ffb084`,
       lastModified: new Date(),
       changeFrequency: "daily",
       priority: 0.5,

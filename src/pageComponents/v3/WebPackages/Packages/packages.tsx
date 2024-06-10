@@ -71,52 +71,60 @@ const packages = [
 
 export default function Packages() {
   return (
-    <div className="custom-container grid grid-cols-2 sm:grid-cols-1 gap-6 p-6">
-      {packages.map((plan, index) => (
-        <div key={index} className={`rounded p-2 ${plan.bgColor}`}>
-          <header
-            className="text-center relative mb-5 text-white p-[22px]"
-            style={{
-              backgroundImage: `url(/images/${plan.imgSrc})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-            }}
-          >
-            <p className="mdp">
-              Particular Lite <br />{" "}
-              <span className="font-bold">{plan.title}</span>
-            </p>
-            <span className="block my-2">from</span>
-            <h5 className="text-[24px] font-bold">{plan.price}</h5>
-            {plan.popular && (
-              <div className="absolute top-2 right-2 text-[white] bg-[#026FEE] py-2 px-3 h-10 w-20 rounded-[96px]">
-                Popular
-              </div>
-            )}
-          </header>
-          <div className="text-sm p-2">
-            <div className="flex gap-6">
-              <p>Ideal for:</p>
-              <p className="!font-medium">{plan.idealFor}</p>
-            </div>
-            <div className="flex gap-8 mt-[41px]">
-              <p className="underline">Includes*:</p>
-              <ul className="!list-disc space-y-2 sm:ml-4">
-                {plan.includes.map((item, idx) => (
-                  <li key={idx} className="!list-disc">
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-          <div className="text-right">
-            <button className={`btn w-[118px] ${plan.btnType}`}>
-              {plan.buttonLabel}
-            </button>
-          </div>
-        </div>
-      ))}
-    </div>
-  );
+		<section className="web-packages-section pt-[73px] pb-[79px] py-[60px]">
+			<div className="custom-container">
+				<div className="web-packages-wrapper grid grid-cols-12 sm:grid-cols-6 gap-6">
+					{packages.map((plan, index) => (
+						<div
+							key={index}
+							className={`packasges-card-item rounded col-span-6 flex flex-col p-2 ${plan.bgColor}`}>
+							<header
+								className="text-center relative mb-5 text-white p-[22px]"
+								style={{
+									backgroundImage: `url(/images/${plan.imgSrc})`,
+									backgroundSize: "cover",
+									backgroundPosition: "center",
+								}}>
+								<p className="mdp">
+									Particular Lite <br />{" "}
+									<span className="font-bold">{plan.title}</span>
+								</p>
+								<span className="block my-2">from</span>
+								<h5 className="text-[24px] font-bold">{plan.price}</h5>
+								{plan.popular && (
+									<div className="absolute top-2 right-2 text-[white] bg-[#026FEE] py-2 px-3 h-10 w-20 rounded-[96px]">
+										Popular
+									</div>
+								)}
+							</header>
+							<div className="text-sm p-2">
+								<div className="flex gap-6">
+									<p>Ideal for:</p>
+									<p className="!font-medium">{plan.idealFor}</p>
+								</div>
+								<div className="flex gap-8 mt-[41px]">
+									<p className="underline">Includes*:</p>
+									<ul className="!list-disc space-y-2 sm:ml-4">
+										{plan.includes.map((item, idx) => (
+											<li key={idx} className="!list-disc">
+												{item}
+											</li>
+										))}
+									</ul>
+								</div>
+							</div>
+							<div className="text-right mt-auto">
+								<button className={`btn w-[118px] ${plan.btnType}`}>
+									{plan.buttonLabel}
+								</button>
+							</div>
+						</div>
+					))}
+				</div>
+				<p className="package-note-text text-center mt-[46px] text-[14px] text-[#333] font-accent font-medium leading-[150%]">
+					*Additional services are available to add to these packages.
+				</p>
+			</div>
+		</section>
+	);
 }

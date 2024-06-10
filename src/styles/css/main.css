@@ -2775,7 +2775,8 @@ h1,
   font-size: 14px !important;
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 40px;
   font-weight: 400;
   line-height: 48px;
@@ -3065,7 +3066,8 @@ button {
   border-bottom: 1px solid #fff;
 }
 
-.contacts .text-sm, .grid .text-sm {
+.contacts .text-sm,
+.grid .text-sm {
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
@@ -3236,7 +3238,8 @@ footer .copy li {
   background-color: rgb(22, 22, 23);
 }
 
-.portfolio-v3, .web-packages {
+.portfolio-v3,
+.web-packages-main-wrapper {
   background: #fff;
   color: #181725;
   padding: 155px 0 119px;
