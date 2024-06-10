@@ -3540,3 +3540,7 @@ li.blogDetailss-list.active button.blogDetailss-item-btn {
   font-weight: 600;
   text-decoration: underline;
 }
+
+.swiper-slide:first-child .testimonials-card-item .testimonials-cont-box:hover .testimonials-overly-cont .content {
+  transform: none;
+}
