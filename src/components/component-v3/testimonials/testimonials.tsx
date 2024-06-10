@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Image, Link } from "@packages/packages";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
@@ -24,12 +24,54 @@ interface TestimonialsData {
 }
 
 const TestimonialSec: React.FC = () => {
-  const [currentAudio, setCurrentAudio] = useState<HTMLAudioElement | null>(
+	const [currentAudio, setCurrentAudio] = useState<HTMLAudioElement | null>(
 		null,
 	);
 	const [isPlaying, setIsPlaying] = useState<string | null>(null);
+	const [autoplay, setAutoplay] = useState<boolean>(false);
+	const sectionRef = useRef<HTMLDivElement>(null);
+	const swiperRef = useRef<any>(null);
 
 	const testimonials = TestimonialsData.TestimonialsSlideData;
+
+	useEffect(() => {
+		const observer = new IntersectionObserver(
+			([entry]) => {
+				console.log("IntersectionObserver entry:", entry);
+				if (entry.isIntersecting) {
+					console.log("Section is in view, starting autoplay");
+					setAutoplay(true);
+				} else {
+					console.log("Section is out of view, stopping autoplay");
+					setAutoplay(false);
+				}
+			},
+			{
+				root: null,
+				threshold: 0.1,
+			},
+		);
+
+		if (sectionRef.current) {
+			observer.observe(sectionRef.current);
+		}
+
+		return () => {
+			if (sectionRef.current) {
+				observer.unobserve(sectionRef.current);
+			}
+		};
+	}, []);
+
+	useEffect(() => {
+		if (swiperRef.current && swiperRef.current.autoplay) {
+			if (autoplay) {
+				swiperRef.current.autoplay.start();
+			} else {
+				swiperRef.current.autoplay.stop();
+			}
+		}
+	}, [autoplay]);
 
 	const renderRatingStars = (rating: number) => {
 		const filledStars = Math.floor(rating);
@@ -80,7 +122,7 @@ const TestimonialSec: React.FC = () => {
 						xmlns="http://www.w3.org/2000/svg"
 						width="16"
 						height="16"
-						viewBox="0 0 16 16"
+						viewBox="0  16 16"
 						fill="none">
 						<path
 							d="M7.27995 1.91172C7.60141 1.35983 8.39875 1.35983 8.72015 1.91172L10.5835 5.11087L14.2019 5.89442C14.8261 6.02958 15.0725 6.78785 14.6469 7.26412L12.1801 10.0249L12.5531 13.7083C12.6174 14.3437 11.9724 14.8123 11.3879 14.5548L8.00008 13.0619L4.61219 14.5548C4.02774 14.8123 3.38271 14.3437 3.44705 13.7083L3.81999 10.0249L1.35323 7.26412C0.92768 6.78785 1.17406 6.02958 1.79827 5.89442L5.41664 5.11087L7.27995 1.91172Z"
@@ -94,37 +136,39 @@ const TestimonialSec: React.FC = () => {
 		return stars;
 	};
 
-const handleAudioPlay = (audioFile: string) => {
-	if (currentAudio && isPlaying === audioFile) {
-		currentAudio.pause();
-		setCurrentAudio(null);
-		setIsPlaying(null);
-	} else {
-		if (currentAudio) {
+	const handleAudioPlay = (audioFile: string) => {
+		if (currentAudio && isPlaying === audioFile) {
 			currentAudio.pause();
-		}
-		const audio = new Audio(`/images/testimonials/${audioFile}`);
-		audio.play();
-		audio.addEventListener("ended", () => {
 			setCurrentAudio(null);
 			setIsPlaying(null);
-		});
-		setCurrentAudio(audio);
-		setIsPlaying(audioFile);
-	}
-};
+		} else {
+			if (currentAudio) {
+				currentAudio.pause();
+			}
+			const audio = new Audio(`/images/testimonials/${audioFile}`);
+			audio.play();
+			audio.addEventListener("ended", () => {
+				setCurrentAudio(null);
+				setIsPlaying(null);
+			});
+			setCurrentAudio(audio);
+			setIsPlaying(audioFile);
+		}
+	};
 
-const handleAudioPause = () => {
-	if (currentAudio) {
-		currentAudio.pause();
-		setCurrentAudio(null);
-		setIsPlaying(null);
-	}
-};
-
+	const handleAudioPause = () => {
+		if (currentAudio) {
+			currentAudio.pause();
+			setCurrentAudio(null);
+			setIsPlaying(null);
+		}
+	};
 
 	return (
-		<section className="testimonials bg-[#fff] text-[#181725] pt-[101px] pb-[48px] sm:pt-[35px] sm:pb-[80px]">
+		<section
+			className="testimonials bg-[#fff] text-[#181725] pt-[101px] pb-[48px] sm:pt-[35px] sm:pb-[80px]"
+			ref={sectionRef}>
+
 			<div className="custom-container">
 				<div className="section-title-box sm:flex sm:flex-col sm:gap-[15px]">
 					<div className="flex gap-20 lg:gap-[30px] sm:flex-col sm:gap-5">
@@ -145,11 +189,16 @@ const handleAudioPause = () => {
 					<div className="testimonials-card-slide-container mb-4 !overflow-hidden">
 						<div className="testimonilas-card-items max-w-[766px] md:max-w-[650px] sm:max-w-[280px] w-full ml-0">
 							<Swiper
+								onSwiper={swiper => (swiperRef.current = swiper)}
 								spaceBetween={10}
-								autoplay={{
-									delay: 6000,
-									disableOnInteraction: false,
-								}}
+								autoplay={
+									autoplay
+										? {
+												delay: 4500,
+												disableOnInteraction: false,
+											}
+										: false
+								}
 								navigation={false}
 								modules={[Autoplay]}
 								breakpoints={{
