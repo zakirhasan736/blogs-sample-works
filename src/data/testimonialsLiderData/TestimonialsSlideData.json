@@ -1,6 +1,21 @@
 {
   "TestimonialsSlideData": [
     {
+      "ProjectTitle": "Stories of our Generations",
+      "clientName": "Jude Rhodes",
+      "clientWord": "",
+      "audioFile": "Jude-Testimonial.wav",
+      "rating": 5,
+      "isVideo": false,
+      "projectModalImage": "stories-of-generetion-modal-img.png",
+      "rettingProvider": "trusted-provider-img-1.svg",
+      "categoryItems": [
+        "Brand Identity",
+        "Photography",
+        "Web Design"
+      ]
+    },
+    {
       "ProjectTitle": "Tsagaris Clinic",
       "clientName": "Dr John Tsagaris",
       "clientWord": "My partnership with Particular Agency for my web application development has been nothing short of remarkable.",
