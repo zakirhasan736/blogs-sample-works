@@ -4,11 +4,17 @@ import ContactForm from "@/components/component-v3/contact-form/contact";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { motion } from "framer-motion";
 
 const ContactVersionThree = () => {
   return (
     <section className="custom-container contacts contact-sec sm:px-8 grid grid-cols-12 sm:grid-cols-6 gap-5">
-      <div className="lg:px-8 col-span-6">
+      <motion.div
+        initial={{ opacity: 0, x: -50 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1 }}
+        className="lg:px-8 col-span-6"
+      >
         <h1>Get in touch</h1>
         <p className="text-lg mt-4">
           Fill in the form below, and we’ll be in touch.
@@ -36,10 +42,15 @@ const ContactVersionThree = () => {
             </p>
           </div>
         </div>
-      </div>
-      <div className="contact-form sm:px-8 col-span-6">
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, x: 50 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1 }}
+        className="contact-form sm:px-8 col-span-6"
+      >
         <ContactForm className="" />
-      </div>
+      </motion.div>
       <div className="hidden sm:block px-8">
         <div className="mt-[65px]">
           <h6 className="text-text-extra-small mb-2 uppercase">

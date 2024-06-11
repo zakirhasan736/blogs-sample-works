@@ -44,7 +44,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
             className="mt-5"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 1 }}
+            transition={{ duration: 1, delay: 0.5 }}
           >
             We forge sustained marketing success for businesses by genuinely
             grasping <br /> the essence of human engagement. Specialist in
@@ -56,7 +56,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
               className="lbtn"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 1 }}
+              transition={{ duration: 1, delay: 0.8 }}
             >
               Let's talk
             </motion.button>
