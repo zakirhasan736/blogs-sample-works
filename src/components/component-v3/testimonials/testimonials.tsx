@@ -36,8 +36,8 @@ const TestimonialSec: React.FC = () => {
   const testimonials = TestimonialsData.TestimonialsSlideData;
 
   const isInView = useInView(sectionRef, {
-    triggerOnce: true,
-    threshold: 0.1,
+    // triggerOnce: true,
+    // threshold: 0.1,
   });
 
   useEffect(() => {
@@ -48,15 +48,15 @@ const TestimonialSec: React.FC = () => {
     }
   }, [isInView]);
 
-//   useEffect(() => {
-//     if (swiperRef.current && swiperRef.current.autoplay) {
-//       if (autoplay) {
-//         swiperRef.current.autoplay.start();
-//       } else {
-//         swiperRef.current.autoplay.stop();
-//       }
-//     }
-//   }, [autoplay]);
+  //   useEffect(() => {
+  //     if (swiperRef.current && swiperRef.current.autoplay) {
+  //       if (autoplay) {
+  //         swiperRef.current.autoplay.start();
+  //       } else {
+  //         swiperRef.current.autoplay.stop();
+  //       }
+  //     }
+  //   }, [autoplay]);
 
   const renderRatingStars = (rating: number) => {
     const filledStars = Math.floor(rating);

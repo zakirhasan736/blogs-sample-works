@@ -8,8 +8,8 @@ import { motion, useInView } from "framer-motion";
 const ContactSec = () => {
   const sectionRef = useRef(null);
   const isInView = useInView(sectionRef, {
-    triggerOnce: true,
-    threshold: 0.1,
+    // triggerOnce: true,
+    // threshold: 0.1,
   });
 
   return (

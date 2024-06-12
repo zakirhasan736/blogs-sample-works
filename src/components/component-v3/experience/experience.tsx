@@ -8,8 +8,8 @@ interface ExperienceSecProps {}
 const ExperienceSec: React.FC<ExperienceSecProps> = () => {
   const ref = useRef(null);
   const inView = useInView(ref, {
-    triggerOnce: true,
-    threshold: 0.1,
+    // triggerOnce: true,
+    // threshold: 0.1,
   });
 
   return (

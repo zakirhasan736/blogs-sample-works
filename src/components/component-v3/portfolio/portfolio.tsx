@@ -13,8 +13,8 @@ import PortfolioSlideData from "@data/portfolioSliderData/PortfolioSlideData.jso
 const PortfolioSec = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, {
-    triggerOnce: true,
-    threshold: 0.1,
+    // triggerOnce: true,
+    // threshold: 0.1,
   });
 
   return (
