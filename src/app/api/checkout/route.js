@@ -10,20 +10,7 @@ const stripe = new Stripe(process.env.STRIPE_S_KEY, {
 export async function POST(req) {
 	try {
 		const body = await req.json();
-		const {
-			paymentMethodId,
-			firstName,
-			lastName,
-			email,
-			contactNumber,
-			amount,
-			currency,
-			planId,
-			packageTitle,
-			packagePrice,
-			addons,
-			totalPrice,
-		} = await req.json();
+
 
 		// Create payment intent with Stripe
 		const paymentIntent = await stripe.paymentIntents.create({
@@ -47,26 +34,27 @@ export async function POST(req) {
 				package_Type: body.packageTitle,
 				package_Id: body.planId,
 				package_price: body.packagePrice,
-				addons: body.JSON.stringify(addons),
-				packageTotalPrice: totalPrice,
+				addons: JSON.stringify(body.addons),
+				packageTotalPrice: body.totalPrice,
 			};
 
 			// Send email using EmailJS
-		   const response = await emailjs.send(
-					process.env.SERVICE_ID,
-			        process.env.TEMPLATE_ID_2,
-					templateParams,
-					{
-						publicKey: process.env.PUBLIC_KEY,
-						privateKey: process.env.PRIVATE_KEY,
-					},
-				);
-				if (response.status === 200) {
-					return NextResponse.json({
-						status: 200,
-						message: "Mail send successfully",
-					});
-				}
+			const response = await emailjs.send(
+				process.env.SERVICE_ID,
+				process.env.TEMPLATE_ID_2,
+				templateParams,
+				{
+					publicKey: process.env.PUBLIC_KEY,
+					privateKey: process.env.PRIVATE_KEY,
+				},
+			);
+
+			if (response.status === 200) {
+				return NextResponse.json({
+					status: 200,
+					message: "Mail send successfully",
+				});
+			}
 
 			return NextResponse.json({
 				message: "Payment successful and email sent",
