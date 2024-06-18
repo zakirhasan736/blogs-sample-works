@@ -9,17 +9,13 @@ const PortfolioV3 = () => {
       <div className="custom-container">
         <div className="title mb-[42px] sm:mb-20">
           <motion.h1
-            initial={{ opacity: 0, y: -50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }}
+     
             className="mb-6"
           >
             Portfolio
           </motion.h1>
           <motion.p
-            initial={{ opacity: 0, y: -50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }}
+         
             className="mdp"
           >
             We work with a variety of businesses across the globe all striving
@@ -28,9 +24,7 @@ const PortfolioV3 = () => {
           </motion.p>
         </div>
         <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
+   
           className="projects text-white"
         >
           <div className="w-full flex gap-6">

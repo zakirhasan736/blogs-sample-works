@@ -10,9 +10,7 @@ const ContactVersionThree = () => {
   return (
     <section className="custom-container contacts contact-sec sm:px-8 grid grid-cols-12 sm:grid-cols-6 gap-5">
       <motion.div
-        initial={{ opacity: 0, x: -50 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 1 }}
+       
         className="lg:px-8 col-span-6"
       >
         <h1>Get in touch</h1>
@@ -44,9 +42,7 @@ const ContactVersionThree = () => {
         </div>
       </motion.div>
       <motion.div
-        initial={{ opacity: 0, x: 50 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 1 }}
+    
         className="contact-form sm:px-8 col-span-6"
       >
         <ContactForm className="" />

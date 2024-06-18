@@ -24,19 +24,14 @@ const PortfolioSec = () => {
           <div className="section-title-box flex sm:!flex-row justify-between mb-2">
             <motion.h3
               className="text-[#181725]"
-              ref={ref}
-              initial={{ opacity: 0, y: -100 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.8 }}
+           
             >
               Particular Portfolio
             </motion.h3>
           </div>
           <motion.p
             className="text-[#000]"
-            initial={{ opacity: 0, y: -100 }}
-            animate={isInView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.8, delay: 0.2 }}
+          
           >
             We pioneer what's next, combining creativity, tech innovation and
             data.
@@ -85,9 +80,7 @@ const PortfolioSec = () => {
                   <SwiperSlide key={index}>
                     <Link href={`/${portfolio.link}`} className="!text-white">
                       <motion.div
-                        initial={{ opacity: 0, y: 50 }}
-                        animate={isInView ? { opacity: 1, y: 0 } : {}}
-                        transition={{ duration: 0.8, delay: index * 0.5 }}
+                       
                         className="portfolio-card-item max-w-[344px] w-full relative"
                       >
                         <div className="portfolio-card-img rounded-[4px] max-w-[344px] w-full max-h-[424px] h-full">
