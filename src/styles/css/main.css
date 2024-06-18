@@ -2754,6 +2754,7 @@ a {
 
 h1,
 h2,
+.h2,
 h3,
 h4,
 h5,
@@ -2774,7 +2775,8 @@ h1,
   font-size: 14px !important;
 }
 
-h2 {
+h2,
+.h2 {
   font-size: 40px;
   font-weight: 400;
   line-height: 48px;
@@ -3064,7 +3066,8 @@ button {
   border-bottom: 1px solid #fff;
 }
 
-.contacts .text-sm {
+.contacts .text-sm,
+.grid .text-sm {
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
@@ -3235,7 +3238,8 @@ footer .copy li {
   background-color: rgb(22, 22, 23);
 }
 
-.portfolio-v3 {
+.portfolio-v3,
+.web-packages-main-wrapper {
   background: #fff;
   color: #181725;
   padding: 155px 0 119px;
@@ -3408,6 +3412,7 @@ p {
   h1,
   h2,
   .h1,
+  .h2,
   .portfolio-v3 h3 {
     font-size: 36px !important;
     font-weight: 400;
@@ -3541,6 +3546,81 @@ li.blogDetailss-list.active button.blogDetailss-item-btn {
   text-decoration: underline;
 }
 
+/* web package styles start here */
+.body-bold-regular-1 {
+  color: var(--mono-100, #181725);
+  font-kerning: none;
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.body-bold-regular-2 {
+  color: var(--mono-100, #181725);
+  font-kerning: none;
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.package-info-include-list li {
+  position: relative;
+}
+
+.package-info-include-list li:not(:first-child):before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  bottom: auto;
+  margin: auto;
+  width: 3px;
+  height: 3px;
+  border-radius: 100px;
+  background-color: #666;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+.selected-audition-addons-item::before {
+  display: none;
+}
+
+.popup-massage-box.error-massage-show {
+  right: 20px;
+  transition: all 550ms ease 0s;
+}
+
+.web-packages-main-wrapper .banner-section {
+  background-image: url('/images/web-package.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.user-payment-detail-box .form-row .input-data{
+  margin-top: 10px !important;
+  margin-bottom: 0 !important;
+}
 .swiper-slide:first-child .testimonials-card-item .testimonials-cont-box:hover .testimonials-overly-cont .content {
   transform: none;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

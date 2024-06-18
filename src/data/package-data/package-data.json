@@ -1,0 +1,282 @@
+[
+    {
+        "id": 1,
+        "title": "Accelerated",
+        "price": 1079,
+        "idealFor": "Founders, Small businesses (1-5 staff members)",
+        "includes": [
+            "10 Pages",
+            "SEO Optimisation",
+            "1-to-1 Design Consultation",
+            "1 month FREE Hosting & Maintenance"
+        ],
+        "addons": [
+            {
+                "name": "Domain Purchase & Setup (with Email)",
+                "price": 49.99,
+                "selected": false,
+                "category": "Support & Setup"
+            },
+            {
+                "name": "Training Video",
+                "price": 99.99,
+                "selected": false,
+                "category": "Support & Setup"
+            },
+            {
+                "name": "Hosting & Maintenance",
+                "price": 29.99,
+                "selected": false,
+                "category": "Support & Setup"
+            },
+            {
+                "name": "Additional Revision",
+                "price": 175.00,
+                "selected": false,
+                "category": "Pages & Revisions"
+            },
+            {
+                "name": "5 Additional Pages (with content)",
+                "price": 0.00,
+                "selected": false,
+                "category": "Pages & Revisions"
+            },
+            {
+                "name": "SEO Optimization",
+                "price": 29.99,
+                "selected": false,
+                "category": "SEO Considerations"
+            },
+            {
+                "name": "Custom Logo Design",
+                "price": 500.00,
+                "selected": false,
+                "category": "Web Functions & Logos"
+            },
+            {
+                "name": "Success Coaching",
+                "price": 250.00,
+                "selected": false,
+                "category": "Particular Lite Success"
+            }
+        ],
+        "bgColor": "bg-[#CBD7E3]",
+        "imgSrc": "accelerated.png",
+        "packageLogo": "packages-secondary-logo.svg",
+        "buttonLabel": "Select",
+        "btnType": "btn-dark",
+        "category": "Web Packages",
+        "popular": false
+    },
+    {
+        "id": 2,
+        "title": "Get Online Custom",
+        "price": 2079,
+        "idealFor": "Founders, Small businesses (2-10 staff members), SMEs (teams of 10 or more staff)",
+        "includes": [
+            "15 Pages",
+            "Basic Animations",
+            "SEO Optimisation",
+            "1-to-1 Design Consultation",
+            "1 month FREE Hosting & Maintenance"
+        ],
+        "addons": [
+            {
+                "name": "Domain Purchase & Setup (with Email)",
+                "price": 49.99,
+                "selected": false,
+                "category": "Support & Setup"
+            },
+            {
+                "name": "Training Video",
+                "price": 99.99,
+                "selected": false,
+                "category": "Support & Setup"
+            },
+            {
+                "name": "Hosting & Maintenance",
+                "price": 29.99,
+                "selected": false,
+                "category": "Support & Setup"
+            },
+            {
+                "name": "Additional Revision",
+                "price": 175.00,
+                "selected": false,
+                "category": "Pages & Revisions"
+            },
+            {
+                "name": "5 Additional Pages (with content)",
+                "price": 0.00,
+                "selected": false,
+                "category": "Pages & Revisions"
+            },
+            {
+                "name": "SEO Optimization",
+                "price": 29.99,
+                "selected": false,
+                "category": "SEO Considerations"
+            },
+            {
+                "name": "Custom Logo Design",
+                "price": 500.00,
+                "selected": false,
+                "category": "Web Functions & Logos"
+            },
+            {
+                "name": "Success Coaching",
+                "price": 250.00,
+                "selected": false,
+                "category": "Particular Lite Success"
+            }
+        ],
+        "bgColor": "bg-[#CBD7E3]",
+        "imgSrc": "online.png",
+        "packageLogo": "packages-secondary-logo.svg",
+        "buttonLabel": "Select",
+        "btnType": "btn-dark",
+        "category": "Web Packages",
+        "popular": true
+    },
+    {
+        "id": 3,
+        "title": "Brand",
+        "price": 3479,
+        "idealFor": "Founders, small Businesses (teams of 2 to 10 staff)SMEs (teams of 10 or more staff)",
+        "includes": [
+            "20 Pages",
+            "Simple/Bespoke Animations",
+            "SEO Optimisation",
+            "1-to-1 Design Consultation",
+            "2 months FREE Hosting & Maintenance"
+        ],
+        "addons": [
+            {
+                "name": "Domain Purchase & Setup (with Email)",
+                "price": 49.99,
+                "selected": false,
+                "category": "Support & Setup"
+            },
+            {
+                "name": "Training Video",
+                "price": 99.99,
+                "selected": false,
+                "category": "Support & Setup"
+            },
+            {
+                "name": "Hosting & Maintenance",
+                "price": 29.99,
+                "selected": false,
+                "category": "Support & Setup"
+            },
+            {
+                "name": "Additional Revision",
+                "price": 175.00,
+                "selected": false,
+                "category": "Pages & Revisions"
+            },
+            {
+                "name": "5 Additional Pages (with content)",
+                "price": 0.00,
+                "selected": false,
+                "category": "Pages & Revisions"
+            },
+            {
+                "name": "SEO Optimization",
+                "price": 29.99,
+                "selected": false,
+                "category": "SEO Considerations"
+            },
+            {
+                "name": "Custom Logo Design",
+                "price": 500.00,
+                "selected": false,
+                "category": "Web Functions & Logos"
+            },
+            {
+                "name": "Success Coaching",
+                "price": 250.00,
+                "selected": false,
+                "category": "Particular Lite Success"
+            }
+        ],
+        "bgColor": "bg-[#181725] text-white",
+        "imgSrc": "online.png",
+        "packageLogo": "packages-secondary-logo.svg",
+        "buttonLabel": "Select",
+        "btnType": "",
+        "category": "Web Packages",
+        "popular": false
+    },
+    {
+        "id": 4,
+        "title": "Brand & Expand",
+        "price": 5479,
+        "idealFor": "Founders, small Businesses (teams of 2 to 10 staff)SMEs (teams of 10 or more staff)",
+        "includes": [
+            "25 Pages",
+            "Simple/Bespoke Animations",
+            "SEO Optimisation",
+            "1-to-1 Design Consultation",
+            "1 month of Local or National SEO",
+            "1 month FREE Hosting & Maintenance"
+        ],
+        "addons": [
+            {
+                "name": "Domain Purchase & Setup (with Email)",
+                "price": 49.99,
+                "selected": false,
+                "category": "Support & Setup"
+            },
+            {
+                "name": "Training Video",
+                "price": 99.99,
+                "selected": false,
+                "category": "Support & Setup"
+            },
+            {
+                "name": "Hosting & Maintenance",
+                "price": 29.99,
+                "selected": false,
+                "category": "Support & Setup"
+            },
+            {
+                "name": "Additional Revision",
+                "price": 175.00,
+                "selected": false,
+                "category": "Pages & Revisions"
+            },
+            {
+                "name": "5 Additional Pages (with content)",
+                "price": 0.00,
+                "selected": false,
+                "category": "Pages & Revisions"
+            },
+            {
+                "name": "SEO Optimization",
+                "price": 29.99,
+                "selected": false,
+                "category": "SEO Considerations"
+            },
+            {
+                "name": "Custom Logo Design",
+                "price": 500.00,
+                "selected": false,
+                "category": "Web Functions & Logos"
+            },
+            {
+                "name": "Success Coaching",
+                "price": 250.00,
+                "selected": false,
+                "category": "Particular Lite Success"
+            }
+        ],
+        "bgColor": "bg-[#1A1A1A] text-white",
+        "imgSrc": "plan-brand.png",
+        "packageLogo": "packages-secondary-logo.svg",
+        "buttonLabel": "Select",
+        "btnType": "",
+        "category": "Web Packages",
+        "popular": false
+    }
+]

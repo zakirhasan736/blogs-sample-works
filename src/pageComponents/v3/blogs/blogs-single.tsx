@@ -1,11 +1,9 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
-import Image from "next/image";
-import Link from "next/link";
+import Link from "next/link"; 
 import React from "react";
 import BlogsBanner from "./blogs-banner";
 import BlogInfoModal from "./blog-info-modal";
-import BlogsTestimonials from "./blogs-testimonials";
 import SingleBlogDetailsInfo from "./single-blog-details-info";
 
 interface BlogsPageProps {
