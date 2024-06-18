@@ -11,7 +11,8 @@ Allow: /public/
 Allow: /public/page1.html
 
 # Specify the location of the sitemap
-Sitemap: https://agency.byparticular.com/sitemap.xml
+Sitemap: https://www.agency.byparticular.com/sitemap.xml
+
 
 # Block a specific crawler
 User-agent: BadBot

@@ -1,20 +1,38 @@
 "use client";
 import Link from "next/link";
 import React from "react";
+import { motion } from "framer-motion";
 
 const PortfolioV3 = () => {
   return (
     <section className="portfolio-v3">
       <div className="custom-container">
         <div className="title mb-[42px] sm:mb-20">
-          <h1 className="mb-6">Portfolio</h1>
-          <p className="mdp">
+          <motion.h1
+            initial={{ opacity: 0, y: -50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            className="mb-6"
+          >
+            Portfolio
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: -50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            className="mdp"
+          >
             We work with a variety of businesses across the globe all striving
             for <br />
             the best human experience for their users.
-          </p>
+          </motion.p>
         </div>
-        <div className="projects text-white">
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className="projects text-white"
+        >
           <div className="w-full flex gap-6">
             <Link href="/metisse" className=" w-2/4 sm:w-full">
               <div className="project p-6 bg-no-repea bg-[url('/images/project1.png')] h-[262px] sm:w-full">
@@ -115,7 +133,7 @@ const PortfolioV3 = () => {
               </Link>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
       <div>
         <div className="custom-container mt-[94px] sm:mt-[56px]">
