@@ -7,9 +7,13 @@ const Navbar = () => {
   const pathname = usePathname() || "/";
 
   const isPortfolioPage =
-    pathname === "/portfolio" ||
-    pathname === "/services" ||
-    pathname === "/web-packages";
+		pathname === "/portfolio" ||
+		pathname === "/services" ||
+		pathname.startsWith("/package-details") ||
+		pathname.startsWith("/e-commerce/") ||
+		pathname.startsWith("/checkout") ||
+		pathname.startsWith("/confirmation") ||
+		pathname === "/web-packages";
 
   const navColor = () => {
     if (isPortfolioPage) {

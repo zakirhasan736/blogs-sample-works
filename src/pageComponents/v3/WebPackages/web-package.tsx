@@ -5,7 +5,7 @@ import Packages from "./Packages/packages";
 const WebPackages = () => {
   return (
 		<div className="web-packages-main-wrapper !p-0 !pt-24">
-			<section className="banner-section bg-[url('/images/web-package.png')] bg-cover h-screen flex justify-center items-center text-center">
+			<section className="banner-section h-screen flex justify-center items-center text-center">
 				<div className="custom-container">
 					<h1 className="h2">Particular Lite Web Packages</h1>
 					<p className="mt-4 mdp">

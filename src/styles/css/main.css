@@ -3545,3 +3545,66 @@ li.blogDetailss-list.active button.blogDetailss-item-btn {
   font-weight: 600;
   text-decoration: underline;
 }
+
+/* web package styles start here */
+.body-bold-regular-1 {
+  color: var(--mono-100, #181725);
+  font-kerning: none;
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.body-bold-regular-2 {
+  color: var(--mono-100, #181725);
+  font-kerning: none;
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.package-info-include-list li {
+  position: relative;
+}
+
+.package-info-include-list li:not(:first-child):before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  bottom: auto;
+  margin: auto;
+  width: 3px;
+  height: 3px;
+  border-radius: 100px;
+  background-color: #666;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+.selected-audition-addons-item::before {
+  display: none;
+}
+
+.popup-massage-box.error-massage-show {
+  right: 20px;
+  transition: all 550ms ease 0s;
+}
+
+.web-packages-main-wrapper .banner-section {
+  background-image: url('/images/web-package.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.user-payment-detail-box .form-row .input-data{
+  margin-top: 10px !important;
+  margin-bottom: 0 !important;
+}
