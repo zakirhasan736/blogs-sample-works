@@ -8,17 +8,11 @@ const ServicesPage = () => {
     <div className="services-page-main-wrapper pt-[153px] sm:pt-[120px] bg-white">
       <div className="services-sec-title-box custom-container mb-[56px] sm:mb-[35px]">
         <motion.h1
-          initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
           className="title text-mono-100 mb-[24px] sm:mb-4"
         >
           Services
         </motion.h1>
         <motion.p
-          initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
           className="desc-text text-mono-100"
         >
           Explore our array of services designed to strengthen your brand's
@@ -26,9 +20,6 @@ const ServicesPage = () => {
         </motion.p>
       </div>
       <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
         className="custom-container"
       >
         <ServiceDetailsItem />
