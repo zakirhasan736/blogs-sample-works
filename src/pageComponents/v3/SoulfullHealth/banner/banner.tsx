@@ -2,20 +2,24 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 interface HomeBannerProps {}
 
 const Banner: React.FC<HomeBannerProps> = () => {
   return (
-    <section
-      className="soulfull-banner bg-[url('/images/soulfull-banner.png')] bg-cover relative h-screen"
-    >
+    <section className="soulfull-banner bg-[url('/images/soulfull-banner.png')] bg-cover relative h-screen">
       <div className="custom-container">
         {/* Content */}
-        <div className="absolute bottom-[48px] text-white">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, ease: "easeIn" }}
+          className="absolute bottom-[48px] text-white"
+        >
           <h1 className="mb-6">SoulFull Health</h1>
           <h4>A User Experience Design and Brand Identity project</h4>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
