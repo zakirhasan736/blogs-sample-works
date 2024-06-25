@@ -7,35 +7,35 @@ export const animatePageIn = () => {
   const bannerThree = document.getElementById("banner-3");
   const bannerFour = document.getElementById("banner-4");
 
-  if (bannerOne && bannerTwo && bannerThree && bannerFour) {
+  if (bannerOne) {
     const tl = gsap.timeline();
 
-    tl.set([bannerOne, bannerTwo, bannerThree, bannerFour], {
+    tl.set([bannerOne], {
       yPercent: 0,
-    }).to([bannerOne, bannerTwo, bannerThree, bannerFour], {
+    }).to([bannerOne], {
       yPercent: 100,
-      stagger: 0.2,
+      stagger: 0.3,
     });
   }
 };
 
-export const animatePageOut = (href: string, router: AppRouterInstance) => {
-  const bannerOne = document.getElementById("banner-1");
-  const bannerTwo = document.getElementById("banner-2");
-  const bannerThree = document.getElementById("banner-3");
-  const bannerFour = document.getElementById("banner-4");
+// export const animatePageOut = (href: string, router: AppRouterInstance) => {
+//   const bannerOne = document.getElementById("banner-1");
+//   const bannerTwo = document.getElementById("banner-2");
+//   const bannerThree = document.getElementById("banner-3");
+//   const bannerFour = document.getElementById("banner-4");
 
-  if (bannerOne && bannerTwo && bannerThree && bannerFour) {
-    const tl = gsap.timeline();
+//   if (bannerOne && bannerTwo && bannerThree && bannerFour) {
+//     const tl = gsap.timeline();
 
-    tl.set([bannerOne, bannerTwo, bannerThree, bannerFour], {
-      yPercent: -100,
-    }).to([bannerOne, bannerTwo, bannerThree, bannerFour], {
-      yPercent: 0,
-      stagger: 0.2,
-      onComplete: () => {
-        router.push(href);
-      },
-    });
-  }
-};
+//     tl.set([bannerOne, bannerTwo, bannerThree, bannerFour], {
+//       yPercent: -100,
+//     }).to([bannerOne, bannerTwo, bannerThree, bannerFour], {
+//       yPercent: 0,
+//       stagger: 0.3,
+//       onComplete: () => {
+//         router.push(href);
+//       },
+//     });
+//   }
+// };
