@@ -160,6 +160,9 @@ const TestimonialSec: React.FC = () => {
       <div className="custom-container">
         <motion.div
           className="section-title-box sm:flex sm:flex-col sm:gap-[15px]"
+          initial={{ opacity: 0 }}
+          animate={isInView ? { opacity: 1 } : {}}
+          transition={{ duration: 0.8, delay: 0.2 }}
         >
           <div className="flex gap-20 lg:gap-[30px] sm:flex-col sm:gap-5">
             <h3 className="text-[#181725]">Testimonials</h3>
@@ -215,6 +218,9 @@ const TestimonialSec: React.FC = () => {
                   <SwiperSlide key={index}>
                     <motion.div
                       className="testimonials-card-item pb-4 max-w-[371px] w-full"
+                      initial={{ opacity: 0}}
+                      animate={isInView ? { opacity: 1} : {}}
+                      transition={{ duration: 0.8, delay: index * 0.5 }}
                     >
                       <h4 className="project-title mb-6 capitalize md:mb-5 sm:mb-4 text-mono-100 text-center sm:text-left text-[24px] sm:!text-[18px] font-primary font-light leading-[120%] tracking-[1.2px]">
                         {testimonial.ProjectTitle}

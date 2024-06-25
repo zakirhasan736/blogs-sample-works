@@ -26,16 +26,20 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
         <div className="absolute bottom-[118px] text-white z-10">
           <motion.h1
             className="text-![14px] seo-h1 uppercase mb-1"
+            animate={{ x: 100 }}
+            transition={{ ease: "easeOut", duration: 2 }}
           >
             London-based digital marketing agency
           </motion.h1>
           <motion.p
             className="h1 mb-5"
+           
           >
             Where Every Pixel <br /> Tells a Particular Story
           </motion.p>
           <motion.p
             className="mt-5"
+         
           >
             We forge sustained marketing success for businesses by genuinely
             grasping <br /> the essence of human engagement. Specialist in
@@ -45,6 +49,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
           <Link href="/contacts">
             <motion.button
               className="lbtn"
+            
             >
               Let's talk
             </motion.button>

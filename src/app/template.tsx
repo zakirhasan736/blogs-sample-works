@@ -3,9 +3,14 @@ import React, { useState, useEffect } from "react";
 import LoadingScreen from "@/components/common/pre-loader/LoadingScreen";
 import Footer from "@/components/component-v3/footer/footer";
 import Navbar from "@/components/component-v3/navbar/navbar";
+import { animatePageIn } from "@/utils/animations";
 
 export default function Template({ children }: { children: React.ReactNode }) {
 	const [pageLoaded, setPageLoaded] = useState(false);
+
+	  useEffect(() => {
+      animatePageIn();
+    }, []);
 
 	useEffect(() => {
 		const onLoad = () => {
@@ -38,13 +43,29 @@ export default function Template({ children }: { children: React.ReactNode }) {
      }, []);
 
 	return (
-		<>
-			<Navbar />
-			<main className="pca-marketing-main-wraper">{children}</main>
-			<Footer />
-			{/* {!pageLoaded && (
+    <>
+      {/* <div
+        id="banner-1"
+        className="min-h-screen bg-neutral-950 z-[9999999999] fixed top-0 left-0 w-1/4"
+      />
+      <div
+        id="banner-2"
+        className="min-h-screen bg-neutral-950 z-[9999999999] fixed top-0 left-1/4 w-1/4"
+      />
+      <div
+        id="banner-3"
+        className="min-h-screen bg-neutral-950 z-[9999999999] fixed top-0 left-2/4 w-1/4"
+      />
+      <div
+        id="banner-4"
+        className="min-h-screen bg-neutral-950 z-[9999999999] fixed top-0 left-3/4 w-1/4"
+      /> */}
+      <Navbar />
+      <main className="pca-marketing-main-wraper">{children}</main>
+      <Footer />
+      {/* {!pageLoaded && (
 				<LoadingScreen  />
 			)} */}
-		</>
-	);
+    </>
+  );
 }
