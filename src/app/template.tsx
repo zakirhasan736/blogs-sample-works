@@ -6,45 +6,45 @@ import Navbar from "@/components/component-v3/navbar/navbar";
 import { animatePageIn } from "@/utils/animations";
 
 export default function Template({ children }: { children: React.ReactNode }) {
-	const [pageLoaded, setPageLoaded] = useState(false);
+  const [pageLoaded, setPageLoaded] = useState(false);
 
-	  useEffect(() => {
-      animatePageIn();
-    }, []);
+  useEffect(() => {
+    animatePageIn();
+  }, []);
 
-	useEffect(() => {
-		const onLoad = () => {
-			setPageLoaded(true);
-		};
+  useEffect(() => {
+    const onLoad = () => {
+      setPageLoaded(true);
+    };
 
-		window.addEventListener("load", onLoad);
+    window.addEventListener("load", onLoad);
 
-		return () => {
-			window.removeEventListener("load", onLoad);
-		};
-	}, []);
+    return () => {
+      window.removeEventListener("load", onLoad);
+    };
+  }, []);
 
-		 useEffect(() => {
-       document.addEventListener("DOMContentLoaded", function () {
-         var videoElements = document.querySelectorAll("video");
+  useEffect(() => {
+    document.addEventListener("DOMContentLoaded", function () {
+      var videoElements = document.querySelectorAll("video");
 
-         videoElements.forEach(function (videoElement) {
-           videoElement.controls = false;
+      videoElements.forEach(function (videoElement) {
+        videoElement.controls = false;
 
-           videoElement.addEventListener("play", function () {
-             this.controls = false;
-           });
+        videoElement.addEventListener("play", function () {
+          this.controls = false;
+        });
 
-           videoElement.addEventListener("pause", function () {
-             this.controls = false;
-           });
-         });
-       });
-     }, []);
+        videoElement.addEventListener("pause", function () {
+          this.controls = false;
+        });
+      });
+    });
+  }, []);
 
-	return (
+  return (
     <>
-      {/* <div
+      <div
         id="banner-1"
         className="min-h-screen bg-neutral-950 z-[9999999999] fixed top-0 left-0 w-1/4"
       />
@@ -59,7 +59,7 @@ export default function Template({ children }: { children: React.ReactNode }) {
       <div
         id="banner-4"
         className="min-h-screen bg-neutral-950 z-[9999999999] fixed top-0 left-3/4 w-1/4"
-      /> */}
+      />
       <Navbar />
       <main className="pca-marketing-main-wraper">{children}</main>
       <Footer />
