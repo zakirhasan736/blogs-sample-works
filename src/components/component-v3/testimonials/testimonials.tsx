@@ -160,9 +160,13 @@ const TestimonialSec: React.FC = () => {
       <div className="custom-container">
         <motion.div
           className="section-title-box sm:flex sm:flex-col sm:gap-[15px]"
-          initial={{ opacity: 0 }}
-          animate={isInView ? { opacity: 1 } : {}}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={{
+            visible: { opacity: 1, scale: 1 },
+            hidden: { opacity: 0, scale: 0 },
+          }}
         >
           <div className="flex gap-20 lg:gap-[30px] sm:flex-col sm:gap-5">
             <h3 className="text-[#181725]">Testimonials</h3>
@@ -222,14 +226,14 @@ const TestimonialSec: React.FC = () => {
                       whileInView="visible"
                       viewport={{ once: true }}
                       variants={{
-                        visible: { opacity: 1 },
-                        hidden: { opacity: 0 },
+                        visible: { opacity: 1, scale: 1 },
+                        hidden: { opacity: 0, scale: 0 },
                       }}
-                   transition={{
-                          duration: 1,
-                          ease: "easeIn",
-                          delay: index * 0.5,
-                        }}
+                      transition={{
+                        duration: 1,
+                        ease: "easeIn",
+                        delay: index * 0.5,
+                      }}
                     >
                       <h4 className="project-title mb-6 capitalize md:mb-5 sm:mb-4 text-mono-100 text-center sm:text-left text-[24px] sm:!text-[18px] font-primary font-light leading-[120%] tracking-[1.2px]">
                         {testimonial.ProjectTitle}

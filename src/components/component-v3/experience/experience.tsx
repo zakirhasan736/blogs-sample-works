@@ -20,10 +20,10 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
           whileInView="visible"
           viewport={{ once: true }}
           variants={{
-            visible: { opacity: 1 },
-            hidden: { opacity: 0 },
+            visible: { opacity: 1, scale: 1 },
+            hidden: { opacity: 0, scale: 0 },
           }}
-          transition={{ duration: 1, ease: "easeIn", delay: 1 }}
+          transition={{ duration: 1, ease: "easeIn", delay: 0.5 }}
           className="experiance-modal-box w-full max-w-full overflow-hidden max-h-[716px] sm:max-h-[275px] h-full col-span-5 sm:col-span-6"
         >
           <video
@@ -50,10 +50,10 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
           whileInView="visible"
           viewport={{ once: true }}
           variants={{
-            visible: { opacity: 1 },
-            hidden: { opacity: 0 },
+            visible: { opacity: 1, scale: 1 },
+            hidden: { opacity: 0, scale: 0 },
           }}
-          transition={{ duration: 1, ease: "easeIn", delay: 1 }}
+          transition={{ duration: 1, ease: "easeIn", delay: 0.5 }}
           className="expariance-cont-wrapper w-full col-span-7 h-full sm:col-span-6 flex flex-col"
         >
           <div className="w-full experiance-wrap-top-cont py-[54px] sm:py-4 pl-[173px] laptop-m:pl-[100px] lg:pl-[80px] md:pl-[35px] sm:pl-[25px] pr-[140px] lg:pr-[25px] md:pr-[20px] sm:pr-[16px] sm:mb-10">
