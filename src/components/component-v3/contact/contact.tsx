@@ -21,10 +21,10 @@ const ContactSec = () => {
           whileInView="visible"
           viewport={{ once: true }}
           variants={{
-            visible: { opacity: 1 },
-            hidden: { opacity: 0 },
+          visible: { opacity: 1, scale: 1 },
+            hidden: { opacity: 0, scale: 0 },
           }}
-          transition={{ duration: 1, ease: 'easeIn', delay: 1 }}
+          transition={{ duration: 1, ease: 'easeIn', delay: 0.5 }}
         >
           <Image
             src="/images/contact.png"
@@ -40,10 +40,10 @@ const ContactSec = () => {
           whileInView="visible"
           viewport={{ once: true }}
           variants={{
-            visible: { opacity: 1 },
-            hidden: { opacity: 0 },
+            visible: { opacity: 1, scale: 1 },
+            hidden: { opacity: 0, scale: 0 },
           }}
-          transition={{ duration: 1, eas: 'easeIn', delay: 1 }}
+          transition={{ duration: 1, eas: 'easeIn', delay: 0.5 }}
         >
           <h3 className="mb-2">Ready to get started?</h3>
           <p>Fast track your growth with Particular</p>

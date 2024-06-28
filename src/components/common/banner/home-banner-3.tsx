@@ -23,45 +23,36 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
       />
       <div className="custom-container h-full">
         {/* Content */}
-        <div className="absolute bottom-[118px] text-white z-10">
-          <motion.h1
-            className="text-![14px] seo-h1 uppercase mb-1"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1, ease: "easeIn" }}
-          >
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={{
+            visible: { opacity: 1, scale: 1 },
+            hidden: { opacity: 0, scale: 0 },
+          }}
+          transition={{
+            duration: 1,
+            ease: "easeIn",
+          }}
+          className="absolute bottom-[118px] text-white z-10"
+        >
+          <h1 className="text-![14px] seo-h1 uppercase mb-1">
             London-based digital marketing agency
-          </motion.h1>
-          <motion.p
-            className="h1 mb-5"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1, ease: "easeIn" }}
-          >
+          </h1>
+          <p className="h1 mb-5">
             Where Every Pixel <br /> Tells a Particular Story
-          </motion.p>
-          <motion.p
-            className="mt-5"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1, ease: "easeIn" }}
-          >
+          </p>
+          <p className="mt-5">
             We forge sustained marketing success for businesses by genuinely
             grasping <br /> the essence of human engagement. Specialist in
             designing bespoke digital <br /> strategies for brands across all
             sectors and companies across the globe.
-          </motion.p>
+          </p>
           <Link href="/contacts">
-            <motion.button
-              className="lbtn"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 1, delay: 0.8 }}
-            >
-              Let's talk
-            </motion.button>
+            <button className="lbtn">Let's talk</button>
           </Link>
-        </div>
+        </motion.div>
         <Image
           src="/images/agency.svg"
           alt="brand"
