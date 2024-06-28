@@ -15,7 +15,17 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
   return (
     <section className="experience bg-[#fff] text-[#181725]">
       <div className="experiance-sec-wrapper max-w-[1920px] w-full mx-auto grid grid-cols-12 sm:grid-cols-6 gap-0">
-        <div className="experiance-modal-box w-full max-w-full overflow-hidden max-h-[716px] sm:max-h-[275px] h-full col-span-5 sm:col-span-6">
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={{
+            visible: { opacity: 1 },
+            hidden: { opacity: 0 },
+          }}
+          transition={{ duration: 1, ease: "easeIn", delay: 1 }}
+          className="experiance-modal-box w-full max-w-full overflow-hidden max-h-[716px] sm:max-h-[275px] h-full col-span-5 sm:col-span-6"
+        >
           <video
             preload="auto"
             src="/images/experiance.mp4"
@@ -26,15 +36,27 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
             loop
             className="z-0 w-full h-full object-cover"
           />
-        </div>
-        <div className="expariance-cont-wrapper w-full col-span-7 h-full sm:col-span-6 flex flex-col">
-          <motion.div
-            ref={ref}
-            initial={{ opacity: 0 }}
-            animate={inView ? { opacity: 1} : {}} // Animate only when in view
-            transition={{ duration: 0.8 }}
-            className="w-full experiance-wrap-top-cont py-[54px] sm:py-4 pl-[173px] laptop-m:pl-[100px] lg:pl-[80px] md:pl-[35px] sm:pl-[25px] pr-[140px] lg:pr-[25px] md:pr-[20px] sm:pr-[16px] sm:mb-10"
-          >
+        </motion.div>
+        <motion.div
+          // initial="hidden"
+          // whileInView="visible"
+          // viewport={{ once: true }}
+          // transition={{ duration: 1.5 }}
+          // variants={{
+          //   visible: { opacity: 1, scale: 1 },
+          //   hidden: { opacity: 0, scale: 0 },
+          // }}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={{
+            visible: { opacity: 1 },
+            hidden: { opacity: 0 },
+          }}
+          transition={{ duration: 1, ease: "easeIn", delay: 1 }}
+          className="expariance-cont-wrapper w-full col-span-7 h-full sm:col-span-6 flex flex-col"
+        >
+          <div className="w-full experiance-wrap-top-cont py-[54px] sm:py-4 pl-[173px] laptop-m:pl-[100px] lg:pl-[80px] md:pl-[35px] sm:pl-[25px] pr-[140px] lg:pr-[25px] md:pr-[20px] sm:pr-[16px] sm:mb-10">
             <div className="flex justify-between items-center mb-[26px] sm:mb-3">
               <h3 className="max-w-[528px] w-full font-primary text-mono-100">
                 Great buyer experience? Excellent returns.
@@ -71,14 +93,8 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
             <Link href="/contacts">
               <button className="btn btn-dark mt-[33px]">Contact us</button>
             </Link>
-          </motion.div>
-          <motion.div
-            ref={ref}
-            initial={{ opacity: 0 }}
-            animate={inView ? { opacity: 1 } : {}} // Animate only when in view
-            transition={{ duration: 0.8 }}
-            className="mt-auto w-full experiance-wrap-bottom-cont border-t border-t-Mono-70"
-          >
+          </div>
+          <div className="mt-auto w-full experiance-wrap-bottom-cont border-t border-t-Mono-70">
             <div className="insight-card-items grid grid-cols-12 gap-0">
               <div className="insight-card-item col-span-6 sm:col-span-6 text-center border-r border-r-Mono-70 pt-10 pb-[55px]">
                 <h2 className="title font-normal leading-none mb-[14px] text-mono-100 !font-primary">
@@ -97,8 +113,8 @@ const ExperienceSec: React.FC<ExperienceSecProps> = () => {
                 </p>
               </div>
             </div>
-          </motion.div>
-        </div>
+          </div>
+        </motion.div>
       </div>
     </section>
   );

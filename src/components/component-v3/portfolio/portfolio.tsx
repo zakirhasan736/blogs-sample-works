@@ -24,9 +24,8 @@ const PortfolioSec = () => {
           <div className="section-title-box flex sm:!flex-row justify-between mb-2">
             <motion.h3
               className="text-[#181725]"
-              ref={ref}
               initial={{ opacity: 0 }}
-              animate={isInView ? { opacity: 1 } : {}}
+              animate={{ opacity: 1 }}
               transition={{ duration: 0.8 }}
             >
               Particular Portfolio
@@ -35,8 +34,9 @@ const PortfolioSec = () => {
           <motion.p
             className="text-[#000]"
             initial={{ opacity: 0 }}
-            animate={isInView ? { opacity: 1 } : {}}
-            transition={{ duration: 0.8, delay: 0.2 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
           >
             We pioneer what's next, combining creativity, tech innovation and
             data.
@@ -85,9 +85,26 @@ const PortfolioSec = () => {
                   <SwiperSlide key={index}>
                     <Link href={`/${portfolio.link}`} className="!text-white">
                       <motion.div
-                        initial={{ opacity: 0 }}
-                        animate={isInView ? { opacity: 1} : {}}
-                        transition={{ duration: 0.8, delay: index * 0.5 }}
+                        // initial="hidden"
+                        // whileInView="visible"
+                        // viewport={{ once: true }}
+                        // transition={{ duration: 1.5 }}
+                        // variants={{
+                        //   visible: { opacity: 1, scale: 1 },
+                        //   hidden: { opacity: 0, scale: 0 },
+                        // }}
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true }}
+                        variants={{
+                          visible: { opacity: 1 },
+                          hidden: { opacity: 0 },
+                        }}
+                        transition={{
+                          duration: 1,
+                          ease: "easeIn",
+                          delay: index * 0.5,
+                        }}
                         className="portfolio-card-item max-w-[344px] w-full relative"
                       >
                         <div className="portfolio-card-img rounded-[4px] max-w-[344px] w-full max-h-[424px] h-full">
