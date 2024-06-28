@@ -31,31 +31,26 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
             visible: { opacity: 1, scale: 1 },
             hidden: { opacity: 0, scale: 0 },
           }}
+          transition={{
+            duration: 1,
+            ease: "easeIn",
+          }}
           className="absolute bottom-[118px] text-white z-10"
         >
-          <h1
-            className="text-![14px] seo-h1 uppercase mb-1">
+          <h1 className="text-![14px] seo-h1 uppercase mb-1">
             London-based digital marketing agency
           </h1>
-          <p
-            className="h1 mb-5"
-          >
+          <p className="h1 mb-5">
             Where Every Pixel <br /> Tells a Particular Story
           </p>
-          <p
-            className="mt-5"
-          >
+          <p className="mt-5">
             We forge sustained marketing success for businesses by genuinely
             grasping <br /> the essence of human engagement. Specialist in
             designing bespoke digital <br /> strategies for brands across all
             sectors and companies across the globe.
           </p>
           <Link href="/contacts">
-            <button
-              className="lbtn"
-            >
-              Let's talk
-            </button>
+            <button className="lbtn">Let's talk</button>
           </Link>
         </motion.div>
         <Image
