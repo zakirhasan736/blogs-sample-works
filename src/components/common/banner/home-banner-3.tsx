@@ -28,8 +28,8 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
           whileInView="visible"
           viewport={{ once: true }}
           variants={{
-            visible: { opacity: 1, scale: 1 },
-            hidden: { opacity: 0, scale: 0 },
+            visible: { opacity: 1 },
+            hidden: { opacity: 0},
           }}
           transition={{
             duration: 1,
