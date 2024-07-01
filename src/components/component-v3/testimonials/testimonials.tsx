@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { Image, Link } from "@packages/packages";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 import "swiper/css";
 import TestimonialsData from "@data/testimonialsLiderData/TestimonialsSlideData.json";
 
@@ -30,23 +30,9 @@ const TestimonialSec: React.FC = () => {
   );
   const [isPlaying, setIsPlaying] = useState<string | null>(null);
   const [autoplay, setAutoplay] = useState<boolean>(false);
-  const sectionRef = useRef<HTMLDivElement>(null);
   const swiperRef = useRef<any>(null);
 
   const testimonials = TestimonialsData.TestimonialsSlideData;
-
-  const isInView = useInView(sectionRef, {
-    // triggerOnce: true,
-    // threshold: 0.1,
-  });
-
-  useEffect(() => {
-    if (isInView) {
-      setAutoplay(true);
-    } else {
-      setAutoplay(false);
-    }
-  }, [isInView]);
 
   //   useEffect(() => {
   //     if (swiperRef.current && swiperRef.current.autoplay) {
@@ -155,7 +141,6 @@ const TestimonialSec: React.FC = () => {
   return (
     <section
       className="testimonials bg-[#fff] text-[#181725] pt-[101px] pb-[48px] sm:pt-[35px] sm:pb-[80px]"
-      ref={sectionRef}
     >
       <div className="custom-container">
         <motion.div
@@ -164,8 +149,8 @@ const TestimonialSec: React.FC = () => {
           whileInView="visible"
           viewport={{ once: true }}
           variants={{
-            visible: { opacity: 1, scale: 1 },
-            hidden: { opacity: 0, scale: 0 },
+            visible: { opacity: 1 },
+            hidden: { opacity: 0},
           }}
         >
           <div className="flex gap-20 lg:gap-[30px] sm:flex-col sm:gap-5">
@@ -226,8 +211,8 @@ const TestimonialSec: React.FC = () => {
                       whileInView="visible"
                       viewport={{ once: true }}
                       variants={{
-                        visible: { opacity: 1, scale: 1 },
-                        hidden: { opacity: 0, scale: 0 },
+                        visible: { opacity: 1 },
+                        hidden: { opacity: 0},
                       }}
                       transition={{
                         duration: 1,

@@ -28,14 +28,14 @@ const AboutBanner = () => {
               className="banner-title mb-6 font-primary font-normal max-w-[750px] w-full text-[40px] md:text-[38px] sm:text-[36px] text-white tracking-[2px] leading-[120%]"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 1, ease: 'easeIn' }}
             >
               Eliminating poor human experiences in the digital space
             </motion.h1>
             <motion.p
               initial={{ opacity: 0}}
               animate={{ opacity: 1}}
-              transition={{ duration: 1 }}
+              transition={{ duration: 1, ease: 'easeIn' }}
               className="banner-desc text-white max-w-[781px] text-[18px] sm:text-[16px] leading-[180%] font-normal font-accent"
             >
               While Premium looks different for each brand, product and service,

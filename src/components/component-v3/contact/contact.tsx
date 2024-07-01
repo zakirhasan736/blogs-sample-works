@@ -1,17 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import React, { useRef } from "react";
+import React from "react";
 import ContactForm from "../contact-form/contact";
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 
 const ContactSec = () => {
-  const sectionRef = useRef(null);
-  const isInView = useInView(sectionRef, {
-    // triggerOnce: true,
-    // threshold: 0.1,
-  });
-
   return (
     <section className="contact-sec bg-white">
       <div className="contact-sec-wrappr h-full max-w-[1920px] w-full mx-auto grid gap-[90px] md:gap-[45px] sm:gap-[30px] grid-cols-12 sm:grid-cols-6">
@@ -21,8 +15,8 @@ const ContactSec = () => {
           whileInView="visible"
           viewport={{ once: true }}
           variants={{
-          visible: { opacity: 1, scale: 1 },
-            hidden: { opacity: 0, scale: 0 },
+          visible: { opacity: 1 },
+            hidden: { opacity: 0 },
           }}
           transition={{ duration: 1, ease: 'easeIn', delay: 0.5 }}
         >
@@ -40,8 +34,8 @@ const ContactSec = () => {
           whileInView="visible"
           viewport={{ once: true }}
           variants={{
-            visible: { opacity: 1, scale: 1 },
-            hidden: { opacity: 0, scale: 0 },
+            visible: { opacity: 1 },
+            hidden: { opacity: 0 },
           }}
           transition={{ duration: 1, eas: 'easeIn', delay: 0.5 }}
         >
