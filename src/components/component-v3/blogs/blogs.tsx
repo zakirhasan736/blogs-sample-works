@@ -52,14 +52,11 @@ const BlogsSec = () => {
           </Link>
           <div className="flex flex-col">
             <div className="grids my-[14px]">
-              <Link href="">
+              <Link href="blogs/the-power-of-integrated-marketing-communications">
                 <div className="bg-no-repea bg-[url('/images/blog3.png')] h-[262px]">
                   <div className="content">
                     <h5>marketing</h5>
-                    <p>
-                      Harness the power of customer experience to grow your
-                      business
-                    </p>
+                    <p>The power of integrated marketing communications</p>
                   </div>
                 </div>
               </Link>
