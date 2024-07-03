@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Accelerated",
-        "price": 1079,
+        "price": 1,
         "idealFor": "Founders, Small businesses (1-5 staff members)",
         "includes": [
             "10 Pages",
@@ -71,7 +71,7 @@
     {
         "id": 2,
         "title": "Get Online Custom",
-        "price": 2079,
+        "price": 1,
         "idealFor": "Founders, Small businesses (2-10 staff members), SMEs (teams of 10 or more staff)",
         "includes": [
             "15 Pages",
@@ -141,7 +141,7 @@
     {
         "id": 3,
         "title": "Brand",
-        "price": 3479,
+        "price": 1,
         "idealFor": "Founders, small Businesses (teams of 2 to 10 staff)SMEs (teams of 10 or more staff)",
         "includes": [
             "20 Pages",
@@ -211,7 +211,7 @@
     {
         "id": 4,
         "title": "Brand & Expand",
-        "price": 5479,
+        "price": 1,
         "idealFor": "Founders, small Businesses (teams of 2 to 10 staff)SMEs (teams of 10 or more staff)",
         "includes": [
             "25 Pages",
