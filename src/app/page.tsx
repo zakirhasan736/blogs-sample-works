@@ -17,9 +17,9 @@ const Home = () => {
   const sortedLatestBlogs = LatestBlogs.sort((a, b) => {
     return new Date(b.date).getTime() - new Date(a.date).getTime();
   });
-    useEffect(() => {
-      animatePageIn();
-    }, []);
+  useEffect(() => {
+    animatePageIn();
+  }, []);
 
   // Select the latest three blogs
   const latestThreeBlogs = sortedLatestBlogs.slice(0, 3);
@@ -48,7 +48,7 @@ const Home = () => {
   ];
   return (
     <>
-      <div
+      {/* <div
         id="banner-1"
         className="min-h-screen bg-neutral-950 z-[9999999999] fixed top-0 left-0 w-1/4"
       />
@@ -63,7 +63,7 @@ const Home = () => {
       <div
         id="banner-4"
         className="min-h-screen bg-neutral-950 z-[9999999999] fixed top-0 left-3/4 w-1/4"
-      />
+      /> */}
       <div className="home-page-main-wrapper overflow-hidden">
         {/* home banner section */}
         <HomeBanner />
