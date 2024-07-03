@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { Image, Link } from "@packages/packages";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 import "swiper/css";
 import TestimonialsData from "@data/testimonialsLiderData/TestimonialsSlideData.json";
 
@@ -30,23 +30,9 @@ const TestimonialSec: React.FC = () => {
   );
   const [isPlaying, setIsPlaying] = useState<string | null>(null);
   const [autoplay, setAutoplay] = useState<boolean>(false);
-  const sectionRef = useRef<HTMLDivElement>(null);
   const swiperRef = useRef<any>(null);
 
   const testimonials = TestimonialsData.TestimonialsSlideData;
-
-  const isInView = useInView(sectionRef, {
-    // triggerOnce: true,
-    // threshold: 0.1,
-  });
-
-  useEffect(() => {
-    if (isInView) {
-      setAutoplay(true);
-    } else {
-      setAutoplay(false);
-    }
-  }, [isInView]);
 
   //   useEffect(() => {
   //     if (swiperRef.current && swiperRef.current.autoplay) {
@@ -153,13 +139,17 @@ const TestimonialSec: React.FC = () => {
   };
 
   return (
-    <section
-      className="testimonials bg-[#fff] text-[#181725] pt-[101px] pb-[48px] sm:pt-[35px] sm:pb-[80px]"
-      ref={sectionRef}
-    >
+    <section className="testimonials bg-[#fff] text-[#181725] pt-[101px] pb-[48px] sm:pt-[35px] sm:pb-[80px]">
       <div className="custom-container">
         <motion.div
           className="section-title-box sm:flex sm:flex-col sm:gap-[15px]"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={{
+            visible: { opacity: 1 },
+            hidden: { opacity: 0 },
+          }}
         >
           <div className="flex gap-20 lg:gap-[30px] sm:flex-col sm:gap-5">
             <h3 className="text-[#181725]">Testimonials</h3>
@@ -213,9 +203,7 @@ const TestimonialSec: React.FC = () => {
               >
                 {testimonials.map((testimonial, index) => (
                   <SwiperSlide key={index}>
-                    <motion.div
-                      className="testimonials-card-item pb-4 max-w-[371px] w-full"
-                    >
+                    <motion.div className="testimonials-card-item pb-4 max-w-[371px] w-full">
                       <h4 className="project-title mb-6 capitalize md:mb-5 sm:mb-4 text-mono-100 text-center sm:text-left text-[24px] sm:!text-[18px] font-primary font-light leading-[120%] tracking-[1.2px]">
                         {testimonial.ProjectTitle}
                       </h4>

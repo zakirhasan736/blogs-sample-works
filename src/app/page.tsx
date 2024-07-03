@@ -8,13 +8,18 @@ import PortfolioSec from "@/components/component-v3/portfolio/portfolio";
 import ServicesSec from "@/components/component-v3/services/services";
 import TestimonialSec from "@/components/component-v3/testimonials/testimonials";
 import VideoSec from "@/components/component-v3/video/video";
+import { animatePageIn } from "@/utils/animations";
 import LatestBlogs from "@data/blogs/short-blog-data.json";
+import { useEffect } from "react";
 
 const Home = () => {
   // Sort the latest blogs by date in descending order
   const sortedLatestBlogs = LatestBlogs.sort((a, b) => {
     return new Date(b.date).getTime() - new Date(a.date).getTime();
   });
+  useEffect(() => {
+    animatePageIn();
+  }, []);
 
   // Select the latest three blogs
   const latestThreeBlogs = sortedLatestBlogs.slice(0, 3);
@@ -43,6 +48,22 @@ const Home = () => {
   ];
   return (
     <>
+      {/* <div
+        id="banner-1"
+        className="min-h-screen bg-neutral-950 z-[9999999999] fixed top-0 left-0 w-1/4"
+      />
+      <div
+        id="banner-2"
+        className="min-h-screen bg-neutral-950 z-[9999999999] fixed top-0 left-1/4 w-1/4"
+      />
+      <div
+        id="banner-3"
+        className="min-h-screen bg-neutral-950 z-[9999999999] fixed top-0 left-2/4 w-1/4"
+      />
+      <div
+        id="banner-4"
+        className="min-h-screen bg-neutral-950 z-[9999999999] fixed top-0 left-3/4 w-1/4"
+      /> */}
       <div className="home-page-main-wrapper overflow-hidden">
         {/* home banner section */}
         <HomeBanner />
@@ -63,7 +84,7 @@ const Home = () => {
         <PartnersSec />
         {/* partners section end*/}
         {/* blogs section */}
-        {/* <BlogsSec /> */}
+        <BlogsSec />
         {/* blogs section end*/}
 
         {/* video section */}

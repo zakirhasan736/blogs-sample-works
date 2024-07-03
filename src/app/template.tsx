@@ -5,46 +5,34 @@ import Footer from "@/components/component-v3/footer/footer";
 import Navbar from "@/components/component-v3/navbar/navbar";
 
 export default function Template({ children }: { children: React.ReactNode }) {
-	const [pageLoaded, setPageLoaded] = useState(false);
+  const [pageLoaded, setPageLoaded] = useState(false);
 
-	useEffect(() => {
-		const onLoad = () => {
-			setPageLoaded(true);
-		};
+  useEffect(() => {
+    document.addEventListener("DOMContentLoaded", function () {
+      var videoElements = document.querySelectorAll("video");
 
-		window.addEventListener("load", onLoad);
+      videoElements.forEach(function (videoElement) {
+        videoElement.controls = false;
 
-		return () => {
-			window.removeEventListener("load", onLoad);
-		};
-	}, []);
+        videoElement.addEventListener("play", function () {
+          this.controls = false;
+        });
 
-		 useEffect(() => {
-       document.addEventListener("DOMContentLoaded", function () {
-         var videoElements = document.querySelectorAll("video");
+        videoElement.addEventListener("pause", function () {
+          this.controls = false;
+        });
+      });
+    });
+  }, []);
 
-         videoElements.forEach(function (videoElement) {
-           videoElement.controls = false;
-
-           videoElement.addEventListener("play", function () {
-             this.controls = false;
-           });
-
-           videoElement.addEventListener("pause", function () {
-             this.controls = false;
-           });
-         });
-       });
-     }, []);
-
-	return (
-		<>
-			<Navbar />
-			<main className="pca-marketing-main-wraper">{children}</main>
-			<Footer />
-			{/* {!pageLoaded && (
+  return (
+    <>
+      <Navbar />
+      <main className="pca-marketing-main-wraper">{children}</main>
+      <Footer />
+      {/* {!pageLoaded && (
 				<LoadingScreen  />
 			)} */}
-		</>
-	);
+    </>
+  );
 }

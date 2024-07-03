@@ -1,6 +1,6 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
-import Link from "next/link"; 
+import Link from "next/link";
 import React from "react";
 import BlogsBanner from "./blogs-banner";
 import BlogInfoModal from "./blog-info-modal";

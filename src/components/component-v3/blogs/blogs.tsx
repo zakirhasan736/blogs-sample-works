@@ -11,7 +11,7 @@ const BlogsSec = () => {
           <div>
             <h2>News & Blog</h2>
           </div>
-          <Link href="articles/customer-experience">
+          <Link href="blogs/customer-experience">
             <div className="bg-no-repea h-[262px]">
               <div className="overlay"></div>
               <video
@@ -26,13 +26,13 @@ const BlogsSec = () => {
               <div className="content">
                 <h5>cx</h5>
                 <p>
-                  What is Customer Experience and Why Your Business Will Die
-                  Without Valuing It
+                  What is customer experience and why your business will die
+                  without valuing it
                 </p>
               </div>
             </div>
           </Link>
-          <Link href="articles/how-much-does-seo-cost-in-2024">
+          <Link href="blogs/how-much-does-seo-cost-in-2024">
             <div className="bg-no-repea bg-[url('/images/blog1.png')] h-[262px]">
               <div className="content">
                 <h5>seo</h5>
@@ -42,11 +42,11 @@ const BlogsSec = () => {
           </Link>
         </div>
         <div className="grid-container">
-          <Link href="">
+          <Link href="blogs/the-role-of-content-marketing">
             <div className="bg-no-repea bg-[url('/images/blog2.png')] mt-[14px] h-[540px] sm:h-[262px]">
               <div className="content">
                 <h5>social media</h5>
-                <p>why is apple’s marketing so effective?</p>
+                <p>The role of content marketing</p>
               </div>
             </div>
           </Link>
@@ -63,7 +63,7 @@ const BlogsSec = () => {
                   </div>
                 </div>
               </Link>
-              <Link href="articles/what-do-marketing-agencies-do">
+              <Link href="blogs/what-do-marketing-agencies-do">
                 <div className="bg-no-repea bg-[url('/images/blog4.png')] h-[262px]">
                   <div className="content">
                     <h5>marketing</h5>
@@ -72,7 +72,7 @@ const BlogsSec = () => {
                 </div>
               </Link>
             </div>
-            <Link href="">
+            <Link href="blogs/how-much-should-a-website-cost-in-2024">
               <div className="bg-no-repea bg-[url('/images/blo.png')] h-[262px]">
                 <div className="overlay"></div>
                 <video
@@ -86,15 +86,12 @@ const BlogsSec = () => {
                 />
                 <div className="content">
                   <h5>design</h5>
-                  <p>
-                    Harness the power of customer experience to grow your
-                    business
-                  </p>
+                  <p>How much should a website cost in 2024?</p>
                 </div>
               </div>
             </Link>
           </div>
-          <Link href="/articles/benefit-of-analytics-on-website">
+          <Link href="blogs/benefit-of-analytics-on-website">
             <div className="bg-no-repea mt-[14px] h-[540px] sm:h-[262px]">
               <div className="overlay"></div>
               <video
@@ -107,9 +104,9 @@ const BlogsSec = () => {
                 className="absolute inset-0 z-0 w-full h-full object-cover"
               />
               <div className="content">
-                <h5>DAta analytics</h5>
+                <h5>Data analytics</h5>
                 <p>
-                  How Businesses Benefit from Using Analytics on Their Website
+                  How businesses benefit from using analytics on their website
                 </p>
               </div>
             </div>
