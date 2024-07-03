@@ -139,9 +139,7 @@ const TestimonialSec: React.FC = () => {
   };
 
   return (
-    <section
-      className="testimonials bg-[#fff] text-[#181725] pt-[101px] pb-[48px] sm:pt-[35px] sm:pb-[80px]"
-    >
+    <section className="testimonials bg-[#fff] text-[#181725] pt-[101px] pb-[48px] sm:pt-[35px] sm:pb-[80px]">
       <div className="custom-container">
         <motion.div
           className="section-title-box sm:flex sm:flex-col sm:gap-[15px]"
@@ -150,7 +148,7 @@ const TestimonialSec: React.FC = () => {
           viewport={{ once: true }}
           variants={{
             visible: { opacity: 1 },
-            hidden: { opacity: 0},
+            hidden: { opacity: 0 },
           }}
         >
           <div className="flex gap-20 lg:gap-[30px] sm:flex-col sm:gap-5">
@@ -205,21 +203,7 @@ const TestimonialSec: React.FC = () => {
               >
                 {testimonials.map((testimonial, index) => (
                   <SwiperSlide key={index}>
-                    <motion.div
-                      className="testimonials-card-item pb-4 max-w-[371px] w-full"
-                      initial="hidden"
-                      whileInView="visible"
-                      viewport={{ once: true }}
-                      variants={{
-                        visible: { opacity: 1 },
-                        hidden: { opacity: 0},
-                      }}
-                      transition={{
-                        duration: 1,
-                        ease: "easeIn",
-                        delay: index * 0.5,
-                      }}
-                    >
+                    <motion.div className="testimonials-card-item pb-4 max-w-[371px] w-full">
                       <h4 className="project-title mb-6 capitalize md:mb-5 sm:mb-4 text-mono-100 text-center sm:text-left text-[24px] sm:!text-[18px] font-primary font-light leading-[120%] tracking-[1.2px]">
                         {testimonial.ProjectTitle}
                       </h4>
