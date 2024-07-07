@@ -2,9 +2,9 @@ import ContactVersionThree from "@/pageComponents/v3/Contacts/contacts";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Particular Agency | Contacts",
+  title: "Contact Us - Particular Agency ",
   description:
-    "Ready to elevate your digital presence? Contact us today! Our page provides easy ways to get in touch with our expert digital marketing team. Whether it's for SEO, PPC, Web Design, or a bespoke marketing strategy, we're here to help your business succeed. Reach out for a consultation or any queries you have",
+    "Contact Us - Please send all queries or support requests on the email mentioned below. Call us or book in a video discovery call with us today. ",
 };
 export default function page() {
   return (

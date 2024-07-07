@@ -2,9 +2,9 @@ import ServicesPage from "@/pageComponents/v3/services/services";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Particular Agency | Services",
+  title: "Our Services - Particular Agency in London",
   description:
-    "We innovate and create at the intersection of digital, advertising and design to provide the best possible impact for our clients & partners. Web Development, PPC, UX Design, Motion Design, SEO, Content Strategy, Social Media, Branding, App Development",
+    "A London agency specialising in branding and marketing. Our Services - Web Development & SEO, UX Design, Branding & Strategy and PPC Advertising.",
 };
 export default function page() {
   return <ServicesPage />;
