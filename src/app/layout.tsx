@@ -6,9 +6,9 @@ import React from "react";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Particular Agency | Digital Marketing Agency in London",
+  title: " Particular Agency | Digital Marketing Agency in London ",
   description:
-    "Particular is a London-based digital marketing agency. We are 100% customer-focused, We believe that a high quality experience for your customer is sureproof long-term marketing solution",
+    "Particular’s Branding & Digital Marketing Agency specialises in Websites & SEO, Brand Marketing & Strategy, Media Production and Social Media in London. ",
   icons: { icon: "/images/favicon.png", apple: "/images/favicon.png" },
 };
 
