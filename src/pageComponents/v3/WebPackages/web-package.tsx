@@ -12,7 +12,7 @@ const WebPackages = () => {
 						Experience a bespoke, cost-effective service that propels your brand
 						to new heights.
 					</p>
-					<Link href="/packages">
+					<Link href="#packages">
 						<button className="btn btn-dark mt-8">See packages</button>
 					</Link>
 				</div>

@@ -29,7 +29,9 @@ const Packages: React.FC = () => {
 	// const hostingPackages = packagesData.filter(p => p.category === "hosting");
 
 	return (
-		<section className="web-packages-section pt-[73px] pb-[79px] py-[60px]">
+		<section
+			className="web-packages-section pt-[73px] pb-[79px] py-[60px]"
+			id="packages">
 			<div className="custom-container">
 				<div className="web-packages-wrapper grid grid-cols-12 sm:grid-cols-6 gap-6">
 					{packagesData.map((plan, index) => (
