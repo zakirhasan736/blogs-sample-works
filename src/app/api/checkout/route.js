@@ -10,20 +10,18 @@ const stripe = new Stripe(process.env.STRIPE_S_KEY, {
 export async function POST(req) {
 	try {
 		const body = await req.json();
-
-
 		// Create payment intent with Stripe
 		const paymentIntent = await stripe.paymentIntents.create({
-			amount: Math.round(parseFloat(amount) * 100),
-			currency,
-			payment_method: paymentMethodId,
+			amount: Math.round(parseFloat(body.amount) * 100), 
+			currency:body.currency,
+			payment_method: body.paymentMethodId,
 			confirm: true,
 			automatic_payment_methods: {
 				enabled: true,
 			},
 			return_url: `${process.env.NEXT_PUBLIC_API_URL}/confirmation`,
 		});
-
+      
 		if (paymentIntent.status === "succeeded") {
 			// Prepare email data
 			const templateParams = {
@@ -65,6 +63,7 @@ export async function POST(req) {
 				message: "Payment not successful",
 				status: 400,
 			});
+
 		}
 	} catch (error) {
 		console.error("Error processing payment:", error);

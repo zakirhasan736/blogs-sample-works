@@ -78,7 +78,7 @@ const CheckoutForm: React.FC<CheckoutFormProps> = ({
 			return;
 		}
 		// Convert totalPrice to the smallest currency unit
-		const amountInPence = Math.round(parseFloat(totalPrice || "0") * 100);
+		const amountInPence = Math.round(parseFloat(totalPrice || "0"));
 		const response = await fetch("/api/checkout", {
 			method: "POST",
 			headers: {
@@ -108,6 +108,9 @@ const CheckoutForm: React.FC<CheckoutFormProps> = ({
 			setErrorMessage(
 				res.message || "Error processing payment and sending email",
 			);
+			setTimeout(() => {
+				setErrorMessage(null);
+			}, 3000);
 		}
 	};
 
@@ -218,7 +221,7 @@ const CheckoutForm: React.FC<CheckoutFormProps> = ({
 						)}
 					</div>
 					<button
-						type="submit" 
+						type="submit"
 						className="pay-button col-span-6 sm:col-span-6 bg-mono-100 h-12 max-w-full w-full text-[14px] font-normal font-accent rounded-[4px] mt-[44px] text-white sm:!h-12">
 						Pay £{totalPrice}
 					</button>
