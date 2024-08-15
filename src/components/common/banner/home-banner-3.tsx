@@ -1,14 +1,17 @@
 "use client";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 
 interface HomeBannerProps {}
 
+
 const HomeBanner: React.FC<HomeBannerProps> = () => {
+ 
+
   return (
-    <motion.section className="home-banner-section home-banner-section-v3 bg-no-repea relative h-screen">
+    <motion.section className="home-banner-section home-banner-section-v3 bg-no-repea relative h-[94vh]">
       <div className="overlay"></div>
       {/* Background Video */}
       <video
@@ -73,8 +76,12 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
             className="w-full h-full"
           />
         </Link>
+        
       </div>
+     
     </motion.section>
+
+
   );
 };
 

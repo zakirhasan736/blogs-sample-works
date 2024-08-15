@@ -240,7 +240,9 @@ const Navbar = () => {
 					</div>
 				</div>
 			</nav>
+			
 		</header>
+		
 	);
 };
 

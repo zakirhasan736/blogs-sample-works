@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Image, Link } from "@packages/packages";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -10,9 +10,47 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import PortfolioSlideData from "@data/portfolioSliderData/PortfolioSlideData.json";
 
+
+
+
 const PortfolioSec = () => {
+  const definitions = [
+    "Loss Aversion: People prefer avoiding losses to acquiring equivalent gains. (FOMO)",
+    "The Endowment Effect: People ascribe more value to things merely because they own them. (30-Day Free Trial)",
+    "Priming: The idea that exposure to one stimulus influences the response to another stimulus.",
+    "Anchoring: People rely heavily on the first piece of information they receive (the 'anchor') when making decisions.",
+    "Cognitive Ease: People prefer things that are easy to understand and interact with.",
+    "The Scarcity Effect: Limited availability increases perceived value and urgency."
+  ];
+  const [currentDefinition, setCurrentDefinition] = useState(0);
+  const [prevDefinition, setPrevDefinition] = useState(definitions.length - 1);
+
+
+
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setPrevDefinition(currentDefinition);
+      setCurrentDefinition((prevDefinition) => (prevDefinition + 1) % definitions.length);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [currentDefinition]);
   return (
+    <>
+     <div className="definitions-slider">
+          {definitions.map((definition, index) => (
+            <div
+              key={index}
+              className={`definition ${index === currentDefinition ? "active" : ""} ${
+                index === prevDefinition ? "prev" : ""
+              }`}
+            >
+              {definition}
+            </div>
+          ))}
+        </div>
     <section className="portfolio pt-[64px] sm:pt-8 pb-[106px] sm:pb-[53px] bg-[#E1E4E8]">
+      
       <div className="custom-container">
         <motion.div className="mb-[47px] sm:mb-[35px] sm:flex-col sm:items-start sm:gap-5">
           <div className="section-title-box flex sm:!flex-row justify-between mb-2">
@@ -100,6 +138,7 @@ const PortfolioSec = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

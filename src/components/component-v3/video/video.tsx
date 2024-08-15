@@ -14,7 +14,9 @@ const VideoSec = () => {
 				controls={false}
 				loop={true}
 			/>
+			
 		</div>
+		
 	);
 };
 
