@@ -11,7 +11,7 @@ const HomeBanner: React.FC<HomeBannerProps> = () => {
  
 
   return (
-    <motion.section className="home-banner-section home-banner-section-v3 bg-no-repea relative h-[94vh]">
+    <motion.section className="home-banner-section home-banner-section-v3 bg-no-repea relative h-[93vh]">
       <div className="overlay"></div>
       {/* Background Video */}
       <video
