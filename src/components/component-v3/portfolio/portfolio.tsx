@@ -32,7 +32,7 @@ const PortfolioSec = () => {
     const interval = setInterval(() => {
       setPrevDefinition(currentDefinition);
       setCurrentDefinition((prevDefinition) => (prevDefinition + 1) % definitions.length);
-    }, 3000);
+    }, 4000);
     return () => clearInterval(interval);
   }, [currentDefinition]);
   return (

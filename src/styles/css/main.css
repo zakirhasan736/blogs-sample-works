@@ -3516,23 +3516,13 @@ p {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px ) {
   .projects .pill {
     text-align: center;
     width: 100px;
   }
   .definitions-slider {
-    width: 100%;
-    background-color: rgb(26, 26, 26,0.6);
-    color: white;
-    font-size: 8px;
-    font-weight: 400;
-    line-height: 15px;
-    text-align: center;
-    display: flex;
-    justify-content:  center;
-    align-items: center;
-    height: 36px;
+   display: none;
   }
 }
 
