@@ -25,14 +25,9 @@ const ServicesPage = () => {
           online presence and drive your success.
         </motion.p>
       </div>
-      <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, ease: 'easeIn' }}
-        className="custom-container"
-      >
+      <div className="custom-container">
         <ServiceDetailsItem />
-      </motion.div>
+      </div>
       <section className="cta-section bg-[#CBD7E3] pt-[82px] pb-[71px] md:py-[60px] sm:py-[45px]">
         <div className="custom-container">
           <div className="cta-wrapper">
