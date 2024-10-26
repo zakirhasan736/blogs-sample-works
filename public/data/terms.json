@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Attribute",
+        "description": "An attribute is a quality or feature regarded as a characteristic or inherent part of someone or something.",
+        "slug": "attribute"
+    },
+    {
+        "id": 2,
+        "title": "Audience",
+        "description": "An audience is the assembled spectators or listeners at a public event, such as a play, movie, concert, or meeting.",
+        "slug": "audience"
+    },
+    {
+        "id": 3,
+        "title": "Branding",
+        "description": "Branding is the promotion of a particular product or company by means of advertising and distinctive design.",
+        "slug": "branding"
+    }
+]

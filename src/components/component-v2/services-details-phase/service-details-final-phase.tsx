@@ -30,11 +30,15 @@ const ServiceDetailsFinalPhase: React.FC<ServiceDetailsFinalPhaseProps> = ({
 				</p>
 			</div>
 			<div className="process-item-right-cont">
-				<Image width={517} height={353} src={data.serviceItemModalImage} alt="phrase item modal image" />
+				<Image
+					width={517}
+					height={353}
+					src={data.serviceItemModalImage}
+					alt="phrase item modal image"
+				/>
 			</div>
 		</div>
 	);
 };
 
 export default ServiceDetailsFinalPhase;
-
