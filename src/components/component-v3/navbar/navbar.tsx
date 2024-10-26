@@ -9,6 +9,7 @@ const Navbar = () => {
   const isPortfolioPage =
 		pathname === "/portfolio" ||
 		pathname === "/services" ||
+		pathname === "/brand-workshop" ||
 		pathname.startsWith("/package-details") ||
 		pathname.startsWith("/e-commerce/") ||
 		pathname.startsWith("/checkout") ||

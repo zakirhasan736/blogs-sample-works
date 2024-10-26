@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+.limited-section {
+    padding-top: 110px;
+  }
+  
+  
+  .limited-container {
+    margin-left: 350px;
+    background-image: url('/images/brand-workshope/Limitedbackgroundsvg.svg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    border-radius: 4px;
+    text-align: center;
+    max-width: 800px;
+    margin-bottom: 40px;
+    color: #000000; 
+  }
+  
+  .limited-content {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .limited-title {
+    color: black;
+    font-size: 40px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 2px;
+  }
+  
+  .limited-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .limited-btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .limited-btn:hover {
+    background-color: #555;
+  }
+  
+  /* What else we do section */
+  .what-else-we-do-section {
+    display: flex;
+    background-color: #f8f8f8;
+    padding: 61px 139px;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.left-column {
+    flex: 1;
+    margin-right: 139px;
+    text-align: start;
+}
+
+.what-else-title {
+  padding-bottom: 19px;
+    color: black;
+    font-size: 12px;
+    font-family: Helvetica Neue, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 14.40px;
+    letter-spacing: 1.80px;
+}
+
+.service-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.service-item {
+    color: #5F6368;
+    font-size: 24px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    line-height: 38.40px;
+    letter-spacing: 1.20px;
+    margin-bottom: 16px;
+}
+
+.service-item strong {
+    color: #007bff;
+}
+
+.clutch-award {
+    margin-top: 10px;
+    max-width: 79px;
+    align-self: flex-start;
+}
+
+.right-column {
+    flex: 1;
+    max-width: 371px;
+    text-align: left; 
+    padding-top: 32px;
+}
+
+.agency-description {
+    font-size: 16px;
+    color: #666;
+    font-family: "Manrope", sans-serif; 
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+/* General styles */
+.get-started-section {
+  font-family: "Manrope", sans-serif;
+  color: #333;
+}
+
+.form-container {
+  display: flex;
+  max-width: 1375px;
+}
+
+.form-left {
+  flex: 1;
+}
+
+.form-image {
+  max-width: 710px;
+  object-fit: cover;
+}
+
+.form-right {
+  flex: 1;
+  padding: 20px;
+}
+
+.form-title {
+  padding-top: 74px;
+  padding-left: 90px;
+  padding-bottom: 3px;
+  color: black;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 1.60px;
+}
+
+.form-subtitle {
+  padding-left: 90px;
+  color: black;
+  font-size: 16px;
+  font-family: Helvetica Neue;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.form {
+  padding-left: 90px;
+  padding-top: 44px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-row {
+  display: flex;
+  gap: 16px;
+}
+label {
+  margin-bottom: 8px;
+  color: #181725;
+  font-size: 11px;
+  font-family: Helvetica Neue;
+  font-weight: 400;
+  line-height: 16.50px;
+  }
+.form-input, .form-textarea {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-top-left-radius: 2px; 
+  border-bottom: 1px #181725 solid; 
+  justify-content: flex-end; 
+  align-items: center; 
+  display: inline-flex;
+  color: #181725;
+  font-size: 14px;
+  font-family: Helvetica Neue;
+  font-weight: 400;
+  line-height: 21px;
+  outline: none;
+}
+
+.form-input:focus, .form-textarea:focus {
+  border-bottom: 1px solid #333; 
+}
+
+.form-textarea {
+  resize: none;
+  margin-bottom: 20px;
+}
+
+.form-button {
+  padding: 12px 0;
+  background: #181725; 
+  border-radius: 4px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 65px;
+  color: white;
+  align-self: flex-start; 
+  border:none;
+}
+
+.form-button:hover {
+  background-color: #555;
+}
+
+
