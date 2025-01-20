@@ -522,7 +522,7 @@ const ContactPageVersionTw: React.FC = () => {
 								<Link
 									href="callto:02080682012"
 									className=" text-left text-[16px] text-neu-white opacity-80 font-tertery font-bold leading-[28px]">
-									+44 (0) 208 068 2102
+									+44 (0) 776 028 6287
 								</Link>
 							</div>
 						</div>
