@@ -70,7 +70,7 @@ const ContactVersionThree = () => {
           </h6>
           <p className="text-sm">
             Speak to us Mon - Fri from 9am to 6pm on <br />
-            <Link href="mailto:+4402080682102">+44 (0) 208 068 2102</Link>
+            <Link href="mailto:+4407760286287">+44 (0) 776 028 6287</Link>
           </p>
         </div>
       </div>
