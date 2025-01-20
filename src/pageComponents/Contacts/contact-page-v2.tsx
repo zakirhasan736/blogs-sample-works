@@ -520,7 +520,7 @@ const ContactPageVersionTw: React.FC = () => {
 									Speak to us Mon - Fri from 9am to 6pm on
 								</p>
 								<Link
-									href="callto:02080682012"
+									href="callto:07760286287"
 									className=" text-left text-[16px] text-neu-white opacity-80 font-tertery font-bold leading-[28px]">
 									+44 (0) 776 028 6287
 								</Link>
